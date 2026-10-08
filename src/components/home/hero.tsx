@@ -54,7 +54,7 @@ export function Hero() {
           </ul>
         </div>
 
-        <div className="relative -mx-4 sm:mx-0">
+        <div className="relative -mx-4 mt-24 -mb-12 sm:mx-0 sm:mt-10 sm:mb-0 lg:mt-0">
           <ExplodedPhone />
           <FloatingCard className="top-[14%] right-[2%] sm:right-[6%]" delay="0.9s">
             <span className="grid size-9 place-items-center rounded-xl bg-accent-soft text-accent">
@@ -91,7 +91,7 @@ function FloatingCard({
 }) {
   return (
     <div
-      className={`absolute flex animate-fade-up items-center gap-3 rounded-2xl bg-white/85 py-2.5 pr-4 pl-2.5 shadow-[var(--shadow-lift)] ring-1 ring-line backdrop-blur-md ${className}`}
+      className={`absolute hidden animate-fade-up sm:flex items-center gap-3 rounded-2xl bg-white/85 py-2.5 pr-4 pl-2.5 shadow-[var(--shadow-lift)] ring-1 ring-line backdrop-blur-md ${className}`}
       style={{ animationDelay: delay }}
       aria-hidden
     >

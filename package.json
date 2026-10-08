@@ -5,8 +5,23 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "prebuild": "npm run validate:data",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "validate:data": "tsx scripts/validation/check-data.ts",
+    "test:parser": "tsx scripts/validation/test-parser.ts",
+    "test:smoke": "tsx scripts/validation/smoke.ts",
+    "test:a11y": "tsx scripts/validation/axe-report.ts / /reparaties/apple/iphone-15-pro /afspraak /contact",
+    "screenshots": "tsx scripts/validation/screenshots.ts / /reparaties/apple/iphone-15-pro /reparaties/samsung /afspraak",
+    "check": "npm run typecheck && npm run lint && npm run validate:data && npm run test:parser",
+    "catalog:seed": "tsx scripts/migration/build-seed-catalog.ts",
+    "discover": "tsx scripts/discovery/discover.ts",
+    "migrate:fetch": "tsx scripts/migration/fetch.ts",
+    "migrate:parse": "tsx scripts/migration/parse.ts",
+    "migrate:analyze": "tsx scripts/migration/analyze.ts",
+    "migrate": "npm run discover && npm run migrate:fetch && npm run migrate:parse && npm run migrate:analyze && npm run report",
+    "report": "tsx scripts/validation/report.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.9.1",
@@ -40,5 +55,8 @@
   },
   "overrides": {
     "playwright-core": "1.56.1"
+  },
+  "engines": {
+    "node": ">=20.9"
   }
 }

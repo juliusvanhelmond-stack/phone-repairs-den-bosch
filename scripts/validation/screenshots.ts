@@ -14,7 +14,8 @@ async function main() {
   mkdirSync(OUT, { recursive: true });
   const browser = await chromium.launch();
   for (const width of widths) {
-    const page = await browser.newPage({ viewport: { width, height: 900 } });
+    // Reduced motion renders scroll-driven reveals in their final state for static captures.
+    const page = await browser.newPage({ viewport: { width, height: 900 }, reducedMotion: "reduce" });
     for (const route of routes) {
       await page.goto(BASE + route, { waitUntil: "networkidle" });
       // Scroll through the page so in-view animations run before capture.

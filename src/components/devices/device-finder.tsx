@@ -245,22 +245,26 @@ export function DeviceFinder({
                   {categories.map((c) => {
                     const count = devices.filter((d) => d.categoryId === c.id).length;
                     return (
-                      <ChoiceCard key={c.id} onClick={() => update({ category: c.id })} className="p-0">
-                        <div className="flex h-36 items-end justify-center overflow-hidden bg-mist px-6 pt-6">
+                      <ChoiceCard
+                        key={c.id}
+                        onClick={() => update({ category: c.id })}
+                        className="flex-row p-0 sm:flex-col"
+                      >
+                        <div className="flex h-auto w-24 shrink-0 items-end justify-center overflow-hidden bg-mist px-3 pt-4 sm:h-36 sm:w-auto sm:px-6 sm:pt-6">
                           <DeviceArt
                             art={CATEGORY_ART[c.id] ?? "phone-island"}
                             className={cn(
-                              "translate-y-6 transition-transform duration-500 group-hover:translate-y-3",
-                              c.id === "laptop" ? "w-48" : c.id === "tablet" ? "w-28" : "w-[4.5rem]",
+                              "translate-y-3 transition-transform duration-500 group-hover:translate-y-1 sm:translate-y-6 sm:group-hover:translate-y-3",
+                              c.id === "laptop" ? "w-20 sm:w-48" : c.id === "tablet" ? "w-14 sm:w-28" : "w-9 sm:w-[4.5rem]",
                             )}
                           />
                         </div>
-                        <div className="flex flex-1 items-center justify-between gap-3 p-5">
+                        <div className="flex flex-1 items-center justify-between gap-3 p-4 sm:p-5">
                           <span>
                             <span className="block font-medium text-ink">{c.plural}</span>
                             <span className="mt-0.5 block text-sm text-muted">{c.description}</span>
                           </span>
-                          <span className="shrink-0 text-xs text-muted tabular-nums">{count} modellen</span>
+                          <span className="hidden shrink-0 text-xs text-muted tabular-nums sm:inline">{count} modellen</span>
                         </div>
                       </ChoiceCard>
                     );

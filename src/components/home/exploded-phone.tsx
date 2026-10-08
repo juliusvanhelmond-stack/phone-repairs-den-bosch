@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useReducedMotion, type Variants } from "motion/react";
+import { MotionConfig, motion, type Variants } from "motion/react";
 import type { CSSProperties, ReactNode } from "react";
 
 /**
@@ -17,16 +17,18 @@ const layer: Variants = {
 };
 
 export function ExplodedPhone() {
-  const reduce = useReducedMotion();
+  // Same initial state on server and client; MotionConfig skips transform
+  // animations for users who prefer reduced motion.
   return (
+    <MotionConfig reducedMotion="user">
     <div className="relative mx-auto aspect-[1/1.02] w-full max-w-[34rem]" aria-hidden>
       <div className="absolute inset-[12%] rounded-full bg-[radial-gradient(closest-side,rgb(37_99_235/0.14),transparent)]" />
       <motion.div
-        className="absolute top-1/2 left-1/2 [transform-style:preserve-3d]"
+        className="absolute top-[58%] left-1/2 [transform-style:preserve-3d] sm:top-1/2"
         style={{ width: 0, height: 0 }}
-        initial={reduce ? "open" : "closed"}
+        initial="closed"
         animate="open"
-        whileHover={reduce ? undefined : "hover"}
+        whileHover="hover"
       >
         <div
           className="absolute [transform-style:preserve-3d]"
@@ -57,6 +59,7 @@ export function ExplodedPhone() {
         </div>
       </motion.div>
     </div>
+    </MotionConfig>
   );
 }
 
