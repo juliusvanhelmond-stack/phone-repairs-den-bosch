@@ -17,9 +17,9 @@ export function Trust() {
             intro="Geen anoniem reparatieloket, maar een persoonlijke aanpak met heldere afspraken."
           />
         </Reveal>
-        <ul className="mt-14 grid gap-px overflow-hidden rounded-[var(--radius-card)] bg-white/10 ring-1 ring-white/10 sm:grid-cols-2 lg:grid-cols-3">
+        <ul className="mt-14 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {claims.map((c, i) => (
-            <li key={c.id} className="bg-night p-7 lg:p-8">
+            <li key={c.id} className="glass-dark rounded-[var(--radius-card)] p-7 lg:p-8">
               <Reveal delay={i * 0.04}>
                 <ContentIcon name={c.icon} className="size-6 text-blue-300" />
                 <h3 className="mt-8 text-lg font-semibold tracking-tight">{c.title}</h3>

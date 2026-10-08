@@ -31,7 +31,7 @@ export function SiteHeaderClient({ nav, phone }: Props) {
       className={cn(
         "sticky top-0 z-50 transition-[background-color,box-shadow,backdrop-filter] duration-300",
         scrolled
-          ? "bg-white/80 shadow-[0_1px_0_rgb(17_24_39/0.06)] backdrop-blur-xl backdrop-saturate-150"
+          ? "bg-white/85 shadow-[0_1px_0_rgb(17_24_39/0.06),0_8px_24px_-16px_rgb(30_58_138/0.18)] backdrop-blur-xl backdrop-saturate-150"
           : "bg-white/0",
       )}
     >

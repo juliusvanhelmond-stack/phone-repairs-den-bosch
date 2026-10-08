@@ -3,6 +3,7 @@ import { ArrowUpRight, CalendarCheck, Car, Clock, Mail, MapPin, Phone } from "lu
 import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { mapsUrl, site } from "@/lib/site";
+import { Aura } from "@/components/ui/aura";
 
 export function MapGraphic() {
   return (
@@ -77,7 +78,8 @@ export function ContactDetails({ className }: { className?: string }) {
 
 export function Location() {
   return (
-    <section className="py-20 lg:py-28">
+    <section className="relative isolate overflow-hidden py-20 lg:py-28">
+      <Aura variant="soft" />
       <div className="container-page">
         <Reveal>
           <SectionHeading eyebrow="Locatie & contact" title="Langskomen in Den Bosch." />
@@ -93,11 +95,11 @@ export function Location() {
             </a>
           </Reveal>
           <Reveal delay={0.05}>
-            <div className="rounded-[var(--radius-card)] p-6 ring-1 ring-line sm:p-8">
+            <div className="rounded-[var(--radius-card)] bg-white p-6 shadow-[var(--shadow-soft)] ring-1 ring-line sm:p-8">
               <ContactDetails />
               <Link
                 href="/contact"
-                className="mt-4 inline-flex items-center gap-1.5 text-[0.9375rem] font-medium text-accent hover:text-accent-strong"
+                className="mt-4 inline-flex items-center gap-1.5 text-[0.9375rem] font-medium text-accent-strong hover:text-blue-800"
               >
                 Alle contactmogelijkheden
                 <ArrowUpRight className="size-4" aria-hidden />

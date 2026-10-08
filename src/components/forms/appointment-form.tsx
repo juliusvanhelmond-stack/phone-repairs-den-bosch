@@ -109,7 +109,7 @@ export function AppointmentForm({
         ref={resultRef}
         tabIndex={-1}
         role="status"
-        className="rounded-[var(--radius-card)] p-6 ring-1 ring-line outline-none sm:p-8"
+        className="rounded-[var(--radius-card)] bg-white p-6 ring-1 ring-line outline-none sm:p-8"
       >
         <span className="grid size-12 place-items-center rounded-2xl bg-warning-soft text-warning ring-1 ring-amber-200">
           <Info className="size-6" aria-hidden />

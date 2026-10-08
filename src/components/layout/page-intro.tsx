@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { Breadcrumbs, type Crumb } from "@/components/ui/breadcrumbs";
 import { cn } from "@/lib/utils";
+import { Aura } from "@/components/ui/aura";
 
 export function PageIntro({
   crumbs,
@@ -21,6 +22,7 @@ export function PageIntro({
 }) {
   return (
     <section className={cn("relative isolate overflow-hidden border-b border-line", className)}>
+      <Aura variant="hero" />
       <div
         className="bg-grid absolute inset-0 -z-10 [mask-image:radial-gradient(ellipse_60%_80%_at_80%_0%,#000_10%,transparent_70%)]"
         aria-hidden

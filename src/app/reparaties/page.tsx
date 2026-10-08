@@ -35,7 +35,7 @@ export default function RepairsOverviewPage() {
       <section className="py-16 lg:py-24">
         <div className="container-page grid gap-4 lg:grid-cols-3">
           {categories.map((c) => (
-            <div key={c.id} id={c.id} className="rounded-[var(--radius-card)] p-7 ring-1 ring-line">
+            <div key={c.id} id={c.id} className="rounded-[var(--radius-card)] bg-white p-7 ring-1 ring-line">
               <p className="text-sm text-muted tabular-nums">{devices.filter((d) => d.categoryId === c.id).length} modellen</p>
               <h2 className="mt-1 text-title font-semibold text-ink">{c.plural}</h2>
               <ul className="mt-6 divide-y divide-line border-t border-line">

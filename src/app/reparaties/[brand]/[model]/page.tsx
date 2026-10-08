@@ -140,7 +140,7 @@ export default async function DevicePage({ params }: PageProps<"/reparaties/[bra
                 ))}
               </ul>
             </div>
-            <div className="rounded-[var(--radius-card)] p-6 ring-1 ring-line">
+            <div className="rounded-[var(--radius-card)] bg-white p-6 ring-1 ring-line">
               <h2 className="font-semibold text-ink">Garantie</h2>
               {generalWarranty?.verified && generalWarranty.durationMonths ? (
                 <p className="mt-2 text-sm leading-relaxed text-muted">

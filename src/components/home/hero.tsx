@@ -4,17 +4,19 @@ import Image from "next/image";
 import heroPhoto from "@/assets/photos/hero-screen-repair.jpg";
 import { Button } from "@/components/ui/button";
 import { site } from "@/lib/site";
+import { Aura } from "@/components/ui/aura";
 
 export function Hero() {
   return (
     <section className="relative isolate -mt-16 overflow-hidden pt-16 lg:-mt-[4.5rem] lg:pt-[4.5rem]">
+      <Aura variant="hero" />
       <div
         className="bg-grid absolute inset-0 -z-10 [mask-image:radial-gradient(ellipse_70%_60%_at_70%_40%,#000_20%,transparent_75%)]"
         aria-hidden
       />
       <div className="container-page grid items-center gap-6 pt-10 pb-16 lg:grid-cols-[1.05fr_1fr] lg:gap-10 lg:pt-16 lg:pb-24">
         <div className="max-w-2xl animate-fade-up">
-          <p className="mb-6 inline-flex items-center gap-2 rounded-full bg-white py-1.5 pr-3.5 pl-1.5 text-sm text-ink-soft shadow-[var(--shadow-ring)]">
+          <p className="glass mb-6 inline-flex items-center gap-2 rounded-full py-1.5 pr-3.5 pl-1.5 text-sm text-ink-soft">
             <span className="grid size-6 place-items-center rounded-full bg-accent-soft text-accent">
               <MapPin className="size-3.5" aria-hidden />
             </span>
@@ -103,7 +105,7 @@ function FloatingCard({
 }) {
   return (
     <div
-      className={`absolute flex animate-fade-up items-center gap-3 rounded-2xl bg-white/85 py-2.5 pr-4 pl-2.5 shadow-[var(--shadow-lift)] ring-1 ring-line backdrop-blur-md ${className}`}
+      className={`glass absolute flex animate-fade-up items-center gap-3 rounded-2xl py-2.5 pr-4 pl-2.5 ${className}`}
       style={{ animationDelay: delay }}
       aria-hidden
     >

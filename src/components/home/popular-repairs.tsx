@@ -4,11 +4,13 @@ import { Reveal } from "@/components/motion/reveal";
 import { ContentIcon } from "@/components/repairs/icon";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { repairPath, repairs } from "@/lib/catalog";
+import { Aura } from "@/components/ui/aura";
 
 export function PopularRepairs() {
   const items = repairs.filter((r) => r.popular).slice(0, 6);
   return (
-    <section className="py-20 lg:py-28">
+    <section className="relative isolate overflow-hidden py-20 lg:py-28">
+      <Aura variant="soft" />
       <div className="container-page">
         <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
           <Reveal>

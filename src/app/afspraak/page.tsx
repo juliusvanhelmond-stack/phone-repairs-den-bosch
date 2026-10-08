@@ -31,6 +31,7 @@ export default function AppointmentPage() {
       />
       <section className="py-16 lg:py-24">
         <div className="container-page grid gap-12 lg:grid-cols-[1.4fr_0.6fr] lg:gap-16">
+          <div className="rounded-[var(--radius-card)] bg-white p-6 shadow-[var(--shadow-soft)] ring-1 ring-line sm:p-8">
           <Suspense fallback={<div className="h-[40rem] animate-pulse rounded-[var(--radius-card)] bg-mist" />}>
             <AppointmentForm
               devices={formDevices}
@@ -39,6 +40,7 @@ export default function AppointmentPage() {
               phone={{ display: site.phone.display, href: site.phone.href }}
             />
           </Suspense>
+          </div>
           <aside className="space-y-4">
             <div className="rounded-[var(--radius-card)] bg-night p-7 text-white">
               <h2 className="text-lg font-semibold tracking-tight">Liever direct contact?</h2>
@@ -54,7 +56,7 @@ export default function AppointmentPage() {
                 </a>
               </div>
             </div>
-            <div className="rounded-[var(--radius-card)] p-7 ring-1 ring-line">
+            <div className="rounded-[var(--radius-card)] bg-white p-7 ring-1 ring-line">
               <h2 className="font-semibold text-ink">Goed om te weten</h2>
               <ul className="mt-4 space-y-3 text-sm leading-relaxed text-muted">
                 <li>De meeste reparaties zijn binnen ongeveer 30 minuten klaar.</li>

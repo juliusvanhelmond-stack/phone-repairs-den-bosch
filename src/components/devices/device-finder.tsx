@@ -158,9 +158,9 @@ export function DeviceFinder({
   };
 
   return (
-    <div className="overflow-hidden rounded-[var(--radius-panel)] bg-white shadow-[var(--shadow-lift)] ring-1 ring-line">
+    <div className="glass overflow-hidden rounded-[var(--radius-panel)]">
       {/* Progress */}
-      <div className="flex items-center justify-between gap-4 border-b border-line px-5 py-4 sm:px-8">
+      <div className="flex items-center justify-between gap-4 border-b border-white/80 bg-white/50 px-5 py-4 sm:px-8">
         <ol className="hidden items-center gap-2 md:flex" aria-label="Stappen">
           {STEPS.map((s, i) => (
             <li key={s.id} className="flex items-center gap-2">
@@ -420,14 +420,14 @@ function ModelSearch({
           onValueChange={setQuery}
           placeholder={placeholder}
           autoFocus={autoFocus}
-          className="h-14 w-full rounded-2xl border border-line bg-mist pr-4 pl-12 text-base text-ink outline-none placeholder:text-muted/80 focus:border-accent focus:bg-white focus:ring-4 focus:ring-accent/10"
+          className="h-14 w-full rounded-2xl border border-line bg-white pr-4 pl-12 text-base text-ink outline-none placeholder:text-muted/80 focus:border-accent focus:bg-white focus:ring-4 focus:ring-accent/10"
         />
       </div>
       {/* Always mounted so the input's aria-controls points at an existing list. */}
       <Command.List
           hidden={!showList}
           className={cn(
-            "mt-3 max-h-[26rem] overflow-y-auto overscroll-contain rounded-2xl ring-1 ring-line [scrollbar-width:thin]",
+            "mt-3 max-h-[26rem] overflow-y-auto overscroll-contain rounded-2xl bg-white ring-1 ring-line [scrollbar-width:thin]",
             dropdown && "bg-white shadow-[var(--shadow-lift)]",
           )}
         >
@@ -514,7 +514,7 @@ function FinderResult({
       </div>
 
       <div className="flex flex-col">
-        <div className="rounded-[var(--radius-card)] p-6 ring-1 ring-line">
+        <div className="rounded-[var(--radius-card)] bg-white p-6 ring-1 ring-line">
           {price !== undefined ? (
             <>
               <p className="text-sm text-muted">Prijs inclusief montage en btw</p>
@@ -568,7 +568,7 @@ function FinderResult({
         </div>
         <Link
           href={devicePageHref}
-          className="mt-5 inline-flex items-center gap-1 self-start text-sm font-medium text-accent hover:text-accent-strong"
+          className="mt-5 inline-flex items-center gap-1 self-start text-sm font-medium text-accent-strong hover:text-blue-800"
         >
           Alle reparaties voor de {device.name}
           <ChevronRight className="size-4" aria-hidden />

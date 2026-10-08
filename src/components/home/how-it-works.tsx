@@ -2,6 +2,7 @@ import Image from "next/image";
 import processPhoto from "@/assets/photos/process-workbench.jpg";
 import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
+import { Aura } from "@/components/ui/aura";
 
 export const steps = [
   {
@@ -23,7 +24,8 @@ export const steps = [
 
 export function HowItWorks({ withHeading = true }: { withHeading?: boolean }) {
   return (
-    <section className="py-20 lg:py-28">
+    <section className="relative isolate overflow-hidden py-20 lg:py-28">
+      <Aura variant="center" />
       <div className="container-page">
         {withHeading && (
           <Reveal>

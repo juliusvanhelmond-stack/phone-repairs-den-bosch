@@ -7,7 +7,7 @@ import { brandPath, brands, devices, popularDevices } from "@/lib/catalog";
 
 export function PopularBrands() {
   return (
-    <section className="border-y border-line bg-white py-14">
+    <section className="border-y border-white/80 bg-white/55 py-14">
       <div className="container-page flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
         <p className="max-w-xs text-sm leading-relaxed text-muted">
           Reparaties voor alle gangbare merken. Kies je merk voor een overzicht van modellen.
@@ -17,7 +17,7 @@ export function PopularBrands() {
             <li key={b.id}>
               <Link
                 href={brandPath(b.id)}
-                className="group flex h-12 items-center justify-between gap-3 rounded-full px-5 text-[1.0625rem] font-semibold tracking-tight text-ink-soft ring-1 ring-line transition-colors hover:bg-ink hover:text-white hover:ring-ink"
+                className="group flex h-12 items-center justify-between gap-3 rounded-full bg-white px-5 text-[1.0625rem] font-semibold tracking-tight text-ink-soft shadow-[var(--shadow-soft)] ring-1 ring-line transition-colors hover:bg-ink hover:text-white hover:ring-ink"
               >
                 {b.name}
                 <span className="text-xs font-normal text-muted tabular-nums group-hover:text-slate-300">
@@ -47,7 +47,7 @@ export function PopularModels() {
           </Reveal>
           <Link
             href="/reparaties"
-            className="inline-flex shrink-0 items-center gap-1.5 text-[0.9375rem] font-medium text-accent hover:text-accent-strong"
+            className="inline-flex shrink-0 items-center gap-1.5 text-[0.9375rem] font-medium text-accent-strong hover:text-blue-800"
           >
             Alle toestellen
             <ArrowRight className="size-4" aria-hidden />

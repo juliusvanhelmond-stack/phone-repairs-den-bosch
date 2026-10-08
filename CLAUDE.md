@@ -34,6 +34,6 @@ version differs from older training data — check `node_modules/next/dist/docs/
 
 ## Conventions
 - Dutch UI copy, informal "je". English code and comments.
-- Design tokens live in `src/app/globals.css` (`@theme`); use `text-ink`, `text-muted`, `bg-mist`, `text-headline`, etc. — no raw hex in components.
+- Design tokens live in `src/app/globals.css` (`@theme`); use `text-ink`, `text-muted`, `bg-mist`, `text-headline`, etc. — no raw hex in components. The page base is a cool tint (`canvas`); cards are `bg-white`; use `<Aura>` for soft colour fields and the `glass` / `glass-dark` utilities for frosted surfaces. Blue text uses `text-accent-strong` (contrast on tinted backgrounds).
 - Server Components by default; `"use client"` only for interaction (header, finder, form, exploded phone).
 - Respect `prefers-reduced-motion`; reveal-on-scroll is CSS (`.reveal`), content is never hidden without JS.

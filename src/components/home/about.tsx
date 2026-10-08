@@ -4,6 +4,7 @@ import Image from "next/image";
 import aboutPhoto from "@/assets/photos/about-workshop.jpg";
 import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
+import { Aura } from "@/components/ui/aura";
 
 const facts = [
   { value: "±30 min", label: "voor de meeste reparaties" },
@@ -13,7 +14,8 @@ const facts = [
 
 export function About() {
   return (
-    <section className="py-20 lg:py-28">
+    <section className="relative isolate overflow-hidden py-20 lg:py-28">
+      <Aura variant="soft" className="rotate-180" />
       <div className="container-page grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
         <Reveal className="order-2 lg:order-1">
           <div className="relative aspect-[5/4] overflow-hidden rounded-[var(--radius-panel)] bg-mist shadow-[var(--shadow-soft)] ring-1 ring-line">
@@ -47,7 +49,7 @@ export function About() {
             </dl>
             <Link
               href="/over-ons"
-              className="mt-10 inline-flex items-center gap-1.5 text-[0.9375rem] font-medium text-accent hover:text-accent-strong"
+              className="mt-10 inline-flex items-center gap-1.5 text-[0.9375rem] font-medium text-accent-strong hover:text-blue-800"
             >
               Meer over Phone Repairs
               <ArrowRight className="size-4" aria-hidden />

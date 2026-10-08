@@ -3,10 +3,12 @@ import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { brands, categories, finderIndex, repairs } from "@/lib/catalog";
 import { site } from "@/lib/site";
+import { Aura } from "@/components/ui/aura";
 
 export function FinderSection() {
   return (
-    <section id="toestel-zoeken" className="bg-mist py-20 lg:py-28">
+    <section id="toestel-zoeken" className="relative isolate overflow-hidden bg-mist py-20 lg:py-28">
+      <Aura variant="center" />
       <div className="container-page">
         <Reveal>
           <SectionHeading

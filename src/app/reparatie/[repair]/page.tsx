@@ -113,7 +113,7 @@ export default async function RepairPage({ params }: PageProps<"/reparatie/[repa
             </ul>
             <Link
               href="/#toestel-zoeken"
-              className="mt-6 inline-flex items-center gap-1.5 text-sm font-medium text-accent hover:text-accent-strong"
+              className="mt-6 inline-flex items-center gap-1.5 text-sm font-medium text-accent-strong hover:text-blue-800"
             >
               Of gebruik de toestelzoeker
               <ArrowRight className="size-4" aria-hidden />
