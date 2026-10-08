@@ -4,6 +4,7 @@ import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { mapsUrl, site } from "@/lib/site";
 import { Aura } from "@/components/ui/aura";
+import { Skyline } from "@/components/ui/skyline";
 
 export function MapGraphic() {
   return (
@@ -84,7 +85,8 @@ export function Location() {
         <Reveal>
           <SectionHeading eyebrow="Locatie & contact" title="Langskomen in Den Bosch." />
         </Reveal>
-        <div className="mt-12 grid gap-4 lg:grid-cols-[1.2fr_1fr]">
+        <Skyline className="mt-10 text-accent-strong/45 lg:mt-12" />
+        <div className="mt-6 grid gap-4 lg:grid-cols-[1.2fr_1fr]">
           <Reveal className="h-full">
             <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="group relative block h-full" aria-label="Open de locatie in Google Maps">
               <MapGraphic />

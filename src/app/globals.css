@@ -197,3 +197,27 @@
     }
   }
 }
+
+/* Skyline line-drawing: draws itself as it scrolls into view. */
+@keyframes draw-line {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .skyline {
+      view-timeline-name: --skyline;
+    }
+    .skyline path {
+      stroke-dasharray: 1;
+      animation: draw-line linear both;
+      animation-timeline: --skyline;
+      animation-range: entry 0% cover 40%;
+    }
+  }
+}

@@ -10,6 +10,7 @@ export function PageIntro({
   intro,
   children,
   aside,
+  bottom,
   className,
 }: {
   crumbs: Crumb[];
@@ -18,6 +19,8 @@ export function PageIntro({
   intro?: ReactNode;
   children?: ReactNode;
   aside?: ReactNode;
+  /** Full-width element anchored to the bottom of the intro (e.g. the skyline). */
+  bottom?: ReactNode;
   className?: string;
 }) {
   return (
@@ -42,6 +45,7 @@ export function PageIntro({
         </div>
         {aside && <div className="animate-fade-up [animation-delay:120ms]">{aside}</div>}
       </div>
+      {bottom && <div className="container-page -mb-px">{bottom}</div>}
     </section>
   );
 }
