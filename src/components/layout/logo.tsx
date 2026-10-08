@@ -31,7 +31,7 @@ export function Logo({
       <LogoMark className={tone === "dark" ? "text-ink" : "text-white"} />
       <span
         className={cn(
-          "text-[1.0625rem] font-semibold tracking-[-0.02em]",
+          "text-[1.0625rem] font-semibold tracking-[-0.02em] whitespace-nowrap",
           tone === "dark" ? "text-ink" : "text-white",
         )}
       >

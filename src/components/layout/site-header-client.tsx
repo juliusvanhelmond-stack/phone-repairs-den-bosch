@@ -39,11 +39,11 @@ export function SiteHeaderClient({ nav, phone }: Props) {
         <Logo />
 
         <NavigationMenu.Root className="static hidden lg:block" aria-label="Hoofdmenu">
-          <NavigationMenu.List className="flex items-center gap-1">
+          <NavigationMenu.List className="flex items-center gap-0.5 xl:gap-1">
             <NavigationMenu.Item>
               <NavigationMenu.Trigger
                 className={cn(
-                  "group flex h-10 items-center gap-1 rounded-full px-4 text-[0.9375rem] text-ink-soft transition-colors hover:bg-mist hover:text-ink data-[state=open]:bg-mist data-[state=open]:text-ink",
+                  "group flex h-10 items-center gap-1 rounded-full px-3 text-[0.9375rem] whitespace-nowrap xl:px-4 text-ink-soft transition-colors hover:bg-mist hover:text-ink data-[state=open]:bg-mist data-[state=open]:text-ink",
                   pathname.startsWith("/reparatie") && "text-ink",
                 )}
               >
@@ -53,7 +53,7 @@ export function SiteHeaderClient({ nav, phone }: Props) {
                   aria-hidden
                 />
               </NavigationMenu.Trigger>
-              <NavigationMenu.Content forceMount className="absolute inset-x-0 top-full data-[state=closed]:hidden px-4 pt-2 sm:px-6 lg:px-8 data-[motion=from-start]:animate-fade-up data-[motion=from-end]:animate-fade-up">
+              <NavigationMenu.Content forceMount className="fixed inset-x-0 top-[4.5rem] data-[state=closed]:hidden px-4 pt-2 sm:px-6 lg:px-8 data-[motion=from-start]:animate-fade-up data-[motion=from-end]:animate-fade-up">
                 <MegaMenu nav={nav} />
               </NavigationMenu.Content>
             </NavigationMenu.Item>
@@ -62,7 +62,7 @@ export function SiteHeaderClient({ nav, phone }: Props) {
                 <NavigationMenu.Link asChild active={pathname === item.href}>
                   <Link
                     href={item.href}
-                    className="flex h-10 items-center rounded-full px-4 text-[0.9375rem] text-ink-soft transition-colors hover:bg-mist hover:text-ink data-[active]:text-ink"
+                    className="flex h-10 items-center rounded-full px-3 text-[0.9375rem] whitespace-nowrap text-ink-soft xl:px-4 transition-colors hover:bg-mist hover:text-ink data-[active]:text-ink"
                   >
                     {item.label}
                   </Link>
@@ -92,18 +92,18 @@ export function SiteHeaderClient({ nav, phone }: Props) {
 
 function MegaMenu({ nav }: { nav: NavData }) {
   return (
-    <div className="mx-auto grid max-w-[76rem] gap-2 overflow-hidden rounded-[1.75rem] bg-white p-2 shadow-[var(--shadow-lift)] ring-1 ring-line lg:grid-cols-[1.25fr_1fr_0.85fr]">
-      <div className="grid grid-cols-3 gap-6 p-6">
+    <div className="mx-auto grid max-w-[76rem] gap-2 overflow-hidden rounded-[1.75rem] bg-white p-2 shadow-[var(--shadow-lift)] ring-1 ring-line lg:grid-cols-[1.2fr_1fr_0.8fr]">
+      <div className="space-y-6 p-6">
         {nav.categories.map((cat) => (
           <div key={cat.id}>
-            <p className="mb-3 text-xs font-medium tracking-wide text-muted uppercase">{cat.name}</p>
-            <ul className="space-y-1">
+            <p className="mb-2.5 text-xs font-medium tracking-wide text-muted uppercase">{cat.name}</p>
+            <ul className="flex flex-wrap gap-1.5">
               {cat.brands.map((b) => (
                 <li key={b.href}>
                   <NavigationMenu.Link asChild>
                     <Link
                       href={b.href}
-                      className="block rounded-lg py-1.5 text-[0.9375rem] text-ink transition-colors hover:text-accent"
+                      className="block rounded-full bg-mist px-3.5 py-1.5 text-[0.9375rem] whitespace-nowrap text-ink ring-1 ring-line transition-colors hover:bg-ink hover:text-white hover:ring-ink"
                     >
                       {b.name}
                     </Link>
