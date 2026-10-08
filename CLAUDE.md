@@ -19,7 +19,7 @@ version differs from older training data — check `node_modules/next/dist/docs/
 - `src/app` routes: `/`, `/reparaties`, `/reparaties/[brand]`, `/reparaties/[brand]/[model]`, `/reparatie/[repair]`, info pages, `sitemap.ts`, `robots.ts`.
 - Dynamic routes use `generateStaticParams` + `notFound()` and `export const instant = false` (real 404s, fully static pages).
 - `src/components/{layout,home,devices,repairs,forms,ui,motion}`; UI primitives follow shadcn/ui conventions on `radix-ui`.
-- Devices are drawn as SVG (`DeviceArt`); no stock photography.
+- Devices are drawn as SVG (`DeviceArt`). Atmosphere photos (hero, about, process band, CTA) are licensed Adobe Stock images in `src/assets/photos/`, listed in docs/image-credits.md; add new photos there too and never present stock photos as the shop itself.
 - `scripts/{discovery,migration,validation,lib}` — migration pipeline and QA tooling (run with tsx).
 
 ## Content-preservation rules (non-negotiable)

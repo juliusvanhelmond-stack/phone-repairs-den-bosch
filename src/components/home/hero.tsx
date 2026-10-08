@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowRight, Eye, MapPin, ShieldCheck, Timer } from "lucide-react";
-import { ExplodedPhone } from "@/components/home/exploded-phone";
+import Image from "next/image";
+import heroPhoto from "@/assets/photos/hero-screen-repair.jpg";
 import { Button } from "@/components/ui/button";
 import { site } from "@/lib/site";
 
@@ -54,9 +55,20 @@ export function Hero() {
           </ul>
         </div>
 
-        <div className="relative -mx-4 mt-24 -mb-12 sm:mx-0 sm:mt-10 sm:mb-0 lg:mt-0">
-          <ExplodedPhone />
-          <FloatingCard className="top-[14%] right-[2%] sm:right-[6%]" delay="0.9s">
+        <div className="relative mt-4 lg:mt-0 lg:pl-6">
+          <div className="relative aspect-square overflow-hidden rounded-[var(--radius-panel)] bg-mist shadow-[var(--shadow-lift)] ring-1 ring-line sm:aspect-[5/4] lg:aspect-[4/5]">
+            <Image
+              src={heroPhoto}
+              alt="Technicus opent een smartphone met gebarsten scherm op een werkmat met reparatiegereedschap"
+              fill
+              priority
+              placeholder="blur"
+              sizes="(min-width: 1024px) 45vw, 100vw"
+              className="object-cover object-[62%_55%]"
+            />
+            <div className="absolute inset-0 bg-[linear-gradient(to_top,rgb(16_24_40/0.35),transparent_45%)]" aria-hidden />
+          </div>
+          <FloatingCard className="bottom-4 left-4 sm:top-8 sm:right-8 sm:bottom-auto sm:left-auto lg:-right-4" delay="0.5s">
             <span className="grid size-9 place-items-center rounded-xl bg-accent-soft text-accent">
               <Timer className="size-[1.125rem]" aria-hidden />
             </span>
@@ -65,7 +77,7 @@ export function Hero() {
               <span className="block text-xs text-muted">Vaak binnen 30 minuten</span>
             </span>
           </FloatingCard>
-          <FloatingCard className="bottom-[24%] left-[2%] sm:left-[8%]" delay="1.1s">
+          <FloatingCard className="bottom-5 left-4 max-sm:hidden sm:bottom-8 sm:left-8 lg:left-0" delay="0.7s">
             <span className="grid size-9 place-items-center rounded-xl bg-ink text-white">
               <Eye className="size-[1.125rem]" aria-hidden />
             </span>
@@ -91,7 +103,7 @@ function FloatingCard({
 }) {
   return (
     <div
-      className={`absolute hidden animate-fade-up sm:flex items-center gap-3 rounded-2xl bg-white/85 py-2.5 pr-4 pl-2.5 shadow-[var(--shadow-lift)] ring-1 ring-line backdrop-blur-md ${className}`}
+      className={`absolute flex animate-fade-up items-center gap-3 rounded-2xl bg-white/85 py-2.5 pr-4 pl-2.5 shadow-[var(--shadow-lift)] ring-1 ring-line backdrop-blur-md ${className}`}
       style={{ animationDelay: delay }}
       aria-hidden
     >

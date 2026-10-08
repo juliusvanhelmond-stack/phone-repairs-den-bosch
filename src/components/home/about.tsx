@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { DeviceArt } from "@/components/devices/device-art";
+import Image from "next/image";
+import aboutPhoto from "@/assets/photos/about-workshop.jpg";
 import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
 
@@ -15,11 +16,15 @@ export function About() {
     <section className="py-20 lg:py-28">
       <div className="container-page grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
         <Reveal className="order-2 lg:order-1">
-          <div className="relative aspect-[5/4] overflow-hidden rounded-[var(--radius-panel)] bg-mist ring-1 ring-line">
-            <div className="bg-grid absolute inset-0 [mask-image:radial-gradient(ellipse_at_center,#000,transparent_75%)]" aria-hidden />
-            <DeviceArt art="laptop" className="absolute bottom-[14%] left-[6%] w-[62%]" />
-            <DeviceArt art="tablet" className="absolute right-[18%] bottom-[10%] w-[26%]" />
-            <DeviceArt art="phone-island" className="absolute right-[7%] bottom-[8%] w-[13%]" />
+          <div className="relative aspect-[5/4] overflow-hidden rounded-[var(--radius-panel)] bg-mist shadow-[var(--shadow-soft)] ring-1 ring-line">
+            <Image
+              src={aboutPhoto}
+              alt="Technicus onderzoekt met een loep de binnenkant van een smartphone in een reparatiewerkplaats"
+              fill
+              placeholder="blur"
+              sizes="(min-width: 1024px) 40vw, 100vw"
+              className="object-cover object-[60%_50%]"
+            />
           </div>
         </Reveal>
         <div className="order-1 lg:order-2">

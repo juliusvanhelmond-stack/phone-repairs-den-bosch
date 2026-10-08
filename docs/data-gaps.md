@@ -30,7 +30,7 @@ export (WXR via Tools → Export) or read access to `/wp-json/wp/v2` from the ow
 | Postal code | missing | LocalBusiness schema, contact page |
 | Exact opening hours | missing (only "7 dagen per week, ook ’s avonds") | Contact page, OpeningHoursSpecification |
 | Original "Over Phone Repairs" text | not extracted | /over-ons |
-| Photos of the shop / technicians | none (no stock photos used) | Hero, about section |
+| Photos of the shop / technicians | none — generic Adobe Stock photos used (docs/image-credits.md) | Hero, about, process band, CTA |
 | Official device photography | none (vector renders used) | Device pages |
 | Area landing pages (Rosmalen, Rompert, Helftheuvel, …) | content not extracted | Local SEO; keep original URLs |
 | Blog/news posts | not inventoried | Blog template |

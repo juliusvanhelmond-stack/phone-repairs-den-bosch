@@ -1,3 +1,5 @@
+import Image from "next/image";
+import processPhoto from "@/assets/photos/process-workbench.jpg";
 import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
 
@@ -46,6 +48,21 @@ export function HowItWorks({ withHeading = true }: { withHeading?: boolean }) {
             </li>
           ))}
         </ol>
+        <Reveal className="mt-16 lg:mt-20">
+          <figure className="relative aspect-[4/3] overflow-hidden rounded-[var(--radius-panel)] bg-mist ring-1 ring-line sm:aspect-[21/9]">
+            <Image
+              src={processPhoto}
+              alt="Werkbank met geopende smartphones, onderdelen en precisiegereedschap"
+              fill
+              placeholder="blur"
+              sizes="(min-width: 1280px) 76rem, 100vw"
+              className="object-cover object-[50%_60%]"
+            />
+            <figcaption className="absolute bottom-4 left-4 rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-ink shadow-[var(--shadow-soft)] backdrop-blur sm:bottom-6 sm:left-6">
+              Vakwerk, onderdeel voor onderdeel
+            </figcaption>
+          </figure>
+        </Reveal>
       </div>
     </section>
   );

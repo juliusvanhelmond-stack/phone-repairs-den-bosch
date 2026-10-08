@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ExplodedPhone } from "@/components/home/exploded-phone";
 import { FinalCta } from "@/components/home/final-cta";
 import { HowItWorks } from "@/components/home/how-it-works";
 import { Trust } from "@/components/home/trust";
@@ -19,6 +20,11 @@ export default function ProcessPage() {
         eyebrow="Werkwijze"
         title="Helder, persoonlijk en snel."
         intro="Van het kiezen van je toestel tot het moment dat je weer naar buiten loopt: zo verloopt een reparatie bij Phone Repairs."
+        aside={
+          <div className="mx-auto max-w-md">
+            <ExplodedPhone />
+          </div>
+        }
       />
       <HowItWorks withHeading={false} />
       <Trust />
