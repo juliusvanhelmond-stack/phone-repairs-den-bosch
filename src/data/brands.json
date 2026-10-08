@@ -1,0 +1,22 @@
+[
+  {
+    "id": "apple", "name": "Apple", "categories": ["smartphone", "tablet", "laptop"], "popular": true, "order": 1,
+    "legacyUrls": [],
+    "sources": [{ "url": "https://www.phonerepairs.nl/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "Homepage title: 'Telefoon, tablet, MacBook reparatie'; iPhone repairs referenced throughout." }]
+  },
+  {
+    "id": "samsung", "name": "Samsung", "categories": ["smartphone", "tablet"], "popular": true, "order": 2,
+    "legacyUrls": ["/samsung-reparatie-den-bosch/"],
+    "sources": [{ "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s23/", "verification": "search-index", "capturedAt": "2026-10-08" }]
+  },
+  { "id": "huawei", "name": "Huawei", "categories": ["smartphone"], "popular": true, "order": 3, "legacyUrls": [],
+    "sources": [{ "url": "https://www.phonerepairs.nl/telefoon-reparatie-den-bosch/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "Named among supported brands." }] },
+  { "id": "oneplus", "name": "OnePlus", "categories": ["smartphone"], "popular": true, "order": 4, "legacyUrls": [],
+    "sources": [{ "url": "https://www.phonerepairs.nl/telefoon-reparatie-den-bosch/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "Named among supported brands." }] },
+  { "id": "xiaomi", "name": "Xiaomi", "categories": ["smartphone"], "popular": true, "order": 5, "legacyUrls": [],
+    "sources": [{ "url": "https://www.phonerepairs.nl/telefoon-reparatie-den-bosch/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "Named among supported brands." }] },
+  { "id": "sony", "name": "Sony", "categories": ["smartphone"], "popular": false, "order": 6, "legacyUrls": [],
+    "sources": [{ "url": "https://www.phonerepairs.nl/telefoon-reparatie-den-bosch/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "Named among supported brands." }] },
+  { "id": "lg", "name": "LG", "categories": ["smartphone"], "popular": false, "order": 7, "legacyUrls": [],
+    "sources": [{ "url": "https://www.phonerepairs.nl/telefoon-reparatie-den-bosch/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "Named among supported brands." }] }
+]

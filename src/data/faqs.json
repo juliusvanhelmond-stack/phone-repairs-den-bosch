@@ -1,0 +1,20 @@
+[
+  { "id": "hoe-lang-duurt-reparatie", "question": "Hoe lang duurt een reparatie?", "answer": ["De meeste reparaties zijn binnen ongeveer 30 minuten klaar. Je kunt erbij blijven en meekijken. Bij complexere reparaties, zoals waterschade, hoor je vooraf hoe lang het onderzoek duurt."], "topics": ["algemeen"], "repairIds": [],
+    "sources": [{ "url": "https://www.phonerepairs.nl/", "verification": "search-index", "capturedAt": "2026-10-08" }] },
+  { "id": "afspraak-nodig", "question": "Moet ik een afspraak maken?", "answer": ["Ja. Phone Repairs werkt alleen op afspraak, zodat er voldoende tijd en aandacht is voor jouw reparatie. Je maakt een afspraak telefonisch, via e-mail of met het afspraakformulier."], "topics": ["afspraak"], "repairIds": [],
+    "sources": [{ "url": "https://www.phonerepairs.nl/afspraak-maken/", "verification": "search-index", "capturedAt": "2026-10-08" }] },
+  { "id": "gegevens-behouden", "question": "Blijven mijn foto's en gegevens bewaard?", "answer": ["Ja. Bij een reparatie blijven je gegevens op je toestel staan. Het is altijd verstandig om vooraf een back-up te maken, als dat nog lukt."], "topics": ["algemeen"], "repairIds": [],
+    "sources": [{ "url": "https://www.phonerepairs.nl/telefoon-reparatie-den-bosch/", "verification": "search-index", "capturedAt": "2026-10-08" }] },
+  { "id": "originele-onderdelen", "question": "Welke onderdelen worden gebruikt?", "answer": ["Phone Repairs werkt met originele onderdelen. Voor Samsung-toestellen worden de originele Samsung service packs gebruikt."], "topics": ["onderdelen"], "repairIds": ["scherm-vervangen", "batterij-vervangen"],
+    "sources": [{ "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s23/", "verification": "search-index", "capturedAt": "2026-10-08" }] },
+  { "id": "prijzen-inclusief", "question": "Zijn de prijzen inclusief btw en montage?", "answer": ["Ja. De prijzen zijn inclusief montage en 21% btw."], "topics": ["prijzen"], "repairIds": [],
+    "sources": [{ "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s23/", "verification": "search-index", "capturedAt": "2026-10-08" }] },
+  { "id": "waterschade-wat-doen", "question": "Mijn telefoon is nat geworden. Wat moet ik doen?", "answer": ["Zet het toestel niet aan en laad het niet op. Neem direct contact op, zodat het zo snel mogelijk onderzocht kan worden. Hoe eerder, hoe groter de kans op herstel."], "topics": ["waterschade"], "repairIds": ["waterschade"],
+    "sources": [{ "url": "https://www.phonerepairs.nl/telefoon-reparatie-den-bosch/", "verification": "search-index", "capturedAt": "2026-10-08" }] },
+  { "id": "opgezwollen-batterij", "question": "Mijn batterij is opgezwollen. Is dat gevaarlijk?", "answer": ["Een opgezwollen batterij moet je serieus nemen. Laad het toestel niet meer op, gebruik het niet en neem direct contact op."], "topics": ["batterij"], "repairIds": ["batterij-vervangen"],
+    "sources": [{ "url": "https://www.phonerepairs.nl/telefoon-reparatie-den-bosch/", "verification": "search-index", "capturedAt": "2026-10-08" }] },
+  { "id": "parkeren", "question": "Kan ik parkeren bij de winkel?", "answer": ["Ja, je kunt gratis parkeren voor de deur."], "topics": ["locatie"], "repairIds": [],
+    "sources": [{ "url": "https://www.phonerepairs.nl/telefoon-reparatie-den-bosch/", "verification": "search-index", "capturedAt": "2026-10-08" }] },
+  { "id": "openingstijden", "question": "Wanneer zijn jullie open?", "answer": ["Phone Repairs is zeven dagen per week geopend, ook in de avond. Omdat er op afspraak wordt gewerkt, spreek je samen een moment af dat jou uitkomt."], "topics": ["locatie", "afspraak"], "repairIds": [],
+    "sources": [{ "url": "https://www.phonerepairs.nl/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "Exact opening hours not captured." }] }
+]

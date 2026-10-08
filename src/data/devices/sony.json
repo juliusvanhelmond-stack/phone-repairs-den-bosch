@@ -1,0 +1,86 @@
+[
+  {
+    "id": "sony-xperia-1-v",
+    "slug": "xperia-1-v",
+    "name": "Xperia 1 V",
+    "brandId": "sony",
+    "categoryId": "smartphone",
+    "series": "Xperia",
+    "releaseYear": 2023,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Sony is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "sony-xperia-5-iv",
+    "slug": "xperia-5-iv",
+    "name": "Xperia 5 IV",
+    "brandId": "sony",
+    "categoryId": "smartphone",
+    "series": "Xperia",
+    "releaseYear": 2022,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Sony is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "sony-xperia-10-v",
+    "slug": "xperia-10-v",
+    "name": "Xperia 10 V",
+    "brandId": "sony",
+    "categoryId": "smartphone",
+    "series": "Xperia",
+    "releaseYear": 2023,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Sony is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "sony-xperia-10-vi",
+    "slug": "xperia-10-vi",
+    "name": "Xperia 10 VI",
+    "brandId": "sony",
+    "categoryId": "smartphone",
+    "series": "Xperia",
+    "releaseYear": 2024,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Sony is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  }
+]

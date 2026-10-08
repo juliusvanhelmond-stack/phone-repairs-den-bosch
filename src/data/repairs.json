@@ -1,0 +1,153 @@
+[
+  {
+    "id": "scherm-vervangen",
+    "slug": "scherm-vervangen",
+    "name": "Scherm vervangen",
+    "shortName": "Scherm",
+    "summary": "Barsten, strepen, zwarte vlekken of een touchscreen dat niet meer reageert.",
+    "description": [
+      "Een gebarsten of niet-reagerend scherm is de meest voorkomende reparatie. Bij een schermvervanging wordt het complete displaypakket vervangen, zodat beeld, helderheid en aanraakgevoeligheid weer werken zoals je gewend bent.",
+      "Bij Phone Repairs wordt de reparatie op afspraak uitgevoerd. Veel schermreparaties zijn binnen ongeveer 30 minuten klaar, terwijl je meekijkt."
+    ],
+    "icon": "smartphone",
+    "categories": ["smartphone", "tablet", "laptop"],
+    "order": 1,
+    "popular": true,
+    "advice": [],
+    "sources": [
+      { "url": "https://www.phonerepairs.nl/telefoon-reparatie-den-bosch/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "Screens are named as a typical repair; ~30 minutes while you watch." }
+    ]
+  },
+  {
+    "id": "batterij-vervangen",
+    "slug": "batterij-vervangen",
+    "name": "Batterij vervangen",
+    "shortName": "Batterij",
+    "summary": "Je toestel loopt snel leeg, valt onverwacht uit of de batterij is opgezwollen.",
+    "description": [
+      "Een batterij slijt met elke laadcyclus. Merk je dat je toestel de dag niet meer doorkomt of plotseling uitvalt, dan is een nieuwe batterij vaak de oplossing.",
+      "Is de batterij opgezwollen? Laad het toestel dan niet meer op en neem direct contact op."
+    ],
+    "icon": "battery-charging",
+    "categories": ["smartphone", "tablet", "laptop"],
+    "order": 2,
+    "popular": true,
+    "advice": ["Bij een opgezwollen batterij: niet opladen en niet meer gebruiken. Neem direct contact op."],
+    "sources": [
+      { "url": "https://www.phonerepairs.nl/telefoon-reparatie-den-bosch/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "Batteries named as a typical repair; swollen-battery advice." }
+    ]
+  },
+  {
+    "id": "oplaadpoort-repareren",
+    "slug": "oplaadpoort-repareren",
+    "name": "Oplaadpoort repareren",
+    "shortName": "Oplaadpoort",
+    "summary": "De kabel zit los, laden gaat alleen in een bepaalde hoek of helemaal niet meer.",
+    "description": [
+      "Laadproblemen worden vaak veroorzaakt door vuil in de poort of een beschadigde connector. Na een controle weet je of reinigen volstaat of dat de laadconnector vervangen moet worden."
+    ],
+    "icon": "plug-zap",
+    "categories": ["smartphone", "tablet"],
+    "order": 3,
+    "popular": true,
+    "advice": [],
+    "sources": [
+      { "url": "https://www.phonerepairs.nl/", "verification": "demo", "capturedAt": "2026-10-08", "note": "Repair type from the JUNE Studio brief; availability to confirm against original site." }
+    ]
+  },
+  {
+    "id": "camera-repareren",
+    "slug": "camera-repareren",
+    "name": "Camera repareren",
+    "shortName": "Camera",
+    "summary": "Wazige foto's, een gebarsten cameralens of een camera die niet opstart.",
+    "description": [
+      "Een gebarsten cameraglas of een defecte cameramodule maakt scherpe foto's onmogelijk. Afhankelijk van de oorzaak wordt het lensglas of de complete module vervangen."
+    ],
+    "icon": "camera",
+    "categories": ["smartphone", "tablet"],
+    "order": 4,
+    "popular": true,
+    "advice": [],
+    "sources": [
+      { "url": "https://www.phonerepairs.nl/", "verification": "demo", "capturedAt": "2026-10-08", "note": "Repair type from the JUNE Studio brief; availability to confirm against original site." }
+    ]
+  },
+  {
+    "id": "waterschade",
+    "slug": "waterschade",
+    "name": "Waterschade",
+    "shortName": "Waterschade",
+    "summary": "Je toestel is nat geworden. Snel handelen vergroot de kans op herstel.",
+    "description": [
+      "Vocht kan corrosie veroorzaken op de printplaat. Hoe sneller het toestel onderzocht wordt, hoe groter de kans dat het te redden is.",
+      "Na onderzoek hoor je wat er beschadigd is en welke reparatie mogelijk is."
+    ],
+    "icon": "droplets",
+    "categories": ["smartphone", "tablet", "laptop"],
+    "order": 5,
+    "popular": true,
+    "advice": [
+      "Zet je toestel niet aan en laad het niet op.",
+      "Neem direct contact op, zodat het toestel zo snel mogelijk onderzocht kan worden."
+    ],
+    "sources": [
+      { "url": "https://www.phonerepairs.nl/telefoon-reparatie-den-bosch/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "Advice: do not switch on or charge, call right away." }
+    ]
+  },
+  {
+    "id": "achterkant-vervangen",
+    "slug": "achterkant-vervangen",
+    "name": "Achterkant vervangen",
+    "shortName": "Achterkant",
+    "summary": "Gebarsten achterglas of een beschadigde behuizing.",
+    "description": [
+      "Een gebarsten achterkant is meer dan een cosmetisch probleem: scherpe randen en binnendringend vocht kunnen verdere schade veroorzaken."
+    ],
+    "icon": "layers",
+    "categories": ["smartphone"],
+    "order": 6,
+    "popular": false,
+    "advice": [],
+    "sources": [
+      { "url": "https://www.phonerepairs.nl/", "verification": "demo", "capturedAt": "2026-10-08", "note": "Availability to confirm against original site." }
+    ]
+  },
+  {
+    "id": "toetsenbord-vervangen",
+    "slug": "toetsenbord-vervangen",
+    "name": "Toetsenbord vervangen",
+    "shortName": "Toetsenbord",
+    "summary": "Toetsen die haperen, dubbel typen of niet meer reageren.",
+    "description": [
+      "Haperende of niet-werkende toetsen kunnen het gevolg zijn van vuil, vocht of slijtage. Na onderzoek hoor je welke oplossing mogelijk is."
+    ],
+    "icon": "keyboard",
+    "categories": ["laptop"],
+    "order": 7,
+    "popular": false,
+    "advice": [],
+    "sources": [
+      { "url": "https://www.phonerepairs.nl/", "verification": "demo", "capturedAt": "2026-10-08", "note": "Availability to confirm against original site." }
+    ]
+  },
+  {
+    "id": "overige-reparaties",
+    "slug": "overige-reparaties",
+    "name": "Overige reparaties",
+    "shortName": "Overig",
+    "summary": "Knoppen, speaker, microfoon, trilmotor of een probleem dat je niet kunt plaatsen.",
+    "description": [
+      "Niet elk defect past in een hokje. Werkt een knop niet meer, hoor je je gesprekspartner slecht of weet je niet precies wat er mis is? Neem contact op en beschrijf het probleem.",
+      "Bij een reparatie blijven je gegevens op je toestel."
+    ],
+    "icon": "wrench",
+    "categories": ["smartphone", "tablet", "laptop"],
+    "order": 8,
+    "popular": true,
+    "advice": [],
+    "sources": [
+      { "url": "https://www.phonerepairs.nl/telefoon-reparatie-den-bosch/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "Buttons named as a typical repair; data stays on the device." }
+    ]
+  }
+]

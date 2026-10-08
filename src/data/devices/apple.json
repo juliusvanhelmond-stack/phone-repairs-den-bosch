@@ -1,0 +1,1283 @@
+[
+  {
+    "id": "apple-iphone-7",
+    "slug": "iphone-7",
+    "name": "iPhone 7",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2016,
+    "art": "phone-home-button",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-7-plus",
+    "slug": "iphone-7-plus",
+    "name": "iPhone 7 Plus",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2016,
+    "art": "phone-home-button",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-8",
+    "slug": "iphone-8",
+    "name": "iPhone 8",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2017,
+    "art": "phone-home-button",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-8-plus",
+    "slug": "iphone-8-plus",
+    "name": "iPhone 8 Plus",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2017,
+    "art": "phone-home-button",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-x",
+    "slug": "iphone-x",
+    "name": "iPhone X",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2017,
+    "art": "phone-notch",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-xr",
+    "slug": "iphone-xr",
+    "name": "iPhone XR",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2018,
+    "art": "phone-notch",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-xs",
+    "slug": "iphone-xs",
+    "name": "iPhone XS",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2018,
+    "art": "phone-notch",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-xs-max",
+    "slug": "iphone-xs-max",
+    "name": "iPhone XS Max",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2018,
+    "art": "phone-notch",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-11",
+    "slug": "iphone-11",
+    "name": "iPhone 11",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2019,
+    "art": "phone-notch",
+    "popular": true,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-11-pro",
+    "slug": "iphone-11-pro",
+    "name": "iPhone 11 Pro",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2019,
+    "art": "phone-notch",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-11-pro-max",
+    "slug": "iphone-11-pro-max",
+    "name": "iPhone 11 Pro Max",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2019,
+    "art": "phone-notch",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-se-2020",
+    "slug": "iphone-se-2020",
+    "name": "iPhone SE (2020)",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2020,
+    "art": "phone-home-button",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-12-mini",
+    "slug": "iphone-12-mini",
+    "name": "iPhone 12 mini",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2020,
+    "art": "phone-notch",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-12",
+    "slug": "iphone-12",
+    "name": "iPhone 12",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2020,
+    "art": "phone-notch",
+    "popular": true,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-12-pro",
+    "slug": "iphone-12-pro",
+    "name": "iPhone 12 Pro",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2020,
+    "art": "phone-notch",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-12-pro-max",
+    "slug": "iphone-12-pro-max",
+    "name": "iPhone 12 Pro Max",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2020,
+    "art": "phone-notch",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-13-mini",
+    "slug": "iphone-13-mini",
+    "name": "iPhone 13 mini",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2021,
+    "art": "phone-notch",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-13",
+    "slug": "iphone-13",
+    "name": "iPhone 13",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2021,
+    "art": "phone-notch",
+    "popular": true,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-13-pro",
+    "slug": "iphone-13-pro",
+    "name": "iPhone 13 Pro",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2021,
+    "art": "phone-notch",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-13-pro-max",
+    "slug": "iphone-13-pro-max",
+    "name": "iPhone 13 Pro Max",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2021,
+    "art": "phone-notch",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-se-2022",
+    "slug": "iphone-se-2022",
+    "name": "iPhone SE (2022)",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2022,
+    "art": "phone-home-button",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-14",
+    "slug": "iphone-14",
+    "name": "iPhone 14",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2022,
+    "art": "phone-notch",
+    "popular": true,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-14-plus",
+    "slug": "iphone-14-plus",
+    "name": "iPhone 14 Plus",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2022,
+    "art": "phone-notch",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-14-pro",
+    "slug": "iphone-14-pro",
+    "name": "iPhone 14 Pro",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2022,
+    "art": "phone-island",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-14-pro-max",
+    "slug": "iphone-14-pro-max",
+    "name": "iPhone 14 Pro Max",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2022,
+    "art": "phone-island",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-15",
+    "slug": "iphone-15",
+    "name": "iPhone 15",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2023,
+    "art": "phone-island",
+    "popular": true,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-15-plus",
+    "slug": "iphone-15-plus",
+    "name": "iPhone 15 Plus",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2023,
+    "art": "phone-island",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-15-pro",
+    "slug": "iphone-15-pro",
+    "name": "iPhone 15 Pro",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2023,
+    "art": "phone-island",
+    "popular": true,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-15-pro-max",
+    "slug": "iphone-15-pro-max",
+    "name": "iPhone 15 Pro Max",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2023,
+    "art": "phone-island",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-16",
+    "slug": "iphone-16",
+    "name": "iPhone 16",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2024,
+    "art": "phone-island",
+    "popular": true,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-16-plus",
+    "slug": "iphone-16-plus",
+    "name": "iPhone 16 Plus",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2024,
+    "art": "phone-island",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-16-pro",
+    "slug": "iphone-16-pro",
+    "name": "iPhone 16 Pro",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2024,
+    "art": "phone-island",
+    "popular": true,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-16-pro-max",
+    "slug": "iphone-16-pro-max",
+    "name": "iPhone 16 Pro Max",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2024,
+    "art": "phone-island",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-16e",
+    "slug": "iphone-16e",
+    "name": "iPhone 16e",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2025,
+    "art": "phone-notch",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-17",
+    "slug": "iphone-17",
+    "name": "iPhone 17",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2025,
+    "art": "phone-island",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-air",
+    "slug": "iphone-air",
+    "name": "iPhone Air",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2025,
+    "art": "phone-island",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-17-pro",
+    "slug": "iphone-17-pro",
+    "name": "iPhone 17 Pro",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2025,
+    "art": "phone-island",
+    "popular": true,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-iphone-17-pro-max",
+    "slug": "iphone-17-pro-max",
+    "name": "iPhone 17 Pro Max",
+    "brandId": "apple",
+    "categoryId": "smartphone",
+    "series": "iPhone",
+    "releaseYear": 2025,
+    "art": "phone-island",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-9e-generatie",
+    "slug": "ipad-9e-generatie",
+    "name": "iPad (9e generatie)",
+    "brandId": "apple",
+    "categoryId": "tablet",
+    "series": "iPad",
+    "releaseYear": 2021,
+    "art": "tablet-home-button",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple iPad is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-10e-generatie",
+    "slug": "ipad-10e-generatie",
+    "name": "iPad (10e generatie)",
+    "brandId": "apple",
+    "categoryId": "tablet",
+    "series": "iPad",
+    "releaseYear": 2022,
+    "art": "tablet",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple iPad is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-a16",
+    "slug": "ipad-a16",
+    "name": "iPad (A16)",
+    "brandId": "apple",
+    "categoryId": "tablet",
+    "series": "iPad",
+    "releaseYear": 2025,
+    "art": "tablet",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple iPad is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-mini-6e-generatie",
+    "slug": "ipad-mini-6e-generatie",
+    "name": "iPad mini (6e generatie)",
+    "brandId": "apple",
+    "categoryId": "tablet",
+    "series": "iPad",
+    "releaseYear": 2021,
+    "art": "tablet",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple iPad is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-mini-a17-pro",
+    "slug": "ipad-mini-a17-pro",
+    "name": "iPad mini (A17 Pro)",
+    "brandId": "apple",
+    "categoryId": "tablet",
+    "series": "iPad",
+    "releaseYear": 2024,
+    "art": "tablet",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple iPad is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-air-5e-generatie",
+    "slug": "ipad-air-5e-generatie",
+    "name": "iPad Air (5e generatie)",
+    "brandId": "apple",
+    "categoryId": "tablet",
+    "series": "iPad",
+    "releaseYear": 2022,
+    "art": "tablet",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple iPad is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-air-11-inch-m2",
+    "slug": "ipad-air-11-inch-m2",
+    "name": "iPad Air 11-inch (M2)",
+    "brandId": "apple",
+    "categoryId": "tablet",
+    "series": "iPad",
+    "releaseYear": 2024,
+    "art": "tablet",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple iPad is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-air-13-inch-m2",
+    "slug": "ipad-air-13-inch-m2",
+    "name": "iPad Air 13-inch (M2)",
+    "brandId": "apple",
+    "categoryId": "tablet",
+    "series": "iPad",
+    "releaseYear": 2024,
+    "art": "tablet",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple iPad is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-11-inch-4e-generatie",
+    "slug": "ipad-pro-11-inch-4e-generatie",
+    "name": "iPad Pro 11-inch (4e generatie)",
+    "brandId": "apple",
+    "categoryId": "tablet",
+    "series": "iPad",
+    "releaseYear": 2022,
+    "art": "tablet",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple iPad is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-12-9-inch-6e-generatie",
+    "slug": "ipad-pro-12-9-inch-6e-generatie",
+    "name": "iPad Pro 12.9-inch (6e generatie)",
+    "brandId": "apple",
+    "categoryId": "tablet",
+    "series": "iPad",
+    "releaseYear": 2022,
+    "art": "tablet",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple iPad is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-11-inch-m4",
+    "slug": "ipad-pro-11-inch-m4",
+    "name": "iPad Pro 11-inch (M4)",
+    "brandId": "apple",
+    "categoryId": "tablet",
+    "series": "iPad",
+    "releaseYear": 2024,
+    "art": "tablet",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple iPad is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "apple-ipad-pro-13-inch-m4",
+    "slug": "ipad-pro-13-inch-m4",
+    "name": "iPad Pro 13-inch (M4)",
+    "brandId": "apple",
+    "categoryId": "tablet",
+    "series": "iPad",
+    "releaseYear": 2024,
+    "art": "tablet",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple iPad is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-air-13-inch-m1-2020",
+    "slug": "macbook-air-13-inch-m1-2020",
+    "name": "MacBook Air 13-inch (M1, 2020)",
+    "brandId": "apple",
+    "categoryId": "laptop",
+    "series": "MacBook",
+    "releaseYear": 2020,
+    "art": "laptop",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple MacBook is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-air-13-inch-m2-2022",
+    "slug": "macbook-air-13-inch-m2-2022",
+    "name": "MacBook Air 13-inch (M2, 2022)",
+    "brandId": "apple",
+    "categoryId": "laptop",
+    "series": "MacBook",
+    "releaseYear": 2022,
+    "art": "laptop",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple MacBook is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-air-15-inch-m2-2023",
+    "slug": "macbook-air-15-inch-m2-2023",
+    "name": "MacBook Air 15-inch (M2, 2023)",
+    "brandId": "apple",
+    "categoryId": "laptop",
+    "series": "MacBook",
+    "releaseYear": 2023,
+    "art": "laptop",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple MacBook is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-air-13-inch-m3-2024",
+    "slug": "macbook-air-13-inch-m3-2024",
+    "name": "MacBook Air 13-inch (M3, 2024)",
+    "brandId": "apple",
+    "categoryId": "laptop",
+    "series": "MacBook",
+    "releaseYear": 2024,
+    "art": "laptop",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple MacBook is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-air-15-inch-m3-2024",
+    "slug": "macbook-air-15-inch-m3-2024",
+    "name": "MacBook Air 15-inch (M3, 2024)",
+    "brandId": "apple",
+    "categoryId": "laptop",
+    "series": "MacBook",
+    "releaseYear": 2024,
+    "art": "laptop",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple MacBook is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-air-13-inch-m4-2025",
+    "slug": "macbook-air-13-inch-m4-2025",
+    "name": "MacBook Air 13-inch (M4, 2025)",
+    "brandId": "apple",
+    "categoryId": "laptop",
+    "series": "MacBook",
+    "releaseYear": 2025,
+    "art": "laptop",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple MacBook is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-13-inch-m1-2020",
+    "slug": "macbook-pro-13-inch-m1-2020",
+    "name": "MacBook Pro 13-inch (M1, 2020)",
+    "brandId": "apple",
+    "categoryId": "laptop",
+    "series": "MacBook",
+    "releaseYear": 2020,
+    "art": "laptop",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple MacBook is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-14-inch-m3-2023",
+    "slug": "macbook-pro-14-inch-m3-2023",
+    "name": "MacBook Pro 14-inch (M3, 2023)",
+    "brandId": "apple",
+    "categoryId": "laptop",
+    "series": "MacBook",
+    "releaseYear": 2023,
+    "art": "laptop",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple MacBook is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-16-inch-m3-pro-2023",
+    "slug": "macbook-pro-16-inch-m3-pro-2023",
+    "name": "MacBook Pro 16-inch (M3 Pro, 2023)",
+    "brandId": "apple",
+    "categoryId": "laptop",
+    "series": "MacBook",
+    "releaseYear": 2023,
+    "art": "laptop",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple MacBook is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-14-inch-m4-2024",
+    "slug": "macbook-pro-14-inch-m4-2024",
+    "name": "MacBook Pro 14-inch (M4, 2024)",
+    "brandId": "apple",
+    "categoryId": "laptop",
+    "series": "MacBook",
+    "releaseYear": 2024,
+    "art": "laptop",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple MacBook is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "apple-macbook-pro-16-inch-m4-pro-2024",
+    "slug": "macbook-pro-16-inch-m4-pro-2024",
+    "name": "MacBook Pro 16-inch (M4 Pro, 2024)",
+    "brandId": "apple",
+    "categoryId": "laptop",
+    "series": "MacBook",
+    "releaseYear": 2024,
+    "art": "laptop",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Apple MacBook is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  }
+]

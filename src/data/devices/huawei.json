@@ -1,0 +1,163 @@
+[
+  {
+    "id": "huawei-huawei-p-smart-2021",
+    "slug": "huawei-p-smart-2021",
+    "name": "Huawei P Smart 2021",
+    "brandId": "huawei",
+    "categoryId": "smartphone",
+    "series": "Huawei",
+    "releaseYear": 2020,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "P Smart 2021"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Huawei is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei-p30",
+    "slug": "huawei-p30",
+    "name": "Huawei P30",
+    "brandId": "huawei",
+    "categoryId": "smartphone",
+    "series": "Huawei",
+    "releaseYear": 2019,
+    "art": "phone-notch",
+    "popular": false,
+    "aliases": [
+      "P30"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Huawei is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei-p30-pro",
+    "slug": "huawei-p30-pro",
+    "name": "Huawei P30 Pro",
+    "brandId": "huawei",
+    "categoryId": "smartphone",
+    "series": "Huawei",
+    "releaseYear": 2019,
+    "art": "phone-notch",
+    "popular": false,
+    "aliases": [
+      "P30 Pro"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Huawei is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei-p30-lite",
+    "slug": "huawei-p30-lite",
+    "name": "Huawei P30 Lite",
+    "brandId": "huawei",
+    "categoryId": "smartphone",
+    "series": "Huawei",
+    "releaseYear": 2019,
+    "art": "phone-notch",
+    "popular": false,
+    "aliases": [
+      "P30 Lite"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Huawei is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei-p40-lite",
+    "slug": "huawei-p40-lite",
+    "name": "Huawei P40 Lite",
+    "brandId": "huawei",
+    "categoryId": "smartphone",
+    "series": "Huawei",
+    "releaseYear": 2020,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "P40 Lite"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Huawei is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei-p40-pro",
+    "slug": "huawei-p40-pro",
+    "name": "Huawei P40 Pro",
+    "brandId": "huawei",
+    "categoryId": "smartphone",
+    "series": "Huawei",
+    "releaseYear": 2020,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "P40 Pro"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Huawei is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "huawei-huawei-mate-20-pro",
+    "slug": "huawei-mate-20-pro",
+    "name": "Huawei Mate 20 Pro",
+    "brandId": "huawei",
+    "categoryId": "smartphone",
+    "series": "Huawei",
+    "releaseYear": 2018,
+    "art": "phone-notch",
+    "popular": false,
+    "aliases": [
+      "Mate 20 Pro"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Huawei is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "lg-lg-g7-thinq",
+    "slug": "lg-g7-thinq",
+    "name": "LG G7 ThinQ",
+    "brandId": "lg",
+    "categoryId": "smartphone",
+    "series": "LG",
+    "releaseYear": 2018,
+    "art": "phone-notch",
+    "popular": false,
+    "aliases": [
+      "G7 ThinQ"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "LG is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-g8s-thinq",
+    "slug": "lg-g8s-thinq",
+    "name": "LG G8s ThinQ",
+    "brandId": "lg",
+    "categoryId": "smartphone",
+    "series": "LG",
+    "releaseYear": 2019,
+    "art": "phone-notch",
+    "popular": false,
+    "aliases": [
+      "G8s ThinQ"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "LG is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-velvet",
+    "slug": "lg-velvet",
+    "name": "LG Velvet",
+    "brandId": "lg",
+    "categoryId": "smartphone",
+    "series": "LG",
+    "releaseYear": 2020,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "Velvet"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "LG is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "lg-lg-k42",
+    "slug": "lg-k42",
+    "name": "LG K42",
+    "brandId": "lg",
+    "categoryId": "smartphone",
+    "series": "LG",
+    "releaseYear": 2020,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "K42"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "LG is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  }
+]

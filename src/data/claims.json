@@ -1,0 +1,14 @@
+[
+  { "id": "dertig-minuten", "title": "Vaak klaar binnen 30 minuten", "body": "De meeste reparaties zijn binnen ongeveer een half uur klaar. Je hoeft je toestel dus meestal niet achter te laten.", "icon": "timer",
+    "sources": [{ "url": "https://www.phonerepairs.nl/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "'De reparaties zijn klaar in 30 minuten terwijl je meekijkt'" }] },
+  { "id": "meekijken", "title": "Je kijkt mee", "body": "Je toestel gaat niet achter een gesloten deur. Je ziet zelf hoe de reparatie wordt uitgevoerd.", "icon": "eye",
+    "sources": [{ "url": "https://www.phonerepairs.nl/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "'terwijl je meekijkt'" }] },
+  { "id": "originele-onderdelen", "title": "Originele onderdelen", "body": "Phone Repairs werkt met originele onderdelen, zoals de originele Samsung service packs.", "icon": "badge-check",
+    "sources": [{ "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s23/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "'uitsluitend de originele Samsung service packs'; site also states only original quality is used." }] },
+  { "id": "gegevens-veilig", "title": "Je gegevens blijven van jou", "body": "Bij een reparatie blijven je foto's, apps en berichten gewoon op je toestel staan.", "icon": "shield-check",
+    "sources": [{ "url": "https://www.phonerepairs.nl/telefoon-reparatie-den-bosch/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "Data stays on the device during repairs." }] },
+  { "id": "op-afspraak", "title": "Persoonlijk, op afspraak", "body": "Er wordt alleen op afspraak gewerkt, zodat er volle aandacht is voor jou en je toestel.", "icon": "calendar-check",
+    "sources": [{ "url": "https://www.phonerepairs.nl/afspraak-maken/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "Appointment only, for time and attention per repair." }] },
+  { "id": "transparante-prijzen", "title": "Prijzen inclusief montage en btw", "body": "De genoemde prijzen zijn inclusief montage en 21% btw.", "icon": "receipt",
+    "sources": [{ "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s23/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "'Alle prijzen zijn inclusief montage en 21% BTW.'" }] }
+]

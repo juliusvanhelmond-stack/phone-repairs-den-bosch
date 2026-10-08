@@ -1,0 +1,128 @@
+[
+  {
+    "id": "xiaomi-redmi-note-12",
+    "slug": "redmi-note-12",
+    "name": "Redmi Note 12",
+    "brandId": "xiaomi",
+    "categoryId": "smartphone",
+    "series": "Xiaomi",
+    "releaseYear": 2023,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Xiaomi is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-redmi-note-13",
+    "slug": "redmi-note-13",
+    "name": "Redmi Note 13",
+    "brandId": "xiaomi",
+    "categoryId": "smartphone",
+    "series": "Xiaomi",
+    "releaseYear": 2024,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Xiaomi is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-redmi-note-13-pro",
+    "slug": "redmi-note-13-pro",
+    "name": "Redmi Note 13 Pro",
+    "brandId": "xiaomi",
+    "categoryId": "smartphone",
+    "series": "Xiaomi",
+    "releaseYear": 2024,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Xiaomi is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-redmi-note-14",
+    "slug": "redmi-note-14",
+    "name": "Redmi Note 14",
+    "brandId": "xiaomi",
+    "categoryId": "smartphone",
+    "series": "Xiaomi",
+    "releaseYear": 2025,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Xiaomi is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-xiaomi-13t",
+    "slug": "xiaomi-13t",
+    "name": "Xiaomi 13T",
+    "brandId": "xiaomi",
+    "categoryId": "smartphone",
+    "series": "Xiaomi",
+    "releaseYear": 2023,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Xiaomi is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "xiaomi-xiaomi-14",
+    "slug": "xiaomi-14",
+    "name": "Xiaomi 14",
+    "brandId": "xiaomi",
+    "categoryId": "smartphone",
+    "series": "Xiaomi",
+    "releaseYear": 2024,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Xiaomi is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  }
+]

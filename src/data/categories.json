@@ -1,0 +1,5 @@
+[
+  { "id": "smartphone", "name": "Smartphone", "plural": "Smartphones", "description": "iPhone, Samsung Galaxy en meer", "order": 1 },
+  { "id": "tablet", "name": "Tablet", "plural": "Tablets", "description": "iPad en Samsung Galaxy Tab", "order": 2 },
+  { "id": "laptop", "name": "MacBook", "plural": "MacBooks", "description": "MacBook Air en MacBook Pro", "order": 3 }
+]

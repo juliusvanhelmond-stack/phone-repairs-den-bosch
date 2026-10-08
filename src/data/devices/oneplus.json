@@ -1,0 +1,163 @@
+[
+  {
+    "id": "oneplus-oneplus-9",
+    "slug": "oneplus-9",
+    "name": "OnePlus 9",
+    "brandId": "oneplus",
+    "categoryId": "smartphone",
+    "series": "OnePlus",
+    "releaseYear": 2021,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "9"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "OnePlus is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "oneplus-oneplus-10-pro",
+    "slug": "oneplus-10-pro",
+    "name": "OnePlus 10 Pro",
+    "brandId": "oneplus",
+    "categoryId": "smartphone",
+    "series": "OnePlus",
+    "releaseYear": 2022,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "10 Pro"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "OnePlus is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "oneplus-oneplus-11",
+    "slug": "oneplus-11",
+    "name": "OnePlus 11",
+    "brandId": "oneplus",
+    "categoryId": "smartphone",
+    "series": "OnePlus",
+    "releaseYear": 2023,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "11"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "OnePlus is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "oneplus-oneplus-12",
+    "slug": "oneplus-12",
+    "name": "OnePlus 12",
+    "brandId": "oneplus",
+    "categoryId": "smartphone",
+    "series": "OnePlus",
+    "releaseYear": 2024,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "12"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "OnePlus is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "oneplus-oneplus-13",
+    "slug": "oneplus-13",
+    "name": "OnePlus 13",
+    "brandId": "oneplus",
+    "categoryId": "smartphone",
+    "series": "OnePlus",
+    "releaseYear": 2025,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "13"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "OnePlus is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "oneplus-oneplus-nord-3",
+    "slug": "oneplus-nord-3",
+    "name": "OnePlus Nord 3",
+    "brandId": "oneplus",
+    "categoryId": "smartphone",
+    "series": "OnePlus",
+    "releaseYear": 2023,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "Nord 3"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "OnePlus is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "oneplus-oneplus-nord-ce-3-lite",
+    "slug": "oneplus-nord-ce-3-lite",
+    "name": "OnePlus Nord CE 3 Lite",
+    "brandId": "oneplus",
+    "categoryId": "smartphone",
+    "series": "OnePlus",
+    "releaseYear": 2023,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "Nord CE 3 Lite"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "OnePlus is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  }
+]

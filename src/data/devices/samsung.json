@@ -1,0 +1,1160 @@
+[
+  {
+    "id": "samsung-galaxy-s20",
+    "slug": "galaxy-s20",
+    "name": "Galaxy S20",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2020,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "S20"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s20-plus",
+    "slug": "galaxy-s20-plus",
+    "name": "Galaxy S20+",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2020,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "S20+"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s20-ultra",
+    "slug": "galaxy-s20-ultra",
+    "name": "Galaxy S20 Ultra",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2020,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "S20 Ultra"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s20-fe",
+    "slug": "galaxy-s20-fe",
+    "name": "Galaxy S20 FE",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2020,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "S20 FE"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s21",
+    "slug": "galaxy-s21",
+    "name": "Galaxy S21",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2021,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "S21"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s21-plus",
+    "slug": "galaxy-s21-plus",
+    "name": "Galaxy S21+",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2021,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "S21+"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s21-ultra",
+    "slug": "galaxy-s21-ultra",
+    "name": "Galaxy S21 Ultra",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2021,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "S21 Ultra"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s21-fe",
+    "slug": "galaxy-s21-fe",
+    "name": "Galaxy S21 FE",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2022,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "S21 FE"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s22",
+    "slug": "galaxy-s22",
+    "name": "Galaxy S22",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2022,
+    "art": "phone-punch-hole",
+    "popular": true,
+    "aliases": [
+      "S22"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s22-plus",
+    "slug": "galaxy-s22-plus",
+    "name": "Galaxy S22+",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2022,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "S22+"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s22-ultra",
+    "slug": "galaxy-s22-ultra",
+    "name": "Galaxy S22 Ultra",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2022,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "S22 Ultra"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s23",
+    "slug": "galaxy-s23",
+    "name": "Galaxy S23",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2023,
+    "art": "phone-punch-hole",
+    "popular": true,
+    "aliases": [
+      "S23"
+    ],
+    "legacyUrls": [
+      "/samsung-reparatie-den-bosch/samsung-s23/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      },
+      {
+        "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s23/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Original page: uses original Samsung service packs; prices include fitting and 21% VAT."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s23-plus",
+    "slug": "galaxy-s23-plus",
+    "name": "Galaxy S23+",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2023,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "S23+"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s23-ultra",
+    "slug": "galaxy-s23-ultra",
+    "name": "Galaxy S23 Ultra",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2023,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "S23 Ultra"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s23-fe",
+    "slug": "galaxy-s23-fe",
+    "name": "Galaxy S23 FE",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2023,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "S23 FE"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s24",
+    "slug": "galaxy-s24",
+    "name": "Galaxy S24",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2024,
+    "art": "phone-punch-hole",
+    "popular": true,
+    "aliases": [
+      "S24"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s24-plus",
+    "slug": "galaxy-s24-plus",
+    "name": "Galaxy S24+",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2024,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "S24+"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s24-ultra",
+    "slug": "galaxy-s24-ultra",
+    "name": "Galaxy S24 Ultra",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2024,
+    "art": "phone-punch-hole",
+    "popular": true,
+    "aliases": [
+      "S24 Ultra"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s24-fe",
+    "slug": "galaxy-s24-fe",
+    "name": "Galaxy S24 FE",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2024,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "S24 FE"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s25",
+    "slug": "galaxy-s25",
+    "name": "Galaxy S25",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2025,
+    "art": "phone-punch-hole",
+    "popular": true,
+    "aliases": [
+      "S25"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s25-plus",
+    "slug": "galaxy-s25-plus",
+    "name": "Galaxy S25+",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2025,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "S25+"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s25-ultra",
+    "slug": "galaxy-s25-ultra",
+    "name": "Galaxy S25 Ultra",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2025,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "S25 Ultra"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s25-edge",
+    "slug": "galaxy-s25-edge",
+    "name": "Galaxy S25 Edge",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2025,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "S25 Edge"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s25-fe",
+    "slug": "galaxy-s25-fe",
+    "name": "Galaxy S25 FE",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2025,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "S25 FE"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s26",
+    "slug": "galaxy-s26",
+    "name": "Galaxy S26",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2026,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "S26"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s26-plus",
+    "slug": "galaxy-s26-plus",
+    "name": "Galaxy S26+",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2026,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "S26+"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-s26-ultra",
+    "slug": "galaxy-s26-ultra",
+    "name": "Galaxy S26 Ultra",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy S",
+    "releaseYear": 2026,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "S26 Ultra"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a14",
+    "slug": "galaxy-a14",
+    "name": "Galaxy A14",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy A",
+    "releaseYear": 2023,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "A14"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a15",
+    "slug": "galaxy-a15",
+    "name": "Galaxy A15",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy A",
+    "releaseYear": 2023,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "A15"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a16",
+    "slug": "galaxy-a16",
+    "name": "Galaxy A16",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy A",
+    "releaseYear": 2024,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "A16"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a25",
+    "slug": "galaxy-a25",
+    "name": "Galaxy A25",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy A",
+    "releaseYear": 2023,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "A25"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a26",
+    "slug": "galaxy-a26",
+    "name": "Galaxy A26",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy A",
+    "releaseYear": 2025,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "A26"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a34",
+    "slug": "galaxy-a34",
+    "name": "Galaxy A34",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy A",
+    "releaseYear": 2023,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "A34"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a35",
+    "slug": "galaxy-a35",
+    "name": "Galaxy A35",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy A",
+    "releaseYear": 2024,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "A35"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a36",
+    "slug": "galaxy-a36",
+    "name": "Galaxy A36",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy A",
+    "releaseYear": 2025,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "A36"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a52",
+    "slug": "galaxy-a52",
+    "name": "Galaxy A52",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy A",
+    "releaseYear": 2021,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "A52"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a53",
+    "slug": "galaxy-a53",
+    "name": "Galaxy A53",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy A",
+    "releaseYear": 2022,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "A53"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a54",
+    "slug": "galaxy-a54",
+    "name": "Galaxy A54",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy A",
+    "releaseYear": 2023,
+    "art": "phone-punch-hole",
+    "popular": true,
+    "aliases": [
+      "A54"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a55",
+    "slug": "galaxy-a55",
+    "name": "Galaxy A55",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy A",
+    "releaseYear": 2024,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "A55"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-a56",
+    "slug": "galaxy-a56",
+    "name": "Galaxy A56",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy A",
+    "releaseYear": 2025,
+    "art": "phone-punch-hole",
+    "popular": false,
+    "aliases": [
+      "A56"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-z-flip5",
+    "slug": "galaxy-z-flip5",
+    "name": "Galaxy Z Flip5",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy Z",
+    "releaseYear": 2023,
+    "art": "phone-flip",
+    "popular": false,
+    "aliases": [
+      "Z Flip5"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-z-flip6",
+    "slug": "galaxy-z-flip6",
+    "name": "Galaxy Z Flip6",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy Z",
+    "releaseYear": 2024,
+    "art": "phone-flip",
+    "popular": false,
+    "aliases": [
+      "Z Flip6"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-z-flip7",
+    "slug": "galaxy-z-flip7",
+    "name": "Galaxy Z Flip7",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy Z",
+    "releaseYear": 2025,
+    "art": "phone-flip",
+    "popular": false,
+    "aliases": [
+      "Z Flip7"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-z-fold5",
+    "slug": "galaxy-z-fold5",
+    "name": "Galaxy Z Fold5",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy Z",
+    "releaseYear": 2023,
+    "art": "phone-foldable",
+    "popular": false,
+    "aliases": [
+      "Z Fold5"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-z-fold6",
+    "slug": "galaxy-z-fold6",
+    "name": "Galaxy Z Fold6",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy Z",
+    "releaseYear": 2024,
+    "art": "phone-foldable",
+    "popular": false,
+    "aliases": [
+      "Z Fold6"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-z-fold7",
+    "slug": "galaxy-z-fold7",
+    "name": "Galaxy Z Fold7",
+    "brandId": "samsung",
+    "categoryId": "smartphone",
+    "series": "Galaxy Z",
+    "releaseYear": 2025,
+    "art": "phone-foldable",
+    "popular": false,
+    "aliases": [
+      "Z Fold7"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-a9-plus",
+    "slug": "galaxy-tab-a9-plus",
+    "name": "Galaxy Tab A9+",
+    "brandId": "samsung",
+    "categoryId": "tablet",
+    "series": "Galaxy Tab",
+    "releaseYear": 2023,
+    "art": "tablet",
+    "popular": false,
+    "aliases": [
+      "Tab A9+"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-s9",
+    "slug": "galaxy-tab-s9",
+    "name": "Galaxy Tab S9",
+    "brandId": "samsung",
+    "categoryId": "tablet",
+    "series": "Galaxy Tab",
+    "releaseYear": 2023,
+    "art": "tablet",
+    "popular": false,
+    "aliases": [
+      "Tab S9"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-s9-fe",
+    "slug": "galaxy-tab-s9-fe",
+    "name": "Galaxy Tab S9 FE",
+    "brandId": "samsung",
+    "categoryId": "tablet",
+    "series": "Galaxy Tab",
+    "releaseYear": 2023,
+    "art": "tablet",
+    "popular": false,
+    "aliases": [
+      "Tab S9 FE"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  },
+  {
+    "id": "samsung-galaxy-tab-s10-plus",
+    "slug": "galaxy-tab-s10-plus",
+    "name": "Galaxy Tab S10+",
+    "brandId": "samsung",
+    "categoryId": "tablet",
+    "series": "Galaxy Tab",
+    "releaseYear": 2024,
+    "art": "tablet",
+    "popular": false,
+    "aliases": [
+      "Tab S10+"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "demo",
+        "capturedAt": "2026-10-08",
+        "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      }
+    ]
+  }
+]

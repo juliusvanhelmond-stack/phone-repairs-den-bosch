@@ -1,0 +1,12 @@
+[
+  {
+    "id": "algemeen",
+    "scope": "Alle reparaties",
+    "durationMonths": null,
+    "terms": [],
+    "verified": false,
+    "sources": [
+      { "url": "https://www.phonerepairs.nl/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "CONFLICT: the original site mentions both '12 maanden' and '90 dagen' garantie. Not published until confirmed by the owner." }
+    ]
+  }
+]
