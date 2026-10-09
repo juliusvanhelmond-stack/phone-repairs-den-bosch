@@ -20,6 +20,7 @@ version differs from older training data — check `node_modules/next/dist/docs/
 - Dynamic routes use `generateStaticParams` + `notFound()` and `export const instant = false` (real 404s, fully static pages).
 - `src/components/{layout,home,devices,repairs,forms,ui,motion}`; UI primitives follow shadcn/ui conventions on `radix-ui`.
 - Devices are drawn as SVG (`DeviceArt`). Atmosphere photos (hero, about, process band, CTA) are licensed Adobe Stock images in `src/assets/photos/`, listed in docs/image-credits.md; add new photos there too and never present stock photos as the shop itself.
+- `src/components/iphone/` — homepage 3D exploded-view section (React Three Fiber). `parts.ts` is the single source for part offsets, scroll windows, labels and repair links; `model.tsx` swaps the procedural stand-in for a licensed GLB via `NEXT_PUBLIC_IPHONE_MODEL_URL` (spec: docs/3d-model-requirements.md). The WebGL bundle is lazy-loaded; no-WebGL and reduced-motion fallbacks must keep working.
 - `scripts/{discovery,migration,validation,lib}` — migration pipeline and QA tooling (run with tsx).
 
 ## Content-preservation rules (non-negotiable)
@@ -31,6 +32,7 @@ version differs from older training data — check `node_modules/next/dist/docs/
 6. Changed URLs get a 301 via `src/data/url-inventory.json`. Keep original URLs where practical.
 7. The site stays noindex until `NEXT_PUBLIC_ALLOW_INDEXING=true` is set for the approved launch.
 8. The appointment form must never claim a booking was sent while no backend is connected.
+9. The 3D stand-in phone is not an accurate iPhone 17 teardown and must stay labelled as temporary in demo mode until a licensed model is supplied.
 
 ## Conventions
 - Dutch UI copy, informal "je". English code and comments.
