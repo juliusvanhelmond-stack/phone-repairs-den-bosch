@@ -14,24 +14,24 @@ const companyLinks = [
 
 export function SiteFooter() {
   return (
-    <footer className="bg-night text-slate-300">
+    <footer className="bg-night text-neutral-300">
       <div className="container-page grid gap-12 py-16 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr] lg:py-20">
         <div className="max-w-sm">
           <Logo tone="light" />
-          <p className="mt-5 text-[0.9375rem] leading-relaxed text-slate-400">
+          <p className="mt-5 text-[0.9375rem] leading-relaxed text-neutral-400">
             Reparatie van smartphones, tablets en MacBooks in {site.address.cityShort}. Op afspraak, vaak binnen
             30 minuten klaar.
           </p>
           <ul className="mt-6 space-y-3 text-[0.9375rem]">
             <li>
               <a href={site.phone.href} className="inline-flex items-center gap-3 transition-colors hover:text-white">
-                <Phone className="size-4 text-slate-500" aria-hidden />
+                <Phone className="size-4 text-neutral-500" aria-hidden />
                 {site.phone.display}
               </a>
             </li>
             <li>
               <a href={`mailto:${site.email}`} className="inline-flex items-center gap-3 transition-colors hover:text-white">
-                <Mail className="size-4 text-slate-500" aria-hidden />
+                <Mail className="size-4 text-neutral-500" aria-hidden />
                 {site.email}
               </a>
             </li>
@@ -42,7 +42,7 @@ export function SiteFooter() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 transition-colors hover:text-white"
               >
-                <MapPin className="size-4 text-slate-500" aria-hidden />
+                <MapPin className="size-4 text-neutral-500" aria-hidden />
                 {site.address.street}, {site.address.cityShort}
               </a>
             </li>
@@ -56,7 +56,7 @@ export function SiteFooter() {
         <FooterColumn title="Phone Repairs" links={companyLinks} />
       </div>
       <div className="border-t border-white/10">
-        <div className="container-page flex flex-col gap-2 py-6 text-sm text-slate-400 sm:flex-row sm:items-center sm:justify-between">
+        <div className="container-page flex flex-col gap-2 py-6 text-sm text-neutral-400 sm:flex-row sm:items-center sm:justify-between">
           <p>© {site.legalName}</p>
           <p>Ontwerpvoorstel door JUNE Studio · niet geïndexeerd</p>
         </div>

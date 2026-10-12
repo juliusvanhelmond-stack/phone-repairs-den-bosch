@@ -44,14 +44,14 @@ export default function AppointmentPage() {
           <aside className="space-y-4">
             <div className="rounded-[var(--radius-card)] bg-night p-7 text-white">
               <h2 className="text-lg font-semibold tracking-tight">Liever direct contact?</h2>
-              <p className="mt-2 text-sm leading-relaxed text-slate-300">Bel of mail, dan plannen we samen een moment in.</p>
+              <p className="mt-2 text-sm leading-relaxed text-neutral-300">Bel of mail, dan plannen we samen een moment in.</p>
               <div className="mt-6 space-y-2">
                 <a href={site.phone.href} className="flex items-center gap-3 rounded-2xl bg-white/10 px-4 py-3 transition-colors hover:bg-white/15">
-                  <Phone className="size-4 text-blue-300" aria-hidden />
+                  <Phone className="size-4 text-accent-light" aria-hidden />
                   {site.phone.display}
                 </a>
                 <a href={`mailto:${site.email}`} className="flex items-center gap-3 rounded-2xl bg-white/10 px-4 py-3 break-all transition-colors hover:bg-white/15">
-                  <Mail className="size-4 shrink-0 text-blue-300" aria-hidden />
+                  <Mail className="size-4 shrink-0 text-accent-light" aria-hidden />
                   {site.email}
                 </a>
               </div>

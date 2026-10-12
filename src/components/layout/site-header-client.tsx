@@ -31,7 +31,7 @@ export function SiteHeaderClient({ nav, phone }: Props) {
       className={cn(
         "sticky top-0 z-50 transition-[background-color,box-shadow,backdrop-filter] duration-300",
         scrolled
-          ? "bg-white/85 shadow-[0_1px_0_rgb(17_24_39/0.06),0_8px_24px_-16px_rgb(30_58_138/0.18)] backdrop-blur-xl backdrop-saturate-150"
+          ? "bg-white/85 shadow-[0_1px_0_rgb(34_34_34/0.06),0_8px_24px_-16px_rgb(16_111_49/0.14)] backdrop-blur-xl backdrop-saturate-150"
           : "bg-white/0",
       )}
     >
@@ -144,9 +144,9 @@ function MegaMenu({ nav }: { nav: NavData }) {
             className="absolute -top-16 -right-16 size-56 rounded-full bg-accent/40 blur-3xl"
             aria-hidden
           />
-          <Search className="relative mb-auto size-6 text-blue-300" aria-hidden />
+          <Search className="relative mb-auto size-6 text-accent-light" aria-hidden />
           <p className="relative text-xl font-semibold tracking-tight">Zoek jouw toestel</p>
-          <p className="relative mt-1 text-sm text-slate-300">Kies je model en de reparatie die je nodig hebt.</p>
+          <p className="relative mt-1 text-sm text-neutral-300">Kies je model en de reparatie die je nodig hebt.</p>
           <span className="relative mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-white">
             Start de zoeker
             <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" aria-hidden />

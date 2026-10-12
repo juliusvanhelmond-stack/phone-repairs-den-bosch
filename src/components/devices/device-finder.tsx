@@ -568,7 +568,7 @@ function FinderResult({
         </div>
         <Link
           href={devicePageHref}
-          className="mt-5 inline-flex items-center gap-1 self-start text-sm font-medium text-accent-strong hover:text-blue-800"
+          className="mt-5 inline-flex items-center gap-1 self-start text-sm font-medium text-accent-strong hover:text-accent"
         >
           Alle reparaties voor de {device.name}
           <ChevronRight className="size-4" aria-hidden />

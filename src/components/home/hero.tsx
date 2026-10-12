@@ -68,7 +68,7 @@ export function Hero() {
               sizes="(min-width: 1024px) 45vw, 100vw"
               className="object-cover object-[62%_55%]"
             />
-            <div className="absolute inset-0 bg-[linear-gradient(to_top,rgb(16_24_40/0.35),transparent_45%)]" aria-hidden />
+            <div className="absolute inset-0 bg-[linear-gradient(to_top,rgb(34_34_34/0.35),transparent_45%)]" aria-hidden />
           </div>
           <FloatingCard className="bottom-4 left-4 sm:top-8 sm:right-8 sm:bottom-auto sm:left-auto lg:-right-4" delay="0.5s">
             <span className="grid size-9 place-items-center rounded-xl bg-accent-soft text-accent">

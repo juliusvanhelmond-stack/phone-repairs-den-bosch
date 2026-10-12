@@ -20,7 +20,7 @@ export function PopularBrands() {
                 className="group flex h-12 items-center justify-between gap-3 rounded-full bg-white px-5 text-[1.0625rem] font-semibold tracking-tight text-ink-soft shadow-[var(--shadow-soft)] ring-1 ring-line transition-colors hover:bg-ink hover:text-white hover:ring-ink"
               >
                 {b.name}
-                <span className="text-xs font-normal text-muted tabular-nums group-hover:text-slate-300">
+                <span className="text-xs font-normal text-muted tabular-nums group-hover:text-neutral-300">
                   {devices.filter((d) => d.brandId === b.id).length}
                 </span>
               </Link>
@@ -47,7 +47,7 @@ export function PopularModels() {
           </Reveal>
           <Link
             href="/reparaties"
-            className="inline-flex shrink-0 items-center gap-1.5 text-[0.9375rem] font-medium text-accent-strong hover:text-blue-800"
+            className="inline-flex shrink-0 items-center gap-1.5 text-[0.9375rem] font-medium text-accent-strong hover:text-accent"
           >
             Alle toestellen
             <ArrowRight className="size-4" aria-hidden />

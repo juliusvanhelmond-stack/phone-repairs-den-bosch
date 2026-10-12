@@ -25,10 +25,10 @@ export function FinalCta({
             sizes="(min-width: 1280px) 76rem, 100vw"
             className="-z-20 object-cover"
           />
-          <div className="absolute inset-0 -z-10 bg-[linear-gradient(to_bottom,rgb(16_24_40/0.7),rgb(16_24_40/0.88))]" aria-hidden />
+          <div className="absolute inset-0 -z-10 bg-[linear-gradient(to_bottom,rgb(34_34_34/0.7),rgb(34_34_34/0.88))]" aria-hidden />
           <div className="absolute -bottom-32 left-1/2 -z-10 h-64 w-[40rem] -translate-x-1/2 rounded-full bg-accent/35 blur-[100px]" aria-hidden />
           <h2 className="mx-auto max-w-2xl text-headline font-semibold text-balance text-white">{title}</h2>
-          <p className="mx-auto mt-5 max-w-xl text-lg leading-relaxed text-pretty text-slate-300">{body}</p>
+          <p className="mx-auto mt-5 max-w-xl text-lg leading-relaxed text-pretty text-neutral-300">{body}</p>
           <div className="mt-10 flex flex-col justify-center gap-3 sm:flex-row">
             <Button asChild size="lg" variant="light">
               <Link href="/afspraak">

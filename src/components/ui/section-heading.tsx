@@ -20,7 +20,7 @@ export function SectionHeading({
 }) {
   return (
     <div className={cn("max-w-2xl", align === "center" && "mx-auto text-center", className)}>
-      {eyebrow && <p className={cn("eyebrow mb-4", tone === "dark" && "text-blue-300")}>{eyebrow}</p>}
+      {eyebrow && <p className={cn("eyebrow mb-4", tone === "dark" && "text-accent-light")}>{eyebrow}</p>}
       <Heading
         className={cn(
           "text-headline font-semibold text-balance",
@@ -33,7 +33,7 @@ export function SectionHeading({
         <p
           className={cn(
             "mt-5 text-lg leading-relaxed text-pretty",
-            tone === "dark" ? "text-slate-300" : "text-muted",
+            tone === "dark" ? "text-neutral-300" : "text-muted",
           )}
         >
           {intro}

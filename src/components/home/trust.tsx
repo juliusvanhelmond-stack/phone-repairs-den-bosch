@@ -21,9 +21,9 @@ export function Trust() {
           {claims.map((c, i) => (
             <li key={c.id} className="glass-dark rounded-[var(--radius-card)] p-7 lg:p-8">
               <Reveal delay={i * 0.04}>
-                <ContentIcon name={c.icon} className="size-6 text-blue-300" />
+                <ContentIcon name={c.icon} className="size-6 text-accent-light" />
                 <h3 className="mt-8 text-lg font-semibold tracking-tight">{c.title}</h3>
-                <p className="mt-2 leading-relaxed text-slate-400">{c.body}</p>
+                <p className="mt-2 leading-relaxed text-neutral-400">{c.body}</p>
               </Reveal>
             </li>
           ))}

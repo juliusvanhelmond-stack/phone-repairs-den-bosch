@@ -101,7 +101,7 @@ export function Location() {
               <ContactDetails />
               <Link
                 href="/contact"
-                className="mt-4 inline-flex items-center gap-1.5 text-[0.9375rem] font-medium text-accent-strong hover:text-blue-800"
+                className="mt-4 inline-flex items-center gap-1.5 text-[0.9375rem] font-medium text-accent-strong hover:text-accent"
               >
                 Alle contactmogelijkheden
                 <ArrowUpRight className="size-4" aria-hidden />

@@ -56,8 +56,8 @@ function useMaterial<T extends THREE.Material>(factory: () => T): T {
   return material;
 }
 
-/** Frosted, slightly tinted glass (iPhone 17 "Mist Blue" inspired). */
-const BODY_TINT = "#b7c4d6";
+/** Frosted, slightly tinted glass (iPhone 17 "Sage" inspired, close to the brand green). */
+const BODY_TINT = "#b9c3ab";
 
 function Slab({
   w,
@@ -108,14 +108,14 @@ function useScreenTexture() {
     c.height = 1072;
     const ctx = c.getContext("2d")!;
     const bg = ctx.createLinearGradient(0, 0, 380, 1072);
-    bg.addColorStop(0, "#22345a");
-    bg.addColorStop(0.55, "#111c33");
-    bg.addColorStop(1, "#0a0f1c");
+    bg.addColorStop(0, "#2c3330");
+    bg.addColorStop(0.55, "#1a1f1c");
+    bg.addColorStop(1, "#111412");
     ctx.fillStyle = bg;
     ctx.fillRect(0, 0, c.width, c.height);
     const glow = ctx.createRadialGradient(140, 220, 10, 140, 220, 520);
-    glow.addColorStop(0, "rgba(59,130,246,0.55)");
-    glow.addColorStop(1, "rgba(37,99,235,0)");
+    glow.addColorStop(0, "rgba(31,154,76,0.5)");
+    glow.addColorStop(1, "rgba(16,111,49,0)");
     ctx.fillStyle = glow;
     ctx.fillRect(0, 0, c.width, c.height);
     // Dynamic Island
@@ -150,7 +150,7 @@ function FrontGlass() {
   const material = useMaterial(
     () =>
       new THREE.MeshPhysicalMaterial({
-        color: "#1c2a40",
+        color: "#1d2420",
         roughness: 0.02,
         metalness: 0,
         clearcoat: 1,
@@ -190,8 +190,8 @@ function Display() {
 }
 
 function Midframe() {
-  const plate = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#8d97a5", metalness: 0.9, roughness: 0.38 }));
-  const shield = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#c3cad4", metalness: 1, roughness: 0.22 }));
+  const plate = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#a0a7a2", metalness: 0.9, roughness: 0.38 }));
+  const shield = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#c9cec9", metalness: 1, roughness: 0.22 }));
   return (
     <group>
       <FlatRounded w={W - 0.034} h={H - 0.034} r={R - 0.018} d={0.0018} material={plate} />
@@ -239,8 +239,8 @@ function Frame() {
 }
 
 function LogicBoard() {
-  const pcb = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#13262a", roughness: 0.55, metalness: 0.2 }));
-  const shield = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#aeb6c1", metalness: 1, roughness: 0.3 }));
+  const pcb = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#16291e", roughness: 0.55, metalness: 0.2 }));
+  const shield = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#b4bab5", metalness: 1, roughness: 0.3 }));
   const chip = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#16181d", roughness: 0.4, metalness: 0.4 }));
   const gold = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#c9a24a", metalness: 1, roughness: 0.3 }));
   return (
@@ -260,8 +260,8 @@ function LogicBoard() {
 }
 
 function Battery() {
-  const cell = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#232a35", roughness: 0.42, metalness: 0.35 }));
-  const label = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#2f3846", roughness: 0.6 }));
+  const cell = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#2b2f2d", roughness: 0.42, metalness: 0.35 }));
+  const label = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#3b403d", roughness: 0.6 }));
   const tab = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#c77a12", roughness: 0.45, metalness: 0.3 }));
   return (
     <group>
@@ -278,9 +278,9 @@ function Camera() {
   const plateau = useMaterial(
     () => new THREE.MeshPhysicalMaterial({ color: BODY_TINT, roughness: 0.18, metalness: 0.2, clearcoat: 1, clearcoatRoughness: 0.08 }),
   );
-  const ring = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#a9b3c1", metalness: 1, roughness: 0.18 }));
+  const ring = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#adb5ab", metalness: 1, roughness: 0.18 }));
   const lens = useMaterial(
-    () => new THREE.MeshPhysicalMaterial({ color: "#0b1426", roughness: 0.05, metalness: 0.1, clearcoat: 1, clearcoatRoughness: 0.02, envMapIntensity: 2 }),
+    () => new THREE.MeshPhysicalMaterial({ color: "#0e1511", roughness: 0.05, metalness: 0.1, clearcoat: 1, clearcoatRoughness: 0.02, envMapIntensity: 2 }),
   );
   const sensor = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#6b7482", roughness: 0.35, metalness: 0.9 }));
   const flash = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#f3ead4", roughness: 0.3, emissive: "#3a3426" }));
@@ -314,9 +314,9 @@ function Camera() {
 }
 
 function ChargingPort() {
-  const metal = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#c7ced8", metalness: 1, roughness: 0.25 }));
+  const metal = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#ccd1cc", metalness: 1, roughness: 0.25 }));
   const flex = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#c77a12", roughness: 0.45, metalness: 0.3 }));
-  const speaker = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#20252d", roughness: 0.5, metalness: 0.4 }));
+  const speaker = useMaterial(() => new THREE.MeshStandardMaterial({ color: "#232624", roughness: 0.5, metalness: 0.4 }));
   return (
     <group>
       <Slab w={0.09} h={0.03} d={0.03} r={0.012} material={metal} />
@@ -333,13 +333,13 @@ function BackGlass() {
   const glass = useMaterial(
     () =>
       new THREE.MeshPhysicalMaterial({
-        color: "#9fb3cf",
+        color: "#aab69c",
         roughness: 0.32,
         metalness: 0.1,
         clearcoat: 0.8,
         clearcoatRoughness: 0.3,
         sheen: 0.3,
-        sheenColor: new THREE.Color("#dbe5f2"),
+        sheenColor: new THREE.Color("#e3eadb"),
       }),
   );
   return <Slab w={W - 0.004} h={H - 0.004} d={0.006} r={R - 0.002} material={glass} />;

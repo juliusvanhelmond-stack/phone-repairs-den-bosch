@@ -49,7 +49,7 @@ export function About() {
             </dl>
             <Link
               href="/over-ons"
-              className="mt-10 inline-flex items-center gap-1.5 text-[0.9375rem] font-medium text-accent-strong hover:text-blue-800"
+              className="mt-10 inline-flex items-center gap-1.5 text-[0.9375rem] font-medium text-accent-strong hover:text-accent"
             >
               Meer over Phone Repairs
               <ArrowRight className="size-4" aria-hidden />

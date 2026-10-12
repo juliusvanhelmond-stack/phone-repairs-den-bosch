@@ -18,7 +18,7 @@ import {
 } from "./parts";
 import type { ExplodeStore } from "./store";
 
-const ACCENT = new THREE.Color("#3b82f6");
+const ACCENT = new THREE.Color("#1f9a4c");
 const ASSEMBLED_POSE = new THREE.Euler(0.16, -0.62, 0.08);
 const EXPLODED_POSE = new THREE.Euler(-1.0, 0.24, 0.5);
 
@@ -36,7 +36,7 @@ export function ExplodedPhoneScene({ store, compact, quality }: SceneProps) {
         <IphoneModel>{(model) => <PhoneRig model={model} store={store} compact={compact} />}</IphoneModel>
       </Suspense>
       {quality === "high" && (
-        <ContactShadows position={[0, -1.12, 0]} opacity={0.32} scale={5} blur={2.6} far={2.4} resolution={512} color="#1e3a8a" />
+        <ContactShadows position={[0, -1.12, 0]} opacity={0.32} scale={5} blur={2.6} far={2.4} resolution={512} color="#1d3326" />
       )}
       <CameraRig store={store} compact={compact} />
     </>
@@ -49,14 +49,14 @@ function StudioLighting() {
     <>
       <ambientLight intensity={0.35} />
       <directionalLight position={[2.5, 4, 3]} intensity={1.6} color="#ffffff" />
-      <directionalLight position={[-3, 1.5, -2]} intensity={0.6} color="#bcd0ff" />
+      <directionalLight position={[-3, 1.5, -2]} intensity={0.6} color="#d9e6dc" />
       <Environment resolution={256} frames={1}>
-        <color attach="background" args={["#c7d3e6"]} />
+        <color attach="background" args={["#d4dbd6"]} />
         <Lightformer form="rect" intensity={3} position={[0, 4, 2]} rotation={[Math.PI / 2, 0, 0]} scale={[8, 3, 1]} />
-        <Lightformer form="rect" intensity={2.2} position={[-4, 1, 1]} rotation={[0, Math.PI / 2, 0]} scale={[3, 6, 1]} color="#dbe7ff" />
+        <Lightformer form="rect" intensity={2.2} position={[-4, 1, 1]} rotation={[0, Math.PI / 2, 0]} scale={[3, 6, 1]} color="#eef3ef" />
         <Lightformer form="rect" intensity={1.6} position={[4, 0, 2]} rotation={[0, -Math.PI / 2, 0]} scale={[3, 6, 1]} />
-        <Lightformer form="ring" intensity={1.2} position={[0, 0, -5]} scale={4} color="#93b4ff" />
-        <Lightformer form="rect" intensity={1.4} position={[0, -3, 1]} rotation={[-Math.PI / 2, 0, 0]} scale={[6, 2, 1]} color="#eef2f9" />
+        <Lightformer form="ring" intensity={1.2} position={[0, 0, -5]} scale={4} color="#b9d8c1" />
+        <Lightformer form="rect" intensity={1.4} position={[0, -3, 1]} rotation={[-Math.PI / 2, 0, 0]} scale={[6, 2, 1]} color="#f1f4f2" />
       </Environment>
     </>
   );

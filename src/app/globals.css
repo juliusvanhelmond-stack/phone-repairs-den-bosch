@@ -1,44 +1,46 @@
 @import "tailwindcss";
 
 @theme {
-  /* Cool tinted page base; cards stay pure white for depth. */
-  --color-canvas: #eef2f9;
-  --color-mist: #e3e9f4;
-  --color-ink: #111827;
-  --color-ink-soft: #334155;
-  /* #64748B from the brief, darkened slightly to reach WCAG AA (4.5:1) on the tinted backgrounds. */
-  --color-muted: #55647a;
-  --color-accent: #2563eb;
-  --color-accent-strong: #1d4ed8;
-  --color-accent-soft: #eff4ff;
-  --color-night: #101828;
-  --color-night-soft: #1d2939;
-  --color-line: #e5e7eb;
-  --color-line-strong: #d1d5db;
+  /* Phone Repairs house colours: green #106f31, grey #515151, dark #222222.
+     Neutral page tint with a hint of green; cards stay pure white for depth. */
+  --color-canvas: #f1f4f2;
+  --color-mist: #e6ebe8;
+  --color-ink: #222222;
+  --color-ink-soft: #3a3a3a;
+  --color-muted: #515151;
+  --color-accent: #106f31;
+  --color-accent-strong: #0c5a27;
+  --color-accent-soft: #e7f2ea;
+  /* Light green for text/icons on dark backgrounds. */
+  --color-accent-light: #86d19e;
+  --color-night: #222222;
+  --color-night-soft: #2e2e2e;
+  --color-line: #e2e6e3;
+  --color-line-strong: #cdd4cf;
   --color-success: #16a34a;
   --color-warning: #b45309;
   --color-warning-soft: #fffbeb;
   --color-danger: #dc2626;
 
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-open-sans), ui-sans-serif, system-ui, sans-serif;
   --font-mono: var(--font-geist-mono), ui-monospace, monospace;
 
   --radius-card: 1.5rem;
   --radius-panel: 2rem;
 
-  --shadow-soft: 0 1px 2px rgb(16 24 40 / 0.04), 0 8px 24px -8px rgb(16 24 40 / 0.08);
-  --shadow-lift: 0 1px 2px rgb(16 24 40 / 0.05), 0 18px 40px -16px rgb(16 24 40 / 0.18);
-  --shadow-ring: 0 0 0 1px rgb(17 24 39 / 0.06);
+  --shadow-soft: 0 1px 2px rgb(34 34 34 / 0.04), 0 8px 24px -8px rgb(34 34 34 / 0.08);
+  --shadow-lift: 0 1px 2px rgb(34 34 34 / 0.05), 0 18px 40px -16px rgb(34 34 34 / 0.18);
+  --shadow-ring: 0 0 0 1px rgb(34 34 34 / 0.06);
 
   --text-display: clamp(2.5rem, 1.5rem + 3.9vw, 4.4rem);
   --text-display--line-height: 1.02;
-  --text-display--letter-spacing: -0.045em;
+  --text-display--letter-spacing: -0.03em;
   --text-headline: clamp(2rem, 1.3rem + 2.8vw, 3.4rem);
   --text-headline--line-height: 1.06;
-  --text-headline--letter-spacing: -0.035em;
+  --text-headline--letter-spacing: -0.025em;
   --text-title: clamp(1.35rem, 1.1rem + 0.8vw, 1.75rem);
   --text-title--line-height: 1.2;
-  --text-title--letter-spacing: -0.02em;
+  --text-title--letter-spacing: -0.015em;
 
   --animate-fade-up: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
 
@@ -71,7 +73,7 @@
   }
 
   ::selection {
-    background: rgb(37 99 235 / 0.16);
+    background: rgb(16 111 49 / 0.18);
   }
 
   :focus-visible {
@@ -130,8 +132,8 @@
   box-shadow:
     inset 0 1px 0 rgb(255 255 255 / 0.85),
     0 0 0 1px rgb(255 255 255 / 0.7),
-    0 1px 2px rgb(16 24 40 / 0.04),
-    0 18px 40px -18px rgb(30 58 138 / 0.18);
+    0 1px 2px rgb(34 34 34 / 0.04),
+    0 18px 40px -18px rgb(16 111 49 / 0.14);
 }
 
 @utility glass-dark {
@@ -145,8 +147,8 @@
 
 @utility bg-grid {
   background-image:
-    linear-gradient(to right, rgb(17 24 39 / 0.045) 1px, transparent 1px),
-    linear-gradient(to bottom, rgb(17 24 39 / 0.045) 1px, transparent 1px);
+    linear-gradient(to right, rgb(34 34 34 / 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(34 34 34 / 0.045) 1px, transparent 1px);
   background-size: 48px 48px;
 }
 

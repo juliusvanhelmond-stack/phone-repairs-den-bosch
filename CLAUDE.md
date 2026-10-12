@@ -36,6 +36,7 @@ version differs from older training data — check `node_modules/next/dist/docs/
 
 ## Conventions
 - Dutch UI copy, informal "je". English code and comments.
-- Design tokens live in `src/app/globals.css` (`@theme`); use `text-ink`, `text-muted`, `bg-mist`, `text-headline`, etc. — no raw hex in components. The page base is a cool tint (`canvas`); cards are `bg-white`; use `<Aura>` for soft colour fields and the `glass` / `glass-dark` utilities for frosted surfaces. Blue text uses `text-accent-strong` (contrast on tinted backgrounds).
+- House style (client requirement): green `#106f31` (`accent`), grey `#515151` (`muted`), dark `#222222` (`ink`, `night`), typeface Open Sans. The official logo goes in `public/brand/` and is switched on via `site.logo` in `src/lib/site.ts`; until then a placeholder mark is shown.
+- Design tokens live in `src/app/globals.css` (`@theme`); use `text-ink`, `text-muted`, `bg-mist`, `text-headline`, etc. — no raw hex in components. The page base is a neutral tint (`canvas`); cards are `bg-white`; use `<Aura>` for soft colour fields and the `glass` / `glass-dark` utilities for frosted surfaces. Green text on tints uses `text-accent-strong`; on dark backgrounds `text-accent-light`.
 - Server Components by default; `"use client"` only for interaction (header, finder, form, exploded phone).
 - Respect `prefers-reduced-motion`; reveal-on-scroll is CSS (`.reveal`), content is never hidden without JS.

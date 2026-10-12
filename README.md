@@ -78,7 +78,8 @@ Self-hosting is also possible with `npm run build && npm start` on Node 20.9+.
 ## Stack
 
 - Next.js 16 (App Router, Cache Components), React 19, TypeScript, Tailwind CSS v4, next/image;
-- shadcn/ui-style components on Radix, Lucide icons, Motion, cmdk, react-hook-form, zod, Geist.
+- shadcn/ui-style components on Radix, Lucide icons, Motion, cmdk, react-hook-form, zod;
+- house style of Phone Repairs: Open Sans, green `#106f31`, grey `#515151`, dark `#222222`.
 
 Photos come from the Adobe Stock Free Collection, see [docs/image-credits.md](docs/image-credits.md).
 

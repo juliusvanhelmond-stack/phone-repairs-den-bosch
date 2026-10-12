@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { GeistSans } from "geist/font/sans";
+import { Open_Sans } from "next/font/google";
 import { GeistMono } from "geist/font/mono";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
@@ -7,6 +7,9 @@ import { JsonLd } from "@/components/ui/json-ld";
 import { localBusinessJsonLd } from "@/lib/seo";
 import { allowIndexing, site } from "@/lib/site";
 import "./globals.css";
+
+// House typeface of Phone Repairs.
+const openSans = Open_Sans({ subsets: ["latin"], variable: "--font-open-sans", display: "swap" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -22,12 +25,12 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#ffffff",
+  themeColor: "#106f31",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="nl" className={`${GeistSans.variable} ${GeistMono.variable} antialiased`}>
+    <html lang="nl" className={`${openSans.variable} ${GeistMono.variable} antialiased`}>
       <body className="flex min-h-dvh flex-col">
         <a
           href="#inhoud"

@@ -22,7 +22,7 @@ export function ExplodedPhone() {
   return (
     <MotionConfig reducedMotion="user">
     <div className="relative mx-auto aspect-[1/1.02] w-full max-w-[34rem]" aria-hidden>
-      <div className="absolute inset-[12%] rounded-full bg-[radial-gradient(closest-side,rgb(37_99_235/0.14),transparent)]" />
+      <div className="absolute inset-[12%] rounded-full bg-[radial-gradient(closest-side,rgb(16_111_49/0.14),transparent)]" />
       <motion.div
         className="absolute top-[58%] left-1/2 [transform-style:preserve-3d] sm:top-1/2"
         style={{ width: 0, height: 0 }}
@@ -76,9 +76,9 @@ const radius = "rounded-[calc(var(--w)*0.2)]";
 function BackGlass() {
   return (
     <div
-      className={`absolute inset-0 ${radius} bg-[linear-gradient(140deg,#F3F5F8,#D5DBE4_55%,#BCC4CF)] shadow-[0_40px_60px_-20px_rgb(16_24_40/0.45),inset_0_0_0_1px_rgb(255_255_255/0.6)]`}
+      className={`absolute inset-0 ${radius} bg-[linear-gradient(140deg,#f2f4ef,#d6dccf_55%,#bcc5b3)] shadow-[0_40px_60px_-20px_rgb(34_34_34/0.45),inset_0_0_0_1px_rgb(255_255_255/0.6)]`}
     >
-      <div className="absolute top-[4.5%] left-[8%] aspect-square w-[44%] rounded-[24%] bg-[linear-gradient(140deg,#E7EBF0,#C3CAD4)] shadow-[inset_0_0_0_1px_rgb(255_255_255/0.7),0_6px_14px_-6px_rgb(16_24_40/0.35)]">
+      <div className="absolute top-[4.5%] left-[8%] aspect-square w-[44%] rounded-[24%] bg-[linear-gradient(140deg,#e8ece3,#c4ccba)] shadow-[inset_0_0_0_1px_rgb(255_255_255/0.7),0_6px_14px_-6px_rgb(34_34_34/0.35)]">
         <Lens className="top-[9%] left-[9%]" />
         <Lens className="top-[52%] left-[9%]" />
         <Lens className="top-[30%] left-[52%]" />
@@ -91,7 +91,7 @@ function BackGlass() {
 function Lens({ className }: { className: string }) {
   return (
     <span
-      className={`absolute size-[39%] rounded-full bg-[radial-gradient(circle_at_35%_35%,#4B5563,#0B0F19_62%)] shadow-[0_0_0_3px_#D9DEE5,0_0_0_4px_rgb(16_24_40/0.12)] ${className}`}
+      className={`absolute size-[39%] rounded-full bg-[radial-gradient(circle_at_35%_35%,#545a56,#0c0e0d_62%)] shadow-[0_0_0_3px_#dde2d6,0_0_0_4px_rgb(34_34_34/0.12)] ${className}`}
     />
   );
 }
@@ -100,20 +100,20 @@ function Internals() {
   return (
     <div className={`absolute inset-[3%] ${radius}`}>
       {/* logic board */}
-      <div className="absolute top-[2%] right-[4%] left-[4%] h-[30%] rounded-[1.1rem] bg-[#1C2638] shadow-[0_20px_30px_-16px_rgb(16_24_40/0.6)]">
-        <span className="absolute top-[18%] left-[52%] h-[34%] w-[30%] rounded-md bg-[#2B3A52]" />
-        <span className="absolute top-[60%] left-[52%] h-[18%] w-[16%] rounded bg-[#34475F]" />
-        <span className="absolute top-[18%] left-[10%] size-[22%] rounded-full bg-[#111827] ring-2 ring-[#2B3A52]" />
+      <div className="absolute top-[2%] right-[4%] left-[4%] h-[30%] rounded-[1.1rem] bg-[#232825] shadow-[0_20px_30px_-16px_rgb(34_34_34/0.6)]">
+        <span className="absolute top-[18%] left-[52%] h-[34%] w-[30%] rounded-md bg-[#343b37]" />
+        <span className="absolute top-[60%] left-[52%] h-[18%] w-[16%] rounded bg-[#3f4842]" />
+        <span className="absolute top-[18%] left-[10%] size-[22%] rounded-full bg-[#141615] ring-2 ring-[#343b37]" />
         <span className="absolute top-[62%] left-[14%] h-[14%] w-[26%] rounded-full bg-accent/80" />
       </div>
       {/* battery */}
-      <div className="absolute top-[35%] right-[10%] left-[10%] h-[48%] rounded-[1.1rem] bg-[linear-gradient(160deg,#2A3346,#141B2B)] shadow-[0_20px_30px_-16px_rgb(16_24_40/0.6),inset_0_0_0_1px_rgb(255_255_255/0.06)]">
+      <div className="absolute top-[35%] right-[10%] left-[10%] h-[48%] rounded-[1.1rem] bg-[linear-gradient(160deg,#2b302d,#171a18)] shadow-[0_20px_30px_-16px_rgb(34_34_34/0.6),inset_0_0_0_1px_rgb(255_255_255/0.06)]">
         <span className="absolute inset-x-[18%] top-[44%] h-[3%] rounded-full bg-white/10" />
         <span className="absolute inset-x-[30%] top-[52%] h-[3%] rounded-full bg-white/6" />
       </div>
       {/* charging port / speaker */}
-      <div className="absolute right-[18%] bottom-[3%] left-[18%] h-[8%] rounded-lg bg-[#1C2638]">
-        <span className="absolute top-1/2 left-1/2 h-[30%] w-[30%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#3E5170]" />
+      <div className="absolute right-[18%] bottom-[3%] left-[18%] h-[8%] rounded-lg bg-[#232825]">
+        <span className="absolute top-1/2 left-1/2 h-[30%] w-[30%] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#4a544d]" />
       </div>
     </div>
   );
@@ -122,7 +122,7 @@ function Internals() {
 function Frame() {
   return (
     <div
-      className={`absolute inset-0 ${radius} shadow-[inset_0_0_0_calc(var(--w)*0.03)_#C9D0DA,inset_0_0_0_calc(var(--w)*0.036)_#9EA7B4,0_10px_30px_-12px_rgb(16_24_40/0.3)]`}
+      className={`absolute inset-0 ${radius} shadow-[inset_0_0_0_calc(var(--w)*0.03)_#c9d1bf,inset_0_0_0_calc(var(--w)*0.036)_#9fa995,0_10px_30px_-12px_rgb(34_34_34/0.3)]`}
     />
   );
 }
@@ -130,10 +130,10 @@ function Frame() {
 function Display() {
   return (
     <div
-      className={`absolute inset-0 ${radius} overflow-hidden bg-[#05070C] p-[3.5%] shadow-[0_30px_60px_-24px_rgb(16_24_40/0.55),inset_0_0_0_1px_rgb(255_255_255/0.08)]`}
+      className={`absolute inset-0 ${radius} overflow-hidden bg-[#070807] p-[3.5%] shadow-[0_30px_60px_-24px_rgb(34_34_34/0.55),inset_0_0_0_1px_rgb(255_255_255/0.08)]`}
     >
-      <div className="relative h-full w-full overflow-hidden rounded-[calc(var(--w)*0.17)] bg-[linear-gradient(165deg,#1C2A47,#0E1628_60%,#0A0F1C)]">
-        <div className="absolute -top-1/4 -left-1/4 size-[120%] bg-[radial-gradient(closest-side,rgb(59_130_246/0.45),transparent)]" />
+      <div className="relative h-full w-full overflow-hidden rounded-[calc(var(--w)*0.17)] bg-[linear-gradient(165deg,#2c3330,#1a1f1c_60%,#111412)]">
+        <div className="absolute -top-1/4 -left-1/4 size-[120%] bg-[radial-gradient(closest-side,rgb(16_111_49/0.4),transparent)]" />
         <div className="absolute top-[3%] left-1/2 h-[4%] w-[32%] -translate-x-1/2 rounded-full bg-black" />
         <p className="absolute top-[12%] w-full text-center text-[calc(var(--w)*0.2)] font-semibold tracking-tight text-white/90">
           9:41

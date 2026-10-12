@@ -15,6 +15,11 @@ export const site = {
     e164: "+31738220013",
   },
   email: "info@phonerepairs.nl",
+  /**
+   * Official logo (put the file in /public/brand/ and set the path, e.g. "/brand/logo.svg").
+   * Until then a placeholder mark in the house colours is shown.
+   */
+  logo: null as null | { src: string; width: number; height: number; light?: string },
   /** WhatsApp is mentioned on the original site, but the number is not verified. */
   whatsapp: null as null | { display: string; href: string },
   address: {

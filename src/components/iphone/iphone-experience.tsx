@@ -313,7 +313,7 @@ export function IphoneExperience({
               </Button>
               <Link
                 href={selected.detailHref}
-                className="self-center text-sm font-medium text-accent-strong hover:text-blue-800"
+                className="self-center text-sm font-medium text-accent-strong hover:text-accent"
               >
                 Meer over deze reparatie
               </Link>
@@ -381,7 +381,7 @@ function LabelsOverlay({ store, compact, active }: { store: ExplodeStore; compac
                 cfg.side === "left" ? "-mr-1" : "-ml-1",
                 emphasised ? "bg-accent ring-accent/25" : "bg-white ring-white/50",
               )}
-              style={{ boxShadow: "0 0 0 1px rgb(37 99 235 / 0.65)" }}
+              style={{ boxShadow: "0 0 0 1px rgb(16 111 49 / 0.7)" }}
             />
             <span className={cn("block h-px shrink-0 transition-colors", emphasised ? "bg-accent" : "bg-ink/30")} style={{ width: lineWidth }} />
             <button
