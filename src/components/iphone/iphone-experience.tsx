@@ -3,7 +3,7 @@
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { ArrowRight, MousePointer2, Timer, X } from "lucide-react";
+import { ArrowRight, MessageCircle, MousePointer2, Timer, X } from "lucide-react";
 import { ExplodedPhone } from "@/components/home/exploded-phone";
 import { ContentIcon } from "@/components/repairs/icon";
 import { Button } from "@/components/ui/button";
@@ -306,10 +306,17 @@ export function IphoneExperience({
             )}
             <div className="mt-6 flex flex-col gap-2">
               <Button asChild>
-                <Link href={selected.bookingHref}>
-                  Plan reparatie
-                  <ArrowRight aria-hidden />
-                </Link>
+                {selected.bookingHref.startsWith("https://") ? (
+                  <a href={selected.bookingHref} target="_blank" rel="noopener noreferrer">
+                    <MessageCircle aria-hidden />
+                    Plan via WhatsApp
+                  </a>
+                ) : (
+                  <Link href={selected.bookingHref}>
+                    Plan reparatie
+                    <ArrowRight aria-hidden />
+                  </Link>
+                )}
               </Button>
               <Link
                 href={selected.detailHref}

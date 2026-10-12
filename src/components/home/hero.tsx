@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowRight, Eye, MapPin, ShieldCheck, Timer } from "lucide-react";
 import Image from "next/image";
 import heroPhoto from "@/assets/photos/hero-screen-repair.jpg";
-import { Button } from "@/components/ui/button";
+import { ContactActions } from "@/components/contact/contact-actions";
 import { site } from "@/lib/site";
 import { Aura } from "@/components/ui/aura";
 
@@ -30,17 +30,14 @@ export function Hero() {
             Van een gebroken scherm tot een versleten batterij. Bij Phone Repairs in Den Bosch wordt je toestel
             professioneel gerepareerd, vaak binnen 30 minuten terwijl je meekijkt.
           </p>
-          <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-            <Button asChild size="lg">
-              <Link href="#toestel-zoeken">
-                Zoek jouw toestel
-                <ArrowRight aria-hidden />
-              </Link>
-            </Button>
-            <Button asChild size="lg" variant="secondary">
-              <Link href="/afspraak">Maak een afspraak</Link>
-            </Button>
-          </div>
+          <ContactActions className="mt-9" email={false} />
+          <Link
+            href="#toestel-zoeken"
+            className="mt-5 inline-flex items-center gap-1.5 text-[0.9375rem] font-medium text-accent-strong hover:text-accent"
+          >
+            Of zoek eerst je toestel
+            <ArrowRight className="size-4 rotate-90" aria-hidden />
+          </Link>
           <ul className="mt-10 flex flex-wrap gap-x-6 gap-y-3 text-sm text-ink-soft">
             <li className="flex items-center gap-2">
               <Timer className="size-4 text-accent" aria-hidden />

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Dialog, NavigationMenu, VisuallyHidden } from "radix-ui";
-import { ArrowRight, ChevronDown, Menu, Phone, Search, X } from "lucide-react";
+import { ArrowRight, ChevronDown, Mail, Menu, MessageCircle, Phone, Search, X } from "lucide-react";
 import { Logo } from "@/components/layout/logo";
 import type { NavData } from "@/components/layout/nav-data";
 import { mainNav } from "@/components/layout/nav-data";
@@ -13,9 +13,9 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
-type Props = { nav: NavData; phone: { display: string; href: string } };
+type Props = { nav: NavData; phone: { display: string; href: string }; whatsapp: string | null; email: string };
 
-export function SiteHeaderClient({ nav, phone }: Props) {
+export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
 
@@ -80,10 +80,22 @@ export function SiteHeaderClient({ nav, phone }: Props) {
             <Phone className="size-4" aria-hidden />
             {phone.display}
           </a>
-          <Button asChild size="sm" className="hidden h-10 px-5 sm:inline-flex">
-            <Link href="/afspraak">Maak een afspraak</Link>
-          </Button>
-          <MobileNav nav={nav} phone={phone} />
+          {whatsapp ? (
+            <Button asChild size="sm" className="hidden h-10 px-5 sm:inline-flex">
+              <a href={whatsapp} target="_blank" rel="noopener noreferrer">
+                <MessageCircle aria-hidden />
+                WhatsApp ons
+              </a>
+            </Button>
+          ) : (
+            <Button asChild size="sm" className="hidden h-10 px-5 sm:inline-flex">
+              <a href={phone.href}>
+                <Phone aria-hidden />
+                Bel ons
+              </a>
+            </Button>
+          )}
+          <MobileNav nav={nav} phone={phone} whatsapp={whatsapp} email={email} />
         </div>
       </div>
     </header>
@@ -157,7 +169,7 @@ function MegaMenu({ nav }: { nav: NavData }) {
   );
 }
 
-function MobileNav({ nav, phone }: Props) {
+function MobileNav({ nav, phone, whatsapp, email }: Props) {
   const [open, setOpen] = useState(false);
   const close = () => setOpen(false);
 
@@ -235,17 +247,24 @@ function MobileNav({ nav, phone }: Props) {
             </ul>
           </nav>
           <div className="space-y-2 border-t border-line p-4">
-            <Button asChild size="lg" className="w-full">
-              <Link href="/afspraak" onClick={close}>
-                Maak een afspraak
-              </Link>
-            </Button>
-            <Button asChild variant="secondary" size="lg" className="w-full">
+            {whatsapp && (
+              <Button asChild size="lg" className="w-full">
+                <a href={whatsapp} target="_blank" rel="noopener noreferrer" onClick={close}>
+                  <MessageCircle aria-hidden />
+                  WhatsApp ons
+                </a>
+              </Button>
+            )}
+            <Button asChild variant={whatsapp ? "secondary" : "primary"} size="lg" className="w-full">
               <a href={phone.href}>
                 <Phone aria-hidden />
                 Bel {phone.display}
               </a>
             </Button>
+            <a href={`mailto:${email}`} className="flex items-center justify-center gap-2 pt-2 text-sm text-muted hover:text-ink">
+              <Mail className="size-4" aria-hidden />
+              Of mail naar {email}
+            </a>
           </div>
         </Dialog.Content>
       </Dialog.Portal>

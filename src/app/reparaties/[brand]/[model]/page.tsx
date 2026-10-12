@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowRight, BadgeCheck, Eye, Phone, ShieldCheck, Timer } from "lucide-react";
+import { BadgeCheck, Eye, ShieldCheck, Timer } from "lucide-react";
 import { DemoNote } from "@/components/devices/demo-note";
 import { DevicePhoto } from "@/components/devices/device-photo";
 import { DeviceCard } from "@/components/devices/device-card";
@@ -9,7 +8,8 @@ import { Faq } from "@/components/home/faq";
 import { FinalCta } from "@/components/home/final-cta";
 import { PageIntro } from "@/components/layout/page-intro";
 import { RepairPriceList } from "@/components/repairs/repair-price-list";
-import { Button } from "@/components/ui/button";
+import { ContactActions } from "@/components/contact/contact-actions";
+import { WhatsAppCard } from "@/components/contact/whatsapp-card";
 import { JsonLd } from "@/components/ui/json-ld";
 import {
   brandPath,
@@ -24,7 +24,7 @@ import {
   repairsForDevice,
 } from "@/lib/catalog";
 import { pageMetadata, serviceJsonLd } from "@/lib/seo";
-import { site } from "@/lib/site";
+import { whatsappMessage } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
 // All valid params are prerendered; unknown params must return a real 404,
@@ -99,20 +99,7 @@ export default async function DevicePage({ params }: PageProps<"/reparaties/[bra
           </figure>
         }
       >
-        <div className="flex flex-col gap-3 sm:flex-row">
-          <Button asChild size="lg">
-            <Link href={`/afspraak?toestel=${device.id}`}>
-              Maak een afspraak
-              <ArrowRight aria-hidden />
-            </Link>
-          </Button>
-          <Button asChild size="lg" variant="secondary">
-            <a href={site.phone.href}>
-              <Phone aria-hidden />
-              {site.phone.display}
-            </a>
-          </Button>
-        </div>
+        <ContactActions message={whatsappMessage({ device: fullName })} />
       </PageIntro>
 
       <section className="py-16 lg:py-24">
@@ -129,6 +116,7 @@ export default async function DevicePage({ params }: PageProps<"/reparaties/[bra
             </div>
           </div>
           <aside className="space-y-4">
+            <WhatsAppCard message={whatsappMessage({ device: fullName })} />
             <div className="rounded-[var(--radius-card)] bg-mist p-6 ring-1 ring-line">
               <h2 className="font-semibold text-ink">Goed om te weten</h2>
               <ul className="mt-5 space-y-5">
@@ -180,7 +168,7 @@ export default async function DevicePage({ params }: PageProps<"/reparaties/[bra
 
       <Faq items={deviceFaqs} title={`Vragen over je ${device.name}`} />
       <div className="pt-20 lg:pt-28">
-        <FinalCta title={`Je ${device.name} laten repareren?`} />
+        <FinalCta title={`Je ${device.name} laten repareren?`} message={whatsappMessage({ device: fullName })} />
       </div>
       <JsonLd data={serviceJsonLd({ name: `${fullName} reparatie`, path: devicePath(device), offers })} />
     </>

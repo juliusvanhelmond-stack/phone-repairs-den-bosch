@@ -31,7 +31,7 @@ export (WXR via Tools → Export) or read access to `/wp-json/wp/v2` from the ow
 | --- | --- | --- |
 | Repair prices per model | 0 verified (catalog has 139 models) | Device finder results, device pages, Offer schema |
 | Warranty terms | conflicting | Device pages, FAQ |
-| WhatsApp number | not verified — WhatsApp button hidden; +31 6 424 729 54 is listed next to the landline, confirm whether that is WhatsApp | Contact actions |
+| WhatsApp number | 073 822 0013 (client-confirmed; +31 6 424 729 54 on the old site is unexplained) | Contact actions |
 | Postal code | 5233 HA | LocalBusiness schema, contact page |
 | Exact opening hours | missing (only "7 dagen per week, ook ’s avonds") | Contact page, OpeningHoursSpecification |
 | Original "Over Phone Repairs" text | owner story summarised from snippets; full text not extracted | /over-ons |

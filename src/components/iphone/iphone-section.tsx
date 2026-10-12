@@ -1,6 +1,6 @@
 import { Aura } from "@/components/ui/aura";
 import { devicePath, getDevice, getRepair, getVerifiedPrice, repairPath } from "@/lib/catalog";
-import { isDemo } from "@/lib/site";
+import { isDemo, whatsappHref, whatsappMessage } from "@/lib/site";
 import { IphoneExperience, type RepairInfo } from "./iphone-experience";
 import { MODEL_URL } from "./config";
 import { REPAIR_ORDER, REPAIR_SERVICE_IDS, type RepairKey } from "./parts";
@@ -24,7 +24,9 @@ export function IphoneSection() {
         summary: service.summary,
         icon: service.icon,
         detailHref: device ? devicePath(device) : repairPath(service.slug),
-        bookingHref: `/afspraak?${device ? `toestel=${device.id}&` : ""}reparatie=${service.id}`,
+        bookingHref:
+          whatsappHref(whatsappMessage({ device: device?.name ?? "iPhone", repair: service.name })) ??
+          `/afspraak?${device ? `toestel=${device.id}&` : ""}reparatie=${service.id}`,
         ...(price ? { price } : {}),
         ...(VERIFIED_QUICK.has(key) ? { duration: "Vaak binnen 30 minuten" } : {}),
       };

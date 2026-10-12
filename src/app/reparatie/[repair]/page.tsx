@@ -1,18 +1,19 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { AlertTriangle, ArrowRight, Phone } from "lucide-react";
+import { AlertTriangle, ArrowRight } from "lucide-react";
 import { DeviceCard } from "@/components/devices/device-card";
 import { Faq } from "@/components/home/faq";
 import { FinalCta } from "@/components/home/final-cta";
 import { HowItWorks } from "@/components/home/how-it-works";
 import { PageIntro } from "@/components/layout/page-intro";
 import { ContentIcon } from "@/components/repairs/icon";
-import { Button } from "@/components/ui/button";
+import { ContactActions } from "@/components/contact/contact-actions";
+import { WhatsAppCard } from "@/components/contact/whatsapp-card";
 import { JsonLd } from "@/components/ui/json-ld";
 import { brandPath, brands, faqs, getRepair, popularDevices, repairPath, repairs } from "@/lib/catalog";
 import { pageMetadata, serviceJsonLd } from "@/lib/seo";
-import { site } from "@/lib/site";
+import { whatsappMessage } from "@/lib/site";
 
 // All valid params are prerendered; unknown params must return a real 404,
 // so `notFound()` runs outside Suspense and navigation waits for the static page.
@@ -61,20 +62,7 @@ export default async function RepairPage({ params }: PageProps<"/reparatie/[repa
           </div>
         }
       >
-        <div className="flex flex-col gap-3 sm:flex-row">
-          <Button asChild size="lg">
-            <Link href={`/afspraak?reparatie=${repair.id}`}>
-              Maak een afspraak
-              <ArrowRight aria-hidden />
-            </Link>
-          </Button>
-          <Button asChild size="lg" variant="secondary">
-            <a href={site.phone.href}>
-              <Phone aria-hidden />
-              {site.phone.display}
-            </a>
-          </Button>
-        </div>
+        <ContactActions message={whatsappMessage({ repair: repair.name })} />
       </PageIntro>
 
       <section className="py-16 lg:py-24">
@@ -97,27 +85,30 @@ export default async function RepairPage({ params }: PageProps<"/reparatie/[repa
               </div>
             )}
           </div>
-          <div className="rounded-[var(--radius-card)] bg-mist p-7 ring-1 ring-line">
-            <h2 className="font-semibold text-ink">Kies je merk</h2>
-            <ul className="mt-4 flex flex-wrap gap-2">
-              {relevantBrands.map((b) => (
-                <li key={b.id}>
-                  <Link
-                    href={brandPath(b.id)}
-                    className="block rounded-full bg-white px-4 py-2 text-sm text-ink ring-1 ring-line transition-colors hover:bg-ink hover:text-white hover:ring-ink"
-                  >
-                    {b.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-            <Link
-              href="/#toestel-zoeken"
-              className="mt-6 inline-flex items-center gap-1.5 text-sm font-medium text-accent-strong hover:text-accent"
-            >
-              Of gebruik de toestelzoeker
-              <ArrowRight className="size-4" aria-hidden />
-            </Link>
+          <div className="space-y-4">
+            <WhatsAppCard message={whatsappMessage({ repair: repair.name })} />
+            <div className="rounded-[var(--radius-card)] bg-mist p-7 ring-1 ring-line">
+              <h2 className="font-semibold text-ink">Kies je merk</h2>
+              <ul className="mt-4 flex flex-wrap gap-2">
+                {relevantBrands.map((b) => (
+                  <li key={b.id}>
+                    <Link
+                      href={brandPath(b.id)}
+                      className="block rounded-full bg-white px-4 py-2 text-sm text-ink ring-1 ring-line transition-colors hover:bg-ink hover:text-white hover:ring-ink"
+                    >
+                      {b.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              <Link
+                href="/#toestel-zoeken"
+                className="mt-6 inline-flex items-center gap-1.5 text-sm font-medium text-accent-strong hover:text-accent"
+              >
+                Of gebruik de toestelzoeker
+                <ArrowRight className="size-4" aria-hidden />
+              </Link>
+            </div>
           </div>
         </div>
       </section>
@@ -139,7 +130,7 @@ export default async function RepairPage({ params }: PageProps<"/reparatie/[repa
       <HowItWorks />
       <Faq items={faqItems} />
       <div className="pt-20 lg:pt-28">
-        <FinalCta />
+        <FinalCta message={whatsappMessage({ repair: repair.name })} />
       </div>
       <JsonLd data={serviceJsonLd({ name: repair.name, path: repairPath(repair.slug), offers: [] })} />
     </>

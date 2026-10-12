@@ -3,6 +3,7 @@ import { Open_Sans } from "next/font/google";
 import { GeistMono } from "geist/font/mono";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
+import { WhatsAppWidget } from "@/components/contact/whatsapp-widget";
 import { JsonLd } from "@/components/ui/json-ld";
 import { localBusinessJsonLd } from "@/lib/seo";
 import { allowIndexing, site } from "@/lib/site";
@@ -43,6 +44,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           {children}
         </main>
         <SiteFooter />
+        <WhatsAppWidget />
         <JsonLd data={localBusinessJsonLd()} />
       </body>
     </html>

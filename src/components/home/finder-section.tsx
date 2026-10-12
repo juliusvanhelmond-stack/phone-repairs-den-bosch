@@ -31,7 +31,12 @@ export function FinderSection() {
               advice,
             }))}
             devices={finderIndex()}
-            contact={{ phoneDisplay: site.phone.display, phoneHref: site.phone.href, email: site.email }}
+            contact={{
+              phoneDisplay: site.phone.display,
+              phoneHref: site.phone.href,
+              email: site.email,
+              whatsappNumber: site.whatsapp?.number ?? null,
+            }}
           />
         </Reveal>
       </div>

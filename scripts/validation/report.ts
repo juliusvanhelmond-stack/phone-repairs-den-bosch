@@ -188,7 +188,7 @@ ${crawlConflictRows}
 | --- | --- | --- |
 | Repair prices per model | ${prices.filter((p) => p.verified).length} verified (catalog has ${devices.length} models) | Device finder results, device pages, Offer schema |
 | Warranty terms | conflicting | Device pages, FAQ |
-| WhatsApp number | ${site.whatsapp ? "known" : "not verified — WhatsApp button hidden; +31 6 424 729 54 is listed next to the landline, confirm whether that is WhatsApp"} | Contact actions |
+| WhatsApp number | ${site.whatsapp ? `${site.whatsapp.display} (client-confirmed; +31 6 424 729 54 on the old site is unexplained)` : "not verified — WhatsApp button hidden; +31 6 424 729 54 is listed next to the landline, confirm whether that is WhatsApp"} | Contact actions |
 | Postal code | ${site.address.postalCode ?? "missing"} | LocalBusiness schema, contact page |
 | Exact opening hours | missing (only "7 dagen per week, ook ’s avonds") | Contact page, OpeningHoursSpecification |
 | Original "Over Phone Repairs" text | owner story summarised from snippets; full text not extracted | /over-ons |

@@ -1,15 +1,13 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 import { ContactDetails, MapGraphic } from "@/components/home/location";
 import { PageIntro } from "@/components/layout/page-intro";
-import { Button } from "@/components/ui/button";
+import { ContactActions } from "@/components/contact/contact-actions";
 import { pageMetadata } from "@/lib/seo";
 import { mapsUrl, site } from "@/lib/site";
 
 export const metadata: Metadata = pageMetadata({
   title: "Contact",
-  description: `Neem contact op met Phone Repairs in Den Bosch. Bel ${site.phone.display} of mail ${site.email}.`,
+  description: `Neem contact op met Phone Repairs in Den Bosch: WhatsApp of bel ${site.phone.display}, of mail ${site.email}.`,
   path: "/contact",
 });
 
@@ -20,14 +18,9 @@ export default function ContactPage() {
         crumbs={[{ name: "Contact", href: "/contact" }]}
         eyebrow="Contact"
         title="We helpen je graag verder."
-        intro="Bel of mail voor een afspraak of een vraag over je reparatie."
+        intro="Je bereikt Phone Repairs het snelst via WhatsApp. Bellen kan natuurlijk ook, en voor minder dringende vragen kun je mailen."
       >
-        <Button asChild size="lg">
-          <Link href="/afspraak">
-            Maak een afspraak
-            <ArrowRight aria-hidden />
-          </Link>
-        </Button>
+        <ContactActions />
       </PageIntro>
       <section className="py-16 lg:py-24">
         <div className="container-page grid gap-4 lg:grid-cols-[1fr_1.2fr]">

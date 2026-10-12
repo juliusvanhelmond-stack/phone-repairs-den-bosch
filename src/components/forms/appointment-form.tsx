@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useForm, useWatch } from "react-hook-form";
 import { z } from "zod";
-import { AlertCircle, ArrowRight, Info, Mail, Phone, RotateCcw } from "lucide-react";
+import { AlertCircle, ArrowRight, Info, Mail, MessageCircle, Phone, RotateCcw } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input, Label, Select, Textarea } from "@/components/ui/input";
 
@@ -38,11 +38,14 @@ export function AppointmentForm({
   repairs,
   email,
   phone,
+  whatsappNumber,
 }: {
   devices: FormDevice[];
   repairs: FormRepair[];
   email: string;
   phone: { display: string; href: string };
+  /** International number without "+" for wa.me links; null hides the WhatsApp option. */
+  whatsappNumber: string | null;
 }) {
   const params = useSearchParams();
   const [submitted, setSubmitted] = useState<Values | null>(null);
@@ -100,6 +103,9 @@ export function AppointmentForm({
       `Voorkeur: ${submitted.preference}`,
       submitted.message ? `\nToelichting:\n${submitted.message}` : "",
     ].join("\n");
+    const whatsapp = whatsappNumber
+      ? `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(`Hoi Phone Repairs, ik wil graag een afspraak maken.\n\n${body}`)}`
+      : null;
     const mailto = `mailto:${email}?subject=${encodeURIComponent(
       `Afspraakverzoek: ${repairName} ${deviceName}`,
     )}&body=${encodeURIComponent(body)}`;
@@ -116,8 +122,8 @@ export function AppointmentForm({
         </span>
         <h2 className="mt-6 text-title font-semibold text-ink">Je aanvraag is nog niet verstuurd</h2>
         <p className="mt-3 leading-relaxed text-muted">
-          Dit is een demo van de nieuwe website. Het formulier is nog niet gekoppeld aan een agenda of mailserver.
-          Verstuur je aanvraag via e-mail (alles is al ingevuld) of bel direct.
+          Het formulier is nog niet gekoppeld aan een agenda. Verstuur je aanvraag zelf via WhatsApp of e-mail
+          (alles is al ingevuld), of bel direct.
         </p>
         <dl className="mt-6 grid gap-x-6 gap-y-3 rounded-2xl bg-mist p-5 text-sm sm:grid-cols-2">
           <div>
@@ -137,17 +143,25 @@ export function AppointmentForm({
             <dd className="font-medium break-all text-ink">{submitted.email}</dd>
           </div>
         </dl>
-        <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-          <Button asChild size="lg">
-            <a href={mailto}>
-              <Mail aria-hidden />
-              Verstuur via e-mail
-            </a>
-          </Button>
-          <Button asChild size="lg" variant="secondary">
+        <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+          {whatsapp && (
+            <Button asChild size="lg">
+              <a href={whatsapp} target="_blank" rel="noopener noreferrer">
+                <MessageCircle aria-hidden />
+                Verstuur via WhatsApp
+              </a>
+            </Button>
+          )}
+          <Button asChild size="lg" variant={whatsapp ? "secondary" : "primary"}>
             <a href={phone.href}>
               <Phone aria-hidden />
               Bel {phone.display}
+            </a>
+          </Button>
+          <Button asChild size="lg" variant="ghost">
+            <a href={mailto}>
+              <Mail aria-hidden />
+              Verstuur via e-mail
             </a>
           </Button>
         </div>

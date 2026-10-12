@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, MessageCircle, Phone } from "lucide-react";
 import { Logo } from "@/components/layout/logo";
 import { brandPath, brands, landingPages, repairPath, repairs } from "@/lib/catalog";
-import { fullAddress, mapsUrl, site } from "@/lib/site";
+import { fullAddress, mapsUrl, site, whatsappHref } from "@/lib/site";
 
 const companyLinks = [
   { label: "Werkwijze", href: "/werkwijze" },
@@ -21,6 +21,7 @@ const moreLinks = moreIds.flatMap((id) => {
 });
 
 export function SiteFooter() {
+  const wa = whatsappHref();
   return (
     <footer className="bg-night text-neutral-300">
       <div className="container-page grid gap-12 py-16 sm:grid-cols-2 lg:grid-cols-[1.3fr_1fr_0.8fr_1fr_1fr] lg:py-20">
@@ -31,6 +32,19 @@ export function SiteFooter() {
             30 minuten klaar.
           </p>
           <ul className="mt-6 space-y-3 text-[0.9375rem]">
+            {wa && (
+              <li>
+                <a
+                  href={wa}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 font-medium text-white transition-colors hover:text-accent-light"
+                >
+                  <MessageCircle className="size-4 text-accent-light" aria-hidden />
+                  WhatsApp {site.whatsapp?.display}
+                </a>
+              </li>
+            )}
             <li>
               <a href={site.phone.href} className="inline-flex items-center gap-3 transition-colors hover:text-white">
                 <Phone className="size-4 text-neutral-500" aria-hidden />

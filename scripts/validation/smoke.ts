@@ -6,7 +6,7 @@
  * Usage: BASE_URL=http://localhost:3000 npx tsx scripts/validation/smoke.ts
  */
 import AxeBuilder from "@axe-core/playwright";
-import { chromium, type Page } from "playwright";
+import { chromium, type BrowserContext, type Page } from "playwright";
 
 const BASE = process.env.BASE_URL ?? "http://localhost:3000";
 const results: { name: string; ok: boolean; detail?: string }[] = [];
@@ -59,6 +59,18 @@ const REDIRECTS: [string, string][] = [
   ["/veelgestelde-vragen/phone-repairs-blog/", "/blog-post"],
 ];
 
+/** Keeps the WhatsApp prompt from opening by itself, so it cannot cover what a test clicks. */
+async function quietPrompt(context: BrowserContext) {
+  await context.addInitScript(() => {
+    try {
+      sessionStorage.setItem("pr-whatsapp-prompt", "1");
+    } catch {}
+  });
+}
+
+const WA = "https://wa.me/31738220013";
+const waText = (href: string | null) => (href ? decodeURIComponent(new URL(href).searchParams.get("text") ?? "") : "");
+
 async function noHorizontalOverflow(page: Page) {
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
   assert(overflow <= 1, `horizontal overflow of ${overflow}px`);
@@ -67,6 +79,7 @@ async function noHorizontalOverflow(page: Page) {
 async function main() {
   const browser = await chromium.launch();
   const context = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+  await quietPrompt(context);
   const page = await context.newPage();
   const consoleErrors: string[] = [];
   page.on("console", (m) => {
@@ -128,8 +141,8 @@ async function main() {
     await finder.getByRole("button", { name: /Batterij vervangen/ }).click();
     await finder.getByText("Op aanvraag").waitFor();
     assert(page.url().includes("model=apple-iphone-15-pro-max"), `url not synced: ${page.url()}`);
-    const href = await finder.getByRole("link", { name: /Maak een afspraak/ }).getAttribute("href");
-    assert(href?.includes("toestel=apple-iphone-15-pro-max") && href.includes("reparatie=batterij-vervangen"), `cta ${href}`);
+    const href = await finder.getByRole("link", { name: /Afspraak via WhatsApp/ }).getAttribute("href");
+    assert(href?.startsWith(`${WA}?text=`) && waText(href).includes("iPhone 15 Pro Max: batterij vervangen"), `cta ${href}`);
   });
 
   await check("device finder: back navigation and breadcrumbs", async () => {
@@ -163,8 +176,8 @@ async function main() {
     await section.getByRole("button", { name: "Batterij", exact: true }).click();
     const card = page.getByRole("dialog", { name: "Batterij vervangen" });
     await card.waitFor();
-    const href = await card.getByRole("link", { name: /Plan reparatie/ }).getAttribute("href");
-    assert(href === "/afspraak?toestel=apple-iphone-17&reparatie=batterij-vervangen", `cta ${href}`);
+    const href = await card.getByRole("link", { name: /Plan via WhatsApp/ }).getAttribute("href");
+    assert(href?.startsWith(`${WA}?text=`) && waText(href).includes("iPhone 17: batterij vervangen"), `cta ${href}`);
     assert((await card.getByText(/€/).count()) === 0, "a price is shown without a verified source");
     await page.keyboard.press("Escape");
     await card.waitFor({ state: "detached" });
@@ -205,6 +218,38 @@ async function main() {
     await page.getByRole("heading", { name: "Je aanvraag is nog niet verstuurd" }).waitFor();
     const mailto = await page.getByRole("link", { name: /Verstuur via e-mail/ }).getAttribute("href");
     assert(mailto?.startsWith("mailto:info@phonerepairs.nl"), `mailto ${mailto}`);
+    const wa = await page.getByRole("link", { name: /Verstuur via WhatsApp/ }).getAttribute("href");
+    assert(wa?.startsWith(`${WA}?text=`) && waText(wa).includes("Toestel: iPhone 15 Pro"), `whatsapp ${wa}`);
+  });
+
+  await check("whatsapp: header CTA and contact order on contact page", async () => {
+    await page.goto(BASE + "/contact");
+    const header = await page.locator("header").getByRole("link", { name: "WhatsApp ons" }).getAttribute("href");
+    assert(header === WA, `header ${header}`);
+    const intro = page.locator("main section").first();
+    const links = await intro.getByRole("link").evaluateAll((els) => els.map((e) => e.getAttribute("href") ?? ""));
+    const order = ["wa.me", "tel:", "mailto:"].map((k) => links.findIndex((h) => h.includes(k)));
+    assert(order.every((i) => i >= 0) && order[0] < order[1] && order[1] < order[2], `order ${links.join(" | ")}`);
+  });
+
+  await check("whatsapp: prompt opens by itself once, with the original copy", async () => {
+    const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
+    const p = await ctx.newPage();
+    await p.goto(BASE + "/reparaties/apple/iphone-15-pro", { waitUntil: "networkidle" });
+    await p.evaluate(() => window.scrollTo({ top: document.documentElement.scrollHeight, behavior: "instant" }));
+    const dialog = p.getByRole("dialog", { name: "WhatsApp met Phone Repairs" });
+    await dialog.waitFor();
+    await dialog.getByText("Gemiddelde reactietijd: 10 minuten.").waitFor();
+    assert((await dialog.getByRole("link", { name: "Open WhatsApp" }).getAttribute("href")) === WA, "panel link");
+    await p.keyboard.press("Escape");
+    await dialog.waitFor({ state: "hidden" });
+    await p.goto(BASE + "/reparaties/apple/iphone-16", { waitUntil: "networkidle" });
+    await p.evaluate(() => window.scrollTo({ top: document.documentElement.scrollHeight, behavior: "instant" }));
+    await p.waitForTimeout(500);
+    assert(!(await dialog.isVisible()), "prompt opened again in the same session");
+    await p.getByRole("button", { name: "WhatsApp met Phone Repairs" }).click();
+    await dialog.waitFor();
+    await ctx.close();
   });
 
   await check("desktop mega menu opens and links", async () => {
@@ -217,6 +262,7 @@ async function main() {
   });
 
   const mobile = await browser.newContext({ viewport: { width: 375, height: 812 }, isMobile: true, hasTouch: true });
+  await quietPrompt(mobile);
   const m = await mobile.newPage();
   await check("mobile navigation opens, expands and navigates", async () => {
     await m.goto(BASE + "/");
@@ -230,6 +276,7 @@ async function main() {
 
   for (const width of [375, 768, 1024, 1440]) {
     const ctx = await browser.newContext({ viewport: { width, height: 900 } });
+    await quietPrompt(ctx);
     const p = await ctx.newPage();
     for (const route of ["/", "/reparaties/apple/iphone-15-pro", "/reparaties/samsung", "/afspraak", "/contact"]) {
       await check(`no horizontal overflow @${width}px ${route}`, async () => {

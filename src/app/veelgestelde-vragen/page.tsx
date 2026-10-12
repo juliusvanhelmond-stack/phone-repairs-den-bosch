@@ -5,6 +5,7 @@ import { PageIntro } from "@/components/layout/page-intro";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { faqs, faqTopicPages } from "@/lib/catalog";
+import { WhatsAppCard } from "@/components/contact/whatsapp-card";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
@@ -20,11 +21,12 @@ export default function FaqPage() {
         crumbs={[{ name: "Veelgestelde vragen", href: "/veelgestelde-vragen" }]}
         eyebrow="Veelgestelde vragen"
         title="Antwoord op je vragen."
-        intro="Alles over afspraken, reparatietijd, onderdelen en wat je doet bij waterschade."
+        intro="Alles over afspraken, reparatietijd, onderdelen en wat je doet bij waterschade. Staat je vraag er niet bij? Stuur een WhatsApp."
       />
       <section className="py-16 lg:py-24">
         <div className="container-page max-w-3xl">
           <FaqList items={faqs} />
+          <WhatsAppCard className="mt-12" message="Hoi Phone Repairs, ik heb een vraag." />
           <h2 className="mt-16 text-title font-semibold text-ink">Meer informatie</h2>
           <ul className="mt-6 grid gap-3 sm:grid-cols-2">
             {faqTopicPages.map((p) => (

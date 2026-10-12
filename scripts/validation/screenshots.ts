@@ -16,6 +16,12 @@ async function main() {
   for (const width of widths) {
     // Reduced motion renders scroll-driven reveals in their final state for static captures.
     const page = await browser.newPage({ viewport: { width, height: 900 }, reducedMotion: "reduce" });
+    // Keep the WhatsApp prompt closed (it would open while scrolling through the page).
+    await page.addInitScript(() => {
+      try {
+        sessionStorage.setItem("pr-whatsapp-prompt", "1");
+      } catch {}
+    });
     for (const route of routes) {
       await page.goto(BASE + route, { waitUntil: "networkidle" });
       // Scroll through the page so in-view animations run before capture.

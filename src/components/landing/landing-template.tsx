@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Check, Phone } from "lucide-react";
+import { ArrowRight, Check } from "lucide-react";
 import { DemoNote } from "@/components/devices/demo-note";
 import { DeviceCard } from "@/components/devices/device-card";
 import { FinalCta } from "@/components/home/final-cta";
@@ -7,11 +7,11 @@ import { Location } from "@/components/home/location";
 import { Trust } from "@/components/home/trust";
 import { PageIntro } from "@/components/layout/page-intro";
 import { Reveal } from "@/components/motion/reveal";
-import { Button } from "@/components/ui/button";
+import { ContactActions } from "@/components/contact/contact-actions";
+import { WhatsAppCard } from "@/components/contact/whatsapp-card";
 import { SectionHeading } from "@/components/ui/section-heading";
 import type { Crumb } from "@/components/ui/breadcrumbs";
 import { areasByPlace, devicesForBrand, popularDevices, repairPath } from "@/lib/catalog";
-import { site } from "@/lib/site";
 import type { DeviceModel, LandingPage, LandingSection } from "@/types/content";
 
 /** Crumbs per page kind; area pages hang under /werkgebied, FAQ topics under the FAQ. */
@@ -35,27 +35,23 @@ function focusDevices(page: LandingPage): { title: string; devices: DeviceModel[
   }
 }
 
+const FOCUS_NOUN: Record<string, string> = {
+  telefoon: "telefoon", gsm: "telefoon", smartphone: "smartphone", mobiel: "telefoon",
+  iphone: "iPhone", ipad: "iPad", scherm: "scherm",
+};
+
 export function LandingTemplate({ page }: { page: LandingPage }) {
   const focus = focusDevices(page);
+  const message =
+    page.kind === "area" && page.focus
+      ? `Hoi Phone Repairs, ik kom uit ${page.place} en wil graag een afspraak maken voor mijn ${FOCUS_NOUN[page.focus]}.`
+      : `Hoi Phone Repairs, ik heb een vraag over: ${page.title.toLowerCase()}.`;
   const otherAreas = page.kind === "area" ? areasByPlace() : [];
 
   return (
     <>
       <PageIntro crumbs={landingCrumbs(page)} eyebrow={page.eyebrow} title={page.title} intro={page.intro}>
-        <div className="flex flex-col gap-3 sm:flex-row">
-          <Button asChild size="lg">
-            <Link href="/afspraak">
-              Maak een afspraak
-              <ArrowRight aria-hidden />
-            </Link>
-          </Button>
-          <Button asChild size="lg" variant="secondary">
-            <a href={site.phone.href}>
-              <Phone aria-hidden />
-              Bel {site.phone.display}
-            </a>
-          </Button>
-        </div>
+        <ContactActions message={message} />
         <DemoNote className="mt-8 max-w-2xl">
           Deze pagina houdt de URL van de huidige site ({page.path}/). De tekst is samengesteld uit wat er nu op
           staat; de volledige originele tekst wordt bij de migratie overgenomen.
@@ -80,8 +76,14 @@ export function LandingTemplate({ page }: { page: LandingPage }) {
         </section>
       )}
 
+      <section className={page.sections.length ? "pb-16 lg:pb-24" : "py-16 lg:py-24"}>
+        <div className="container-page">
+          <WhatsAppCard message={message} className="mx-auto max-w-2xl" />
+        </div>
+      </section>
+
       {page.focus === "scherm" && (
-        <section className={page.sections.length ? "pb-16 lg:pb-24" : "py-16 lg:py-24"}>
+        <section className="pb-16 lg:pb-24">
           <div className="container-page">
             <Link
               href={repairPath("scherm-vervangen")}
@@ -143,7 +145,7 @@ export function LandingTemplate({ page }: { page: LandingPage }) {
       )}
 
       <div className={otherAreas.length ? "" : "pt-20 lg:pt-28"}>
-        <FinalCta />
+        <FinalCta message={message} />
       </div>
     </>
   );

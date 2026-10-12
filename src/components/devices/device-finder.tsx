@@ -12,6 +12,7 @@ import {
   ChevronRight,
   Info,
   Mail,
+  MessageCircle,
   Phone,
   Search,
   SearchX,
@@ -35,7 +36,17 @@ export type FinderRepair = {
   categories: string[];
   advice: string[];
 };
-export type FinderContact = { phoneDisplay: string; phoneHref: string; email: string };
+export type FinderContact = {
+  phoneDisplay: string;
+  phoneHref: string;
+  email: string;
+  /** International number without "+" for wa.me links; null hides WhatsApp. */
+  whatsappNumber: string | null;
+};
+
+function whatsappLink(contact: FinderContact, text: string) {
+  return contact.whatsappNumber ? `https://wa.me/${contact.whatsappNumber}?text=${encodeURIComponent(text)}` : null;
+}
 
 type Selection = { category?: string; brand?: string; device?: string; repair?: string };
 type Step = "category" | "brand" | "model" | "repair" | "result";
@@ -328,7 +339,12 @@ export function DeviceFinder({
             )}
 
             {step === "result" && device && repair && (
-              <FinderResult device={device} repair={repair} contact={contact} />
+              <FinderResult
+                device={device}
+                repair={repair}
+                contact={contact}
+                brandName={brands.find((b) => b.id === device.brandId)?.name}
+              />
             )}
           </motion.div>
         </AnimatePresence>
@@ -432,12 +448,23 @@ function ModelSearch({
               Staat je toestel er niet tussen? Neem contact op, dan kijken we of een reparatie mogelijk is.
             </p>
             <div className="mt-5 flex flex-wrap justify-center gap-2">
-              <Button asChild size="sm">
+              {contact.whatsappNumber && (
+                <Button asChild size="sm">
+                  <a
+                    href={whatsappLink(contact, `Hoi Phone Repairs, kunnen jullie mijn ${query} repareren?`)!}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <MessageCircle aria-hidden /> WhatsApp ons
+                  </a>
+                </Button>
+              )}
+              <Button asChild size="sm" variant={contact.whatsappNumber ? "secondary" : "primary"}>
                 <a href={contact.phoneHref}>
                   <Phone aria-hidden /> Bel {contact.phoneDisplay}
                 </a>
               </Button>
-              <Button asChild size="sm" variant="secondary">
+              <Button asChild size="sm" variant="ghost">
                 <a href={`mailto:${contact.email}`}>
                   <Mail aria-hidden /> Mail ons
                 </a>
@@ -481,14 +508,20 @@ function FinderResult({
   device,
   repair,
   contact,
+  brandName,
 }: {
   device: FinderDevice;
   repair: FinderRepair;
   contact: FinderContact;
+  brandName?: string;
 }) {
   const price = device.prices[repair.id];
   const appointmentHref = `/afspraak?toestel=${encodeURIComponent(device.id)}&reparatie=${encodeURIComponent(repair.id)}`;
   const devicePageHref = `/reparaties/${device.brandId}/${device.slug}`;
+  const whatsapp = whatsappLink(
+    contact,
+    `Hoi Phone Repairs, ik wil graag een afspraak maken voor mijn ${fullName(device, brandName)}: ${repair.name.toLowerCase()}.`,
+  );
 
   return (
     <div className="grid gap-6 lg:grid-cols-[0.8fr_1.2fr]">
@@ -549,20 +582,35 @@ function FinderResult({
           </div>
         )}
 
-        <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-          <Button asChild size="lg">
-            <Link href={appointmentHref}>
-              Maak een afspraak
-              <ArrowRight aria-hidden />
-            </Link>
-          </Button>
+        <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+          {whatsapp ? (
+            <Button asChild size="lg">
+              <a href={whatsapp} target="_blank" rel="noopener noreferrer">
+                <MessageCircle aria-hidden />
+                Afspraak via WhatsApp
+              </a>
+            </Button>
+          ) : (
+            <Button asChild size="lg">
+              <Link href={appointmentHref}>
+                Maak een afspraak
+                <ArrowRight aria-hidden />
+              </Link>
+            </Button>
+          )}
           <Button asChild size="lg" variant="secondary">
             <a href={contact.phoneHref}>
               <Phone aria-hidden />
-              {contact.phoneDisplay}
+              Bel {contact.phoneDisplay}
             </a>
           </Button>
         </div>
+        <p className="mt-3 text-sm text-muted">
+          Je bericht staat al klaar, je hoeft het alleen nog te versturen. Liever mailen?{" "}
+          <a href={`mailto:${contact.email}`} className="font-medium text-accent-strong hover:underline">
+            {contact.email}
+          </a>
+        </p>
         <Link
           href={devicePageHref}
           className="mt-5 inline-flex items-center gap-1 self-start text-sm font-medium text-accent-strong hover:text-accent"

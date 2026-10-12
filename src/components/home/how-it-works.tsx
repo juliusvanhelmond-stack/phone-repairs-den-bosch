@@ -13,7 +13,7 @@ export const steps = [
   {
     n: "02",
     title: "Maak een afspraak",
-    body: "Er wordt alleen op afspraak gewerkt. Bel, mail of vul het formulier in en kies een moment dat jou uitkomt.",
+    body: "Er wordt alleen op afspraak gewerkt. Stuur een WhatsApp of bel, dan plan je samen een moment dat jou uitkomt.",
   },
   {
     n: "03",

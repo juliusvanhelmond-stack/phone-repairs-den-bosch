@@ -1,16 +1,20 @@
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { MessageCircle, Phone } from "lucide-react";
 import { ContentIcon } from "@/components/repairs/icon";
-import { getVerifiedPrice, repairPath } from "@/lib/catalog";
+import { getBrand, getVerifiedPrice, repairPath } from "@/lib/catalog";
+import { site, whatsappHref, whatsappMessage } from "@/lib/site";
 import { formatEuro } from "@/lib/utils";
 import type { DeviceModel, RepairService } from "@/types/content";
 
 /** Repairs for one device with verified prices, or "op aanvraag" when unknown. */
 export function RepairPriceList({ device, repairs }: { device: DeviceModel; repairs: RepairService[] }) {
+  const brand = getBrand(device.brandId)?.name ?? "";
+  const name = device.brandId === "apple" || device.name.startsWith(brand) ? device.name : `${brand} ${device.name}`;
   return (
     <ul className="divide-y divide-line overflow-hidden rounded-[var(--radius-card)] bg-white ring-1 ring-line">
       {repairs.map((r) => {
         const price = getVerifiedPrice(device.id, r.id);
+        const wa = whatsappHref(whatsappMessage({ device: name, repair: r.name }));
         return (
           <li key={r.id} className="grid gap-4 p-5 sm:grid-cols-[1fr_auto] sm:items-center sm:gap-8 sm:p-6">
             <div className="flex items-start gap-4">
@@ -36,18 +40,19 @@ export function RepairPriceList({ device, repairs }: { device: DeviceModel; repa
                 ) : (
                   <>
                     <p className="font-medium text-ink">Op aanvraag</p>
-                    <p className="text-xs text-muted">bel of mail voor de prijs</p>
+                    <p className="text-xs text-muted">vraag de prijs via WhatsApp</p>
                   </>
                 )}
               </div>
-              <Link
-                href={`/afspraak?toestel=${device.id}&reparatie=${r.id}`}
-                className="inline-flex h-10 shrink-0 items-center gap-1.5 rounded-full bg-ink px-4 text-sm font-medium text-white transition-colors hover:bg-accent"
-                aria-label={`Afspraak maken voor ${r.name.toLowerCase()} ${device.name}`}
+              <a
+                href={wa ?? site.phone.href}
+                {...(wa ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                className="inline-flex h-10 shrink-0 items-center gap-1.5 rounded-full bg-accent px-4 text-sm font-medium text-white transition-colors hover:bg-accent-strong"
+                aria-label={`${r.name} voor je ${name} aanvragen via ${wa ? "WhatsApp" : "telefoon"}`}
               >
-                Afspraak
-                <ArrowRight className="size-4" aria-hidden />
-              </Link>
+                {wa ? <MessageCircle className="size-4" aria-hidden /> : <Phone className="size-4" aria-hidden />}
+                Aanvragen
+              </a>
             </div>
           </li>
         );

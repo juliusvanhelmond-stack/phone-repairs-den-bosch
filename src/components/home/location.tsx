@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { ArrowUpRight, CalendarCheck, Car, Clock, Mail, MapPin, Phone } from "lucide-react";
+import { ArrowUpRight, CalendarCheck, Car, Clock, Mail, MapPin, MessageCircle, Phone } from "lucide-react";
 import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
-import { fullAddress, mapsUrl, site } from "@/lib/site";
+import { fullAddress, mapsUrl, site, whatsappHref } from "@/lib/site";
 import { Aura } from "@/components/ui/aura";
 import { Skyline } from "@/components/ui/skyline";
 
@@ -41,9 +41,13 @@ export function MapGraphic() {
 }
 
 export function ContactDetails({ className }: { className?: string }) {
+  const wa = whatsappHref();
   const rows = [
-    { icon: MapPin, label: "Adres", value: fullAddress, href: mapsUrl, external: true },
+    ...(site.whatsapp && wa
+      ? [{ icon: MessageCircle, label: `WhatsApp · ${site.whatsapp.hours}`, value: site.whatsapp.display, href: wa, external: true }]
+      : []),
     { icon: Phone, label: "Telefoon", value: site.phone.display, href: site.phone.href },
+    { icon: MapPin, label: "Adres", value: fullAddress, href: mapsUrl, external: true },
     { icon: Mail, label: "E-mail", value: site.email, href: `mailto:${site.email}` },
     { icon: Clock, label: "Openingstijden", value: "7 dagen per week, ook ’s avonds" },
     { icon: CalendarCheck, label: "Afspraak", value: "Alleen op afspraak" },

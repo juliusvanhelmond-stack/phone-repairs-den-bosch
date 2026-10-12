@@ -1,17 +1,17 @@
-import Link from "next/link";
-import { ArrowRight, Phone } from "lucide-react";
 import Image from "next/image";
 import ctaPhoto from "@/assets/photos/cta-internals.jpg";
 import { Reveal } from "@/components/motion/reveal";
-import { Button } from "@/components/ui/button";
-import { site } from "@/lib/site";
+import { ContactActions } from "@/components/contact/contact-actions";
 
 export function FinalCta({
   title = "Klaar om je toestel te laten repareren?",
-  body = "Maak een afspraak. De meeste reparaties zijn binnen ongeveer 30 minuten klaar, terwijl je meekijkt.",
+  body = "Stuur ons een WhatsApp of bel voor een afspraak. De meeste reparaties zijn binnen ongeveer 30 minuten klaar, terwijl je meekijkt.",
+  message,
 }: {
   title?: string;
   body?: string;
+  /** Prefilled WhatsApp message. */
+  message?: string;
 }) {
   return (
     <section className="px-4 pb-20 sm:px-6 lg:px-8 lg:pb-28">
@@ -29,20 +29,7 @@ export function FinalCta({
           <div className="absolute -bottom-32 left-1/2 -z-10 h-64 w-[40rem] -translate-x-1/2 rounded-full bg-accent/35 blur-[100px]" aria-hidden />
           <h2 className="mx-auto max-w-2xl text-headline font-semibold text-balance text-white">{title}</h2>
           <p className="mx-auto mt-5 max-w-xl text-lg leading-relaxed text-pretty text-neutral-300">{body}</p>
-          <div className="mt-10 flex flex-col justify-center gap-3 sm:flex-row">
-            <Button asChild size="lg" variant="light">
-              <Link href="/afspraak">
-                Maak een afspraak
-                <ArrowRight aria-hidden />
-              </Link>
-            </Button>
-            <Button asChild size="lg" variant="outline-light">
-              <a href={site.phone.href}>
-                <Phone aria-hidden />
-                Bel {site.phone.display}
-              </a>
-            </Button>
-          </div>
+          <ContactActions tone="dark" message={message} className="mt-10 flex flex-col items-center [&>div]:justify-center" />
         </div>
       </Reveal>
     </section>
