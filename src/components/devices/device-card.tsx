@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/components/i18n/link";
 import { ArrowRight } from "lucide-react";
 import { DevicePhoto } from "@/components/devices/device-photo";
 import { devicePath, getBrand } from "@/lib/catalog";

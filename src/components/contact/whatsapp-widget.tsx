@@ -3,7 +3,9 @@
 import { useCallback, useEffect, useId, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import { MessageCircle, X } from "lucide-react";
-import { site, whatsappHref } from "@/lib/site";
+import { useI18n } from "@/components/i18n/locale-provider";
+import { parsePublicPath } from "@/lib/i18n";
+import { site, whatsappCopy, whatsappHref, whatsappMessage } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
 /** Once dismissed or opened, the panel does not open by itself again in this session. */
@@ -32,9 +34,10 @@ function markSeen() {
  * options are already on screen.
  */
 export function WhatsAppWidget() {
-  const wa = site.whatsapp;
-  const href = whatsappHref();
-  const pathname = usePathname();
+  const { locale, t } = useI18n();
+  const wa = whatsappCopy(locale);
+  const href = whatsappHref(locale === "en" ? whatsappMessage({ locale }) : undefined);
+  const pathname = parsePublicPath(usePathname()).nlPath;
   const [open, setOpen] = useState(false);
   const panelId = useId();
   const titleId = useId();
@@ -100,7 +103,7 @@ export function WhatsAppWidget() {
           <button
             type="button"
             onClick={() => close(true)}
-            aria-label="Sluiten"
+            aria-label={t("Sluiten", "Close")}
             className="grid size-10 shrink-0 place-items-center rounded-full bg-black/25 transition-colors hover:bg-black/40"
           >
             <X className="size-5" aria-hidden />
@@ -124,13 +127,13 @@ export function WhatsAppWidget() {
             </a>
           </div>
           <p className="mt-4 text-right text-sm text-muted">
-            Of bel{" "}
+            {t("Of bel", "Or call")}{" "}
             <a href={site.phone.href} className="font-medium text-accent-strong hover:underline">
               {site.phone.display}
             </a>{" "}
             ·{" "}
             <a href={`mailto:${site.email}`} className="font-medium text-accent-strong hover:underline">
-              mail ons
+              {t("mail ons", "e-mail us")}
             </a>
           </p>
         </div>
@@ -141,7 +144,7 @@ export function WhatsAppWidget() {
         type="button"
         aria-expanded={open}
         aria-controls={panelId}
-        aria-label={open ? "WhatsApp-venster sluiten" : "WhatsApp met Phone Repairs"}
+        aria-label={open ? t("WhatsApp-venster sluiten", "Close WhatsApp window") : wa.title}
         onClick={() => {
           if (open) return close(false);
           markSeen();

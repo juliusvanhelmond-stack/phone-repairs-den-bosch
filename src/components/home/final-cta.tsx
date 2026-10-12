@@ -2,10 +2,11 @@ import Image from "next/image";
 import ctaPhoto from "@/assets/photos/cta-internals.jpg";
 import { Reveal } from "@/components/motion/reveal";
 import { ContactActions } from "@/components/contact/contact-actions";
+import { getI18n } from "@/lib/i18n-server";
 
-export function FinalCta({
-  title = "Klaar om je toestel te laten repareren?",
-  body = "Stuur ons een WhatsApp of bel voor een afspraak. De meeste reparaties zijn binnen ongeveer 30 minuten klaar, terwijl je meekijkt.",
+export async function FinalCta({
+  title,
+  body,
   message,
 }: {
   title?: string;
@@ -13,6 +14,12 @@ export function FinalCta({
   /** Prefilled WhatsApp message. */
   message?: string;
 }) {
+  const { t } = await getI18n();
+  title ??= t("Klaar om je toestel te laten repareren?", "Ready to have your device repaired?");
+  body ??= t(
+    "Stuur ons een WhatsApp of bel voor een afspraak. De meeste reparaties zijn binnen ongeveer 30 minuten klaar, terwijl je meekijkt.",
+    "Send us a WhatsApp or call for an appointment. Most repairs are done in about 30 minutes while you watch.",
+  );
   return (
     <section className="px-4 pb-20 sm:px-6 lg:px-8 lg:pb-28">
       <Reveal>

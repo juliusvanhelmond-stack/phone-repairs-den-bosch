@@ -1,16 +1,19 @@
-import Link from "next/link";
+import { Link } from "@/components/i18n/link";
 import { ChevronRight } from "lucide-react";
 import { JsonLd } from "@/components/ui/json-ld";
 import { breadcrumbJsonLd } from "@/lib/seo";
+import { getI18n } from "@/lib/i18n-server";
 import { cn } from "@/lib/utils";
 
 export type Crumb = { name: string; href: string };
 
-export function Breadcrumbs({ items, className }: { items: Crumb[]; className?: string }) {
+/** Crumb hrefs are Dutch paths; links and structured data use the active language. */
+export async function Breadcrumbs({ items, className }: { items: Crumb[]; className?: string }) {
+  const { t, href } = await getI18n();
   const all = [{ name: "Home", href: "/" }, ...items];
   return (
     <>
-      <nav aria-label="Kruimelpad" className={cn("text-sm text-muted", className)}>
+      <nav aria-label={t("Kruimelpad", "Breadcrumb")} className={cn("text-sm text-muted", className)}>
         <ol className="flex flex-wrap items-center gap-1.5">
           {all.map((item, i) => {
             const last = i === all.length - 1;
@@ -33,7 +36,7 @@ export function Breadcrumbs({ items, className }: { items: Crumb[]; className?: 
           })}
         </ol>
       </nav>
-      <JsonLd data={breadcrumbJsonLd(all)} />
+      <JsonLd data={breadcrumbJsonLd(all.map((c) => ({ ...c, href: href(c.href) })))} />
     </>
   );
 }

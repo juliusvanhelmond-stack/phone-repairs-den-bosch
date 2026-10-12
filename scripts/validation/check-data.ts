@@ -8,8 +8,10 @@ import { z } from "zod";
 import {
   blogPosts,
   brands,
+  categories,
   claims,
   devices,
+  englishContent,
   faqs,
   getBrand,
   getRepair,
@@ -76,6 +78,21 @@ for (const p of landingPages) {
   if (p.kind === "area" && (!p.place || !p.focus)) fail(`page ${p.path}: area page needs place and focus`);
   if (p.kind === "faq-topic" && !p.path.startsWith("/veelgestelde-vragen/")) fail(`page ${p.path}: FAQ topic outside /veelgestelde-vragen`);
   if (p.kind !== "faq-topic" && p.path.split("/").length !== 2) fail(`page ${p.path}: must be a top-level path`);
+}
+
+// Every public text record needs an English overlay, so /en never falls back to Dutch.
+const english: [string, { id: string }[], Record<string, unknown>][] = [
+  ["category", categories, englishContent.categories],
+  ["repair", repairs, englishContent.repairs],
+  ["faq", faqs, englishContent.faqs],
+  ["claim", claims, englishContent.claims],
+  ["page", landingPages, englishContent.landingPages],
+  ["blog", blogPosts, englishContent.blog],
+];
+for (const [label, items, table] of english) {
+  const ids = new Set(items.map((i) => i.id));
+  for (const i of items) if (!(i.id in table)) fail(`${label} ${i.id}: no English translation in translations/en.json`);
+  for (const id of Object.keys(table)) if (!ids.has(id)) fail(`translations/en.json: unknown ${label} ${id}`);
 }
 
 const inventory = z.array(urlRecordSchema).safeParse(inventoryJson);

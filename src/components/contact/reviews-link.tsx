@@ -1,5 +1,6 @@
 import { ArrowUpRight, Star } from "lucide-react";
 import { TrustindexBadge } from "@/components/contact/trustindex-badge";
+import { getI18n } from "@/lib/i18n-server";
 import { site } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
@@ -7,7 +8,8 @@ import { cn } from "@/lib/utils";
  * Points visitors to the reviews on the Google Business profile. The score and count
  * are rendered by the Trustindex badge; the plain link stays as a fallback.
  */
-export function ReviewsBanner({ className }: { className?: string }) {
+export async function ReviewsBanner({ className }: { className?: string }) {
+  const { t } = await getI18n();
   const reviews = site.reviews;
   if (!reviews) return null;
   return (
@@ -22,9 +24,12 @@ export function ReviewsBanner({ className }: { className?: string }) {
           <Star className="size-6" aria-hidden />
         </span>
         <div>
-          <h3 className="text-lg font-semibold tracking-tight">Wat klanten zeggen</h3>
+          <h3 className="text-lg font-semibold tracking-tight">{t("Wat klanten zeggen", "What customers say")}</h3>
           <p className="mt-1 max-w-xl leading-relaxed text-neutral-400">
-            Lees de ervaringen van klanten op {reviews.platform}. Ben je zelf geholpen? Laat daar ook een review achter.
+            {t(
+              `Lees de ervaringen van klanten op ${reviews.platform}. Ben je zelf geholpen? Laat daar ook een review achter.`,
+              `Read what customers say on ${reviews.platform}. Were you helped yourself? Leave a review there too.`,
+            )}
           </p>
         </div>
       </div>
@@ -41,7 +46,7 @@ export function ReviewsBanner({ className }: { className?: string }) {
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center gap-1.5 text-sm font-medium text-white underline-offset-4 hover:underline"
         >
-          Bekijk alle reviews op {reviews.platform}
+          {t(`Bekijk alle reviews op ${reviews.platform}`, `See all reviews on ${reviews.platform}`)}
           <ArrowUpRight className="size-4" aria-hidden />
         </a>
       </div>
@@ -50,7 +55,8 @@ export function ReviewsBanner({ className }: { className?: string }) {
 }
 
 /** Compact text link for light surfaces (contact details, device pages). */
-export function ReviewsLink({ className }: { className?: string }) {
+export async function ReviewsLink({ className }: { className?: string }) {
+  const { t } = await getI18n();
   const reviews = site.reviews;
   if (!reviews) return null;
   return (
@@ -61,7 +67,7 @@ export function ReviewsLink({ className }: { className?: string }) {
       className={cn("inline-flex items-center gap-1.5 font-medium text-accent-strong hover:text-accent", className)}
     >
       <Star className="size-4" aria-hidden />
-      Reviews op {reviews.platform}
+      {t(`Reviews op ${reviews.platform}`, `Reviews on ${reviews.platform}`)}
       <ArrowUpRight className="size-4" aria-hidden />
     </a>
   );

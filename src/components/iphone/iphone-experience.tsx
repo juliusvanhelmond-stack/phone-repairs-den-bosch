@@ -1,13 +1,14 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import Link from "next/link";
+import { Link } from "@/components/i18n/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { ArrowRight, MessageCircle, MousePointer2, Timer, X } from "lucide-react";
 import { ExplodedPhone } from "@/components/home/exploded-phone";
 import { ContentIcon } from "@/components/repairs/icon";
 import { Button } from "@/components/ui/button";
 import { cn, formatEuro } from "@/lib/utils";
+import { useI18n } from "@/components/i18n/locale-provider";
 import { REPAIR_LABELS, REPAIR_ORDER, STAGES, smoothstep, type RepairKey } from "./parts";
 import { createExplodeStore, useExplodeUi, type ExplodeStore } from "./store";
 
@@ -43,6 +44,7 @@ export function IphoneExperience({
   /** Shown while the stand-in model is in use (demo mode). */
   modelNote?: string;
 }) {
+  const { locale, t } = useI18n();
   const store = useMemo(() => createExplodeStore(), []);
   const ui = useExplodeUi(store);
   const sectionRef = useRef<HTMLElement>(null);
@@ -176,12 +178,15 @@ export function IphoneExperience({
         {/* Heading */}
         <div className="pointer-events-none relative z-10 container-page pt-24 lg:pt-28">
           <div className={cn("max-w-xl transition-opacity duration-500", ui.selected && "opacity-25")}>
-            <p className="eyebrow mb-3">iPhone reparatie</p>
+            <p className="eyebrow mb-3">{t("iPhone reparatie", "iPhone repair")}</p>
             <h2 id="iphone-explode-title" className="text-headline font-semibold text-balance text-ink">
-              Ontdek wat wij voor jouw iPhone kunnen betekenen.
+              {t("Ontdek wat wij voor jouw iPhone kunnen betekenen.", "Discover what we can do for your iPhone.")}
             </h2>
             <p className="mt-4 max-w-md text-lg leading-relaxed text-pretty text-muted max-sm:text-base">
-              Van scherm tot batterij. Ontdek onze reparaties en geef jouw iPhone een tweede leven.
+              {t(
+                "Van scherm tot batterij. Ontdek onze reparaties en geef jouw iPhone een tweede leven.",
+                "From screen to battery. Discover our repairs and give your iPhone a second life.",
+              )}
             </p>
           </div>
         </div>
@@ -234,7 +239,7 @@ export function IphoneExperience({
               style={reduced || mode === "fallback" ? undefined : { opacity: "clamp(0.35, calc((var(--p) - 0.55) * 4), 1)" }}
             >
               <p className="text-xs font-medium tracking-wide text-muted uppercase" id="iphone-parts-label">
-                Kies een onderdeel
+                {t("Kies een onderdeel", "Choose a part")}
               </p>
               <div
                 role="group"
@@ -255,7 +260,7 @@ export function IphoneExperience({
                     )}
                   >
                     <ContentIcon name={repairs[key].icon} className="hidden size-4 sm:block" />
-                    {REPAIR_LABELS[key].shortLabel}
+                    {locale === "en" ? REPAIR_LABELS[key].shortLabelEn : REPAIR_LABELS[key].shortLabel}
                   </button>
                 ))}
               </div>
@@ -281,7 +286,7 @@ export function IphoneExperience({
               type="button"
               onClick={() => store.setSelected(null)}
               className="absolute top-4 right-4 grid size-8 place-items-center rounded-full bg-white/70 text-ink-soft ring-1 ring-line transition-colors hover:bg-white hover:text-ink"
-              aria-label="Sluiten"
+              aria-label={t("Sluiten", "Close")}
             >
               <X className="size-4" />
             </button>
@@ -297,14 +302,14 @@ export function IphoneExperience({
                 {selected.duration && (
                   <div className="flex items-center gap-1.5 text-ink-soft">
                     <Timer className="size-4 text-accent" aria-hidden />
-                    <dt className="sr-only">Duur</dt>
+                    <dt className="sr-only">{t("Duur", "Duration")}</dt>
                     <dd>{selected.duration}</dd>
                   </div>
                 )}
                 {selected.price !== undefined && (
                   <div className="text-ink">
-                    <dt className="sr-only">Prijs</dt>
-                    <dd className="font-semibold">{formatEuro(selected.price)}</dd>
+                    <dt className="sr-only">{t("Prijs", "Price")}</dt>
+                    <dd className="font-semibold">{formatEuro(selected.price, locale)}</dd>
                   </div>
                 )}
               </dl>
@@ -314,11 +319,11 @@ export function IphoneExperience({
                 {selected.bookingHref.startsWith("https://") ? (
                   <a href={selected.bookingHref} target="_blank" rel="noopener noreferrer">
                     <MessageCircle aria-hidden />
-                    Plan via WhatsApp
+                    {t("Plan via WhatsApp", "Book via WhatsApp")}
                   </a>
                 ) : (
                   <Link href={selected.bookingHref}>
-                    Plan reparatie
+                    {t("Plan reparatie", "Plan repair")}
                     <ArrowRight aria-hidden />
                   </Link>
                 )}
@@ -327,7 +332,7 @@ export function IphoneExperience({
                 href={selected.detailHref}
                 className="self-center text-sm font-medium text-accent-strong hover:text-accent"
               >
-                Meer over deze reparatie
+                {t("Meer over deze reparatie", "More about this repair")}
               </Link>
             </div>
           </div>
@@ -343,6 +348,7 @@ export function IphoneExperience({
  * Decorative for assistive tech: the part chooser offers the same actions.
  */
 function LabelsOverlay({ store, compact, active }: { store: ExplodeStore; compact: boolean; active: boolean }) {
+  const { locale } = useI18n();
   const ui = useExplodeUi(store);
   const refs = useRef<Partial<Record<RepairKey, HTMLDivElement>>>({});
   const lineWidth = compact ? 20 : 56;
@@ -408,7 +414,7 @@ function LabelsOverlay({ store, compact, active }: { store: ExplodeStore; compac
                 emphasised ? "scale-105 text-accent-strong" : "text-ink",
               )}
             >
-              {compact ? cfg.shortLabel : cfg.label}
+              {compact ? (locale === "en" ? cfg.shortLabelEn : cfg.shortLabel) : locale === "en" ? cfg.labelEn : cfg.label}
             </button>
           </div>
         );

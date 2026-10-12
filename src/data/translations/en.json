@@ -1,0 +1,634 @@
+{
+  "categories": {
+    "smartphone": {
+      "name": "Smartphone",
+      "plural": "Smartphones",
+      "description": "iPhone, Samsung Galaxy and more"
+    },
+    "tablet": {
+      "name": "Tablet",
+      "plural": "Tablets",
+      "description": "iPad and Samsung Galaxy Tab"
+    },
+    "laptop": {
+      "name": "MacBook",
+      "plural": "MacBooks",
+      "description": "MacBook Air and MacBook Pro"
+    }
+  },
+  "repairs": {
+    "scherm-vervangen": {
+      "name": "Screen replacement",
+      "shortName": "Screen",
+      "summary": "Cracks, lines, black spots or a touchscreen that no longer responds.",
+      "description": [
+        "A cracked or unresponsive screen is the most common repair. The complete display assembly is replaced, so the picture, brightness and touch response work the way you are used to again.",
+        "Phone Repairs carries out the repair by appointment. Many screen repairs are done in about 30 minutes while you watch."
+      ],
+      "advice": []
+    },
+    "batterij-vervangen": {
+      "name": "Battery replacement",
+      "shortName": "Battery",
+      "summary": "Your device drains quickly, shuts down unexpectedly or the battery has swollen.",
+      "description": [
+        "A battery wears with every charge cycle. If your device no longer lasts the day or suddenly switches off, a new battery is often the solution.",
+        "Has the battery swollen? Stop charging the device and get in touch straight away."
+      ],
+      "advice": [
+        "With a swollen battery: do not charge it and stop using the device. Get in touch straight away."
+      ]
+    },
+    "oplaadpoort-repareren": {
+      "name": "Charging port repair",
+      "shortName": "Charging port",
+      "summary": "The cable is loose, charging only works at a certain angle or not at all.",
+      "description": [
+        "Charging problems are often caused by dirt in the port or a damaged connector. After a check you will know whether cleaning is enough or the charging connector needs replacing."
+      ],
+      "advice": []
+    },
+    "camera-repareren": {
+      "name": "Camera repair",
+      "shortName": "Camera",
+      "summary": "Blurry photos, a cracked camera lens or a camera that won't start.",
+      "description": [
+        "Cracked camera glass or a faulty camera module makes sharp photos impossible. Depending on the cause, the lens glass or the complete module is replaced."
+      ],
+      "advice": []
+    },
+    "waterschade": {
+      "name": "Water damage",
+      "shortName": "Water damage",
+      "summary": "Your device got wet. Acting fast improves the chance of recovery.",
+      "description": [
+        "Moisture can cause corrosion on the logic board. The sooner the device is examined, the better the chance it can be saved.",
+        "After the examination you will hear what is damaged and which repair is possible."
+      ],
+      "advice": [
+        "Do not switch your device on and do not charge it.",
+        "Get in touch straight away so the device can be examined as soon as possible."
+      ]
+    },
+    "achterkant-vervangen": {
+      "name": "Back glass replacement",
+      "shortName": "Back glass",
+      "summary": "Cracked back glass or a damaged housing.",
+      "description": [
+        "A cracked back is more than a cosmetic problem: sharp edges and moisture getting in can cause further damage."
+      ],
+      "advice": []
+    },
+    "toetsenbord-vervangen": {
+      "name": "Keyboard replacement",
+      "shortName": "Keyboard",
+      "summary": "Keys that stick, type twice or no longer respond.",
+      "description": [
+        "Sticking or dead keys can be caused by dirt, moisture or wear. After an examination you will hear which solution is possible."
+      ],
+      "advice": []
+    },
+    "overige-reparaties": {
+      "name": "Other repairs",
+      "shortName": "Other",
+      "summary": "Buttons, speaker, microphone, vibration motor or a problem you can't pin down.",
+      "description": [
+        "Not every fault fits in a box. Is a button not working, can you barely hear the other person, or are you not sure what is wrong? Get in touch and describe the problem.",
+        "Your data stays on your device during a repair."
+      ],
+      "advice": []
+    }
+  },
+  "faqs": {
+    "hoe-lang-duurt-reparatie": {
+      "question": "How long does a repair take?",
+      "answer": [
+        "Most repairs are done in about 30 minutes. You can stay and watch. For more complex repairs, such as water damage, you will hear beforehand how long the examination takes."
+      ]
+    },
+    "afspraak-nodig": {
+      "question": "Do I need an appointment?",
+      "answer": [
+        "Yes. Phone Repairs works by appointment only, so there is enough time and attention for your repair. You make an appointment via WhatsApp, by phone or by e-mail."
+      ]
+    },
+    "gegevens-behouden": {
+      "question": "Will my photos and data be kept?",
+      "answer": [
+        "Yes. Your data stays on your device during a repair. It is always wise to make a backup beforehand, if that is still possible."
+      ]
+    },
+    "originele-onderdelen": {
+      "question": "Which parts are used?",
+      "answer": [
+        "Phone Repairs works with original parts. For Samsung devices the original Samsung service packs are used."
+      ]
+    },
+    "prijzen-inclusief": {
+      "question": "Do prices include VAT and fitting?",
+      "answer": [
+        "Yes. Prices include fitting and 21% VAT."
+      ]
+    },
+    "waterschade-wat-doen": {
+      "question": "My phone got wet. What should I do?",
+      "answer": [
+        "Do not switch the device on and do not charge it. Get in touch straight away so it can be examined as soon as possible. The sooner, the better the chance of recovery."
+      ]
+    },
+    "opgezwollen-batterij": {
+      "question": "My battery has swollen. Is that dangerous?",
+      "answer": [
+        "Take a swollen battery seriously. Stop charging the device, don't use it and get in touch straight away."
+      ]
+    },
+    "parkeren": {
+      "question": "Can I park at the shop?",
+      "answer": [
+        "Yes, there is free parking right outside."
+      ]
+    },
+    "openingstijden": {
+      "question": "When are you open?",
+      "answer": [
+        "Phone Repairs is open seven days a week, including evenings. Because we work by appointment, you agree on a time that suits you."
+      ]
+    },
+    "eigen-onderdelen": {
+      "question": "Can I have parts fitted that I bought myself?",
+      "answer": [
+        "No. Repairs are not carried out with parts you bought yourself. Phone Repairs works with its own original parts."
+      ]
+    },
+    "opsturen": {
+      "question": "Can I send my device in?",
+      "answer": [
+        "Yes. Get in touch first, so we can check that the part is in stock and you know what the repair costs. Then send your device well packed and by registered mail."
+      ]
+    }
+  },
+  "claims": {
+    "dertig-minuten": {
+      "title": "Often ready within 30 minutes",
+      "body": "Most repairs are done in about half an hour, so you usually don't have to leave your device behind."
+    },
+    "meekijken": {
+      "title": "You watch the repair",
+      "body": "Your device doesn't disappear behind a closed door. You see for yourself how the repair is done."
+    },
+    "originele-onderdelen": {
+      "title": "Original parts",
+      "body": "Phone Repairs works with original parts, such as the original Samsung service packs."
+    },
+    "gegevens-veilig": {
+      "title": "Your data stays yours",
+      "body": "Your photos, apps and messages simply stay on your device during a repair."
+    },
+    "op-afspraak": {
+      "title": "Personal, by appointment",
+      "body": "We work by appointment only, so there is full attention for you and your device."
+    },
+    "transparante-prijzen": {
+      "title": "Prices include fitting and VAT",
+      "body": "Listed prices include fitting and 21% VAT."
+    }
+  },
+  "landingPages": {
+    "telefoon-reparatie-rosmalen": {
+      "title": "Phone repair Rosmalen",
+      "eyebrow": "For Rosmalen",
+      "intro": "Living or working in Rosmalen? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Phone repair Rosmalen · by appointment in Den Bosch",
+        "description": "Phone broken? From Rosmalen, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "mobiel-reparatie-rosmalen": {
+      "title": "Phone repair Rosmalen",
+      "eyebrow": "For Rosmalen",
+      "intro": "Living or working in Rosmalen? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Phone repair Rosmalen · by appointment in Den Bosch",
+        "description": "Phone broken? From Rosmalen, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "scherm-reparatie-rosmalen": {
+      "title": "Screen repair Rosmalen",
+      "eyebrow": "For Rosmalen",
+      "intro": "Broken screen and living or working in Rosmalen? At Phone Repairs at Ploossche Hof in Den Bosch it is replaced by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Screen repair Rosmalen · by appointment in Den Bosch",
+        "description": "Screen broken? From Rosmalen, have your screen repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "ipad-reparatie-rosmalen": {
+      "title": "iPad repair Rosmalen",
+      "eyebrow": "For Rosmalen",
+      "intro": "Living or working in Rosmalen? At Phone Repairs at Ploossche Hof in Den Bosch your iPad is repaired by appointment, with original parts.",
+      "seo": {
+        "title": "iPad repair Rosmalen · by appointment in Den Bosch",
+        "description": "iPad broken? From Rosmalen, have your iPad repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [
+        {
+          "heading": "An iPad repair can take a little longer",
+          "body": [
+            "On an iPad the glass is glued in place. A screen repair can therefore take longer than the usual 30 minutes: the adhesive needs time to cure."
+          ],
+          "bullets": [],
+          "steps": []
+        }
+      ],
+      "unconfirmed": [
+        "Warranty: this page says 3 months, other pages 12 months.",
+        "Price: 'by appointment'."
+      ]
+    },
+    "telefoon-reparatie-rompert": {
+      "title": "Phone repair in De Rompert",
+      "eyebrow": "De Rompert area",
+      "intro": "Living in De Rompert? Phone Repairs is in the same city, at Ploossche Hof in Den Bosch. Your phone is repaired here by appointment, and most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Phone repair in De Rompert · by appointment in Den Bosch",
+        "description": "Phone broken? From De Rompert, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "telefoon-reparatie-helftheuvel": {
+      "title": "Phone repair in Helftheuvel",
+      "eyebrow": "Helftheuvel area",
+      "intro": "Living in Helftheuvel? Phone Repairs is in the same city, at Ploossche Hof in Den Bosch. Your phone is repaired here by appointment, and most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Phone repair in Helftheuvel · by appointment in Den Bosch",
+        "description": "Phone broken? From Helftheuvel, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "telefoon-reparatie-vught": {
+      "title": "Phone repair Vught",
+      "eyebrow": "For Vught",
+      "intro": "Living or working in Vught? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Phone repair Vught · by appointment in Den Bosch",
+        "description": "Phone broken? From Vught, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "iphone-reparatie-vught": {
+      "title": "iPhone repair Vught",
+      "eyebrow": "For Vught",
+      "intro": "Living or working in Vught? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "iPhone repair Vught · by appointment in Den Bosch",
+        "description": "iPhone broken? From Vught, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": [
+        "Starting price: 'iPhone repair from €40 incl. fitting and VAT' (the homepage says from €60).",
+        "Warranty: 12 months (elsewhere 3 months or 90 days)."
+      ]
+    },
+    "gsm-reparatie-oss": {
+      "title": "Phone repair Oss",
+      "eyebrow": "For Oss",
+      "intro": "Living or working in Oss? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Phone repair Oss · by appointment in Den Bosch",
+        "description": "Phone broken? From Oss, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "iphone-reparatie-oss": {
+      "title": "iPhone repair Oss",
+      "eyebrow": "For Oss",
+      "intro": "Living or working in Oss? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "iPhone repair Oss · by appointment in Den Bosch",
+        "description": "iPhone broken? From Oss, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "scherm-reparatie-oss": {
+      "title": "Screen repair Oss",
+      "eyebrow": "For Oss",
+      "intro": "Broken screen and living or working in Oss? At Phone Repairs at Ploossche Hof in Den Bosch it is replaced by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Screen repair Oss · by appointment in Den Bosch",
+        "description": "Screen broken? From Oss, have your screen repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "gsm-reparatie-waalwijk": {
+      "title": "Phone repair Waalwijk",
+      "eyebrow": "For Waalwijk",
+      "intro": "Living or working in Waalwijk? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Phone repair Waalwijk · by appointment in Den Bosch",
+        "description": "Phone broken? From Waalwijk, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": [
+        "Warranty: 90 days."
+      ]
+    },
+    "smartphone-reparatie-waalwijk": {
+      "title": "Smartphone repair Waalwijk",
+      "eyebrow": "For Waalwijk",
+      "intro": "Living or working in Waalwijk? At Phone Repairs at Ploossche Hof in Den Bosch your smartphone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Smartphone repair Waalwijk · by appointment in Den Bosch",
+        "description": "Smartphone broken? From Waalwijk, have your smartphone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "ipad-reparatie-waalwijk": {
+      "title": "iPad repair Waalwijk",
+      "eyebrow": "For Waalwijk",
+      "intro": "Living or working in Waalwijk? At Phone Repairs at Ploossche Hof in Den Bosch your iPad is repaired by appointment, with original parts.",
+      "seo": {
+        "title": "iPad repair Waalwijk · by appointment in Den Bosch",
+        "description": "iPad broken? From Waalwijk, have your iPad repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [
+        {
+          "heading": "An iPad repair can take a little longer",
+          "body": [
+            "On an iPad the glass is glued in place. A screen repair can therefore take longer than the usual 30 minutes: the adhesive needs time to cure."
+          ],
+          "bullets": [],
+          "steps": []
+        }
+      ],
+      "unconfirmed": []
+    },
+    "telefoon-reparatie-zaltbommel": {
+      "title": "Phone repair Zaltbommel",
+      "eyebrow": "For Zaltbommel",
+      "intro": "Living or working in Zaltbommel? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Phone repair Zaltbommel · by appointment in Den Bosch",
+        "description": "Phone broken? From Zaltbommel, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "telefoon-reparatie-boxtel": {
+      "title": "Phone repair Boxtel",
+      "eyebrow": "For Boxtel",
+      "intro": "Living or working in Boxtel? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Phone repair Boxtel · by appointment in Den Bosch",
+        "description": "Phone broken? From Boxtel, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "gsm-reparatie-schijndel": {
+      "title": "Phone repair Schijndel",
+      "eyebrow": "For Schijndel",
+      "intro": "Living or working in Schijndel? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Phone repair Schijndel · by appointment in Den Bosch",
+        "description": "Phone broken? From Schijndel, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": [
+        "'Repaired the same day where possible'."
+      ]
+    },
+    "iphone-reparatie-geldermalsen": {
+      "title": "iPhone repair Geldermalsen",
+      "eyebrow": "For Geldermalsen",
+      "intro": "Living or working in Geldermalsen? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "iPhone repair Geldermalsen · by appointment in Den Bosch",
+        "description": "iPhone broken? From Geldermalsen, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": [
+        "Starting price: 'from €60 incl. fitting and VAT'."
+      ]
+    },
+    "nintendo-switch-reparatie": {
+      "title": "Nintendo Switch repair",
+      "eyebrow": "Nintendo Switch",
+      "intro": "You can also bring your Nintendo Switch to Phone Repairs in Den Bosch. From a battery that drains quickly to a broken screen or a Joy-Con that no longer does what it should.",
+      "seo": {
+        "title": "Nintendo Switch repair in Den Bosch",
+        "description": "Battery, screen or Joy-Con of your Nintendo Switch broken? Have it repaired at Phone Repairs in Den Bosch, with original service pack parts."
+      },
+      "sections": [
+        {
+          "heading": "What we repair",
+          "bullets": [
+            "Battery replacement, including the Switch 2",
+            "Touchscreen and LCD",
+            "Joy-Con controllers"
+          ],
+          "body": [
+            "Original service pack parts are used."
+          ],
+          "steps": []
+        },
+        {
+          "heading": "Price and turnaround",
+          "body": [
+            "All prices include fitting and 21% VAT.",
+            "How quickly your Switch is ready depends on how busy we are, whether parts are available and how complex the repair is. In a hurry? There is an express service at an extra charge."
+          ],
+          "bullets": [],
+          "steps": []
+        }
+      ],
+      "unconfirmed": [
+        "Warranty: 12 months.",
+        "Switch 2 battery replacement: €115.",
+        "Express service: + €60."
+      ]
+    },
+    "pre-owned-toestellen": {
+      "title": "Pre-owned devices",
+      "eyebrow": "Pre-owned",
+      "intro": "Besides repairs, Phone Repairs has a selection of used devices that have been thoroughly checked and are ready for a second life.",
+      "seo": {
+        "title": "Pre-owned devices · Phone Repairs Den Bosch",
+        "description": "Used smartphones tested on dozens of points, with a battery condition between 85% and 98%. Ask about the current stock."
+      },
+      "sections": [
+        {
+          "heading": "Thoroughly tested",
+          "body": [
+            "Every device is tested on dozens of points, including the battery, the screen and the cameras."
+          ],
+          "bullets": [
+            "Battery condition between 85% and 98%",
+            "Supplied with original charger and cable"
+          ],
+          "steps": []
+        },
+        {
+          "heading": "Current stock",
+          "body": [
+            "The stock changes all the time. Call or e-mail to hear which devices are available now."
+          ],
+          "bullets": [],
+          "steps": []
+        }
+      ],
+      "unconfirmed": [
+        "Warranty: '1 year' in the text but '90 days' in the banner; battery warranty 90 days from the invoice date.",
+        "Example stock with prices (such as iPhone 15 Pro 256 GB and Nintendo Switch OLED); current stock and prices must come from a feed or the owner."
+      ]
+    },
+    "bijzondere-merken-reparatie": {
+      "title": "Repairs for less common brands",
+      "eyebrow": "Other brands",
+      "intro": "Not every smartphone is an iPhone or a Samsung. Phone Repairs also repairs devices from less common brands.",
+      "seo": {
+        "title": "Repairs for less common brands · Phone Repairs",
+        "description": "Google Pixel, Honor, Nexus or another brand? Less common smartphones are repaired at Phone Repairs in Den Bosch too."
+      },
+      "sections": [
+        {
+          "heading": "These brands too",
+          "bullets": [
+            "Google Pixel",
+            "Honor",
+            "Nexus"
+          ],
+          "body": [
+            "Not sure whether your device can be repaired? Get in touch and you'll know straight away."
+          ],
+          "steps": []
+        }
+      ],
+      "unconfirmed": []
+    },
+    "zakelijke-reparatie": {
+      "title": "Business repairs",
+      "eyebrow": "For businesses",
+      "intro": "Does your team work with smartphones and tablets? Then you want a broken device working again quickly.",
+      "seo": {
+        "title": "Business repairs · Phone Repairs Den Bosch",
+        "description": "An employee's smartphone broken? Business repairs at Phone Repairs are usually done within 30 minutes, with original parts."
+      },
+      "sections": [
+        {
+          "heading": "Back to work quickly",
+          "body": [
+            "Business repairs are usually done within 30 minutes while you or your employee watch."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "Parts",
+          "body": [
+            "We work with original parts. Repairs with parts you bought yourself are not carried out."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "Prices",
+          "body": [
+            "All prices include fitting and 21% VAT."
+          ],
+          "bullets": [],
+          "steps": []
+        }
+      ],
+      "unconfirmed": [
+        "Warranty: 3 months on the repair and the new original parts."
+      ]
+    },
+    "reparatie-opsturen": {
+      "title": "Mail-in repair",
+      "eyebrow": "Mail-in",
+      "intro": "Not living near Den Bosch? You can also send your device in.",
+      "seo": {
+        "title": "Mail-in repair · Phone Repairs Den Bosch",
+        "description": "How to send your device to Phone Repairs: contact us first, pack it well, send it registered and get it back within 1 to 2 working days."
+      },
+      "sections": [
+        {
+          "heading": "How it works",
+          "steps": [
+            "Get in touch first. We check that the part is in stock and you hear what the repair costs.",
+            "Pack your device in a sturdy box with bubble wrap.",
+            "Send the parcel by registered mail.",
+            "After receipt and payment you usually get your device back within 1 to 2 working days, registered and insured, provided the part is in stock."
+          ],
+          "body": [],
+          "bullets": []
+        },
+        {
+          "heading": "Outside the Netherlands",
+          "body": [
+            "Living outside the Netherlands? Get in touch first, as different shipping costs apply."
+          ],
+          "bullets": [],
+          "steps": []
+        }
+      ],
+      "unconfirmed": [
+        "Cost of the registered return shipment within the Netherlands: the page mentions both €11 and €12."
+      ]
+    }
+  },
+  "blog": {
+    "ios-27-batterijproblemen": {
+      "title": "iOS 27 battery problems",
+      "excerpt": "Is your battery draining faster after the update to iOS 27? That is usually temporary.",
+      "summary": [
+        "After a major iOS update many people notice the battery draining faster and the device getting warmer. That is usually temporary.",
+        "Right after the update your iPhone runs heavy optimisation tasks in the background. After a few days they are done and battery use returns to normal."
+      ]
+    },
+    "waterdichtheid-smartphones": {
+      "title": "How water resistant are smartphones?",
+      "excerpt": "A smartphone is water resistant, not waterproof. What does that mean in practice?",
+      "summary": [
+        "Smartphones are water resistant, not waterproof. The protection applies to cold, fresh water.",
+        "Salt water, chlorinated water and hot steam can damage the seals. Water damage is never covered by warranty, whatever your device's IP rating."
+      ]
+    },
+    "wat-te-doen-bij-waterschade": {
+      "title": "What to do after water damage",
+      "excerpt": "Phone got wet? Here is what to do, and above all what not to do.",
+      "summary": [
+        "Don't dry your device with a hair dryer and don't put it in rice. That doesn't help and can cause more damage.",
+        "Bring your device in as soon as possible, ideally within 72 hours, so it can be cleaned chemically. Water damage itself is never covered by warranty."
+      ]
+    },
+    "flexible-hydrogel-screen-protectors": {
+      "title": "Flexible hydrogel screen protector",
+      "excerpt": "According to Phone Repairs, a hydrogel screen protector is the best protection for your screen.",
+      "summary": [
+        "A flexible hydrogel screen protector protects your screen against scratches and cracks.",
+        "Is the screen broken anyway? A screen replacement is usually done within 30 minutes while you watch."
+      ]
+    },
+    "enkel-het-glas-vervangen-van-de-smartphone": {
+      "title": "Replacing only the glass of your smartphone?",
+      "excerpt": "Can you have only the glass replaced? Yes, but also no.",
+      "summary": [
+        "On a few models the glass can be replaced separately from the display.",
+        "On most smartphones the glass and the display are bonded with adhesive. In that case the complete screen is replaced."
+      ]
+    }
+  }
+}

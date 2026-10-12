@@ -1,6 +1,9 @@
+"use client";
+
 import Image, { type StaticImageData } from "next/image";
 import { DeviceArt } from "@/components/devices/device-art";
 import type { DeviceModel } from "@/types/content";
+import { useI18n } from "@/components/i18n/locale-provider";
 import { cn } from "@/lib/utils";
 import android from "@/assets/devices/android.jpg";
 import galaxyTab from "@/assets/devices/galaxy-tab.jpg";
@@ -78,12 +81,13 @@ export function DevicePhoto({
   /** Set when the device name is already in adjacent text (cards, lists). */
   decorative?: boolean;
 }) {
+  const { t } = useI18n();
   const key = devicePhotoKey(device);
   if (!key) return <DeviceArt art={device.art} title={decorative ? undefined : device.name} className={artClassName} />;
   return (
     <Image
       src={photos[key]}
-      alt={decorative ? "" : `${device.name} (voorbeeldafbeelding)`}
+      alt={decorative ? "" : `${device.name} (${t("voorbeeldafbeelding", "example image")})`}
       sizes={sizes}
       priority={priority}
       className={cn("h-full w-full object-contain", className)}

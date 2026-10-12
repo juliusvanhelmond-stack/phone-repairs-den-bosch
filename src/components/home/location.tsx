@@ -1,8 +1,9 @@
-import Link from "next/link";
+import { Link } from "@/components/i18n/link";
 import { ArrowUpRight, CalendarCheck, Car, Clock, Mail, MapPin, MessageCircle, Phone } from "lucide-react";
 import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
-import { fullAddress, mapsUrl, site, whatsappHref } from "@/lib/site";
+import { getI18n } from "@/lib/i18n-server";
+import { fullAddress, mapsUrl, site, whatsappCopy, whatsappHref, whatsappMessage } from "@/lib/site";
 import { Aura } from "@/components/ui/aura";
 import { ReviewsLink } from "@/components/contact/reviews-link";
 import { Skyline } from "@/components/ui/skyline";
@@ -41,18 +42,20 @@ export function MapGraphic() {
   );
 }
 
-export function ContactDetails({ className }: { className?: string }) {
-  const wa = whatsappHref();
+export async function ContactDetails({ className }: { className?: string }) {
+  const { locale, t } = await getI18n();
+  const copy = whatsappCopy(locale);
+  const wa = whatsappHref(locale === "en" ? whatsappMessage({ locale }) : undefined);
   const rows = [
-    ...(site.whatsapp && wa
-      ? [{ icon: MessageCircle, label: `WhatsApp · ${site.whatsapp.hours}`, value: site.whatsapp.display, href: wa, external: true }]
+    ...(copy && wa
+      ? [{ icon: MessageCircle, label: `WhatsApp · ${copy.hours}`, value: copy.display, href: wa, external: true }]
       : []),
-    { icon: Phone, label: "Telefoon", value: site.phone.display, href: site.phone.href },
-    { icon: MapPin, label: "Adres", value: fullAddress, href: mapsUrl, external: true },
+    { icon: Phone, label: t("Telefoon", "Phone"), value: site.phone.display, href: site.phone.href },
+    { icon: MapPin, label: t("Adres", "Address"), value: fullAddress, href: mapsUrl, external: true },
     { icon: Mail, label: "E-mail", value: site.email, href: `mailto:${site.email}` },
-    { icon: Clock, label: "Openingstijden", value: "7 dagen per week, ook ’s avonds" },
-    { icon: CalendarCheck, label: "Afspraak", value: "Alleen op afspraak" },
-    { icon: Car, label: "Parkeren", value: site.parkingNote },
+    { icon: Clock, label: t("Openingstijden", "Opening hours"), value: t("7 dagen per week, ook ’s avonds", "7 days a week, evenings included") },
+    { icon: CalendarCheck, label: t("Afspraak", "Appointment"), value: t("Alleen op afspraak", "By appointment only") },
+    { icon: Car, label: t("Parkeren", "Parking"), value: t(site.parkingNote, "Free parking right outside") },
   ];
   return (
     <ul className={className}>
@@ -82,18 +85,19 @@ export function ContactDetails({ className }: { className?: string }) {
   );
 }
 
-export function Location() {
+export async function Location() {
+  const { t } = await getI18n();
   return (
     <section className="relative isolate overflow-hidden py-20 lg:py-28">
       <Aura variant="soft" />
       <div className="container-page">
         <Reveal>
-          <SectionHeading eyebrow="Locatie & contact" title="Langskomen in Den Bosch." />
+          <SectionHeading eyebrow={t("Locatie & contact", "Location & contact")} title={t("Langskomen in Den Bosch.", "Visit us in Den Bosch.")} />
         </Reveal>
-        <Skyline className="mt-10 text-accent-strong/45 lg:mt-12" />
+        <Skyline className="mt-10 text-accent-strong/45 lg:mt-12" title={t("Skyline van Den Bosch", "Den Bosch skyline")} />
         <div className="mt-6 grid gap-4 lg:grid-cols-[1.2fr_1fr]">
           <Reveal className="h-full">
-            <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="group relative block h-full" aria-label="Open de locatie in Google Maps">
+            <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="group relative block h-full" aria-label={t("Open de locatie in Google Maps", "Open the location in Google Maps")}>
               <MapGraphic />
               <span className="absolute bottom-4 left-4 inline-flex items-center gap-1.5 rounded-full bg-white px-4 py-2 text-sm font-medium text-ink shadow-[var(--shadow-soft)] transition-colors group-hover:bg-ink group-hover:text-white">
                 Open in Google Maps
@@ -108,7 +112,7 @@ export function Location() {
                 href="/contact"
                 className="mt-4 inline-flex items-center gap-1.5 text-[0.9375rem] font-medium text-accent-strong hover:text-accent"
               >
-                Alle contactmogelijkheden
+                {t("Alle contactmogelijkheden", "All ways to get in touch")}
                 <ArrowUpRight className="size-4" aria-hidden />
               </Link>
               <ReviewsLink className="mt-3 flex w-fit text-[0.9375rem]" />

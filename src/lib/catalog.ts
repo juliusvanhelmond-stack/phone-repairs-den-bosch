@@ -27,6 +27,8 @@ import faqsJson from "@/data/faqs.json";
 import claimsJson from "@/data/claims.json";
 import landingPagesJson from "@/data/landing-pages.json";
 import blogJson from "@/data/blog.json";
+import enJson from "@/data/translations/en.json";
+import type { Locale } from "@/lib/i18n";
 import apple from "@/data/devices/apple.json";
 import samsung from "@/data/devices/samsung.json";
 import huawei from "@/data/devices/huawei.json";
@@ -164,3 +166,55 @@ export function areasByPlace(): { place: string; placeKind: "wijk" | "plaats"; p
 
 export const blogPath = (slug: string) => `/blog-post/${slug}`;
 export const getBlogPost = (slug: string) => blogPosts.find((p) => p.slug === slug);
+
+/* --------------------------------------------------------------------------
+ * Translations. Content is stored in Dutch; English overlays live in
+ * src/data/translations/en.json keyed by record id (same sources apply).
+ * ------------------------------------------------------------------------ */
+const landingSectionText = z.object({
+  heading: z.string(),
+  body: z.array(z.string()).default([]),
+  bullets: z.array(z.string()).default([]),
+  steps: z.array(z.string()).default([]),
+});
+const translationsSchema = z.object({
+  categories: z.record(z.string(), z.object({ name: z.string(), plural: z.string(), description: z.string() })),
+  repairs: z.record(
+    z.string(),
+    z.object({
+      name: z.string(),
+      shortName: z.string(),
+      summary: z.string(),
+      description: z.array(z.string()),
+      advice: z.array(z.string()),
+    }),
+  ),
+  faqs: z.record(z.string(), z.object({ question: z.string(), answer: z.array(z.string()) })),
+  claims: z.record(z.string(), z.object({ title: z.string(), body: z.string() })),
+  landingPages: z.record(
+    z.string(),
+    z.object({
+      title: z.string(),
+      eyebrow: z.string(),
+      intro: z.string(),
+      seo: z.object({ title: z.string().max(70), description: z.string().max(170) }),
+      sections: z.array(landingSectionText),
+      unconfirmed: z.array(z.string()),
+    }),
+  ),
+  blog: z.record(z.string(), z.object({ title: z.string(), excerpt: z.string(), summary: z.array(z.string()) })),
+});
+export const englishContent = translationsSchema.parse(enJson);
+
+function overlay<T extends { id: string }, O extends object>(item: T, table: Record<string, O>, locale: Locale): T {
+  if (locale === "nl") return item;
+  const extra = table[item.id];
+  return extra ? { ...item, ...extra } : item;
+}
+
+export const localizeCategory = (c: DeviceCategory, locale: Locale) => overlay(c, englishContent.categories, locale);
+export const localizeRepair = (r: RepairService, locale: Locale) => overlay(r, englishContent.repairs, locale);
+export const localizeFaq = (f: z.infer<typeof faqItemSchema>, locale: Locale) => overlay(f, englishContent.faqs, locale);
+export const localizeClaim = (c: z.infer<typeof claimSchema>, locale: Locale) => overlay(c, englishContent.claims, locale);
+export const localizeLanding = (p: LandingPage, locale: Locale) => overlay(p, englishContent.landingPages, locale);
+export const localizeBlog = (p: z.infer<typeof blogArticleSchema>, locale: Locale) => overlay(p, englishContent.blog, locale);

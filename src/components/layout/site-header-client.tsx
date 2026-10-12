@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { Link } from "@/components/i18n/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Dialog, NavigationMenu, VisuallyHidden } from "radix-ui";
@@ -11,13 +11,17 @@ import { mainNav } from "@/components/layout/nav-data";
 import { ContentIcon } from "@/components/repairs/icon";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
+import { useI18n } from "@/components/i18n/locale-provider";
+import { LanguageSwitch } from "@/components/i18n/language-switch";
+import { parsePublicPath } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
 
 type Props = { nav: NavData; phone: { display: string; href: string }; whatsapp: string | null; email: string };
 
 export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
   const [scrolled, setScrolled] = useState(false);
-  const pathname = usePathname();
+  const { t } = useI18n();
+  const pathname = parsePublicPath(usePathname()).nlPath;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
@@ -38,7 +42,7 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
       <div className="container-page relative flex h-16 items-center justify-between gap-6 lg:h-[4.5rem]">
         <Logo />
 
-        <NavigationMenu.Root className="static hidden lg:block" aria-label="Hoofdmenu">
+        <NavigationMenu.Root className="static hidden lg:block" aria-label={t("Hoofdmenu", "Main menu")}>
           <NavigationMenu.List className="flex items-center gap-0.5 xl:gap-1">
             <NavigationMenu.Item>
               <NavigationMenu.Trigger
@@ -47,7 +51,7 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
                   pathname.startsWith("/reparatie") && "text-ink",
                 )}
               >
-                Reparaties
+                {t("Reparaties", "Repairs")}
                 <ChevronDown
                   className="size-3.5 transition-transform duration-200 group-data-[state=open]:rotate-180"
                   aria-hidden
@@ -64,7 +68,7 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
                     href={item.href}
                     className="flex h-10 items-center rounded-full px-3 text-[0.9375rem] whitespace-nowrap text-ink-soft xl:px-4 transition-colors hover:bg-mist hover:text-ink data-[active]:text-ink"
                   >
-                    {item.label}
+                    {t(item.label, item.labelEn)}
                   </Link>
                 </NavigationMenu.Link>
               </NavigationMenu.Item>
@@ -73,6 +77,7 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
         </NavigationMenu.Root>
 
         <div className="flex items-center gap-2">
+          <LanguageSwitch className="hidden sm:inline-flex" />
           <a
             href={phone.href}
             className="hidden h-10 items-center gap-2 rounded-full px-3 text-[0.9375rem] text-ink-soft transition-colors hover:text-ink xl:flex"
@@ -84,14 +89,14 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
             <Button asChild size="sm" className="hidden h-10 px-5 sm:inline-flex">
               <a href={whatsapp} target="_blank" rel="noopener noreferrer">
                 <MessageCircle aria-hidden />
-                WhatsApp ons
+                {t("WhatsApp ons", "WhatsApp us")}
               </a>
             </Button>
           ) : (
             <Button asChild size="sm" className="hidden h-10 px-5 sm:inline-flex">
               <a href={phone.href}>
                 <Phone aria-hidden />
-                Bel ons
+                {t("Bel ons", "Call us")}
               </a>
             </Button>
           )}
@@ -103,6 +108,7 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
 }
 
 function MegaMenu({ nav }: { nav: NavData }) {
+  const { t } = useI18n();
   return (
     <div className="mx-auto grid max-w-[76rem] gap-2 overflow-hidden rounded-[1.75rem] bg-white p-2 shadow-[var(--shadow-lift)] ring-1 ring-line lg:grid-cols-[1.2fr_1fr_0.8fr]">
       <div className="space-y-6 p-6">
@@ -127,7 +133,7 @@ function MegaMenu({ nav }: { nav: NavData }) {
         ))}
       </div>
       <div className="border-line p-4 lg:border-l">
-        <p className="mb-2 px-2 pt-2 text-xs font-medium tracking-wide text-muted uppercase">Reparaties</p>
+        <p className="mb-2 px-2 pt-2 text-xs font-medium tracking-wide text-muted uppercase">{t("Reparaties", "Repairs")}</p>
         <ul>
           {nav.repairs.map((r) => (
             <li key={r.href}>
@@ -157,10 +163,12 @@ function MegaMenu({ nav }: { nav: NavData }) {
             aria-hidden
           />
           <Search className="relative mb-auto size-6 text-accent-light" aria-hidden />
-          <p className="relative text-xl font-semibold tracking-tight">Zoek jouw toestel</p>
-          <p className="relative mt-1 text-sm text-neutral-300">Kies je model en de reparatie die je nodig hebt.</p>
+          <p className="relative text-xl font-semibold tracking-tight">{t("Zoek jouw toestel", "Find your device")}</p>
+          <p className="relative mt-1 text-sm text-neutral-300">
+            {t("Kies je model en de reparatie die je nodig hebt.", "Choose your model and the repair you need.")}
+          </p>
           <span className="relative mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-white">
-            Start de zoeker
+            {t("Start de zoeker", "Start the finder")}
             <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" aria-hidden />
           </span>
         </Link>
@@ -170,13 +178,14 @@ function MegaMenu({ nav }: { nav: NavData }) {
 }
 
 function MobileNav({ nav, phone, whatsapp, email }: Props) {
+  const { t } = useI18n();
   const [open, setOpen] = useState(false);
   const close = () => setOpen(false);
 
   return (
     <Dialog.Root open={open} onOpenChange={setOpen}>
       <Dialog.Trigger asChild>
-        <Button variant="secondary" size="icon" className="lg:hidden" aria-label="Menu openen">
+        <Button variant="secondary" size="icon" className="lg:hidden" aria-label={t("Menu openen", "Open menu")}>
           <Menu className="size-5" />
         </Button>
       </Dialog.Trigger>
@@ -185,20 +194,20 @@ function MobileNav({ nav, phone, whatsapp, email }: Props) {
         <Dialog.Content className="fixed inset-y-0 right-0 z-50 flex w-full max-w-sm flex-col bg-white shadow-2xl outline-none data-[state=open]:animate-[slide-in_0.35s_cubic-bezier(0.22,1,0.36,1)]">
           <VisuallyHidden.Root>
             <Dialog.Title>Menu</Dialog.Title>
-            <Dialog.Description>Navigatie van Phone Repairs</Dialog.Description>
+            <Dialog.Description>{t("Navigatie van Phone Repairs", "Phone Repairs navigation")}</Dialog.Description>
           </VisuallyHidden.Root>
           <div className="flex h-16 items-center justify-between px-4">
             <Logo onClick={close} />
             <Dialog.Close asChild>
-              <Button variant="secondary" size="icon" aria-label="Menu sluiten">
+              <Button variant="secondary" size="icon" aria-label={t("Menu sluiten", "Close menu")}>
                 <X className="size-5" />
               </Button>
             </Dialog.Close>
           </div>
-          <nav className="flex-1 overflow-y-auto px-4 pb-6" aria-label="Mobiel menu">
+          <nav className="flex-1 overflow-y-auto px-4 pb-6" aria-label={t("Mobiel menu", "Mobile menu")}>
             <Accordion type="single" collapsible>
               <AccordionItem value="reparaties">
-                <AccordionTrigger className="py-4 text-lg">Reparaties</AccordionTrigger>
+                <AccordionTrigger className="py-4 text-lg">{t("Reparaties", "Repairs")}</AccordionTrigger>
                 <AccordionContent className="pb-4">
                   <div className="space-y-5">
                     {nav.categories.map((cat) => (
@@ -219,7 +228,7 @@ function MobileNav({ nav, phone, whatsapp, email }: Props) {
                       </div>
                     ))}
                     <div>
-                      <p className="mb-1 text-xs font-medium tracking-wide text-muted uppercase">Soort reparatie</p>
+                      <p className="mb-1 text-xs font-medium tracking-wide text-muted uppercase">{t("Soort reparatie", "Type of repair")}</p>
                       {nav.repairs.map((r) => (
                         <Link
                           key={r.href}
@@ -240,30 +249,31 @@ function MobileNav({ nav, phone, whatsapp, email }: Props) {
               {mainNav.map((item) => (
                 <li key={item.href} className="border-b border-line">
                   <Link href={item.href} onClick={close} className="block py-4 text-lg font-medium text-ink">
-                    {item.label}
+                    {t(item.label, item.labelEn)}
                   </Link>
                 </li>
               ))}
             </ul>
           </nav>
           <div className="space-y-2 border-t border-line p-4">
+            <LanguageSwitch className="mb-2 w-full justify-center" onNavigate={close} />
             {whatsapp && (
               <Button asChild size="lg" className="w-full">
                 <a href={whatsapp} target="_blank" rel="noopener noreferrer" onClick={close}>
                   <MessageCircle aria-hidden />
-                  WhatsApp ons
+                  {t("WhatsApp ons", "WhatsApp us")}
                 </a>
               </Button>
             )}
             <Button asChild variant={whatsapp ? "secondary" : "primary"} size="lg" className="w-full">
               <a href={phone.href}>
                 <Phone aria-hidden />
-                Bel {phone.display}
+                {t("Bel", "Call")} {phone.display}
               </a>
             </Button>
             <a href={`mailto:${email}`} className="flex items-center justify-center gap-2 pt-2 text-sm text-muted hover:text-ink">
               <Mail className="size-4" aria-hidden />
-              Of mail naar {email}
+              {t("Of mail naar", "Or e-mail")} {email}
             </a>
           </div>
         </Dialog.Content>

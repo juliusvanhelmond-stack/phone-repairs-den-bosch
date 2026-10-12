@@ -48,6 +48,21 @@ const ROUTES = [
   "/blog-post/wat-te-doen-bij-waterschade",
   "/sitemap.xml",
   "/robots.txt",
+  // English
+  "/en",
+  "/en/repairs",
+  "/en/repairs/apple/iphone-15-pro",
+  "/en/repair/screen-replacement",
+  "/en/how-it-works",
+  "/en/about",
+  "/en/faq",
+  "/en/faq/mail-in-repair",
+  "/en/contact",
+  "/en/appointment",
+  "/en/service-area",
+  "/en/telefoon-reparatie-rosmalen",
+  "/en/blog",
+  "/en/blog/wat-te-doen-bij-waterschade",
 ];
 
 const REDIRECTS: [string, string][] = [
@@ -57,6 +72,10 @@ const REDIRECTS: [string, string][] = [
   ["/iphone-reparatie/iphone-14-pro-max-3/", "/reparaties/apple/iphone-14-pro-max"],
   ["/nintendo-switch-reparatie-den-bosch/", "/nintendo-switch-reparatie"],
   ["/veelgestelde-vragen/phone-repairs-blog/", "/blog-post"],
+  // Language routing: no public /nl prefix, Dutch segments in English URLs are translated.
+  ["/nl/contact", "/contact"],
+  ["/en/reparaties/apple", "/en/repairs/apple"],
+  ["/en/reparatie/scherm-vervangen", "/en/repair/screen-replacement"],
 ];
 
 /** Keeps the WhatsApp prompt from opening by itself, so it cannot cover what a test clicks. */
@@ -94,7 +113,14 @@ async function main() {
     });
   }
 
-  for (const path of ["/reparaties/apple/bestaat-niet", "/bestaat-niet", "/blog-post/bestaat-niet", "/veelgestelde-vragen/bestaat-niet"]) {
+  for (const path of [
+    "/reparaties/apple/bestaat-niet",
+    "/bestaat-niet",
+    "/blog-post/bestaat-niet",
+    "/veelgestelde-vragen/bestaat-niet",
+    "/en/does-not-exist",
+    "/en/repairs/apple/does-not-exist",
+  ]) {
     await check(`unknown ${path} → 404`, async () => {
       const res = await page.request.get(BASE + path);
       assert(res.status() === 404, `status ${res.status()}`);
@@ -126,6 +152,34 @@ async function main() {
     for (const t of ["BreadcrumbList", "FAQPage", "Service", "MobilePhoneStore"]) {
       assert(types.includes(t), `missing ${t} (found ${types.join(", ")})`);
     }
+  });
+
+  await check("english: lang, canonical, hreflang and language switch", async () => {
+    await page.goto(BASE + "/en/repairs/apple/iphone-15-pro");
+    assert((await page.getAttribute("html", "lang")) === "en", "html lang is not en");
+    const canonical = await page.locator('link[rel="canonical"]').getAttribute("href");
+    assert(canonical?.endsWith("/en/repairs/apple/iphone-15-pro"), `canonical ${canonical}`);
+    const nl = await page.locator('link[rel="alternate"][hreflang="nl"]').getAttribute("href");
+    assert(nl?.endsWith("/reparaties/apple/iphone-15-pro"), `hreflang nl ${nl}`);
+    await page.getByRole("link", { name: /Nederlands|NL/ }).first().click();
+    await page.waitForURL((u) => u.pathname === "/reparaties/apple/iphone-15-pro");
+    assert((await page.getAttribute("html", "lang")) === "nl", "switch did not land on Dutch page");
+  });
+
+  await check("english: 404 page is translated", async () => {
+    // Own page: the expected 404 would otherwise count as a console error.
+    const p = await context.newPage();
+    const res = await p.goto(BASE + "/en/does-not-exist");
+    assert(res?.status() === 404, `status ${res?.status()}`);
+    await p.getByRole("heading", { name: "This page does not exist (anymore)." }).waitFor();
+    await p.close();
+  });
+
+  await check("english: device finder and WhatsApp prefill in English", async () => {
+    await page.goto(BASE + "/en?model=apple-iphone-15-pro&reparatie=scherm-vervangen#toestel-zoeken");
+    await page.getByRole("heading", { name: "Screen replacement for your iPhone 15 Pro" }).waitFor();
+    const href = await page.getByRole("link", { name: "Book via WhatsApp" }).getAttribute("href");
+    assert(waText(href).startsWith("Hi Phone Repairs"), `prefill: ${waText(href)}`);
   });
 
   await check("device finder: full flow by clicking", async () => {
@@ -287,7 +341,7 @@ async function main() {
     const ctx = await browser.newContext({ viewport: { width, height: 900 } });
     await quietPrompt(ctx);
     const p = await ctx.newPage();
-    for (const route of ["/", "/reparaties/apple/iphone-15-pro", "/reparaties/samsung", "/afspraak", "/contact"]) {
+    for (const route of ["/", "/reparaties/apple/iphone-15-pro", "/reparaties/samsung", "/afspraak", "/contact", "/en"]) {
       await check(`no horizontal overflow @${width}px ${route}`, async () => {
         await p.goto(BASE + route, { waitUntil: "networkidle" });
         await noHorizontalOverflow(p);
@@ -309,7 +363,7 @@ async function main() {
     assert(broken.length === 0, `broken: ${broken.join(", ")}`);
   });
 
-  for (const route of ["/", "/reparaties/apple/iphone-15-pro", "/afspraak", "/veelgestelde-vragen"]) {
+  for (const route of ["/", "/reparaties/apple/iphone-15-pro", "/afspraak", "/veelgestelde-vragen", "/en", "/en/appointment"]) {
     await check(`axe: no serious/critical violations on ${route}`, async () => {
       await page.goto(BASE + route, { waitUntil: "networkidle" });
       const { violations } = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa"]).analyze();

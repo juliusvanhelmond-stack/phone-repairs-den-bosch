@@ -118,13 +118,13 @@ export const PARTS: readonly PartSpec[] = [
 /** Label anchors (local, assembled coordinates) and which side the label sits on. */
 export const REPAIR_LABELS: Record<
   RepairKey,
-  { label: string; shortLabel: string; anchorPart: PartId; anchor: Vec3; side: "left" | "right" }
+  { label: string; shortLabel: string; labelEn: string; shortLabelEn: string; anchorPart: PartId; anchor: Vec3; side: "left" | "right" }
 > = {
-  display: { label: "Scherm reparatie", shortLabel: "Scherm", anchorPart: "display", anchor: [0.36, 0.3, 0.02], side: "right" },
-  battery: { label: "Batterij vervangen", shortLabel: "Batterij", anchorPart: "battery", anchor: [-0.3, -0.1, 0], side: "left" },
-  camera: { label: "Camera reparatie", shortLabel: "Camera", anchorPart: "camera", anchor: [-0.1, 0.06, -0.02], side: "left" },
-  backGlass: { label: "Achterkant reparatie", shortLabel: "Achterkant", anchorPart: "backGlass", anchor: [-0.3, -0.3, 0], side: "left" },
-  chargingPort: { label: "Oplaadpoort reparatie", shortLabel: "Oplaadpoort", anchorPart: "chargingPort", anchor: [0.06, -0.02, 0], side: "right" },
+  display: { label: "Scherm reparatie", shortLabel: "Scherm", labelEn: "Screen repair", shortLabelEn: "Screen", anchorPart: "display", anchor: [0.36, 0.3, 0.02], side: "right" },
+  battery: { label: "Batterij vervangen", shortLabel: "Batterij", labelEn: "Battery replacement", shortLabelEn: "Battery", anchorPart: "battery", anchor: [-0.3, -0.1, 0], side: "left" },
+  camera: { label: "Camera reparatie", shortLabel: "Camera", labelEn: "Camera repair", shortLabelEn: "Camera", anchorPart: "camera", anchor: [-0.1, 0.06, -0.02], side: "left" },
+  backGlass: { label: "Achterkant reparatie", shortLabel: "Achterkant", labelEn: "Back glass repair", shortLabelEn: "Back glass", anchorPart: "backGlass", anchor: [-0.3, -0.3, 0], side: "left" },
+  chargingPort: { label: "Oplaadpoort reparatie", shortLabel: "Oplaadpoort", labelEn: "Charging port repair", shortLabelEn: "Charging port", anchorPart: "chargingPort", anchor: [0.06, -0.02, 0], side: "right" },
 };
 
 /** Maps a repair key to the repair service id used on the site (src/data/repairs.json). */

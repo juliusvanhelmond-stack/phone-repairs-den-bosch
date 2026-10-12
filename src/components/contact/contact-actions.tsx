@@ -1,18 +1,19 @@
 import { Mail, MessageCircle, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { site, whatsappHref, whatsappMessage } from "@/lib/site";
+import { getI18n } from "@/lib/i18n-server";
 import { cn } from "@/lib/utils";
 
 /**
  * The site's main call to action, in the client's order of preference:
  * WhatsApp first, then phone, then e-mail as a quiet text link.
  */
-export function ContactActions({
-  message = whatsappMessage(),
+export async function ContactActions({
+  message,
   tone = "light",
   size = "lg",
   email = true,
-  whatsappLabel = "WhatsApp ons",
+  whatsappLabel,
   className,
 }: {
   /** Prefilled WhatsApp message. */
@@ -23,7 +24,8 @@ export function ContactActions({
   whatsappLabel?: string;
   className?: string;
 }) {
-  const wa = whatsappHref(message);
+  const { locale, t } = await getI18n();
+  const wa = whatsappHref(message ?? whatsappMessage({ locale }));
   const dark = tone === "dark";
   return (
     <div className={className}>
@@ -32,20 +34,20 @@ export function ContactActions({
           <Button asChild size={size} variant={dark ? "light" : "primary"}>
             <a href={wa} target="_blank" rel="noopener noreferrer">
               <MessageCircle aria-hidden />
-              {whatsappLabel}
+              {whatsappLabel ?? t("WhatsApp ons", "WhatsApp us")}
             </a>
           </Button>
         )}
         <Button asChild size={size} variant={dark ? "outline-light" : wa ? "secondary" : "primary"}>
           <a href={site.phone.href}>
             <Phone aria-hidden />
-            Bel {site.phone.display}
+            {t("Bel", "Call")} {site.phone.display}
           </a>
         </Button>
       </div>
       {email && (
         <p className={cn("mt-4 text-sm", dark ? "text-neutral-400" : "text-muted")}>
-          Liever mailen?{" "}
+          {t("Liever mailen?", "Prefer e-mail?")}{" "}
           <a
             href={`mailto:${site.email}`}
             className={cn(

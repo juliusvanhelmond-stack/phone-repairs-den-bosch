@@ -3,33 +3,46 @@ import processPhoto from "@/assets/photos/process-workbench.jpg";
 import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { Aura } from "@/components/ui/aura";
+import type { Translate } from "@/lib/i18n";
+import { getI18n } from "@/lib/i18n-server";
 
-export const steps = [
+const stepsFor = (t: Translate) => [
   {
     n: "01",
-    title: "Kies je toestel",
-    body: "Selecteer je merk, model en de reparatie die je nodig hebt. Zo weet je direct waar je aan toe bent.",
+    title: t("Kies je toestel", "Choose your device"),
+    body: t(
+      "Selecteer je merk, model en de reparatie die je nodig hebt. Zo weet je direct waar je aan toe bent.",
+      "Select your brand, model and the repair you need, so you know right away where you stand.",
+    ),
   },
   {
     n: "02",
-    title: "Maak een afspraak",
-    body: "Er wordt alleen op afspraak gewerkt. Stuur een WhatsApp of bel, dan plan je samen een moment dat jou uitkomt.",
+    title: t("Maak een afspraak", "Make an appointment"),
+    body: t(
+      "Er wordt alleen op afspraak gewerkt. Stuur een WhatsApp of bel, dan plan je samen een moment dat jou uitkomt.",
+      "We work by appointment only. Send a WhatsApp or call, and you agree on a time that suits you.",
+    ),
   },
   {
     n: "03",
-    title: "Laat je toestel repareren",
-    body: "Je kijkt mee terwijl je toestel wordt gerepareerd. De meeste reparaties zijn binnen ongeveer 30 minuten klaar.",
+    title: t("Laat je toestel repareren", "Have your device repaired"),
+    body: t(
+      "Je kijkt mee terwijl je toestel wordt gerepareerd. De meeste reparaties zijn binnen ongeveer 30 minuten klaar.",
+      "You watch while your device is repaired. Most repairs are done in about 30 minutes.",
+    ),
   },
 ];
 
-export function HowItWorks({ withHeading = true }: { withHeading?: boolean }) {
+export async function HowItWorks({ withHeading = true }: { withHeading?: boolean }) {
+  const { t } = await getI18n();
+  const steps = stepsFor(t);
   return (
     <section className="relative isolate overflow-hidden py-20 lg:py-28">
       <Aura variant="center" />
       <div className="container-page">
         {withHeading && (
           <Reveal>
-            <SectionHeading eyebrow="Werkwijze" title="Zo werkt het." align="center" />
+            <SectionHeading eyebrow={t("Werkwijze", "How it works")} title={t("Zo werkt het.", "This is how it works.")} align="center" />
           </Reveal>
         )}
         <ol className="relative mt-14 grid gap-10 md:grid-cols-3 md:gap-8">
@@ -54,14 +67,14 @@ export function HowItWorks({ withHeading = true }: { withHeading?: boolean }) {
           <figure className="relative aspect-[4/3] overflow-hidden rounded-[var(--radius-panel)] bg-mist ring-1 ring-line sm:aspect-[21/9]">
             <Image
               src={processPhoto}
-              alt="Werkbank met geopende smartphones, onderdelen en precisiegereedschap"
+              alt={t("Werkbank met geopende smartphones, onderdelen en precisiegereedschap", "Workbench with opened smartphones, parts and precision tools")}
               fill
               placeholder="blur"
               sizes="(min-width: 1280px) 76rem, 100vw"
               className="object-cover object-[50%_60%]"
             />
             <figcaption className="absolute bottom-4 left-4 rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-ink shadow-[var(--shadow-soft)] backdrop-blur sm:bottom-6 sm:left-6">
-              Vakwerk, onderdeel voor onderdeel
+              {t("Vakwerk, onderdeel voor onderdeel", "Craftsmanship, part by part")}
             </figcaption>
           </figure>
         </Reveal>

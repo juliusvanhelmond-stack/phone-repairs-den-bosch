@@ -1,29 +1,41 @@
 import type { Metadata } from "next";
 import type { FaqItem } from "@/types/content";
+import { localeTag, localizePath, type Locale } from "@/lib/i18n";
 import { allowIndexing, site } from "@/lib/site";
 
 export const absoluteUrl = (path: string) => new URL(path, site.url).toString();
 
-/** Shared metadata builder: canonical URL, Open Graph and the noindex guard. */
+/**
+ * Shared metadata builder: canonical URL per language, hreflang alternates,
+ * Open Graph and the noindex guard. `path` is the Dutch path.
+ */
 export function pageMetadata({
   title,
   description,
   path,
+  locale,
 }: {
   title: string;
   description: string;
   path: string;
+  locale: Locale;
 }): Metadata {
+  const url = localizePath(path, locale);
+  // Titles copied from the current site may already end in the site name; skip the template then.
+  const branded = title.endsWith(" · Phone Repairs Den Bosch");
   return {
-    title,
+    title: branded ? { absolute: title } : title,
     description,
-    alternates: { canonical: path },
+    alternates: {
+      canonical: url,
+      languages: { nl: path, en: localizePath(path, "en"), "x-default": path },
+    },
     openGraph: {
       title,
       description,
-      url: path,
+      url,
       siteName: site.name,
-      locale: "nl_NL",
+      locale: localeTag[locale].replace("-", "_"),
       type: "website",
     },
     robots: allowIndexing ? { index: true, follow: true } : { index: false, follow: false },

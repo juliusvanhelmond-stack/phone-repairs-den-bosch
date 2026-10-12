@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/components/i18n/link";
+import { useI18n } from "@/components/i18n/locale-provider";
 import { site } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
@@ -24,12 +27,13 @@ export function Logo({
   className?: string;
   onClick?: () => void;
 }) {
+  const { t } = useI18n();
   return (
     <Link
       href="/"
       onClick={onClick}
       className={cn("group inline-flex items-center gap-2.5 rounded-lg", className)}
-      aria-label="Phone Repairs, naar de homepage"
+      aria-label={t("Phone Repairs, naar de homepage", "Phone Repairs, go to the homepage")}
     >
       {site.logo ? (
         <Image

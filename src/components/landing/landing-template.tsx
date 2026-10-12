@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/components/i18n/link";
 import { ArrowRight, Check } from "lucide-react";
 import { DemoNote } from "@/components/devices/demo-note";
 import { DeviceCard } from "@/components/devices/device-card";
@@ -11,54 +11,70 @@ import { ContactActions } from "@/components/contact/contact-actions";
 import { WhatsAppCard } from "@/components/contact/whatsapp-card";
 import { SectionHeading } from "@/components/ui/section-heading";
 import type { Crumb } from "@/components/ui/breadcrumbs";
-import { areasByPlace, devicesForBrand, popularDevices, repairPath } from "@/lib/catalog";
+import { areasByPlace, devicesForBrand, localizeLanding, popularDevices, repairPath } from "@/lib/catalog";
+import type { Translate } from "@/lib/i18n";
+import { getI18n } from "@/lib/i18n-server";
 import type { DeviceModel, LandingPage, LandingSection } from "@/types/content";
 
-/** Crumbs per page kind; area pages hang under /werkgebied, FAQ topics under the FAQ. */
-export function landingCrumbs(page: LandingPage): Crumb[] {
+/** Crumbs per page kind (page already localized); area pages hang under /werkgebied, FAQ topics under the FAQ. */
+export function landingCrumbs(page: LandingPage, t: Translate): Crumb[] {
   const self = { name: page.title, href: page.path };
-  if (page.kind === "area") return [{ name: "Werkgebied", href: "/werkgebied" }, self];
-  if (page.kind === "faq-topic") return [{ name: "Veelgestelde vragen", href: "/veelgestelde-vragen" }, self];
+  if (page.kind === "area") return [{ name: t("Werkgebied", "Service area"), href: "/werkgebied" }, self];
+  if (page.kind === "faq-topic") return [{ name: t("Veelgestelde vragen", "FAQ"), href: "/veelgestelde-vragen" }, self];
   return [self];
 }
 
-function focusDevices(page: LandingPage): { title: string; devices: DeviceModel[] } | null {
+function focusDevices(page: LandingPage, t: Translate): { title: string; devices: DeviceModel[] } | null {
   switch (page.focus) {
     case undefined:
       return null;
     case "iphone":
-      return { title: "Populaire iPhones", devices: devicesForBrand("apple", "smartphone").slice(0, 8) };
+      return { title: t("Populaire iPhones", "Popular iPhones"), devices: devicesForBrand("apple", "smartphone").slice(0, 8) };
     case "ipad":
       return { title: "iPads", devices: devicesForBrand("apple", "tablet").slice(0, 8) };
     default:
-      return { title: "Populaire toestellen", devices: popularDevices.slice(0, 8) };
+      return { title: t("Populaire toestellen", "Popular devices"), devices: popularDevices.slice(0, 8) };
   }
 }
 
-const FOCUS_NOUN: Record<string, string> = {
-  telefoon: "telefoon", gsm: "telefoon", smartphone: "smartphone", mobiel: "telefoon",
-  iphone: "iPhone", ipad: "iPad", scherm: "scherm",
+const FOCUS_NOUN: Record<string, [string, string]> = {
+  telefoon: ["telefoon", "phone"],
+  gsm: ["telefoon", "phone"],
+  smartphone: ["smartphone", "smartphone"],
+  mobiel: ["telefoon", "phone"],
+  iphone: ["iPhone", "iPhone"],
+  ipad: ["iPad", "iPad"],
+  scherm: ["scherm", "screen"],
 };
 
-export function LandingTemplate({ page }: { page: LandingPage }) {
-  const focus = focusDevices(page);
+export async function LandingTemplate({ page: source }: { page: LandingPage }) {
+  const { locale, t } = await getI18n();
+  const page = localizeLanding(source, locale);
+  const focus = focusDevices(page, t);
+  const noun = page.focus ? FOCUS_NOUN[page.focus] : null;
   const message =
-    page.kind === "area" && page.focus
-      ? `Hoi Phone Repairs, ik kom uit ${page.place} en wil graag een afspraak maken voor mijn ${FOCUS_NOUN[page.focus]}.`
-      : `Hoi Phone Repairs, ik heb een vraag over: ${page.title.toLowerCase()}.`;
+    page.kind === "area" && noun
+      ? t(
+          `Hoi Phone Repairs, ik kom uit ${page.place} en wil graag een afspraak maken voor mijn ${noun[0]}.`,
+          `Hi Phone Repairs, I'm from ${page.place} and would like to make an appointment for my ${noun[1]}.`,
+        )
+      : t(`Hoi Phone Repairs, ik heb een vraag over: ${page.title.toLowerCase()}.`, `Hi Phone Repairs, I have a question about: ${page.title.toLowerCase()}.`);
   const otherAreas = page.kind === "area" ? areasByPlace() : [];
 
   return (
     <>
-      <PageIntro crumbs={landingCrumbs(page)} eyebrow={page.eyebrow} title={page.title} intro={page.intro}>
+      <PageIntro crumbs={landingCrumbs(page, t)} eyebrow={page.eyebrow} title={page.title} intro={page.intro}>
         <ContactActions message={message} />
         <DemoNote className="mt-8 max-w-2xl">
-          Deze pagina houdt de URL van de huidige site ({page.path}/). De tekst is samengesteld uit wat er nu op
-          staat; de volledige originele tekst wordt bij de migratie overgenomen.
+          {t(
+            `Deze pagina houdt de URL van de huidige site (${page.path}/). De tekst is samengesteld uit wat er nu op staat; de volledige originele tekst wordt bij de migratie overgenomen.`,
+            `The Dutch version keeps the URL of the current site (${page.path}/). The text is put together from what is on it now and translated by us; the full original text follows with the migration.`,
+          )}
           {page.unconfirmed.length > 0 && (
             <>
               {" "}
-              Ook op de huidige pagina, maar pas zichtbaar na bevestiging: {page.unconfirmed.join(" ")}
+              {t("Ook op de huidige pagina, maar pas zichtbaar na bevestiging:", "Also on the current page, but only shown once confirmed:")}{" "}
+              {page.unconfirmed.join(" ")}
             </>
           )}
         </DemoNote>
@@ -90,8 +106,13 @@ export function LandingTemplate({ page }: { page: LandingPage }) {
               className="group flex items-center justify-between gap-6 rounded-[var(--radius-card)] bg-white p-7 ring-1 ring-line transition-shadow hover:shadow-[var(--shadow-lift)] lg:p-9"
             >
               <span>
-                <span className="block text-title font-semibold text-ink">Scherm vervangen</span>
-                <span className="mt-1 block text-muted">Wat er gebeurt bij een schermreparatie en voor welke toestellen.</span>
+                <span className="block text-title font-semibold text-ink">{t("Scherm vervangen", "Screen replacement")}</span>
+                <span className="mt-1 block text-muted">
+                  {t(
+                    "Wat er gebeurt bij een schermreparatie en voor welke toestellen.",
+                    "What happens during a screen repair and for which devices.",
+                  )}
+                </span>
               </span>
               <ArrowRight className="size-5 shrink-0 text-accent-strong transition-transform group-hover:translate-x-1" aria-hidden />
             </Link>
@@ -102,7 +123,7 @@ export function LandingTemplate({ page }: { page: LandingPage }) {
       {focus && (
         <section className="bg-mist py-16 lg:py-24">
           <div className="container-page">
-            <SectionHeading eyebrow="Kies je toestel" title={focus.title} />
+            <SectionHeading eyebrow={t("Kies je toestel", "Choose your device")} title={focus.title} />
             <ul className="mt-10 grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4">
               {focus.devices.map((d) => (
                 <li key={d.id}>
@@ -111,7 +132,7 @@ export function LandingTemplate({ page }: { page: LandingPage }) {
               ))}
             </ul>
             <Link href="/reparaties" className="mt-8 inline-flex items-center gap-2 font-medium text-accent-strong hover:text-accent">
-              Alle toestellen
+              {t("Alle toestellen", "All devices")}
               <ArrowRight className="size-4" aria-hidden />
             </Link>
           </div>
@@ -124,11 +145,12 @@ export function LandingTemplate({ page }: { page: LandingPage }) {
       {otherAreas.length > 0 && (
         <section className="py-16 lg:py-20">
           <div className="container-page">
-            <h2 className="text-title font-semibold text-ink">Ook voor</h2>
+            <h2 className="text-title font-semibold text-ink">{t("Ook voor", "Also for")}</h2>
             <ul className="mt-6 flex flex-wrap gap-2">
               {otherAreas
                 .flatMap((g) => g.pages)
                 .filter((p) => p.id !== page.id)
+                .map((p) => localizeLanding(p, locale))
                 .map((p) => (
                   <li key={p.id}>
                     <Link

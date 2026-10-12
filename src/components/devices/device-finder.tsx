@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { Link } from "@/components/i18n/link";
 import { Command } from "cmdk";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
@@ -23,6 +23,7 @@ import { DeviceArt } from "@/components/devices/device-art";
 import { categoryPhoto, DevicePhoto } from "@/components/devices/device-photo";
 import { ContentIcon } from "@/components/repairs/icon";
 import { Button } from "@/components/ui/button";
+import { useI18n } from "@/components/i18n/locale-provider";
 import type { FinderDevice } from "@/lib/catalog";
 import { cn, formatEuro, normalizeSearch } from "@/lib/utils";
 
@@ -51,12 +52,12 @@ function whatsappLink(contact: FinderContact, text: string) {
 type Selection = { category?: string; brand?: string; device?: string; repair?: string };
 type Step = "category" | "brand" | "model" | "repair" | "result";
 
-const STEPS: { id: Step; label: string }[] = [
-  { id: "category", label: "Toestel" },
-  { id: "brand", label: "Merk" },
-  { id: "model", label: "Model" },
-  { id: "repair", label: "Reparatie" },
-  { id: "result", label: "Prijs" },
+const STEPS: { id: Step; label: string; labelEn: string }[] = [
+  { id: "category", label: "Toestel", labelEn: "Device" },
+  { id: "brand", label: "Merk", labelEn: "Brand" },
+  { id: "model", label: "Model", labelEn: "Model" },
+  { id: "repair", label: "Reparatie", labelEn: "Repair" },
+  { id: "result", label: "Prijs", labelEn: "Price" },
 ];
 
 const PARAMS = { category: "categorie", brand: "merk", device: "model", repair: "reparatie" } as const;
@@ -82,6 +83,7 @@ export function DeviceFinder({
   devices: FinderDevice[];
   contact: FinderContact;
 }) {
+  const { t } = useI18n();
   const [sel, setSel] = useState<Selection>({});
   const step = stepFor(sel);
   const stepIndex = STEPS.findIndex((s) => s.id === step);
@@ -156,18 +158,24 @@ export function DeviceFinder({
   ].filter(Boolean) as { label: string; onClick?: () => void }[];
 
   const headings: Record<Step, string> = {
-    category: "Wat wil je laten repareren?",
-    brand: `Welk merk ${category?.name.toLowerCase() ?? "toestel"} heb je?`,
-    model: `Welk ${brand?.name ?? ""} model heb je?`,
-    repair: `Wat is er mis met je ${device?.name ?? "toestel"}?`,
-    result: `${repair?.name ?? "Reparatie"} voor je ${device?.name ?? "toestel"}`,
+    category: t("Wat wil je laten repareren?", "What needs repairing?"),
+    brand: t(
+      `Welk merk ${category?.name.toLowerCase() ?? "toestel"} heb je?`,
+      `Which ${category?.name.toLowerCase() ?? "device"} brand do you have?`,
+    ),
+    model: t(`Welk ${brand?.name ?? ""} model heb je?`, `Which ${brand?.name ?? ""} model do you have?`),
+    repair: t(`Wat is er mis met je ${device?.name ?? "toestel"}?`, `What's wrong with your ${device?.name ?? "device"}?`),
+    result: t(
+      `${repair?.name ?? "Reparatie"} voor je ${device?.name ?? "toestel"}`,
+      `${repair?.name ?? "Repair"} for your ${device?.name ?? "device"}`,
+    ),
   };
 
   return (
     <div className="glass overflow-hidden rounded-[var(--radius-panel)]">
       {/* Progress */}
       <div className="flex items-center justify-between gap-4 border-b border-white/80 bg-white/50 px-5 py-4 sm:px-8">
-        <ol className="hidden items-center gap-2 md:flex" aria-label="Stappen">
+        <ol className="hidden items-center gap-2 md:flex" aria-label={t("Stappen", "Steps")}>
           {STEPS.map((s, i) => (
             <li key={s.id} className="flex items-center gap-2">
               <span
@@ -185,30 +193,31 @@ export function DeviceFinder({
                 >
                   {i < stepIndex ? <Check className="size-3.5" aria-hidden /> : i + 1}
                 </span>
-                {s.label}
+                {t(s.label, s.labelEn)}
               </span>
               {i < STEPS.length - 1 && <span className="h-px w-4 bg-line" aria-hidden />}
             </li>
           ))}
         </ol>
         <p className="text-sm text-muted md:hidden">
-          Stap {stepIndex + 1} van {STEPS.length} · <span className="text-ink">{STEPS[stepIndex].label}</span>
+          {t("Stap", "Step")} {stepIndex + 1} {t("van", "of")} {STEPS.length} ·{" "}
+          <span className="text-ink">{t(STEPS[stepIndex].label, STEPS[stepIndex].labelEn)}</span>
         </p>
         {step !== "category" && (
           <Button variant="ghost" size="sm" onClick={goBack} className="-mr-2">
             <ArrowLeft aria-hidden />
-            Terug
+            {t("Terug", "Back")}
           </Button>
         )}
       </div>
 
       <div className="px-5 py-7 sm:px-8 sm:py-9">
         {crumbs.length > 0 && (
-          <nav aria-label="Jouw keuze" className="mb-4">
+          <nav aria-label={t("Jouw keuze", "Your selection")} className="mb-4">
             <ol className="flex flex-wrap items-center gap-1 text-sm">
               <li>
                 <button type="button" onClick={() => update({})} className="rounded-md text-muted hover:text-ink">
-                  Alle toestellen
+                  {t("Alle toestellen", "All devices")}
                 </button>
               </li>
               {crumbs.map((c, i) => (
@@ -269,19 +278,21 @@ export function DeviceFinder({
                             <span className="block font-medium text-ink">{c.plural}</span>
                             <span className="mt-0.5 block text-sm text-muted">{c.description}</span>
                           </span>
-                          <span className="hidden shrink-0 text-xs text-muted tabular-nums sm:inline">{count} modellen</span>
+                          <span className="hidden shrink-0 text-xs text-muted tabular-nums sm:inline">
+                            {count} {t("modellen", "models")}
+                          </span>
                         </div>
                       </ChoiceCard>
                     );
                   })}
                 </div>
                 <div>
-                  <p className="mb-3 text-sm text-muted">Of zoek direct op modelnaam</p>
+                  <p className="mb-3 text-sm text-muted">{t("Of zoek direct op modelnaam", "Or search by model name")}</p>
                   <ModelSearch
                     devices={devices}
                     brands={brands}
                     onSelect={chooseDevice}
-                    placeholder="Bijvoorbeeld iPhone 15 Pro of Galaxy S23"
+                    placeholder={t("Bijvoorbeeld iPhone 15 Pro of Galaxy S23", "For example iPhone 15 Pro or Galaxy S23")}
                     contact={contact}
                     dropdown
                   />
@@ -299,7 +310,7 @@ export function DeviceFinder({
                       <ChoiceCard key={b.id} onClick={() => update({ category: category.id, brand: b.id })}>
                         <span className="block text-lg font-semibold tracking-tight text-ink">{b.name}</span>
                         <span className="mt-6 flex items-center justify-between text-sm text-muted">
-                          {count} modellen
+                          {count} {t("modellen", "models")}
                           <ArrowRight
                             className="size-4 -translate-x-1 opacity-0 transition-all group-hover:translate-x-0 group-hover:opacity-100"
                             aria-hidden
@@ -316,7 +327,7 @@ export function DeviceFinder({
                 devices={devices.filter((d) => d.brandId === brand.id && d.categoryId === category.id)}
                 brands={brands}
                 onSelect={chooseDevice}
-                placeholder={`Zoek een ${brand.name} model`}
+                placeholder={t(`Zoek een ${brand.name} model`, `Search for a ${brand.name} model`)}
                 contact={contact}
                 autoFocus
               />
@@ -399,6 +410,7 @@ function ModelSearch({
   dropdown?: boolean;
   autoFocus?: boolean;
 }) {
+  const { t } = useI18n();
   const [query, setQuery] = useState("");
   const brandName = useMemo(() => new Map(brands.map((b) => [b.id, b.name])), [brands]);
   const showList = !dropdown || query.trim().length > 0;
@@ -414,12 +426,12 @@ function ModelSearch({
 
   return (
     <Command
-      label="Zoek je model"
+      label={t("Zoek je model", "Find your model")}
       loop
       filter={(value, search, keywords) => {
         const haystack = normalizeSearch([value, ...(keywords ?? [])].join(" "));
         const terms = normalizeSearch(search).split(" ").filter(Boolean);
-        return terms.every((t) => haystack.includes(t)) ? 1 : 0;
+        return terms.every((term) => haystack.includes(term)) ? 1 : 0;
       }}
       className="relative"
     >
@@ -443,30 +455,38 @@ function ModelSearch({
         >
           <Command.Empty className="flex flex-col items-center px-6 py-10 text-center">
             <SearchX className="size-8 text-line-strong" aria-hidden />
-            <p className="mt-3 font-medium text-ink">Geen model gevonden voor “{query}”</p>
+            <p className="mt-3 font-medium text-ink">
+              {t("Geen model gevonden voor", "No model found for")} “{query}”
+            </p>
             <p className="mt-1 max-w-sm text-sm text-muted">
-              Staat je toestel er niet tussen? Neem contact op, dan kijken we of een reparatie mogelijk is.
+              {t(
+                "Staat je toestel er niet tussen? Neem contact op, dan kijken we of een reparatie mogelijk is.",
+                "Device not listed? Get in touch and we'll check whether we can repair it.",
+              )}
             </p>
             <div className="mt-5 flex flex-wrap justify-center gap-2">
               {contact.whatsappNumber && (
                 <Button asChild size="sm">
                   <a
-                    href={whatsappLink(contact, `Hoi Phone Repairs, kunnen jullie mijn ${query} repareren?`)!}
+                    href={whatsappLink(
+                      contact,
+                      t(`Hoi Phone Repairs, kunnen jullie mijn ${query} repareren?`, `Hi Phone Repairs, can you repair my ${query}?`),
+                    )!}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <MessageCircle aria-hidden /> WhatsApp ons
+                    <MessageCircle aria-hidden /> {t("WhatsApp ons", "WhatsApp us")}
                   </a>
                 </Button>
               )}
               <Button asChild size="sm" variant={contact.whatsappNumber ? "secondary" : "primary"}>
                 <a href={contact.phoneHref}>
-                  <Phone aria-hidden /> Bel {contact.phoneDisplay}
+                  <Phone aria-hidden /> {t("Bel", "Call")} {contact.phoneDisplay}
                 </a>
               </Button>
               <Button asChild size="sm" variant="ghost">
                 <a href={`mailto:${contact.email}`}>
-                  <Mail aria-hidden /> Mail ons
+                  <Mail aria-hidden /> {t("Mail ons", "E-mail us")}
                 </a>
               </Button>
             </div>
@@ -515,12 +535,16 @@ function FinderResult({
   contact: FinderContact;
   brandName?: string;
 }) {
+  const { locale, t } = useI18n();
   const price = device.prices[repair.id];
   const appointmentHref = `/afspraak?toestel=${encodeURIComponent(device.id)}&reparatie=${encodeURIComponent(repair.id)}`;
   const devicePageHref = `/reparaties/${device.brandId}/${device.slug}`;
   const whatsapp = whatsappLink(
     contact,
-    `Hoi Phone Repairs, ik wil graag een afspraak maken voor mijn ${fullName(device, brandName)}: ${repair.name.toLowerCase()}.`,
+    t(
+      `Hoi Phone Repairs, ik wil graag een afspraak maken voor mijn ${fullName(device, brandName)}: ${repair.name.toLowerCase()}.`,
+      `Hi Phone Repairs, I'd like to book an appointment for my ${fullName(device, brandName)}: ${repair.name.toLowerCase()}.`,
+    ),
   );
 
   return (
@@ -547,26 +571,28 @@ function FinderResult({
         <div className="rounded-[var(--radius-card)] bg-white p-6 ring-1 ring-line">
           {price !== undefined ? (
             <>
-              <p className="text-sm text-muted">Prijs inclusief montage en btw</p>
-              <p className="mt-1 text-5xl font-semibold tracking-tight text-ink tabular-nums">{formatEuro(price)}</p>
+              <p className="text-sm text-muted">{t("Prijs inclusief montage en btw", "Price including fitting and VAT")}</p>
+              <p className="mt-1 text-5xl font-semibold tracking-tight text-ink tabular-nums">{formatEuro(price, locale)}</p>
             </>
           ) : (
             <>
-              <p className="text-sm text-muted">Prijs</p>
-              <p className="mt-1 text-3xl font-semibold tracking-tight text-ink">Op aanvraag</p>
+              <p className="text-sm text-muted">{t("Prijs", "Price")}</p>
+              <p className="mt-1 text-3xl font-semibold tracking-tight text-ink">{t("Op aanvraag", "On request")}</p>
               <p className="mt-3 flex gap-2 text-sm leading-relaxed text-muted">
                 <Info className="mt-0.5 size-4 shrink-0" aria-hidden />
-                De actuele prijs voor deze reparatie hoor je telefonisch of per e-mail. In deze demo worden alleen
-                prijzen getoond die uit de bestaande website zijn overgenomen.
+                {t(
+                  "De actuele prijs voor deze reparatie hoor je via WhatsApp, telefonisch of per e-mail. In deze demo worden alleen prijzen getoond die uit de bestaande website zijn overgenomen.",
+                  "Ask us for the current price of this repair via WhatsApp, phone or e-mail. This demo only shows prices taken from the existing website.",
+                )}
               </p>
             </>
           )}
           <ul className="mt-6 grid gap-3 border-t border-line pt-5 text-sm text-ink-soft sm:grid-cols-2">
             <li className="flex items-center gap-2">
-              <Timer className="size-4 text-accent" aria-hidden /> Vaak klaar binnen 30 minuten
+              <Timer className="size-4 text-accent" aria-hidden /> {t("Vaak klaar binnen 30 minuten", "Often ready within 30 minutes")}
             </li>
             <li className="flex items-center gap-2">
-              <Check className="size-4 text-accent" aria-hidden /> Originele onderdelen
+              <Check className="size-4 text-accent" aria-hidden /> {t("Originele onderdelen", "Original parts")}
             </li>
           </ul>
         </div>
@@ -587,13 +613,13 @@ function FinderResult({
             <Button asChild size="lg">
               <a href={whatsapp} target="_blank" rel="noopener noreferrer">
                 <MessageCircle aria-hidden />
-                Afspraak via WhatsApp
+                {t("Afspraak via WhatsApp", "Book via WhatsApp")}
               </a>
             </Button>
           ) : (
             <Button asChild size="lg">
               <Link href={appointmentHref}>
-                Maak een afspraak
+                {t("Maak een afspraak", "Book an appointment")}
                 <ArrowRight aria-hidden />
               </Link>
             </Button>
@@ -601,12 +627,15 @@ function FinderResult({
           <Button asChild size="lg" variant="secondary">
             <a href={contact.phoneHref}>
               <Phone aria-hidden />
-              Bel {contact.phoneDisplay}
+              {t("Bel", "Call")} {contact.phoneDisplay}
             </a>
           </Button>
         </div>
         <p className="mt-3 text-sm text-muted">
-          Je bericht staat al klaar, je hoeft het alleen nog te versturen. Liever mailen?{" "}
+          {t(
+            "Je bericht staat al klaar, je hoeft het alleen nog te versturen. Liever mailen?",
+            "Your message is ready, you only need to send it. Prefer e-mail?",
+          )}{" "}
           <a href={`mailto:${contact.email}`} className="font-medium text-accent-strong hover:underline">
             {contact.email}
           </a>
@@ -615,7 +644,7 @@ function FinderResult({
           href={devicePageHref}
           className="mt-5 inline-flex items-center gap-1 self-start text-sm font-medium text-accent-strong hover:text-accent"
         >
-          Alle reparaties voor de {device.name}
+          {t("Alle reparaties voor de", "All repairs for the")} {device.name}
           <ChevronRight className="size-4" aria-hidden />
         </Link>
       </div>

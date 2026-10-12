@@ -1,13 +1,18 @@
-import Link from "next/link";
+import { Link } from "@/components/i18n/link";
 import { ArrowUpRight } from "lucide-react";
 import { Reveal } from "@/components/motion/reveal";
 import { ContentIcon } from "@/components/repairs/icon";
 import { SectionHeading } from "@/components/ui/section-heading";
-import { repairPath, repairs } from "@/lib/catalog";
+import { localizeRepair, repairPath, repairs } from "@/lib/catalog";
+import { getI18n } from "@/lib/i18n-server";
 import { Aura } from "@/components/ui/aura";
 
-export function PopularRepairs() {
-  const items = repairs.filter((r) => r.popular).slice(0, 6);
+export async function PopularRepairs() {
+  const { locale, t } = await getI18n();
+  const items = repairs
+    .filter((r) => r.popular)
+    .slice(0, 6)
+    .map((r) => localizeRepair(r, locale));
   return (
     <section className="relative isolate overflow-hidden py-20 lg:py-28">
       <Aura variant="soft" />
@@ -15,9 +20,12 @@ export function PopularRepairs() {
         <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
           <Reveal>
             <SectionHeading
-              eyebrow="Populaire reparaties"
-              title="Waar kunnen we je mee helpen?"
-              intro="De meest voorkomende reparaties voor smartphones, tablets en MacBooks."
+              eyebrow={t("Populaire reparaties", "Popular repairs")}
+              title={t("Waar kunnen we je mee helpen?", "What can we help you with?")}
+              intro={t(
+                "De meest voorkomende reparaties voor smartphones, tablets en MacBooks.",
+                "The most common repairs for smartphones, tablets and MacBooks.",
+              )}
             />
           </Reveal>
         </div>

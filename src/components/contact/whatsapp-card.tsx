@@ -1,20 +1,22 @@
 import { MessageCircle, Phone } from "lucide-react";
-import { site, whatsappHref, whatsappMessage } from "@/lib/site";
+import { getI18n } from "@/lib/i18n-server";
+import { site, whatsappCopy, whatsappHref, whatsappMessage } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
 /**
  * In-page version of the WhatsApp prompt (same copy as the floating widget),
  * placed where a visitor is ready to ask or book: device, repair, FAQ and local pages.
  */
-export function WhatsAppCard({
-  message = whatsappMessage(),
+export async function WhatsAppCard({
+  message,
   className,
 }: {
   message?: string;
   className?: string;
 }) {
-  const wa = site.whatsapp;
-  const href = whatsappHref(message);
+  const { locale, t } = await getI18n();
+  const wa = whatsappCopy(locale);
+  const href = whatsappHref(message ?? whatsappMessage({ locale }));
   if (!wa || !href) return null;
   return (
     <aside
@@ -32,7 +34,7 @@ export function WhatsAppCard({
             className="inline-flex h-12 items-center justify-center gap-2 rounded-full px-5 font-medium text-ink ring-1 ring-line-strong transition-colors ring-inset hover:bg-white"
           >
             <Phone className="size-4" aria-hidden />
-            Bel {site.phone.display}
+            {t("Bel", "Call")} {site.phone.display}
           </a>
           <a
             href={href}

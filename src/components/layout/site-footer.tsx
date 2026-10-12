@@ -1,35 +1,38 @@
-import Link from "next/link";
+import { Link } from "@/components/i18n/link";
 import { Mail, MapPin, MessageCircle, Phone, Star } from "lucide-react";
 import { Logo } from "@/components/layout/logo";
-import { brandPath, brands, landingPages, repairPath, repairs } from "@/lib/catalog";
-import { fullAddress, mapsUrl, site, whatsappHref } from "@/lib/site";
-
-const companyLinks = [
-  { label: "Werkwijze", href: "/werkwijze" },
-  { label: "Over ons", href: "/over-ons" },
-  { label: "Veelgestelde vragen", href: "/veelgestelde-vragen" },
-  { label: "Contact", href: "/contact" },
-  { label: "Afspraak maken", href: "/afspraak" },
-  { label: "Werkgebied", href: "/werkgebied" },
-  { label: "Blog", href: "/blog-post" },
-];
+import { brandPath, brands, landingPages, localizeLanding, localizeRepair, repairPath, repairs } from "@/lib/catalog";
+import { getI18n } from "@/lib/i18n-server";
+import { fullAddress, mapsUrl, site, whatsappHref, whatsappMessage } from "@/lib/site";
 
 const moreIds = ["nintendo-switch-reparatie", "pre-owned-toestellen", "bijzondere-merken-reparatie", "zakelijke-reparatie", "reparatie-opsturen"];
-const moreLinks = moreIds.flatMap((id) => {
-  const page = landingPages.find((p) => p.id === id);
-  return page ? [{ label: page.title, href: page.path }] : [];
-});
 
-export function SiteFooter() {
-  const wa = whatsappHref();
+export async function SiteFooter() {
+  const { locale, t } = await getI18n();
+  const wa = whatsappHref(locale === "en" ? whatsappMessage({ locale }) : undefined);
+  const companyLinks = [
+    { label: t("Werkwijze", "How it works"), href: "/werkwijze" },
+    { label: t("Over ons", "About us"), href: "/over-ons" },
+    { label: t("Veelgestelde vragen", "FAQ"), href: "/veelgestelde-vragen" },
+    { label: "Contact", href: "/contact" },
+    { label: t("Afspraak maken", "Make an appointment"), href: "/afspraak" },
+    { label: t("Werkgebied", "Service area"), href: "/werkgebied" },
+    { label: "Blog", href: "/blog-post" },
+  ];
+  const moreLinks = moreIds.flatMap((id) => {
+    const page = landingPages.find((p) => p.id === id);
+    return page ? [{ label: localizeLanding(page, locale).title, href: page.path }] : [];
+  });
   return (
     <footer className="bg-night text-neutral-300">
       <div className="container-page grid gap-12 py-16 sm:grid-cols-2 lg:grid-cols-[1.3fr_1fr_0.8fr_1fr_1fr] lg:py-20">
         <div className="max-w-sm">
           <Logo tone="light" />
           <p className="mt-5 text-[0.9375rem] leading-relaxed text-neutral-400">
-            Reparatie van smartphones, tablets en MacBooks in {site.address.cityShort}. Op afspraak, vaak binnen
-            30 minuten klaar.
+            {t(
+              `Reparatie van smartphones, tablets en MacBooks in ${site.address.cityShort}. Op afspraak, vaak binnen 30 minuten klaar.`,
+              `Repair of smartphones, tablets and MacBooks in ${site.address.cityShort}. By appointment, often ready within 30 minutes.`,
+            )}
           </p>
           <ul className="mt-6 space-y-3 text-[0.9375rem]">
             {wa && (
@@ -77,24 +80,24 @@ export function SiteFooter() {
                   className="inline-flex items-center gap-3 transition-colors hover:text-white"
                 >
                   <Star className="size-4 text-neutral-500" aria-hidden />
-                  Reviews op {site.reviews.platform}
+                  {t("Reviews op", "Reviews on")} {site.reviews.platform}
                 </a>
               </li>
             )}
           </ul>
         </div>
         <FooterColumn
-          title="Reparaties"
-          links={repairs.map((r) => ({ label: r.name, href: repairPath(r.slug) }))}
+          title={t("Reparaties", "Repairs")}
+          links={repairs.map((r) => ({ label: localizeRepair(r, locale).name, href: repairPath(r.slug) }))}
         />
-        <FooterColumn title="Merken" links={brands.map((b) => ({ label: b.name, href: brandPath(b.id) }))} />
-        <FooterColumn title="Meer" links={moreLinks} />
+        <FooterColumn title={t("Merken", "Brands")} links={brands.map((b) => ({ label: b.name, href: brandPath(b.id) }))} />
+        <FooterColumn title={t("Meer", "More")} links={moreLinks} />
         <FooterColumn title="Phone Repairs" links={companyLinks} />
       </div>
       <div className="border-t border-white/10">
         <div className="container-page flex flex-col gap-2 py-6 text-sm text-neutral-400 sm:flex-row sm:items-center sm:justify-between">
           <p>© {site.legalName}</p>
-          <p>Ontwerpvoorstel door JUNE Studio · niet geïndexeerd</p>
+          <p>{t("Ontwerpvoorstel door JUNE Studio · niet geïndexeerd", "Design proposal by JUNE Studio · not indexed")}</p>
         </div>
       </div>
     </footer>

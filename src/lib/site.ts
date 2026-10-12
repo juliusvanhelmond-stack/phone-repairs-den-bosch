@@ -1,3 +1,4 @@
+import type { Locale } from "@/lib/i18n";
 import { SOURCE_URLS } from "@/lib/sources";
 
 /**
@@ -63,12 +64,35 @@ export function whatsappHref(message?: string): string | null {
   return message ? `${base}?text=${encodeURIComponent(message)}` : base;
 }
 
-/** Prefilled WhatsApp message for a device and/or repair. */
-export function whatsappMessage({ device, repair }: { device?: string; repair?: string } = {}): string {
+/** Prefilled WhatsApp message for a device and/or repair, in the visitor's language. */
+export function whatsappMessage({
+  device,
+  repair,
+  locale = "nl",
+}: { device?: string; repair?: string; locale?: Locale } = {}): string {
+  if (locale === "en") {
+    if (device && repair) return `Hi Phone Repairs, I would like to make an appointment for my ${device}: ${repair.toLowerCase()}.`;
+    if (device) return `Hi Phone Repairs, I have a question about repairing my ${device}.`;
+    if (repair) return `Hi Phone Repairs, I would like to make an appointment for: ${repair.toLowerCase()}.`;
+    return "Hi Phone Repairs, I would like to make an appointment.";
+  }
   if (device && repair) return `Hoi Phone Repairs, ik wil graag een afspraak maken voor mijn ${device}: ${repair.toLowerCase()}.`;
   if (device) return `Hoi Phone Repairs, ik heb een vraag over de reparatie van mijn ${device}.`;
   if (repair) return `Hoi Phone Repairs, ik wil graag een afspraak maken voor: ${repair.toLowerCase()}.`;
   return "Hoi Phone Repairs, ik wil graag een afspraak maken.";
+}
+
+/** WhatsApp prompt copy. Dutch is verbatim from the current site; English is our translation. */
+export function whatsappCopy(locale: Locale) {
+  if (!site.whatsapp) return null;
+  if (locale === "nl") return site.whatsapp;
+  return {
+    ...site.whatsapp,
+    title: "WhatsApp Phone Repairs",
+    intro:
+      "WhatsApp is the fastest way to reach us! Start a conversation with Phone Repairs using the button below. You can also easily continue the conversation on another device. We are available 7 days a week from 10:00 to 20:00. Average response time: 10 minutes.",
+    hours: "7 days a week, 10:00 to 20:00",
+  };
 }
 
 export const fullAddress = [site.address.street, [site.address.postalCode, site.address.cityShort].filter(Boolean).join(" ")].join(", ");

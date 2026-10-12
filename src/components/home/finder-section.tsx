@@ -1,28 +1,35 @@
 import { DeviceFinder } from "@/components/devices/device-finder";
 import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
-import { brands, categories, finderIndex, repairs } from "@/lib/catalog";
+import { brands, categories, finderIndex, localizeCategory, localizeRepair, repairs } from "@/lib/catalog";
+import { getI18n } from "@/lib/i18n-server";
 import { site } from "@/lib/site";
 import { Aura } from "@/components/ui/aura";
 
-export function FinderSection() {
+export async function FinderSection() {
+  const { locale, t } = await getI18n();
   return (
     <section id="toestel-zoeken" className="relative isolate overflow-hidden bg-mist py-20 lg:py-28">
       <Aura variant="center" />
       <div className="container-page">
         <Reveal>
           <SectionHeading
-            eyebrow="Toestel zoeken"
-            title="In vier stappen naar de juiste reparatie."
-            intro="Kies je toestel, merk en model en zie direct welke reparaties mogelijk zijn. Daarna maak je meteen een afspraak."
+            eyebrow={t("Toestel zoeken", "Find your device")}
+            title={t("In vier stappen naar de juiste reparatie.", "The right repair in four steps.")}
+            intro={t(
+              "Kies je toestel, merk en model en zie direct welke reparaties mogelijk zijn. Daarna maak je meteen een afspraak.",
+              "Choose your device type, brand and model and see straight away which repairs are possible. Then book right away.",
+            )}
             className="mb-10 lg:mb-12"
           />
         </Reveal>
         <Reveal delay={0.05}>
           <DeviceFinder
-            categories={categories.map(({ id, name, plural, description }) => ({ id, name, plural, description }))}
+            categories={categories
+              .map((c) => localizeCategory(c, locale))
+              .map(({ id, name, plural, description }) => ({ id, name, plural, description }))}
             brands={brands.map(({ id, name, categories }) => ({ id, name, categories }))}
-            repairs={repairs.map(({ id, name, summary, icon, categories, advice }) => ({
+            repairs={repairs.map((r) => localizeRepair(r, locale)).map(({ id, name, summary, icon, categories, advice }) => ({
               id,
               name,
               summary,

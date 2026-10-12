@@ -1,9 +1,10 @@
-import Link from "next/link";
+import { Link } from "@/components/i18n/link";
 import { Reveal } from "@/components/motion/reveal";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { JsonLd } from "@/components/ui/json-ld";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { faqJsonLd } from "@/lib/seo";
+import { getI18n } from "@/lib/i18n-server";
 import { site } from "@/lib/site";
 import type { FaqItem } from "@/types/content";
 
@@ -27,23 +28,25 @@ export function FaqList({ items }: { items: FaqItem[] }) {
   );
 }
 
-export function Faq({ items, title = "Veelgestelde vragen" }: { items: FaqItem[]; title?: string }) {
+/** `items` must already be localized (localizeFaq). */
+export async function Faq({ items, title }: { items: FaqItem[]; title?: string }) {
+  const { t } = await getI18n();
   return (
     <section className="bg-mist py-20 lg:py-28">
       <div className="container-page grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20">
         <Reveal>
           <SectionHeading
             eyebrow="FAQ"
-            title={title}
+            title={title ?? t("Veelgestelde vragen", "Frequently asked questions")}
             intro={
               <>
-                Staat je vraag er niet bij? Bel{" "}
+                {t("Staat je vraag er niet bij? Bel", "Question not listed? Call")}{" "}
                 <a href={site.phone.href} className="text-ink underline decoration-line-strong underline-offset-4 hover:decoration-ink">
                   {site.phone.display}
                 </a>{" "}
-                of bekijk{" "}
+                {t("of bekijk", "or see")}{" "}
                 <Link href="/veelgestelde-vragen" className="text-ink underline decoration-line-strong underline-offset-4 hover:decoration-ink">
-                  alle vragen
+                  {t("alle vragen", "all questions")}
                 </Link>
                 .
               </>

@@ -4,23 +4,26 @@ import {
   categories,
   devicePath,
   devicesForBrand,
+  localizeCategory,
+  localizeRepair,
   repairPath,
   repairs,
 } from "@/lib/catalog";
+import type { Locale } from "@/lib/i18n";
 
 export const mainNav = [
-  { label: "Werkwijze", href: "/werkwijze" },
-  { label: "Over ons", href: "/over-ons" },
-  { label: "Veelgestelde vragen", href: "/veelgestelde-vragen" },
-  { label: "Contact", href: "/contact" },
+  { label: "Werkwijze", labelEn: "How it works", href: "/werkwijze" },
+  { label: "Over ons", labelEn: "About", href: "/over-ons" },
+  { label: "Veelgestelde vragen", labelEn: "FAQ", href: "/veelgestelde-vragen" },
+  { label: "Contact", labelEn: "Contact", href: "/contact" },
 ] as const;
 
 export type NavData = ReturnType<typeof getNavData>;
 
 /** Serialisable menu data built on the server and passed to the client header. */
-export function getNavData() {
+export function getNavData(locale: Locale) {
   return {
-    categories: categories.map((c) => ({
+    categories: categories.map((c) => localizeCategory(c, locale)).map((c) => ({
       id: c.id,
       name: c.plural,
       brands: brands
@@ -35,6 +38,7 @@ export function getNavData() {
     })),
     repairs: repairs
       .filter((r) => r.popular)
+      .map((r) => localizeRepair(r, locale))
       .map((r) => ({ name: r.name, summary: r.summary, href: repairPath(r.slug), icon: r.icon })),
   };
 }

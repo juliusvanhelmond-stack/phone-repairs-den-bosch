@@ -1,18 +1,19 @@
-import Link from "next/link";
+import { Link } from "@/components/i18n/link";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import aboutPhoto from "@/assets/photos/about-workshop.jpg";
 import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { Aura } from "@/components/ui/aura";
+import { getI18n } from "@/lib/i18n-server";
 
-const facts = [
-  { value: "±30 min", label: "voor de meeste reparaties" },
-  { value: "7 dagen", label: "per week open, ook ’s avonds" },
-  { value: "Gratis", label: "parkeren voor de deur" },
-];
-
-export function About() {
+export async function About() {
+  const { t } = await getI18n();
+  const facts = [
+    { value: "±30 min", label: t("voor de meeste reparaties", "for most repairs") },
+    { value: t("7 dagen", "7 days"), label: t("per week open, ook ’s avonds", "a week, evenings included") },
+    { value: t("Gratis", "Free"), label: t("parkeren voor de deur", "parking right outside") },
+  ];
   return (
     <section className="relative isolate overflow-hidden py-20 lg:py-28">
       <Aura variant="soft" className="rotate-180" />
@@ -21,7 +22,10 @@ export function About() {
           <div className="relative aspect-[5/4] overflow-hidden rounded-[var(--radius-panel)] bg-mist shadow-[var(--shadow-soft)] ring-1 ring-line">
             <Image
               src={aboutPhoto}
-              alt="Technicus onderzoekt met een loep de binnenkant van een smartphone in een reparatiewerkplaats"
+              alt={t(
+                "Technicus onderzoekt met een loep de binnenkant van een smartphone in een reparatiewerkplaats",
+                "Technician examining the inside of a smartphone with a magnifier in a repair workshop",
+              )}
               fill
               placeholder="blur"
               sizes="(min-width: 1024px) 40vw, 100vw"
@@ -32,9 +36,12 @@ export function About() {
         <div className="order-1 lg:order-2">
           <Reveal>
             <SectionHeading
-              eyebrow="Over Phone Repairs"
-              title="Persoonlijk, vakkundig en gewoon in Den Bosch."
-              intro="Phone Repairs repareert smartphones, tablets en MacBooks. Er wordt alleen op afspraak gewerkt, zodat er tijd en aandacht is voor jou en je toestel. Je kijkt mee terwijl er gewerkt wordt en je gegevens blijven op je toestel."
+              eyebrow={t("Over Phone Repairs", "About Phone Repairs")}
+              title={t("Persoonlijk, vakkundig en gewoon in Den Bosch.", "Personal, skilled and right here in Den Bosch.")}
+              intro={t(
+                "Phone Repairs repareert smartphones, tablets en MacBooks. Er wordt alleen op afspraak gewerkt, zodat er tijd en aandacht is voor jou en je toestel. Je kijkt mee terwijl er gewerkt wordt en je gegevens blijven op je toestel.",
+                "Phone Repairs repairs smartphones, tablets and MacBooks. We work by appointment only, so there is time and attention for you and your device. You watch while we work, and your data stays on your device.",
+              )}
             />
           </Reveal>
           <Reveal delay={0.1}>
@@ -51,7 +58,7 @@ export function About() {
               href="/over-ons"
               className="mt-10 inline-flex items-center gap-1.5 text-[0.9375rem] font-medium text-accent-strong hover:text-accent"
             >
-              Meer over Phone Repairs
+              {t("Meer over Phone Repairs", "More about Phone Repairs")}
               <ArrowRight className="size-4" aria-hidden />
             </Link>
           </Reveal>

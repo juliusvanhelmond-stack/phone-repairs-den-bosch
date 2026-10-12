@@ -12,7 +12,10 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 const euro = new Intl.NumberFormat("nl-NL", { style: "currency", currency: "EUR" });
-export const formatEuro = (amount: number) => euro.format(amount);
+const euroEn = new Intl.NumberFormat("en-GB", { style: "currency", currency: "EUR" });
+/** Euro amount in the visitor's language (€ 60,00 / €60.00). */
+export const formatEuro = (amount: number, locale: "nl" | "en" = "nl") =>
+  (locale === "en" ? euroEn : euro).format(amount);
 
 /** Normalises text for forgiving search: case, accents, spacing and "+" variants. */
 export function normalizeSearch(value: string): string {

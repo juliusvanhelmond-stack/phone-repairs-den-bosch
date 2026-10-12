@@ -1,12 +1,14 @@
-import Link from "next/link";
+import { Link } from "@/components/i18n/link";
 import { ArrowRight, Eye, MapPin, ShieldCheck, Timer } from "lucide-react";
 import Image from "next/image";
 import heroPhoto from "@/assets/photos/hero-screen-repair.jpg";
 import { ContactActions } from "@/components/contact/contact-actions";
+import { getI18n } from "@/lib/i18n-server";
 import { site } from "@/lib/site";
 import { Aura } from "@/components/ui/aura";
 
-export function Hero() {
+export async function Hero() {
+  const { t } = await getI18n();
   return (
     <section className="relative isolate -mt-16 overflow-hidden pt-16 lg:-mt-[4.5rem] lg:pt-[4.5rem]">
       <Aura variant="hero" />
@@ -20,36 +22,38 @@ export function Hero() {
             <span className="grid size-6 place-items-center rounded-full bg-accent-soft text-accent">
               <MapPin className="size-3.5" aria-hidden />
             </span>
-            Reparaties op afspraak in {site.address.cityShort}
+            {t("Reparaties op afspraak in", "Repairs by appointment in")} {site.address.cityShort}
           </p>
           <h1 className="text-display font-semibold text-balance text-ink">
-            Je toestel weer als nieuw.{" "}
-            <span className="text-muted">Snel, vakkundig en transparant.</span>
+            {t("Je toestel weer als nieuw.", "Your device as good as new.")}{" "}
+            <span className="text-muted">{t("Snel, vakkundig en transparant.", "Fast, skilled and transparent.")}</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-pretty text-muted sm:text-xl">
-            Van een gebroken scherm tot een versleten batterij. Bij Phone Repairs in Den Bosch wordt je toestel
-            professioneel gerepareerd, vaak binnen 30 minuten terwijl je meekijkt.
+            {t(
+              "Van een gebroken scherm tot een versleten batterij. Bij Phone Repairs in Den Bosch wordt je toestel professioneel gerepareerd, vaak binnen 30 minuten terwijl je meekijkt.",
+              "From a broken screen to a worn-out battery. At Phone Repairs in Den Bosch your device is repaired professionally, often within 30 minutes while you watch.",
+            )}
           </p>
           <ContactActions className="mt-9" email={false} />
           <Link
             href="#toestel-zoeken"
             className="mt-5 inline-flex items-center gap-1.5 text-[0.9375rem] font-medium text-accent-strong hover:text-accent"
           >
-            Of zoek eerst je toestel
+            {t("Of zoek eerst je toestel", "Or find your device first")}
             <ArrowRight className="size-4 rotate-90" aria-hidden />
           </Link>
           <ul className="mt-10 flex flex-wrap gap-x-6 gap-y-3 text-sm text-ink-soft">
             <li className="flex items-center gap-2">
               <Timer className="size-4 text-accent" aria-hidden />
-              Vaak klaar binnen 30 minuten
+              {t("Vaak klaar binnen 30 minuten", "Often ready within 30 minutes")}
             </li>
             <li className="flex items-center gap-2">
               <Eye className="size-4 text-accent" aria-hidden />
-              Je kijkt mee
+              {t("Je kijkt mee", "You watch the repair")}
             </li>
             <li className="flex items-center gap-2">
               <ShieldCheck className="size-4 text-accent" aria-hidden />
-              Je gegevens blijven op je toestel
+              {t("Je gegevens blijven op je toestel", "Your data stays on your device")}
             </li>
           </ul>
         </div>
@@ -58,7 +62,10 @@ export function Hero() {
           <div className="relative aspect-square overflow-hidden rounded-[var(--radius-panel)] bg-mist shadow-[var(--shadow-lift)] ring-1 ring-line sm:aspect-[5/4] lg:aspect-[4/5]">
             <Image
               src={heroPhoto}
-              alt="Technicus opent een smartphone met gebarsten scherm op een werkmat met reparatiegereedschap"
+              alt={t(
+                "Technicus opent een smartphone met gebarsten scherm op een werkmat met reparatiegereedschap",
+                "Technician opening a smartphone with a cracked screen on a work mat with repair tools",
+              )}
               fill
               priority
               placeholder="blur"
@@ -72,8 +79,8 @@ export function Hero() {
               <Timer className="size-[1.125rem]" aria-hidden />
             </span>
             <span>
-              <span className="block text-sm font-medium text-ink">Schermreparatie</span>
-              <span className="block text-xs text-muted">Vaak binnen 30 minuten</span>
+              <span className="block text-sm font-medium text-ink">{t("Schermreparatie", "Screen repair")}</span>
+              <span className="block text-xs text-muted">{t("Vaak binnen 30 minuten", "Often within 30 minutes")}</span>
             </span>
           </FloatingCard>
           <FloatingCard className="bottom-5 left-4 max-sm:hidden sm:bottom-8 sm:left-8 lg:left-0" delay="0.7s">
@@ -81,8 +88,8 @@ export function Hero() {
               <Eye className="size-[1.125rem]" aria-hidden />
             </span>
             <span>
-              <span className="block text-sm font-medium text-ink">Je kijkt mee</span>
-              <span className="block text-xs text-muted">Geen gesloten deuren</span>
+              <span className="block text-sm font-medium text-ink">{t("Je kijkt mee", "You watch the repair")}</span>
+              <span className="block text-xs text-muted">{t("Geen gesloten deuren", "No closed doors")}</span>
             </span>
           </FloatingCard>
         </div>
