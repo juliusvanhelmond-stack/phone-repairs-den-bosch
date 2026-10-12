@@ -35,9 +35,14 @@ export const site = {
   } as null | { display: string; number: string; title: string; intro: string; hours: string },
   /**
    * Google Business profile with reviews (link from the client's current site, 2026-10-12).
-   * Only the link is used: no rating or review count is shown until it comes from a verified source.
+   * Score and review count are only shown through the client's own Trustindex widget
+   * (widget id from their WordPress plugin, 2026-10-12), never typed into the site.
    */
-  reviews: { url: "https://share.google/VZaMvnmVl8WfyaCh9", platform: "Google" } as null | { url: string; platform: string },
+  reviews: {
+    url: "https://share.google/VZaMvnmVl8WfyaCh9",
+    platform: "Google",
+    trustindexId: "2b08aab83f291770e106912ec94",
+  } as null | { url: string; platform: string; trustindexId: string | null },
   address: {
     street: "Ploossche Hof 13",
     /** Seen next to the street address in several search snippets of the original site. */

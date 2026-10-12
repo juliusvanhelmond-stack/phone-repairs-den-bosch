@@ -1,10 +1,11 @@
 import { ArrowUpRight, Star } from "lucide-react";
+import { TrustindexBadge } from "@/components/contact/trustindex-badge";
 import { site } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
 /**
- * Points visitors to the reviews on the Google Business profile.
- * Deliberately shows no score or count: those would have to come from a verified source.
+ * Points visitors to the reviews on the Google Business profile. The score and count
+ * are rendered by the Trustindex badge; the plain link stays as a fallback.
  */
 export function ReviewsBanner({ className }: { className?: string }) {
   const reviews = site.reviews;
@@ -27,15 +28,23 @@ export function ReviewsBanner({ className }: { className?: string }) {
           </p>
         </div>
       </div>
-      <a
-        href={reviews.url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex h-12 shrink-0 items-center justify-center gap-2 rounded-full bg-white px-6 font-medium text-ink transition-colors hover:bg-white/90"
-      >
-        Bekijk reviews op {reviews.platform}
-        <ArrowUpRight className="size-4" aria-hidden />
-      </a>
+      <div className="flex shrink-0 flex-col items-stretch gap-3 sm:items-end">
+        {reviews.trustindexId && (
+          <TrustindexBadge
+            widgetId={reviews.trustindexId}
+            className="min-h-[3.25rem] min-w-[12rem] overflow-hidden rounded-2xl bg-white px-2 [&_.ti-widget]:!m-0"
+          />
+        )}
+        <a
+          href={reviews.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center gap-1.5 text-sm font-medium text-white underline-offset-4 hover:underline"
+        >
+          Bekijk alle reviews op {reviews.platform}
+          <ArrowUpRight className="size-4" aria-hidden />
+        </a>
+      </div>
     </div>
   );
 }

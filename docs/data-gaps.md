@@ -46,6 +46,7 @@ export (WXR via Tools → Export) or read access to `/wp-json/wp/v2` from the ow
 | Prices on original model pages | seen in snippets (e.g. iPhone 16, Galaxy A54, MacBook Pro 16"), not verified | Device pages once confirmed |
 | Pre-owned stock and prices | changes often; needs a feed or owner input | /pre-owned-toestellen |
 | Terms and privacy pages | not found in the search index | Required before launch |
+| Privacy/cookie text for third parties | Trustindex review badge (cdn.trustindex.io) and WhatsApp links | Required before launch |
 | Reviews / rating (site mentions 9,8) | not verifiable | Not shown (no fake testimonials) |
 | Trade-in / inkoop service | mentioned, not detailed | Possible extra page |
 | Full model list per brand | seed catalog only | Device finder completeness |
