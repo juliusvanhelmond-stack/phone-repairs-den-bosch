@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, BadgeCheck, Eye, Phone, ShieldCheck, Timer } from "lucide-react";
 import { DemoNote } from "@/components/devices/demo-note";
-import { DeviceArt } from "@/components/devices/device-art";
+import { DevicePhoto } from "@/components/devices/device-photo";
 import { DeviceCard } from "@/components/devices/device-card";
 import { Faq } from "@/components/home/faq";
 import { FinalCta } from "@/components/home/final-cta";
@@ -86,14 +86,17 @@ export default async function DevicePage({ params }: PageProps<"/reparaties/[bra
         title={`${fullName} reparatie`}
         intro={`Is je ${device.name} kapot? Bij Phone Repairs in Den Bosch wordt hij op afspraak gerepareerd. De meeste reparaties zijn binnen ongeveer 30 minuten klaar, terwijl je meekijkt.`}
         aside={
-          <div className="relative flex aspect-[4/3.4] items-end justify-center overflow-hidden rounded-[var(--radius-panel)] bg-mist ring-1 ring-line">
-            <div className="absolute inset-x-[15%] bottom-0 h-1/2 rounded-full bg-accent/10 blur-3xl" aria-hidden />
-            <DeviceArt
-              art={device.art}
-              title={`Illustratie ${device.name}`}
-              className={cn("relative translate-y-[12%]", wide ? "w-[82%]" : medium ? "w-[48%]" : "w-[34%]")}
-            />
-          </div>
+          <figure className="relative flex aspect-[4/3.4] flex-col overflow-hidden rounded-[var(--radius-panel)] bg-white ring-1 ring-line">
+            <div className="relative flex min-h-0 flex-1 items-center justify-center p-[8%]">
+              <DevicePhoto
+                device={device}
+                priority
+                sizes="(min-width: 1024px) 34rem, 90vw"
+                artClassName={cn("relative h-full w-auto", wide ? "max-w-[82%]" : medium ? "max-w-[48%]" : "max-w-[34%]")}
+              />
+            </div>
+            <figcaption className="px-5 pb-4 text-right text-xs text-muted">Afbeelding ter illustratie</figcaption>
+          </figure>
         }
       >
         <div className="flex flex-col gap-3 sm:flex-row">

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { DeviceArt } from "@/components/devices/device-art";
+import { DevicePhoto } from "@/components/devices/device-photo";
 import { devicePath, getBrand } from "@/lib/catalog";
 import type { DeviceModel } from "@/types/content";
 import { cn } from "@/lib/utils";
@@ -16,12 +16,15 @@ export function DeviceCard({ device, className }: { device: DeviceModel; classNa
         className,
       )}
     >
-      <div className="flex h-44 items-end justify-center overflow-hidden bg-mist px-6 pt-8">
-        <DeviceArt
-          art={device.art}
-          className={cn(
-            "translate-y-10 transition-transform duration-500 ease-out group-hover:translate-y-6",
-            wide ? "w-56" : medium ? "w-32" : "w-[5.5rem]",
+      <div className="relative flex h-44 items-center justify-center overflow-hidden border-b border-line bg-white px-5 py-3">
+        <DevicePhoto
+          device={device}
+          decorative
+          sizes="(min-width: 1024px) 18rem, (min-width: 768px) 30vw, 45vw"
+          className="transition-transform duration-500 ease-out group-hover:scale-[1.04]"
+          artClassName={cn(
+            "h-full w-auto transition-transform duration-500 ease-out group-hover:scale-[1.04]",
+            wide ? "max-w-56" : medium ? "max-w-32" : "max-w-[5.5rem]",
           )}
         />
       </div>

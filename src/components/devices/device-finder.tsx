@@ -17,11 +17,12 @@ import {
   SearchX,
   Timer,
 } from "lucide-react";
+import Image from "next/image";
 import { DeviceArt } from "@/components/devices/device-art";
+import { categoryPhoto, DevicePhoto } from "@/components/devices/device-photo";
 import { ContentIcon } from "@/components/repairs/icon";
 import { Button } from "@/components/ui/button";
 import type { FinderDevice } from "@/lib/catalog";
-import type { DeviceArt as DeviceArtKind } from "@/types/content";
 import { cn, formatEuro, normalizeSearch } from "@/lib/utils";
 
 export type FinderCategory = { id: string; name: string; plural: string; description: string };
@@ -46,12 +47,6 @@ const STEPS: { id: Step; label: string }[] = [
   { id: "repair", label: "Reparatie" },
   { id: "result", label: "Prijs" },
 ];
-
-const CATEGORY_ART: Record<string, DeviceArtKind> = {
-  smartphone: "phone-island",
-  tablet: "tablet",
-  laptop: "laptop",
-};
 
 const PARAMS = { category: "categorie", brand: "merk", device: "model", repair: "reparatie" } as const;
 
@@ -250,13 +245,12 @@ export function DeviceFinder({
                         onClick={() => update({ category: c.id })}
                         className="flex-row p-0 sm:flex-col"
                       >
-                        <div className="flex h-auto w-24 shrink-0 items-end justify-center overflow-hidden bg-mist px-3 pt-4 sm:h-36 sm:w-auto sm:px-6 sm:pt-6">
-                          <DeviceArt
-                            art={CATEGORY_ART[c.id] ?? "phone-island"}
-                            className={cn(
-                              "translate-y-3 transition-transform duration-500 group-hover:translate-y-1 sm:translate-y-6 sm:group-hover:translate-y-3",
-                              c.id === "laptop" ? "w-20 sm:w-48" : c.id === "tablet" ? "w-14 sm:w-28" : "w-9 sm:w-[4.5rem]",
-                            )}
+                        <div className="relative flex h-auto w-24 shrink-0 items-center justify-center overflow-hidden border-line bg-white p-2 max-sm:border-r sm:h-36 sm:w-auto sm:border-b sm:p-4">
+                          <Image
+                            src={categoryPhoto(c.id)}
+                            alt=""
+                            sizes="(min-width: 640px) 16rem, 6rem"
+                            className="h-full max-h-20 w-full object-contain transition-transform duration-500 group-hover:scale-[1.04] sm:max-h-none"
                           />
                         </div>
                         <div className="flex flex-1 items-center justify-between gap-3 p-4 sm:p-5">
@@ -498,15 +492,18 @@ function FinderResult({
 
   return (
     <div className="grid gap-6 lg:grid-cols-[0.8fr_1.2fr]">
-      <div className="relative flex items-end justify-center overflow-hidden rounded-[var(--radius-card)] bg-mist px-8 pt-10">
-        <DeviceArt
-          art={device.art}
-          title={device.name}
-          className={cn(
-            "translate-y-8",
-            device.art === "laptop" ? "w-72" : device.art.startsWith("tablet") || device.art === "phone-foldable" ? "w-44" : "w-32",
-          )}
-        />
+      <div className="relative flex min-h-64 items-center justify-center overflow-hidden rounded-[var(--radius-card)] bg-white px-8 pt-14 pb-8 ring-1 ring-line">
+        <div className="relative h-52 w-full">
+          <DevicePhoto
+            device={device}
+            sizes="(min-width: 1024px) 24rem, 80vw"
+            className="absolute inset-0"
+            artClassName={cn(
+              "mx-auto h-full w-auto",
+              device.art === "laptop" ? "max-w-72" : device.art.startsWith("tablet") || device.art === "phone-foldable" ? "max-w-44" : "max-w-32",
+            )}
+          />
+        </div>
         <span className="absolute top-4 left-4 inline-flex items-center gap-2 rounded-full bg-white px-3 py-1.5 text-sm text-ink shadow-[var(--shadow-ring)]">
           <ContentIcon name={repair.icon} className="size-4 text-accent" />
           {repair.name}
