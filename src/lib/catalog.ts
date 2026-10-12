@@ -1,16 +1,19 @@
 import { z } from "zod";
 import {
+  blogArticleSchema,
   brandSchema,
   claimSchema,
   deviceCategorySchema,
   deviceModelSchema,
   faqItemSchema,
+  landingPageSchema,
   repairPriceSchema,
   repairServiceSchema,
   warrantyInfoSchema,
   type Brand,
   type DeviceCategory,
   type DeviceModel,
+  type LandingPage,
   type RepairPrice,
   type RepairService,
 } from "@/types/content";
@@ -22,6 +25,8 @@ import pricesJson from "@/data/prices.json";
 import warrantyJson from "@/data/warranty.json";
 import faqsJson from "@/data/faqs.json";
 import claimsJson from "@/data/claims.json";
+import landingPagesJson from "@/data/landing-pages.json";
+import blogJson from "@/data/blog.json";
 import apple from "@/data/devices/apple.json";
 import samsung from "@/data/devices/samsung.json";
 import huawei from "@/data/devices/huawei.json";
@@ -40,6 +45,8 @@ export const prices = z.array(repairPriceSchema).parse(pricesJson);
 export const warranties = z.array(warrantyInfoSchema).parse(warrantyJson);
 export const faqs = z.array(faqItemSchema).parse(faqsJson);
 export const claims = z.array(claimSchema).parse(claimsJson);
+export const landingPages = z.array(landingPageSchema).parse(landingPagesJson);
+export const blogPosts = z.array(blogArticleSchema).parse(blogJson);
 export const devices = z
   .array(deviceModelSchema)
   .parse([...apple, ...samsung, ...huawei, ...oneplus, ...xiaomi, ...sony, ...lg]);
@@ -136,3 +143,24 @@ export function finderIndex(): FinderDevice[] {
     };
   });
 }
+
+const landingByPath = new Map(landingPages.map((p) => [p.path, p]));
+export const getLandingPage = (path: string): LandingPage | undefined => landingByPath.get(path);
+export const areaPages = landingPages.filter((p) => p.kind === "area");
+export const servicePages = landingPages.filter((p) => p.kind === "service");
+export const faqTopicPages = landingPages.filter((p) => p.kind === "faq-topic");
+
+/** Places served, each with its area pages (original URLs), in data order. */
+export function areasByPlace(): { place: string; placeKind: "wijk" | "plaats"; pages: LandingPage[] }[] {
+  const groups = new Map<string, { place: string; placeKind: "wijk" | "plaats"; pages: LandingPage[] }>();
+  for (const page of areaPages) {
+    const place = page.place ?? page.title;
+    const group = groups.get(place) ?? { place, placeKind: page.placeKind ?? "plaats", pages: [] };
+    group.pages.push(page);
+    groups.set(place, group);
+  }
+  return [...groups.values()];
+}
+
+export const blogPath = (slug: string) => `/blog-post/${slug}`;
+export const getBlogPost = (slug: string) => blogPosts.find((p) => p.slug === slug);

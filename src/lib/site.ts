@@ -24,8 +24,8 @@ export const site = {
   whatsapp: null as null | { display: string; href: string },
   address: {
     street: "Ploossche Hof 13",
-    /** Postal code not captured yet; see docs/data-gaps.md. */
-    postalCode: null as string | null,
+    /** Seen next to the street address in several search snippets of the original site. */
+    postalCode: "5233 HA" as string | null,
     city: "'s-Hertogenbosch",
     cityShort: "Den Bosch",
     country: "NL",
@@ -34,6 +34,8 @@ export const site = {
   parkingNote: "Gratis parkeren voor de deur",
   sources: [SOURCE_URLS.home, SOURCE_URLS.denBosch, SOURCE_URLS.appointment],
 } as const;
+
+export const fullAddress = [site.address.street, [site.address.postalCode, site.address.cityShort].filter(Boolean).join(" ")].join(", ");
 
 export const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
   `${site.name} ${site.address.street} ${site.address.city}`,

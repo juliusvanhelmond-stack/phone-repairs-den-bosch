@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { Logo } from "@/components/layout/logo";
-import { brandPath, brands, repairPath, repairs } from "@/lib/catalog";
-import { mapsUrl, site } from "@/lib/site";
+import { brandPath, brands, landingPages, repairPath, repairs } from "@/lib/catalog";
+import { fullAddress, mapsUrl, site } from "@/lib/site";
 
 const companyLinks = [
   { label: "Werkwijze", href: "/werkwijze" },
@@ -10,12 +10,20 @@ const companyLinks = [
   { label: "Veelgestelde vragen", href: "/veelgestelde-vragen" },
   { label: "Contact", href: "/contact" },
   { label: "Afspraak maken", href: "/afspraak" },
+  { label: "Werkgebied", href: "/werkgebied" },
+  { label: "Blog", href: "/blog-post" },
 ];
+
+const moreIds = ["nintendo-switch-reparatie", "pre-owned-toestellen", "bijzondere-merken-reparatie", "zakelijke-reparatie", "reparatie-opsturen"];
+const moreLinks = moreIds.flatMap((id) => {
+  const page = landingPages.find((p) => p.id === id);
+  return page ? [{ label: page.title, href: page.path }] : [];
+});
 
 export function SiteFooter() {
   return (
     <footer className="bg-night text-neutral-300">
-      <div className="container-page grid gap-12 py-16 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr] lg:py-20">
+      <div className="container-page grid gap-12 py-16 sm:grid-cols-2 lg:grid-cols-[1.3fr_1fr_0.8fr_1fr_1fr] lg:py-20">
         <div className="max-w-sm">
           <Logo tone="light" />
           <p className="mt-5 text-[0.9375rem] leading-relaxed text-neutral-400">
@@ -43,7 +51,7 @@ export function SiteFooter() {
                 className="inline-flex items-center gap-3 transition-colors hover:text-white"
               >
                 <MapPin className="size-4 text-neutral-500" aria-hidden />
-                {site.address.street}, {site.address.cityShort}
+                {fullAddress}
               </a>
             </li>
           </ul>
@@ -53,6 +61,7 @@ export function SiteFooter() {
           links={repairs.map((r) => ({ label: r.name, href: repairPath(r.slug) }))}
         />
         <FooterColumn title="Merken" links={brands.map((b) => ({ label: b.name, href: brandPath(b.id) }))} />
+        <FooterColumn title="Meer" links={moreLinks} />
         <FooterColumn title="Phone Repairs" links={companyLinks} />
       </div>
       <div className="border-t border-white/10">

@@ -2,15 +2,15 @@ import Link from "next/link";
 import { ArrowUpRight, CalendarCheck, Car, Clock, Mail, MapPin, Phone } from "lucide-react";
 import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
-import { mapsUrl, site } from "@/lib/site";
+import { fullAddress, mapsUrl, site } from "@/lib/site";
 import { Aura } from "@/components/ui/aura";
 import { Skyline } from "@/components/ui/skyline";
 
 export function MapGraphic() {
   return (
-    <div className="relative h-full min-h-72 overflow-hidden rounded-[var(--radius-card)] bg-[#EEF1F5]" aria-hidden>
+    <div className="relative h-full min-h-72 overflow-hidden rounded-[var(--radius-card)] bg-mist" aria-hidden>
       <svg viewBox="0 0 600 420" preserveAspectRatio="xMidYMid slice" className="absolute inset-0 size-full">
-        <rect width="600" height="420" fill="#EEF1F5" />
+        <rect width="600" height="420" fill="var(--color-mist)" />
         <path d="M-20 300 C 120 260, 200 330, 330 280 S 520 200, 640 230" stroke="#C7D7F5" strokeWidth="34" fill="none" />
         <g stroke="#fff" strokeLinecap="round" fill="none">
           <path d="M0 120 H600" strokeWidth="14" />
@@ -22,7 +22,7 @@ export function MapGraphic() {
           <path d="M200 0 L250 120" strokeWidth="6" />
           <path d="M330 360 H600" strokeWidth="6" />
         </g>
-        <g fill="#E2E7EE">
+        <g fill="var(--color-line)">
           <rect x="360" y="20" width="60" height="70" rx="8" />
           <rect x="460" y="40" width="110" height="50" rx="8" />
           <rect x="90" y="140" width="80" height="50" rx="8" />
@@ -42,7 +42,7 @@ export function MapGraphic() {
 
 export function ContactDetails({ className }: { className?: string }) {
   const rows = [
-    { icon: MapPin, label: "Adres", value: `${site.address.street}, ${site.address.cityShort}`, href: mapsUrl, external: true },
+    { icon: MapPin, label: "Adres", value: fullAddress, href: mapsUrl, external: true },
     { icon: Phone, label: "Telefoon", value: site.phone.display, href: site.phone.href },
     { icon: Mail, label: "E-mail", value: site.email, href: `mailto:${site.email}` },
     { icon: Clock, label: "Openingstijden", value: "7 dagen per week, ook ’s avonds" },

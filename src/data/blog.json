@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ios-27-batterijproblemen", "slug": "ios-27-batterijproblemen",
+    "title": "iOS 27 batterijproblemen",
+    "excerpt": "Loopt je batterij na de update naar iOS 27 sneller leeg? Dat is meestal tijdelijk.",
+    "summary": [
+      "Na een grote iOS-update merken veel mensen dat de batterij sneller leegloopt en het toestel warmer wordt. Dat is meestal tijdelijk.",
+      "Direct na de overstap voert je iPhone op de achtergrond zware optimalisaties uit. Na een paar dagen zijn die klaar en wordt het verbruik weer normaal."
+    ],
+    "legacyUrls": ["/blog-post/ios-27-batterijproblemen/"],
+    "sources": [{ "url": "https://www.phonerepairs.nl/blog-post/ios-27-batterijproblemen/", "verification": "search-index", "capturedAt": "2026-10-12" }]
+  },
+  {
+    "id": "waterdichtheid-smartphones", "slug": "waterdichtheid-smartphones",
+    "title": "Waterdichtheid van smartphones",
+    "excerpt": "Een smartphone is waterbestendig, niet waterdicht. Wat betekent dat in de praktijk?",
+    "summary": [
+      "Smartphones zijn waterbestendig, niet waterdicht. De bescherming geldt voor koud, zoet water.",
+      "Zout water, chloorwater en hete stoom kunnen de afdichtingen aantasten. Waterschade valt nooit onder de garantie, ongeacht de IP-classificatie van je toestel."
+    ],
+    "legacyUrls": ["/blog-post/waterdichtheid-smartphones/"],
+    "sources": [{ "url": "https://www.phonerepairs.nl/blog-post/waterdichtheid-smartphones/", "verification": "search-index", "capturedAt": "2026-10-12" }]
+  },
+  {
+    "id": "wat-te-doen-bij-waterschade", "slug": "wat-te-doen-bij-waterschade",
+    "title": "Wat te doen bij waterschade",
+    "excerpt": "Telefoon nat geworden? Dit moet je wel en vooral niet doen.",
+    "summary": [
+      "Droog je toestel niet met een föhn en leg het niet in rijst. Dat helpt niet en kan meer schade veroorzaken.",
+      "Breng je toestel zo snel mogelijk langs, het liefst binnen 72 uur, zodat het chemisch gereinigd kan worden. Waterschade zelf valt nooit onder de garantie."
+    ],
+    "legacyUrls": ["/blog-post/wat-te-doen-bij-waterschade/"],
+    "sources": [{ "url": "https://www.phonerepairs.nl/blog-post/wat-te-doen-bij-waterschade/", "verification": "search-index", "capturedAt": "2026-10-12" }]
+  },
+  {
+    "id": "flexible-hydrogel-screen-protectors", "slug": "flexible-hydrogel-screen-protectors",
+    "title": "Flexibele hydrogel-screenprotector",
+    "excerpt": "Een hydrogel-screenprotector is volgens Phone Repairs de beste bescherming voor je scherm.",
+    "summary": [
+      "Een flexibele hydrogel-screenprotector beschermt je scherm tegen krassen en barsten.",
+      "Is het scherm toch kapot? Een schermvervanging is meestal binnen 30 minuten klaar, terwijl je meekijkt."
+    ],
+    "legacyUrls": ["/blog-post/flexible-hydrogel-screen-protectors/"],
+    "sources": [{ "url": "https://www.phonerepairs.nl/blog-post/flexible-hydrogel-screen-protectors/", "verification": "search-index", "capturedAt": "2026-10-12" }]
+  },
+  {
+    "id": "enkel-het-glas-vervangen-van-de-smartphone", "slug": "enkel-het-glas-vervangen-van-de-smartphone",
+    "title": "Alleen het glas van je smartphone vervangen?",
+    "excerpt": "Kun je alleen het glas laten vervangen? Ja, maar ook nee.",
+    "summary": [
+      "Bij een paar modellen kan het glas los van het display worden vervangen.",
+      "Bij de meeste smartphones zijn het glas en het display met lijm aan elkaar verbonden. Dan wordt het complete scherm vervangen."
+    ],
+    "legacyUrls": ["/blog-post/enkel-het-glas-vervangen-van-de-smartphone/"],
+    "sources": [{ "url": "https://www.phonerepairs.nl/blog-post/enkel-het-glas-vervangen-van-de-smartphone/", "verification": "search-index", "capturedAt": "2026-10-12" }]
+  }
+]

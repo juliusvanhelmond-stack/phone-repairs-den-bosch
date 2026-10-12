@@ -8,7 +8,7 @@
  * Usage: npm run report
  */
 import { join } from "node:path";
-import { brands, categories, claims, devices, faqs, prices, repairs, warranties } from "../../src/lib/catalog";
+import { blogPosts, brands, categories, claims, devices, faqs, landingPages, prices, repairs, warranties } from "../../src/lib/catalog";
 import { site } from "../../src/lib/site";
 import type { UrlRecord } from "../../src/types/content";
 import inventoryJson from "../../src/data/url-inventory.json";
@@ -173,8 +173,13 @@ export (WXR via Tools → Export) or read access to \`/wp-json/wp/v2\` from the 
 
 | Topic | Values found | Where | Handling in demo |
 | --- | --- | --- | --- |
-| Warranty | "12 maanden" and "90 dagen" | search snippets of phonerepairs.nl | Not published; owner must confirm |
-| iPhone starting price | "vanaf €60" (homepage) and "vanaf €40" (older Den Bosch page) | homepage / /telefoon-reparatie-den-bosch/ | No starting price shown |
+| Warranty | "12 maanden", "90 dagen" and "3 maanden" (even "12 dagen" in one title) | model, area, FAQ and blog pages | Not published; owner must confirm |
+| iPhone starting price | "vanaf €60" (homepage, Geldermalsen) and "vanaf €40" (Den Bosch, Vught) | several pages | No starting price shown |
+| Pre-owned warranty | "1 jaar" in the text, "90 dagen" in the banner | /pre-owned-toestellen/ | Not published |
+| Return shipping cost | €11 and €12 | /veelgestelde-vragen/reparatie-opsturen/ | Not published |
+| Years of experience | 10 and 20+ | about pages | Left out of the owner story |
+| Customer rating | 9,6 and 9,8 (self-reported) | several pages | Not shown |
+| Place names | Pages titled "Oss", "Waalwijk", etc. while the shop is in Den Bosch | area pages | Kept as "Voor <plaats>" pages that say the shop is in Den Bosch |
 ${crawlConflictRows}
 
 ## 3. Missing data
@@ -183,15 +188,18 @@ ${crawlConflictRows}
 | --- | --- | --- |
 | Repair prices per model | ${prices.filter((p) => p.verified).length} verified (catalog has ${devices.length} models) | Device finder results, device pages, Offer schema |
 | Warranty terms | conflicting | Device pages, FAQ |
-| WhatsApp number | ${site.whatsapp ? "known" : "not verified — WhatsApp button hidden"} | Contact actions |
+| WhatsApp number | ${site.whatsapp ? "known" : "not verified — WhatsApp button hidden; +31 6 424 729 54 is listed next to the landline, confirm whether that is WhatsApp"} | Contact actions |
 | Postal code | ${site.address.postalCode ?? "missing"} | LocalBusiness schema, contact page |
 | Exact opening hours | missing (only "7 dagen per week, ook ’s avonds") | Contact page, OpeningHoursSpecification |
-| Original "Over Phone Repairs" text | not extracted | /over-ons |
+| Original "Over Phone Repairs" text | owner story summarised from snippets; full text not extracted | /over-ons |
 | Photos of the shop / technicians | none — generic Adobe Stock photos used (docs/image-credits.md) | Hero, about, process band, CTA |
 | Official device photography | none (vector renders used) | Device pages |
-| Area landing pages (Rosmalen, Rompert, Helftheuvel, …) | content not extracted | Local SEO; keep original URLs |
-| Blog/news posts | not inventoried | Blog template |
-| Individual FAQ pages under /veelgestelde-vragen/ | not inventoried | FAQ migration |
+| Area landing pages | ${landingPages.filter((p) => p.kind === "area").length} pages live on their original URL with template copy; original text not extracted | Local SEO |
+| Blog/news posts | ${blogPosts.length} posts summarised on their original URL; full archive (2+ pages) not exported | Blog |
+| Individual FAQ pages under /veelgestelde-vragen/ | ${landingPages.filter((p) => p.kind === "faq-topic").length} kept (zakelijk, opsturen); others redirected or unknown | FAQ migration |
+| Prices on original model pages | seen in snippets (e.g. iPhone 16, Galaxy A54, MacBook Pro 16"), not verified | Device pages once confirmed |
+| Pre-owned stock and prices | changes often; needs a feed or owner input | /pre-owned-toestellen |
+| Terms and privacy pages | not found in the search index | Required before launch |
 | Reviews / rating (site mentions 9,8) | not verifiable | Not shown (no fake testimonials) |
 | Trade-in / inkoop service | mentioned, not detailed | Possible extra page |
 | Full model list per brand | seed catalog only | Device finder completeness |
@@ -201,7 +209,8 @@ ${crawlConflictRows}
 - Repair types without a verified source (${demoRepairs.length}): ${demoRepairs.map((r) => r.name).join(", ") || "none"}.
 - Devices whose availability is a JUNE Studio seed (${demoBrandsDevices.length} of ${devices.length}): iPad, MacBook, Galaxy A/Z/Tab, Huawei, OnePlus, Xiaomi, Sony, LG models.
 - iPhone and Galaxy S lists follow the homepage model menu as seen in a search snapshot (iPhone 7 … Galaxy S26 Ultra).
-- All claims and FAQs are based on \`search-index\` snapshots and must be re-checked against the live pages.
+- All claims, FAQs, kept pages and blog summaries are based on \`search-index\` snapshots and must be re-checked against the live pages.
+- Area pages use one template text per place; the original pages each have their own copy, which replaces it after migration.
 
 ## 5. URLs without a target on the new site (${unmapped.length})
 

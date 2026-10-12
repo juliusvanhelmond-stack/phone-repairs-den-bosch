@@ -365,13 +365,21 @@
     "aliases": [
       "S24"
     ],
-    "legacyUrls": [],
+    "legacyUrls": [
+      "/samsung-reparatie-den-bosch/samsung-s24-reparatie/"
+    ],
     "sources": [
       {
         "url": "https://www.phonerepairs.nl/",
         "verification": "search-index",
         "capturedAt": "2026-10-08",
         "note": "Homepage model menu lists iPhone and Samsung models (iPhone 7 up to Galaxy S26 Ultra) per search-index snapshot; exact list to confirm."
+      },
+      {
+        "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s24-reparatie/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-12",
+        "note": "Original page: original Samsung service packs; ready within 30 minutes while you watch."
       }
     ]
   },
@@ -779,13 +787,21 @@
     "aliases": [
       "A35"
     ],
-    "legacyUrls": [],
+    "legacyUrls": [
+      "/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a35/"
+    ],
     "sources": [
       {
         "url": "https://www.phonerepairs.nl/",
         "verification": "demo",
         "capturedAt": "2026-10-08",
         "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      },
+      {
+        "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a35/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-12",
+        "note": "Original model page."
       }
     ]
   },
@@ -871,13 +887,21 @@
     "aliases": [
       "A54"
     ],
-    "legacyUrls": [],
+    "legacyUrls": [
+      "/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a54-5g/"
+    ],
     "sources": [
       {
         "url": "https://www.phonerepairs.nl/",
         "verification": "demo",
         "capturedAt": "2026-10-08",
         "note": "Samsung is named as a supported brand; model list is a JUNE Studio seed and must be confirmed."
+      },
+      {
+        "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a54-5g/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-12",
+        "note": "Original page for the A54 5G (SM-A546B) with a price list; prices to verify."
       }
     ]
   },

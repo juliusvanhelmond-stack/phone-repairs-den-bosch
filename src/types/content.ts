@@ -184,7 +184,10 @@ export const blogArticleSchema = z.object({
   updatedAt: z.iso.date().optional(),
   author: z.string().optional(),
   excerpt: z.string().optional(),
-  bodyHtml: z.string(),
+  /** Short summary of the original post, shown until the full text is migrated. */
+  summary: z.array(z.string()).default([]),
+  /** Full migrated body; empty until the post is exported from the original site. */
+  bodyHtml: z.string().default(""),
   legacyUrls: z.array(z.string()).default([]),
   sources: z.array(sourceRefSchema).default([]),
   seo: seoMetaSchema.optional(),
@@ -225,3 +228,41 @@ export const urlRecordSchema = z.object({
   notes: z.string().optional(),
 });
 export type UrlRecord = z.infer<typeof urlRecordSchema>;
+
+/**
+ * Pages that keep their original URL on the new site: local area pages,
+ * extra services (Nintendo Switch, pre-owned) and FAQ sub-pages.
+ * `path` is the original path without trailing slash.
+ */
+export const landingSectionSchema = z.object({
+  heading: z.string(),
+  body: z.array(z.string()).default([]),
+  bullets: z.array(z.string()).default([]),
+  steps: z.array(z.string()).default([]),
+});
+export type LandingSection = z.infer<typeof landingSectionSchema>;
+
+export const areaFocusSchema = z.enum(["telefoon", "gsm", "smartphone", "mobiel", "iphone", "ipad", "scherm"]);
+export type AreaFocus = z.infer<typeof areaFocusSchema>;
+
+export const landingPageSchema = z.object({
+  id: slugSchema,
+  path: z.string().regex(/^(\/[a-z0-9-]+)+$/, "path must be a lowercase path without trailing slash"),
+  kind: z.enum(["area", "service", "faq-topic"]),
+  /** Title of the original page, kept for reference and SEO comparison. */
+  originalTitle: z.string(),
+  title: z.string(),
+  eyebrow: z.string(),
+  intro: z.string(),
+  seo: z.object({ title: z.string().max(70), description: z.string().max(170) }),
+  /** Area pages only. */
+  place: z.string().optional(),
+  placeKind: z.enum(["wijk", "plaats"]).optional(),
+  focus: areaFocusSchema.optional(),
+  sections: z.array(landingSectionSchema).default([]),
+  /** Facts seen on the original page that are not published until the owner confirms them. */
+  unconfirmed: z.array(z.string()).default([]),
+  legacyUrls: z.array(z.string()).default([]),
+  sources: z.array(sourceRefSchema).min(1),
+});
+export type LandingPage = z.infer<typeof landingPageSchema>;

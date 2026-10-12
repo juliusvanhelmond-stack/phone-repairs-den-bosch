@@ -260,15 +260,45 @@ const catalog: Record<string, DeviceModel[]> = {
   lg: build("lg", "smartphone", "LG", lg, demoNote("LG"), "LG"),
 };
 
-// The Galaxy S23 has a known page on the original site.
-const s23 = catalog.samsung.find((d) => d.slug === "galaxy-s23");
-if (s23) {
-  s23.legacyUrls = ["/samsung-reparatie-den-bosch/samsung-s23/"];
-  s23.sources.push({
-    url: SOURCE_URLS.samsungS23,
-    verification: "search-index",
-    capturedAt: SEED_CAPTURED_AT,
+// Models with a known page on the original site (search index). Their legacy URL gets a 301
+// via src/data/url-inventory.json; prices on those pages are not used until verified.
+const knownPages: Record<string, { path: string; note: string }> = {
+  "samsung-galaxy-s23": {
+    path: "/samsung-reparatie-den-bosch/samsung-s23/",
     note: "Original page: uses original Samsung service packs; prices include fitting and 21% VAT.",
+  },
+  "samsung-galaxy-s24": {
+    path: "/samsung-reparatie-den-bosch/samsung-s24-reparatie/",
+    note: "Original page: original Samsung service packs; ready within 30 minutes while you watch.",
+  },
+  "samsung-galaxy-a35": { path: "/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a35/", note: "Original model page." },
+  "samsung-galaxy-a54": {
+    path: "/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a54-5g/",
+    note: "Original page for the A54 5G (SM-A546B) with a price list; prices to verify.",
+  },
+  "apple-iphone-12": { path: "/iphone-reparatie/iphone-12/", note: "Original model page with a price list." },
+  "apple-iphone-12-pro": { path: "/iphone-reparatie/iphone-12-pro/", note: "Original model page." },
+  "apple-iphone-13-pro": { path: "/iphone-reparatie/iphone-13-pro-reparatie/", note: "Original model page." },
+  "apple-iphone-13-pro-max": { path: "/iphone-reparatie/iphone-13-pro-max/", note: "Original model page with a price list." },
+  "apple-iphone-14-pro": { path: "/iphone-reparatie/iphone-14-pro/", note: "Original model page." },
+  "apple-iphone-14-pro-max": { path: "/iphone-reparatie/iphone-14-pro-max-3/", note: "Original model page (WordPress slug with -3 suffix)." },
+  "apple-iphone-15-plus": { path: "/iphone-reparatie/iphone-15-plus/", note: "Original model page with a price list." },
+  "apple-iphone-15-pro": { path: "/iphone-reparatie/iphone-15-pro/", note: "Original model page." },
+  "apple-iphone-16": { path: "/iphone-reparatie/iphone-16/", note: "Original model page with a price list." },
+  "apple-iphone-16e": { path: "/iphone-reparatie/iphone-16e/", note: "Original model page." },
+  "apple-iphone-air": { path: "/iphone-reparatie/iphone-air/", note: "Original model page." },
+};
+
+const allModels = Object.values(catalog).flat();
+for (const [id, page] of Object.entries(knownPages)) {
+  const device = allModels.find((d) => d.id === id);
+  if (!device) throw new Error(`Known page for unknown device ${id}`);
+  device.legacyUrls = [page.path];
+  device.sources.push({
+    url: `${SOURCE_URLS.home.replace(/\/$/, "")}${page.path}`,
+    verification: "search-index",
+    capturedAt: id === "samsung-galaxy-s23" ? SEED_CAPTURED_AT : "2026-10-12",
+    note: page.note,
   });
 }
 

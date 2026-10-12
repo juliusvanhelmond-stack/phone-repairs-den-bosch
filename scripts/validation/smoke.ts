@@ -38,6 +38,14 @@ const ROUTES = [
   "/veelgestelde-vragen",
   "/contact",
   "/afspraak",
+  "/werkgebied",
+  "/telefoon-reparatie-rosmalen",
+  "/ipad-reparatie-waalwijk",
+  "/nintendo-switch-reparatie",
+  "/pre-owned-toestellen",
+  "/veelgestelde-vragen/reparatie-opsturen",
+  "/blog-post",
+  "/blog-post/wat-te-doen-bij-waterschade",
   "/sitemap.xml",
   "/robots.txt",
 ];
@@ -46,6 +54,9 @@ const REDIRECTS: [string, string][] = [
   ["/over-phone-repairs/", "/over-ons"],
   ["/afspraak-maken/", "/afspraak"],
   ["/samsung-reparatie-den-bosch/samsung-s23/", "/reparaties/samsung/galaxy-s23"],
+  ["/iphone-reparatie/iphone-14-pro-max-3/", "/reparaties/apple/iphone-14-pro-max"],
+  ["/nintendo-switch-reparatie-den-bosch/", "/nintendo-switch-reparatie"],
+  ["/veelgestelde-vragen/phone-repairs-blog/", "/blog-post"],
 ];
 
 async function noHorizontalOverflow(page: Page) {
@@ -70,10 +81,12 @@ async function main() {
     });
   }
 
-  await check("unknown device → 404", async () => {
-    const res = await page.request.get(`${BASE}/reparaties/apple/bestaat-niet`);
-    assert(res.status() === 404, `status ${res.status()}`);
-  });
+  for (const path of ["/reparaties/apple/bestaat-niet", "/bestaat-niet", "/blog-post/bestaat-niet", "/veelgestelde-vragen/bestaat-niet"]) {
+    await check(`unknown ${path} → 404`, async () => {
+      const res = await page.request.get(BASE + path);
+      assert(res.status() === 404, `status ${res.status()}`);
+    });
+  }
 
   for (const [from, to] of REDIRECTS) {
     await check(`redirect ${from} → ${to}`, async () => {

@@ -6,16 +6,19 @@
  */
 import { z } from "zod";
 import {
+  blogPosts,
   brands,
   claims,
   devices,
   faqs,
   getBrand,
   getRepair,
+  landingPages,
   prices,
   repairs,
   warranties,
 } from "../../src/lib/catalog";
+import { staticPaths } from "../../src/lib/routes";
 import { ORIGIN } from "../../src/lib/sources";
 import { urlRecordSchema } from "../../src/types/content";
 import inventoryJson from "../../src/data/url-inventory.json";
@@ -35,7 +38,9 @@ unique("device id", devices.map((d) => d.id));
 unique("device path", devices.map((d) => `${d.brandId}/${d.slug}`));
 unique("brand id", brands.map((b) => b.id));
 unique("repair slug", repairs.map((r) => r.slug));
-unique("legacy URL", [...devices, ...brands].flatMap((r) => r.legacyUrls));
+unique("legacy URL", [...devices, ...brands, ...landingPages, ...blogPosts].flatMap((r) => r.legacyUrls));
+unique("landing page path", landingPages.map((p) => p.path));
+unique("blog slug", blogPosts.map((p) => p.slug));
 
 for (const d of devices) {
   if (!getBrand(d.brandId)) fail(`device ${d.id}: unknown brand ${d.brandId}`);
@@ -55,17 +60,33 @@ for (const p of prices) {
 for (const w of warranties)
   if (w.verified && w.durationMonths === null) fail(`warranty ${w.id}: verified without duration`);
 
-// Public claims and FAQs must be traceable to the original site, never demo copy.
-for (const item of [...claims, ...faqs]) {
+// Public claims, FAQs, kept pages and blog summaries must be traceable to the original site, never demo copy.
+const traceable = [
+  ...claims.map((c) => ({ label: `claim ${c.id}`, sources: c.sources })),
+  ...faqs.map((f) => ({ label: `faq ${f.id}`, sources: f.sources })),
+  ...landingPages.map((p) => ({ label: `page ${p.path}`, sources: p.sources })),
+  ...blogPosts.map((p) => ({ label: `blog ${p.slug}`, sources: p.sources })),
+];
+for (const item of traceable) {
   const ok = item.sources.some((s) => s.verification !== "demo" && s.url.startsWith(ORIGIN));
-  if (!ok) fail(`${"title" in item ? "claim" : "faq"} ${item.id}: no non-demo source on ${ORIGIN}`);
+  if (!ok) fail(`${item.label}: no non-demo source on ${ORIGIN}`);
+}
+for (const p of landingPages) {
+  if ((staticPaths as readonly string[]).includes(p.path)) fail(`page ${p.path}: collides with a static route`);
+  if (p.kind === "area" && (!p.place || !p.focus)) fail(`page ${p.path}: area page needs place and focus`);
+  if (p.kind === "faq-topic" && !p.path.startsWith("/veelgestelde-vragen/")) fail(`page ${p.path}: FAQ topic outside /veelgestelde-vragen`);
+  if (p.kind !== "faq-topic" && p.path.split("/").length !== 2) fail(`page ${p.path}: must be a top-level path`);
 }
 
 const inventory = z.array(urlRecordSchema).safeParse(inventoryJson);
 if (!inventory.success) fail(`url-inventory.json invalid: ${inventory.error.message}`);
 else {
   unique("inventory URL", inventory.data.map((r) => r.url));
-  const staticRoutes = new Set(["/", "/reparaties", "/werkwijze", "/over-ons", "/veelgestelde-vragen", "/contact", "/afspraak"]);
+  const staticRoutes = new Set<string>([
+    ...staticPaths,
+    ...landingPages.map((p) => p.path),
+    ...blogPosts.map((p) => `/blog-post/${p.slug}`),
+  ]);
   for (const r of inventory.data) {
     if (!r.targetPath) continue;
     const parts = r.targetPath.split("/").filter(Boolean);
@@ -75,13 +96,16 @@ else {
       (parts[0] === "reparaties" && parts.length === 3 && deviceIds.has(`${parts[1]}-${parts[2]}`)) ||
       (parts[0] === "reparatie" && parts.length === 2 && !!getRepair(parts[1]));
     if (!exists) fail(`inventory ${r.url}: target ${r.targetPath} is not a route`);
-    if (r.redirect && new URL(r.url).pathname.replace(/\/$/, "") === r.targetPath) fail(`inventory ${r.url}: redirect to itself`);
+    const source = new URL(r.url).pathname.replace(/\/$/, "") || "/";
+    if (r.redirect && source === r.targetPath) fail(`inventory ${r.url}: redirect to itself`);
+    // Redirects run before routing, so a redirect from a live path would hide that page.
+    if (r.redirect && staticRoutes.has(source)) fail(`inventory ${r.url}: redirect shadows the live page ${source}`);
   }
 }
 
 const verifiedPrices = prices.filter((p) => p.verified).length;
 console.log(
-  `Checked ${devices.length} devices, ${brands.length} brands, ${repairs.length} repairs, ${prices.length} prices (${verifiedPrices} verified), ${claims.length} claims, ${faqs.length} FAQs.`,
+  `Checked ${devices.length} devices, ${brands.length} brands, ${repairs.length} repairs, ${prices.length} prices (${verifiedPrices} verified), ${claims.length} claims, ${faqs.length} FAQs, ${landingPages.length} kept pages, ${blogPosts.length} blog posts.`,
 );
 if (errors.length) {
   console.error(`\n✗ ${errors.length} data problem(s):\n- ${errors.join("\n- ")}`);

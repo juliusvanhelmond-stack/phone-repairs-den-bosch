@@ -17,6 +17,7 @@ version differs from older training data — check `node_modules/next/dist/docs/
 - `src/lib/catalog.ts` — validated data + lookups; the only way components read content.
 - `src/lib/site.ts` — contact details and env flags (`isDemo`, `allowIndexing`).
 - `src/app` routes: `/`, `/reparaties`, `/reparaties/[brand]`, `/reparaties/[brand]/[model]`, `/reparatie/[repair]`, info pages, `sitemap.ts`, `robots.ts`.
+- Pages that keep their original URL live in `src/data/landing-pages.json` (area pages, Nintendo Switch, pre-owned, FAQ topics) and render through `src/app/[page]` and `src/app/veelgestelde-vragen/[topic]` with `LandingTemplate`; blog posts in `src/data/blog.json` under `/blog-post/[slug]`. Static routes are listed in `src/lib/routes.ts`; `src/proxy.ts` 404s every unknown dynamic path.
 - Dynamic routes use `generateStaticParams` + `notFound()` and `export const instant = false` (real 404s, fully static pages).
 - `src/components/{layout,home,devices,repairs,forms,ui,motion}`; UI primitives follow shadcn/ui conventions on `radix-ui`.
 - Devices are drawn as SVG (`DeviceArt`). Atmosphere photos (hero, about, process band, CTA) are licensed Adobe Stock images in `src/assets/photos/`, listed in docs/image-credits.md; add new photos there too and never present stock photos as the shop itself.
