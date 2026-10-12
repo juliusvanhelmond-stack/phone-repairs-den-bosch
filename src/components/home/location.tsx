@@ -4,6 +4,7 @@ import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { fullAddress, mapsUrl, site, whatsappHref } from "@/lib/site";
 import { Aura } from "@/components/ui/aura";
+import { ReviewsLink } from "@/components/contact/reviews-link";
 import { Skyline } from "@/components/ui/skyline";
 
 export function MapGraphic() {
@@ -110,6 +111,7 @@ export function Location() {
                 Alle contactmogelijkheden
                 <ArrowUpRight className="size-4" aria-hidden />
               </Link>
+              <ReviewsLink className="mt-3 flex w-fit text-[0.9375rem]" />
             </div>
           </Reveal>
         </div>

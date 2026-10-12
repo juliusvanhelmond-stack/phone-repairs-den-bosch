@@ -2,6 +2,7 @@ import { Reveal } from "@/components/motion/reveal";
 import { ContentIcon } from "@/components/repairs/icon";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { claims } from "@/lib/catalog";
+import { ReviewsBanner } from "@/components/contact/reviews-link";
 
 export function Trust() {
   return (
@@ -28,6 +29,9 @@ export function Trust() {
             </li>
           ))}
         </ul>
+        <Reveal>
+          <ReviewsBanner className="mt-3" />
+        </Reveal>
       </div>
     </section>
   );

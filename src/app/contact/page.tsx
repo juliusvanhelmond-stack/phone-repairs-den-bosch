@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { ContactDetails, MapGraphic } from "@/components/home/location";
+import { ReviewsLink } from "@/components/contact/reviews-link";
 import { PageIntro } from "@/components/layout/page-intro";
 import { ContactActions } from "@/components/contact/contact-actions";
 import { pageMetadata } from "@/lib/seo";
@@ -27,6 +28,7 @@ export default function ContactPage() {
           <div className="rounded-[var(--radius-card)] bg-white p-6 shadow-[var(--shadow-soft)] ring-1 ring-line sm:p-8">
             <h2 className="text-title font-semibold text-ink">{site.legalName}</h2>
             <ContactDetails className="mt-4" />
+            <ReviewsLink className="mt-4 flex w-fit" />
           </div>
           <a href={mapsUrl} target="_blank" rel="noopener noreferrer" aria-label="Open de locatie in Google Maps" className="block min-h-80">
             <MapGraphic />

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Mail, MapPin, MessageCircle, Phone } from "lucide-react";
+import { Mail, MapPin, MessageCircle, Phone, Star } from "lucide-react";
 import { Logo } from "@/components/layout/logo";
 import { brandPath, brands, landingPages, repairPath, repairs } from "@/lib/catalog";
 import { fullAddress, mapsUrl, site, whatsappHref } from "@/lib/site";
@@ -68,6 +68,19 @@ export function SiteFooter() {
                 {fullAddress}
               </a>
             </li>
+            {site.reviews && (
+              <li>
+                <a
+                  href={site.reviews.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 transition-colors hover:text-white"
+                >
+                  <Star className="size-4 text-neutral-500" aria-hidden />
+                  Reviews op {site.reviews.platform}
+                </a>
+              </li>
+            )}
           </ul>
         </div>
         <FooterColumn

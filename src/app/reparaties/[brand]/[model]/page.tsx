@@ -10,6 +10,7 @@ import { PageIntro } from "@/components/layout/page-intro";
 import { RepairPriceList } from "@/components/repairs/repair-price-list";
 import { ContactActions } from "@/components/contact/contact-actions";
 import { WhatsAppCard } from "@/components/contact/whatsapp-card";
+import { ReviewsLink } from "@/components/contact/reviews-link";
 import { JsonLd } from "@/components/ui/json-ld";
 import {
   brandPath,
@@ -130,6 +131,7 @@ export default async function DevicePage({ params }: PageProps<"/reparaties/[bra
                   </li>
                 ))}
               </ul>
+              <ReviewsLink className="mt-6 flex w-fit text-sm" />
             </div>
             <div className="rounded-[var(--radius-card)] bg-white p-6 ring-1 ring-line">
               <h2 className="font-semibold text-ink">Garantie</h2>

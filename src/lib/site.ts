@@ -33,6 +33,11 @@ export const site = {
       "Wij zijn het snelst bereikbaar via WhatsApp! Start een gesprek met Phone Repairs via de onderstaande knop. Ook kun je dan het gesprek gemakkelijk op een ander apparaat voortzetten. Wij zijn 7 dagen per week bereikbaar van 10 tot 20 uur. Gemiddelde reactietijd: 10 minuten.",
     hours: "7 dagen per week, 10 tot 20 uur",
   } as null | { display: string; number: string; title: string; intro: string; hours: string },
+  /**
+   * Google Business profile with reviews (link from the client's current site, 2026-10-12).
+   * Only the link is used: no rating or review count is shown until it comes from a verified source.
+   */
+  reviews: { url: "https://share.google/VZaMvnmVl8WfyaCh9", platform: "Google" } as null | { url: string; platform: string },
   address: {
     street: "Ploossche Hof 13",
     /** Seen next to the street address in several search snippets of the original site. */

@@ -9,6 +9,9 @@ Discovery run 2026-10-08T15:49:15.893Z: **blocked** (Access blocked for https://
 Consequence: no page of the original site has been fetched or parsed yet. Everything on the demo comes from
 search-engine snapshots (marked `search-index`) or is clearly marked demo content. **No prices are shown.**
 
+Permission: on 2026-10-12 the client allowed JUNE Studio to copy all content of the current site verbatim
+(texts, prices including "op aanvraag", opening hours). Values copied from the live pages count as `verified-source`.
+
 To unblock: allow `www.phonerepairs.nl` in the environment network policy, or (preferred) request a WordPress
 export (WXR via Tools → Export) or read access to `/wp-json/wp/v2` from the owner. See docs/migration-plan.md.
 

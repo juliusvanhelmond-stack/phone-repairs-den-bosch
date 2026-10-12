@@ -46,6 +46,8 @@ export function IphoneExperience({
   const store = useMemo(() => createExplodeStore(), []);
   const ui = useExplodeUi(store);
   const sectionRef = useRef<HTMLElement>(null);
+  /** Set while choose() scrolls to the exploded view; holds the time the guard expires. */
+  const jumpUntilRef = useRef(0);
   const stickyRef = useRef<HTMLDivElement>(null);
   const cardRef = useRef<HTMLDivElement>(null);
   const [mode, setMode] = useState<Mode>("pending");
@@ -107,7 +109,9 @@ export function IphoneExperience({
       const p = distance > 0 ? Math.min(1, Math.max(0, -rect.top / distance)) : 1;
       store.setProgress(p);
       stickyRef.current?.style.setProperty("--p", p.toFixed(4));
-      if (p < STAGES.interactive - 0.05 && store.getUi().selected) store.setSelected(null);
+      // While choose() scrolls to the exploded view, the passing frames must not close the card.
+      if (jumpUntilRef.current && (p >= STAGES.interactive || Date.now() > jumpUntilRef.current)) jumpUntilRef.current = 0;
+      if (!jumpUntilRef.current && p < STAGES.interactive - 0.05 && store.getUi().selected) store.setSelected(null);
     };
     const onScroll = () => {
       if (!frame.id) frame.id = requestAnimationFrame(update);
@@ -141,6 +145,7 @@ export function IphoneExperience({
       if (!reduced && el && store.progress < STAGES.interactive) {
         // Jump to the settled exploded view first, then focus the part.
         const top = el.getBoundingClientRect().top + window.scrollY + el.offsetHeight - window.innerHeight;
+        jumpUntilRef.current = Date.now() + 2000;
         window.scrollTo({ top, behavior: "smooth" });
       }
       store.setSelected(key);

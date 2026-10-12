@@ -232,6 +232,14 @@ async function main() {
     assert(order.every((i) => i >= 0) && order[0] < order[1] && order[1] < order[2], `order ${links.join(" | ")}`);
   });
 
+  await check("google reviews: linked from the trust section without a made-up score", async () => {
+    await page.goto(BASE + "/");
+    const link = page.getByRole("link", { name: "Bekijk reviews op Google" });
+    assert((await link.getAttribute("href")) === "https://share.google/VZaMvnmVl8WfyaCh9", "reviews link");
+    const banner = link.locator("xpath=..");
+    assert(!/\d[,.]\d/.test(await banner.innerText()), "a rating is shown without a verified source");
+  });
+
   await check("whatsapp: prompt opens by itself once, with the original copy", async () => {
     const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
     const p = await ctx.newPage();
