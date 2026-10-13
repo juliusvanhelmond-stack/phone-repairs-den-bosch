@@ -84,7 +84,8 @@ export function WhatsAppWidget() {
   if (!wa || !href) return null;
 
   return (
-    <div className="pointer-events-none fixed right-4 bottom-4 z-40 flex flex-col items-end gap-3 sm:right-6 sm:bottom-6">
+    // On mobile the action bar holds the WhatsApp button; the prompt opens just above it.
+    <div className="pointer-events-none fixed right-4 bottom-[calc(5rem+env(safe-area-inset-bottom))] z-40 flex flex-col items-end gap-3 md:right-6 md:bottom-6">
       <div
         id={panelId}
         role="dialog"
@@ -151,7 +152,7 @@ export function WhatsAppWidget() {
           setOpen(true);
           requestAnimationFrame(() => ctaRef.current?.focus());
         }}
-        className="pointer-events-auto grid size-14 place-items-center rounded-full bg-accent text-white shadow-[var(--shadow-lift)] ring-4 ring-white/70 transition-[transform,background-color] hover:scale-105 hover:bg-accent-strong motion-reduce:transition-none motion-reduce:hover:scale-100"
+        className="pointer-events-auto hidden size-14 place-items-center rounded-full bg-accent md:grid text-white shadow-[var(--shadow-lift)] ring-4 ring-white/70 transition-[transform,background-color] hover:scale-105 hover:bg-accent-strong motion-reduce:transition-none motion-reduce:hover:scale-100"
       >
         {open ? <X className="size-6" aria-hidden /> : <MessageCircle className="size-7" aria-hidden />}
       </button>

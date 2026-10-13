@@ -35,7 +35,7 @@ verbatim reuse on 2026-10-12). The export contains account e-mail addresses and 
 | Warranty terms | resolved by /garantie/ (WordPress export) | Device pages, FAQ |
 | WhatsApp number | 073 822 0013 (client-confirmed; +31 6 424 729 54 on the old site is unexplained) | Contact actions |
 | Postal code | 5233 HA | LocalBusiness schema, contact page |
-| Exact opening hours | missing (only "7 dagen per week, ook ’s avonds") | Contact page, OpeningHoursSpecification |
+| Exact opening hours | taken from the live site's sidebar widget (2026-10-13), by appointment | Top bar, contact page, OpeningHoursSpecification |
 | Original "Over Phone Repairs" text | owner story summarised from snippets; full text not extracted | /over-ons |
 | Photos of the shop / technicians | none — generic Adobe Stock photos used (docs/image-credits.md) | Hero, about, process band, CTA |
 | Official device photography | none (vector renders used) | Device pages |
@@ -43,7 +43,7 @@ verbatim reuse on 2026-10-12). The export contains account e-mail addresses and 
 | Blog/news posts | 15 published posts with full text from the export (English: translated summary) | Blog |
 | Individual FAQ pages under /veelgestelde-vragen/ | 2 kept (zakelijk, opsturen); others redirected or unknown | FAQ migration |
 | Pre-owned stock and prices | changes often; needs a feed or owner input | /pre-owned-toestellen |
-| Terms and privacy pages | not found in the search index | Required before launch |
+| Terms and privacy pages | current PDFs copied to their original paths and linked in the footer | Footer disclaimer |
 | Privacy/cookie text for third parties | Trustindex review badge (cdn.trustindex.io) and WhatsApp links | Required before launch |
 | Reviews / rating (site mentions 9,8) | not verifiable | Not shown (no fake testimonials) |
 | Trade-in / inkoop service | mentioned, not detailed | Possible extra page |

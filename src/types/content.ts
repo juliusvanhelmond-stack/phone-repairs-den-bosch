@@ -156,6 +156,10 @@ export const priceRowSchema = z.object({
   amount: z.number().positive().nullable(),
   status: z.enum(["price", "on-request", "expected"]),
   repairId: slugSchema.nullable(),
+  /** Marked "Meest gekozen" on the original page. */
+  popular: z.boolean().optional(),
+  /** Parts of the label that link to an explanation ("premium OLED" → /iphone-premium-oled-scherm). */
+  links: z.array(z.object({ text: z.string().min(1), href: z.string() })).optional(),
 });
 export type PriceRow = z.infer<typeof priceRowSchema>;
 

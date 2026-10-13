@@ -3,7 +3,8 @@ import { ArrowRight } from "lucide-react";
 import { DeviceCard } from "@/components/devices/device-card";
 import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
-import { brandPath, brands, devices, popularDevices } from "@/lib/catalog";
+import { BrandMark } from "@/components/devices/brand-mark";
+import { brandEntries, popularDevices } from "@/lib/catalog";
 import { getI18n } from "@/lib/i18n-server";
 
 export async function PopularBrands() {
@@ -18,16 +19,14 @@ export async function PopularBrands() {
           )}
         </p>
         <ul className="grid grid-cols-2 gap-2 sm:grid-cols-4 lg:flex lg:flex-wrap lg:justify-end">
-          {brands.map((b) => (
-            <li key={b.id}>
+          {brandEntries().map((b) => (
+            <li key={b.key}>
               <Link
-                href={brandPath(b.id)}
-                className="group flex h-12 items-center justify-between gap-3 rounded-full bg-white px-5 text-[1.0625rem] font-semibold tracking-tight text-ink-soft shadow-[var(--shadow-soft)] ring-1 ring-line transition-colors hover:bg-ink hover:text-white hover:ring-ink"
+                href={b.href}
+                className="group flex h-12 items-center justify-center gap-2.5 rounded-full bg-white px-5 text-[1.0625rem] font-semibold tracking-tight text-ink-soft shadow-[var(--shadow-soft)] ring-1 ring-line transition-colors hover:bg-ink hover:text-white hover:ring-ink"
               >
-                {b.name}
-                <span className="text-xs font-normal text-muted tabular-nums group-hover:text-neutral-300">
-                  {devices.filter((d) => d.brandId === b.id).length}
-                </span>
+                <BrandMark brandId={b.brandId} className="size-[1.125rem]" />
+                {b.label}
               </Link>
             </li>
           ))}

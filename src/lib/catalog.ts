@@ -69,6 +69,39 @@ export function devicesForBrand(brandId: string, categoryId?: string): DeviceMod
   );
 }
 
+/**
+ * Apple is shown per product line (client request): iPhone, iPad and MacBook are brands
+ * to customers, "Apple" only distracts. URLs stay under /reparaties/apple.
+ */
+const APPLE_LINES: Record<string, string> = { smartphone: "iPhone", tablet: "iPad", laptop: "MacBook" };
+
+/** Brand name as shown to visitors, per device category ("iPhone" for Apple smartphones). */
+export function brandLabel(brandId: string, categoryId?: string): string {
+  if (brandId === "apple" && categoryId && APPLE_LINES[categoryId]) return APPLE_LINES[categoryId];
+  return brandById.get(brandId)?.name ?? brandId;
+}
+
+export type BrandEntry = { key: string; brandId: string; categoryId?: string; label: string; href: string };
+
+/** Brands as visitors pick them: Apple split into iPhone, iPad and MacBook. */
+export function brandEntries(categoryId?: string): BrandEntry[] {
+  return brands
+    .filter((b) => !categoryId || b.categories.includes(categoryId))
+    .flatMap((b) => {
+      if (b.id !== "apple") {
+        const anchor = categoryId && b.categories.length > 1 ? `#${categoryId}` : "";
+        return [{ key: b.id, brandId: b.id, categoryId, label: b.name, href: `${brandPath(b.id)}${anchor}` }];
+      }
+      return (categoryId ? [categoryId] : b.categories).map((c) => ({
+        key: `apple-${c}`,
+        brandId: b.id,
+        categoryId: c,
+        label: APPLE_LINES[c] ?? b.name,
+        href: `${brandPath(b.id)}#${c}`,
+      }));
+    });
+}
+
 export function brandsForCategory(categoryId: string): Brand[] {
   return brands.filter((b) => b.categories.includes(categoryId));
 }

@@ -7,7 +7,7 @@
  * name is dropped from the label ("Huawei P30 Pro Batterij vervangen" → "Batterij vervangen").
  */
 import type { MenuNode, WxrItem } from "./wxr";
-import { readTables } from "./wxr";
+import { readTableCells, type Cell } from "./wxr";
 
 export type BrandDef = { id: string; name: string; order: number };
 
@@ -146,6 +146,10 @@ export const nameKey = (brandId: string, name: string) => {
 export type PriceStatus = "price" | "on-request" | "expected";
 export type PriceRow = {
   label: string;
+  /** Marked "Meest gekozen" on the original page. */
+  popular?: boolean;
+  /** Links in the label, e.g. "premium OLED" → the explanation page (paths already mapped). */
+  links?: { text: string; href: string }[];
   /** Cell text exactly as on the original page. */
   raw: string;
   amount: number | null;
@@ -199,7 +203,11 @@ export function stripDeviceName(label: string, names: string[]): string {
 
 /* ---------------------------------------------------------------- devices */
 
-export type DeviceGroup = { heading: string | null; codes: string[]; rows: { label: string; raw: string }[] };
+export type SourceRow = { label: string; raw: string; links: Cell["links"]; popular: boolean };
+export type DeviceGroup = { heading: string | null; codes: string[]; rows: SourceRow[] };
+
+/** The green "Meest gekozen" label is an image in the original price tables. */
+const POPULAR_BADGE = /^IMG_8250\b/;
 
 export function readGroups(html: string): DeviceGroup[] {
   const groups: DeviceGroup[] = [];
@@ -208,15 +216,21 @@ export function readGroups(html: string): DeviceGroup[] {
     current = { heading, codes, rows: [] };
     groups.push(current);
   };
-  for (const table of readTables(html)) {
-    for (const cells of table) {
+  for (const table of readTableCells(html)) {
+    for (const row of table) {
+      const cells = row.map((c) => c.text);
       const [first = "", second = ""] = cells;
       const last = cells[cells.length - 1] ?? "";
       if (cells.length >= 2 && /^reparatie\b/i.test(first) && !PRICE_CELL.test(second)) {
         start(second, [...modelCodes(second), ...(first.match(/\b[A-Z]\d{4}\b/g) ?? [])]);
       } else if (cells.length >= 2 && PRICE_CELL.test(last) && first) {
         if (!current) start(null);
-        current!.rows.push({ label: first, raw: last });
+        current!.rows.push({
+          label: first,
+          raw: last,
+          links: row[0].links,
+          popular: row.some((c) => c.images.some((img) => POPULAR_BADGE.test(img))),
+        });
       } else if (cells.length >= 2 && last.trim() === "-") {
         // Not offered for this model: skipped.
       } else if (/vervangen|repareren|herstel|reinig/i.test(first)) {

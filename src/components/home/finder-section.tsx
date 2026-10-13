@@ -1,7 +1,8 @@
+import { BRAND_MARKS } from "@/components/devices/brand-marks";
 import { DeviceFinder } from "@/components/devices/device-finder";
 import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
-import { brands, categories, finderIndex, localizeCategory, localizeRepair, repairs } from "@/lib/catalog";
+import { brandLabel, brands, categories, finderIndex, localizeCategory, localizeRepair, repairs } from "@/lib/catalog";
 import { getI18n } from "@/lib/i18n-server";
 import { site } from "@/lib/site";
 import { Aura } from "@/components/ui/aura";
@@ -28,7 +29,13 @@ export async function FinderSection() {
             categories={categories
               .map((c) => localizeCategory(c, locale))
               .map(({ id, name, plural, description }) => ({ id, name, plural, description }))}
-            brands={brands.map(({ id, name, categories }) => ({ id, name, categories }))}
+            brands={brands.map(({ id, name, categories }) => ({
+              id,
+              name,
+              categories,
+              labels: Object.fromEntries(categories.map((c) => [c, brandLabel(id, c)])),
+              mark: BRAND_MARKS[id] ?? null,
+            }))}
             repairs={repairs.map((r) => localizeRepair(r, locale)).map(({ id, name, summary, icon, categories, advice }) => ({
               id,
               name,

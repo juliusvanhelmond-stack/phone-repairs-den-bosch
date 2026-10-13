@@ -3,13 +3,12 @@ import { Link } from "@/components/i18n/link";
 import { ArrowRight, Search } from "lucide-react";
 import { FinalCta } from "@/components/home/final-cta";
 import { PageIntro } from "@/components/layout/page-intro";
+import { BrandMark } from "@/components/devices/brand-mark";
 import { ContentIcon } from "@/components/repairs/icon";
 import { Button } from "@/components/ui/button";
 import {
-  brandPath,
-  brandsForCategory,
+  brandEntries,
   categories,
-  devices,
   localizeCategory,
   localizeRepair,
   repairPath,
@@ -56,16 +55,15 @@ export default async function RepairsOverviewPage() {
         <div className="container-page grid gap-4 lg:grid-cols-3">
           {categories.map((cat) => localizeCategory(cat, locale)).map((c) => (
             <div key={c.id} id={c.id} className="rounded-[var(--radius-card)] bg-white p-7 ring-1 ring-line">
-              <p className="text-sm text-muted tabular-nums">{devices.filter((d) => d.categoryId === c.id).length} {t("modellen", "models")}</p>
-              <h2 className="mt-1 text-title font-semibold text-ink">{c.plural}</h2>
+              <h2 className="text-title font-semibold text-ink">{c.plural}</h2>
               <ul className="mt-6 divide-y divide-line border-t border-line">
-                {brandsForCategory(c.id).map((b) => (
-                  <li key={b.id}>
-                    <Link
-                      href={brandPath(b.id) + (b.categories.length > 1 ? `#${c.id}` : "")}
-                      className="group flex items-center justify-between py-3.5 text-ink hover:text-accent"
-                    >
-                      {b.name}
+                {brandEntries(c.id).map((b) => (
+                  <li key={b.key}>
+                    <Link href={b.href} className="group flex items-center justify-between py-3.5 text-ink hover:text-accent">
+                      <span className="flex items-center gap-2.5">
+                        <BrandMark brandId={b.brandId} className="size-4 text-ink-soft" />
+                        {b.label}
+                      </span>
                       <ArrowRight className="size-4 text-muted transition-transform group-hover:translate-x-0.5 group-hover:text-accent" aria-hidden />
                     </Link>
                   </li>

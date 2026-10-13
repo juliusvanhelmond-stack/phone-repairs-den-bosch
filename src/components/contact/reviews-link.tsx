@@ -1,13 +1,12 @@
 import { ArrowUpRight, Star } from "lucide-react";
 import { KiyohBadge, KiyohLink } from "@/components/contact/kiyoh";
-import { TrustindexBadge } from "@/components/contact/trustindex-badge";
 import { getI18n } from "@/lib/i18n-server";
 import { site } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
 /**
- * Points visitors to the reviews on Google and Kiyoh. The Google score comes from the
- * Trustindex badge, the Kiyoh score from the Kiyoh feed; the plain links stay as a fallback.
+ * Points visitors to the reviews on Google and Kiyoh. The Kiyoh score comes from the Kiyoh feed;
+ * the Google score is shown by the Trustindex badge in the top bar, this block links to the reviews.
  */
 export async function ReviewsBanner({ className }: { className?: string }) {
   const { t } = await getI18n();
@@ -36,12 +35,7 @@ export async function ReviewsBanner({ className }: { className?: string }) {
       </div>
       <div className="flex shrink-0 flex-col items-stretch gap-3 sm:w-64">
         <KiyohBadge />
-        {reviews.trustindexId && (
-          <TrustindexBadge
-            widgetId={reviews.trustindexId}
-            className="flex min-h-[3.25rem] justify-center overflow-hidden rounded-2xl bg-white px-2 [&_.ti-widget]:!m-0"
-          />
-        )}
+        {/* The Google (Trustindex) badge sits in the top bar on every page; Trustindex renders one per page. */}
         <a
           href={reviews.url}
           target="_blank"

@@ -70,6 +70,30 @@ type Candidate = {
   legacyUrls: Set<string>;
 };
 
+/**
+ * Where a link inside a price row should point on the new site: kept pages keep their
+ * path, mapped pages go to their new path, external links stay; anything else is dropped.
+ */
+const knownTargets = (() => {
+  const landing: { path: string }[] = JSON.parse(readFileSync(join(ROOT, "src/data/landing-pages.json"), "utf8"));
+  const inventory: { url: string; targetPath: string | null }[] = JSON.parse(readFileSync(join(ROOT, "src/data/url-inventory.json"), "utf8"));
+  const map = new Map<string, string>();
+  for (const l of landing) map.set(l.path, l.path);
+  for (const r of inventory) if (r.targetPath) map.set(new URL(r.url).pathname.replace(/\/$/, ""), r.targetPath);
+  return map;
+})();
+/** Typos and moved pages linked from the original price tables. */
+const LINK_ALIASES: Record<string, string> = {
+  "/phone-batterij-vervanging": "/iphone-batterij-vervanging",
+  "/moederbord-reparatie": "/moederbord-reparatie-den-bosch",
+};
+function resolveLink(href: string): string | null {
+  if (/^https?:\/\//.test(href) && !/phonerepairs\.nl/i.test(href)) return href;
+  const path = href.replace(/^https?:\/\/(www\.)?phonerepairs\.nl/i, "").split(/[?#]/)[0].replace(/\/$/, "") || "/";
+  const aliased = LINK_ALIASES[path] ?? path;
+  return knownTargets.get(aliased) ?? null;
+}
+
 const candidates = new Map<string, Candidate>();
 const seriesPages = new Set<string>();
 let fallbackOrder = 10_000;
@@ -127,7 +151,17 @@ for (const page of pages) {
         continue;
       }
       const label = stripDeviceName(r.label, names);
-      rows.push({ label, raw: r.raw, ...price, repairId: repairForLabel(label) });
+      const links = r.links
+        .map((l) => ({ text: l.text, href: resolveLink(l.href) }))
+        .filter((l): l is { text: string; href: string } => !!l.href && label.includes(l.text));
+      rows.push({
+        label,
+        raw: r.raw,
+        ...price,
+        repairId: repairForLabel(label),
+        ...(r.popular ? { popular: true } : {}),
+        ...(links.length ? { links } : {}),
+      });
     }
     const candidate: Candidate = {
       key,

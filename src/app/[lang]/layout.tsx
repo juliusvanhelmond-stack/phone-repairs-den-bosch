@@ -4,6 +4,8 @@ import { GeistMono } from "geist/font/mono";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
 import { KiyohFloat } from "@/components/contact/kiyoh";
+import { MobileActionBar } from "@/components/contact/mobile-action-bar";
+import { TopBar } from "@/components/layout/top-bar";
 import { WhatsAppWidget } from "@/components/contact/whatsapp-widget";
 import { LocaleProvider } from "@/components/i18n/locale-provider";
 import { JsonLd } from "@/components/ui/json-ld";
@@ -58,11 +60,13 @@ export default async function RootLayout({ children }: LayoutProps<"/[lang]">) {
           >
             {t("Naar de inhoud", "Skip to content")}
           </a>
+          <TopBar />
           <SiteHeader />
           <main id="inhoud" className="flex-1">
             {children}
           </main>
           <SiteFooter />
+          <MobileActionBar />
           <KiyohFloat />
           <WhatsAppWidget />
           <JsonLd data={localBusinessJsonLd()} />

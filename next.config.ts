@@ -23,6 +23,8 @@ const allowIndexing = process.env.NEXT_PUBLIC_ALLOW_INDEXING === "true";
 
 const nextConfig: NextConfig = {
   cacheComponents: true,
+  // Copyright year in the footer, fixed at build time (pages are prerendered).
+  env: { BUILD_YEAR: String(new Date().getFullYear()) },
   partialPrefetching: true,
   poweredByHeader: false,
   turbopack: {

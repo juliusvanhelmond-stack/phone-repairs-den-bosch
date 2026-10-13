@@ -153,6 +153,36 @@ async function main() {
     assert(res?.headers()["x-robots-tag"]?.includes("noindex"), "missing X-Robots-Tag");
   });
 
+  await check("layout: opening hours, review badges, disclaimer, no model counts", async () => {
+    await page.goto(BASE + "/");
+    await page.getByText(/alleen op afspraak/).first().waitFor();
+    const footer = page.locator("footer");
+    for (const name of ["algemene voorwaarden", "privacy policy"]) {
+      const href = await footer.getByRole("link", { name }).getAttribute("href");
+      const res = await page.request.get(BASE + href);
+      assert(res.ok() && res.headers()["content-type"]?.includes("pdf"), `${name}: ${res.status()}`);
+    }
+    assert((await footer.getByRole("link", { name: "Toetsenbord vervangen" }).count()) === 0, "keyboard repair still in footer");
+    for (const label of ["iPhone", "iPad", "MacBook"]) await footer.getByRole("link", { name: label, exact: true }).waitFor();
+    assert(!/\b\d+\s+modellen\b/.test((await page.locator("main").textContent()) ?? ""), "model counts shown");
+    await page.goto(BASE + "/contact");
+    await page.locator("#openingstijden").getByText("Zondag").waitFor();
+  });
+
+  await check("mobile: Menu label and pinned WhatsApp/call bar", async () => {
+    const ctx = await browser.newContext({ viewport: { width: 375, height: 800 } });
+    await quietPrompt(ctx);
+    const m = await ctx.newPage();
+    await m.goto(BASE + "/");
+    await m.getByRole("button", { name: /Menu openen/ }).getByText("Menu").waitFor();
+    const bar = m.getByRole("navigation", { name: "Snel contact" });
+    await m.mouse.wheel(0, 2500);
+    await m.waitForTimeout(300);
+    assert(await bar.getByRole("link", { name: /WhatsApp/ }).isVisible(), "WhatsApp button not visible after scrolling");
+    assert(await bar.getByRole("link", { name: /Bellen/ }).isVisible(), "call button not visible after scrolling");
+    await ctx.close();
+  });
+
   await check("device page: verbatim price list from the current site", async () => {
     await page.goto(BASE + "/reparaties/apple/iphone-15-pro");
     const row = page.getByRole("listitem").filter({ hasText: "Scherm vervangen premium OLED" });
@@ -160,6 +190,11 @@ async function main() {
     assert(/€\s?210\b/.test((await row.textContent()) ?? ""), `row: ${await row.textContent()}`);
     await page.getByRole("heading", { name: "Batterij vervangen" }).waitFor();
     await page.getByRole("heading", { name: "Accessoires" }).waitFor();
+    // "Meest gekozen" and the quality links, as in the original table (iPhone 14 Pro screenshot)
+    await page.goto(BASE + "/reparaties/apple/iphone-14-pro");
+    const pulled = page.getByRole("listitem").filter({ hasText: /^Scherm vervangen origineel pulled/ });
+    await pulled.getByText("Meest gekozen").waitFor();
+    assert((await pulled.getByRole("link", { name: "origineel pulled" }).getAttribute("href")) === "/iphone-onderdelen-kalibreren", "quality link");
   });
 
   await check("canonical + JSON-LD on device page", async () => {
@@ -206,8 +241,8 @@ async function main() {
     await page.goto(BASE + "/#toestel-zoeken");
     const finder = page.locator("#toestel-zoeken");
     await finder.getByRole("button", { name: /Smartphones/ }).click();
-    await finder.getByRole("button", { name: /^Apple/ }).click();
-    await finder.getByPlaceholder("Zoek een Apple model").fill("15 pro max");
+    await finder.getByRole("button", { name: /^iPhone/ }).click();
+    await finder.getByPlaceholder("Zoek een iPhone model").fill("15 pro max");
     const option = finder.getByRole("option", { name: /iPhone 15 Pro Max/ });
     await option.waitFor();
     assert((await finder.getByRole("option").count()) === 1, "search did not narrow to one model");
@@ -222,10 +257,16 @@ async function main() {
 
   await check("device finder: back navigation and breadcrumbs", async () => {
     const finder = page.locator("#toestel-zoeken");
-    await finder.getByRole("button", { name: "Terug" }).click();
+    await finder.getByRole("button", { name: "Terug", exact: true }).click();
     await finder.getByRole("heading", { name: /Wat is er mis met je iPhone 15 Pro Max/ }).waitFor();
     await finder.getByRole("navigation", { name: "Jouw keuze" }).getByRole("button", { name: "Smartphones" }).click();
     await finder.getByRole("heading", { name: /Welk merk smartphone/ }).waitFor();
+  });
+
+  await check("device finder: completed steps are clickable", async () => {
+    const finder = page.locator("#toestel-zoeken");
+    await finder.getByRole("button", { name: /Terug naar stap 1/ }).click();
+    await finder.getByRole("heading", { name: "Wat wil je laten repareren?" }).waitFor();
   });
 
   await check("device finder: deep link restores selection", async () => {
@@ -308,7 +349,7 @@ async function main() {
     assert(order.every((i) => i >= 0) && order[0] < order[1] && order[1] < order[2], `order ${links.join(" | ")}`);
   });
 
-  await check("google reviews: Trustindex badge and fallback link in the trust section", async () => {
+  await check("google reviews: Trustindex badge in the top bar and link in the trust section", async () => {
     await page.goto(BASE + "/");
     const link = page.getByRole("link", { name: "Bekijk alle reviews op Google" });
     assert((await link.getAttribute("href")) === "https://share.google/VZaMvnmVl8WfyaCh9", "reviews link");

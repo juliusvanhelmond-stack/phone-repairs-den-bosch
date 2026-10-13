@@ -39,7 +39,7 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
           : "bg-white/0",
       )}
     >
-      <div className="container-page relative flex h-16 items-center justify-between gap-6 lg:h-[4.5rem]">
+      <div className="container-page flex h-16 items-center justify-between gap-6 lg:h-[4.5rem]">
         <Logo />
 
         <NavigationMenu.Root className="static hidden lg:block" aria-label={t("Hoofdmenu", "Main menu")}>
@@ -57,7 +57,7 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
                   aria-hidden
                 />
               </NavigationMenu.Trigger>
-              <NavigationMenu.Content forceMount className="fixed inset-x-0 top-[4.5rem] data-[state=closed]:hidden px-4 pt-2 sm:px-6 lg:px-8 data-[motion=from-start]:animate-fade-up data-[motion=from-end]:animate-fade-up">
+              <NavigationMenu.Content forceMount className="absolute inset-x-0 top-full data-[state=closed]:hidden px-4 pt-2 sm:px-6 lg:px-8 data-[motion=from-start]:animate-fade-up data-[motion=from-end]:animate-fade-up">
                 <MegaMenu nav={nav} />
               </NavigationMenu.Content>
             </NavigationMenu.Item>
@@ -185,8 +185,9 @@ function MobileNav({ nav, phone, whatsapp, email }: Props) {
   return (
     <Dialog.Root open={open} onOpenChange={setOpen}>
       <Dialog.Trigger asChild>
-        <Button variant="secondary" size="icon" className="lg:hidden" aria-label={t("Menu openen", "Open menu")}>
-          <Menu className="size-5" />
+        <Button variant="secondary" size="sm" className="h-10 gap-2 px-4 lg:hidden" aria-label={t("Menu openen", "Open menu")}>
+          <Menu className="size-5" aria-hidden />
+          <span aria-hidden>Menu</span>
         </Button>
       </Dialog.Trigger>
       <Dialog.Portal>

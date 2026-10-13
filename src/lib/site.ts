@@ -58,6 +58,33 @@ export const site = {
     country: "NL",
   },
   openingNote: "7 dagen per week geopend, ook in de avond. Alleen op afspraak.",
+  /**
+   * Opening hours, by appointment only. Copied from the "Openingstijden" widget on the live
+   * homepage (read 2026-10-13); the client allowed verbatim reuse of opening hours (2026-10-12).
+   * `day` follows JavaScript (0 = Sunday).
+   */
+  openingHours: {
+    byAppointment: true,
+    source: "https://www.phonerepairs.nl/",
+    capturedAt: "2026-10-13",
+    days: [
+      { day: 1, nl: "Maandag", en: "Monday", opens: "10:00", closes: "20:00" },
+      { day: 2, nl: "Dinsdag", en: "Tuesday", opens: "09:00", closes: "20:00" },
+      { day: 3, nl: "Woensdag", en: "Wednesday", opens: "09:00", closes: "20:00" },
+      { day: 4, nl: "Donderdag", en: "Thursday", opens: "09:00", closes: "20:00" },
+      { day: 5, nl: "Vrijdag", en: "Friday", opens: "09:00", closes: "17:00" },
+      { day: 6, nl: "Zaterdag", en: "Saturday", opens: "10:00", closes: "17:00" },
+      { day: 0, nl: "Zondag", en: "Sunday", opens: "11:00", closes: "17:00" },
+    ],
+  },
+  /**
+   * Terms and privacy statement: the client's current PDFs, kept on their original paths
+   * in /public (linked from the footer of the current site, 2026-10-13).
+   */
+  legal: {
+    terms: "/wp-content/uploads/2026/10/Algemene-voorwaarden-iPhone-Service-Den-Bosch-_-Phone-Repairs.pdf",
+    privacy: "/wp-content/uploads/2026/09/Privacyverklaring-september-2026.pdf",
+  },
   parkingNote: "Gratis parkeren voor de deur",
   sources: [SOURCE_URLS.home, SOURCE_URLS.denBosch, SOURCE_URLS.appointment],
 } as const;

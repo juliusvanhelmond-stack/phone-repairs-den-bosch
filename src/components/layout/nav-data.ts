@@ -1,6 +1,5 @@
 import {
-  brandPath,
-  brands,
+  brandEntries,
   categories,
   devicePath,
   devicesForBrand,
@@ -26,15 +25,13 @@ export function getNavData(locale: Locale) {
     categories: categories.map((c) => localizeCategory(c, locale)).map((c) => ({
       id: c.id,
       name: c.plural,
-      brands: brands
-        .filter((b) => b.categories.includes(c.id))
-        .map((b) => ({
-          name: b.name,
-          href: brandPath(b.id) + (b.categories.length > 1 ? `#${c.id}` : ""),
-          models: devicesForBrand(b.id, c.id)
+      brands: brandEntries(c.id).map((b) => ({
+          name: b.label,
+          href: b.href,
+          models: devicesForBrand(b.brandId, c.id)
             .slice(0, 4)
             .map((d) => ({ name: d.name, href: devicePath(d) })),
-        })),
+      })),
     })),
     repairs: repairs
       .filter((r) => r.popular)

@@ -98,7 +98,12 @@ function PriceRows({ rows, t, locale }: { rows: PriceRow[]; t: Translate; locale
       {rows.map((row, i) => (
         <li key={`${row.label}-${i}`} className="flex items-baseline justify-between gap-6 px-5 py-3 text-[0.9375rem] sm:px-6">
           <span className="text-ink-soft" lang="nl">
-            {row.label}
+            <RowLabel row={row} />
+            {row.popular && (
+              <span className="ml-2 inline-flex translate-y-[-1px] items-center rounded-md bg-accent px-2 py-0.5 align-middle text-xs font-semibold text-white">
+                {t("Meest gekozen", "Most chosen")}
+              </span>
+            )}
           </span>
           <span className={row.amount !== null ? "shrink-0 font-semibold text-ink tabular-nums" : "shrink-0 text-sm text-muted"}>
             {priceText(row, t, locale)}
@@ -107,4 +112,32 @@ function PriceRows({ rows, t, locale }: { rows: PriceRow[]; t: Translate; locale
       ))}
     </ul>
   );
+}
+
+/** The label with its original links (part qualities to their explanation page). */
+function RowLabel({ row }: { row: PriceRow }) {
+  if (!row.links?.length) return <>{row.label}</>;
+  const parts: React.ReactNode[] = [];
+  let rest = row.label;
+  row.links.forEach((link, i) => {
+    const at = rest.indexOf(link.text);
+    if (at < 0) return;
+    parts.push(rest.slice(0, at));
+    const external = /^https?:\/\//.test(link.href);
+    const className = "text-ink underline decoration-accent decoration-2 underline-offset-4 hover:text-accent-strong";
+    parts.push(
+      external ? (
+        <a key={i} href={link.href} target="_blank" rel="noopener noreferrer" className={className}>
+          {link.text}
+        </a>
+      ) : (
+        <Link key={i} href={link.href} className={className}>
+          {link.text}
+        </Link>
+      ),
+    );
+    rest = rest.slice(at + link.text.length);
+  });
+  parts.push(rest);
+  return <>{parts}</>;
 }

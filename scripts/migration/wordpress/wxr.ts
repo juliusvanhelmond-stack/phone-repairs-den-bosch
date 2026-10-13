@@ -131,3 +131,40 @@ export function readTables(html: string): string[][][] {
     ])
     .get() as string[][][];
 }
+
+export type Cell = {
+  text: string;
+  /** Links inside the cell, e.g. "premium OLED" → /iphone-premium-oled-scherm/. */
+  links: { text: string; href: string }[];
+  images: string[];
+};
+
+/** Like readTables, but keeps the links and image file names of every cell. */
+export function readTableCells(html: string): Cell[][][] {
+  const $ = cheerio.load(html);
+  return $("table")
+    .map((_, table) => [
+      $(table)
+        .find("tr")
+        .map((__, tr) => [
+          $(tr)
+            .find("td, th")
+            .map((___, td) => ({
+              text: htmlText($(td).html() ?? ""),
+              links: $(td)
+                .find("a[href]")
+                .map((____, a) => ({ text: htmlText($(a).html() ?? ""), href: $(a).attr("href") ?? "" }))
+                .get()
+                .filter((l: { text: string; href: string }) => l.text && l.href),
+              images: $(td)
+                .find("img[src]")
+                .map((____, img) => ($(img).attr("src") ?? "").split("/").pop() ?? "")
+                .get(),
+            }))
+            .get(),
+        ])
+        .get()
+        .filter((cells: Cell[]) => cells.some((c) => c.text)),
+    ])
+    .get() as Cell[][][];
+}

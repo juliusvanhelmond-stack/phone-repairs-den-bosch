@@ -21,6 +21,7 @@ import {
   localizeFaq,
   localizeRepair,
   generalWarranty,
+  brandLabel,
   getBrand,
   getDevice,
   getPriceList,
@@ -114,10 +115,13 @@ export default async function DevicePage({ params }: PageProps<"/[lang]/reparati
       <PageIntro
         crumbs={[
           { name: t("Reparaties", "Repairs"), href: "/reparaties" },
-          { name: brand.name, href: brandPath(brand.id) },
+          {
+            name: brandLabel(brand.id, device.categoryId),
+            href: brand.id === "apple" ? `${brandPath(brand.id)}#${device.categoryId}` : brandPath(brand.id),
+          },
           { name: device.name, href: devicePath(device) },
         ]}
-        eyebrow={`${brand.name} · ${device.series}`}
+        eyebrow={brand.id === "apple" ? device.series : `${brand.name} · ${device.series}`}
         title={t(`${fullName} reparatie`, `${fullName} repair`)}
         intro={t(
           `Is je ${device.name} kapot? Bij Phone Repairs in Den Bosch wordt hij op afspraak gerepareerd. De meeste reparaties zijn binnen ongeveer 30 minuten klaar, terwijl je meekijkt.`,

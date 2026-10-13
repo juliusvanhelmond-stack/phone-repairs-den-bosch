@@ -28,7 +28,26 @@ import type { FinderDevice } from "@/lib/catalog";
 import { cn, formatEuro, normalizeSearch } from "@/lib/utils";
 
 export type FinderCategory = { id: string; name: string; plural: string; description: string };
-export type FinderBrand = { id: string; name: string; categories: string[] };
+export type FinderBrand = {
+  id: string;
+  name: string;
+  categories: string[];
+  /** Name per category: Apple shows as iPhone, iPad and MacBook. */
+  labels: Record<string, string>;
+  /** Logo path (24×24) or null for brands with only a wordmark. */
+  mark: string | null;
+};
+
+const brandName = (b: FinderBrand, categoryId?: string) => (categoryId && b.labels[categoryId]) || b.name;
+
+function Mark({ brand, className }: { brand: FinderBrand; className?: string }) {
+  if (!brand.mark) return null;
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden className={cn("shrink-0 fill-current", className)}>
+      <path d={brand.mark} />
+    </svg>
+  );
+}
 export type FinderRepair = {
   id: string;
   name: string;
@@ -145,6 +164,14 @@ export function DeviceFinder({
     else update({});
   };
 
+  /** Back to an earlier step, keeping the choices made before it. */
+  const goToStep = (target: Step) => {
+    if (target === "category") update({});
+    else if (target === "brand") update({ category: sel.category });
+    else if (target === "model") update({ category: sel.category, brand: sel.brand });
+    else if (target === "repair") update({ ...sel, repair: undefined });
+  };
+
   const chooseDevice = (id: string) => {
     const d = deviceById.get(id);
     if (d) update({ category: d.categoryId, brand: d.brandId, device: d.id });
@@ -152,7 +179,7 @@ export function DeviceFinder({
 
   const crumbs = [
     category && { label: category.plural, onClick: () => update({ category: sel.category }) },
-    brand && { label: brand.name, onClick: () => update({ category: sel.category, brand: sel.brand }) },
+    brand && { label: brandName(brand, sel.category), onClick: () => update({ category: sel.category, brand: sel.brand }) },
     device && { label: device.name, onClick: () => update({ ...sel, repair: undefined }) },
     repair && { label: repair.name, onClick: undefined },
   ].filter(Boolean) as { label: string; onClick?: () => void }[];
@@ -163,7 +190,10 @@ export function DeviceFinder({
       `Welk merk ${category?.name.toLowerCase() ?? "toestel"} heb je?`,
       `Which ${category?.name.toLowerCase() ?? "device"} brand do you have?`,
     ),
-    model: t(`Welk ${brand?.name ?? ""} model heb je?`, `Which ${brand?.name ?? ""} model do you have?`),
+    model: t(
+      `Welk ${brand ? brandName(brand, sel.category) : ""} model heb je?`,
+      `Which ${brand ? brandName(brand, sel.category) : ""} model do you have?`,
+    ),
     repair: t(`Wat is er mis met je ${device?.name ?? "toestel"}?`, `What's wrong with your ${device?.name ?? "device"}?`),
     result: t(
       `${repair?.name ?? "Reparatie"} voor je ${device?.name ?? "toestel"}`,
@@ -176,28 +206,46 @@ export function DeviceFinder({
       {/* Progress */}
       <div className="flex items-center justify-between gap-4 border-b border-white/80 bg-white/50 px-5 py-4 sm:px-8">
         <ol className="hidden items-center gap-2 md:flex" aria-label={t("Stappen", "Steps")}>
-          {STEPS.map((s, i) => (
-            <li key={s.id} className="flex items-center gap-2">
-              <span
-                className={cn(
-                  "flex items-center gap-2 rounded-full py-1 pr-3 pl-1 text-sm transition-colors",
-                  i === stepIndex ? "bg-ink text-white" : i < stepIndex ? "text-ink" : "text-muted",
-                )}
-                aria-current={i === stepIndex ? "step" : undefined}
-              >
+          {STEPS.map((s, i) => {
+            const done = i < stepIndex;
+            const content = (
+              <>
                 <span
                   className={cn(
                     "grid size-6 place-items-center rounded-full text-xs font-medium",
-                    i === stepIndex ? "bg-white/15" : i < stepIndex ? "bg-accent-soft text-accent" : "bg-mist",
+                    i === stepIndex ? "bg-white/15" : done ? "bg-accent-soft text-accent" : "bg-mist",
                   )}
                 >
-                  {i < stepIndex ? <Check className="size-3.5" aria-hidden /> : i + 1}
+                  {done ? <Check className="size-3.5" aria-hidden /> : i + 1}
                 </span>
                 {t(s.label, s.labelEn)}
-              </span>
+              </>
+            );
+            const base = "flex items-center gap-2 rounded-full py-1 pr-3 pl-1 text-sm transition-colors";
+            return (
+            <li key={s.id} className="flex items-center gap-2">
+              {/* Completed steps are buttons: click to go back to that step (client request). */}
+              {done ? (
+                <button
+                  type="button"
+                  onClick={() => goToStep(s.id)}
+                  className={cn(base, "text-ink hover:bg-accent-soft")}
+                  aria-label={t(`Terug naar stap ${i + 1}: ${s.label}`, `Back to step ${i + 1}: ${s.labelEn}`)}
+                >
+                  {content}
+                </button>
+              ) : (
+                <span
+                  className={cn(base, i === stepIndex ? "bg-ink text-white" : "text-muted")}
+                  aria-current={i === stepIndex ? "step" : undefined}
+                >
+                  {content}
+                </span>
+              )}
               {i < STEPS.length - 1 && <span className="h-px w-4 bg-line" aria-hidden />}
             </li>
-          ))}
+            );
+          })}
         </ol>
         <p className="text-sm text-muted md:hidden">
           {t("Stap", "Step")} {stepIndex + 1} {t("van", "of")} {STEPS.length} ·{" "}
@@ -258,7 +306,6 @@ export function DeviceFinder({
               <div className="space-y-8">
                 <div className="grid gap-3 sm:grid-cols-3">
                   {categories.map((c) => {
-                    const count = devices.filter((d) => d.categoryId === c.id).length;
                     return (
                       <ChoiceCard
                         key={c.id}
@@ -278,9 +325,7 @@ export function DeviceFinder({
                             <span className="block font-medium text-ink">{c.plural}</span>
                             <span className="mt-0.5 block text-sm text-muted">{c.description}</span>
                           </span>
-                          <span className="hidden shrink-0 text-xs text-muted tabular-nums sm:inline">
-                            {count} {t("modellen", "models")}
-                          </span>
+
                         </div>
                       </ChoiceCard>
                     );
@@ -305,12 +350,13 @@ export function DeviceFinder({
                 {brands
                   .filter((b) => b.categories.includes(category.id))
                   .map((b) => {
-                    const count = devices.filter((d) => d.brandId === b.id && d.categoryId === category.id).length;
                     return (
                       <ChoiceCard key={b.id} onClick={() => update({ category: category.id, brand: b.id })}>
-                        <span className="block text-lg font-semibold tracking-tight text-ink">{b.name}</span>
-                        <span className="mt-6 flex items-center justify-between text-sm text-muted">
-                          {count} {t("modellen", "models")}
+                        <span className="flex items-center gap-2.5 text-lg font-semibold tracking-tight text-ink">
+                          <Mark brand={b} className="size-5" />
+                          {brandName(b, category.id)}
+                        </span>
+                        <span className="mt-6 flex items-center justify-end text-sm text-muted">
                           <ArrowRight
                             className="size-4 -translate-x-1 opacity-0 transition-all group-hover:translate-x-0 group-hover:opacity-100"
                             aria-hidden
@@ -327,7 +373,10 @@ export function DeviceFinder({
                 devices={devices.filter((d) => d.brandId === brand.id && d.categoryId === category.id)}
                 brands={brands}
                 onSelect={chooseDevice}
-                placeholder={t(`Zoek een ${brand.name} model`, `Search for a ${brand.name} model`)}
+                placeholder={t(
+                  `Zoek een ${brandName(brand, category.id)} model`,
+                  `Search for a ${brandName(brand, category.id)} model`,
+                )}
                 contact={contact}
                 autoFocus
               />
@@ -354,7 +403,10 @@ export function DeviceFinder({
                 device={device}
                 repair={repair}
                 contact={contact}
-                brandName={brands.find((b) => b.id === device.brandId)?.name}
+                brandName={(() => {
+                  const b = brands.find((x) => x.id === device.brandId);
+                  return b ? brandName(b, device.categoryId) : undefined;
+                })()}
               />
             )}
           </motion.div>
@@ -412,17 +464,25 @@ function ModelSearch({
 }) {
   const { t } = useI18n();
   const [query, setQuery] = useState("");
-  const brandName = useMemo(() => new Map(brands.map((b) => [b.id, b.name])), [brands]);
+  const brandById = useMemo(() => new Map(brands.map((b) => [b.id, b])), [brands]);
+  const labelOf = useCallback(
+    (d: FinderDevice) => {
+      const b = brandById.get(d.brandId);
+      return b ? brandName(b, d.categoryId) : "";
+    },
+    [brandById],
+  );
   const showList = !dropdown || query.trim().length > 0;
 
   const groups = useMemo(() => {
     const map = new Map<string, FinderDevice[]>();
     for (const d of devices) {
-      const key = dropdown ? `${brandName.get(d.brandId)} ${d.series === brandName.get(d.brandId) ? "" : d.series}`.trim() : d.series;
+      const label = labelOf(d);
+      const key = !dropdown ? d.series : d.series.startsWith(label) ? d.series : `${label} ${d.series}`.trim();
       map.set(key, [...(map.get(key) ?? []), d]);
     }
     return [...map.entries()];
-  }, [devices, dropdown, brandName]);
+  }, [devices, dropdown, labelOf]);
 
   return (
     <Command
@@ -502,7 +562,7 @@ function ModelSearch({
                 <Command.Item
                   key={d.id}
                   value={d.id}
-                  keywords={[d.name, ...d.aliases, d.series, brandName.get(d.brandId) ?? ""]}
+                  keywords={[d.name, ...d.aliases, d.series, labelOf(d), brandById.get(d.brandId)?.name ?? ""]}
                   onSelect={() => onSelect(d.id)}
                   className="group flex cursor-pointer items-center gap-4 rounded-xl px-3 py-2.5 data-[selected=true]:bg-mist"
                 >
@@ -511,7 +571,7 @@ function ModelSearch({
                   </span>
                   <span className="flex-1">
                     <span className="block text-[0.9375rem] text-ink">
-                      {dropdown ? fullName(d, brandName.get(d.brandId)) : d.name}
+                      {dropdown ? fullName(d, labelOf(d)) : d.name}
                     </span>
                     {d.releaseYear && <span className="block text-xs text-muted">{d.releaseYear}</span>}
                   </span>

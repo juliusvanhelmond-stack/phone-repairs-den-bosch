@@ -1,7 +1,7 @@
 import { Link } from "@/components/i18n/link";
 import { Mail, MapPin, MessageCircle, Phone, Star } from "lucide-react";
 import { Logo } from "@/components/layout/logo";
-import { brandPath, brands, landingPages, localizeLanding, localizeRepair, repairPath, repairs } from "@/lib/catalog";
+import { brandEntries, landingPages, localizeLanding, localizeRepair, repairPath, repairs } from "@/lib/catalog";
 import { getI18n } from "@/lib/i18n-server";
 import { fullAddress, mapsUrl, site, whatsappHref, whatsappMessage } from "@/lib/site";
 
@@ -114,16 +114,37 @@ export async function SiteFooter() {
         </div>
         <FooterColumn
           title={t("Reparaties", "Repairs")}
-          links={repairs.map((r) => ({ label: localizeRepair(r, locale).name, href: repairPath(r.slug) }))}
+          links={repairs
+            // Keyboard replacement only applies to MacBooks and is rare (client request): not in the footer.
+            .filter((r) => r.id !== "toetsenbord-vervangen")
+            .map((r) => ({ label: localizeRepair(r, locale).name, href: repairPath(r.slug) }))}
         />
-        <FooterColumn title={t("Merken", "Brands")} links={brands.map((b) => ({ label: b.name, href: brandPath(b.id) }))} />
+        <FooterColumn title={t("Merken", "Brands")} links={brandEntries().map((b) => ({ label: b.label, href: b.href }))} />
         <FooterColumn title={t("Meer", "More")} links={moreLinks} />
         <FooterColumn title="Phone Repairs" links={companyLinks} />
       </div>
       <div className="border-t border-white/10">
-        <div className="container-page flex flex-col gap-2 py-6 text-sm text-neutral-400 sm:flex-row sm:items-center sm:justify-between">
-          <p>© {site.legalName}</p>
-          <p>{t("Ontwerpvoorstel door JUNE Studio · niet geïndexeerd", "Design proposal by JUNE Studio · not indexed")}</p>
+        <div className="container-page space-y-3 py-6 text-sm leading-relaxed text-neutral-400 md:pb-24">
+          {/* Disclaimer as in the footer of the current site (client request). */}
+          <p>
+            © {process.env.BUILD_YEAR} {site.name} | All rights reserved | All product names, logo&apos;s, photo&apos;s, and brands,
+            etc. are property of their respective owners. All company names, logo&apos;s, photo&apos;s, and brands, etc. products and
+            names used in this website are for identification purposes only.
+          </p>
+          <p>
+            {t("Gebruik van onze website en/of onze (digitale) diensten betekent dat je onze ", "By using our website and/or our (digital) services you accept our ")}
+            <a href={site.legal.terms} target="_blank" rel="noopener noreferrer" className="text-white underline underline-offset-4 hover:text-accent-light">
+              {t("algemene voorwaarden", "terms and conditions")}
+            </a>
+            {t(" en ", " and ")}
+            <a href={site.legal.privacy} target="_blank" rel="noopener noreferrer" className="text-white underline underline-offset-4 hover:text-accent-light">
+              {t("privacy policy", "privacy policy")}
+            </a>
+            {t(" accepteert.", ".")}
+          </p>
+          <p>
+            {t("Ontwerpvoorstel door JUNE Studio · niet geïndexeerd", "Design proposal by JUNE Studio · not indexed")}
+          </p>
         </div>
       </div>
     </footer>

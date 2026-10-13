@@ -3,6 +3,7 @@ import { ArrowUpRight, CalendarCheck, Car, Clock, Mail, MapPin, MessageCircle, P
 import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { getI18n } from "@/lib/i18n-server";
+import { OpeningHoursList } from "@/components/contact/opening-hours";
 import { fullAddress, mapsUrl, site, whatsappCopy, whatsappHref, whatsappMessage } from "@/lib/site";
 import { Aura } from "@/components/ui/aura";
 import { ReviewsLink } from "@/components/contact/reviews-link";
@@ -53,12 +54,20 @@ export async function ContactDetails({ className }: { className?: string }) {
     { icon: Phone, label: t("Telefoon", "Phone"), value: site.phone.display, href: site.phone.href },
     { icon: MapPin, label: t("Adres", "Address"), value: fullAddress, href: mapsUrl, external: true },
     { icon: Mail, label: "E-mail", value: site.email, href: `mailto:${site.email}` },
-    { icon: Clock, label: t("Openingstijden", "Opening hours"), value: t("7 dagen per week, ook ’s avonds", "7 days a week, evenings included") },
     { icon: CalendarCheck, label: t("Afspraak", "Appointment"), value: t("Alleen op afspraak", "By appointment only") },
     { icon: Car, label: t("Parkeren", "Parking"), value: t(site.parkingNote, "Free parking right outside") },
   ];
   return (
     <ul className={className}>
+      <li id="openingstijden" className="flex scroll-mt-28 items-start gap-4 border-b border-line py-4">
+        <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-mist text-ink ring-1 ring-line">
+          <Clock className="size-[1.125rem]" aria-hidden />
+        </span>
+        <span className="min-w-0">
+          <span className="block text-sm text-muted">{t("Openingstijden (alleen op afspraak)", "Opening hours (by appointment only)")}</span>
+          <OpeningHoursList className="mt-1.5 text-[0.9375rem]" />
+        </span>
+      </li>
       {rows.map((r) => (
         <li key={r.label} className="flex items-start gap-4 border-b border-line py-4 last:border-0">
           <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-mist text-ink ring-1 ring-line">
