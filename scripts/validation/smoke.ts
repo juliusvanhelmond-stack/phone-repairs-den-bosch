@@ -295,6 +295,15 @@ async function main() {
     assert((await page.locator('[data-reviews-badge="2b08aab83f291770e106912ec94"]').count()) === 1, "trustindex embed missing");
   });
 
+  await check("kiyoh: review links on home and contact, feed key never in the page", async () => {
+    for (const route of ["/", "/contact"]) {
+      const res = await page.request.get(BASE + route);
+      const html = await res.text();
+      assert(html.includes("https://www.kiyoh.com/reviews/1047512/phone_repairs"), `no Kiyoh link on ${route}`);
+      assert(!/feed\.xml\?hash=/.test(html), `Kiyoh feed URL leaked on ${route}`);
+    }
+  });
+
   await check("whatsapp: prompt opens by itself once, with the original copy", async () => {
     const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
     const p = await ctx.newPage();

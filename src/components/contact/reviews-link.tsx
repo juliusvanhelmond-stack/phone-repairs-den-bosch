@@ -1,12 +1,13 @@
 import { ArrowUpRight, Star } from "lucide-react";
+import { KiyohBadge, KiyohLink } from "@/components/contact/kiyoh";
 import { TrustindexBadge } from "@/components/contact/trustindex-badge";
 import { getI18n } from "@/lib/i18n-server";
 import { site } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
 /**
- * Points visitors to the reviews on the Google Business profile. The score and count
- * are rendered by the Trustindex badge; the plain link stays as a fallback.
+ * Points visitors to the reviews on Google and Kiyoh. The Google score comes from the
+ * Trustindex badge, the Kiyoh score from the Kiyoh feed; the plain links stay as a fallback.
  */
 export async function ReviewsBanner({ className }: { className?: string }) {
   const { t } = await getI18n();
@@ -27,17 +28,18 @@ export async function ReviewsBanner({ className }: { className?: string }) {
           <h3 className="text-lg font-semibold tracking-tight">{t("Wat klanten zeggen", "What customers say")}</h3>
           <p className="mt-1 max-w-xl leading-relaxed text-neutral-400">
             {t(
-              `Lees de ervaringen van klanten op ${reviews.platform}. Ben je zelf geholpen? Laat daar ook een review achter.`,
-              `Read what customers say on ${reviews.platform}. Were you helped yourself? Leave a review there too.`,
+              `Lees de ervaringen van klanten op ${reviews.platform}${site.kiyoh ? " en Kiyoh" : ""}. Ben je zelf geholpen? Laat daar ook een review achter.`,
+              `Read what customers say on ${reviews.platform}${site.kiyoh ? " and Kiyoh" : ""}. Were you helped yourself? Leave a review there too.`,
             )}
           </p>
         </div>
       </div>
-      <div className="flex shrink-0 flex-col items-stretch gap-3 sm:items-end">
+      <div className="flex shrink-0 flex-col items-stretch gap-3 sm:w-64">
+        <KiyohBadge />
         {reviews.trustindexId && (
           <TrustindexBadge
             widgetId={reviews.trustindexId}
-            className="min-h-[3.25rem] min-w-[12rem] overflow-hidden rounded-2xl bg-white px-2 [&_.ti-widget]:!m-0"
+            className="flex min-h-[3.25rem] justify-center overflow-hidden rounded-2xl bg-white px-2 [&_.ti-widget]:!m-0"
           />
         )}
         <a
@@ -54,8 +56,17 @@ export async function ReviewsBanner({ className }: { className?: string }) {
   );
 }
 
-/** Compact text link for light surfaces (contact details, device pages). */
+/** Compact text links for light surfaces (contact details, device pages). */
 export async function ReviewsLink({ className }: { className?: string }) {
+  return (
+    <span className={cn("flex flex-col gap-2", className)}>
+      <GoogleReviewsLink />
+      <KiyohLink />
+    </span>
+  );
+}
+
+async function GoogleReviewsLink({ className }: { className?: string }) {
   const { t } = await getI18n();
   const reviews = site.reviews;
   if (!reviews) return null;

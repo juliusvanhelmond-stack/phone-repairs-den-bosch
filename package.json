@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "prebuild": "npm run validate:data",
+    "prebuild": "npm run reviews:fetch && npm run validate:data",
+    "reviews:fetch": "tsx scripts/reviews/fetch-kiyoh.ts",
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",

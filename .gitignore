@@ -49,3 +49,4 @@ next-env.d.ts
 !/docs/screenshots/home-1440.png
 !/docs/screenshots/reparaties_apple_iphone-15-pro-1440.png
 !/docs/screenshots/reparaties_apple_iphone-15-pro-375.png
+src/data/generated/

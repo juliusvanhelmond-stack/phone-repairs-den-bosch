@@ -44,6 +44,11 @@ export const site = {
     platform: "Google",
     trustindexId: "2b08aab83f291770e106912ec94",
   } as null | { url: string; platform: string; trustindexId: string | null },
+  /**
+   * Kiyoh review page (from the client's "Kiyoh Zwevende Reviews-knop" WordPress plugin, 2026-10-13).
+   * Score and count are read from the Kiyoh feed at runtime (`src/lib/kiyoh.ts`), never typed in.
+   */
+  kiyoh: { url: "https://www.kiyoh.com/reviews/1047512/phone_repairs" } as null | { url: string },
   address: {
     street: "Ploossche Hof 13",
     /** Seen next to the street address in several search snippets of the original site. */

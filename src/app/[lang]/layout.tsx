@@ -3,6 +3,7 @@ import { Open_Sans } from "next/font/google";
 import { GeistMono } from "geist/font/mono";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
+import { KiyohFloat } from "@/components/contact/kiyoh";
 import { WhatsAppWidget } from "@/components/contact/whatsapp-widget";
 import { LocaleProvider } from "@/components/i18n/locale-provider";
 import { JsonLd } from "@/components/ui/json-ld";
@@ -62,6 +63,7 @@ export default async function RootLayout({ children }: LayoutProps<"/[lang]">) {
             {children}
           </main>
           <SiteFooter />
+          <KiyohFloat />
           <WhatsAppWidget />
           <JsonLd data={localBusinessJsonLd()} />
         </LocaleProvider>
