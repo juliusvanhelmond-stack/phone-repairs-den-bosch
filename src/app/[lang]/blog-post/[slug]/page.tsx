@@ -48,18 +48,32 @@ export default async function BlogPostPage({ params }: PageProps<"/[lang]/blog-p
       />
       <article className="py-16 lg:py-24">
         <div className="container-page max-w-3xl">
-          {/* Until the posts are migrated only the summary exists; render migrated bodyHtml after sanitising. */}
-          <div className="space-y-5 text-lg leading-relaxed text-muted">
-            {post.summary.map((p) => (
-              <p key={p}>{p}</p>
-            ))}
-          </div>
-          <DemoNote className="mt-10">
-            {t(
-              "Dit is een samenvatting van het huidige bericht. De volledige tekst wordt bij de migratie overgenomen, op dezelfde URL.",
-              "This is a summary of the current (Dutch) post, translated by us. The full text follows with the migration.",
-            )}
-          </DemoNote>
+          {/* bodyHtml was sanitised at import (scripts/migration/wordpress/content.ts): text, headings, lists and links only. */}
+          {post.bodyHtml && locale === "nl" ? (
+            <div className="article" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
+          ) : (
+            <>
+              <div className="space-y-5 text-lg leading-relaxed text-muted">
+                {post.summary.map((p) => (
+                  <p key={p}>{p}</p>
+                ))}
+              </div>
+              {post.bodyHtml ? (
+                <section className="mt-12 border-t border-line pt-10">
+                  <h2 className="text-title font-semibold text-ink">Full article (in Dutch)</h2>
+                  <p className="mt-2 text-sm text-muted">The summary above is our translation; the full post is available in Dutch only.</p>
+                  <div lang="nl" className="article mt-6" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
+                </section>
+              ) : (
+                <DemoNote className="mt-10">
+                  {t(
+                    "Dit is een samenvatting van het huidige bericht. De volledige tekst wordt bij de migratie overgenomen, op dezelfde URL.",
+                    "This is a summary of the current (Dutch) post, translated by us. The full text follows with the migration.",
+                  )}
+                </DemoNote>
+              )}
+            </>
+          )}
           <Link href="/blog-post" className="mt-12 inline-flex items-center gap-2 font-medium text-accent-strong hover:text-accent">
             <ArrowLeft className="size-4" aria-hidden />
             {t("Alle berichten", "All posts")}

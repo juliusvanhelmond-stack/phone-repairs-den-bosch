@@ -11,11 +11,22 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-const euro = new Intl.NumberFormat("nl-NL", { style: "currency", currency: "EUR" });
-const euroEn = new Intl.NumberFormat("en-GB", { style: "currency", currency: "EUR" });
-/** Euro amount in the visitor's language (€ 60,00 / €60.00). */
+const formatters = Object.fromEntries(
+  (["nl", "en"] as const).flatMap((locale) =>
+    [0, 2].map((digits) => [
+      `${locale}${digits}`,
+      new Intl.NumberFormat(locale === "nl" ? "nl-NL" : "en-GB", {
+        style: "currency",
+        currency: "EUR",
+        minimumFractionDigits: digits,
+        maximumFractionDigits: digits,
+      }),
+    ]),
+  ),
+);
+/** Euro amount in the visitor's language; whole euros without cents (€ 210 / €210, € 59,95). */
 export const formatEuro = (amount: number, locale: "nl" | "en" = "nl") =>
-  (locale === "en" ? euroEn : euro).format(amount);
+  formatters[`${locale}${Number.isInteger(amount) ? 0 : 2}`].format(amount);
 
 /** Normalises text for forgiving search: case, accents, spacing and "+" variants. */
 export function normalizeSearch(value: string): string {

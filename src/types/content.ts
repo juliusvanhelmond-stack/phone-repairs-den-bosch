@@ -88,7 +88,9 @@ export const deviceModelSchema = z.object({
   brandId: slugSchema,
   categoryId: slugSchema,
   series: z.string(),
-  releaseYear: z.number().int().min(2010).max(2030),
+  /** Position in the original site's menu (lower = shown first, newest models first). */
+  order: z.number().int().default(0),
+  releaseYear: z.number().int().min(2010).max(2030).optional(),
   art: deviceArtSchema,
   popular: z.boolean().default(false),
   aliases: z.array(z.string()).default([]),
@@ -142,6 +144,35 @@ export const repairPriceSchema = z
     message: "A verified price needs an amount and at least one source",
   });
 export type RepairPrice = z.infer<typeof repairPriceSchema>;
+
+/**
+ * The full price table of one device, copied row by row from its original page.
+ * `raw` is the cell text as published ("€210,-", "op aanvraag"); `amount` is parsed from it.
+ * `repairId` links the row to one of our repair categories (null for accessories).
+ */
+export const priceRowSchema = z.object({
+  label: z.string().min(1),
+  raw: z.string(),
+  amount: z.number().positive().nullable(),
+  status: z.enum(["price", "on-request", "expected"]),
+  repairId: slugSchema.nullable(),
+});
+export type PriceRow = z.infer<typeof priceRowSchema>;
+
+export const priceListSchema = z
+  .object({
+    deviceId: slugSchema,
+    sourceUrl: z.url(),
+    /** Date of the export the rows were taken from. */
+    capturedAt: z.iso.date(),
+    /** Last change of the original page. */
+    updatedAt: z.iso.date(),
+    rows: z.array(priceRowSchema).min(1),
+  })
+  .refine((l) => l.rows.every((r) => (r.status === "price") === (r.amount !== null)), {
+    message: "A row has an amount exactly when its status is 'price'",
+  });
+export type PriceList = z.infer<typeof priceListSchema>;
 
 export const warrantyInfoSchema = z.object({
   id: slugSchema,
@@ -236,6 +267,8 @@ export type UrlRecord = z.infer<typeof urlRecordSchema>;
  */
 export const landingSectionSchema = z.object({
   heading: z.string(),
+  /** Paragraphs shown before the list (imported pages keep their reading order). */
+  intro: z.array(z.string()).default([]),
   body: z.array(z.string()).default([]),
   bullets: z.array(z.string()).default([]),
   steps: z.array(z.string()).default([]),

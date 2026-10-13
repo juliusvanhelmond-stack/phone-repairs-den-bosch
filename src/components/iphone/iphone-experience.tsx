@@ -309,7 +309,9 @@ export function IphoneExperience({
                 {selected.price !== undefined && (
                   <div className="text-ink">
                     <dt className="sr-only">{t("Prijs", "Price")}</dt>
-                    <dd className="font-semibold">{formatEuro(selected.price, locale)}</dd>
+                    <dd>
+                      {t("vanaf", "from")} <span className="font-semibold">{formatEuro(selected.price, locale)}</span>
+                    </dd>
                   </div>
                 )}
               </dl>

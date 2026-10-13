@@ -177,6 +177,11 @@ function SectionCard({ section }: { section: LandingSection }) {
   return (
     <div className="h-full rounded-[var(--radius-card)] bg-white p-7 ring-1 ring-line lg:p-9">
       <h2 className="text-title font-semibold text-ink">{section.heading}</h2>
+      {section.intro.map((p) => (
+        <p key={p} className="mt-4 leading-relaxed text-muted">
+          {p}
+        </p>
+      ))}
       {section.steps.length > 0 && (
         <ol className="mt-6 space-y-4">
           {section.steps.map((step, i) => (

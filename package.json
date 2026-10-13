@@ -16,7 +16,7 @@
     "test:a11y": "tsx scripts/validation/axe-report.ts / /reparaties/apple/iphone-15-pro /afspraak /contact",
     "screenshots": "tsx scripts/validation/screenshots.ts / /reparaties/apple/iphone-15-pro /reparaties/samsung /afspraak",
     "check": "npm run typecheck && npm run lint && npm run validate:data && npm run test:parser",
-    "catalog:seed": "tsx scripts/migration/build-seed-catalog.ts",
+    "import:wordpress": "tsx scripts/migration/wordpress/import.ts",
     "discover": "tsx scripts/discovery/discover.ts",
     "migrate:fetch": "tsx scripts/migration/fetch.ts",
     "migrate:parse": "tsx scripts/migration/parse.ts",

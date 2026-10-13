@@ -772,5 +772,714 @@
         "note": "Contact first (stock and price); sturdy box with bubble wrap; send registered; returned within 1-2 working days registered and insured after receipt and payment; abroad: contact for rates."
       }
     ]
+  },
+  {
+    "id": "garantie",
+    "path": "/garantie",
+    "kind": "service",
+    "originalTitle": "Garantie op reparatie",
+    "title": "Garantie op reparatie",
+    "eyebrow": "Garantie",
+    "intro": "Bij Phone Repairs Den Bosch staan we achter de kwaliteit van onze reparaties. Daarom krijg je op vrijwel iedere reparatie garantie. De garantietermijn is afhankelijk van het type reparatie en loopt uiteen van 60 dagen tot 12 maanden. Zo weet je vooraf precies waar je aan toe bent.",
+    "seo": {
+      "title": "Garantie op Reparaties: Wat je moet weten",
+      "description": "Bij Phone Repairs Den Bosch profiteer je van garantie op reparaties tot 12 maanden. Ontdek onze betrouwbare diensten."
+    },
+    "sections": [
+      {
+        "heading": "Garantie op reparatie",
+        "body": [
+          "Bij Phone Repairs Den Bosch kan je meekijken tijdens de meeste reparaties, hoe we je toestel met grote deskundigheid repareren. Bij Phone Repairs Den Bosch zetten we ons dagelijks volledig in om elke reparatie de benodigde tijd en aandacht te geven. Daarom hanteren we een afspraak systeem. Als je een afspraak wilt maken, kun je ons telefonisch bereiken of een WhatsApp bericht sturen."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "Hoeveel garantie krijg je op een reparatie?",
+        "body": [
+          "Voor de meeste reparaties geldt 12 maanden garantie. Voor waterschade en specialistische moederbordreparaties gelden andere garantietermijnen."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "Schermreparaties – 12 maanden garantie",
+        "intro": [
+          "Op alle schermreparaties krijg je 12 maanden garantie op de werking van het door ons gemonteerde scherm.",
+          "Dit geldt voor schermreparaties waarbij we gebruikmaken van:"
+        ],
+        "body": [
+          "De garantietermijn gaat in op het moment dat het gerepareerde toestel aan je wordt overhandigd of naar je wordt verzonden."
+        ],
+        "bullets": [
+          "Origineel Service Pack",
+          "Origineel pulled",
+          "Premium OLED"
+        ],
+        "steps": []
+      },
+      {
+        "heading": "Overige reparaties – 12 maanden garantie",
+        "body": [
+          "Op overige reguliere reparaties krijg je 12 maanden garantie op de werking van het door ons vervangen onderdeel. Denk bijvoorbeeld aan een vervangen laadpoort, camera, speaker, microfoon of ander onderdeel."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "Moederbordreparatie en microsolderen – 60 dagen garantie",
+        "body": [
+          "Op een uitgevoerde moederbordreparatie of microsoldeerreparatie krijg je 60 dagen garantie. Hieronder vallen bijvoorbeeld reparaties aan IC's, filters, FPC-connectoren en andere componenten op het moederbord. De garantie heeft uitsluitend betrekking op het onderdeel of gedeelte van het moederbord dat door Phone Repairs is gerepareerd."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "Pre-owned toestellen – 12 maanden garantie",
+        "body": [
+          "Op onze pre-owned toestellen krijg je 12 maanden garantie. Onze pre-owned apparaten worden volledig getest en gecontroleerd voordat ze worden verkocht."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "Data recovery – No cure, No pay",
+        "body": [
+          "Voor data recovery geldt geen reguliere reparatiegarantie. Data recovery wordt uitgevoerd volgens het principe No cure, No pay. Kan de vooraf afgesproken data niet worden hersteld, dan betaal je niet voor het dataherstel."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "Waterschade – geen garantie",
+        "body": [
+          "Op onderzoek, reiniging of reparaties van toestellen met vocht-, water- of andere vloeistofschade geven wij geen garantie. Vocht kan op verschillende plaatsen in een toestel corrosie en andere schade veroorzaken. Ook nadat een toestel succesvol is gereinigd of gerepareerd, kunnen daardoor op een later moment nieuwe storingen ontstaan."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "Waarop geldt de garantie?",
+        "body": [
+          "De garantie geldt uitsluitend voor de werking van het onderdeel dat tijdens de betreffende reparatie door Phone Repairs is vervangen of gerepareerd. Hebben we bijvoorbeeld een scherm vervangen, dan heeft de garantie betrekking op de werking van dat scherm. Andere onderdelen en functies van het toestel die tijdens de reparatie niet zijn vervangen of gerepareerd, vallen niet onder deze garantie. Dit geldt ook voor zogenoemde randcomponenten. Bij een schermreparatie vallen bijvoorbeeld de nabijheidssensor, Face ID, Touch ID, luidsprekers en andere niet-vervangen onderdelen niet onder de garantie van het nieuwe scherm."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "Wanneer vervalt de garantie?",
+        "intro": [
+          "Garantie is bedoeld voor een defect aan het door ons vervangen of gerepareerde onderdeel. De garantie dekt geen schade die na de reparatie aan het toestel of onderdeel ontstaat.",
+          "De garantie vervalt onder andere bij:"
+        ],
+        "body": [
+          "Bij dergelijke beschadigingen vervalt de garantie op het betreffende onderdeel. Bij dergelijke beschadigingen vervalt de garantie op het betreffende onderdeel. Ook bij vocht-, water-, vloeistof- of bliksemschade kan geen aanspraak worden gemaakt op de reparatiegarantie."
+        ],
+        "bullets": [
+          "✕ Val-, stoot- of drukschade",
+          "✕ Barsten, breuken, scheuren en krassen",
+          "✕ Zichtbare fysieke of gebruikersschade",
+          "✕ Beschadiging van LCD-, OLED- of AMOLED-panelen en digitizers",
+          "✕ Zwarte vlekken, strepen of andere zichtbare displayschade als gevolg van fysieke beschadiging",
+          "✕ Vocht-, water- of vloeistofschade",
+          "✕ Warmteschade, waaronder het loslaten van lijmlagen als gevolg van externe warmte",
+          "✕ Beschadigde of defect geraakte scharnieren door fysieke belasting",
+          "✕ Andere zichtbare schade die na de reparatie is ontstaan"
+        ],
+        "steps": []
+      },
+      {
+        "heading": "Geen garantie op niet-gerepareerde onderdelen",
+        "body": [
+          "De garantie geldt niet voor onderdelen die tijdens de oorspronkelijke reparatie niet door Phone Repairs zijn gerepareerd of vervangen. Stel dat wij alleen het scherm vervangen en enkele maanden later ontstaat er een probleem met bijvoorbeeld Face ID, Touch ID, de nabijheidssensor, camera of luidspreker. Dan valt dat onderdeel niet onder de garantie op de schermreparatie wanneer het betreffende onderdeel niet door ons is vervangen of gerepareerd. Op die manier blijft duidelijk waarop de garantie betrekking heeft: het onderdeel en de werkzaamheden waarvoor je bij Phone Repairs hebt betaald."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "Schoonmaak en onderhoud",
+        "body": [
+          "Op schoonmaak- en onderhoudswerkzaamheden wordt geen garantie gegeven, tenzij op de reparatiefactuur uitdrukkelijk anders staat vermeld."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "Wanneer gaat de garantie in?",
+        "intro": [
+          "De garantietermijn gaat in op de datum waarop het gerepareerde product:"
+        ],
+        "body": [
+          "De reparatiefactuur vormt daarbij het uitgangspunt voor de uitgevoerde reparatie en de toepasselijke garantie."
+        ],
+        "bullets": [
+          "aan de klant wordt overhandigd; of",
+          "door Phone Repairs naar de klant wordt verzonden."
+        ],
+        "steps": []
+      },
+      {
+        "heading": "Probleem na een reparatie?",
+        "body": [
+          "Werkt het door ons vervangen onderdeel binnen de garantietermijn niet zoals het hoort? Neem dan contact op met Phone Repairs Den Bosch. We onderzoeken het toestel en beoordelen of het probleem betrekking heeft op de oorspronkelijke reparatie en binnen de garantievoorwaarden valt. Wanneer het defect onder onze garantie valt, zorgen we voor een passende oplossing."
+        ],
+        "bullets": [],
+        "steps": []
+      }
+    ],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/garantie/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/garantie/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "WordPress export 2026-10-12; page last changed 2026-10-09."
+      }
+    ]
+  },
+  {
+    "id": "waterschade-reparatie-phone-repairs",
+    "path": "/waterschade-reparatie-phone-repairs",
+    "kind": "service",
+    "originalTitle": "Waterschade reparatie",
+    "title": "Waterschade reparatie",
+    "eyebrow": "Waterschade",
+    "intro": "Waterschade vraagt om direct handelen. Hoe langer vocht in je toestel aanwezig blijft, hoe groter de kans op corrosie en verdere schade aan de elektronica.",
+    "seo": {
+      "title": "Waterschade reparatie: Wat te doen bij schade",
+      "description": "Leer hoe waterschade reparatie werkt en welke stappen je moet volgen om je smartphone of tablet te redden."
+    },
+    "sections": [
+      {
+        "heading": "Laat je toestel zo snel mogelijk controleren",
+        "body": [
+          "Bij vochtschade is tijd belangrijk. Breng je telefoon, tablet of MacBook daarom bij voorkeur zo snel mogelijk bij ons langs. Hoe eerder we het toestel kunnen onderzoeken en behandelen, hoe groter de kans dat verdere schade beperkt blijft. Wij kunnen het toestel professioneel reinigen en controleren op vocht, corrosie en andere schade aan onder meer het moederbord (PCB). Bel ons direct voor een afspraak via 073 822 0013",
+          "De standaard waterschadebehandeling kost € 60,- incl. btw en montage. Voor bepaalde apparaten, zoals MacBooks, vouwbare toestellen geldt een afwijkend tarief — vraag ons hier gerust naar. Deze kosten dekken de specialistische arbeidstijd, chemische middelen en het gebruik van de apparatuur, en gelden ongeacht of het toestel te herstellen is. De doorlooptijd bedraagt gemiddeld 3 tot 4 werkdagen (weekenden uitgesloten)."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "Goed om te weten over waterschade",
+        "body": [
+          "Geen enkel toestel is volledig waterdicht. Ook wanneer een smartphone of ander apparaat een officiële IP-certificering heeft, betekent dit niet dat het toestel bestand is tegen iedere vorm van vocht of vloeistofschade. Vochtschade valt bovendien buiten de fabrieksgarantie.",
+          "Waterschade? Niet aanzetten, niet opladen en zo snel mogelijk laten controleren. Daarmee voorkom je dat je onnodig extra schade veroorzaakt.",
+          "Heeft je smartphone, tablet, MacBook of Nintendo Switch vochtschade opgelopen? Phone Repairs Den Bosch reinigt je apparaat grondig om corrosie, en verdere schade tegen te gaan en je data te redden.",
+          "Het primaire doel is altijd om het apparaat werkend te krijgen zodat je belangrijke data veiliggesteld kan worden. Houd er rekening mee dat bij vochtschade een toestel deels of tijdelijk kan functioneren; latere defecten zijn nooit helemaal uit te sluiten. We geven dan ook geen enkele garantie bij waterschade. Maak dus meteen na het ophalen van je toestel een back-up van je data!",
+          "Kosten en doorlooptijd De standaard waterschadebehandeling kost € 60,- (incl. btw en montage). Voor bepaalde apparaten, zoals MacBooks, geldt een afwijkend tarief — vraag ons hier gerust naar. Deze kosten dekken de specialistische arbeidstijd, chemische middelen en het gebruik van de apparatuur, en gelden ongeacht of het toestel te herstellen is of niet. De doorlooptijd bedraagt gemiddeld 3 tot 4 werkdagen (weekenden uitgesloten)."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "Maar mijn toestel is toch waterdicht?",
+        "intro": [
+          "De term \"waterdicht\" kan enigszins misleidend zijn als het gaat om smartphones. Veel moderne smartphones zijn inderdaad ontworpen om enige mate van blootstelling aan water te weerstaan, maar dat betekent niet noodzakelijk dat ze volledig waterdicht zijn. Het korte antwoord: nee, telefoons zijn waterbestendig, niet waterdicht. Hoewel veel moderne smartphones tegen een stootje kunnen op het gebied van vocht, biedt dit geen garantie tegen schade.",
+          "Hier zijn enkele punten om in gedachten te houden:"
+        ],
+        "body": [
+          "Wat te doen bij vochtschade? Voorkomen blijft het beste advies: houd je smartphone zoveel mogelijk weg van vloeistoffen en stoom. Is je toestel toch nat geworden? Zet het direct uit, droog het aan de buitenkant goed af, laad het niet op en neem direct contact met ons op. Hoe sneller we de vloeistof professioneel verwijderen, hoe groter de kans op volledig herstel.",
+          "Apple zegt bijvoorbeeld over de iPhone 17 Pro en iPhone 17 Pro Max dit:",
+          "iPhone 17 Pro en iPhone 18 Pro Max zijn spat‑, water‑ en stofbestendig en voldoen aan bestendigheidsnorm IP68 volgens IEC‑standaard 60529 (tot 30 minuten en 2 meter diep, getest onder gecontroleerde omstandigheden). Spat‑, water‑ en stofbestendigheid kunnen na verloop van tijd afnemen als gevolg van normale slijtage. Probeer een natte iPhone niet op te laden. Raadpleeg de handleiding voor instructies met betrekking tot reinigen en drogen. Vloeistofschade valt niet onder de garantie.",
+          "Het kan bij waterschade zo zijn dat er defecten aan het moederbord zijn, dan gelden onze tarieven van moederbord reparaties. Deze tarieven kan je hier vinden."
+        ],
+        "bullets": [
+          "IP-certificering is geen vrijbrief: Een aanduiding zoals IP68 betekent dat een toestel onder ideale laboratoriumomstandigheden getest is (bijvoorbeeld tot 1,5 meter diepte gedurende 30 minuten in stilstaand zoet water). De praktijk is echter heel anders.",
+          "Niet bestand tegen alle vloeistoffen: De bescherming geldt puur voor koud zoetwater. Zeewater (zout), chloorwater, zeepsop, hete stoom (badkamer of sauna) en chemische stoffen tasten de afdichtingen direct aan.",
+          "Alleen bedoeld voor ongelukjes: De afdichting dient als noodoplossing voor een val in een plas of een regenbui, niet om actief onder water foto's mee te maken of het toestel mee te nemen onder de douche.",
+          "Slijtage vermindert de bescherming: Door vallen, stoten, normale veroudering van de rubberen seals of eerdere reparaties neemt de waterdichtheid geleidelijk af. Een toestel van een jaar oud is lang niet zo goed beschermd als een nieuw model.",
+          "Geen garantie op waterschade: geen enkele fabrikant — en ook Phone Repairs niet — dekt vochtschade binnen de garantie, ongeacht de IP-rating van het toestel.",
+          "Liquid Damage Indicator (LDI): deze indicator zit in je toestel, bij vochtig worden verkleurd deze, en is je fabrieksgarantie niet meer geldig."
+        ],
+        "steps": []
+      },
+      {
+        "heading": "Geen garantie bij waterschade",
+        "body": [
+          "Fabrikanten en wij ook niet, geven nooit garantie bij waterschade en valschade. Waterschade kan door een reparateur makkelijk geconstateerd worden omdat er in alle mobiele apparaten indicatoren zitten die verkleuren bij aanraking met vocht."
+        ],
+        "bullets": [],
+        "steps": []
+      }
+    ],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/waterschade-reparatie-phone-repairs/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/waterschade-reparatie-phone-repairs/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "WordPress export 2026-10-12; page last changed 2026-10-08."
+      }
+    ]
+  },
+  {
+    "id": "moederbord-reparatie-den-bosch",
+    "path": "/moederbord-reparatie-den-bosch",
+    "kind": "service",
+    "originalTitle": "Moederbord reparaties Den Bosch",
+    "title": "Moederbord reparaties Den Bosch",
+    "eyebrow": "Moederbord reparatie",
+    "intro": "De nieuwste SMD componenten zijn zo klein dat deze niet meer met een traditionele soldeerbout kunnen worden aangebracht. Met hete lucht solderen is dit wel mogelijk. Aan het moederbord (de printplaat) kan met behulp van hete lucht gesoldeerd worden. Deze hete lucht heatgun bevat een krachtig hitte element. Op deze manier is het mogelijk om de kleinste componenten, QFP’s of BGA’s handmatig te dé-solderen en te solderen. Wij gebruiken professioneel gereedschap van o.a. Amscope, Wiha, Hakko, Baku, Quick, Fluke.",
+    "seo": {
+      "title": "Moederbord Reparatie: Kosten en Tijdlijn",
+      "description": "Leer alles over moederbord reparatie en de benodigde apparatuur voor een succesvolle en veilige herstelprocedure."
+    },
+    "sections": [
+      {
+        "heading": "Hete lucht solderen",
+        "body": [
+          "Reparaties dienen goed te worden uitgevoerd en moeten duurzaam zijn. Wij gebruiken daarom uitsluitend originele onderdelen en geven u twee maanden garantie op moederbord reparatie en de vervangen onderdelen."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "Reparatie risico's",
+        "body": [
+          "Elektronische reparaties zijn onvoorspelbaar. Uw apparaat is mogelijk niet meer te repareren of kan tijdens de reparatie permanent worden beschadigd en onbruikbaar worden. Componenten van printplaten verslechteren na verloop van tijd en kunnen zonder waarschuwing defect raken, vooral bij apparaten met vloeistofschade waar componenten na verloop van tijd kunnen kortsluiten, oxideren, corroderen en roesten.",
+          "Bij reparaties aan apparaten met vastgelijmde schermen, zoals iPads, moet het scherm worden losgewrikt om toegang te krijgen tot interne componenten. Schermen zijn erg kwetsbaar en kunnen barsten of breken tijdens het wrikken. We hebben veel ervaring en het risico op schermbreuk is minimaal, maar glas kan breken en er zijn risico's. Dat is het eerlijke verhaal.",
+          "Touch-ID / Face-ID op Apple-apparaten kan tijdens moederbord reparaties mislukken en onbruikbaar worden. Hoewel dit niet gebruikelijk is, kan het gebeuren afhankelijk van de toestand van het apparaat. Dit is op voorhand niet vast te stellen.",
+          "Op bovenstaand is dan ook nooit sprake van garantie, want dit zijn de risico’s van de reparatie. Dit risico ligt geheel bij de afnemer van onze diensten."
+        ],
+        "bullets": [],
+        "steps": []
+      }
+    ],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/moederbord-reparatie-den-bosch/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/moederbord-reparatie-den-bosch/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "WordPress export 2026-10-12; page last changed 2026-10-08."
+      }
+    ]
+  },
+  {
+    "id": "data-recovery",
+    "path": "/data-recovery",
+    "kind": "service",
+    "originalTitle": "Data recovery",
+    "title": "Data recovery",
+    "eyebrow": "Data recovery",
+    "intro": "Dataverlies komt altijd ongelegen. Foto’s, documenten, zakelijke bestanden of andere belangrijke gegevens kunnen van grote persoonlijke of zakelijke waarde zijn. Wanneer je telefoon, tablet, laptop, harde schijf, SSD, NAS of SD-kaart niet meer werkt, kan data recovery uitkomst bieden. Bij Phone Repairs en Stellar behandelen we jouw datadrager met de grootste zorg en gaan we professioneel en vertrouwelijk te werk. Ons doel is om je verloren of ontoegankelijke data zo veilig mogelijk terug te halen.",
+    "seo": {
+      "title": "Data recovery gegarandeerd uw data terug na dataverlies",
+      "description": "Data recovery gegarandeerd uw data terug. Professionele oplossingen voor dataverlies op een veilige manier."
+    },
+    "sections": [],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/data-recovery/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/data-recovery/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "WordPress export 2026-10-12; page last changed 2026-10-08."
+      }
+    ]
+  },
+  {
+    "id": "originele-onderdelen-phone-repairs",
+    "path": "/originele-onderdelen-phone-repairs",
+    "kind": "service",
+    "originalTitle": "Originele onderdelen",
+    "title": "Originele onderdelen",
+    "eyebrow": "Onderdelen",
+    "intro": "Bij Phone Repairs Den Bosch leveren we betrouwbaar vakwerk voor je telefoon, tablet, MacBook of Nintendo Switch. Met onze ervaring en originele Service Pack-onderdelen garanderen we kwaliteit zonder concessies, zodat je toestel weer optimaal en vertrouwd functioneert.",
+    "seo": {
+      "title": "Originele onderdelen voor het behoud van originele kwaliteit",
+      "description": "Ontdek waarom originele onderdelen essentieel zijn voor je toestel. Kwaliteit en vakmanschap staan voorop in onze reparaties."
+    },
+    "sections": [
+      {
+        "heading": "Wij gebruiken originele service pack onderdelen",
+        "body": [
+          "Wij gebruiken originele service pack onderdelen, waar mogelijk. Deze onderdelen bestellen we direct bij fabrikanten zoals Apple, Samsung, Google, Xiaomi, LG display, enz., of bij de specialistische groothandel, zodat wij en jij zeker zijn van de beste kwaliteit onderdelen. Voor sommige toestellen bieden we ook pulled onderdelen aan, deze onderdelen zijn gehaald uit een bestaand toestel, en zijn goedkoper dan service pack onderdelen. Maar het zijn wel originele onderdelen."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "iPhone onderdelen kalibreren",
+        "body": [
+          "Vanaf iOS 18 en de iPhone 12 en hoger, is het mogelijk na een scherm, batterij, camera en backcover reparaties het onderdeel te kalibreren (de nieuwe onderdelen koppelen) aan je iPhone. je toestel moet ge-update zijn naar de nieuwste iOS versie die beschikbaar is, anders is kalibreren niet mogelijk. Als een van bovenstaande onderdelen vervangen zijn dan ben je na reparatie in staat om te controleren, in de instellingen, dat het een origineel onderdeel betreft. Dit is een 'onderhoudsboekje', zodat je inzicht krijgt welke onderdelen vervangen zijn en welke kwaliteit is gebruikt."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "iPhone onderdelen- en servicegeschiedenis",
+        "body": [
+          "Als je iPhone is gerepareerd, verschijnt het gedeelte 'Onderdelen- en servicegeschiedenis' onder 'Instellingen' > 'Algemeen' > 'Info’ op je iPhone. Als de reparatie met originele Apple service pack onderdelen en processen zijn uitgevoerd, zie je 'Origineel' naast het onderdeel staan. Bij pulled onderdelen staat er ‘Gebruikt’ omdat deze onderdelen uit een andere nieuwe iPhone komt. In sommige situaties staat hier 'Onbekend', bijvoorbeeld als de front flex van het oude scherm overgezet moet worden, of als kalibratie niet mogelijk is."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "iPhone schermen en onderdelen",
+        "intro": [
+          "Voor iPhone scherm, batterij, camera, Face Id / front cameramodule en backcover reparaties, maken wij gebruik van originele Apple Service Pack onderdelen of originele Pulled onderdelen, aan jouw de keuze.",
+          "Originele Pulled schermen en onderdelen demonteren wij zelf uit nieuwe iPhone’s of wij kopen deze in bij demontage bedrijven. Op deze manier verkrijgen wij de volledig originele schermen en onderdelen. En kunnen we jou de beste reparaties aanbieden voor je iPhone."
+        ],
+        "body": [],
+        "bullets": [
+          "Apple Service Pack schermen en onderdelen verschijnen in de reparatie geschiedenis in je instellingen app (vanaf iOS 18) als 'origineel Apple onderdeel'.",
+          "Originele Pulled schermen en onderdelen verschijnen in de reparatie geschiedenis in je instellingen app (vanaf iOS 18) als 'gebruikt' onderdeel. Omdat het scherm of ander vervangen onderdeel afkomstig (pulled) is van een andere iPhone. In sommige situaties staat hier ‘Onbekend’, bijvoorbeeld als de front flex van het oude scherm overgezet moet worden, of als kalibratie niet mogelijk is, o.a. door verouderde software."
+        ],
+        "steps": []
+      }
+    ],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/originele-onderdelen-phone-repairs/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/originele-onderdelen-phone-repairs/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "WordPress export 2026-10-12; page last changed 2026-10-09."
+      }
+    ]
+  },
+  {
+    "id": "iphone-premium-oled-scherm",
+    "path": "/iphone-premium-oled-scherm",
+    "kind": "service",
+    "originalTitle": "iPhone premium OLED scherm",
+    "title": "iPhone premium OLED scherm",
+    "eyebrow": "iPhone schermen",
+    "intro": "Ben jij klaar met een beschadigd of flets scherm, maar weiger je de hoofdprijs te betalen? Ontdek de slimste deal van nu. Onze premium OLED-schermen leveren bijna exact die diepe kleuren en dat haarscherpe beeld dat je gewend bent, maar houden het wel meer betaalbaar.",
+    "seo": {
+      "title": "iPhone Premium OLED-scherm: Topkwaliteit voor Minder",
+      "description": "Ontdek het iPhone Premium OLED-scherm alternatief (niet origineel) voor haarscherpe prestaties zonder hoge kosten."
+    },
+    "sections": [
+      {
+        "heading": "Geef je iPhone een premium OLED (niet origineel) scherm – Zonder het Apple prijskaartje",
+        "intro": [
+          "Waarom méér betalen als het zo goed kan?",
+          "Met onze premium OLED-schermen haal je een absolute topkwaliteit alternatief (niet origineel) scherm in huis, zónder het Apple prijskaartje. Laat je scherm vandaag nog professioneel vervangen door onze specialisten en geniet direct weer van een splinternieuwe iPhone ervaring! Kalibratie van een premium OLED scherm is niet mogelijk, omdat het geen origineel Apple scherm maar aan alternatief scherm is. In de instellingen zie je dit als ‘onbekend’ onderdeel.",
+          "Zoek je een betrouwbaar adres voor je telefoon reparatie in Den Bosch? Bij ons staan transparantie en kwaliteit voorop. Omdat wij resoluut kiezen voor 100% originele onderdelen, blijft de kwaliteit van je scherm, camera en batterij gewaarborgd. Bovendien mag je bij ons meekijken tijdens de reparatie."
+        ],
+        "body": [],
+        "bullets": [
+          "Klaar in 30 minuten: De meeste reparaties (zoals scherm of batterij vervangen) voeren we direct uit.",
+          "Transparante werkwijze: Geen geheimen. je kijkt gewoon mee terwijl onze expert jou toestel herstelt.",
+          "Behoud van data: je foto’s, berichten en apps blijven veilig op je toestel staan.",
+          "12 maanden garantie: Wij staan achter onze kwaliteit. je krijgt 12 maanden garantie op het vervangen onderdeel.",
+          "Ruime openingstijden: Ook ’s avonds, in het weekend en op feestdagen beschikbaar (op afspraak)."
+        ],
+        "steps": []
+      }
+    ],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/iphone-premium-oled-scherm/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/iphone-premium-oled-scherm/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "WordPress export 2026-10-12; page last changed 2026-10-09."
+      }
+    ]
+  },
+  {
+    "id": "iphone-onderdelen-kalibreren",
+    "path": "/iphone-onderdelen-kalibreren",
+    "kind": "service",
+    "originalTitle": "Uitleg iPhone onderdelen kalibreren na reparatie",
+    "title": "Uitleg iPhone onderdelen kalibreren na reparatie",
+    "eyebrow": "iPhone onderdelen",
+    "intro": "Heb je een nieuwe batterij, een vers scherm of een andere reparatie nodig? Sinds iOS 26 (voor iPhone 12 en nieuwer) is het proces een stuk transparanter geworden. je kunt nu namelijk zelf controleren of je nieuwe onderdeel perfect is gekoppeld aan je toestel via kalibratie.",
+    "seo": {
+      "title": "iPhone onderdelen kalibreren na reparatie uitleg",
+      "description": "Met iOS 18 kun je iPhone onderdelen kalibreren na reparaties. Zorg voor de kwaliteit en controleer de geschiedenis van onderdelen."
+    },
+    "sections": [
+      {
+        "heading": "Waarom kalibreren?",
+        "intro": [
+          "Na een reparatie aan je scherm, batterij, camera of backcover moet het nieuwe onderdeel 'leren' praten met je iPhone. Dit noemen we kalibreren."
+        ],
+        "body": [],
+        "bullets": [
+          "De voorwaarde: je iPhone moet up-to-date zijn met de nieuwste iOS-versie.",
+          "Het resultaat: je hebt volledige zekerheid over de kwaliteit en de herkomst van het onderdeel. Zie het als een digitaal onderhoudsboekje van je iPhone, iPad, MacBook."
+        ],
+        "steps": []
+      },
+      {
+        "heading": "Check je Servicegeschiedenis",
+        "body": [
+          "Na de reparatie kun je de status van je onderdelen eenvoudig zelf controleren. Ga naar: Instellingen > Algemeen > Info > Onderdelen- en servicegeschiedenis"
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "Jouw iPhone, Jouw Keuze",
+        "intro": [
+          "Voor reparaties aan je scherm, batterij, camera of backcover werken wij uitsluitend met de allerbeste onderdelen. je hebt bij ons de keuze uit twee hoogwaardige, originele opties:"
+        ],
+        "body": [
+          "Waarom wij hiervoor kiezen? Door met originele schermen en componenten te werken, garanderen wij de beste prestaties en de langste levensduur voor jouw iPhone."
+        ],
+        "bullets": [
+          "Apple Service Pack: Dit zijn gloednieuwe, originele onderdelen die wij rechtstreeks inkopen bij Apple of een erkende groothandel. De hoogste standaard, direct uit de verpakking.",
+          "Original Pulled: Dit zijn originele onderdelen die wij zelf zorgvuldig demonteren uit nieuwe iPhones, of inkopen bij gespecialiseerde demontagebedrijven. je krijgt dus een origineel Apple-onderdeel voor een scherpere prijs.",
+          "Apple Service Pack schermen verschijnen in de reparatie geschiedenis in je instellingen app (vanaf iOS 18) als 'origineel Apple onderdeel'.",
+          "Originele Pulled schermen verschijnen in de reparatie geschiedenis in je instellingen app (vanaf iOS 18) als 'gebruikt' onderdeel. Omdat het scherm afkomstig (pulled) is van een nieuwe andere iPhone."
+        ],
+        "steps": []
+      },
+      {
+        "heading": "Officiële factuur op naam voor uw verzekering of bedrijf",
+        "body": [
+          "Bij ons krijgt u ten alle tijden een factuur op naam met BTW specificatie. Wij staan achter onze diensten en service en geven daar dan ook 12 maanden garantie op."
+        ],
+        "bullets": [],
+        "steps": []
+      }
+    ],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/iphone-onderdelen-kalibreren/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/iphone-onderdelen-kalibreren/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "WordPress export 2026-10-12; page last changed 2026-10-09."
+      }
+    ]
+  },
+  {
+    "id": "verzekering",
+    "path": "/verzekering",
+    "kind": "service",
+    "originalTitle": "Verzekering",
+    "title": "Verzekering",
+    "eyebrow": "Verzekering",
+    "intro": "Is je smartphone of tablet gevallen of op een andere manier beschadigd geraakt? Dan bestaat de kans dat je verzekering (een deel van) de reparatiekosten vergoedt. Of de schade daadwerkelijk gedekt is, hangt onder andere af van de oorzaak, je verzekering, de gekozen dekking en het eventuele eigen risico.",
+    "seo": {
+      "title": "Verzekering bij valincident met uw smartphone",
+      "description": "Heeft u schade aan uw smartphone? Ontdek hoe uw verzekering de reparatiekosten kan dekken bij een valincident."
+    },
+    "sections": [
+      {
+        "heading": "Wordt jouw telefoonreparatie vergoed door de verzekering?",
+        "intro": [
+          "Afhankelijk van de situatie kan schade bijvoorbeeld vallen onder:"
+        ],
+        "body": [],
+        "bullets": [
+          "Inboedelverzekering: afhankelijk van je polis kan bepaalde schade aan elektronica in huis zijn meeverzekerd.",
+          "Buitenshuisdekking: heb je een aanvullende buitenshuisdekking? Dan kan schade die buiten de woning ontstaat onder de dekking vallen.",
+          "Reisverzekering: ontstaat de schade tijdens een vakantie of reis, dan kan deze in sommige gevallen onder je reisverzekering vallen.",
+          "Aansprakelijkheidsverzekering (AVP): heeft iemand anders per ongeluk jouw toestel beschadigd? Dan kan de aansprakelijkheidsverzekering van die persoon mogelijk een rol spelen."
+        ],
+        "steps": []
+      },
+      {
+        "heading": "Schaderapport of offerte nodig?",
+        "body": [
+          "Om je schadeclaim zo eenvoudig mogelijk te maken, kunnen wij kosteloos een schaderapport of reparatie offerte voor je opstellen. Daarmee beschik je over duidelijke informatie over de schade en de verwachte reparatiekosten voor je verzekeraar. Controleer altijd vooraf je polisvoorwaarden of neem contact op met je verzekeraar om te bepalen of de reparatie wordt vergoed en welke documenten nodig zijn. Is de verzekeraar akkoord en kan de reparatie worden uitgevoerd? Dan zorgen wij ervoor dat je toestel weer vakkundig en zorgvuldig wordt hersteld."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "Economisch total loss-verklaring voor smartphone, tablet, MacBook en andere apparaten",
+        "body": [
+          "Is je smartphone, tablet, MacBook of ander apparaat beschadigd en zijn de verwachte reparatiekosten hoger dan of niet meer in verhouding tot de actuele waarde van het toestel? Dan kan er sprake zijn van economisch total loss.",
+          "Dat betekent niet automatisch dat je apparaat technisch niet meer te repareren is. Wel kan reparatie financieel niet meer aantrekkelijk zijn. In sommige situaties kan reparatie alsnog zinvol zijn, bijvoorbeeld wanneer er belangrijke foto's, documenten of andere gegevens op het toestel staan waarvan geen back-up beschikbaar is."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "Total loss-rapport voor je verzekering",
+        "intro": [
+          "Heeft je verzekeraar een officiële verklaring nodig? Dan kunnen wij het toestel beoordelen en een economisch total loss-rapport opstellen. Hierin leggen we de technische schade en de verwachte reparatiekosten vast, zodat je het rapport kunt indienen bij je verzekeraar."
+        ],
+        "body": [
+          "Kortom: heb je voor je schadeclaim een professionele beoordeling of economisch total loss-verklaring nodig? Neem dan contact op met Phone Repairs Den Bosch. We beoordelen je toestel en zorgen voor een duidelijk rapport dat je bij je verzekeraar kunt indienen."
+        ],
+        "bullets": [
+          "Kosten: voor het opstellen van een officiële economisch total loss-verklaring rekenen wij € 30,-.",
+          "Voor verzekeringsclaims: het rapport kan worden gebruikt bij een schadeclaim onder bijvoorbeeld een inboedel-, reis-, buitenshuis- of elektronicaverzekering, afhankelijk van je polisvoorwaarden.",
+          "Vergoeding: je verzekeraar bepaalt uiteindelijk zelf of de schade onder de dekking valt en welk bedrag wordt uitgekeerd."
+        ],
+        "steps": []
+      },
+      {
+        "heading": "Wij repareren met uitsluitend originele onderdelen",
+        "body": [
+          "Wij repareren je toestel snel, professioneel met originele onderdelen. Je toestel blijft dus volledig origineel. Je kunt meekijken tijdens de reparatie."
+        ],
+        "bullets": [],
+        "steps": []
+      }
+    ],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/verzekering/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/verzekering/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "WordPress export 2026-10-12; page last changed 2026-10-08."
+      }
+    ]
+  },
+  {
+    "id": "duurzaamheid-en-telefoonreparatie",
+    "path": "/duurzaamheid-en-telefoonreparatie",
+    "kind": "service",
+    "originalTitle": "Duurzaamheid",
+    "title": "Duurzaamheid",
+    "eyebrow": "Duurzaamheid",
+    "intro": "Smartphones worden steeds geavanceerder, maar worden tegelijkertijd regelmatig vervangen terwijl ze technisch nog prima een ronde mee kunnen. Een gebarsten scherm, een versleten batterij of een defect onderdeel hoeft namelijk niet automatisch het einde van je telefoon te betekenen. In veel gevallen kan een gerichte reparatie de levensduur van je toestel aanzienlijk verlengen.",
+    "seo": {
+      "title": "Duurzaamheid en telefoonreparatie: Een Duurzaam Alternatief",
+      "description": "Ontdek de voordelen van duurzaamheid en telefoonreparatie. Herstel je toestel en verminder je ecologische voetafdruk."
+    },
+    "sections": [
+      {
+        "heading": "Duurzaamheid en telefoonreparatie: langer gebruiken begint met repareren",
+        "body": [
+          "Bovendien betekent langer gebruik dat er minder snel een nieuw toestel nodig is. Daarmee wordt de vraag naar nieuwe grondstoffen en productie uitgesteld en voorkom je dat een bruikbare smartphone voortijdig als elektronisch afval eindigt.",
+          "Ook financieel kan repareren aantrekkelijk zijn. Een scherm- of batterijvervanging kost vaak aanzienlijk minder dan de aanschaf van een vergelijkbaar nieuw toestel. Zo haal je meer uit de telefoon die je al hebt én stel je een nieuwe aankoop mogelijk nog jaren uit.",
+          "Kortom: door eerst te kijken of reparatie mogelijk is, maak je een bewuste keuze voor een langere levensduur van je smartphone. Hieronder leggen we uit waarom repareren, onderhouden en hergebruiken kunnen bijdragen aan minder elektronisch afval en een duurzamer gebruik van onze smartphones."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "De milieubelasting van elektronica",
+        "body": [
+          "Een nieuwe smartphone produceren vraagt om grondstoffen, energie en transport. Voor smartphones zijn onder andere lithium, kobalt, koper en verschillende andere metalen nodig. Het winnen, verwerken en vervoeren van deze materialen heeft impact op het milieu.",
+          "Daarnaast ontstaat een belangrijk deel van de klimaatimpact van een smartphone al vóórdat je het toestel daadwerkelijk gebruikt: tijdens de winning van grondstoffen en de productie van onderdelen en het toestel zelf. Volgens Milieu Centraal levert langer doen met elektronische apparaten daarom belangrijke milieuwinst op.",
+          "Juist daarom kan repareren een verschil maken. Door bijvoorbeeld een versleten batterij of gebarsten scherm te vervangen, kan een verder goed functionerende smartphone vaak nog lange tijd mee. Zo stel je de aanschaf van een nieuw toestel uit, zijn er minder snel nieuwe grondstoffen nodig en voorkom je dat een bruikbaar apparaat voortijdig elektronisch afval wordt."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "Repareren past binnen een circulaire economie",
+        "body": [
+          "In een circulaire economie worden producten en grondstoffen zo lang mogelijk gebruikt en waar mogelijk opnieuw ingezet. In plaats van kopen, gebruiken en weggooien ligt de nadruk op onderhouden, repareren, hergebruiken en recyclen.",
+          "Telefoonreparatie sluit hier direct op aan. Door alleen het defecte onderdeel te vervangen, hoeft een compleet toestel niet te worden afgeschreven vanwege bijvoorbeeld een kapot scherm, een slechte batterij of een defecte laadconnector.",
+          "Ook de Nederlandse overheid werkt aan de overgang naar een circulaire economie, met als doel om in 2050 volledig circulair te zijn. Meer hierover lees je bij de Rijksoverheid: Nederland circulair in 2050."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "Wat kun je zelf doen?",
+        "intro": [
+          "Ook met je eigen smartphone kun je bewuster omgaan met elektronica:"
+        ],
+        "body": [],
+        "bullets": [
+          "Gebruik je toestel zo lang mogelijk. Werkt je smartphone nog goed? Dan is vervangen niet automatisch nodig.",
+          "Laat defecten eerst beoordelen. Een kapot scherm, versleten batterij of ander defect is vaak te repareren.",
+          "Kies voor kwalitatieve onderdelen. Een goede reparatie met betrouwbare onderdelen kan bijdragen aan een langere levensduur van je toestel.",
+          "Overweeg Pre-Owned. Heb je toch een andere telefoon nodig? Dan kan een technisch gecontroleerd Pre-Owned toestel een alternatief zijn voor nieuw.",
+          "Lever oude elektronica verantwoord in. Is een toestel echt niet meer bruikbaar of te repareren? Lever het dan in via een geschikt inzamelpunt, zodat waardevolle materialen kunnen worden teruggewonnen."
+        ],
+        "steps": []
+      },
+      {
+        "heading": "Repareren voordat je vervangt",
+        "body": [
+          "Duurzamer omgaan met elektronica begint vooral met langer gebruiken wat je al hebt. Een gebarsten scherm of versleten batterij betekent lang niet altijd dat je een nieuwe smartphone nodig hebt.",
+          "Bij Phone Repairs Den Bosch kijken we daarom eerst naar wat er gerepareerd kan worden. Door een defect onderdeel gericht te vervangen, kan je vertrouwde toestel vaak weer lange tijd mee. Dat bespaart niet alleen de aanschaf van een nieuwe telefoon, maar helpt ook om elektronica langer in gebruik te houden.",
+          "Kortom: eerst repareren, dan pas vervangen. Zo haal je meer uit je smartphone én draag je bij aan minder elektronisch afval."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "Lever je oude apparaten verantwoord in bij Phone Repairs",
+        "body": [
+          "Heb je een oude smartphone, tablet of ander klein elektronisch apparaat dat je niet meer gebruikt? Gooi het niet zomaar weg, maar lever het verantwoord in. Bij Phone Repairs Den Bosch kun je afgedankte elektronische apparaten bij ons achterlaten, zodat ze op de juiste manier kunnen worden verwerkt.",
+          "Waarom is dat belangrijk? Elektronische apparaten bevatten verschillende waardevolle materialen die kunnen worden teruggewonnen en opnieuw gebruikt. Bovendien voorkomt een correcte verwerking dat elektronisch afval onnodig bij het restafval terechtkomt.",
+          "Daarom kijken we bij Phone Repairs eerst of een toestel nog gerepareerd of hergebruikt kan worden. Is dat niet meer mogelijk? Dan is verantwoorde recycling de volgende stap. Zo blijven apparaten en grondstoffen zo lang mogelijk in de kringloop.",
+          "Kortom: ligt er thuis nog een oude telefoon of tablet in een la? Neem hem gerust mee naar Phone Repairs. Zo zorgen we er samen voor dat oude elektronica op een verantwoorde manier een nieuwe bestemming krijgt."
+        ],
+        "bullets": [],
+        "steps": []
+      }
+    ],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/duurzaamheid-en-telefoonreparatie/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/duurzaamheid-en-telefoonreparatie/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "WordPress export 2026-10-12; page last changed 2026-10-08."
+      }
+    ]
+  },
+  {
+    "id": "klantenservice-phone-repairs",
+    "path": "/klantenservice-phone-repairs",
+    "kind": "service",
+    "originalTitle": "Klantenservice",
+    "title": "Klantenservice",
+    "eyebrow": "Klantenservice",
+    "intro": "je toestel bevat gevoelige informatie, en we behandelen dit met de grootste zorg en discretie. Als je zelf niet langs kunt komen, is opsturen een optie. Gerepareerde toestellen sturen we dezelfde dag aangetekend terug (kosten €11,-). Het is verstandig om regelmatig een back-up van je apparaat te maken. Phone Repairs Den Bosch is niet verantwoordelijk voor mogelijk dataverlies..",
+    "seo": {
+      "title": "Klantenservice die Jouw Tevredenheid Verhoogt",
+      "description": "Bij Phone Repairs staat klantenservice centraal. Wij bieden een buitengewone ervaring voor al onze klanten."
+    },
+    "sections": [
+      {
+        "heading": "Originele onderdelen klantenservice",
+        "body": [
+          "Wij repareren je toestel snel, professioneel en met originele onderdelen. je toestel blijft dus volledig origineel. je kunt meekijken tijdens de reparatie.",
+          "Tijdens de reparatie kun je onder het genot van een lekker kopje vers gemalen bonen koffie, thee, frisdrank of water meekijken hoe je toestel gerepareerd wordt. De reparatie duurt niet langer dan 30 minuten.",
+          "Wij werken op afspraak om je te garanderen dat we alle tijd en aandacht voor jou en je reparatie hebben. Door onze werkwijze heb je nooit te maken met wachttijden. je komt binnen en we repareren je toestel direct. Tijdens de reparatie kun je eventueel al jouw vragen stellen over je toestel, instellingen, enz. Op verzoek geven wij talloze tips en trucs als gratis service.",
+          "Wij nemen altijd professionele voorzorgsmaatregelen voordat wij een reparatie uitvoeren, waaronder maatregelen tegen Electro Static Discharge (ESD). je toestel wordt met de grootst mogelijke zorg en kwaliteit gerepareerd. Wij zorgen er dan ook altijd voor dat al je gegevens/data op je toestel blijven staan.",
+          "Jij kunt je toestel niet missen, geen uur. Die wetenschap vormt het uitgangspunt van onze dienstverlening: snel, klaar terwijl je meekijktt en vanuit een transparante en eerlijke bedrijfsvoering. je ziet wat we doen, en dat tegen zeer scherpe tarieven. je toestel is waardevol en bevat privacygevoelige informatie, waarmee onze klantenservice zeer zorgvuldig en discreet omgaan."
+        ],
+        "bullets": [],
+        "steps": []
+      }
+    ],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/klantenservice-phone-repairs/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/klantenservice-phone-repairs/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "WordPress export 2026-10-12; page last changed 2026-10-09."
+      }
+    ]
   }
 ]

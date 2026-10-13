@@ -1,12 +1,86 @@
 [
   {
     "id": "algemeen",
-    "scope": "Alle reparaties",
-    "durationMonths": null,
-    "terms": [],
-    "verified": false,
+    "scope": "Schermreparaties en overige reparaties",
+    "durationMonths": 12,
+    "terms": [
+      "Garantie op de werking van het door Phone Repairs vervangen of gerepareerde onderdeel.",
+      "De garantietermijn gaat in op het moment dat het gerepareerde toestel wordt overhandigd of verzonden."
+    ],
+    "verified": true,
     "sources": [
-      { "url": "https://www.phonerepairs.nl/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "CONFLICT: the original site mentions both '12 maanden' and '90 dagen' garantie. Not published until confirmed by the owner." }
+      {
+        "url": "https://www.phonerepairs.nl/garantie/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Garantie op reparatie: 12 maanden op schermreparaties (Service Pack, pulled, premium OLED) en overige reparaties. Resolves the earlier '12 maanden' vs '90 dagen' conflict."
+      }
+    ]
+  },
+  {
+    "id": "moederbord",
+    "scope": "Moederbordreparatie en microsolderen",
+    "durationMonths": 2,
+    "terms": [
+      "60 dagen garantie, alleen op het gerepareerde onderdeel of gedeelte van het moederbord."
+    ],
+    "verified": true,
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/garantie/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Moederbordreparatie en microsolderen – 60 dagen garantie (the motherboard page says 'twee maanden')."
+      }
+    ]
+  },
+  {
+    "id": "pre-owned",
+    "scope": "Pre-owned toestellen",
+    "durationMonths": 12,
+    "terms": [],
+    "verified": true,
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/garantie/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Pre-owned toestellen – 12 maanden garantie."
+      }
+    ]
+  },
+  {
+    "id": "waterschade",
+    "scope": "Waterschade",
+    "durationMonths": null,
+    "terms": [
+      "Geen garantie op onderzoek, reiniging of reparatie bij vocht-, water- of vloeistofschade."
+    ],
+    "verified": true,
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/garantie/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Waterschade – geen garantie."
+      }
+    ]
+  },
+  {
+    "id": "data-recovery",
+    "scope": "Data recovery",
+    "durationMonths": null,
+    "terms": [
+      "No cure, no pay: kan de afgesproken data niet worden hersteld, dan betaal je niet voor het dataherstel."
+    ],
+    "verified": true,
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/garantie/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Data recovery – No cure, No pay."
+      }
     ]
   }
 ]

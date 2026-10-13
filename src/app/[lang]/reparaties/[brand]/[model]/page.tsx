@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Link } from "@/components/i18n/link";
 import { BadgeCheck, Eye, ShieldCheck, Timer } from "lucide-react";
 import { DemoNote } from "@/components/devices/demo-note";
 import { DevicePhoto } from "@/components/devices/device-photo";
@@ -22,7 +23,7 @@ import {
   generalWarranty,
   getBrand,
   getDevice,
-  getVerifiedPrice,
+  getPriceList,
   relatedDevices,
   repairsForDevice,
 } from "@/lib/catalog";
@@ -31,6 +32,9 @@ import { localizePath, type Translate } from "@/lib/i18n";
 import { pageMetadata, serviceJsonLd } from "@/lib/seo";
 import { whatsappMessage } from "@/lib/site";
 import { cn } from "@/lib/utils";
+
+const formatDate = (iso: string, locale: "nl" | "en") =>
+  new Date(iso).toLocaleDateString(locale === "nl" ? "nl-NL" : "en-GB", { day: "numeric", month: "long", year: "numeric" });
 
 // All valid params are prerendered; unknown params must return a real 404,
 // so `notFound()` runs outside Suspense and navigation waits for the static page.
@@ -98,9 +102,9 @@ export default async function DevicePage({ params }: PageProps<"/[lang]/reparati
     .filter((f) => f.repairIds.length === 0 || f.repairIds.some((id) => repairIds.has(id)))
     .slice(0, 6)
     .map((f) => localizeFaq(f, locale));
-  const offers = repairs
-    .map((r) => ({ name: r.name, price: getVerifiedPrice(device.id, r.id)?.amount }))
-    .filter((o): o is { name: string; price: number } => typeof o.price === "number");
+  const priceList = getPriceList(device.id);
+  // Each published row with an amount is an Offer, under its original label.
+  const offers = (priceList?.rows ?? []).flatMap((r) => (r.amount === null ? [] : [{ name: r.label, price: r.amount }]));
   const fullName = device.name.startsWith(brand.name) || brand.id === "apple" ? device.name : `${brand.name} ${device.name}`;
   const wide = device.art === "laptop";
   const medium = device.art.startsWith("tablet") || device.art === "phone-foldable";
@@ -141,12 +145,21 @@ export default async function DevicePage({ params }: PageProps<"/[lang]/reparati
           <div>
             <h2 className="text-title font-semibold text-ink">{t("Reparaties en prijzen", "Repairs and prices")}</h2>
             <p className="mt-2 text-muted">{t("Alle prijzen zijn inclusief montage en 21% btw.", "All prices include fitting and 21% VAT.")}</p>
-            <DemoNote className="mt-6">
-              {t(
-                "Prijzen worden pas getoond als ze uit de bestaande website zijn overgenomen en gecontroleerd. Voor dit model is nog geen prijs geïmporteerd.",
-                "Prices are only shown once they have been taken over from the current website and checked. No price has been imported for this model yet.",
-              )}
-            </DemoNote>
+            {locale === "en" && (
+              <p className="mt-2 text-sm text-muted">The repair descriptions below are shown as on our Dutch price list.</p>
+            )}
+            {priceList ? (
+              <DemoNote className="mt-6">
+                {t(
+                  `Prijslijst overgenomen van de huidige website (pagina laatst gewijzigd op ${formatDate(priceList.updatedAt, locale)}).`,
+                  `Price list taken from the current website (page last changed on ${formatDate(priceList.updatedAt, locale)}).`,
+                )}
+              </DemoNote>
+            ) : (
+              <DemoNote className="mt-6">
+                {t("Voor dit model staat op de huidige website geen prijslijst.", "The current website has no price list for this model.")}
+              </DemoNote>
+            )}
             <div className="mt-6">
               <RepairPriceList device={device} repairs={repairs} />
             </div>
@@ -171,12 +184,17 @@ export default async function DevicePage({ params }: PageProps<"/[lang]/reparati
             <div className="rounded-[var(--radius-card)] bg-white p-6 ring-1 ring-line">
               <h2 className="font-semibold text-ink">{t("Garantie", "Warranty")}</h2>
               {generalWarranty?.verified && generalWarranty.durationMonths ? (
-                <p className="mt-2 text-sm leading-relaxed text-muted">
-                  {t(
-                    `${generalWarranty.durationMonths} maanden garantie op ${generalWarranty.scope.toLowerCase()}.`,
-                    `${generalWarranty.durationMonths} months warranty.`,
-                  )}
-                </p>
+                <>
+                  <p className="mt-2 text-sm leading-relaxed text-muted">
+                    {t(
+                      `${generalWarranty.durationMonths} maanden garantie op de werking van het vervangen onderdeel. Voor moederbordreparaties geldt 60 dagen; bij waterschade is er geen garantie.`,
+                      `${generalWarranty.durationMonths} months warranty on the working of the replaced part. Motherboard repairs have 60 days; water damage comes without a warranty.`,
+                    )}
+                  </p>
+                  <Link href="/garantie" className="mt-3 inline-flex text-sm font-medium text-accent-strong hover:text-accent">
+                    {t("Alles over de garantie", "All about the warranty")}
+                  </Link>
+                </>
               ) : (
                 <p className="mt-2 text-sm leading-relaxed text-muted">
                   {t(
@@ -185,12 +203,6 @@ export default async function DevicePage({ params }: PageProps<"/[lang]/reparati
                   )}
                 </p>
               )}
-              <DemoNote className="mt-4">
-                {t(
-                  "De huidige website noemt zowel 12 maanden als 90 dagen garantie. Dit wordt eerst met Phone Repairs afgestemd.",
-                  "The current website mentions both 12 months and 90 days of warranty. This will be confirmed with Phone Repairs first.",
-                )}
-              </DemoNote>
             </div>
           </aside>
         </div>

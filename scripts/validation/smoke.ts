@@ -30,7 +30,11 @@ const ROUTES = [
   "/reparaties/apple",
   "/reparaties/apple/iphone-15-pro",
   "/reparaties/samsung/galaxy-s23",
-  "/reparaties/apple/macbook-air-13-inch-m2-2022",
+  "/reparaties/apple/macbook-pro-m1-2021-14-a2442",
+  "/reparaties/google/pixel-9",
+  "/garantie",
+  "/waterschade-reparatie-phone-repairs",
+  "/verzekering",
   "/reparatie/scherm-vervangen",
   "/reparatie/waterschade",
   "/werkwijze",
@@ -45,7 +49,7 @@ const ROUTES = [
   "/pre-owned-toestellen",
   "/veelgestelde-vragen/reparatie-opsturen",
   "/blog-post",
-  "/blog-post/wat-te-doen-bij-waterschade",
+  "/blog-post/ios-27-batterijproblemen",
   "/sitemap.xml",
   "/robots.txt",
   // English
@@ -62,13 +66,20 @@ const ROUTES = [
   "/en/service-area",
   "/en/telefoon-reparatie-rosmalen",
   "/en/blog",
-  "/en/blog/wat-te-doen-bij-waterschade",
+  "/en/blog/ios-27-batterijproblemen",
+  "/en/garantie",
 ];
 
 const REDIRECTS: [string, string][] = [
   ["/over-phone-repairs/", "/over-ons"],
   ["/afspraak-maken/", "/afspraak"],
   ["/samsung-reparatie-den-bosch/samsung-s23/", "/reparaties/samsung/galaxy-s23"],
+  // Original device, series and area URLs from the WordPress export
+  ["/iphone-reparatie/iphone-15-pro/", "/reparaties/apple/iphone-15-pro"],
+  ["/google-pixel-reparatie/google-pixel-9/", "/reparaties/google/pixel-9"],
+  ["/huawei-reparatie-den-bosch/", "/reparaties/huawei"],
+  ["/iphone-reparaties-rosmalen/", "/telefoon-reparatie-rosmalen"],
+  ["/blog-post/wat-te-doen-bij-waterschade/", "/blog-post"],
   ["/iphone-reparatie/iphone-14-pro-max-3/", "/reparaties/apple/iphone-14-pro-max"],
   ["/nintendo-switch-reparatie-den-bosch/", "/nintendo-switch-reparatie"],
   ["/veelgestelde-vragen/phone-repairs-blog/", "/blog-post"],
@@ -142,6 +153,15 @@ async function main() {
     assert(res?.headers()["x-robots-tag"]?.includes("noindex"), "missing X-Robots-Tag");
   });
 
+  await check("device page: verbatim price list from the current site", async () => {
+    await page.goto(BASE + "/reparaties/apple/iphone-15-pro");
+    const row = page.getByRole("listitem").filter({ hasText: "Scherm vervangen premium OLED" });
+    await row.waitFor();
+    assert(/€\s?210\b/.test((await row.textContent()) ?? ""), `row: ${await row.textContent()}`);
+    await page.getByRole("heading", { name: "Batterij vervangen" }).waitFor();
+    await page.getByRole("heading", { name: "Accessoires" }).waitFor();
+  });
+
   await check("canonical + JSON-LD on device page", async () => {
     await page.goto(BASE + "/reparaties/apple/iphone-15-pro");
     const canonical = await page.locator('link[rel="canonical"]').getAttribute("href");
@@ -193,7 +213,8 @@ async function main() {
     assert((await finder.getByRole("option").count()) === 1, "search did not narrow to one model");
     await option.click();
     await finder.getByRole("button", { name: /Batterij vervangen/ }).click();
-    await finder.getByText("Op aanvraag").waitFor();
+    await finder.getByText(/inclusief montage en btw/).waitFor();
+    assert(/€\s?\d+/.test((await finder.locator("p.text-5xl").textContent()) ?? ""), "no published price shown");
     assert(page.url().includes("model=apple-iphone-15-pro-max"), `url not synced: ${page.url()}`);
     const href = await finder.getByRole("link", { name: /Afspraak via WhatsApp/ }).getAttribute("href");
     assert(href?.startsWith(`${WA}?text=`) && waText(href).includes("iPhone 15 Pro Max: batterij vervangen"), `cta ${href}`);
@@ -232,7 +253,8 @@ async function main() {
     await card.waitFor();
     const href = await card.getByRole("link", { name: /Plan via WhatsApp/ }).getAttribute("href");
     assert(href?.startsWith(`${WA}?text=`) && waText(href).includes("iPhone 17: batterij vervangen"), `cta ${href}`);
-    assert((await card.getByText(/€/).count()) === 0, "a price is shown without a verified source");
+    // The lowest price of the iPhone 17 battery rows on the current site, shown as "vanaf".
+    assert(/vanaf\s*€\s?\d+/.test((await card.textContent()) ?? ""), "no 'vanaf' price from the price list");
     await page.keyboard.press("Escape");
     await card.waitFor({ state: "detached" });
   });

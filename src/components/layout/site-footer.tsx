@@ -5,7 +5,26 @@ import { brandPath, brands, landingPages, localizeLanding, localizeRepair, repai
 import { getI18n } from "@/lib/i18n-server";
 import { fullAddress, mapsUrl, site, whatsappHref, whatsappMessage } from "@/lib/site";
 
-const moreIds = ["nintendo-switch-reparatie", "pre-owned-toestellen", "bijzondere-merken-reparatie", "zakelijke-reparatie", "reparatie-opsturen"];
+const moreIds = [
+  "waterschade-reparatie-phone-repairs",
+  "moederbord-reparatie-den-bosch",
+  "data-recovery",
+  "nintendo-switch-reparatie",
+  "pre-owned-toestellen",
+  "bijzondere-merken-reparatie",
+  "zakelijke-reparatie",
+  "reparatie-opsturen",
+];
+/** Info pages kept from the current site, listed with the company links. */
+const infoIds = [
+  "garantie",
+  "originele-onderdelen-phone-repairs",
+  "iphone-premium-oled-scherm",
+  "iphone-onderdelen-kalibreren",
+  "verzekering",
+  "duurzaamheid-en-telefoonreparatie",
+  "klantenservice-phone-repairs",
+];
 
 export async function SiteFooter() {
   const { locale, t } = await getI18n();
@@ -19,10 +38,17 @@ export async function SiteFooter() {
     { label: t("Werkgebied", "Service area"), href: "/werkgebied" },
     { label: "Blog", href: "/blog-post" },
   ];
-  const moreLinks = moreIds.flatMap((id) => {
-    const page = landingPages.find((p) => p.id === id);
-    return page ? [{ label: localizeLanding(page, locale).title, href: page.path }] : [];
-  });
+  const pageLinks = (ids: string[]) =>
+    ids.flatMap((id) => {
+      const page = landingPages.find((p) => p.id === id);
+      return page ? [{ label: localizeLanding(page, locale).title, href: page.path }] : [];
+    });
+  const moreLinks = pageLinks(moreIds);
+  companyLinks.push(
+    ...pageLinks(infoIds).map((l) =>
+      l.href === "/iphone-onderdelen-kalibreren" ? { ...l, label: t("iPhone onderdelen kalibreren", "Calibrating iPhone parts") } : l,
+    ),
+  );
   return (
     <footer className="bg-night text-neutral-300">
       <div className="container-page grid gap-12 py-16 sm:grid-cols-2 lg:grid-cols-[1.3fr_1fr_0.8fr_1fr_1fr] lg:py-20">

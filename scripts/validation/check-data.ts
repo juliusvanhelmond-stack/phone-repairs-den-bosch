@@ -16,7 +16,7 @@ import {
   getBrand,
   getRepair,
   landingPages,
-  prices,
+  priceLists,
   repairs,
   warranties,
 } from "../../src/lib/catalog";
@@ -52,15 +52,17 @@ for (const d of devices) {
 }
 
 const deviceIds = new Set(devices.map((d) => d.id));
-for (const p of prices) {
-  if (!deviceIds.has(p.deviceId)) fail(`price: unknown device ${p.deviceId}`);
-  if (!getRepair(p.repairId)) fail(`price: unknown repair ${p.repairId}`);
-  if (p.verified && !p.sources.some((s) => s.verification === "verified-source" || s.verification === "owner-confirmed"))
-    fail(`price ${p.deviceId}/${p.repairId}: verified but not from the live source or the owner`);
+// Price lists: one per device, copied from the original site with their source page.
+unique("price list", priceLists.map((l) => l.deviceId));
+for (const l of priceLists) {
+  if (!deviceIds.has(l.deviceId)) fail(`price list: unknown device ${l.deviceId}`);
+  if (!l.sourceUrl.startsWith(ORIGIN)) fail(`price list ${l.deviceId}: source ${l.sourceUrl} is not on ${ORIGIN}`);
+  for (const r of l.rows) if (r.repairId && !getRepair(r.repairId)) fail(`price list ${l.deviceId}: unknown repair ${r.repairId}`);
 }
 
 for (const w of warranties)
-  if (w.verified && w.durationMonths === null) fail(`warranty ${w.id}: verified without duration`);
+  // A verified entry without duration must say why (e.g. "no warranty on water damage").
+  if (w.verified && w.durationMonths === null && !w.terms.length) fail(`warranty ${w.id}: verified without duration or terms`);
 
 // Public claims, FAQs, kept pages and blog summaries must be traceable to the original site, never demo copy.
 const traceable = [
@@ -120,9 +122,10 @@ else {
   }
 }
 
-const verifiedPrices = prices.filter((p) => p.verified).length;
+const priceRowCount = priceLists.reduce((n, l) => n + l.rows.length, 0);
+const pricedRows = priceLists.reduce((n, l) => n + l.rows.filter((r) => r.amount !== null).length, 0);
 console.log(
-  `Checked ${devices.length} devices, ${brands.length} brands, ${repairs.length} repairs, ${prices.length} prices (${verifiedPrices} verified), ${claims.length} claims, ${faqs.length} FAQs, ${landingPages.length} kept pages, ${blogPosts.length} blog posts.`,
+  `Checked ${devices.length} devices, ${brands.length} brands, ${repairs.length} repairs, ${priceRowCount} price rows (${pricedRows} with an amount), ${claims.length} claims, ${faqs.length} FAQs, ${landingPages.length} kept pages, ${blogPosts.length} blog posts.`,
 );
 if (errors.length) {
   console.error(`\n✗ ${errors.length} data problem(s):\n- ${errors.join("\n- ")}`);

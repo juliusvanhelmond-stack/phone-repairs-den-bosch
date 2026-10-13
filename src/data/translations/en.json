@@ -100,46 +100,16 @@
     }
   },
   "faqs": {
-    "hoe-lang-duurt-reparatie": {
-      "question": "How long does a repair take?",
-      "answer": [
-        "Most repairs are done in about 30 minutes. You can stay and watch. For more complex repairs, such as water damage, you will hear beforehand how long the examination takes."
-      ]
-    },
     "afspraak-nodig": {
       "question": "Do I need an appointment?",
       "answer": [
         "Yes. Phone Repairs works by appointment only, so there is enough time and attention for your repair. You make an appointment via WhatsApp, by phone or by e-mail."
       ]
     },
-    "gegevens-behouden": {
-      "question": "Will my photos and data be kept?",
-      "answer": [
-        "Yes. Your data stays on your device during a repair. It is always wise to make a backup beforehand, if that is still possible."
-      ]
-    },
-    "originele-onderdelen": {
-      "question": "Which parts are used?",
-      "answer": [
-        "Phone Repairs works with original parts. For Samsung devices the original Samsung service packs are used."
-      ]
-    },
     "prijzen-inclusief": {
       "question": "Do prices include VAT and fitting?",
       "answer": [
         "Yes. Prices include fitting and 21% VAT."
-      ]
-    },
-    "waterschade-wat-doen": {
-      "question": "My phone got wet. What should I do?",
-      "answer": [
-        "Do not switch the device on and do not charge it. Get in touch straight away so it can be examined as soon as possible. The sooner, the better the chance of recovery."
-      ]
-    },
-    "opgezwollen-batterij": {
-      "question": "My battery has swollen. Is that dangerous?",
-      "answer": [
-        "Take a swollen battery seriously. Stop charging the device, don't use it and get in touch straight away."
       ]
     },
     "parkeren": {
@@ -164,6 +134,90 @@
       "question": "Can I send my device in?",
       "answer": [
         "Yes. Get in touch first, so we can check that the part is in stock and you know what the repair costs. Then send your device well packed and by registered mail."
+      ]
+    },
+    "faq-water-koffie-over-mijn-iphone-gegooid": {
+      "question": "My phone has water damage. Can it still be repaired?",
+      "answer": [
+        "Often it can. If your smartphone got wet or damp and has water damage, switch it off right away (if it has not switched itself off already). This prevents further damage. Do not switch it on again and certainly do not charge it. Then call us straight away: 073 822 0013"
+      ]
+    },
+    "faq-wat-kost-een-iphone-reparatie": {
+      "question": "What does an iPhone repair cost?",
+      "answer": [
+        "The cost of an iPhone repair depends on the type of iPhone and the fault. iPhone repairs start from €60 including fitting and VAT. Repairs are done in 30 minutes while you watch!"
+      ]
+    },
+    "faq-hoe-lang-duurt-een-iphone-reparatie": {
+      "question": "How long does an iPhone repair take?",
+      "answer": [
+        "You can simply watch while your device is repaired, so you see what we do with your phone and your privacy stays protected. Most repairs take no longer than 30 minutes."
+      ]
+    },
+    "faq-mijn-batterij-is-slecht-kan-ik-dat-laten": {
+      "question": "My battery is worn. Can I have it replaced?",
+      "answer": [
+        "Yes, we can replace the worn battery within 30 minutes, so your device lasts longer again and you get through the day with your phone."
+      ]
+    },
+    "faq-mijn-toestel-laadt-niet-meer-op-kan-ik": {
+      "question": "My device no longer charges. Can it be repaired?",
+      "answer": [
+        "You can often solve this yourself quite easily. Take a wooden toothpick and carefully clean the dirt out of the charging port. You will see a lot of dirt and dust come out. Usually your device will then charge properly again. Didn't that help? Get in touch to make an appointment and we will fix it for you."
+      ]
+    },
+    "faq-gebruiken-jullie-originele-onderdelen": {
+      "question": "Do you use original parts?",
+      "answer": [
+        "Yes. Wherever possible we repair with original parts. Depending on the brand, model and availability, we offer several high-quality options for screen repairs:",
+        "– Original Service Pack – a new original part, supplied by the manufacturer or an authorised supplier.",
+        "– Original pulled – an original part taken from another device and carefully checked for quality and function.",
+        "– Premium OLED – a high-quality alternative to the original screen. Premium OLED is not an original manufacturer part, but offers excellent image quality and performance at a more attractive price.",
+        "Which option is available differs per device. We discuss beforehand which part is used and what it costs, so you know exactly what you are choosing."
+      ]
+    },
+    "faq-krijg-ik-garantie-op-de-reparatie": {
+      "question": "Do I get a warranty on the repair?",
+      "answer": [
+        "The warranty period differs per repair. Most repairs and all screen repairs come with a 12-month warranty. Batteries have 12 months and motherboard repairs 60 days. Water damage never comes with a warranty."
+      ]
+    },
+    "faq-mijn-scherm-is-beschadigd-kan-ik-dat": {
+      "question": "My screen is damaged. Can it be repaired?",
+      "answer": [
+        "We can replace your phone's screen within 30 minutes while you watch, so you don't have to be without your device for long. And you can soon enjoy your phone again, without those annoying cracks in the screen."
+      ]
+    },
+    "faq-verlies-ik-mijn-data-bij-een-reparatie": {
+      "question": "Will I lose my data during a repair?",
+      "answer": [
+        "No, the data on your device is kept during a repair at Phone Repairs, so you don't need to worry. Your messages, WhatsApp, photos, games and so on simply stay on your device and you can use it again straight away."
+      ]
+    },
+    "faq-mijn-iphone-doet-ineens-niks-meer-wat-ik": {
+      "question": "My iPhone suddenly does nothing. What can I do?",
+      "answer": [
+        "Do a forced restart (hard reset). Sometimes a software error makes an iPhone seem completely unresponsive. A hard reset forces the logic board to restart without data loss:",
+        "– iPhone 8 and newer (including iPhones with Face ID): briefly press Volume Up, briefly press Volume Down, then hold the side button until the Apple logo appears.",
+        "– iPhone 7 (Plus) and older: hold the Volume Down button and the power button at the same time until the Apple logo appears."
+      ]
+    },
+    "faq-mijn-scherm-komt-omhoog-wat-is-er-aan-de": {
+      "question": "My screen is lifting. What is going on?",
+      "answer": [
+        "This is often caused by a swollen battery, which is not harmless. Stop charging and using the device as soon as you notice it. Don't wait, because it is a fire and explosion risk. Make an appointment with us as soon as possible to have the battery replaced professionally, without risks such as fire, explosion or the release of toxic gases."
+      ]
+    },
+    "faq-mijn-achterkant-komt-omhoog-wat-is-er-de": {
+      "question": "My back cover is lifting. What is going on?",
+      "answer": [
+        "This is often caused by a swollen battery, which is not harmless. Stop charging and using the device as soon as you notice it. Don't wait, because it is a fire and explosion risk. Make an appointment with us as soon as possible to have the battery replaced professionally, without risks such as fire, explosion or the release of toxic gases."
+      ]
+    },
+    "faq-de-achterkant-van-mijn-iphone-is-kan-dit": {
+      "question": "The back of my iPhone is cracked. Is that a problem?",
+      "answer": [
+        "Yes. The back, also called the back cover, holds important sensors that the iPhone needs to work properly. Damage to the back can damage these sensors and cause your iPhone to overheat. The battery can also be damaged, which can cause serious problems and even fire. Stop using the device and make an appointment with us soon to have the back replaced."
       ]
     }
   },
@@ -587,6 +641,593 @@
       "unconfirmed": [
         "Cost of the registered return shipment within the Netherlands: the page mentions both €11 and €12."
       ]
+    },
+    "garantie": {
+      "title": "Warranty on repairs",
+      "eyebrow": "Warranty",
+      "intro": "At Phone Repairs Den Bosch we stand behind the quality of our repairs. That is why almost every repair comes with a warranty. The warranty period depends on the type of repair and ranges from 60 days to 12 months, so you know where you stand beforehand.",
+      "seo": {
+        "title": "Warranty on repairs: what you need to know",
+        "description": "At Phone Repairs Den Bosch your repair comes with a warranty of up to 12 months. Read what is covered and for how long."
+      },
+      "sections": [
+        {
+          "heading": "Warranty on repairs",
+          "intro": [],
+          "body": [
+            "At Phone Repairs Den Bosch you can watch most repairs and see how we repair your device with great expertise. We give every repair the time and attention it needs, which is why we work by appointment. To make an appointment, call us or send a WhatsApp message."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "How much warranty do you get?",
+          "intro": [],
+          "body": [
+            "Most repairs come with a 12-month warranty. Water damage and specialist motherboard repairs have other warranty terms."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "Screen repairs – 12 months warranty",
+          "intro": [
+            "All screen repairs come with a 12-month warranty on the working of the screen we fitted.",
+            "This applies to screen repairs with:"
+          ],
+          "body": [
+            "The warranty period starts when the repaired device is handed over or shipped to you."
+          ],
+          "bullets": [
+            "Original Service Pack",
+            "Original pulled",
+            "Premium OLED"
+          ],
+          "steps": []
+        },
+        {
+          "heading": "Other repairs – 12 months warranty",
+          "intro": [],
+          "body": [
+            "Other regular repairs come with a 12-month warranty on the working of the part we replaced, such as a charging port, camera, speaker, microphone or other part."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "Motherboard repair and micro-soldering – 60 days warranty",
+          "intro": [],
+          "body": [
+            "A motherboard or micro-soldering repair comes with a 60-day warranty. This covers repairs to ICs, filters, FPC connectors and other components on the motherboard. The warranty only applies to the part or area of the motherboard that Phone Repairs repaired."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "Pre-owned devices – 12 months warranty",
+          "intro": [],
+          "body": [
+            "Our pre-owned devices come with a 12-month warranty. They are fully tested and checked before they are sold."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "Data recovery – no cure, no pay",
+          "intro": [],
+          "body": [
+            "Data recovery has no regular repair warranty. It is carried out on a no cure, no pay basis: if the data agreed beforehand cannot be recovered, you do not pay for the recovery."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "Water damage – no warranty",
+          "intro": [],
+          "body": [
+            "We give no warranty on the examination, cleaning or repair of devices with moisture, water or other liquid damage. Moisture can cause corrosion and other damage in many places inside a device, so new faults can appear later, even after a successful cleaning or repair."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "What does the warranty cover?",
+          "intro": [],
+          "body": [
+            "The warranty only covers the working of the part that Phone Repairs replaced or repaired during that repair. If we replaced a screen, for example, the warranty covers that screen. Other parts and functions of the device that were not replaced or repaired are not covered, including peripheral components: with a screen repair, the proximity sensor, Face ID, Touch ID, speakers and other parts that were not replaced fall outside the warranty on the new screen."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "When does the warranty lapse?",
+          "intro": [
+            "The warranty is meant for a defect in the part we replaced or repaired. It does not cover damage to the device or part that occurs after the repair.",
+            "Among other things, the warranty lapses with:"
+          ],
+          "body": [
+            "Such damage voids the warranty on the part concerned. Moisture, water, liquid or lightning damage also cannot be claimed under the repair warranty."
+          ],
+          "bullets": [
+            "✕ Drop, impact or pressure damage",
+            "✕ Cracks, breaks, tears and scratches",
+            "✕ Visible physical damage or damage caused by use",
+            "✕ Damage to LCD, OLED or AMOLED panels and digitizers",
+            "✕ Black spots, lines or other visible display damage caused by physical damage",
+            "✕ Moisture, water or liquid damage",
+            "✕ Heat damage, including adhesive layers coming loose due to external heat",
+            "✕ Hinges damaged or broken by physical strain",
+            "✕ Other visible damage that occurred after the repair"
+          ],
+          "steps": []
+        },
+        {
+          "heading": "No warranty on parts that were not repaired",
+          "intro": [],
+          "body": [
+            "The warranty does not apply to parts that Phone Repairs did not repair or replace during the original repair. Say we only replaced the screen and a few months later a problem appears with Face ID, Touch ID, the proximity sensor, camera or speaker: that part is not covered by the warranty on the screen repair if we did not replace or repair it. This keeps it clear what the warranty covers: the part and the work you paid Phone Repairs for."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "Cleaning and maintenance",
+          "intro": [],
+          "body": [
+            "Cleaning and maintenance work comes without a warranty, unless the repair invoice explicitly states otherwise."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "When does the warranty start?",
+          "intro": [
+            "The warranty period starts on the date the repaired product is:"
+          ],
+          "body": [
+            "The repair invoice is the basis for the repair carried out and the warranty that applies."
+          ],
+          "bullets": [
+            "handed over to the customer; or",
+            "shipped to the customer by Phone Repairs."
+          ],
+          "steps": []
+        },
+        {
+          "heading": "A problem after a repair?",
+          "intro": [],
+          "body": [
+            "Does the part we replaced not work as it should within the warranty period? Get in touch with Phone Repairs Den Bosch. We examine the device and assess whether the problem relates to the original repair and falls within the warranty terms. If the defect is covered by our warranty, we make sure it is properly resolved."
+          ],
+          "bullets": [],
+          "steps": []
+        }
+      ],
+      "unconfirmed": []
+    },
+    "waterschade-reparatie-phone-repairs": {
+      "title": "Water damage repair",
+      "eyebrow": "Water damage",
+      "intro": "Water damage calls for immediate action. The longer moisture stays in your device, the greater the risk of corrosion and further damage to the electronics.",
+      "seo": {
+        "title": "Water damage repair: what to do",
+        "description": "How water damage repair works and what to do right away to save your smartphone, tablet or MacBook."
+      },
+      "sections": [
+        {
+          "heading": "Have your device checked as soon as possible",
+          "intro": [],
+          "body": [
+            "With moisture damage, time matters. Bring your phone, tablet or MacBook to us as soon as you can: the sooner we examine and treat it, the better the chance of limiting further damage. We can clean the device professionally and check it for moisture, corrosion and other damage to parts such as the motherboard (PCB). Call us straight away for an appointment on 073 822 0013.",
+            "The standard water damage treatment costs €60 including VAT and fitting. Some devices, such as MacBooks and foldables, have a different rate, so just ask us. This covers the specialist labour, chemicals and equipment, and applies whether or not the device can be restored. The turnaround is 3 to 4 working days on average (weekends excluded)."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "Good to know about water damage",
+          "intro": [],
+          "body": [
+            "No device is completely waterproof. Even an official IP rating does not mean a smartphone can withstand every kind of moisture or liquid. Moisture damage is also not covered by the manufacturer's warranty.",
+            "Water damage? Don't switch it on, don't charge it and have it checked as soon as possible. That way you avoid causing unnecessary extra damage.",
+            "Has your smartphone, tablet, MacBook or Nintendo Switch suffered moisture damage? Phone Repairs Den Bosch cleans your device thoroughly to stop corrosion and further damage and to save your data.",
+            "The main goal is always to get the device working so your important data can be secured. Keep in mind that a device with moisture damage may work only partly or temporarily; later faults can never be ruled out. That is why we give no warranty on water damage. So make a backup of your data as soon as you pick up your device!"
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "But isn't my device waterproof?",
+          "intro": [
+            "The term \"waterproof\" can be misleading for smartphones. Many modern smartphones are designed to withstand some exposure to water, but that does not make them fully waterproof. The short answer: no, phones are water-resistant, not waterproof, and that is no guarantee against damage.",
+            "A few points to keep in mind:"
+          ],
+          "body": [
+            "What to do with moisture damage? Prevention remains the best advice: keep your smartphone away from liquids and steam as much as possible. Did your device get wet anyway? Switch it off right away, dry the outside well, don't charge it and contact us immediately. The sooner the liquid is removed professionally, the better the chance of a full recovery.",
+            "Apple, for example, states that the iPhone 17 Pro and iPhone 17 Pro Max are splash, water and dust resistant and rated IP68 under IEC standard 60529 (up to 30 minutes at a depth of 2 metres, tested under controlled conditions), that this resistance may decrease over time as a result of normal wear, that you should not try to charge a wet iPhone, and that liquid damage is not covered by the warranty.",
+            "Water damage can also cause motherboard faults; our motherboard repair rates then apply."
+          ],
+          "bullets": [
+            "An IP rating is no free pass: a rating such as IP68 means a device was tested under ideal lab conditions (for example up to 1.5 metres deep for 30 minutes in still fresh water). Real life is very different.",
+            "Not resistant to every liquid: the protection only applies to cold fresh water. Salt water, chlorinated water, soapy water, hot steam (bathroom or sauna) and chemicals attack the seals straight away.",
+            "Only meant for accidents: the seal is an emergency measure for a drop in a puddle or a rain shower, not for taking photos under water or using the device in the shower.",
+            "Wear reduces protection: drops, knocks, normal ageing of the rubber seals or earlier repairs gradually reduce water resistance. A one-year-old device is far less protected than a new one.",
+            "No warranty on water damage: no manufacturer, and Phone Repairs neither, covers moisture damage under warranty, whatever the device's IP rating.",
+            "Liquid Damage Indicator (LDI): this indicator inside your device changes colour when it gets wet, after which the manufacturer's warranty no longer applies."
+          ],
+          "steps": []
+        },
+        {
+          "heading": "No warranty on water damage",
+          "intro": [],
+          "body": [
+            "Manufacturers, and we neither, never give a warranty on water or drop damage. A repairer can easily detect water damage, because all mobile devices contain indicators that change colour on contact with moisture."
+          ],
+          "bullets": [],
+          "steps": []
+        }
+      ],
+      "unconfirmed": []
+    },
+    "moederbord-reparatie-den-bosch": {
+      "title": "Motherboard repairs Den Bosch",
+      "eyebrow": "Motherboard repair",
+      "intro": "The latest SMD components are so small that they can no longer be fitted with a traditional soldering iron, but hot-air soldering makes it possible. A hot-air station with a powerful heating element lets us de-solder and solder the smallest components, QFPs and BGAs by hand on the motherboard (the printed circuit board). We use professional tools from brands including Amscope, Wiha, Hakko, Baku, Quick and Fluke.",
+      "seo": {
+        "title": "Motherboard repair: micro-soldering in Den Bosch",
+        "description": "Motherboard repair and micro-soldering for smartphones and tablets at Phone Repairs in Den Bosch, with 60 days warranty."
+      },
+      "sections": [
+        {
+          "heading": "Hot-air soldering",
+          "intro": [],
+          "body": [
+            "Repairs must be done properly and must last. That is why we only use original parts and give two months' warranty on motherboard repairs and the parts replaced."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "Repair risks",
+          "intro": [],
+          "body": [
+            "Electronic repairs are unpredictable. Your device may turn out to be beyond repair or may be permanently damaged and become unusable during the repair. Circuit board components deteriorate over time and can fail without warning, especially in devices with liquid damage, where components can short-circuit, oxidise, corrode and rust over time.",
+            "For devices with glued screens, such as iPads, the screen has to be prised loose to reach the internal components. Screens are very fragile and can crack or break while being prised open. We have a lot of experience and the risk of breakage is minimal, but glass can break and there are risks. That is the honest story.",
+            "Touch ID / Face ID on Apple devices can fail and become unusable during motherboard repairs. Although this is uncommon, it can happen depending on the condition of the device, and it cannot be determined in advance.",
+            "The above is therefore never covered by a warranty, because these are the risks of the repair. This risk lies entirely with the customer."
+          ],
+          "bullets": [],
+          "steps": []
+        }
+      ],
+      "unconfirmed": []
+    },
+    "data-recovery": {
+      "title": "Data recovery",
+      "eyebrow": "Data recovery",
+      "intro": "Data loss always comes at a bad time. Photos, documents, business files or other important data can be of great personal or business value. When your phone, tablet, laptop, hard drive, SSD, NAS or SD card stops working, data recovery can be the answer. Phone Repairs and Stellar handle your storage device with the greatest care and work professionally and confidentially, with one goal: to get your lost or inaccessible data back as safely as possible.",
+      "seo": {
+        "title": "Data recovery: your data back after data loss",
+        "description": "Professional data recovery for phones, tablets, laptops and drives, carried out with care and confidentiality. No cure, no pay."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "originele-onderdelen-phone-repairs": {
+      "title": "Original parts",
+      "eyebrow": "Parts",
+      "intro": "At Phone Repairs Den Bosch we deliver reliable craftsmanship for your phone, tablet, MacBook or Nintendo Switch. With our experience and original Service Pack parts we guarantee quality without compromise, so your device works as well and as reliably as before.",
+      "seo": {
+        "title": "Original parts to keep original quality",
+        "description": "Why original parts matter for your device, and which part qualities Phone Repairs uses for iPhone and other repairs."
+      },
+      "sections": [
+        {
+          "heading": "We use original service pack parts",
+          "intro": [],
+          "body": [
+            "We use original service pack parts wherever possible. We order them directly from manufacturers such as Apple, Samsung, Google, Xiaomi and LG Display, or from specialist wholesalers, so you and we can be sure of the best quality parts. For some devices we also offer pulled parts: these are taken from an existing device and are cheaper than service pack parts, but they are original parts."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "Calibrating iPhone parts",
+          "intro": [],
+          "body": [
+            "From iOS 18 and on iPhone 12 and newer, a part can be calibrated (paired with your iPhone) after a screen, battery, camera or back cover repair. Your device must be updated to the latest available iOS version, otherwise calibration is not possible. After such a repair you can check in Settings that an original part was used. It works like a service book, showing which parts were replaced and which quality was used."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "iPhone parts and service history",
+          "intro": [],
+          "body": [
+            "After a repair, the section 'Parts and Service History' appears under Settings > General > About on your iPhone. If the repair was done with original Apple service pack parts and processes, it says 'Genuine' next to the part. Pulled parts show as 'Used', because they come from another new iPhone. In some cases it says 'Unknown', for example when the front flex of the old screen has to be transferred or when calibration is not possible."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "iPhone screens and parts",
+          "intro": [
+            "For iPhone screen, battery, camera, Face ID / front camera module and back cover repairs, we use original Apple Service Pack parts or original pulled parts: the choice is yours.",
+            "We remove original pulled screens and parts from new iPhones ourselves or buy them from dismantling companies. That way we obtain fully original screens and parts and can offer you the best repairs for your iPhone."
+          ],
+          "body": [],
+          "bullets": [
+            "Apple Service Pack screens and parts appear in the repair history in your Settings app (from iOS 18) as a 'genuine Apple part'.",
+            "Original pulled screens and parts appear in the repair history in your Settings app (from iOS 18) as a 'used' part, because the screen or other part comes (pulled) from another iPhone. In some cases it says 'Unknown', for example when the front flex of the old screen has to be transferred or when calibration is not possible, for instance because of outdated software."
+          ],
+          "steps": []
+        }
+      ],
+      "unconfirmed": []
+    },
+    "iphone-premium-oled-scherm": {
+      "title": "iPhone premium OLED screen",
+      "eyebrow": "iPhone screens",
+      "intro": "Tired of a damaged or dull screen, but not willing to pay top price? Our premium OLED screens deliver almost exactly the deep colours and razor-sharp image you are used to, at a more affordable price.",
+      "seo": {
+        "title": "iPhone premium OLED screen: top quality for less",
+        "description": "A premium OLED (non-original) replacement screen for your iPhone: sharp image quality without the Apple price tag."
+      },
+      "sections": [
+        {
+          "heading": "Give your iPhone a premium OLED (non-original) screen – without the Apple price tag",
+          "intro": [
+            "Why pay more when it can be this good?",
+            "With our premium OLED screens you get a top-quality alternative (non-original) screen, without the Apple price tag. Have your screen replaced professionally by our specialists today and enjoy a brand-new iPhone experience straight away! Calibration of a premium OLED screen is not possible, because it is an alternative rather than an original Apple screen. In Settings it shows as an 'unknown' part.",
+            "Looking for a reliable place for your phone repair in Den Bosch? We put transparency and quality first, and you can watch while your device is repaired."
+          ],
+          "body": [],
+          "bullets": [
+            "Ready in 30 minutes: most repairs (such as a screen or battery replacement) are done straight away.",
+            "Transparent way of working: no secrets, you simply watch while our expert repairs your device.",
+            "Your data stays: your photos, messages and apps stay safely on your device.",
+            "12 months warranty: we stand behind our quality and give 12 months warranty on the replaced part.",
+            "Generous opening hours: also in the evenings, at weekends and on public holidays (by appointment)."
+          ],
+          "steps": []
+        }
+      ],
+      "unconfirmed": []
+    },
+    "iphone-onderdelen-kalibreren": {
+      "title": "Calibrating iPhone parts after a repair",
+      "eyebrow": "iPhone parts",
+      "intro": "Need a new battery, a fresh screen or another repair? Since iOS 26 (for iPhone 12 and newer) the process has become much more transparent: you can now check yourself that your new part is properly paired with your device through calibration.",
+      "seo": {
+        "title": "Calibrating iPhone parts after a repair explained",
+        "description": "How iPhone parts are calibrated after a repair and how to check the parts and service history on your iPhone."
+      },
+      "sections": [
+        {
+          "heading": "Why calibrate?",
+          "intro": [
+            "After a screen, battery, camera or back cover repair, the new part has to 'learn' to talk to your iPhone. This is called calibration."
+          ],
+          "body": [],
+          "bullets": [
+            "The condition: your iPhone must be up to date with the latest iOS version.",
+            "The result: full certainty about the quality and origin of the part. Think of it as a digital service book for your iPhone, iPad or MacBook."
+          ],
+          "steps": []
+        },
+        {
+          "heading": "Check your service history",
+          "intro": [],
+          "body": [
+            "After the repair you can easily check the status of your parts yourself. Go to: Settings > General > About > Parts and Service History"
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "Your iPhone, your choice",
+          "intro": [
+            "For screen, battery, camera or back cover repairs we only work with the very best parts. You can choose between two high-quality original options:"
+          ],
+          "body": [
+            "Why we choose this? By working with original screens and components, we ensure the best performance and the longest life for your iPhone."
+          ],
+          "bullets": [
+            "Apple Service Pack: brand-new original parts that we buy directly from Apple or an authorised wholesaler. The highest standard, straight out of the box.",
+            "Original pulled: original parts that we carefully remove from new iPhones ourselves or buy from specialist dismantling companies. So you get an original Apple part for a sharper price.",
+            "Apple Service Pack screens appear in the repair history in your Settings app (from iOS 18) as a 'genuine Apple part'.",
+            "Original pulled screens appear in the repair history in your Settings app (from iOS 18) as a 'used' part, because the screen comes (pulled) from another new iPhone."
+          ],
+          "steps": []
+        },
+        {
+          "heading": "Official invoice in your name for your insurer or business",
+          "intro": [],
+          "body": [
+            "You always receive an invoice in your name with a VAT specification. We stand behind our work and service and give 12 months warranty on it."
+          ],
+          "bullets": [],
+          "steps": []
+        }
+      ],
+      "unconfirmed": []
+    },
+    "verzekering": {
+      "title": "Insurance",
+      "eyebrow": "Insurance",
+      "intro": "Did your smartphone or tablet fall or get damaged in another way? Your insurance may cover (part of) the repair costs. Whether the damage is actually covered depends on, among other things, the cause, your insurance, the cover you chose and any excess.",
+      "seo": {
+        "title": "Insurance after dropping your smartphone",
+        "description": "Damage to your smartphone? How your insurance may cover the repair costs, and how we help with a damage report or total loss statement."
+      },
+      "sections": [
+        {
+          "heading": "Is your phone repair covered by your insurance?",
+          "intro": [
+            "Depending on the situation, damage may for example be covered by:"
+          ],
+          "body": [],
+          "bullets": [
+            "Home contents insurance: depending on your policy, some damage to electronics at home may be covered.",
+            "Cover outside the home: with additional cover outside the home, damage that happens away from home may be covered.",
+            "Travel insurance: damage during a holiday or trip may in some cases be covered by your travel insurance.",
+            "Liability insurance: did someone else accidentally damage your device? Their liability insurance may then play a role."
+          ],
+          "steps": []
+        },
+        {
+          "heading": "Need a damage report or quote?",
+          "intro": [],
+          "body": [
+            "To make your claim as easy as possible, we can draw up a damage report or repair quote for you free of charge. It gives your insurer clear information about the damage and the expected repair costs. Always check your policy conditions beforehand or contact your insurer to find out whether the repair is covered and which documents are needed. Has your insurer agreed and can the repair go ahead? Then we make sure your device is repaired skilfully and carefully."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "Economic total loss statement for smartphones, tablets, MacBooks and other devices",
+          "intro": [],
+          "body": [
+            "Is your smartphone, tablet, MacBook or other device damaged and are the expected repair costs higher than, or out of proportion to, the current value of the device? Then it may be an economic total loss.",
+            "That does not automatically mean the device is technically beyond repair, but repair may no longer make financial sense. In some cases repair can still be worthwhile, for example when there are important photos, documents or other data on the device without a backup."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "Total loss report for your insurer",
+          "intro": [
+            "Does your insurer need an official statement? We can assess the device and draw up an economic total loss report recording the technical damage and the expected repair costs, so you can submit it to your insurer."
+          ],
+          "body": [
+            "In short: need a professional assessment or an economic total loss statement for your claim? Get in touch with Phone Repairs Den Bosch. We assess your device and provide a clear report you can submit to your insurer."
+          ],
+          "bullets": [
+            "Cost: we charge €30 for an official economic total loss statement.",
+            "For insurance claims: the report can be used for a claim under, for example, home contents, travel, outside-the-home or electronics insurance, depending on your policy.",
+            "Reimbursement: your insurer decides whether the damage is covered and what amount is paid out."
+          ],
+          "steps": []
+        },
+        {
+          "heading": "We repair with original parts only",
+          "intro": [],
+          "body": [
+            "We repair your device quickly and professionally with original parts, so your device stays fully original. You can watch while it is repaired."
+          ],
+          "bullets": [],
+          "steps": []
+        }
+      ],
+      "unconfirmed": []
+    },
+    "duurzaamheid-en-telefoonreparatie": {
+      "title": "Sustainability",
+      "eyebrow": "Sustainability",
+      "intro": "Smartphones keep getting more advanced, yet they are often replaced while they are technically still fine. A cracked screen, a worn battery or a faulty part does not have to be the end of your phone: in many cases a targeted repair can extend its life considerably.",
+      "seo": {
+        "title": "Sustainability and phone repair",
+        "description": "Why repairing your phone is the sustainable choice: use it longer, cut electronic waste and hand in old devices responsibly."
+      },
+      "sections": [
+        {
+          "heading": "Sustainability and phone repair: using it longer starts with repairing",
+          "intro": [],
+          "body": [
+            "Using a device longer also means you need a new one less quickly. That postpones the demand for new raw materials and production, and keeps a usable smartphone from ending up as electronic waste too soon.",
+            "Repairing can also make financial sense. A screen or battery replacement often costs considerably less than a comparable new device, so you get more out of the phone you already have and may postpone a new purchase for years.",
+            "In short: by first checking whether a repair is possible, you make a conscious choice for a longer life for your smartphone. Below we explain how repairing, maintaining and reusing can help reduce electronic waste and make our smartphone use more sustainable."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "The environmental impact of electronics",
+          "intro": [],
+          "body": [
+            "Producing a new smartphone takes raw materials, energy and transport. Smartphones need lithium, cobalt, copper and various other metals, and mining, processing and transporting these materials has an environmental impact.",
+            "A large part of a smartphone's climate impact arises before you even use it: during the extraction of raw materials and the production of the parts and the device itself. According to Milieu Centraal, using electronic devices for longer therefore brings significant environmental gains.",
+            "That is exactly why repairing can make a difference. By replacing a worn battery or a cracked screen, an otherwise well-functioning smartphone can often last a long time. You postpone buying a new device, fewer new raw materials are needed and a usable device does not become electronic waste too soon."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "Repairing fits a circular economy",
+          "intro": [],
+          "body": [
+            "In a circular economy, products and raw materials are used as long as possible and reused where possible. Instead of buying, using and throwing away, the focus is on maintaining, repairing, reusing and recycling.",
+            "Phone repair fits right in. By replacing only the faulty part, a whole device does not have to be written off because of a broken screen, a poor battery or a faulty charging connector.",
+            "The Dutch government is also working towards a circular economy, with the goal of being fully circular by 2050. You can read more about this on the Rijksoverheid website: Nederland circulair in 2050."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "What can you do yourself?",
+          "intro": [
+            "You can also use your own smartphone more consciously:"
+          ],
+          "body": [],
+          "bullets": [
+            "Use your device as long as possible. Is your smartphone still working well? Then replacing it is not automatically necessary.",
+            "Have faults assessed first. A broken screen, worn battery or other fault can often be repaired.",
+            "Choose quality parts. A good repair with reliable parts can help your device last longer.",
+            "Consider pre-owned. Do you need another phone after all? A technically checked pre-owned device can be an alternative to a new one.",
+            "Hand in old electronics responsibly. Is a device really no longer usable or repairable? Hand it in at a suitable collection point, so valuable materials can be recovered."
+          ],
+          "steps": []
+        },
+        {
+          "heading": "Repair before you replace",
+          "intro": [],
+          "body": [
+            "Using electronics more sustainably starts with using what you already have for longer. A cracked screen or worn battery does not always mean you need a new smartphone.",
+            "That is why Phone Repairs Den Bosch first looks at what can be repaired. By replacing a faulty part, your trusted device can often last a long time again. That saves buying a new phone and helps keep electronics in use for longer.",
+            "In short: repair first, replace later. You get more out of your smartphone and help reduce electronic waste."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "Hand in your old devices responsibly at Phone Repairs",
+          "intro": [],
+          "body": [
+            "Do you have an old smartphone, tablet or other small electronic device that you no longer use? Don't just throw it away, but hand it in responsibly. You can leave discarded electronic devices with Phone Repairs Den Bosch so they can be processed properly.",
+            "Why does that matter? Electronic devices contain various valuable materials that can be recovered and reused, and proper processing keeps electronic waste out of the general waste.",
+            "That is why we first check whether a device can still be repaired or reused. If not, responsible recycling is the next step, so devices and raw materials stay in the loop as long as possible.",
+            "In short: is there an old phone or tablet in a drawer at home? Feel free to bring it to Phone Repairs, so together we make sure old electronics get a responsible new destination."
+          ],
+          "bullets": [],
+          "steps": []
+        }
+      ],
+      "unconfirmed": []
+    },
+    "klantenservice-phone-repairs": {
+      "title": "Customer service",
+      "eyebrow": "Customer service",
+      "intro": "Your device contains sensitive information, and we treat it with the greatest care and discretion. If you can't come by yourself, you can send it in: we return repaired devices by registered post on the same day (cost €11). It is wise to back up your device regularly; Phone Repairs Den Bosch is not responsible for any data loss.",
+      "seo": {
+        "title": "Customer service at Phone Repairs",
+        "description": "Customer service is central at Phone Repairs: repairs by appointment while you watch, with original parts and care for your data."
+      },
+      "sections": [
+        {
+          "heading": "Original parts",
+          "intro": [],
+          "body": [
+            "We repair your device quickly, professionally and with original parts, so your device stays fully original. You can watch while it is repaired.",
+            "During the repair you can enjoy a cup of freshly ground coffee, tea, a soft drink or water while you watch how your device is repaired. The repair takes no longer than 30 minutes.",
+            "We work by appointment so we can give you and your repair all the time and attention needed. Because of the way we work, you never have to wait: you come in and we repair your device straight away. During the repair you can ask any questions about your device, settings and so on. On request we share plenty of tips and tricks as a free service.",
+            "We always take professional precautions before a repair, including measures against electrostatic discharge (ESD). Your device is repaired with the greatest care and quality, and we always make sure all your data stays on your device.",
+            "You can't do without your device, not even for an hour. That is the starting point of our service: fast, done while you watch, and run in a transparent and honest way. You see what we do, at very competitive rates. Your device is valuable and contains private information, which our customer service handles with great care and discretion."
+          ],
+          "bullets": [],
+          "steps": []
+        }
+      ],
+      "unconfirmed": []
     }
   },
   "blog": {
@@ -606,14 +1247,6 @@
         "Salt water, chlorinated water and hot steam can damage the seals. Water damage is never covered by warranty, whatever your device's IP rating."
       ]
     },
-    "wat-te-doen-bij-waterschade": {
-      "title": "What to do after water damage",
-      "excerpt": "Phone got wet? Here is what to do, and above all what not to do.",
-      "summary": [
-        "Don't dry your device with a hair dryer and don't put it in rice. That doesn't help and can cause more damage.",
-        "Bring your device in as soon as possible, ideally within 72 hours, so it can be cleaned chemically. Water damage itself is never covered by warranty."
-      ]
-    },
     "flexible-hydrogel-screen-protectors": {
       "title": "Flexible hydrogel screen protector",
       "excerpt": "According to Phone Repairs, a hydrogel screen protector is the best protection for your screen.",
@@ -622,12 +1255,100 @@
         "Is the screen broken anyway? A screen replacement is usually done within 30 minutes while you watch."
       ]
     },
-    "enkel-het-glas-vervangen-van-de-smartphone": {
-      "title": "Replacing only the glass of your smartphone?",
-      "excerpt": "Can you have only the glass replaced? Yes, but also no.",
+    "iphone-duo-wat-biedt-apples-eerste-opvouwbare-iphone": {
+      "title": "iPhone Duo: what does Apple's first foldable iPhone offer?",
+      "excerpt": "An iPhone you unfold for a bigger screen: with the iPhone Duo, Apple introduces a new way of using your phone.",
       "summary": [
-        "On a few models the glass can be replaced separately from the display.",
-        "On most smartphones the glass and the display are bonded with adhesive. In that case the complete screen is replaced."
+        "An iPhone you unfold for a bigger screen: with the iPhone Duo, Apple introduces a new way of using your phone. The device combines two screens with a design that opens like a book. What does that mean in practice, and what should you look out for if you want to switch? Phone Repairs Den Bosch lists the main points.",
+        "The device has a 5.4-inch outer screen and a foldable 7.6-inch inner screen. Folded, you can read messages and use your phone for everyday tasks; unfolded you get more room for documents, websites and videos. It remains a personal trade-off: a wider device feels different in your hand and pocket than a traditional iPhone."
+      ]
+    },
+    "batterij-van-je-telefoon-of-laptop-opgezwollen-dit-moet-je-doen": {
+      "title": "Swollen battery in your phone or laptop? Here is what to do",
+      "excerpt": "Is the back or screen of your phone lifting, or does your laptop no longer close properly? These can be signs of a swollen battery.",
+      "summary": [
+        "Is the back of your phone lifting, or the screen? Does your laptop no longer close properly, or does your device suddenly wobble on a flat table? These can be signs of a swollen battery. Your device does not have to be written off, but it is important to act straight away.",
+        "Stop using your device and stop charging it! A swollen battery is damaged and can cause a fire. Have your device assessed by a specialist: make an appointment and get free advice from us."
+      ]
+    },
+    "wegwijs-in-apples-zelfontwikkelde-chips": {
+      "title": "A guide to Apple's own chips",
+      "excerpt": "Apple chips explained: what does the processor mean for your device?",
+      "summary": [
+        "Apple chips explained: what does the processor mean for your device?",
+        "Opening an app, taking a photo or making a video call all involve computing work, and Apple uses its own chips for it. Names like A19, M4 and H2 sound technical, but mainly tell you what task a chip was made for. What do you notice in daily use? And if your iPhone gets slower, is the processor to blame?"
+      ]
+    },
+    "snapdragon-8-elite-gen-6-wat-betekenen-de-nieuwe-chips-voor-jouw-smartphone": {
+      "title": "Snapdragon 8 Elite Gen 6: what do the new chips mean for your smartphone?",
+      "excerpt": "New Snapdragon chips. But do you need a new phone?",
+      "summary": [
+        "New Snapdragon chips. But do you need a new phone?",
+        "The Snapdragon 8 Elite Gen 6 promises more speed and new possibilities. What do you notice in daily use, and when is it better to keep using your current device?"
+      ]
+    },
+    "legendarische-apple-reclames": {
+      "title": "Legendary Apple commercials",
+      "excerpt": "Over the years Apple has made many commercials that became beautiful, moving and iconic. Here are my (Martijn's) favourites.",
+      "summary": [
+        "Over the years Apple has made many commercials that became beautiful, moving and iconic. Here are my (Martijn's) favourites.",
+        "1984 (Super Bowl, 1984): directed by Ridley Scott to introduce the Macintosh. It showed a dystopian world inspired by George Orwell, broken open by a woman throwing a hammer, and set the tone for Apple's rebellious image."
+      ]
+    },
+    "een-back-up-maken-van-je-iphone-of-android-telefoon-lees-hier-hoe": {
+      "title": "How to back up your iPhone or Android phone",
+      "excerpt": "Your smartphone holds almost your whole life, and the data on it is priceless. A regular backup saves you a lot of stress.",
+      "summary": [
+        "Our smartphones run almost our whole lives, and the data on them is priceless. Want to avoid losing precious photos or important files? Good preparation is half the work, and a regular backup saves you a lot of stress. This article shows how to back up your iPhone or Android device quickly and easily.",
+        "iCloud is a simple and easy way to back up your iOS device. Every registered iOS user gets 5 GB of free iCloud storage, and you can back up your iPhone with a few clicks whenever you like, or let it happen automatically so you don't forget."
+      ]
+    },
+    "klinken-nieuwe-smartphones-straks-minder-goed-door-het-chiptekort": {
+      "title": "Will new smartphones sound worse because of the chip shortage?",
+      "excerpt": "Will new smartphones sound worse because of the chip shortage?",
+      "summary": [
+        "Will new smartphones sound worse because of the chip shortage?",
+        "You buy a brand-new smartphone and expect improvements in almost every area: a faster processor, better cameras, a brighter screen and of course good sound. Yet that last point could come under pressure in some future smartphones. Strong global demand for memory chips, partly for AI data centres, is squeezing memory availability and prices, so manufacturers look critically at costs, including components that are less visible to consumers."
+      ]
+    },
+    "samsung-galaxy-z-fold-8-recordaantal-pre-orders-maar-past-een-vouwbare-telefoon-bij-jou": {
+      "title": "Samsung Galaxy Z Fold 8: record pre-orders, but is a foldable phone right for you?",
+      "excerpt": "A phone that fits in your pocket and unfolds for extra screen space: the idea behind a foldable smartphone remains attractive.",
+      "summary": [
+        "A phone that fits in your pocket and unfolds for extra screen space: the idea behind a foldable smartphone remains attractive, and interest in Samsung's latest Fold models is high. But what do sales records say about daily use? And what should you look out for when you buy or repair such a device?",
+        "You can come to Phone Repairs in Den Bosch with questions about your foldable Samsung. This article looks at the popularity of the Galaxy Z Fold 8, maintenance and the options when it gets damaged."
+      ]
+    },
+    "iphone-problemen-oplossen": {
+      "title": "Solving iPhone problems",
+      "excerpt": "Solving iPhone problems: from a battery that drains fast to a screen that doesn't respond.",
+      "summary": [
+        "Solving iPhone problems: from a battery that drains fast to a screen that doesn't respond.",
+        "Your iPhone no longer charges, switches off unexpectedly or doesn't respond to touch. Maybe the camera isn't working properly or people can barely hear you on calls. Such problems are annoying, but they don't automatically mean you need a new phone."
+      ]
+    },
+    "originele-apple-opladers-en-kabels-waarom-kwaliteit-cruciaal-is": {
+      "title": "Original Apple chargers and cables: why quality matters",
+      "excerpt": "Charging seems simple, yet the adapter and cable help determine how safely and reliably it happens.",
+      "summary": [
+        "You plug in your iPhone, the battery icon appears and you carry on with your day. Charging seems simple, yet the adapter and cable help determine how safely and reliably it happens. An accessory that looks fine and charges your phone is not necessarily well designed.",
+        "Original Apple chargers and cables are a reliable choice, provided you use the right type and buy them from a reliable seller. Suitable accessories from other manufacturers can also work safely; the big risk lies in counterfeits, substandard parts and products of unclear origin or specifications."
+      ]
+    },
+    "iphone-premium-oled-aftermarket-schermen": {
+      "title": "iPhone premium OLED (aftermarket) screens",
+      "excerpt": "Give your iPhone a premium OLED (non-original) screen, without the Apple price tag.",
+      "summary": [
+        "Give your iPhone a premium OLED (non-original) screen, without the Apple price tag.",
+        "Tired of a damaged or dull screen, but not willing to pay top price? Our premium OLED screens deliver almost exactly the deep colours and razor-sharp image you are used to, at a more affordable price."
+      ]
+    },
+    "waarom-repareren-van-telefoons-essentieel-is": {
+      "title": "Why repairing phones matters",
+      "excerpt": "Sustainability and phone repair: using it longer starts with repairing.",
+      "summary": [
+        "Sustainability and phone repair: using it longer starts with repairing.",
+        "Smartphones keep getting more advanced, yet they are often replaced while they are technically still fine. A cracked screen, a worn battery or a faulty part does not have to be the end of your phone: in many cases a targeted repair can extend its life considerably."
       ]
     }
   }

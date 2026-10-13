@@ -1,5 +1,5 @@
 import { Aura } from "@/components/ui/aura";
-import { devicePath, getDevice, getRepair, getVerifiedPrice, localizeRepair, repairPath } from "@/lib/catalog";
+import { devicePath, getDevice, fromPrice, getRepair, localizeRepair, repairPath } from "@/lib/catalog";
 import { getI18n } from "@/lib/i18n-server";
 import { isDemo, whatsappHref, whatsappMessage } from "@/lib/site";
 import { IphoneExperience, type RepairInfo } from "./iphone-experience";
@@ -11,7 +11,7 @@ const VERIFIED_QUICK = new Set<RepairKey>(["display", "battery"]);
 
 /**
  * Homepage section with the scroll-driven exploded iPhone. Repair content,
- * links and (verified) prices come from the catalog — nothing is invented here.
+ * links and "vanaf" prices come from the catalog (the original price lists) — nothing is invented here.
  */
 export async function IphoneSection() {
   const { locale, t } = await getI18n();
@@ -21,7 +21,7 @@ export async function IphoneSection() {
       const found = getRepair(REPAIR_SERVICE_IDS[key]);
       if (!found) throw new Error(`Unknown repair service for ${key}`);
       const service = localizeRepair(found, locale);
-      const price = device ? getVerifiedPrice(device.id, service.id)?.amount : undefined;
+      const price = device ? fromPrice(device.id, service.id) : undefined;
       const info: RepairInfo = {
         name: service.name,
         summary: service.summary,

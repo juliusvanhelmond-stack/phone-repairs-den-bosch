@@ -1,22 +1,383 @@
 [
-  { "id": "hoe-lang-duurt-reparatie", "question": "Hoe lang duurt een reparatie?", "answer": ["De meeste reparaties zijn binnen ongeveer 30 minuten klaar. Je kunt erbij blijven en meekijken. Bij complexere reparaties, zoals waterschade, hoor je vooraf hoe lang het onderzoek duurt."], "topics": ["algemeen"], "repairIds": [],
-    "sources": [{ "url": "https://www.phonerepairs.nl/", "verification": "search-index", "capturedAt": "2026-10-08" }] },
-  { "id": "afspraak-nodig", "question": "Moet ik een afspraak maken?", "answer": ["Ja. Phone Repairs werkt alleen op afspraak, zodat er voldoende tijd en aandacht is voor jouw reparatie. Je maakt een afspraak via WhatsApp, telefonisch of per e-mail."], "topics": ["afspraak"], "repairIds": [],
-    "sources": [{ "url": "https://www.phonerepairs.nl/afspraak-maken/", "verification": "search-index", "capturedAt": "2026-10-08" }] },
-  { "id": "gegevens-behouden", "question": "Blijven mijn foto's en gegevens bewaard?", "answer": ["Ja. Bij een reparatie blijven je gegevens op je toestel staan. Het is altijd verstandig om vooraf een back-up te maken, als dat nog lukt."], "topics": ["algemeen"], "repairIds": [],
-    "sources": [{ "url": "https://www.phonerepairs.nl/telefoon-reparatie-den-bosch/", "verification": "search-index", "capturedAt": "2026-10-08" }] },
-  { "id": "originele-onderdelen", "question": "Welke onderdelen worden gebruikt?", "answer": ["Phone Repairs werkt met originele onderdelen. Voor Samsung-toestellen worden de originele Samsung service packs gebruikt."], "topics": ["onderdelen"], "repairIds": ["scherm-vervangen", "batterij-vervangen"],
-    "sources": [{ "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s23/", "verification": "search-index", "capturedAt": "2026-10-08" }] },
-  { "id": "prijzen-inclusief", "question": "Zijn de prijzen inclusief btw en montage?", "answer": ["Ja. De prijzen zijn inclusief montage en 21% btw."], "topics": ["prijzen"], "repairIds": [],
-    "sources": [{ "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s23/", "verification": "search-index", "capturedAt": "2026-10-08" }] },
-  { "id": "waterschade-wat-doen", "question": "Mijn telefoon is nat geworden. Wat moet ik doen?", "answer": ["Zet het toestel niet aan en laad het niet op. Neem direct contact op, zodat het zo snel mogelijk onderzocht kan worden. Hoe eerder, hoe groter de kans op herstel."], "topics": ["waterschade"], "repairIds": ["waterschade"],
-    "sources": [{ "url": "https://www.phonerepairs.nl/telefoon-reparatie-den-bosch/", "verification": "search-index", "capturedAt": "2026-10-08" }] },
-  { "id": "opgezwollen-batterij", "question": "Mijn batterij is opgezwollen. Is dat gevaarlijk?", "answer": ["Een opgezwollen batterij moet je serieus nemen. Laad het toestel niet meer op, gebruik het niet en neem direct contact op."], "topics": ["batterij"], "repairIds": ["batterij-vervangen"],
-    "sources": [{ "url": "https://www.phonerepairs.nl/telefoon-reparatie-den-bosch/", "verification": "search-index", "capturedAt": "2026-10-08" }] },
-  { "id": "parkeren", "question": "Kan ik parkeren bij de winkel?", "answer": ["Ja, je kunt gratis parkeren voor de deur."], "topics": ["locatie"], "repairIds": [],
-    "sources": [{ "url": "https://www.phonerepairs.nl/telefoon-reparatie-den-bosch/", "verification": "search-index", "capturedAt": "2026-10-08" }] },
-  { "id": "openingstijden", "question": "Wanneer zijn jullie open?", "answer": ["Phone Repairs is zeven dagen per week geopend, ook in de avond. Omdat er op afspraak wordt gewerkt, spreek je samen een moment af dat jou uitkomt."], "topics": ["locatie", "afspraak"], "repairIds": [],
-    "sources": [{ "url": "https://www.phonerepairs.nl/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "Exact opening hours not captured." }] },
-  { "id": "eigen-onderdelen", "question": "Kan ik zelf gekochte onderdelen laten monteren?", "answer": ["Nee. Er worden geen reparaties uitgevoerd met onderdelen die je zelf hebt gekocht. Phone Repairs werkt met eigen, originele onderdelen."], "topics": ["onderdelen"], "repairIds": [], "sources": [{ "url": "https://www.phonerepairs.nl/veelgestelde-vragen/", "verification": "search-index", "capturedAt": "2026-10-12", "note": "'Wij voeren geen reparaties uit met onderdelen die u zelf gekocht heeft.'" }] },
-  { "id": "opsturen", "question": "Kan ik mijn toestel ook opsturen?", "answer": ["Ja. Neem eerst contact op, zodat gecontroleerd kan worden of het onderdeel op voorraad is en je weet wat de reparatie kost. Daarna stuur je je toestel goed verpakt en aangetekend op."], "topics": ["opsturen"], "repairIds": [], "sources": [{ "url": "https://www.phonerepairs.nl/veelgestelde-vragen/reparatie-opsturen/", "verification": "search-index", "capturedAt": "2026-10-12" }] }
+  {
+    "id": "faq-water-koffie-over-mijn-iphone-gegooid",
+    "question": "Mijn telefoon heeft waterschade. Kan dit nog gerepareerd worden?",
+    "answer": [
+      "Vaak is dat mogelijk. Als je smartphone nat of vochtig is geworden en dus waterschade heeft. Zet het toestel direct uit (als het toestel al niet zichzelf heeft uitgeschakeld). Hiermee voorkom je verdere schade. Zet het toestel absoluut niet meer aan, en laadt het toestel ook zeker niet meer op. Dan bel je ons direct op: 073 822 0013"
+    ],
+    "topics": [
+      "reparaties"
+    ],
+    "repairIds": [
+      "waterschade"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/veelgestelde-vragen/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Helpie FAQ \"Mijn telefoon heeft waterschade. Kan dit nog gerepareerd worden?\", WordPress export 2026-10-12."
+      }
+    ]
+  },
+  {
+    "id": "faq-wat-kost-een-iphone-reparatie",
+    "question": "Wat kost een iPhone reparatie?",
+    "answer": [
+      "De kosten van een iPhone reparatie verschillen per type iPhone en het defect. iPhone reparaties zijn al mogelijk vanaf €60,- incl. montage en BTW. De reparaties zijn klaar in 30 minuten terwijl je meekijkt!."
+    ],
+    "topics": [
+      "prijzen"
+    ],
+    "repairIds": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/veelgestelde-vragen/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Helpie FAQ \"Wat kost een iPhone reparatie?\", WordPress export 2026-10-12."
+      }
+    ]
+  },
+  {
+    "id": "faq-hoe-lang-duurt-een-iphone-reparatie",
+    "question": "Hoe lang duurt een iPhone reparatie?",
+    "answer": [
+      "Tijdens de reparatie kun je gewoon meekijken hoe je toestel vakkundig gerepareerd wordt, je ziet wat wij doen met jouw telefoon en je privacy blijft zo gewaarborgd. De meeste reparaties duren niet langer dan 30 minuten."
+    ],
+    "topics": [
+      "algemeen"
+    ],
+    "repairIds": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/veelgestelde-vragen/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Helpie FAQ \"Hoe lang duurt een iPhone reparatie?\", WordPress export 2026-10-12."
+      }
+    ]
+  },
+  {
+    "id": "faq-mijn-batterij-is-slecht-kan-ik-dat-laten",
+    "question": "Mijn batterij is slecht. Kan ik de batterij later vervangen?",
+    "answer": [
+      "Ja, wij kunnen binnen 30 minuten de versleten batterij vervangen, zodat je toestel weer een langere gebruiksduur heeft en jij weer de dag door kunt komen met je telefoon."
+    ],
+    "topics": [
+      "reparaties"
+    ],
+    "repairIds": [
+      "batterij-vervangen"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/veelgestelde-vragen/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Helpie FAQ \"Mijn batterij is slecht. Kan ik de batterij later vervangen?\", WordPress export 2026-10-12."
+      }
+    ]
+  },
+  {
+    "id": "faq-mijn-toestel-laadt-niet-meer-op-kan-ik",
+    "question": "Mijn toestel laadt niet meer op. Kan ik dit laten repareren?",
+    "answer": [
+      "Dit probleem kun je vaak zelf erg makkelijk oplossen. Pak een houten tandenstoker en veeg daarmee voorzichtig het vuil uit de oplaadpoort. je zult zien er komt een heleboel vuil en stof uit. Doorgaans laad je toestel dan weer netjes op. Mocht dat niet helpen? Neem contact met ons op om een afspraak in te plannen, dan gaan we het voor je oplossen."
+    ],
+    "topics": [
+      "reparaties"
+    ],
+    "repairIds": [
+      "oplaadpoort-repareren"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/veelgestelde-vragen/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Helpie FAQ \"Mijn toestel laadt niet meer op. Kan ik dit laten repareren?\", WordPress export 2026-10-12."
+      }
+    ]
+  },
+  {
+    "id": "faq-gebruiken-jullie-originele-onderdelen",
+    "question": "Gebruiken jullie originele onderdelen?",
+    "answer": [
+      "Ja. Waar mogelijk repareren we met originele onderdelen. Afhankelijk van het merk, model en de beschikbaarheid bieden we bij schermreparaties verschillende hoogwaardige opties:",
+      "– Origineel Service Pack – een nieuw origineel onderdeel, geleverd via de fabrikant of een erkende leverancier.",
+      "– Origineel pulled – een origineel onderdeel dat afkomstig is uit een ander toestel en zorgvuldig is gecontroleerd op kwaliteit en werking.",
+      "– Premium OLED – een hoogwaardig alternatief voor het originele scherm. Premium OLED is geen origineel fabrikantonderdeel, maar biedt een uitstekende beeldkwaliteit en werking tegen een aantrekkelijkere prijs.",
+      "Welke optie beschikbaar is, verschilt per toestel. Vooraf bespreken we duidelijk welk onderdeel wordt gebruikt en wat de prijs is, zodat je precies weet waarvoor je kiest."
+    ],
+    "topics": [
+      "onderdelen"
+    ],
+    "repairIds": [
+      "scherm-vervangen",
+      "batterij-vervangen"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/veelgestelde-vragen/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Helpie FAQ \"Gebruiken jullie originele onderdelen?\", WordPress export 2026-10-12."
+      }
+    ]
+  },
+  {
+    "id": "faq-krijg-ik-garantie-op-de-reparatie",
+    "question": "Krijg ik garantie op de reparatie?",
+    "answer": [
+      "De garantietermijn verschilt per reparatie. Op de meeste reparaties en alle schermreparaties krijg je 12 maanden garantie. Voor batterijen geldt 12 maanden en voor moederbordreparaties 60 dagen. Bij waterschade is er nooit sprake van garantie."
+    ],
+    "topics": [
+      "garantie"
+    ],
+    "repairIds": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/veelgestelde-vragen/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Helpie FAQ \"Krijg ik garantie op de reparatie?\", WordPress export 2026-10-12."
+      }
+    ]
+  },
+  {
+    "id": "faq-mijn-scherm-is-beschadigd-kan-ik-dat",
+    "question": "Mijn scherm is beschadigd. Kan ik dat laten repareren?",
+    "answer": [
+      "Wij kunnen binnen 30 minuten het scherm van je telefoon vervangen terwijl je meekijkt!, door onze werkwijze hoeft je je toestel dus niet lang te missen. En kun je spoedig weer genieten van jouw telefoon, zonder die nare barsten in het scherm"
+    ],
+    "topics": [
+      "reparaties"
+    ],
+    "repairIds": [
+      "scherm-vervangen"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/veelgestelde-vragen/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Helpie FAQ \"Mijn scherm is beschadigd. Kan ik dat laten repareren?\", WordPress export 2026-10-12."
+      }
+    ]
+  },
+  {
+    "id": "faq-verlies-ik-mijn-data-bij-een-reparatie",
+    "question": "Verlies ik mijn data bij een reparatie?",
+    "answer": [
+      "Nee, de data op je toestel blijft bij een reparatie bij Phone Repairs behouden, daar hoeft u zich geen zorgen over te maken. Dus u berichten, WhatsApp, foto’s, games, enz. blijven gewoon op je toestel staan en u kunt u toestel direct weer gebruiken."
+    ],
+    "topics": [
+      "algemeen"
+    ],
+    "repairIds": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/veelgestelde-vragen/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Helpie FAQ \"Verlies ik mijn data bij een reparatie?\", WordPress export 2026-10-12."
+      }
+    ]
+  },
+  {
+    "id": "faq-mijn-iphone-doet-ineens-niks-meer-wat-ik",
+    "question": "Mijn iPhone doet ineens niks meer, wat kan ik doen?",
+    "answer": [
+      "Voer een geforceerde herstart (Hard Reset) uit. Soms zorgt een softwarefout ervoor dat een iPhone, niks meer lijkt te doen. Met een harde reset herstart het moederbord geforceerd zonder dataverlies:",
+      "– iPhone 8 en nieuwer (incl. iPhone met Face ID): Druk kort op Volume Omhoog, druk kort op Volume Omlaag, en houd daarna de Aan/Uit-knop aan de zijkant ingedrukt tot het Apple-logo verschijnt.",
+      "– iPhone 7 (Plus) en ouder: Houd de Volume Omlaag-knop en de Aan/Uit-knop tegelijkertijd ingedrukt tot het Apple-logo verschijnt."
+    ],
+    "topics": [
+      "algemeen"
+    ],
+    "repairIds": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/veelgestelde-vragen/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Helpie FAQ \"Mijn iPhone doet ineens niks meer, wat kan ik doen?\", WordPress export 2026-10-12."
+      }
+    ]
+  },
+  {
+    "id": "faq-mijn-scherm-komt-omhoog-wat-is-er-aan-de",
+    "question": "Mijn scherm komt omhoog, wat is er aan de hand?",
+    "answer": [
+      "Vaak is dit te wijten aan het opzwellen van de batterij, dit is niet onschuldig. Stop direct met opladen of gebruiken zodra je het ziet. Blijf er niet mee zitten, want het vormt een brand of explosie risico. Maak zo snel mogelijk een afspraak bij ons om de batterij professioneel te laten vervangen zonder risico's zoals brand, explosie en het vrijkomen van giftige gassen."
+    ],
+    "topics": [
+      "batterij"
+    ],
+    "repairIds": [
+      "batterij-vervangen"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/veelgestelde-vragen/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Helpie FAQ \"Mijn scherm komt omhoog, wat is er aan de hand?\", WordPress export 2026-10-12."
+      }
+    ]
+  },
+  {
+    "id": "faq-mijn-achterkant-komt-omhoog-wat-is-er-de",
+    "question": "Mijn achterkant komt omhoog, wat is er aan de hand?",
+    "answer": [
+      "Vaak is dit te wijten aan het opzwellen van de batterij, dit is niet onschuldig. Stop direct met opladen of gebruiken zodra je het ziet. Blijf er niet mee zitten, want het vormt een brand of explosie risico. Maak zo snel mogelijk een afspraak bij ons om de batterij professioneel te laten vervangen zonder risico's zoals brand, explosie en het vrijkomen van giftige gassen."
+    ],
+    "topics": [
+      "batterij"
+    ],
+    "repairIds": [
+      "batterij-vervangen"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/veelgestelde-vragen/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Helpie FAQ \"Mijn achterkant komt omhoog, wat is er aan de hand?\", WordPress export 2026-10-12."
+      }
+    ]
+  },
+  {
+    "id": "faq-de-achterkant-van-mijn-iphone-is-kan-dit",
+    "question": "De achterkant van mijn iPhone is gebarsten kan dit kwaad?",
+    "answer": [
+      "Ja, in de achterkant ook wel backcover genoemd zitten belangrijke sensoren die noodzakelijk zijn voor een goede werking van de iPhone. Als de achterkant schade heeft kan dit de sensor beschadigen, waardoor je iPhone oververhit kan raken. Maar ook de batterij kan beschadigd raken en dat kan ernstige toestel problemen en zelfs brand veroorzaken. Gebruik het toestel niet meer, en maak snel een afspraak met ons voor vervanging van de achterkant."
+    ],
+    "topics": [
+      "reparaties"
+    ],
+    "repairIds": [
+      "achterkant-vervangen"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/veelgestelde-vragen/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Helpie FAQ \"De achterkant van mijn iPhone is gebarsten kan dit kwaad?\", WordPress export 2026-10-12."
+      }
+    ]
+  },
+  {
+    "id": "afspraak-nodig",
+    "question": "Moet ik een afspraak maken?",
+    "answer": [
+      "Ja. Phone Repairs werkt alleen op afspraak, zodat er voldoende tijd en aandacht is voor jouw reparatie. Je maakt een afspraak via WhatsApp, telefonisch of per e-mail."
+    ],
+    "topics": [
+      "afspraak"
+    ],
+    "repairIds": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/afspraak-maken/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "prijzen-inclusief",
+    "question": "Zijn de prijzen inclusief btw en montage?",
+    "answer": [
+      "Ja. De prijzen zijn inclusief montage en 21% btw."
+    ],
+    "topics": [
+      "prijzen"
+    ],
+    "repairIds": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s23/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "parkeren",
+    "question": "Kan ik parkeren bij de winkel?",
+    "answer": [
+      "Ja, je kunt gratis parkeren voor de deur."
+    ],
+    "topics": [
+      "locatie"
+    ],
+    "repairIds": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/telefoon-reparatie-den-bosch/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "openingstijden",
+    "question": "Wanneer zijn jullie open?",
+    "answer": [
+      "Phone Repairs is zeven dagen per week geopend, ook in de avond. Omdat er op afspraak wordt gewerkt, spreek je samen een moment af dat jou uitkomt."
+    ],
+    "topics": [
+      "locatie",
+      "afspraak"
+    ],
+    "repairIds": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-08",
+        "note": "Exact opening hours not captured."
+      }
+    ]
+  },
+  {
+    "id": "eigen-onderdelen",
+    "question": "Kan ik zelf gekochte onderdelen laten monteren?",
+    "answer": [
+      "Nee. Er worden geen reparaties uitgevoerd met onderdelen die je zelf hebt gekocht. Phone Repairs werkt met eigen, originele onderdelen."
+    ],
+    "topics": [
+      "onderdelen"
+    ],
+    "repairIds": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/veelgestelde-vragen/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-12",
+        "note": "'Wij voeren geen reparaties uit met onderdelen die u zelf gekocht heeft.'"
+      }
+    ]
+  },
+  {
+    "id": "opsturen",
+    "question": "Kan ik mijn toestel ook opsturen?",
+    "answer": [
+      "Ja. Neem eerst contact op, zodat gecontroleerd kan worden of het onderdeel op voorraad is en je weet wat de reparatie kost. Daarna stuur je je toestel goed verpakt en aangetekend op."
+    ],
+    "topics": [
+      "opsturen"
+    ],
+    "repairIds": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/veelgestelde-vragen/reparatie-opsturen/",
+        "verification": "search-index",
+        "capturedAt": "2026-10-12"
+      }
+    ]
+  }
 ]

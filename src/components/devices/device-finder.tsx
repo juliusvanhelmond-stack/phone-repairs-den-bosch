@@ -491,7 +491,8 @@ function ModelSearch({
               </Button>
             </div>
           </Command.Empty>
-          {groups.map(([group, items]) => (
+          {/* The global search renders its 800+ options only once the visitor types. */}
+          {showList && groups.map(([group, items]) => (
             <Command.Group
               key={group}
               heading={group}
@@ -512,7 +513,7 @@ function ModelSearch({
                     <span className="block text-[0.9375rem] text-ink">
                       {dropdown ? fullName(d, brandName.get(d.brandId)) : d.name}
                     </span>
-                    <span className="block text-xs text-muted">{d.releaseYear}</span>
+                    {d.releaseYear && <span className="block text-xs text-muted">{d.releaseYear}</span>}
                   </span>
                   <ChevronRight className="size-4 text-muted opacity-0 group-data-[selected=true]:opacity-100" aria-hidden />
                 </Command.Item>
@@ -537,6 +538,7 @@ function FinderResult({
 }) {
   const { locale, t } = useI18n();
   const price = device.prices[repair.id];
+  const options = device.options[repair.id] ?? 0;
   const appointmentHref = `/afspraak?toestel=${encodeURIComponent(device.id)}&reparatie=${encodeURIComponent(repair.id)}`;
   const devicePageHref = `/reparaties/${device.brandId}/${device.slug}`;
   const whatsapp = whatsappLink(
@@ -571,8 +573,18 @@ function FinderResult({
         <div className="rounded-[var(--radius-card)] bg-white p-6 ring-1 ring-line">
           {price !== undefined ? (
             <>
-              <p className="text-sm text-muted">{t("Prijs inclusief montage en btw", "Price including fitting and VAT")}</p>
-              <p className="mt-1 text-5xl font-semibold tracking-tight text-ink tabular-nums">{formatEuro(price, locale)}</p>
+              <p className="text-sm text-muted">
+                {options > 1
+                  ? t(
+                      `${options} opties, afhankelijk van het onderdeel · inclusief montage en btw`,
+                      `${options} options, depending on the part · including fitting and VAT`,
+                    )
+                  : t("Prijs inclusief montage en btw", "Price including fitting and VAT")}
+              </p>
+              <p className="mt-1 text-5xl font-semibold tracking-tight text-ink tabular-nums">
+                {options > 1 && <span className="mr-2 text-2xl font-medium text-muted">{t("vanaf", "from")}</span>}
+                {formatEuro(price, locale)}
+              </p>
             </>
           ) : (
             <>
@@ -581,8 +593,8 @@ function FinderResult({
               <p className="mt-3 flex gap-2 text-sm leading-relaxed text-muted">
                 <Info className="mt-0.5 size-4 shrink-0" aria-hidden />
                 {t(
-                  "De actuele prijs voor deze reparatie hoor je via WhatsApp, telefonisch of per e-mail. In deze demo worden alleen prijzen getoond die uit de bestaande website zijn overgenomen.",
-                  "Ask us for the current price of this repair via WhatsApp, phone or e-mail. This demo only shows prices taken from the existing website.",
+                  "Voor deze reparatie geldt geen vaste prijs. De actuele prijs hoor je via WhatsApp, telefonisch of per e-mail.",
+                  "There is no fixed price for this repair. Ask us for the current price via WhatsApp, phone or e-mail.",
                 )}
               </p>
             </>
@@ -644,7 +656,10 @@ function FinderResult({
           href={devicePageHref}
           className="mt-5 inline-flex items-center gap-1 self-start text-sm font-medium text-accent-strong hover:text-accent"
         >
-          {t("Alle reparaties voor de", "All repairs for the")} {device.name}
+          {options > 1
+            ? t(`Bekijk alle ${options} opties en prijzen voor de`, `See all ${options} options and prices for the`)
+            : t("Alle reparaties en prijzen voor de", "All repairs and prices for the")}{" "}
+          {device.name}
           <ChevronRight className="size-4" aria-hidden />
         </Link>
       </div>

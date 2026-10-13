@@ -7,21 +7,23 @@ import {
   deviceModelSchema,
   faqItemSchema,
   landingPageSchema,
-  repairPriceSchema,
+  priceListSchema,
   repairServiceSchema,
   warrantyInfoSchema,
   type Brand,
   type DeviceCategory,
   type DeviceModel,
   type LandingPage,
-  type RepairPrice,
+  type PriceList,
+  type PriceRow,
   type RepairService,
 } from "@/types/content";
 
 import categoriesJson from "@/data/categories.json";
 import brandsJson from "@/data/brands.json";
 import repairsJson from "@/data/repairs.json";
-import pricesJson from "@/data/prices.json";
+import priceListsJson from "@/data/price-lists.json";
+import devicesJson from "@/data/devices.json";
 import warrantyJson from "@/data/warranty.json";
 import faqsJson from "@/data/faqs.json";
 import claimsJson from "@/data/claims.json";
@@ -29,13 +31,6 @@ import landingPagesJson from "@/data/landing-pages.json";
 import blogJson from "@/data/blog.json";
 import enJson from "@/data/translations/en.json";
 import type { Locale } from "@/lib/i18n";
-import apple from "@/data/devices/apple.json";
-import samsung from "@/data/devices/samsung.json";
-import huawei from "@/data/devices/huawei.json";
-import oneplus from "@/data/devices/oneplus.json";
-import xiaomi from "@/data/devices/xiaomi.json";
-import sony from "@/data/devices/sony.json";
-import lg from "@/data/devices/lg.json";
 
 // Data is validated once at module load, so a malformed record fails the build.
 const byOrder = <T extends { order: number }>(a: T, b: T) => a.order - b.order;
@@ -43,21 +38,19 @@ const byOrder = <T extends { order: number }>(a: T, b: T) => a.order - b.order;
 export const categories = z.array(deviceCategorySchema).parse(categoriesJson).sort(byOrder);
 export const brands = z.array(brandSchema).parse(brandsJson).sort(byOrder);
 export const repairs = z.array(repairServiceSchema).parse(repairsJson).sort(byOrder);
-export const prices = z.array(repairPriceSchema).parse(pricesJson);
+export const priceLists = z.array(priceListSchema).parse(priceListsJson);
 export const warranties = z.array(warrantyInfoSchema).parse(warrantyJson);
 export const faqs = z.array(faqItemSchema).parse(faqsJson);
 export const claims = z.array(claimSchema).parse(claimsJson);
 export const landingPages = z.array(landingPageSchema).parse(landingPagesJson);
 export const blogPosts = z.array(blogArticleSchema).parse(blogJson);
-export const devices = z
-  .array(deviceModelSchema)
-  .parse([...apple, ...samsung, ...huawei, ...oneplus, ...xiaomi, ...sony, ...lg]);
+export const devices = z.array(deviceModelSchema).parse(devicesJson);
 
 const brandById = new Map(brands.map((b) => [b.id, b]));
 const categoryById = new Map(categories.map((c) => [c.id, c]));
 const repairBySlug = new Map(repairs.map((r) => [r.slug, r]));
 const deviceByPath = new Map(devices.map((d) => [`${d.brandId}/${d.slug}`, d]));
-const priceByKey = new Map(prices.map((p) => [`${p.deviceId}:${p.repairId}`, p]));
+const priceListByDevice = new Map(priceLists.map((l) => [l.deviceId, l]));
 
 export const getBrand = (id: string): Brand | undefined => brandById.get(id);
 export const getCategory = (id: string): DeviceCategory | undefined => categoryById.get(id);
@@ -65,11 +58,9 @@ export const getRepair = (slug: string): RepairService | undefined => repairBySl
 export const getDevice = (brandId: string, slug: string): DeviceModel | undefined =>
   deviceByPath.get(`${brandId}/${slug}`);
 
-/** Newest first, then by name. */
+/** In the order of the original site's menu (newest models first), then by name. */
 export function sortDevices(list: DeviceModel[]): DeviceModel[] {
-  return [...list].sort(
-    (a, b) => b.releaseYear - a.releaseYear || a.name.localeCompare(b.name, "nl", { numeric: true }),
-  );
+  return [...list].sort((a, b) => a.order - b.order || a.name.localeCompare(b.name, "nl", { numeric: true }));
 }
 
 export function devicesForBrand(brandId: string, categoryId?: string): DeviceModel[] {
@@ -89,22 +80,28 @@ export function repairsForDevice(device: DeviceModel): RepairService[] {
   return repairs.filter((r) => r.categories.includes(device.categoryId));
 }
 
-/** Returns only prices that may be shown publicly. */
-export function getVerifiedPrice(deviceId: string, repairId: string): RepairPrice | undefined {
-  const price = priceByKey.get(`${deviceId}:${repairId}`);
-  return price?.verified && price.amount !== null && price.sources.length > 0 ? price : undefined;
+/**
+ * The device's price table as published on the current site (verbatim rows with their
+ * source URL). Every list comes from the client's WordPress export, so it may be shown.
+ */
+export const getPriceList = (deviceId: string): PriceList | undefined => priceListByDevice.get(deviceId);
+
+/** Rows of one repair category, in the original order. */
+export function priceRows(deviceId: string, repairId: string): PriceRow[] {
+  return getPriceList(deviceId)?.rows.filter((r) => r.repairId === repairId) ?? [];
 }
 
+/** Lowest published price for a repair category ("vanaf €…"); undefined when all rows are on request. */
+export function fromPrice(deviceId: string, repairId: string): number | undefined {
+  const amounts = priceRows(deviceId, repairId).flatMap((r) => (r.amount === null ? [] : [r.amount]));
+  return amounts.length ? Math.min(...amounts) : undefined;
+}
+
+/** Neighbours in the same series, closest in the menu first. */
 export function relatedDevices(device: DeviceModel, limit = 4): DeviceModel[] {
-  const sameSeries = devices.filter(
-    (d) => d.id !== device.id && d.brandId === device.brandId && d.series === device.series,
-  );
-  return sameSeries
-    .sort(
-      (a, b) =>
-        Math.abs(a.releaseYear - device.releaseYear) - Math.abs(b.releaseYear - device.releaseYear) ||
-        b.releaseYear - a.releaseYear,
-    )
+  return devices
+    .filter((d) => d.id !== device.id && d.brandId === device.brandId && d.series === device.series)
+    .sort((a, b) => Math.abs(a.order - device.order) - Math.abs(b.order - device.order))
     .slice(0, limit);
 }
 
@@ -120,15 +117,23 @@ export const generalWarranty = warranties.find((w) => w.id === "algemeen");
 export type FinderDevice = Pick<
   DeviceModel,
   "id" | "slug" | "name" | "brandId" | "categoryId" | "series" | "releaseYear" | "art" | "aliases"
-> & { repairs: string[]; prices: Record<string, number> };
+> & {
+  repairs: string[];
+  /** Lowest published price per repair category. */
+  prices: Record<string, number>;
+  /** Number of price rows per repair category (several part qualities). */
+  options: Record<string, number>;
+};
 
 export function finderIndex(): FinderDevice[] {
   return sortDevices(devices).map((d) => {
     const deviceRepairs = repairsForDevice(d).map((r) => r.id);
     const verified: Record<string, number> = {};
+    const options: Record<string, number> = {};
     for (const repairId of deviceRepairs) {
-      const p = getVerifiedPrice(d.id, repairId);
-      if (p?.amount) verified[repairId] = p.amount;
+      const from = fromPrice(d.id, repairId);
+      if (from) verified[repairId] = from;
+      options[repairId] = priceRows(d.id, repairId).length;
     }
     return {
       id: d.id,
@@ -142,6 +147,7 @@ export function finderIndex(): FinderDevice[] {
       aliases: d.aliases,
       repairs: deviceRepairs,
       prices: verified,
+      options,
     };
   });
 }
@@ -173,6 +179,7 @@ export const getBlogPost = (slug: string) => blogPosts.find((p) => p.slug === sl
  * ------------------------------------------------------------------------ */
 const landingSectionText = z.object({
   heading: z.string(),
+  intro: z.array(z.string()).default([]),
   body: z.array(z.string()).default([]),
   bullets: z.array(z.string()).default([]),
   steps: z.array(z.string()).default([]),
