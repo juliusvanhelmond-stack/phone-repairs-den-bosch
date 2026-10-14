@@ -32,7 +32,7 @@ export function Logo({
     <Link
       href="/"
       onClick={onClick}
-      className={cn("group inline-flex items-center gap-2.5 rounded-lg", className)}
+      className={cn("group inline-flex shrink-0 items-center gap-2.5 rounded-lg", className)}
       aria-label={t("Phone Repairs, naar de homepage", "Phone Repairs, go to the homepage")}
     >
       {site.logo ? (
@@ -42,7 +42,8 @@ export function Logo({
           width={site.logo.width}
           height={site.logo.height}
           priority
-          className="h-9 w-auto"
+          unoptimized
+          className="h-9 w-auto max-w-none shrink-0 xl:h-11"
         />
       ) : (
         <>

@@ -17,10 +17,17 @@ export const site = {
   },
   email: "info@phonerepairs.nl",
   /**
-   * Official logo (put the file in /public/brand/ and set the path, e.g. "/brand/logo.svg").
-   * Until then a placeholder mark in the house colours is shown.
+   * Official logo, sent by the client on 2026-10-14 (stacked original: /brand/logo-original.png).
+   * logo.png / logo-light.png are a horizontal arrangement of the same artwork (icon and
+   * wordmark cropped from the original, not redrawn); the light version has a white
+   * wordmark for dark backgrounds.
    */
-  logo: null as null | { src: string; width: number; height: number; light?: string },
+  logo: { src: "/brand/logo.png", width: 646, height: 144, light: "/brand/logo-light.png" } as null | {
+    src: string;
+    width: number;
+    height: number;
+    light?: string;
+  },
   /**
    * WhatsApp runs on the shop number. Number and widget copy confirmed by the client via
    * JUNE Studio (2026-10-12), copied from the WhatsApp widget on the current site.

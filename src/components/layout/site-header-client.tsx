@@ -39,7 +39,7 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
           : "bg-white/0",
       )}
     >
-      <div className="container-page flex h-16 items-center justify-between gap-6 lg:h-[4.5rem]">
+      <div className="container-page flex h-16 items-center justify-between gap-3 lg:h-[4.5rem] 2xl:gap-6">
         <Logo />
 
         <NavigationMenu.Root className="static hidden lg:block [&>div]:!static" aria-label={t("Hoofdmenu", "Main menu")}>
@@ -47,7 +47,7 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
             <NavigationMenu.Item>
               <NavigationMenu.Trigger
                 className={cn(
-                  "group flex h-10 items-center gap-1 rounded-full px-3 text-[0.9375rem] whitespace-nowrap xl:px-4 text-ink-soft transition-colors hover:bg-accent-soft hover:text-accent-strong data-[state=open]:bg-accent-soft data-[state=open]:text-accent-strong",
+                  "group flex h-10 items-center gap-1 rounded-full px-2.5 text-[0.9375rem] whitespace-nowrap 2xl:px-4 text-ink-soft transition-colors hover:bg-accent-soft hover:text-accent-strong data-[state=open]:bg-accent-soft data-[state=open]:text-accent-strong",
                   pathname.startsWith("/reparatie") && "text-ink",
                 )}
               >
@@ -66,7 +66,7 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
                 <NavigationMenu.Link asChild active={pathname === item.href}>
                   <Link
                     href={item.href}
-                    className="flex h-10 items-center rounded-full px-3 text-[0.9375rem] whitespace-nowrap text-ink-soft xl:px-4 transition-colors hover:bg-accent-soft hover:text-accent-strong data-[active]:text-ink"
+                    className="flex h-10 items-center rounded-full px-2.5 text-[0.9375rem] whitespace-nowrap text-ink-soft 2xl:px-4 transition-colors hover:bg-accent-soft hover:text-accent-strong data-[active]:text-ink"
                   >
                     {t(item.label, item.labelEn)}
                   </Link>
@@ -80,7 +80,7 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
           <LanguageSwitch className="hidden sm:inline-flex" />
           <a
             href={phone.href}
-            className="hidden h-10 items-center gap-2 rounded-full px-3 text-[0.9375rem] text-ink-soft transition-colors hover:text-accent-strong xl:flex"
+            className="hidden h-10 items-center gap-2 rounded-full px-3 text-[0.9375rem] whitespace-nowrap text-ink-soft transition-colors hover:text-accent-strong xl:flex"
           >
             <Phone className="size-4" aria-hidden />
             {phone.display}
