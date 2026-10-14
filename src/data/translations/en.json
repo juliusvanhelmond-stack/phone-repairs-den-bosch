@@ -758,6 +758,26 @@
           "steps": []
         },
         {
+          "heading": "Battery warranty",
+          "intro": [],
+          "body": [
+            "A battery wears over time — that is normal.",
+            "That is why you get a 12-month warranty on batteries."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "Warranty on screen protectors",
+          "intro": [],
+          "body": [
+            "You get a 2-week fitting warranty.",
+            "Did we fit your screen protector? If it turns out within two weeks that it isn't fitted properly, come back with the original screen protector — we'll fit a new one free of charge."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
           "heading": "Motherboard repair and micro-soldering – 60 days warranty",
           "intro": [],
           "body": [
@@ -821,6 +841,32 @@
             "✕ Heat damage, including adhesive layers coming loose due to external heat",
             "✕ Hinges damaged or broken by physical strain",
             "✕ Other visible damage that occurred after the repair"
+          ],
+          "steps": []
+        },
+        {
+          "heading": "When does the warranty not apply?",
+          "intro": [
+            "We give no warranty for:"
+          ],
+          "body": [],
+          "bullets": [
+            "✕ Moisture damage, drop or impact damage",
+            "✕ Damage caused by others",
+            "✕ Normal wear such as scratches or OLED burn-in"
+          ],
+          "steps": []
+        },
+        {
+          "heading": "These exceptions also apply",
+          "intro": [],
+          "body": [
+            "Having your device repaired at Phone Repairs may void your manufacturer's warranty. This depends, among other things, on the brand and the quality of the part."
+          ],
+          "bullets": [
+            "✕ Water damage repairs (including later motherboard repairs)",
+            "✕ Partial repairs (if specifically stated on the receipt)",
+            "✕ Cable problems in foldable devices (such as the Samsung Z series or laptops/MacBooks) — due to wear from frequent opening and closing"
           ],
           "steps": []
         },

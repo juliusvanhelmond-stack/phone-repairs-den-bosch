@@ -374,6 +374,10 @@ async function main() {
     const list = page.getByRole("heading", { name: "Wanneer vervalt de garantie?" }).locator("xpath=..");
     assert((await list.locator("svg.lucide-x").count()) >= 5, "no crosses");
     assert((await list.getByText(/^✕/).count()) === 0, "raw ✕ still shown");
+    // Owner-supplied warranty text (e-mail 13 October).
+    for (const heading of ["Wanneer geldt de garantie niet?", "Batterijgarantie", "Garantie op screenprotectors"]) {
+      assert(await page.getByRole("heading", { name: heading }).isVisible(), `missing: ${heading}`);
+    }
   });
 
   await check("whatsapp: header CTA and contact order on contact page", async () => {

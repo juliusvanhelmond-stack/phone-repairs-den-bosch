@@ -879,6 +879,24 @@
         "steps": []
       },
       {
+        "heading": "Batterijgarantie",
+        "body": [
+          "Een batterij slijt na verloop van tijd — dat is normaal.",
+          "Daarom krijg je op batterijen 12 maanden garantie."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
+        "heading": "Garantie op screenprotectors",
+        "body": [
+          "Je krijgt 2 weken plakgarantie.",
+          "Laat je screenprotector door ons plaatsen? Blijkt binnen twee weken dat hij niet goed zit? Kom terug met de originele screenprotector — wij plaatsen kosteloos een nieuwe."
+        ],
+        "bullets": [],
+        "steps": []
+      },
+      {
         "heading": "Moederbordreparatie en microsolderen – 60 dagen garantie",
         "body": [
           "Op een uitgevoerde moederbordreparatie of microsoldeerreparatie krijg je 60 dagen garantie. Hieronder vallen bijvoorbeeld reparaties aan IC's, filters, FPC-connectoren en andere componenten op het moederbord. De garantie heeft uitsluitend betrekking op het onderdeel of gedeelte van het moederbord dat door Phone Repairs is gerepareerd."
@@ -941,6 +959,31 @@
         "steps": []
       },
       {
+        "heading": "Wanneer geldt de garantie niet?",
+        "intro": [
+          "We geven géén garantie bij:"
+        ],
+        "body": [],
+        "bullets": [
+          "✕ Vochtschade, val- of stootschade",
+          "✕ Schade door anderen",
+          "✕ Normale slijtage zoals krassen of OLED burn-in"
+        ],
+        "steps": []
+      },
+      {
+        "heading": "Ook gelden deze uitzonderingen",
+        "body": [
+          "Wanneer je jouw device laat repareren bij Phone Repairs kan mogelijk je fabrieksgarantie vervallen. Dit is onder andere afhankelijk van het merk en kwaliteit van onderdeel."
+        ],
+        "bullets": [
+          "✕ Waterschade-reparaties (ook latere moederbordreparaties)",
+          "✕ Gedeeltelijke reparaties (indien specifiek vermeld op de kassabon)",
+          "✕ Kabelproblemen bij vouwbare apparaten (zoals Samsung Z-serie of laptops/MacBooks) — door slijtage bij veelvuldig open- en dichtvouwen"
+        ],
+        "steps": []
+      },
+      {
         "heading": "Geen garantie op niet-gerepareerde onderdelen",
         "body": [
           "De garantie geldt niet voor onderdelen die tijdens de oorspronkelijke reparatie niet door Phone Repairs zijn gerepareerd of vervangen. Stel dat wij alleen het scherm vervangen en enkele maanden later ontstaat er een probleem met bijvoorbeeld Face ID, Touch ID, de nabijheidssensor, camera of luidspreker. Dan valt dat onderdeel niet onder de garantie op de schermreparatie wanneer het betreffende onderdeel niet door ons is vervangen of gerepareerd. Op die manier blijft duidelijk waarop de garantie betrekking heeft: het onderdeel en de werkzaamheden waarvoor je bij Phone Repairs hebt betaald."
@@ -989,6 +1032,12 @@
         "verification": "verified-source",
         "capturedAt": "2026-10-12",
         "note": "WordPress export 2026-10-12; page last changed 2026-10-09."
+      },
+      {
+        "url": "https://www.phonerepairs.nl/garantie/",
+        "capturedAt": "2026-10-13",
+        "note": "Warranty text supplied by Martijn Derks in his e-mail 'Laatste mail van vandaag' (13 October 2026, 21:07); not yet on the current site.",
+        "verification": "owner-confirmed"
       }
     ]
   },

@@ -20,11 +20,63 @@ type InfoPageDef = {
   drop?: RegExp;
   /** The page's own topic also appears as a block elsewhere; keep it here. */
   keepBoilerplate?: boolean;
+  /** Text supplied by the owner (not on the current site yet), placed after the section with this heading. */
+  ownerSections?: { after: string; sections: Section[] }[];
+  /** Source of the owner text. */
+  ownerSource?: { url: string; note: string; capturedAt: string };
 };
+
+const ownerSection = (heading: string, parts: Partial<Section>): Section => ({ heading, intro: [], body: [], bullets: [], steps: [], ...parts });
 
 /** Info pages taken over 1:1 on their original URL. */
 export const INFO_PAGES: InfoPageDef[] = [
-  { path: "/garantie", eyebrow: "Garantie" },
+  {
+    path: "/garantie",
+    eyebrow: "Garantie",
+    // Martijn Derks (Phone Repairs), e-mail "Laatste mail van vandaag", 13 October 2026 21:07.
+    // Left out until he confirms: the swap/motherboard line ("3 maanden" vs 60 days on this page),
+    // the unfinished battery conditions and the empty list items.
+    ownerSections: [
+      {
+        after: "Overige reparaties – 12 maanden garantie",
+        sections: [
+          ownerSection("Batterijgarantie", {
+            body: ["Een batterij slijt na verloop van tijd — dat is normaal.", "Daarom krijg je op batterijen 12 maanden garantie."],
+          }),
+          ownerSection("Garantie op screenprotectors", {
+            body: [
+              "Je krijgt 2 weken plakgarantie.",
+              "Laat je screenprotector door ons plaatsen? Blijkt binnen twee weken dat hij niet goed zit? Kom terug met de originele screenprotector — wij plaatsen kosteloos een nieuwe.",
+            ],
+          }),
+        ],
+      },
+      {
+        after: "Wanneer vervalt de garantie?",
+        sections: [
+          ownerSection("Wanneer geldt de garantie niet?", {
+            intro: ["We geven géén garantie bij:"],
+            bullets: ["✕ Vochtschade, val- of stootschade", "✕ Schade door anderen", "✕ Normale slijtage zoals krassen of OLED burn-in"],
+          }),
+          ownerSection("Ook gelden deze uitzonderingen", {
+            bullets: [
+              "✕ Waterschade-reparaties (ook latere moederbordreparaties)",
+              "✕ Gedeeltelijke reparaties (indien specifiek vermeld op de kassabon)",
+              "✕ Kabelproblemen bij vouwbare apparaten (zoals Samsung Z-serie of laptops/MacBooks) — door slijtage bij veelvuldig open- en dichtvouwen",
+            ],
+            body: [
+              "Wanneer je jouw device laat repareren bij Phone Repairs kan mogelijk je fabrieksgarantie vervallen. Dit is onder andere afhankelijk van het merk en kwaliteit van onderdeel.",
+            ],
+          }),
+        ],
+      },
+    ],
+    ownerSource: {
+      url: `${ORIGIN}/garantie/`,
+      capturedAt: "2026-10-13",
+      note: "Warranty text supplied by Martijn Derks in his e-mail 'Laatste mail van vandaag' (13 October 2026, 21:07); not yet on the current site.",
+    },
+  },
   { path: "/waterschade-reparatie-phone-repairs", eyebrow: "Waterschade" },
   { path: "/moederbord-reparatie-den-bosch", eyebrow: "Moederbord reparatie" },
   { path: "/data-recovery", eyebrow: "Data recovery", drop: /waterschade|waterdicht/i },
@@ -107,6 +159,11 @@ export function importContent(items: WxrItem[], exportedAt: string, root: string
       ...(rest.length || lead.bullets.length ? [{ heading: title, intro: lead.intro, body: rest, bullets: lead.bullets, steps: lead.steps }] : []),
       ...kept,
     ].filter((s) => s.intro.length || s.body.length || s.bullets.length || s.steps.length);
+    for (const { after, sections } of def.ownerSections ?? []) {
+      const at = sectionsOut.findIndex((s) => s.heading === after);
+      if (at < 0) report.push(`${def.path}: owner text placed at the end, section "${after}" not found`);
+      sectionsOut.splice(at < 0 ? sectionsOut.length : at + 1, 0, ...sections);
+    }
     const record = {
       id: slugify(def.path.slice(1)),
       path: def.path,
@@ -119,7 +176,10 @@ export function importContent(items: WxrItem[], exportedAt: string, root: string
       sections: sectionsOut.map(short),
       unconfirmed: [],
       legacyUrls: [`${def.path}/`],
-      sources: [source(page, exportedAt)],
+      sources: [
+        source(page, exportedAt),
+        ...(def.ownerSource ? [{ ...def.ownerSource, verification: "owner-confirmed" as const }] : []),
+      ],
     };
     const index = landing.findIndex((l) => l.path === def.path);
     if (index >= 0) landing[index] = record;
