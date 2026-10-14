@@ -83,4 +83,6 @@ Self-hosting is also possible with `npm run build && npm start` on Node 20.9+.
 
 Photos come from the Adobe Stock Free Collection, see [docs/image-credits.md](docs/image-credits.md).
 
+Texts, pages and SEO titles are edited in the CMS at `/keystatic`, see [docs/cms.md](docs/cms.md).
+
 Project conventions and content rules are in [CLAUDE.md](CLAUDE.md).

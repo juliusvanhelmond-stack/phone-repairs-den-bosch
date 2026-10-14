@@ -43,6 +43,23 @@ are Dutch.
 
 ## Going online (one-time, by the repository owner)
 
+The CMS code is on the demo branch (`claude/vigilant-archimedes-gadg6d`, deployed at
+https://phone-repairs-den-bosch.vercel.app). Two ways to create the GitHub App:
+
+**A. Prefilled link (no local setup).** Logged in to GitHub as the repository owner, open
+[this link](https://github.com/settings/apps/new?name=Phone+Repairs+Keystatic&description=CMS+%28Keystatic%29+voor+phone-repairs-den-bosch&url=https%3A%2F%2Fphone-repairs-den-bosch.vercel.app%2Fkeystatic&callback_urls%5B%5D=https%3A%2F%2Fphone-repairs-den-bosch.vercel.app%2Fapi%2Fkeystatic%2Fgithub%2Foauth%2Fcallback&callback_urls%5B%5D=http%3A%2F%2F127.0.0.1%2Fapi%2Fkeystatic%2Fgithub%2Foauth%2Fcallback&request_oauth_on_install=true&public=true&webhook_active=false&contents=write&metadata=read&pull_requests=read)
+(name, callback URLs and permissions are filled in: Contents read/write, Metadata read, Pull
+requests read; no webhook) and click "Create GitHub App". Then, on the app page:
+- copy the **Client ID** → `KEYSTATIC_GITHUB_CLIENT_ID`;
+- "Generate a new client secret" → `KEYSTATIC_GITHUB_CLIENT_SECRET` (shown once);
+- the last part of the app's URL (`github.com/apps/<slug>`) → `NEXT_PUBLIC_KEYSTATIC_GITHUB_APP_SLUG`;
+- "Install App" → only the repository `phone-repairs-den-bosch`.
+
+`KEYSTATIC_SECRET` is any random string of at least 32 characters (e.g. `openssl rand -hex 32`
+or a password manager). Continue with step 2.
+
+**B. Through Keystatic (needs a local checkout).**
+
 1. Run `npm run dev`, open http://localhost:3000/keystatic and switch the storage to GitHub:
    set `NEXT_PUBLIC_KEYSTATIC_STORAGE=github` in `.env.local` first, then follow the screens
    ("Create GitHub App"). Keystatic creates a GitHub App under your account, asks which
