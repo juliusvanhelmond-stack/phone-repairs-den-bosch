@@ -219,6 +219,21 @@
       "answer": [
         "Yes. The back, also called the back cover, holds important sensors that the iPhone needs to work properly. Damage to the back can damage these sensors and cause your iPhone to overheat. The battery can also be damaged, which can cause serious problems and even fire. Stop using the device and make an appointment with us soon to have the back replaced."
       ]
+    },
+    "waterbestendig-na-schermvervanging": {
+      "question": "Is my phone still water-resistant after a screen replacement?",
+      "answer": [
+        "After a screen replacement we cannot guarantee that your phone is water-resistant. An iPhone is water-resistant, but not completely waterproof. Cracks in the screen, dents in the frame and worn seals can reduce this protection.",
+        "When replacing the screen we also renew the screen adhesive and seal where needed. This lets us fit the screen carefully to the housing. However, it does not guarantee that the original water resistance is restored.",
+        "That is why we give no warranty on water resistance after a repair. Our advice: keep your phone away from water and don't submerge it, especially after it has been damaged or opened.",
+        "The above also applies to back glass replacement, battery replacement and all other repairs in which the device is opened."
+      ]
+    },
+    "garantie-schermreparatie": {
+      "question": "What does the screen repair warranty cover?",
+      "answer": [
+        "If your screen stops working, we replace it free of charge. If your screen has drop, impact, water or visible user damage, it is no longer covered by our warranty. Your screen may also show black spots or lines while the glass is not broken. This too is caused by drop or impact damage and is unfortunately not covered by the warranty terms."
+      ]
     }
   },
   "claims": {
@@ -612,35 +627,83 @@
     "reparatie-opsturen": {
       "title": "Mail-in repair",
       "eyebrow": "Mail-in",
-      "intro": "Not living near Den Bosch? You can also send your device in.",
+      "intro": "Not living near Den Bosch, or no time to drop by? No problem. You can easily send your phone, tablet or other device to Phone Repairs for repair. As soon as we have received your device, we get to work on it as quickly as possible.",
       "seo": {
         "title": "Mail-in repair · Phone Repairs Den Bosch",
-        "description": "How to send your device to Phone Repairs: contact us first, pack it well, send it registered and get it back within 1 to 2 working days."
+        "description": "How to send your device to Phone Repairs for repair: get in touch first, fill in the send-in form, pack it well and send it by registered mail."
       },
       "sections": [
         {
-          "heading": "How it works",
+          "heading": "Important before you send your device",
+          "intro": [],
+          "bullets": [],
           "steps": [
-            "Get in touch first. We check that the part is in stock and you hear what the repair costs.",
-            "Pack your device in a sturdy box with bubble wrap.",
-            "Send the parcel by registered mail.",
-            "After receipt and payment you usually get your device back within 1 to 2 working days, registered and insured, provided the part is in stock."
+            "Check stock and price beforehand: always get in touch with us first. That way we can check whether the parts you need are in stock and you know in advance what the repair costs.",
+            "Fill in the send-in form: print the send-in form, fill it in completely and include it with your device.",
+            "Don't send accessories: remove cases, screen protectors and SIM cards, and don't send charging cables, chargers or other accessories unless we specifically ask for them.",
+            "Pack your device carefully: use a sturdy box and enough protective packaging so the device is well protected in transit.",
+            "Always send it by registered mail: that way the shipment can be tracked and you have proof of postage."
           ],
-          "body": [],
-          "bullets": []
+          "body": [
+            "In short: even if you don't live nearby, you can use the Phone Repairs repair service. Get in touch with us first, send your device to us safely and we'll make sure it comes back to you neatly after the repair."
+          ]
         },
         {
-          "heading": "Outside the Netherlands",
-          "body": [
-            "Living outside the Netherlands? Get in touch first, as different shipping costs apply."
-          ],
+          "heading": "What are the shipping costs?",
+          "intro": [],
           "bullets": [],
-          "steps": []
+          "steps": [],
+          "body": [
+            "Phone Repairs charges €12 for returning your device within the Netherlands (registered and insured via PostNL). For rates and shipping methods outside the Netherlands or outside Europe, please get in touch with us."
+          ]
+        },
+        {
+          "heading": "What does repairing my device cost?",
+          "intro": [],
+          "bullets": [],
+          "steps": [],
+          "body": [
+            "You can find the rates per brand and model on our website."
+          ]
+        },
+        {
+          "heading": "How should I send my device?",
+          "intro": [],
+          "bullets": [],
+          "steps": [],
+          "body": [
+            "Make sure your device is packed safely and well protected, preferably in a sturdy box and wrapped in bubble wrap. Fill the whole box with packing material so the device cannot move in transit. Always send your device by registered mail, so you receive official confirmation from PostNL once we have received it. Please don't send accessories such as chargers, cables, cases and so on. Always include the completely filled-in form."
+          ]
+        },
+        {
+          "heading": "How long does the repair take?",
+          "intro": [],
+          "bullets": [],
+          "steps": [],
+          "body": [
+            "Once Phone Repairs has received your device, we contact you within a few hours. By then we have already examined your device and can tell you what the repair costs. If you agree, we aim to have your device repaired within 1-2 working days after receipt and payment (provided the part is in stock). We then return it to you by registered mail via PostNL."
+          ]
+        },
+        {
+          "heading": "Do I get a warranty on the repair?",
+          "intro": [],
+          "bullets": [],
+          "steps": [],
+          "body": [
+            "Yes, you get a standard 12-month warranty on the replaced parts."
+          ]
+        },
+        {
+          "heading": "How can I pay?",
+          "intro": [],
+          "bullets": [],
+          "steps": [],
+          "body": [
+            "You can pay via the payment link we send you."
+          ]
         }
       ],
-      "unconfirmed": [
-        "Cost of the registered return shipment within the Netherlands: the page mentions both €11 and €12."
-      ]
+      "unconfirmed": []
     },
     "garantie": {
       "title": "Warranty on repairs",
@@ -1225,6 +1288,231 @@
           ],
           "bullets": [],
           "steps": []
+        }
+      ],
+      "unconfirmed": []
+    },
+    "gsm-reparatie-cromvoirt": {
+      "title": "Phone repair Cromvoirt",
+      "eyebrow": "For Cromvoirt",
+      "intro": "Living or working in Cromvoirt? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Phone repair Cromvoirt · by appointment in Den Bosch",
+        "description": "Phone broken? From Cromvoirt, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "iphone-reparatie-helvoirt": {
+      "title": "iPhone repair Helvoirt",
+      "eyebrow": "For Helvoirt",
+      "intro": "Living or working in Helvoirt? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "iPhone repair Helvoirt · by appointment in Den Bosch",
+        "description": "iPhone broken? From Helvoirt, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "telefoon-reparatie-oirschot": {
+      "title": "Phone repair Oirschot",
+      "eyebrow": "For Oirschot",
+      "intro": "Living or working in Oirschot? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Phone repair Oirschot · by appointment in Den Bosch",
+        "description": "Phone broken? From Oirschot, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "iphone-reparatie-meierijstad": {
+      "title": "iPhone repair Meierijstad",
+      "eyebrow": "For Meierijstad",
+      "intro": "Living or working in Meierijstad? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "iPhone repair Meierijstad · by appointment in Den Bosch",
+        "description": "iPhone broken? From Meierijstad, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "telefoon-reparatie-veghel": {
+      "title": "Phone repair Veghel",
+      "eyebrow": "For Veghel",
+      "intro": "Living or working in Veghel? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Phone repair Veghel · by appointment in Den Bosch",
+        "description": "Phone broken? From Veghel, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "telefoon-reparatie-sint-michielsgestel": {
+      "title": "Phone repair Sint-Michielsgestel",
+      "eyebrow": "For Sint-Michielsgestel",
+      "intro": "Living or working in Sint-Michielsgestel? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Phone repair Sint-Michielsgestel · by appointment in Den Bosch",
+        "description": "Phone broken? From Sint-Michielsgestel, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "gsm-reparatie-drunen": {
+      "title": "Phone repair Drunen",
+      "eyebrow": "For Drunen",
+      "intro": "Living or working in Drunen? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Phone repair Drunen · by appointment in Den Bosch",
+        "description": "Phone broken? From Drunen, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "iphone-reparatie-vlijmen": {
+      "title": "iPhone repair Vlijmen",
+      "eyebrow": "For Vlijmen",
+      "intro": "Living or working in Vlijmen? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "iPhone repair Vlijmen · by appointment in Den Bosch",
+        "description": "iPhone broken? From Vlijmen, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "iphone-reparatie-engelen": {
+      "title": "iPhone repair Engelen",
+      "eyebrow": "For Engelen",
+      "intro": "Living or working in Engelen? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "iPhone repair Engelen · by appointment in Den Bosch",
+        "description": "iPhone broken? From Engelen, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "iphone-reparatie-haaren": {
+      "title": "iPhone repair Haaren",
+      "eyebrow": "For Haaren",
+      "intro": "Living or working in Haaren? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "iPhone repair Haaren · by appointment in Den Bosch",
+        "description": "iPhone broken? From Haaren, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "telefoon-reparatie-kerkdriel": {
+      "title": "Phone repair Kerkdriel",
+      "eyebrow": "For Kerkdriel",
+      "intro": "Living or working in Kerkdriel? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Phone repair Kerkdriel · by appointment in Den Bosch",
+        "description": "Phone broken? From Kerkdriel, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "gsm-reparatie-nieuwkuijk": {
+      "title": "Phone repair Nieuwkuijk",
+      "eyebrow": "For Nieuwkuijk",
+      "intro": "Living or working in Nieuwkuijk? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Phone repair Nieuwkuijk · by appointment in Den Bosch",
+        "description": "Phone broken? From Nieuwkuijk, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "iphone-reparatie-oisterwijk": {
+      "title": "iPhone repair Oisterwijk",
+      "eyebrow": "For Oisterwijk",
+      "intro": "Living or working in Oisterwijk? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "iPhone repair Oisterwijk · by appointment in Den Bosch",
+        "description": "iPhone broken? From Oisterwijk, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "iphone-reparatie-maasdriel": {
+      "title": "iPhone repair Maasdriel",
+      "eyebrow": "For Maasdriel",
+      "intro": "Living or working in Maasdriel? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "iPhone repair Maasdriel · by appointment in Den Bosch",
+        "description": "iPhone broken? From Maasdriel, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "iphone-reparatie-ammerzoden": {
+      "title": "iPhone repair Ammerzoden",
+      "eyebrow": "For Ammerzoden",
+      "intro": "Living or working in Ammerzoden? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "iPhone repair Ammerzoden · by appointment in Den Bosch",
+        "description": "iPhone broken? From Ammerzoden, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "telefoon-reparatie-maaspoort": {
+      "title": "Phone repair Maaspoort",
+      "eyebrow": "For Maaspoort",
+      "intro": "Living or working in Maaspoort? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Phone repair Maaspoort · by appointment in Den Bosch",
+        "description": "Phone broken? From Maaspoort, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "telefoon-en-tablet-hulp": {
+      "title": "Phone and tablet help",
+      "eyebrow": "Phone help",
+      "intro": "Stuck with your phone or tablet? Bought a new device and can't get everything transferred properly? Or do you need help with settings, apps or pairing accessories? At Phone Repairs Den Bosch we're happy to help. Whether it's an iPhone, Samsung, Oppo, Google Pixel or another brand: we take the time to solve the problem together with you. We also explain clearly what we do, so you can carry on by yourself afterwards.",
+      "seo": {
+        "title": "Phone help: we help you with all your phone problems",
+        "description": "Help with transferring data, setting up a new device, pairing accessories and settings. By appointment at Phone Repairs in Den Bosch."
+      },
+      "sections": [
+        {
+          "heading": "What can we help you with?",
+          "intro": [],
+          "steps": [],
+          "bullets": [
+            "Transferring data: we help you transfer photos, contacts, files, apps and – where possible – WhatsApp chats from your old device to your new one.",
+            "Setting up a new device: from accounts and e-mail to the most important settings and apps, so your new phone or tablet is ready to use straight away.",
+            "Pairing a smartwatch and (medical) accessories: help connecting, for example, your smartwatch, wireless earbuds, printer or other devices.",
+            "Settings and troubleshooting: is a feature not working as expected? We look at the settings together and find a suitable solution.",
+            "Personal explanation: no complicated technical talk, but clear explanations and practical tips you can use right away."
+          ],
+          "body": [
+            "In short: you don't have to spend hours searching for the right settings or solutions yourself. With our personal phone help, we make sure your smartphone or tablet works the way you want it to again."
+          ]
+        },
+        {
+          "heading": "Phone and tablet help rates",
+          "intro": [],
+          "body": [],
+          "bullets": [],
+          "steps": [],
+          "image": {
+            "src": "/wp-content/uploads/2026/09/Codex-afbeelding-24-sep-2026-10_52_25.png",
+            "alt": "Phone Repairs rate card for phone and tablet help (in Dutch): cleaning, setup, software and data, personal help and a total loss statement for your insurance",
+            "width": 1024,
+            "height": 1536
+          }
+        },
+        {
+          "heading": "By appointment",
+          "intro": [],
+          "bullets": [],
+          "steps": [],
+          "body": [
+            "We have very generous opening hours: we repair during the day but also in the evenings, at weekends and even on Sundays and public holidays. We work by appointment so we can guarantee all the time and attention for you and your smartphone or tablet. Because of the way we work you never have to wait. You come in and we repair your device straight away while you watch. We protect your privacy: your device never leaves your sight. Parking is free right outside."
+          ]
         }
       ],
       "unconfirmed": []

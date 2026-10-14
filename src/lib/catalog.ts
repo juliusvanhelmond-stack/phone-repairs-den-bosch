@@ -6,6 +6,7 @@ import {
   deviceCategorySchema,
   deviceModelSchema,
   faqItemSchema,
+  landingImageSchema,
   landingPageSchema,
   priceListSchema,
   repairServiceSchema,
@@ -216,6 +217,7 @@ const landingSectionText = z.object({
   body: z.array(z.string()).default([]),
   bullets: z.array(z.string()).default([]),
   steps: z.array(z.string()).default([]),
+  image: landingImageSchema.optional(),
 });
 const translationsSchema = z.object({
   categories: z.record(z.string(), z.object({ name: z.string(), plural: z.string(), description: z.string() })),

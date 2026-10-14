@@ -11,11 +11,15 @@ import { pageMetadata } from "@/lib/seo";
 
 export async function generateMetadata(): Promise<Metadata> {
   const { locale, t } = await getI18n();
+  const places = areasByPlace()
+    .filter((g) => g.placeKind === "plaats")
+    .map((g) => g.place);
+  const list = (and: string) => `${places.slice(0, 7).join(", ")} ${and} ${t("meer", "more")}`;
   return pageMetadata({
     title: t("Werkgebied", "Service area"),
     description: t(
-      "Phone Repairs zit in Den Bosch en helpt ook klanten uit Rosmalen, Vught, Oss, Waalwijk, Zaltbommel, Boxtel, Schijndel en Geldermalsen.",
-      "Phone Repairs is based in Den Bosch and also helps customers from Rosmalen, Vught, Oss, Waalwijk, Zaltbommel, Boxtel, Schijndel and Geldermalsen.",
+      `Phone Repairs zit in Den Bosch en helpt ook klanten uit ${list("en")}.`,
+      `Phone Repairs is based in Den Bosch and also helps customers from ${list("and")}.`,
     ),
     path: "/werkgebied",
     locale,

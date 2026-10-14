@@ -128,8 +128,8 @@ export default async function DevicePage({ params }: PageProps<"/[lang]/reparati
           `Is your ${device.name} broken? At Phone Repairs in Den Bosch it is repaired by appointment. Most repairs are done in about 30 minutes while you watch.`,
         )}
         aside={
-          <figure className="relative flex aspect-[4/3.4] flex-col overflow-hidden rounded-[var(--radius-panel)] bg-white ring-1 ring-line">
-            <div className="relative flex min-h-0 flex-1 items-center justify-center p-[8%]">
+          <figure className="relative flex h-44 flex-col sm:h-auto sm:aspect-[4/3.4] overflow-hidden rounded-[var(--radius-panel)] bg-white ring-1 ring-line">
+            <div className="relative flex min-h-0 flex-1 items-center justify-center p-4 sm:p-[8%]">
               <DevicePhoto
                 device={device}
                 priority
@@ -137,7 +137,7 @@ export default async function DevicePage({ params }: PageProps<"/[lang]/reparati
                 artClassName={cn("relative h-full w-auto", wide ? "max-w-[82%]" : medium ? "max-w-[48%]" : "max-w-[34%]")}
               />
             </div>
-            <figcaption className="px-5 pb-4 text-right text-xs text-muted">{t("Afbeelding ter illustratie", "Illustrative image")}</figcaption>
+            <figcaption className="px-4 pb-2 text-right text-[0.6875rem] text-muted sm:px-5 sm:pb-4 sm:text-xs">{t("Afbeelding ter illustratie", "Illustrative image")}</figcaption>
           </figure>
         }
       >

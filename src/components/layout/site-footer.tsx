@@ -13,6 +13,7 @@ const moreIds = [
   "pre-owned-toestellen",
   "bijzondere-merken-reparatie",
   "zakelijke-reparatie",
+  "telefoon-en-tablet-hulp",
   "reparatie-opsturen",
 ];
 /** Info pages kept from the current site, listed with the company links. */

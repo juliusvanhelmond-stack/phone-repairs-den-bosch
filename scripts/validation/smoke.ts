@@ -48,6 +48,10 @@ const ROUTES = [
   "/nintendo-switch-reparatie",
   "/pre-owned-toestellen",
   "/veelgestelde-vragen/reparatie-opsturen",
+  "/telefoon-en-tablet-hulp",
+  "/gsm-reparatie-cromvoirt",
+  "/iphone-reparatie-meierijstad",
+  "/telefoon-reparatie-maaspoort",
   "/blog-post",
   "/blog-post/ios-27-batterijproblemen",
   "/sitemap.xml",
@@ -73,6 +77,7 @@ const ROUTES = [
 const REDIRECTS: [string, string][] = [
   ["/over-phone-repairs/", "/over-ons"],
   ["/afspraak-maken/", "/afspraak"],
+  ["/iphone-reparaties-oirschot/", "/telefoon-reparatie-oirschot"],
   ["/samsung-reparatie-den-bosch/samsung-s23/", "/reparaties/samsung/galaxy-s23"],
   // Original device, series and area URLs from the WordPress export
   ["/iphone-reparatie/iphone-15-pro/", "/reparaties/apple/iphone-15-pro"],
@@ -339,6 +344,38 @@ async function main() {
     assert(wa?.startsWith(`${WA}?text=`) && waText(wa).includes("Toestel: iPhone 15 Pro"), `whatsapp ${wa}`);
   });
 
+  await check("send-in form: validation, honest result without mail service, print and fallbacks", async () => {
+    await page.goto(BASE + "/veelgestelde-vragen/reparatie-opsturen");
+    const form = page.locator("#opstuurformulier");
+    await form.getByRole("button", { name: "Formulier versturen" }).click();
+    await form.getByRole("alert").waitFor();
+    assert((await form.locator('[aria-invalid="true"]').count()) >= 8, "fields not marked invalid");
+    await form.getByLabel("Voor- en achternaam *").fill("Test Persoon");
+    await form.getByLabel("Straat en huisnummer *").fill("Teststraat 1");
+    await form.getByLabel("Postcode *").fill("1234 AB");
+    await form.getByLabel("Woonplaats en land *").fill("Utrecht, Nederland");
+    await form.getByLabel("Telefoonnummer *").fill("06 12345678");
+    await form.getByLabel("E-mailadres *").fill("test@example.com");
+    await form.getByLabel("Merk *").fill("Apple");
+    await form.getByLabel("Model / type *").fill("iPhone 13");
+    await form.getByLabel("Nee", { exact: true }).check();
+    await form.getByLabel(/Omschrijf de klacht/).fill("Scherm gebarsten.");
+    await form.getByLabel(/Ik geef toestemming/).check();
+    await form.getByRole("button", { name: "Formulier versturen" }).click();
+    // No mail service in the test environment: the form must never claim it was sent.
+    await form.getByRole("heading", { name: "Je formulier is nog niet verstuurd" }).waitFor();
+    assert(await form.getByRole("button", { name: "Formulier printen" }).isVisible(), "print button missing");
+    const mailto = await form.getByRole("link", { name: /Verstuur via e-mail/ }).getAttribute("href");
+    assert(mailto?.startsWith("mailto:info@phonerepairs.nl") && decodeURIComponent(mailto).includes("Model / type: iPhone 13"), `mailto ${mailto}`);
+  });
+
+  await check("garantie: exclusions show a cross, not a checkmark", async () => {
+    await page.goto(BASE + "/garantie");
+    const list = page.getByRole("heading", { name: "Wanneer vervalt de garantie?" }).locator("xpath=..");
+    assert((await list.locator("svg.lucide-x").count()) >= 5, "no crosses");
+    assert((await list.getByText(/^✕/).count()) === 0, "raw ✕ still shown");
+  });
+
   await check("whatsapp: header CTA and contact order on contact page", async () => {
     await page.goto(BASE + "/contact");
     const header = await page.locator("header").getByRole("link", { name: "WhatsApp ons" }).getAttribute("href");
@@ -435,7 +472,7 @@ async function main() {
     assert(broken.length === 0, `broken: ${broken.join(", ")}`);
   });
 
-  for (const route of ["/", "/reparaties/apple/iphone-15-pro", "/afspraak", "/veelgestelde-vragen", "/en", "/en/appointment"]) {
+  for (const route of ["/", "/reparaties/apple/iphone-15-pro", "/afspraak", "/veelgestelde-vragen", "/veelgestelde-vragen/reparatie-opsturen", "/telefoon-en-tablet-hulp", "/en", "/en/appointment"]) {
     await check(`axe: no serious/critical violations on ${route}`, async () => {
       await page.goto(BASE + route, { waitUntil: "networkidle" });
       const { violations } = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa"]).analyze();

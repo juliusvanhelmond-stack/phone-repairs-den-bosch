@@ -733,43 +733,95 @@
     "id": "reparatie-opsturen",
     "path": "/veelgestelde-vragen/reparatie-opsturen",
     "kind": "faq-topic",
-    "originalTitle": "Reparatie opsturen: Stappen en kosten",
+    "originalTitle": "Opsturen",
     "title": "Reparatie opsturen",
     "eyebrow": "Opsturen",
-    "intro": "Woon je niet in de buurt van Den Bosch? Dan kun je je toestel ook opsturen.",
+    "intro": "Woon je niet in de buurt van Den Bosch of heb je geen tijd om langs te komen? Geen probleem. Je kunt je telefoon, tablet of ander toestel eenvoudig naar Phone Repairs opsturen voor reparatie. Zodra we je toestel hebben ontvangen, gaan we zo snel mogelijk voor je aan de slag.",
     "seo": {
       "title": "Reparatie opsturen · Phone Repairs Den Bosch",
-      "description": "Zo stuur je je toestel op voor reparatie bij Phone Repairs: eerst contact, goed verpakken, aangetekend versturen en binnen 1 à 2 werkdagen retour."
+      "description": "Zo stuur je je toestel op voor reparatie bij Phone Repairs: eerst contact, het opstuurformulier invullen, goed verpakken en aangetekend versturen."
     },
     "sections": [
       {
-        "heading": "Zo werkt het",
+        "heading": "Belangrijk voordat je jouw toestel opstuurt",
+        "intro": [],
+        "bullets": [],
         "steps": [
-          "Neem eerst contact op. Dan wordt gecontroleerd of het onderdeel op voorraad is en hoor je wat de reparatie kost.",
-          "Verpak je toestel in een stevige doos met noppenfolie.",
-          "Verstuur het pakket aangetekend.",
-          "Na ontvangst en betaling krijg je je toestel meestal binnen 1 à 2 werkdagen aangetekend en verzekerd terug, als het onderdeel op voorraad is."
+          "Controleer vooraf de voorraad en prijs: neem altijd eerst contact met ons op. Zo kunnen we controleren of de benodigde onderdelen op voorraad zijn en weet je vooraf wat de reparatie kost.",
+          "Vul het opstuurformulier in: print het opstuurformulier, vul het volledig in en stuur het samen met je toestel mee.",
+          "Stuur geen accessoires mee: verwijder hoesjes, screen protectors en simkaarten en stuur geen laadkabels, opladers of andere accessoires mee, tenzij we hier specifiek om vragen.",
+          "Verpak je toestel zorgvuldig: gebruik een stevige doos en voldoende beschermend verpakkingsmateriaal, zodat het toestel tijdens het transport goed beschermd is.",
+          "Verzend altijd aangetekend: zo is de verzending traceerbaar en beschik je over een verzendbewijs."
+        ],
+        "body": [
+          "Kortom: ook als je niet in de buurt woont, kun je gebruikmaken van de reparatieservice van Phone Repairs. Neem vooraf even contact met ons op, stuur je toestel veilig naar ons toe en wij zorgen ervoor dat het na de reparatie weer netjes bij je terugkomt."
         ]
       },
       {
-        "heading": "Buiten Nederland",
+        "heading": "Wat zijn de verzendkosten?",
+        "intro": [],
+        "bullets": [],
+        "steps": [],
         "body": [
-          "Woon je buiten Nederland? Neem dan eerst contact op, want daarvoor gelden andere verzendkosten."
+          "Phone Repairs rekent €12,- voor het (aangetekend en verzekerd via Post.nl) retourneren van je toestel binnen Nederland. Voor tarieven en verzendmethode buiten Nederland of buiten Europa neem even contact op met ons."
+        ]
+      },
+      {
+        "heading": "Welke kosten zijn er verbonden aan het repareren van mijn toestel?",
+        "intro": [],
+        "bullets": [],
+        "steps": [],
+        "body": [
+          "Op onze website kun je per merk en model de tarieven bekijken."
+        ]
+      },
+      {
+        "heading": "Hoe moet ik mijn toestel verzenden?",
+        "intro": [],
+        "bullets": [],
+        "steps": [],
+        "body": [
+          "Zorg ervoor dat je jouw apparaat veilig en goed beschermd verpakt, bij voorkeur in een stevige doos en omwikkeld met bubbelwrap. Vul de hele doos met vulmateriaal om te voorkomen dat het apparaat tijdens het transport kan bewegen. Verzend je apparaat altijd aangetekend, zodat je een officiële bevestiging van PostNL ontvangt zodra wij het ontvangen. Gelieve geen accessoires zoals opladers, kabels, hoesjes, enzovoort mee te sturen. Zorg ervoor dat je altijd het volledig ingevulde formulier meestuurt."
+        ]
+      },
+      {
+        "heading": "Wat is de reparatieduur?",
+        "intro": [],
+        "bullets": [],
+        "steps": [],
+        "body": [
+          "Zodra Phone Repairs je toestel heeft ontvangen, nemen wij binnen enkele uren contact met je op. Op dat moment hebben we je toestel al onderzocht en kunnen we je informeren over de reparatiekosten. Als je akkoord gaat, streven we ernaar om je toestel (mits het benodigde onderdeel op voorraad is) binnen 1-2 werkdagen na ontvangst en betaling gerepareerd te hebben. We sturen het vervolgens aangetekend via PostNL naar je retour."
+        ]
+      },
+      {
+        "heading": "Krijg ik garantie op de reparatie?",
+        "intro": [],
+        "bullets": [],
+        "steps": [],
+        "body": [
+          "Ja, je krijgt standaard 12 maanden garantie op de vervangen onderdelen."
+        ]
+      },
+      {
+        "heading": "Hoe kan ik betalen?",
+        "intro": [],
+        "bullets": [],
+        "steps": [],
+        "body": [
+          "Betaling is mogelijk via de betaallink die we u sturen."
         ]
       }
     ],
-    "unconfirmed": [
-      "Kosten aangetekende retourzending binnen Nederland: de pagina noemt zowel €11 als €12."
-    ],
+    "unconfirmed": [],
     "legacyUrls": [
       "/veelgestelde-vragen/reparatie-opsturen/"
     ],
     "sources": [
       {
         "url": "https://www.phonerepairs.nl/veelgestelde-vragen/reparatie-opsturen/",
-        "verification": "search-index",
+        "verification": "verified-source",
         "capturedAt": "2026-10-12",
-        "note": "Contact first (stock and price); sturdy box with bubble wrap; send registered; returned within 1-2 working days registered and insured after receipt and payment; abroad: contact for rates."
+        "note": "WordPress export 2026-10-12. The five steps are transcribed from the page's infographic (exec-30cd688a…png). Return shipping €12 (export and infographic agree; resolves the earlier €11/€12 search-index conflict). Form fields from Reparatieformulier-Phone-Repairs.doc."
       }
     ]
   },
@@ -1479,6 +1531,534 @@
         "verification": "verified-source",
         "capturedAt": "2026-10-12",
         "note": "WordPress export 2026-10-12; page last changed 2026-10-09."
+      }
+    ]
+  },
+  {
+    "id": "gsm-reparatie-cromvoirt",
+    "path": "/gsm-reparatie-cromvoirt",
+    "kind": "area",
+    "originalTitle": "GSM reparatie Cromvoirt",
+    "title": "GSM reparatie Cromvoirt",
+    "eyebrow": "Voor Cromvoirt",
+    "intro": "Woon of werk je in Cromvoirt? Bij Phone Repairs aan de Ploossche Hof in Den Bosch laat je je gsm op afspraak repareren. De meeste reparaties zijn binnen ongeveer 30 minuten klaar terwijl je meekijkt.",
+    "seo": {
+      "title": "GSM reparatie Cromvoirt · op afspraak in Den Bosch",
+      "description": "GSM kapot? Vanuit Cromvoirt laat je je gsm repareren bij Phone Repairs in Den Bosch. Op afspraak, vaak binnen 30 minuten klaar."
+    },
+    "place": "Cromvoirt",
+    "placeKind": "plaats",
+    "focus": "gsm",
+    "sections": [],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/gsm-reparatie-cromvoirt/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/gsm-reparatie-cromvoirt/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Published area page in the WordPress export 2026-10-12 (last changed 2026-10-09); intro uses the site's area template. Added at the client's request (e-mail 2026-10-13)."
+      }
+    ]
+  },
+  {
+    "id": "iphone-reparatie-helvoirt",
+    "path": "/iphone-reparatie-helvoirt",
+    "kind": "area",
+    "originalTitle": "iPhone reparatie Helvoirt",
+    "title": "iPhone reparatie Helvoirt",
+    "eyebrow": "Voor Helvoirt",
+    "intro": "Woon of werk je in Helvoirt? Bij Phone Repairs aan de Ploossche Hof in Den Bosch laat je je iPhone op afspraak repareren. De meeste reparaties zijn binnen ongeveer 30 minuten klaar terwijl je meekijkt.",
+    "seo": {
+      "title": "iPhone reparatie Helvoirt · op afspraak in Den Bosch",
+      "description": "iPhone kapot? Vanuit Helvoirt laat je je iPhone repareren bij Phone Repairs in Den Bosch. Op afspraak, vaak binnen 30 minuten klaar."
+    },
+    "place": "Helvoirt",
+    "placeKind": "plaats",
+    "focus": "iphone",
+    "sections": [],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/iphone-reparatie-helvoirt/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/iphone-reparatie-helvoirt/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Published area page in the WordPress export 2026-10-12 (last changed 2026-10-09); intro uses the site's area template. Added at the client's request (e-mail 2026-10-13)."
+      }
+    ]
+  },
+  {
+    "id": "telefoon-reparatie-oirschot",
+    "path": "/telefoon-reparatie-oirschot",
+    "kind": "area",
+    "originalTitle": "Telefoon reparatie Oirschot",
+    "title": "Telefoon reparatie Oirschot",
+    "eyebrow": "Voor Oirschot",
+    "intro": "Woon of werk je in Oirschot? Bij Phone Repairs aan de Ploossche Hof in Den Bosch laat je je telefoon op afspraak repareren. De meeste reparaties zijn binnen ongeveer 30 minuten klaar terwijl je meekijkt.",
+    "seo": {
+      "title": "Telefoon reparatie Oirschot · op afspraak in Den Bosch",
+      "description": "Telefoon kapot? Vanuit Oirschot laat je je telefoon repareren bij Phone Repairs in Den Bosch. Op afspraak, vaak binnen 30 minuten klaar."
+    },
+    "place": "Oirschot",
+    "placeKind": "plaats",
+    "focus": "telefoon",
+    "sections": [],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/telefoon-reparatie-oirschot/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/telefoon-reparatie-oirschot/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Published area page in the WordPress export 2026-10-12 (last changed 2026-10-09); intro uses the site's area template. Added at the client's request (e-mail 2026-10-13)."
+      }
+    ]
+  },
+  {
+    "id": "iphone-reparatie-meierijstad",
+    "path": "/iphone-reparatie-meierijstad",
+    "kind": "area",
+    "originalTitle": "iPhone reparatie Meierijstad",
+    "title": "iPhone reparatie Meierijstad",
+    "eyebrow": "Voor Meierijstad",
+    "intro": "Woon of werk je in Meierijstad? Bij Phone Repairs aan de Ploossche Hof in Den Bosch laat je je iPhone op afspraak repareren. De meeste reparaties zijn binnen ongeveer 30 minuten klaar terwijl je meekijkt.",
+    "seo": {
+      "title": "iPhone reparatie Meierijstad · op afspraak in Den Bosch",
+      "description": "iPhone kapot? Vanuit Meierijstad laat je je iPhone repareren bij Phone Repairs in Den Bosch. Op afspraak, vaak binnen 30 minuten klaar."
+    },
+    "place": "Meierijstad",
+    "placeKind": "plaats",
+    "focus": "iphone",
+    "sections": [],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/iphone-reparatie-meierijstad/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/iphone-reparatie-meierijstad/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Published area page in the WordPress export 2026-10-12 (last changed 2026-10-09); intro uses the site's area template. Added at the client's request (e-mail 2026-10-13)."
+      }
+    ]
+  },
+  {
+    "id": "telefoon-reparatie-veghel",
+    "path": "/telefoon-reparatie-veghel",
+    "kind": "area",
+    "originalTitle": "Telefoon reparatie Veghel",
+    "title": "Telefoon reparatie Veghel",
+    "eyebrow": "Voor Veghel",
+    "intro": "Woon of werk je in Veghel? Bij Phone Repairs aan de Ploossche Hof in Den Bosch laat je je telefoon op afspraak repareren. De meeste reparaties zijn binnen ongeveer 30 minuten klaar terwijl je meekijkt.",
+    "seo": {
+      "title": "Telefoon reparatie Veghel · op afspraak in Den Bosch",
+      "description": "Telefoon kapot? Vanuit Veghel laat je je telefoon repareren bij Phone Repairs in Den Bosch. Op afspraak, vaak binnen 30 minuten klaar."
+    },
+    "place": "Veghel",
+    "placeKind": "plaats",
+    "focus": "telefoon",
+    "sections": [],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/telefoon-reparatie-veghel/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/telefoon-reparatie-veghel/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Published area page in the WordPress export 2026-10-12 (last changed 2026-09-18); intro uses the site's area template. Added at the client's request (e-mail 2026-10-13)."
+      }
+    ]
+  },
+  {
+    "id": "telefoon-reparatie-sint-michielsgestel",
+    "path": "/telefoon-reparatie-sint-michielsgestel",
+    "kind": "area",
+    "originalTitle": "Telefoon reparatie Sint-Michielsgestel",
+    "title": "Telefoon reparatie Sint-Michielsgestel",
+    "eyebrow": "Voor Sint-Michielsgestel",
+    "intro": "Woon of werk je in Sint-Michielsgestel? Bij Phone Repairs aan de Ploossche Hof in Den Bosch laat je je telefoon op afspraak repareren. De meeste reparaties zijn binnen ongeveer 30 minuten klaar terwijl je meekijkt.",
+    "seo": {
+      "title": "Telefoon reparatie Sint-Michielsgestel · op afspraak in Den Bosch",
+      "description": "Telefoon kapot? Vanuit Sint-Michielsgestel laat je je telefoon repareren bij Phone Repairs in Den Bosch. Op afspraak, vaak binnen 30 minuten klaar."
+    },
+    "place": "Sint-Michielsgestel",
+    "placeKind": "plaats",
+    "focus": "telefoon",
+    "sections": [],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/telefoon-reparatie-sint-michielsgestel/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/telefoon-reparatie-sint-michielsgestel/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Published area page in the WordPress export 2026-10-12 (last changed 2026-09-18); intro uses the site's area template. Added at the client's request (e-mail 2026-10-13)."
+      }
+    ]
+  },
+  {
+    "id": "gsm-reparatie-drunen",
+    "path": "/gsm-reparatie-drunen",
+    "kind": "area",
+    "originalTitle": "GSM reparatie Drunen",
+    "title": "GSM reparatie Drunen",
+    "eyebrow": "Voor Drunen",
+    "intro": "Woon of werk je in Drunen? Bij Phone Repairs aan de Ploossche Hof in Den Bosch laat je je gsm op afspraak repareren. De meeste reparaties zijn binnen ongeveer 30 minuten klaar terwijl je meekijkt.",
+    "seo": {
+      "title": "GSM reparatie Drunen · op afspraak in Den Bosch",
+      "description": "GSM kapot? Vanuit Drunen laat je je gsm repareren bij Phone Repairs in Den Bosch. Op afspraak, vaak binnen 30 minuten klaar."
+    },
+    "place": "Drunen",
+    "placeKind": "plaats",
+    "focus": "gsm",
+    "sections": [],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/gsm-reparatie-drunen/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/gsm-reparatie-drunen/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Published area page in the WordPress export 2026-10-12 (last changed 2026-09-18); intro uses the site's area template. Added at the client's request (e-mail 2026-10-13)."
+      }
+    ]
+  },
+  {
+    "id": "iphone-reparatie-vlijmen",
+    "path": "/iphone-reparatie-vlijmen",
+    "kind": "area",
+    "originalTitle": "iPhone reparatie Vlijmen",
+    "title": "iPhone reparatie Vlijmen",
+    "eyebrow": "Voor Vlijmen",
+    "intro": "Woon of werk je in Vlijmen? Bij Phone Repairs aan de Ploossche Hof in Den Bosch laat je je iPhone op afspraak repareren. De meeste reparaties zijn binnen ongeveer 30 minuten klaar terwijl je meekijkt.",
+    "seo": {
+      "title": "iPhone reparatie Vlijmen · op afspraak in Den Bosch",
+      "description": "iPhone kapot? Vanuit Vlijmen laat je je iPhone repareren bij Phone Repairs in Den Bosch. Op afspraak, vaak binnen 30 minuten klaar."
+    },
+    "place": "Vlijmen",
+    "placeKind": "plaats",
+    "focus": "iphone",
+    "sections": [],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/iphone-reparatie-vlijmen/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/iphone-reparatie-vlijmen/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Published area page in the WordPress export 2026-10-12 (last changed 2026-10-09); intro uses the site's area template. Added at the client's request (e-mail 2026-10-13)."
+      }
+    ]
+  },
+  {
+    "id": "iphone-reparatie-engelen",
+    "path": "/iphone-reparatie-engelen",
+    "kind": "area",
+    "originalTitle": "iPhone reparatie Engelen",
+    "title": "iPhone reparatie Engelen",
+    "eyebrow": "Voor Engelen",
+    "intro": "Woon of werk je in Engelen? Bij Phone Repairs aan de Ploossche Hof in Den Bosch laat je je iPhone op afspraak repareren. De meeste reparaties zijn binnen ongeveer 30 minuten klaar terwijl je meekijkt.",
+    "seo": {
+      "title": "iPhone reparatie Engelen · op afspraak in Den Bosch",
+      "description": "iPhone kapot? Vanuit Engelen laat je je iPhone repareren bij Phone Repairs in Den Bosch. Op afspraak, vaak binnen 30 minuten klaar."
+    },
+    "place": "Engelen",
+    "placeKind": "plaats",
+    "focus": "iphone",
+    "sections": [],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/iphone-reparatie-engelen/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/iphone-reparatie-engelen/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Published area page in the WordPress export 2026-10-12 (last changed 2026-10-09); intro uses the site's area template. Added at the client's request (e-mail 2026-10-13)."
+      }
+    ]
+  },
+  {
+    "id": "iphone-reparatie-haaren",
+    "path": "/iphone-reparatie-haaren",
+    "kind": "area",
+    "originalTitle": "iPhone reparatie Haaren",
+    "title": "iPhone reparatie Haaren",
+    "eyebrow": "Voor Haaren",
+    "intro": "Woon of werk je in Haaren? Bij Phone Repairs aan de Ploossche Hof in Den Bosch laat je je iPhone op afspraak repareren. De meeste reparaties zijn binnen ongeveer 30 minuten klaar terwijl je meekijkt.",
+    "seo": {
+      "title": "iPhone reparatie Haaren · op afspraak in Den Bosch",
+      "description": "iPhone kapot? Vanuit Haaren laat je je iPhone repareren bij Phone Repairs in Den Bosch. Op afspraak, vaak binnen 30 minuten klaar."
+    },
+    "place": "Haaren",
+    "placeKind": "plaats",
+    "focus": "iphone",
+    "sections": [],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/iphone-reparatie-haaren/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/iphone-reparatie-haaren/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Published area page in the WordPress export 2026-10-12 (last changed 2020-05-25); intro uses the site's area template. Added at the client's request (e-mail 2026-10-13)."
+      }
+    ]
+  },
+  {
+    "id": "telefoon-reparatie-kerkdriel",
+    "path": "/telefoon-reparatie-kerkdriel",
+    "kind": "area",
+    "originalTitle": "Telefoon reparatie Kerkdriel",
+    "title": "Telefoon reparatie Kerkdriel",
+    "eyebrow": "Voor Kerkdriel",
+    "intro": "Woon of werk je in Kerkdriel? Bij Phone Repairs aan de Ploossche Hof in Den Bosch laat je je telefoon op afspraak repareren. De meeste reparaties zijn binnen ongeveer 30 minuten klaar terwijl je meekijkt.",
+    "seo": {
+      "title": "Telefoon reparatie Kerkdriel · op afspraak in Den Bosch",
+      "description": "Telefoon kapot? Vanuit Kerkdriel laat je je telefoon repareren bij Phone Repairs in Den Bosch. Op afspraak, vaak binnen 30 minuten klaar."
+    },
+    "place": "Kerkdriel",
+    "placeKind": "plaats",
+    "focus": "telefoon",
+    "sections": [],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/telefoon-reparatie-kerkdriel/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/telefoon-reparatie-kerkdriel/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Published area page in the WordPress export 2026-10-12 (last changed 2026-10-09); intro uses the site's area template. Added at the client's request (e-mail 2026-10-13)."
+      }
+    ]
+  },
+  {
+    "id": "gsm-reparatie-nieuwkuijk",
+    "path": "/gsm-reparatie-nieuwkuijk",
+    "kind": "area",
+    "originalTitle": "GSM reparatie Nieuwkuijk",
+    "title": "GSM reparatie Nieuwkuijk",
+    "eyebrow": "Voor Nieuwkuijk",
+    "intro": "Woon of werk je in Nieuwkuijk? Bij Phone Repairs aan de Ploossche Hof in Den Bosch laat je je gsm op afspraak repareren. De meeste reparaties zijn binnen ongeveer 30 minuten klaar terwijl je meekijkt.",
+    "seo": {
+      "title": "GSM reparatie Nieuwkuijk · op afspraak in Den Bosch",
+      "description": "GSM kapot? Vanuit Nieuwkuijk laat je je gsm repareren bij Phone Repairs in Den Bosch. Op afspraak, vaak binnen 30 minuten klaar."
+    },
+    "place": "Nieuwkuijk",
+    "placeKind": "plaats",
+    "focus": "gsm",
+    "sections": [],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/gsm-reparatie-nieuwkuijk/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/gsm-reparatie-nieuwkuijk/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Published area page in the WordPress export 2026-10-12 (last changed 2026-10-09); intro uses the site's area template. Added at the client's request (e-mail 2026-10-13)."
+      }
+    ]
+  },
+  {
+    "id": "iphone-reparatie-oisterwijk",
+    "path": "/iphone-reparatie-oisterwijk",
+    "kind": "area",
+    "originalTitle": "iPhone reparatie Oisterwijk",
+    "title": "iPhone reparatie Oisterwijk",
+    "eyebrow": "Voor Oisterwijk",
+    "intro": "Woon of werk je in Oisterwijk? Bij Phone Repairs aan de Ploossche Hof in Den Bosch laat je je iPhone op afspraak repareren. De meeste reparaties zijn binnen ongeveer 30 minuten klaar terwijl je meekijkt.",
+    "seo": {
+      "title": "iPhone reparatie Oisterwijk · op afspraak in Den Bosch",
+      "description": "iPhone kapot? Vanuit Oisterwijk laat je je iPhone repareren bij Phone Repairs in Den Bosch. Op afspraak, vaak binnen 30 minuten klaar."
+    },
+    "place": "Oisterwijk",
+    "placeKind": "plaats",
+    "focus": "iphone",
+    "sections": [],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/iphone-reparatie-oisterwijk/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/iphone-reparatie-oisterwijk/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Published area page in the WordPress export 2026-10-12 (last changed 2026-10-09); intro uses the site's area template. Added at the client's request (e-mail 2026-10-13)."
+      }
+    ]
+  },
+  {
+    "id": "iphone-reparatie-maasdriel",
+    "path": "/iphone-reparatie-maasdriel",
+    "kind": "area",
+    "originalTitle": "iPhone reparatie Maasdriel",
+    "title": "iPhone reparatie Maasdriel",
+    "eyebrow": "Voor Maasdriel",
+    "intro": "Woon of werk je in Maasdriel? Bij Phone Repairs aan de Ploossche Hof in Den Bosch laat je je iPhone op afspraak repareren. De meeste reparaties zijn binnen ongeveer 30 minuten klaar terwijl je meekijkt.",
+    "seo": {
+      "title": "iPhone reparatie Maasdriel · op afspraak in Den Bosch",
+      "description": "iPhone kapot? Vanuit Maasdriel laat je je iPhone repareren bij Phone Repairs in Den Bosch. Op afspraak, vaak binnen 30 minuten klaar."
+    },
+    "place": "Maasdriel",
+    "placeKind": "plaats",
+    "focus": "iphone",
+    "sections": [],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/iphone-reparatie-maasdriel/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/iphone-reparatie-maasdriel/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Published area page in the WordPress export 2026-10-12 (last changed 2020-05-25); intro uses the site's area template. Added at the client's request (e-mail 2026-10-13)."
+      }
+    ]
+  },
+  {
+    "id": "iphone-reparatie-ammerzoden",
+    "path": "/iphone-reparatie-ammerzoden",
+    "kind": "area",
+    "originalTitle": "iPhone reparatie Ammerzoden",
+    "title": "iPhone reparatie Ammerzoden",
+    "eyebrow": "Voor Ammerzoden",
+    "intro": "Woon of werk je in Ammerzoden? Bij Phone Repairs aan de Ploossche Hof in Den Bosch laat je je iPhone op afspraak repareren. De meeste reparaties zijn binnen ongeveer 30 minuten klaar terwijl je meekijkt.",
+    "seo": {
+      "title": "iPhone reparatie Ammerzoden · op afspraak in Den Bosch",
+      "description": "iPhone kapot? Vanuit Ammerzoden laat je je iPhone repareren bij Phone Repairs in Den Bosch. Op afspraak, vaak binnen 30 minuten klaar."
+    },
+    "place": "Ammerzoden",
+    "placeKind": "plaats",
+    "focus": "iphone",
+    "sections": [],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/iphone-reparatie-ammerzoden/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/iphone-reparatie-ammerzoden/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Published area page in the WordPress export 2026-10-12 (last changed 2026-09-18); intro uses the site's area template. Added at the client's request (e-mail 2026-10-13)."
+      }
+    ]
+  },
+  {
+    "id": "telefoon-reparatie-maaspoort",
+    "path": "/telefoon-reparatie-maaspoort",
+    "kind": "area",
+    "originalTitle": "Telefoon reparatie Maaspoort",
+    "title": "Telefoon reparatie Maaspoort",
+    "eyebrow": "Voor Maaspoort",
+    "intro": "Woon of werk je in Maaspoort? Bij Phone Repairs aan de Ploossche Hof in Den Bosch laat je je telefoon op afspraak repareren. De meeste reparaties zijn binnen ongeveer 30 minuten klaar terwijl je meekijkt.",
+    "seo": {
+      "title": "Telefoon reparatie Maaspoort · op afspraak in Den Bosch",
+      "description": "Telefoon kapot? Vanuit Maaspoort laat je je telefoon repareren bij Phone Repairs in Den Bosch. Op afspraak, vaak binnen 30 minuten klaar."
+    },
+    "place": "Maaspoort",
+    "placeKind": "wijk",
+    "focus": "telefoon",
+    "sections": [],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/telefoon-reparatie-maaspoort/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/telefoon-reparatie-maaspoort/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "Published area page in the WordPress export 2026-10-12 (last changed 2026-09-18); intro uses the site's area template. Added at the client's request (e-mail 2026-10-13)."
+      }
+    ]
+  },
+  {
+    "id": "telefoon-en-tablet-hulp",
+    "path": "/telefoon-en-tablet-hulp",
+    "kind": "service",
+    "originalTitle": "Telefoon en tablet hulp",
+    "title": "Telefoon- en tablethulp",
+    "eyebrow": "Telefoonhulp",
+    "intro": "Loop je vast met je telefoon of tablet? Heb je een nieuw toestel gekocht en lukt het niet om alles goed over te zetten? Of heb je hulp nodig bij instellingen, apps of het koppelen van accessoires? Bij Phone Repairs Den Bosch helpen we je graag verder. Of het nu gaat om een iPhone, Samsung, Oppo, Google Pixel of een ander merk: we nemen de tijd om het probleem samen met je op te lossen. Bovendien leggen we duidelijk uit wat we doen, zodat je daarna zelf weer verder kunt.",
+    "seo": {
+      "title": "Telefoonhulp: wij helpen je met al je telefoonproblemen",
+      "description": "Hulp bij gegevens overzetten, een nieuw toestel instellen, accessoires koppelen en instellingen. Op afspraak bij Phone Repairs in Den Bosch."
+    },
+    "sections": [
+      {
+        "heading": "Waar kunnen we je mee helpen?",
+        "intro": [],
+        "steps": [],
+        "bullets": [
+          "Gegevens overzetten: we helpen je met het overzetten van foto’s, contacten, bestanden, apps en – waar mogelijk – WhatsApp-gesprekken van je oude naar je nieuwe toestel.",
+          "Nieuw toestel instellen: van accounts en e-mail tot de belangrijkste instellingen en apps. Zo is je nieuwe telefoon of tablet direct klaar voor gebruik.",
+          "Smartwatch en (medische) accessoires koppelen: hulp bij het verbinden van bijvoorbeeld je smartwatch, draadloze oordopjes, printer of andere apparaten.",
+          "Instellingen en problemen oplossen: werkt een bepaalde functie niet zoals verwacht? Dan kijken we samen naar de instellingen en zoeken we naar een passende oplossing.",
+          "Persoonlijke uitleg: geen ingewikkelde technische verhalen, maar heldere uitleg en praktische tips waarmee je direct aan de slag kunt."
+        ],
+        "body": [
+          "Kortom: je hoeft niet zelf uren te zoeken naar de juiste instellingen of oplossingen. Met onze persoonlijke telefoonhulp zorgen we ervoor dat je smartphone of tablet weer werkt zoals jij dat wilt."
+        ]
+      },
+      {
+        "heading": "Tarieven telefoon- en tablethulp",
+        "intro": [],
+        "body": [],
+        "bullets": [],
+        "steps": [],
+        "image": {
+          "src": "/wp-content/uploads/2026/09/Codex-afbeelding-24-sep-2026-10_52_25.png",
+          "alt": "Tarievenoverzicht telefoon- en tablethulp van Phone Repairs: schoonmaken, instellen, software en gegevens, persoonlijke hulp en total-lossverklaring voor je verzekering",
+          "width": 1024,
+          "height": 1536
+        }
+      },
+      {
+        "heading": "Op afspraak",
+        "intro": [],
+        "bullets": [],
+        "steps": [],
+        "body": [
+          "iPhone Repairs heeft zeer ruime openingstijden, wij repareren overdag maar ook in de avonduren, weekenden en zelfs op zon- en feestdagen. Wij werken op afspraak om u te kunnen garanderen dat we alle tijd en aandacht voor u en uw smartphone of tablet hebben. Door onze werkwijze heeft u nooit te maken met wachttijden. U komt binnen en we repareren je toestel direct terwijl je meekijkt!. Wij beschermen u privacy, u verliest je toestel niet uit het oog. Parkeren kan gratis voor de deur."
+        ]
+      }
+    ],
+    "unconfirmed": [],
+    "legacyUrls": [
+      "/telefoon-en-tablet-hulp/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/telefoon-en-tablet-hulp/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "WordPress export 2026-10-12; page last changed 2026-10-08. 'Waar kunnen we je mee helpen?' transcribed from the page's infographic (exec-79dcf662…png); the rate card is shown as the original image (prices not retyped). Restored at the client's request (e-mail 2026-10-13)."
       }
     ]
   }

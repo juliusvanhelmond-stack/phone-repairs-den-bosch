@@ -352,7 +352,7 @@ const MAPPED: [RegExp, string][] = [
   [/^\/telefoon-scherm-reparatie-den-bosch$/, "/reparatie/scherm-vervangen"],
   [/^\/oplaadpoort-reparatie-den-bosch$/, "/reparatie/oplaadpoort-repareren"],
   [/^\/iphone-compatibel-oled-schermen$/, "/iphone-premium-oled-scherm"],
-  [/^\/(openingstijden-phone-repairs|telefoon-en-tablet-hulp)$/, "/contact"],
+  [/^\/openingstijden-phone-repairs$/, "/contact"],
   [/^\/afspraak-met-phone-repairs-maken$/, "/afspraak"],
   [/^\/(beoordelingen-phone-repairs|telefoonwinkel-den-bosch|veelgestelde-vragen\/sitemap-phone-repairs)$/, "/"],
 ];

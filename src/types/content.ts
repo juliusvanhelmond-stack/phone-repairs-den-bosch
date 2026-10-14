@@ -269,6 +269,15 @@ export type UrlRecord = z.infer<typeof urlRecordSchema>;
  * extra services (Nintendo Switch, pre-owned) and FAQ sub-pages.
  * `path` is the original path without trailing slash.
  */
+/** An image from the original page, kept on its original /wp-content/uploads/… path in public/. */
+export const landingImageSchema = z.object({
+  src: z.string().regex(/^\/wp-content\/uploads\/[\w./-]+\.(png|jpe?g|webp)$/),
+  alt: z.string().min(1),
+  width: z.number().int().positive(),
+  height: z.number().int().positive(),
+});
+export type LandingImage = z.infer<typeof landingImageSchema>;
+
 export const landingSectionSchema = z.object({
   heading: z.string(),
   /** Paragraphs shown before the list (imported pages keep their reading order). */
@@ -276,6 +285,7 @@ export const landingSectionSchema = z.object({
   body: z.array(z.string()).default([]),
   bullets: z.array(z.string()).default([]),
   steps: z.array(z.string()).default([]),
+  image: landingImageSchema.optional(),
 });
 export type LandingSection = z.infer<typeof landingSectionSchema>;
 

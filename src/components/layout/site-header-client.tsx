@@ -42,12 +42,12 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
       <div className="container-page flex h-16 items-center justify-between gap-6 lg:h-[4.5rem]">
         <Logo />
 
-        <NavigationMenu.Root className="static hidden lg:block" aria-label={t("Hoofdmenu", "Main menu")}>
+        <NavigationMenu.Root className="static hidden lg:block [&>div]:!static" aria-label={t("Hoofdmenu", "Main menu")}>
           <NavigationMenu.List className="flex items-center gap-0.5 xl:gap-1">
             <NavigationMenu.Item>
               <NavigationMenu.Trigger
                 className={cn(
-                  "group flex h-10 items-center gap-1 rounded-full px-3 text-[0.9375rem] whitespace-nowrap xl:px-4 text-ink-soft transition-colors hover:bg-mist hover:text-ink data-[state=open]:bg-mist data-[state=open]:text-ink",
+                  "group flex h-10 items-center gap-1 rounded-full px-3 text-[0.9375rem] whitespace-nowrap xl:px-4 text-ink-soft transition-colors hover:bg-accent-soft hover:text-accent-strong data-[state=open]:bg-accent-soft data-[state=open]:text-accent-strong",
                   pathname.startsWith("/reparatie") && "text-ink",
                 )}
               >
@@ -66,7 +66,7 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
                 <NavigationMenu.Link asChild active={pathname === item.href}>
                   <Link
                     href={item.href}
-                    className="flex h-10 items-center rounded-full px-3 text-[0.9375rem] whitespace-nowrap text-ink-soft xl:px-4 transition-colors hover:bg-mist hover:text-ink data-[active]:text-ink"
+                    className="flex h-10 items-center rounded-full px-3 text-[0.9375rem] whitespace-nowrap text-ink-soft xl:px-4 transition-colors hover:bg-accent-soft hover:text-accent-strong data-[active]:text-ink"
                   >
                     {t(item.label, item.labelEn)}
                   </Link>
@@ -80,7 +80,7 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
           <LanguageSwitch className="hidden sm:inline-flex" />
           <a
             href={phone.href}
-            className="hidden h-10 items-center gap-2 rounded-full px-3 text-[0.9375rem] text-ink-soft transition-colors hover:text-ink xl:flex"
+            className="hidden h-10 items-center gap-2 rounded-full px-3 text-[0.9375rem] text-ink-soft transition-colors hover:text-accent-strong xl:flex"
           >
             <Phone className="size-4" aria-hidden />
             {phone.display}
@@ -121,7 +121,7 @@ function MegaMenu({ nav }: { nav: NavData }) {
                   <NavigationMenu.Link asChild>
                     <Link
                       href={b.href}
-                      className="block rounded-full bg-mist px-3.5 py-1.5 text-[0.9375rem] whitespace-nowrap text-ink ring-1 ring-line transition-colors hover:bg-ink hover:text-white hover:ring-ink"
+                      className="block rounded-full bg-mist px-3.5 py-1.5 text-[0.9375rem] whitespace-nowrap text-ink ring-1 ring-line transition-colors hover:bg-accent hover:text-white hover:ring-accent"
                     >
                       {b.name}
                     </Link>
@@ -140,12 +140,12 @@ function MegaMenu({ nav }: { nav: NavData }) {
               <NavigationMenu.Link asChild>
                 <Link
                   href={r.href}
-                  className="group flex items-center gap-3 rounded-xl p-2 transition-colors hover:bg-mist"
+                  className="group flex items-center gap-3 rounded-xl p-2 transition-colors hover:bg-accent-soft"
                 >
-                  <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-mist text-ink ring-1 ring-line transition-colors group-hover:bg-white">
+                  <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-mist text-ink ring-1 ring-line transition-colors group-hover:bg-white group-hover:text-accent-strong">
                     <ContentIcon name={r.icon} className="size-[1.125rem]" />
                   </span>
-                  <span className="text-[0.9375rem] text-ink">{r.name}</span>
+                  <span className="text-[0.9375rem] text-ink group-hover:text-accent-strong">{r.name}</span>
                 </Link>
               </NavigationMenu.Link>
             </li>
@@ -220,7 +220,7 @@ function MobileNav({ nav, phone, whatsapp, email }: Props) {
                               key={b.href}
                               href={b.href}
                               onClick={close}
-                              className="rounded-full bg-mist px-3.5 py-2 text-sm text-ink ring-1 ring-line"
+                              className="rounded-full bg-mist px-3.5 py-2 text-sm text-ink ring-1 ring-line transition-colors hover:bg-accent hover:text-white hover:ring-accent"
                             >
                               {b.name}
                             </Link>
@@ -235,7 +235,7 @@ function MobileNav({ nav, phone, whatsapp, email }: Props) {
                           key={r.href}
                           href={r.href}
                           onClick={close}
-                          className="flex items-center gap-3 py-2 text-[0.9375rem] text-ink"
+                          className="flex items-center gap-3 py-2 text-[0.9375rem] text-ink transition-colors hover:text-accent-strong"
                         >
                           <ContentIcon name={r.icon} className="size-4 text-muted" />
                           {r.name}
@@ -249,7 +249,7 @@ function MobileNav({ nav, phone, whatsapp, email }: Props) {
             <ul>
               {mainNav.map((item) => (
                 <li key={item.href} className="border-b border-line">
-                  <Link href={item.href} onClick={close} className="block py-4 text-lg font-medium text-ink">
+                  <Link href={item.href} onClick={close} className="block py-4 text-lg font-medium text-ink transition-colors hover:text-accent-strong">
                     {t(item.label, item.labelEn)}
                   </Link>
                 </li>

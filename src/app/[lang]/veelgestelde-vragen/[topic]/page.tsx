@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { SendInSection } from "@/components/forms/send-in-section";
 import { LandingTemplate } from "@/components/landing/landing-template";
 import { faqTopicPages, getLandingPage, localizeLanding } from "@/lib/catalog";
 import { getLocale } from "@/lib/i18n-server";
@@ -25,5 +26,7 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/veelgestel
 export default async function FaqTopicPage({ params }: PageProps<"/[lang]/veelgestelde-vragen/[topic]">) {
   const page = getLandingPage(pathFor((await params).topic));
   if (!page) notFound();
-  return <LandingTemplate page={page} />;
+  return (
+    <LandingTemplate page={page}>{page.id === "reparatie-opsturen" && <SendInSection />}</LandingTemplate>
+  );
 }

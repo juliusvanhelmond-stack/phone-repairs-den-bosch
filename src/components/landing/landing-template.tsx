@@ -1,5 +1,6 @@
 import { Link } from "@/components/i18n/link";
-import { ArrowRight, Check } from "lucide-react";
+import { ArrowRight, Check, X } from "lucide-react";
+import Image from "next/image";
 import { DemoNote } from "@/components/devices/demo-note";
 import { DeviceCard } from "@/components/devices/device-card";
 import { FinalCta } from "@/components/home/final-cta";
@@ -47,7 +48,7 @@ const FOCUS_NOUN: Record<string, [string, string]> = {
   scherm: ["scherm", "screen"],
 };
 
-export async function LandingTemplate({ page: source }: { page: LandingPage }) {
+export async function LandingTemplate({ page: source, children }: { page: LandingPage; children?: React.ReactNode }) {
   const { locale, t } = await getI18n();
   const page = localizeLanding(source, locale);
   const focus = focusDevices(page, t);
@@ -84,13 +85,19 @@ export async function LandingTemplate({ page: source }: { page: LandingPage }) {
         <section className="py-16 lg:py-24">
           <div className="container-page grid gap-3 md:grid-cols-2">
             {page.sections.map((s, i) => (
-              <Reveal key={s.heading} delay={i * 0.04} className={page.sections.length === 1 ? "md:col-span-2" : undefined}>
+              <Reveal
+                key={s.heading}
+                delay={i * 0.04}
+                className={page.sections.length === 1 || s.image ? "md:col-span-2" : undefined}
+              >
                 <SectionCard section={s} />
               </Reveal>
             ))}
           </div>
         </section>
       )}
+
+      {children}
 
       <section className={page.sections.length ? "pb-16 lg:pb-24" : "py-16 lg:py-24"}>
         <div className="container-page">
@@ -196,12 +203,20 @@ function SectionCard({ section }: { section: LandingSection }) {
       )}
       {section.bullets.length > 0 && (
         <ul className="mt-5 space-y-2.5">
-          {section.bullets.map((b) => (
-            <li key={b} className="flex items-start gap-3 text-ink">
-              <Check className="mt-1 size-4 shrink-0 text-accent-strong" aria-hidden />
-              {b}
-            </li>
-          ))}
+          {section.bullets.map((b) => {
+            // Exclusions on the original site start with "✕": a red cross instead of a checkmark.
+            const excluded = /^[✕✗✘×❌]\s*/.test(b);
+            return (
+              <li key={b} className="flex items-start gap-3 text-ink">
+                {excluded ? (
+                  <X className="mt-1 size-4 shrink-0 text-danger" strokeWidth={3} aria-hidden />
+                ) : (
+                  <Check className="mt-1 size-4 shrink-0 text-accent-strong" aria-hidden />
+                )}
+                {excluded ? b.replace(/^[✕✗✘×❌]\s*/, "") : b}
+              </li>
+            );
+          })}
         </ul>
       )}
       {section.body.map((p) => (
@@ -209,6 +224,18 @@ function SectionCard({ section }: { section: LandingSection }) {
           {p}
         </p>
       ))}
+      {section.image && (
+        <a href={section.image.src} target="_blank" rel="noopener" className="mt-6 block max-w-xl overflow-hidden rounded-2xl ring-1 ring-line">
+          <Image
+            src={section.image.src}
+            alt={section.image.alt}
+            width={section.image.width}
+            height={section.image.height}
+            sizes="(min-width: 768px) 42rem, 100vw"
+            className="h-auto w-full"
+          />
+        </a>
+      )}
     </div>
   );
 }
