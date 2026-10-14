@@ -24,9 +24,12 @@ import { staticPaths } from "../../src/lib/routes";
 import { ORIGIN } from "../../src/lib/sources";
 import { urlRecordSchema } from "../../src/types/content";
 import inventoryJson from "../../src/data/url-inventory.json";
+import seoOverrides from "../../src/data/generated/seo-overrides.json";
 
 const errors: string[] = [];
 const fail = (msg: string) => errors.push(msg);
+const warnings: string[] = [];
+const warn = (msg: string) => warnings.push(msg);
 
 function unique<T>(label: string, values: T[]) {
   const seen = new Set<T>();
@@ -93,7 +96,9 @@ const english: [string, { id: string }[], Record<string, unknown>][] = [
 ];
 for (const [label, items, table] of english) {
   const ids = new Set(items.map((i) => i.id));
-  for (const i of items) if (!(i.id in table)) fail(`${label} ${i.id}: no English translation in translations/en.json`);
+  // Pages added in the CMS may not have English yet: /en then shows the Dutch text (warning only).
+  for (const i of items)
+    if (!(i.id in table)) (label === "page" ? warn : fail)(`${label} ${i.id}: no English translation in translations/en.json`);
   for (const id of Object.keys(table)) if (!ids.has(id)) fail(`translations/en.json: unknown ${label} ${id}`);
 }
 
@@ -127,6 +132,23 @@ const pricedRows = priceLists.reduce((n, l) => n + l.rows.filter((r) => r.amount
 console.log(
   `Checked ${devices.length} devices, ${brands.length} brands, ${repairs.length} repairs, ${priceRowCount} price rows (${pricedRows} with an amount), ${claims.length} claims, ${faqs.length} FAQs, ${landingPages.length} kept pages, ${blogPosts.length} blog posts.`,
 );
+// SEO overrides from the CMS must point at a page that exists.
+for (const o of seoOverrides as { id: string; path: string; title?: string; description?: string }[]) {
+  const parts = o.path.split("/").filter(Boolean);
+  const exists =
+    o.path === "/" ||
+    (staticPaths as readonly string[]).includes(o.path) ||
+    landingPages.some((p) => p.path === o.path) ||
+    blogPosts.some((p) => `/blog-post/${p.slug}` === o.path) ||
+    (parts[0] === "reparaties" && parts.length === 2 && !!getBrand(parts[1])) ||
+    (parts[0] === "reparaties" && parts.length === 3 && deviceIds.has(`${parts[1]}-${parts[2]}`)) ||
+    (parts[0] === "reparatie" && parts.length === 2 && !!getRepair(parts[1]));
+  if (!exists) fail(`SEO (CMS) ${o.id}: ${o.path} is not a page on the site`);
+  if (o.title && o.title.length > 70) fail(`SEO (CMS) ${o.id}: title longer than 70 characters`);
+  if (o.description && o.description.length > 170) fail(`SEO (CMS) ${o.id}: description longer than 170 characters`);
+}
+
+if (warnings.length) console.warn(`\n! ${warnings.length} warning(s):\n- ${warnings.join("\n- ")}`);
 if (errors.length) {
   console.error(`\n✗ ${errors.length} data problem(s):\n- ${errors.join("\n- ")}`);
   process.exit(1);

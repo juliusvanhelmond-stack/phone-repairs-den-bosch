@@ -1,0 +1,38 @@
+{
+  "path": "/bijzondere-merken-reparatie",
+  "kind": "service",
+  "originalTitle": "Bijzondere merken reparatie voor elk type smartphone",
+  "title": "Reparatie van bijzondere merken",
+  "eyebrow": "Bijzondere merken",
+  "intro": "Niet elke smartphone is een iPhone of Samsung. Phone Repairs repareert ook toestellen van minder gangbare merken.",
+  "seo": {
+    "title": "Bijzondere merken reparatie · Phone Repairs",
+    "description": "Google Pixel, Honor, Nexus of een ander merk? Ook minder gangbare smartphones repareer je bij Phone Repairs in Den Bosch."
+  },
+  "sections": [
+    {
+      "heading": "Ook deze merken",
+      "bullets": [
+        "Google Pixel",
+        "Honor",
+        "Nexus"
+      ],
+      "body": [
+        "Twijfel je of jouw toestel gerepareerd kan worden? Neem contact op, dan hoor je het meteen."
+      ]
+    }
+  ],
+  "unconfirmed": [],
+  "legacyUrls": [
+    "/bijzondere-merken-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/bijzondere-merken-reparatie/",
+      "verification": "search-index",
+      "capturedAt": "2026-10-12",
+      "note": "Original title only; brand list (Samsung, Huawei, Honor, Nexus, Google Pixel, OnePlus) seen in a search snippet of the site, exact page to confirm."
+    }
+  ],
+  "id": "bijzondere-merken-reparatie"
+}

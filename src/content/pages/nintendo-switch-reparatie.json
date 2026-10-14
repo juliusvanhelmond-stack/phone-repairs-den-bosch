@@ -1,0 +1,55 @@
+{
+  "path": "/nintendo-switch-reparatie",
+  "kind": "service",
+  "originalTitle": "Nintendo Switch reparatie met 12 maanden garantie",
+  "title": "Nintendo Switch reparatie",
+  "eyebrow": "Nintendo Switch",
+  "intro": "Ook met je Nintendo Switch kun je bij Phone Repairs in Den Bosch terecht. Van een batterij die snel leeg is tot een kapot scherm of een Joy-Con die niet meer doet wat hij moet.",
+  "seo": {
+    "title": "Nintendo Switch reparatie in Den Bosch",
+    "description": "Batterij, scherm of Joy-Con van je Nintendo Switch kapot? Laat hem repareren bij Phone Repairs in Den Bosch, met originele service-pack-onderdelen."
+  },
+  "sections": [
+    {
+      "heading": "Wat er gerepareerd wordt",
+      "bullets": [
+        "Batterij vervangen, ook bij de Switch 2",
+        "Touchscreen en lcd-scherm",
+        "Joy-Con-controllers"
+      ],
+      "body": [
+        "Er wordt gewerkt met originele service-pack-onderdelen."
+      ]
+    },
+    {
+      "heading": "Prijs en doorlooptijd",
+      "body": [
+        "Alle prijzen zijn inclusief montage en 21% btw.",
+        "Hoe snel je Switch klaar is, hangt af van de drukte, de beschikbaarheid van onderdelen en hoe ingewikkeld de reparatie is. Heb je haast, dan is er een spoedservice tegen meerprijs."
+      ]
+    }
+  ],
+  "unconfirmed": [
+    "Garantie: 12 maanden.",
+    "Batterij vervangen Switch 2: €115.",
+    "Spoedservice: + €60."
+  ],
+  "legacyUrls": [
+    "/nintendo-switch-reparatie/",
+    "/nintendo-switch-reparatie-den-bosch/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/nintendo-switch-reparatie/",
+      "verification": "search-index",
+      "capturedAt": "2026-10-12",
+      "note": "Original service-pack parts; Switch 2 battery and touchscreen/LCD; Joy-Con repair (review); turnaround depends on workload, parts and complexity; paid express service."
+    },
+    {
+      "url": "https://www.phonerepairs.nl/nintendo-switch-reparatie-den-bosch/",
+      "verification": "search-index",
+      "capturedAt": "2026-10-12"
+    }
+  ],
+  "id": "nintendo-switch-reparatie"
+}

@@ -2,6 +2,14 @@ import type { Metadata } from "next";
 import type { FaqItem } from "@/types/content";
 import { localeTag, localizePath, type Locale } from "@/lib/i18n";
 import { allowIndexing, site } from "@/lib/site";
+// Title/description per URL, edited in the CMS (src/content/seo), merged by `npm run content`.
+import seoOverridesJson from "@/data/generated/seo-overrides.json";
+
+type SeoOverride = { path: string; title?: string; description?: string };
+const seoOverrides = new Map((seoOverridesJson as SeoOverride[]).map((o) => [o.path, o]));
+
+/** The CMS override for a Dutch path, if any (Dutch pages only; English keeps its own text). */
+export const seoOverride = (path: string, locale: Locale) => (locale === "nl" ? seoOverrides.get(path) : undefined);
 
 export const absoluteUrl = (path: string) => new URL(path, site.url).toString();
 
@@ -35,8 +43,12 @@ export function pageMetadata({
   locale: Locale;
 }): Metadata {
   const url = localizePath(path, locale);
+  // A title set in the CMS is used exactly as written.
+  const override = seoOverride(path, locale);
+  if (override?.description) description = override.description;
+  if (override?.title) title = override.title;
   return {
-    title: titleFor(title),
+    title: override?.title ? { absolute: override.title } : titleFor(title),
     description,
     alternates: {
       canonical: url,

@@ -7,5 +7,5 @@ export default function robots(): MetadataRoute.Robots {
     // Demo/staging: keep the whole site out of search engines until launch is approved.
     return { rules: { userAgent: "*", disallow: "/" } };
   }
-  return { rules: { userAgent: "*", allow: "/" }, sitemap: absoluteUrl("/sitemap.xml") };
+  return { rules: { userAgent: "*", allow: "/", disallow: ["/keystatic", "/api/"] }, sitemap: absoluteUrl("/sitemap.xml") };
 }

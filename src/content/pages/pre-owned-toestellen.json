@@ -1,0 +1,46 @@
+{
+  "path": "/pre-owned-toestellen",
+  "kind": "service",
+  "originalTitle": "Pre-owned toestellen",
+  "title": "Pre-owned toestellen",
+  "eyebrow": "Pre-owned",
+  "intro": "Naast reparaties heeft Phone Repairs een selectie gebruikte toestellen die grondig zijn nagekeken en klaar zijn voor een tweede leven.",
+  "seo": {
+    "title": "Pre-owned toestellen · Phone Repairs Den Bosch",
+    "description": "Gebruikte smartphones die op tientallen punten zijn getest, met een batterijconditie tussen 85% en 98%. Vraag naar het actuele aanbod."
+  },
+  "sections": [
+    {
+      "heading": "Grondig getest",
+      "body": [
+        "Elk toestel wordt op tientallen punten getest, waaronder de batterij, het scherm en de camera's."
+      ],
+      "bullets": [
+        "Batterijconditie tussen 85% en 98%",
+        "Geleverd met originele lader en kabel"
+      ]
+    },
+    {
+      "heading": "Actueel aanbod",
+      "body": [
+        "Het aanbod wisselt steeds. Bel of mail om te horen welke toestellen er nu beschikbaar zijn."
+      ]
+    }
+  ],
+  "unconfirmed": [
+    "Garantie: ‘1 jaar’ in de tekst, maar ‘90 dagen garantie’ in de banner; batterijgarantie 90 dagen vanaf factuurdatum.",
+    "Voorbeeldaanbod met prijzen (zoals iPhone 15 Pro 256 GB en Nintendo Switch OLED); actuele voorraad en prijzen moeten uit een feed of van de eigenaar komen."
+  ],
+  "legacyUrls": [
+    "/pre-owned-toestellen/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/pre-owned-toestellen/",
+      "verification": "search-index",
+      "capturedAt": "2026-10-12",
+      "note": "Tested on dozens of points (battery, screen, cameras); battery condition 85-98%; supplied with original charger and cable."
+    }
+  ],
+  "id": "pre-owned-toestellen"
+}

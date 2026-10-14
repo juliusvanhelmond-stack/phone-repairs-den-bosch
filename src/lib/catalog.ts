@@ -28,7 +28,8 @@ import devicesJson from "@/data/devices.json";
 import warrantyJson from "@/data/warranty.json";
 import faqsJson from "@/data/faqs.json";
 import claimsJson from "@/data/claims.json";
-import landingPagesJson from "@/data/landing-pages.json";
+// Merged from the CMS files in src/content/pages by `npm run content` (runs before dev/build/check).
+import landingPagesJson from "@/data/generated/landing-pages.json";
 import blogJson from "@/data/blog.json";
 import enJson from "@/data/translations/en.json";
 import type { Locale } from "@/lib/i18n";

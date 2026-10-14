@@ -1,6 +1,6 @@
 /**
  * Writes the text content of the WordPress export into the site data:
- * info pages (landing-pages.json, original URLs kept), FAQs (faqs.json) and
+ * info pages (src/content/pages, original URLs kept), FAQs (faqs.json) and
  * blog posts with their full text (blog.json). English versions live in
  * translations/en.json and are written by hand; validate:data lists any missing one.
  */
@@ -9,6 +9,7 @@ import { join } from "node:path";
 import { boilerplateHeadings, paragraphs, sanitizeArticle, sectionize, type Section } from "./content";
 import { repairForLabel, slugify } from "./devices";
 import type { WxrItem } from "./wxr";
+import { PAGES_DIR, readEntries, writeEntry } from "../../content/files";
 
 const ORIGIN = "https://www.phonerepairs.nl";
 /**
@@ -155,8 +156,8 @@ export function importContent(items: WxrItem[], exportedAt: string, root: string
   const report: string[] = [];
 
   /* Info pages */
-  const landingPath = join(root, "src/data/landing-pages.json");
-  const landing: { id: string; path: string }[] = JSON.parse(readFileSync(landingPath, "utf8"));
+  // One file per page (src/content/pages), the same files the CMS edits.
+  const landing: { id: string; path: string }[] = readEntries(root, PAGES_DIR);
   for (const def of INFO_PAGES) {
     const page = pages.find((p) => p.path === def.path);
     if (!page) {
@@ -239,7 +240,7 @@ export function importContent(items: WxrItem[], exportedAt: string, root: string
     areaCount++;
   }
   report.push(`area pages with original text: ${areaCount}`);
-  writeFileSync(landingPath, json(landing));
+  for (const { id, ...record } of landing) writeEntry(root, PAGES_DIR, id, record, ownerWording);
 
   /* FAQs */
   const faqPath = join(root, "src/data/faqs.json");

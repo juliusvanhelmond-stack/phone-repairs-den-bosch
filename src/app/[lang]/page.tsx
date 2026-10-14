@@ -13,7 +13,7 @@ import { TradeIn } from "@/components/partners/trade-in";
 import { Trust } from "@/components/home/trust";
 import { faqs, localizeFaq } from "@/lib/catalog";
 import { getI18n } from "@/lib/i18n-server";
-import { pageMetadata } from "@/lib/seo";
+import { pageMetadata, seoOverride } from "@/lib/seo";
 import type { Metadata } from "next";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -33,7 +33,8 @@ export async function generateMetadata(): Promise<Metadata> {
     locale,
   });
   // The homepage title is complete on its own; skip the layout's "%s · Phone Repairs Den Bosch".
-  return { ...meta, title: { absolute: title } };
+  // The homepage title is complete on its own, unless a title was set for "/" in the CMS.
+  return seoOverride("/", locale)?.title ? meta : { ...meta, title: { absolute: title } };
 }
 
 export default async function HomePage() {

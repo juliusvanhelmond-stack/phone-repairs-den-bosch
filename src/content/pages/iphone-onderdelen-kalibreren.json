@@ -1,0 +1,71 @@
+{
+  "path": "/iphone-onderdelen-kalibreren",
+  "kind": "service",
+  "originalTitle": "Uitleg iPhone onderdelen kalibreren na reparatie",
+  "title": "Uitleg iPhone onderdelen kalibreren na reparatie",
+  "eyebrow": "iPhone onderdelen",
+  "intro": "Heb je een nieuwe batterij, een vers scherm of een andere reparatie nodig? Sinds iOS 26 (voor iPhone 12 en nieuwer) is het proces een stuk transparanter geworden. je kunt nu namelijk zelf controleren of je nieuwe onderdeel perfect is gekoppeld aan je toestel via kalibratie.",
+  "seo": {
+    "title": "iPhone onderdelen kalibreren na reparatie uitleg",
+    "description": "Met iOS 18 kun je iPhone onderdelen kalibreren na reparaties. Zorg voor de kwaliteit en controleer de geschiedenis van onderdelen."
+  },
+  "sections": [
+    {
+      "heading": "Waarom kalibreren?",
+      "intro": [
+        "Na een reparatie aan je scherm, batterij, camera of backcover moet het nieuwe onderdeel 'leren' praten met je iPhone. Dit noemen we kalibreren."
+      ],
+      "body": [],
+      "bullets": [
+        "De voorwaarde: je iPhone moet up-to-date zijn met de nieuwste iOS-versie.",
+        "Het resultaat: je hebt volledige zekerheid over de kwaliteit en de herkomst van het onderdeel. Zie het als een digitaal onderhoudsboekje van je iPhone, iPad, MacBook."
+      ],
+      "steps": []
+    },
+    {
+      "heading": "Check je Servicegeschiedenis",
+      "body": [
+        "Na de reparatie kun je de status van je onderdelen eenvoudig zelf controleren. Ga naar: Instellingen > Algemeen > Info > Onderdelen- en servicegeschiedenis"
+      ],
+      "bullets": [],
+      "steps": []
+    },
+    {
+      "heading": "Jouw iPhone, Jouw Keuze",
+      "intro": [
+        "Voor reparaties aan je scherm, batterij, camera of backcover werken wij uitsluitend met de allerbeste onderdelen. je hebt bij ons de keuze uit twee hoogwaardige, originele opties:"
+      ],
+      "body": [
+        "Waarom wij hiervoor kiezen? Door met originele schermen en componenten te werken, garanderen wij de beste prestaties en de langste levensduur voor jouw iPhone."
+      ],
+      "bullets": [
+        "Apple Service Pack: Dit zijn gloednieuwe, originele onderdelen die wij rechtstreeks inkopen bij Apple of een erkende groothandel. De hoogste standaard, direct uit de verpakking.",
+        "Original Pulled: Dit zijn originele onderdelen die wij zelf zorgvuldig demonteren uit nieuwe iPhones, of inkopen bij gespecialiseerde demontagebedrijven. je krijgt dus een origineel Apple-onderdeel voor een scherpere prijs.",
+        "Apple Service Pack schermen verschijnen in de reparatie geschiedenis in je instellingen app (vanaf iOS 18) als 'origineel Apple onderdeel'.",
+        "Originele Pulled schermen verschijnen in de reparatie geschiedenis in je instellingen app (vanaf iOS 18) als 'gebruikt' onderdeel. Omdat het scherm afkomstig (pulled) is van een nieuwe andere iPhone."
+      ],
+      "steps": []
+    },
+    {
+      "heading": "Officiële factuur op naam voor uw verzekering of bedrijf",
+      "body": [
+        "Bij ons krijgt u ten alle tijden een factuur op naam met BTW specificatie. Wij staan achter onze diensten en service en geven daar dan ook 12 maanden garantie op."
+      ],
+      "bullets": [],
+      "steps": []
+    }
+  ],
+  "unconfirmed": [],
+  "legacyUrls": [
+    "/iphone-onderdelen-kalibreren/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/iphone-onderdelen-kalibreren/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-10-09."
+    }
+  ],
+  "id": "iphone-onderdelen-kalibreren"
+}

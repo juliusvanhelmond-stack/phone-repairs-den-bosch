@@ -1,0 +1,47 @@
+{
+  "path": "/veelgestelde-vragen/zakelijke-reparatie",
+  "kind": "faq-topic",
+  "originalTitle": "Zakelijke reparatie voor uw smartphoneproblemen",
+  "title": "Zakelijke reparatie",
+  "eyebrow": "Voor bedrijven",
+  "intro": "Werkt je team met smartphones en tablets? Dan wil je dat een kapot toestel snel weer werkt.",
+  "seo": {
+    "title": "Zakelijke reparatie · Phone Repairs Den Bosch",
+    "description": "Smartphone van een medewerker kapot? Zakelijke reparaties bij Phone Repairs zijn meestal binnen 30 minuten klaar, met originele onderdelen."
+  },
+  "sections": [
+    {
+      "heading": "Snel weer aan het werk",
+      "body": [
+        "Zakelijke reparaties zijn meestal binnen 30 minuten klaar, terwijl jij of je medewerker meekijkt."
+      ]
+    },
+    {
+      "heading": "Onderdelen",
+      "body": [
+        "Er wordt gewerkt met originele onderdelen. Reparaties met onderdelen die je zelf hebt gekocht, worden niet uitgevoerd."
+      ]
+    },
+    {
+      "heading": "Prijzen",
+      "body": [
+        "Alle prijzen zijn inclusief montage en 21% btw."
+      ]
+    }
+  ],
+  "unconfirmed": [
+    "Garantie: 3 maanden op de reparatie en de nieuwe originele onderdelen."
+  ],
+  "legacyUrls": [
+    "/veelgestelde-vragen/zakelijke-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/veelgestelde-vragen/zakelijke-reparatie/",
+      "verification": "search-index",
+      "capturedAt": "2026-10-12",
+      "note": "'zakelijke reparaties binnen 30 minuten voltooid, terwijl u of uw personeel kan meekijken'; original parts; no repairs with customer-supplied parts."
+    }
+  ],
+  "id": "zakelijke-reparatie"
+}

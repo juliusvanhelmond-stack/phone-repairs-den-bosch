@@ -1,0 +1,26 @@
+{
+  "path": "/data-recovery",
+  "kind": "service",
+  "originalTitle": "Data recovery",
+  "title": "Data recovery",
+  "eyebrow": "Data recovery",
+  "intro": "Dataverlies komt altijd ongelegen. Foto’s, documenten, zakelijke bestanden of andere belangrijke gegevens kunnen van grote persoonlijke of zakelijke waarde zijn. Wanneer je telefoon, tablet, laptop, harde schijf, SSD, NAS of SD-kaart niet meer werkt, kan data recovery uitkomst bieden. Bij Phone Repairs en Stellar behandelen we jouw datadrager met de grootste zorg en gaan we professioneel en vertrouwelijk te werk. Ons doel is om je verloren of ontoegankelijke data zo veilig mogelijk terug te halen.",
+  "seo": {
+    "title": "Data recovery gegarandeerd uw data terug na dataverlies",
+    "description": "Data recovery gegarandeerd uw data terug. Professionele oplossingen voor dataverlies op een veilige manier."
+  },
+  "sections": [],
+  "unconfirmed": [],
+  "legacyUrls": [
+    "/data-recovery/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/data-recovery/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-10-08."
+    }
+  ],
+  "id": "data-recovery"
+}

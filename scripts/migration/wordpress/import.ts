@@ -32,6 +32,7 @@ import {
   type PriceRow,
 } from "./devices";
 import { importContent, INFO_PAGES } from "./content-import";
+import { PAGES_DIR, readEntries } from "../../content/files";
 import { readMenu, readWxr, type WxrItem } from "./wxr";
 
 const ROOT = process.cwd();
@@ -75,7 +76,7 @@ type Candidate = {
  * path, mapped pages go to their new path, external links stay; anything else is dropped.
  */
 const knownTargets = (() => {
-  const landing: { path: string }[] = JSON.parse(readFileSync(join(ROOT, "src/data/landing-pages.json"), "utf8"));
+  const landing: { path: string }[] = readEntries(ROOT, PAGES_DIR);
   const inventory: { url: string; targetPath: string | null }[] = JSON.parse(readFileSync(join(ROOT, "src/data/url-inventory.json"), "utf8"));
   const map = new Map<string, string>();
   for (const l of landing) map.set(l.path, l.path);
@@ -348,7 +349,7 @@ for (const def of INFO_PAGES) {
 }
 
 // Remaining pages of the old site, mapped to their counterpart (only where no decision exists yet).
-const landingPages: { path: string; kind: string; place?: string }[] = JSON.parse(readFileSync(join(ROOT, "src/data/landing-pages.json"), "utf8"));
+const landingPages = readEntries<{ path: string; kind: string; place?: string }>(ROOT, PAGES_DIR);
 const livePaths = new Set(landingPages.map((p) => p.path));
 const MAPPED: [RegExp, string][] = [
   [/^\/(iphone|telefoon)-batterij-vervang(en|ing)(-den-bosch)?$/, "/reparatie/batterij-vervangen"],

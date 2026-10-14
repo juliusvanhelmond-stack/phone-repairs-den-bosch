@@ -84,5 +84,6 @@ export async function proxy(request: NextRequest) {
 
 export const config = {
   // Every page request; skips Next internals and files such as /robots.txt and images.
-  matcher: ["/((?!_next|api|.*\\..*).*)"],
+  // /keystatic is the CMS admin with its own layout.
+  matcher: ["/((?!_next|api|keystatic|.*\\..*).*)"],
 };

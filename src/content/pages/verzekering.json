@@ -1,0 +1,81 @@
+{
+  "path": "/verzekering",
+  "kind": "service",
+  "originalTitle": "Verzekering",
+  "title": "Verzekering",
+  "eyebrow": "Verzekering",
+  "intro": "Is je smartphone of tablet gevallen of op een andere manier beschadigd geraakt? Dan bestaat de kans dat je verzekering (een deel van) de reparatiekosten vergoedt. Of de schade daadwerkelijk gedekt is, hangt onder andere af van de oorzaak, je verzekering, de gekozen dekking en het eventuele eigen risico.",
+  "seo": {
+    "title": "Verzekering bij valincident met uw smartphone",
+    "description": "Heeft u schade aan uw smartphone? Ontdek hoe uw verzekering de reparatiekosten kan dekken bij een valincident."
+  },
+  "sections": [
+    {
+      "heading": "Wordt jouw telefoonreparatie vergoed door de verzekering?",
+      "intro": [
+        "Afhankelijk van de situatie kan schade bijvoorbeeld vallen onder:"
+      ],
+      "body": [],
+      "bullets": [
+        "Inboedelverzekering: afhankelijk van je polis kan bepaalde schade aan elektronica in huis zijn meeverzekerd.",
+        "Buitenshuisdekking: heb je een aanvullende buitenshuisdekking? Dan kan schade die buiten de woning ontstaat onder de dekking vallen.",
+        "Reisverzekering: ontstaat de schade tijdens een vakantie of reis, dan kan deze in sommige gevallen onder je reisverzekering vallen.",
+        "Aansprakelijkheidsverzekering (AVP): heeft iemand anders per ongeluk jouw toestel beschadigd? Dan kan de aansprakelijkheidsverzekering van die persoon mogelijk een rol spelen."
+      ],
+      "steps": []
+    },
+    {
+      "heading": "Schaderapport of offerte nodig?",
+      "body": [
+        "Om je schadeclaim zo eenvoudig mogelijk te maken, kunnen wij kosteloos een schaderapport of reparatie offerte voor je opstellen. Daarmee beschik je over duidelijke informatie over de schade en de verwachte reparatiekosten voor je verzekeraar. Controleer altijd vooraf je polisvoorwaarden of neem contact op met je verzekeraar om te bepalen of de reparatie wordt vergoed en welke documenten nodig zijn. Is de verzekeraar akkoord en kan de reparatie worden uitgevoerd? Dan zorgen wij ervoor dat je toestel weer vakkundig en zorgvuldig wordt hersteld."
+      ],
+      "bullets": [],
+      "steps": []
+    },
+    {
+      "heading": "Economisch total loss-verklaring voor smartphone, tablet, MacBook en andere apparaten",
+      "body": [
+        "Is je smartphone, tablet, MacBook of ander apparaat beschadigd en zijn de verwachte reparatiekosten hoger dan of niet meer in verhouding tot de actuele waarde van het toestel? Dan kan er sprake zijn van economisch total loss.",
+        "Dat betekent niet automatisch dat je apparaat technisch niet meer te repareren is. Wel kan reparatie financieel niet meer aantrekkelijk zijn. In sommige situaties kan reparatie alsnog zinvol zijn, bijvoorbeeld wanneer er belangrijke foto's, documenten of andere gegevens op het toestel staan waarvan geen back-up beschikbaar is."
+      ],
+      "bullets": [],
+      "steps": []
+    },
+    {
+      "heading": "Total loss-rapport voor je verzekering",
+      "intro": [
+        "Heeft je verzekeraar een officiële verklaring nodig? Dan kunnen wij het toestel beoordelen en een economisch total loss-rapport opstellen. Hierin leggen we de technische schade en de verwachte reparatiekosten vast, zodat je het rapport kunt indienen bij je verzekeraar."
+      ],
+      "body": [
+        "Kortom: heb je voor je schadeclaim een professionele beoordeling of economisch total loss-verklaring nodig? Neem dan contact op met Phone Repairs Den Bosch. We beoordelen je toestel en zorgen voor een duidelijk rapport dat je bij je verzekeraar kunt indienen."
+      ],
+      "bullets": [
+        "Kosten: voor het opstellen van een officiële economisch total loss-verklaring rekenen wij € 30,-.",
+        "Voor verzekeringsclaims: het rapport kan worden gebruikt bij een schadeclaim onder bijvoorbeeld een inboedel-, reis-, buitenshuis- of elektronicaverzekering, afhankelijk van je polisvoorwaarden.",
+        "Vergoeding: je verzekeraar bepaalt uiteindelijk zelf of de schade onder de dekking valt en welk bedrag wordt uitgekeerd."
+      ],
+      "steps": []
+    },
+    {
+      "heading": "Wij repareren met uitsluitend originele onderdelen",
+      "body": [
+        "Wij repareren je toestel snel, professioneel met originele onderdelen. Je toestel blijft dus volledig origineel. Je kunt meekijken tijdens de reparatie."
+      ],
+      "bullets": [],
+      "steps": []
+    }
+  ],
+  "unconfirmed": [],
+  "legacyUrls": [
+    "/verzekering/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/verzekering/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-10-08."
+    }
+  ],
+  "id": "verzekering"
+}
