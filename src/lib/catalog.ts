@@ -86,7 +86,7 @@ export type BrandEntry = { key: string; brandId: string; categoryId?: string; la
 
 /** Brands as visitors pick them: Apple split into iPhone, iPad and MacBook. */
 export function brandEntries(categoryId?: string): BrandEntry[] {
-  return brands
+  const entries = brands
     .filter((b) => !categoryId || b.categories.includes(categoryId))
     .flatMap((b) => {
       if (b.id !== "apple") {
@@ -101,6 +101,9 @@ export function brandEntries(categoryId?: string): BrandEntry[] {
         href: `${brandPath(b.id)}#${c}`,
       }));
     });
+  // Mixed lists follow the client's phone brand order (iPhone first); iPad and MacBook go last.
+  const lines = categoryId ? [] : entries.filter((e) => e.brandId === "apple" && e.categoryId !== "smartphone");
+  return [...entries.filter((e) => !lines.includes(e)), ...lines];
 }
 
 export function brandsForCategory(categoryId: string): Brand[] {

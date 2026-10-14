@@ -103,7 +103,7 @@
     "afspraak-nodig": {
       "question": "Do I need an appointment?",
       "answer": [
-        "Yes. Phone Repairs works by appointment only, so there is enough time and attention for your repair. You make an appointment via WhatsApp, by phone or by e-mail."
+        "Yes. Phone Repairs works always by appointment, so there is enough time and attention for your repair. You make an appointment via WhatsApp, by phone or by e-mail."
       ]
     },
     "prijzen-inclusief": {
@@ -255,7 +255,7 @@
     },
     "op-afspraak": {
       "title": "Personal, by appointment",
-      "body": "We work by appointment only, so there is full attention for you and your device."
+      "body": "We work always by appointment, so there is full attention for you and your device."
     },
     "transparante-prijzen": {
       "title": "Prices include fitting and VAT",

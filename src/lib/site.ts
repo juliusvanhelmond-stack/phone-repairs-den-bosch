@@ -64,9 +64,9 @@ export const site = {
     cityShort: "Den Bosch",
     country: "NL",
   },
-  openingNote: "7 dagen per week geopend, ook in de avond. Alleen op afspraak.",
+  openingNote: "7 dagen per week geopend, ook in de avond. Altijd op afspraak.",
   /**
-   * Opening hours, by appointment only. Copied from the "Openingstijden" widget on the live
+   * Opening hours, always by appointment. Copied from the "Openingstijden" widget on the live
    * homepage (read 2026-10-13); the client allowed verbatim reuse of opening hours (2026-10-12).
    * `day` follows JavaScript (0 = Sunday).
    */

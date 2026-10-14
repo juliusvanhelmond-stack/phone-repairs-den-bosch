@@ -135,7 +135,7 @@ export function AppointmentForm({
         ref={resultRef}
         tabIndex={-1}
         role="status"
-        className="rounded-[var(--radius-card)] bg-white p-6 ring-1 ring-line outline-none sm:p-8"
+        className="rounded-[var(--radius-card)] bg-surface p-6 ring-1 ring-line outline-none sm:p-8"
       >
         <span className="grid size-12 place-items-center rounded-2xl bg-warning-soft text-warning ring-1 ring-amber-200">
           <Info className="size-6" aria-hidden />
@@ -218,7 +218,7 @@ export function AppointmentForm({
   return (
     <form onSubmit={handleSubmit(onSubmit)} noValidate className="space-y-6">
       {errorCount > 0 && (
-        <p role="alert" className="flex items-center gap-2 rounded-2xl bg-red-50 px-4 py-3 text-sm text-danger ring-1 ring-red-200">
+        <p role="alert" className="flex items-center gap-2 rounded-2xl bg-red-50 px-4 py-3 text-sm text-danger ring-1 ring-red-200 dark:bg-red-950/40 dark:ring-red-900">
           <AlertCircle className="size-4 shrink-0" aria-hidden />
           {errorCount === 1
             ? t("Controleer het gemarkeerde veld.", "Please check the highlighted field.")

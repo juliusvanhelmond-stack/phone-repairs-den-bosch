@@ -66,13 +66,33 @@
     ]
   },
   {
+    "id": "oppo",
+    "name": "OPPO",
+    "categories": [
+      "smartphone"
+    ],
+    "popular": false,
+    "order": 4,
+    "legacyUrls": [
+      "https://www.phonerepairs.nl/oppo-reparatie/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/oppo-reparatie/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "WordPress export 2026-10-12; page last changed 2021-02-01."
+      }
+    ]
+  },
+  {
     "id": "oneplus",
     "name": "OnePlus",
     "categories": [
       "smartphone"
     ],
     "popular": true,
-    "order": 4,
+    "order": 5,
     "legacyUrls": [
       "https://www.phonerepairs.nl/oneplus-reparatie/"
     ],
@@ -86,13 +106,113 @@
     ]
   },
   {
+    "id": "xiaomi",
+    "name": "Xiaomi",
+    "categories": [
+      "smartphone"
+    ],
+    "popular": true,
+    "order": 6,
+    "legacyUrls": [
+      "https://www.phonerepairs.nl/xiaomi-reparatie/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/xiaomi-reparatie/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "WordPress export 2026-10-12; page last changed 2021-02-01."
+      }
+    ]
+  },
+  {
+    "id": "poco",
+    "name": "Poco",
+    "categories": [
+      "smartphone"
+    ],
+    "popular": false,
+    "order": 7,
+    "legacyUrls": [
+      "https://www.phonerepairs.nl/xiaomi-pocophone-reparatie/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/xiaomi-pocophone-reparatie/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "WordPress export 2026-10-12; page last changed 2020-07-07."
+      }
+    ]
+  },
+  {
+    "id": "redmi",
+    "name": "Redmi",
+    "categories": [
+      "smartphone"
+    ],
+    "popular": false,
+    "order": 8,
+    "legacyUrls": [
+      "https://www.phonerepairs.nl/redmi-reparatie-den-bosch/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/redmi-reparatie-den-bosch/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "WordPress export 2026-10-12; page last changed 2021-02-01."
+      }
+    ]
+  },
+  {
+    "id": "motorola",
+    "name": "Motorola",
+    "categories": [
+      "smartphone"
+    ],
+    "popular": false,
+    "order": 9,
+    "legacyUrls": [
+      "https://www.phonerepairs.nl/motorola-reparatie/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/motorola-reparatie/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "WordPress export 2026-10-12; page last changed 2020-02-21."
+      }
+    ]
+  },
+  {
+    "id": "huawei",
+    "name": "Huawei",
+    "categories": [
+      "smartphone"
+    ],
+    "popular": true,
+    "order": 10,
+    "legacyUrls": [
+      "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/"
+    ],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "WordPress export 2026-10-12; page last changed 2021-02-01."
+      }
+    ]
+  },
+  {
     "id": "honor",
     "name": "Honor",
     "categories": [
       "smartphone"
     ],
     "popular": false,
-    "order": 5,
+    "order": 11,
     "legacyUrls": [
       "https://www.phonerepairs.nl/honor-reparatie/"
     ],
@@ -112,7 +232,7 @@
       "smartphone"
     ],
     "popular": false,
-    "order": 6,
+    "order": 12,
     "legacyUrls": [
       "https://www.phonerepairs.nl/nokia-reparatie/"
     ],
@@ -126,33 +246,13 @@
     ]
   },
   {
-    "id": "huawei",
-    "name": "Huawei",
-    "categories": [
-      "smartphone"
-    ],
-    "popular": true,
-    "order": 7,
-    "legacyUrls": [
-      "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/"
-    ],
-    "sources": [
-      {
-        "url": "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/",
-        "verification": "verified-source",
-        "capturedAt": "2026-10-12",
-        "note": "WordPress export 2026-10-12; page last changed 2021-02-01."
-      }
-    ]
-  },
-  {
     "id": "sony",
     "name": "Sony",
     "categories": [
       "smartphone"
     ],
     "popular": false,
-    "order": 8,
+    "order": 13,
     "legacyUrls": [
       "https://www.phonerepairs.nl/sony-xperia-reparatie/"
     ],
@@ -166,79 +266,19 @@
     ]
   },
   {
-    "id": "xiaomi",
-    "name": "Xiaomi",
-    "categories": [
-      "smartphone"
-    ],
-    "popular": true,
-    "order": 9,
-    "legacyUrls": [
-      "https://www.phonerepairs.nl/xiaomi-reparatie/"
-    ],
-    "sources": [
-      {
-        "url": "https://www.phonerepairs.nl/xiaomi-reparatie/",
-        "verification": "verified-source",
-        "capturedAt": "2026-10-12",
-        "note": "WordPress export 2026-10-12; page last changed 2021-02-01."
-      }
-    ]
-  },
-  {
-    "id": "redmi",
-    "name": "Redmi",
+    "id": "realme",
+    "name": "Realme",
     "categories": [
       "smartphone"
     ],
     "popular": false,
-    "order": 10,
+    "order": 14,
     "legacyUrls": [
-      "https://www.phonerepairs.nl/redmi-reparatie-den-bosch/"
+      "https://www.phonerepairs.nl/realme-reparatie/"
     ],
     "sources": [
       {
-        "url": "https://www.phonerepairs.nl/redmi-reparatie-den-bosch/",
-        "verification": "verified-source",
-        "capturedAt": "2026-10-12",
-        "note": "WordPress export 2026-10-12; page last changed 2021-02-01."
-      }
-    ]
-  },
-  {
-    "id": "poco",
-    "name": "Poco",
-    "categories": [
-      "smartphone"
-    ],
-    "popular": false,
-    "order": 11,
-    "legacyUrls": [
-      "https://www.phonerepairs.nl/xiaomi-pocophone-reparatie/"
-    ],
-    "sources": [
-      {
-        "url": "https://www.phonerepairs.nl/xiaomi-pocophone-reparatie/",
-        "verification": "verified-source",
-        "capturedAt": "2026-10-12",
-        "note": "WordPress export 2026-10-12; page last changed 2020-07-07."
-      }
-    ]
-  },
-  {
-    "id": "oppo",
-    "name": "OPPO",
-    "categories": [
-      "smartphone"
-    ],
-    "popular": false,
-    "order": 12,
-    "legacyUrls": [
-      "https://www.phonerepairs.nl/oppo-reparatie/"
-    ],
-    "sources": [
-      {
-        "url": "https://www.phonerepairs.nl/oppo-reparatie/",
+        "url": "https://www.phonerepairs.nl/realme-reparatie/",
         "verification": "verified-source",
         "capturedAt": "2026-10-12",
         "note": "WordPress export 2026-10-12; page last changed 2021-02-01."
@@ -252,7 +292,7 @@
       "smartphone"
     ],
     "popular": false,
-    "order": 13,
+    "order": 15,
     "legacyUrls": [
       "https://www.phonerepairs.nl/asus-zenfone-reparatie/"
     ],
@@ -262,46 +302,6 @@
         "verification": "verified-source",
         "capturedAt": "2026-10-12",
         "note": "WordPress export 2026-10-12; page last changed 2019-11-15."
-      }
-    ]
-  },
-  {
-    "id": "motorola",
-    "name": "Motorola",
-    "categories": [
-      "smartphone"
-    ],
-    "popular": false,
-    "order": 14,
-    "legacyUrls": [
-      "https://www.phonerepairs.nl/motorola-reparatie/"
-    ],
-    "sources": [
-      {
-        "url": "https://www.phonerepairs.nl/motorola-reparatie/",
-        "verification": "verified-source",
-        "capturedAt": "2026-10-12",
-        "note": "WordPress export 2026-10-12; page last changed 2020-02-21."
-      }
-    ]
-  },
-  {
-    "id": "realme",
-    "name": "Realme",
-    "categories": [
-      "smartphone"
-    ],
-    "popular": false,
-    "order": 15,
-    "legacyUrls": [
-      "https://www.phonerepairs.nl/realme-reparatie/"
-    ],
-    "sources": [
-      {
-        "url": "https://www.phonerepairs.nl/realme-reparatie/",
-        "verification": "verified-source",
-        "capturedAt": "2026-10-12",
-        "note": "WordPress export 2026-10-12; page last changed 2021-02-01."
       }
     ]
   }

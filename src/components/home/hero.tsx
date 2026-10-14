@@ -88,7 +88,7 @@ export async function Hero() {
             </span>
           </FloatingCard>
           <FloatingCard className="bottom-5 left-4 max-sm:hidden sm:bottom-8 sm:left-8 lg:left-0" delay="0.7s">
-            <span className="grid size-9 place-items-center rounded-xl bg-ink text-white">
+            <span className="grid size-9 place-items-center rounded-xl bg-night text-white">
               <Eye className="size-[1.125rem]" aria-hidden />
             </span>
             <span>

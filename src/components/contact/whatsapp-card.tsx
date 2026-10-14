@@ -25,13 +25,14 @@ export async function WhatsAppCard({
     >
       <p className="bg-accent px-6 py-5 text-lg font-semibold tracking-tight text-white">{wa.title}</p>
       <div className="p-5 sm:p-6">
-        <p className="rounded-3xl rounded-bl-md bg-white px-5 py-4 text-[0.9375rem] leading-relaxed text-ink-soft shadow-[var(--shadow-soft)]">
+        <p className="rounded-3xl rounded-bl-md bg-surface px-5 py-4 text-[0.9375rem] leading-relaxed text-ink-soft shadow-[var(--shadow-soft)]">
           {wa.intro}
         </p>
         <div className="mt-5 flex flex-col items-stretch gap-3 sm:flex-row sm:items-center sm:justify-end">
           <a
             href={site.phone.href}
-            className="inline-flex h-12 items-center justify-center gap-2 rounded-full px-5 font-medium text-ink ring-1 ring-line-strong transition-colors ring-inset hover:bg-white"
+            // Hidden on mobile: the pinned bar already has a call button.
+            className="hidden h-12 items-center justify-center gap-2 rounded-full px-5 font-medium text-ink ring-1 ring-line-strong transition-colors ring-inset hover:bg-surface md:inline-flex"
           >
             <Phone className="size-4" aria-hidden />
             {t("Bel", "Call")} {site.phone.display}

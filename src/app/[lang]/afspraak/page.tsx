@@ -51,7 +51,7 @@ export default async function AppointmentPage() {
         <div className="container-page grid gap-12 lg:grid-cols-[1.4fr_0.6fr] lg:gap-16">
           <div className="space-y-8">
             <WhatsAppCard />
-            <div className="rounded-[var(--radius-card)] bg-white p-6 shadow-[var(--shadow-soft)] ring-1 ring-line sm:p-8">
+            <div className="rounded-[var(--radius-card)] bg-surface p-6 shadow-[var(--shadow-soft)] ring-1 ring-line sm:p-8">
               <h2 className="text-title font-semibold text-ink">{t("Liever een formulier?", "Prefer a form?")}</h2>
               <p className="mt-2 mb-8 text-muted">
                 {t(
@@ -100,7 +100,7 @@ export default async function AppointmentPage() {
                 </li>
               </ol>
             </div>
-            <div className="rounded-[var(--radius-card)] bg-white p-7 ring-1 ring-line">
+            <div className="rounded-[var(--radius-card)] bg-surface p-7 ring-1 ring-line">
               <h2 className="font-semibold text-ink">{t("Goed om te weten", "Good to know")}</h2>
               <ul className="mt-4 space-y-3 text-sm leading-relaxed text-muted">
                 <li>{t("De meeste reparaties zijn binnen ongeveer 30 minuten klaar.", "Most repairs are done in about 30 minutes.")}</li>

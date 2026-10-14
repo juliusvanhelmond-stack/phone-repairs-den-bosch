@@ -116,7 +116,7 @@ export async function LandingTemplate({ page: source, children }: { page: Landin
           <div className="container-page">
             <Link
               href={repairPath("scherm-vervangen")}
-              className="group flex items-center justify-between gap-6 rounded-[var(--radius-card)] bg-white p-7 ring-1 ring-line transition-shadow hover:shadow-[var(--shadow-lift)] lg:p-9"
+              className="group flex items-center justify-between gap-6 rounded-[var(--radius-card)] bg-surface p-7 ring-1 ring-line transition-shadow hover:shadow-[var(--shadow-lift)] lg:p-9"
             >
               <span>
                 <span className="block text-title font-semibold text-ink">{t("Scherm vervangen", "Screen replacement")}</span>
@@ -168,7 +168,7 @@ export async function LandingTemplate({ page: source, children }: { page: Landin
                   <li key={p.id}>
                     <Link
                       href={p.path}
-                      className="inline-block rounded-full bg-white px-4 py-2 text-sm text-ink ring-1 ring-line transition-colors hover:bg-ink hover:text-white hover:ring-ink"
+                      className="inline-block rounded-full bg-surface px-4 py-2 text-sm text-ink ring-1 ring-line transition-colors hover:bg-night hover:text-white hover:ring-night"
                     >
                       {p.title}
                     </Link>
@@ -188,7 +188,7 @@ export async function LandingTemplate({ page: source, children }: { page: Landin
 
 function SectionCard({ section }: { section: LandingSection }) {
   return (
-    <div className="h-full rounded-[var(--radius-card)] bg-white p-7 ring-1 ring-line lg:p-9">
+    <div className="h-full rounded-[var(--radius-card)] bg-surface p-7 ring-1 ring-line lg:p-9">
       <h2 className="text-title font-semibold text-ink">{section.heading}</h2>
       {section.intro.map((p) => (
         <p key={p} className="mt-4 leading-relaxed text-muted">

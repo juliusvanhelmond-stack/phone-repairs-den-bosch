@@ -29,7 +29,8 @@ export async function ContactActions({
   const dark = tone === "dark";
   return (
     <div className={className}>
-      <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+      {/* On mobile the pinned WhatsApp/Bellen bar is always visible: no duplicate buttons (client request). */}
+      <div className="hidden flex-row flex-wrap gap-3 md:flex">
         {wa && (
           <Button asChild size={size} variant={dark ? "light" : "primary"}>
             <a href={wa} target="_blank" rel="noopener noreferrer">
@@ -46,7 +47,7 @@ export async function ContactActions({
         </Button>
       </div>
       {email && (
-        <p className={cn("mt-4 text-sm", dark ? "text-neutral-400" : "text-muted")}>
+        <p className={cn("text-sm md:mt-4", dark ? "text-neutral-400" : "text-muted")}>
           {t("Liever mailen?", "Prefer e-mail?")}{" "}
           <a
             href={`mailto:${site.email}`}

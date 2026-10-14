@@ -5,6 +5,7 @@ import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
 import { KiyohFloat } from "@/components/contact/kiyoh";
 import { MobileActionBar } from "@/components/contact/mobile-action-bar";
+import { ThemeScript } from "@/components/theme/theme-script";
 import { TopBar } from "@/components/layout/top-bar";
 import { WhatsAppWidget } from "@/components/contact/whatsapp-widget";
 import { LocaleProvider } from "@/components/i18n/locale-provider";
@@ -51,12 +52,16 @@ export default async function RootLayout({ children }: LayoutProps<"/[lang]">) {
   const locale = await getLocale();
   const t = translator(locale);
   return (
-    <html lang={locale} className={`${openSans.variable} ${GeistMono.variable} antialiased`}>
+    // data-theme is set by ThemeScript before hydration, hence suppressHydrationWarning.
+    <html lang={locale} className={`${openSans.variable} ${GeistMono.variable} antialiased`} suppressHydrationWarning>
+      <head>
+        <ThemeScript />
+      </head>
       <body className="flex min-h-dvh flex-col">
         <LocaleProvider locale={locale}>
           <a
             href="#inhoud"
-            className="sr-only z-[60] rounded-full bg-ink px-4 py-2 text-white focus:not-sr-only focus:fixed focus:top-3 focus:left-3"
+            className="sr-only z-[60] rounded-full bg-night px-4 py-2 text-white focus:not-sr-only focus:fixed focus:top-3 focus:left-3"
           >
             {t("Naar de inhoud", "Skip to content")}
           </a>

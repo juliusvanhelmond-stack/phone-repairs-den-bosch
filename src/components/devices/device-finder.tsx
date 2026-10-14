@@ -204,7 +204,7 @@ export function DeviceFinder({
   return (
     <div className="glass overflow-hidden rounded-[var(--radius-panel)]">
       {/* Progress */}
-      <div className="flex items-center justify-between gap-4 border-b border-white/80 bg-white/50 px-5 py-4 sm:px-8">
+      <div className="flex items-center justify-between gap-4 border-b border-white/80 bg-surface/50 px-5 py-4 sm:px-8">
         <ol className="hidden items-center gap-2 md:flex" aria-label={t("Stappen", "Steps")}>
           {STEPS.map((s, i) => {
             const done = i < stepIndex;
@@ -236,7 +236,7 @@ export function DeviceFinder({
                 </button>
               ) : (
                 <span
-                  className={cn(base, i === stepIndex ? "bg-ink text-white" : "text-muted")}
+                  className={cn(base, i === stepIndex ? "bg-night text-white" : "text-muted")}
                   aria-current={i === stepIndex ? "step" : undefined}
                 >
                   {content}
@@ -312,7 +312,7 @@ export function DeviceFinder({
                         onClick={() => update({ category: c.id })}
                         className="flex-row p-0 sm:flex-col"
                       >
-                        <div className="relative flex h-auto w-24 shrink-0 items-center justify-center overflow-hidden border-line bg-white p-2 max-sm:border-r sm:h-36 sm:w-auto sm:border-b sm:p-4">
+                        <div className="relative flex h-auto w-24 shrink-0 items-center justify-center tone-light overflow-hidden border-line bg-white p-2 max-sm:border-r sm:h-36 sm:w-auto sm:border-b sm:p-4">
                           <Image
                             src={categoryPhoto(c.id)}
                             alt=""
@@ -436,7 +436,7 @@ function ChoiceCard({
       type="button"
       onClick={onClick}
       className={cn(
-        "group flex h-full w-full flex-col items-stretch justify-start overflow-hidden rounded-[var(--radius-card)] bg-white p-5 text-left ring-1 ring-line transition-[box-shadow,transform] duration-300 hover:-translate-y-0.5 hover:shadow-[var(--shadow-soft)] hover:ring-line-strong focus-visible:ring-2 focus-visible:ring-accent",
+        "group flex h-full w-full flex-col items-stretch justify-start overflow-hidden rounded-[var(--radius-card)] bg-surface p-5 text-left ring-1 ring-line transition-[box-shadow,transform] duration-300 hover:-translate-y-0.5 hover:shadow-[var(--shadow-soft)] hover:ring-line-strong focus-visible:ring-2 focus-visible:ring-accent",
         className,
       )}
     >
@@ -502,15 +502,15 @@ function ModelSearch({
           onValueChange={setQuery}
           placeholder={placeholder}
           autoFocus={autoFocus}
-          className="h-14 w-full rounded-2xl border border-line bg-white pr-4 pl-12 text-base text-ink outline-none placeholder:text-muted/80 focus:border-accent focus:bg-white focus:ring-4 focus:ring-accent/10"
+          className="h-14 w-full rounded-2xl border border-line bg-surface pr-4 pl-12 text-base text-ink outline-none placeholder:text-muted/80 focus:border-accent focus:bg-surface focus:ring-4 focus:ring-accent/10"
         />
       </div>
       {/* Always mounted so the input's aria-controls points at an existing list. */}
       <Command.List
           hidden={!showList}
           className={cn(
-            "mt-3 max-h-[26rem] overflow-y-auto overscroll-contain rounded-2xl bg-white ring-1 ring-line [scrollbar-width:thin]",
-            dropdown && "bg-white shadow-[var(--shadow-lift)]",
+            "mt-3 max-h-[26rem] overflow-y-auto overscroll-contain rounded-2xl bg-surface ring-1 ring-line [scrollbar-width:thin]",
+            dropdown && "bg-surface shadow-[var(--shadow-lift)]",
           )}
         >
           <Command.Empty className="flex flex-col items-center px-6 py-10 text-center">
@@ -611,7 +611,7 @@ function FinderResult({
 
   return (
     <div className="grid gap-6 lg:grid-cols-[0.8fr_1.2fr]">
-      <div className="relative flex min-h-64 items-center justify-center overflow-hidden rounded-[var(--radius-card)] bg-white px-8 pt-14 pb-8 ring-1 ring-line">
+      <div className="relative flex min-h-64 items-center justify-center tone-light overflow-hidden rounded-[var(--radius-card)] bg-white px-8 pt-14 pb-8 ring-1 ring-line">
         <div className="relative h-52 w-full">
           <DevicePhoto
             device={device}
@@ -623,14 +623,14 @@ function FinderResult({
             )}
           />
         </div>
-        <span className="absolute top-4 left-4 inline-flex items-center gap-2 rounded-full bg-white px-3 py-1.5 text-sm text-ink shadow-[var(--shadow-ring)]">
+        <span className="absolute top-4 left-4 inline-flex items-center gap-2 rounded-full bg-surface px-3 py-1.5 text-sm text-ink shadow-[var(--shadow-ring)]">
           <ContentIcon name={repair.icon} className="size-4 text-accent" />
           {repair.name}
         </span>
       </div>
 
       <div className="flex flex-col">
-        <div className="rounded-[var(--radius-card)] bg-white p-6 ring-1 ring-line">
+        <div className="rounded-[var(--radius-card)] bg-surface p-6 ring-1 ring-line">
           {price !== undefined ? (
             <>
               <p className="text-sm text-muted">

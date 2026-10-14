@@ -45,7 +45,7 @@ export default async function FaqPage() {
               <li key={p.id}>
                 <Link
                   href={p.path}
-                  className="group flex h-full items-center justify-between gap-4 rounded-[var(--radius-card)] bg-white p-6 ring-1 ring-line transition-shadow hover:shadow-[var(--shadow-lift)]"
+                  className="group flex h-full items-center justify-between gap-4 rounded-[var(--radius-card)] bg-surface p-6 ring-1 ring-line transition-shadow hover:shadow-[var(--shadow-lift)]"
                 >
                   <span>
                     <span className="block font-semibold text-ink">{p.title}</span>

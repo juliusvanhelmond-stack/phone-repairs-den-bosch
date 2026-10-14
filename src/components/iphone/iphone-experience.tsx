@@ -256,7 +256,7 @@ export function IphoneExperience({
                     onPointerLeave={() => !store.getUi().selected && store.setHovered(null)}
                     className={cn(
                       "flex shrink-0 items-center gap-1.5 rounded-full px-2.5 py-2 text-[0.8125rem] whitespace-nowrap transition-colors sm:px-4 sm:text-sm",
-                      ui.selected === key ? "bg-ink text-white" : "text-ink-soft hover:bg-white hover:text-ink",
+                      ui.selected === key ? "bg-night text-white" : "text-ink-soft hover:bg-surface hover:text-ink",
                     )}
                   >
                     <ContentIcon name={repairs[key].icon} className="hidden size-4 sm:block" />
@@ -285,7 +285,7 @@ export function IphoneExperience({
             <button
               type="button"
               onClick={() => store.setSelected(null)}
-              className="absolute top-4 right-4 grid size-8 place-items-center rounded-full bg-white/70 text-ink-soft ring-1 ring-line transition-colors hover:bg-white hover:text-ink"
+              className="absolute top-4 right-4 grid size-8 place-items-center rounded-full bg-surface/70 text-ink-soft ring-1 ring-line transition-colors hover:bg-surface hover:text-ink"
               aria-label={t("Sluiten", "Close")}
             >
               <X className="size-4" />
@@ -399,7 +399,7 @@ function LabelsOverlay({ store, compact, active }: { store: ExplodeStore; compac
               className={cn(
                 "block size-2 shrink-0 rounded-full ring-4 transition-colors",
                 cfg.side === "left" ? "-mr-1" : "-ml-1",
-                emphasised ? "bg-accent ring-accent/25" : "bg-white ring-white/50",
+                emphasised ? "bg-accent ring-accent/25" : "bg-surface ring-white/50",
               )}
               style={{ boxShadow: "0 0 0 1px rgb(16 111 49 / 0.7)" }}
             />

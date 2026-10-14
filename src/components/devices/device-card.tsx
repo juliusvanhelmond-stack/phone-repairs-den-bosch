@@ -12,11 +12,11 @@ export function DeviceCard({ device, className }: { device: DeviceModel; classNa
     <Link
       href={devicePath(device)}
       className={cn(
-        "group flex h-full flex-col overflow-hidden rounded-[var(--radius-card)] bg-white ring-1 ring-line transition-[box-shadow,transform] duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-lift)] hover:ring-line-strong",
+        "group flex h-full flex-col overflow-hidden rounded-[var(--radius-card)] bg-surface ring-1 ring-line transition-[box-shadow,transform] duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-lift)] hover:ring-line-strong",
         className,
       )}
     >
-      <div className="relative flex h-44 items-center justify-center overflow-hidden border-b border-line bg-white px-5 py-3">
+      <div className="relative flex h-44 items-center justify-center tone-light overflow-hidden border-b border-line bg-white px-5 py-3">
         <DevicePhoto
           device={device}
           decorative
@@ -33,7 +33,7 @@ export function DeviceCard({ device, className }: { device: DeviceModel; classNa
           <span className="block text-xs text-muted">{getBrand(device.brandId)?.name}</span>
           <span className="block font-medium tracking-tight text-ink">{device.name}</span>
         </span>
-        <span className="grid size-9 shrink-0 place-items-center rounded-full bg-mist text-ink transition-colors group-hover:bg-ink group-hover:text-white">
+        <span className="grid size-9 shrink-0 place-items-center rounded-full bg-mist text-ink transition-colors group-hover:bg-night group-hover:text-white">
           <ArrowRight className="size-4" aria-hidden />
         </span>
       </div>

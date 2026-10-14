@@ -38,7 +38,7 @@ export function OpeningToday({ className }: { className?: string }) {
         t("7 dagen per week geopend", "Open 7 days a week")
       )}
       {" · "}
-      {t("alleen op afspraak", "by appointment only")}
+      {t("altijd op afspraak", "always by appointment")}
     </span>
   );
 }

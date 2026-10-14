@@ -15,7 +15,7 @@ export async function SendInSection() {
   return (
     <section id="opstuurformulier" className="scroll-mt-28 pb-16 lg:pb-24">
       <div className="container-page">
-        <div className="mx-auto max-w-3xl rounded-[var(--radius-card)] bg-white p-6 shadow-[var(--shadow-soft)] ring-1 ring-line sm:p-10">
+        <div className="mx-auto max-w-3xl rounded-[var(--radius-card)] bg-surface p-6 shadow-[var(--shadow-soft)] ring-1 ring-line sm:p-10">
           <p className="eyebrow mb-3">{t("Opstuurformulier", "Send-in form")}</p>
           <h2 className="text-title font-semibold text-ink">{t("Vul het formulier online in", "Fill in the form online")}</h2>
           <p className="mt-3 leading-relaxed text-muted">

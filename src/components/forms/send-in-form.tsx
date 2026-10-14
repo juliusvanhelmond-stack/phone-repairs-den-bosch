@@ -179,7 +179,7 @@ export function SendInForm({ email, whatsappNumber, termsHref, shippingAddress }
   return (
     <form onSubmit={handleSubmit(onSubmit)} noValidate className="space-y-8">
       {errorCount > 0 && (
-        <p role="alert" className="flex items-center gap-2 rounded-2xl bg-red-50 px-4 py-3 text-sm text-danger ring-1 ring-red-200">
+        <p role="alert" className="flex items-center gap-2 rounded-2xl bg-red-50 px-4 py-3 text-sm text-danger ring-1 ring-red-200 dark:bg-red-950/40 dark:ring-red-900">
           <AlertCircle className="size-4 shrink-0" aria-hidden />
           {errorCount === 1
             ? t("Controleer het gemarkeerde veld.", "Please check the highlighted field.")

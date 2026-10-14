@@ -23,7 +23,7 @@ export async function PopularBrands() {
             <li key={b.key}>
               <Link
                 href={b.href}
-                className="group flex h-12 items-center justify-center gap-2.5 rounded-full bg-white px-5 text-[1.0625rem] font-semibold tracking-tight text-ink-soft shadow-[var(--shadow-soft)] ring-1 ring-line transition-colors hover:bg-ink hover:text-white hover:ring-ink"
+                className="group flex h-12 items-center justify-center gap-2.5 rounded-full bg-surface px-5 text-[1.0625rem] font-semibold tracking-tight text-ink-soft shadow-[var(--shadow-soft)] ring-1 ring-line transition-colors hover:bg-night hover:text-white hover:ring-night"
               >
                 <BrandMark brandId={b.brandId} className="size-[1.125rem]" />
                 {b.label}

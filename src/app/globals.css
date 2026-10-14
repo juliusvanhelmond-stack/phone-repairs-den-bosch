@@ -1,10 +1,16 @@
 @import "tailwindcss";
 
+/* Dark theme (client request 2026-10-13): follows the device, switchable in the header. */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
 @theme {
   /* Phone Repairs house colours: green #106f31, grey #515151, dark #222222.
      Client request (2026-10-13): darker overall, #222 as main colour, the grey used a lot,
      less white. Light grey page base; dark and grey bands via .tone-dark / .tone-grey. */
   --color-canvas: #e9ebea;
+  /* Cards and panels (white in the light theme). Use bg-white only for things that must stay
+     white in both themes, such as product photos and third-party widgets. */
+  --color-surface: #ffffff;
   --color-mist: #dde1df;
   --color-ink: #222222;
   --color-ink-soft: #3a3a3a;
@@ -178,7 +184,8 @@
     --color-mist: #5e5e5e;
     --color-accent-strong: #b4e6c3;
   }
-  :is(.tone-dark, .tone-grey) :where(.bg-white, .bg-canvas, .tone-light) {
+  :root:not([data-theme="dark"]) :is(.tone-dark, .tone-grey) :where(.bg-surface, .bg-canvas),
+  .tone-light {
     --color-ink: #222222;
     --color-ink-soft: #3a3a3a;
     --color-muted: #515151;
@@ -317,4 +324,36 @@
       animation-range: entry 0% cover 40%;
     }
   }
+}
+
+/*
+ * Dark theme. Unlayered, so it wins over the utility layer. Set on <html data-theme="dark">
+ * by the inline script in the root layout (device setting, or the visitor's choice).
+ */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-canvas: #1a1a1a;
+  --color-surface: #262626;
+  --color-mist: #313131;
+  --color-ink: #f3f3f3;
+  --color-ink-soft: #e2e2e2;
+  --color-muted: #b9bdbb;
+  --color-line: rgb(255 255 255 / 0.12);
+  --color-line-strong: rgb(255 255 255 / 0.22);
+  --color-accent-strong: #86d19e;
+  --color-accent-soft: rgb(134 209 158 / 0.15);
+  --color-night: #111111;
+  --color-night-soft: #1c1c1c;
+  --color-graphite: #3b3b3b;
+  --color-warning: #f2b35a;
+  --color-warning-soft: #33280f;
+  --color-danger: #f87171;
+}
+:root[data-theme="dark"] .glass {
+  background-color: rgb(38 38 38 / 0.7);
+}
+:root[data-theme="dark"] .bg-grid {
+  background-image:
+    linear-gradient(to right, rgb(255 255 255 / 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.035) 1px, transparent 1px);
 }

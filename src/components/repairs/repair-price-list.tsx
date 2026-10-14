@@ -36,7 +36,7 @@ export async function RepairPriceList({ device, repairs }: { device: DeviceModel
           <section
             key={r.id}
             aria-labelledby={`prijs-${r.id}`}
-            className="overflow-hidden rounded-[var(--radius-card)] bg-white ring-1 ring-line"
+            className="overflow-hidden rounded-[var(--radius-card)] bg-surface ring-1 ring-line"
           >
             <div className="flex flex-wrap items-center justify-between gap-4 border-b border-line p-5 sm:px-6">
               <div className="flex items-center gap-4">
@@ -76,7 +76,7 @@ export async function RepairPriceList({ device, repairs }: { device: DeviceModel
       })}
 
       {accessories.length > 0 && (
-        <section aria-labelledby="prijs-accessoires" className="overflow-hidden rounded-[var(--radius-card)] bg-white ring-1 ring-line">
+        <section aria-labelledby="prijs-accessoires" className="overflow-hidden rounded-[var(--radius-card)] bg-surface ring-1 ring-line">
           <div className="flex items-center gap-4 border-b border-line p-5 sm:px-6">
             <span className="grid size-11 shrink-0 place-items-center rounded-xl bg-mist text-ink ring-1 ring-line">
               <Package className="size-5" aria-hidden />

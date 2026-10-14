@@ -54,7 +54,7 @@ export default async function RepairsOverviewPage() {
       <section className="py-16 lg:py-24">
         <div className="container-page grid gap-4 lg:grid-cols-3">
           {categories.map((cat) => localizeCategory(cat, locale)).map((c) => (
-            <div key={c.id} id={c.id} className="rounded-[var(--radius-card)] bg-white p-7 ring-1 ring-line">
+            <div key={c.id} id={c.id} className="rounded-[var(--radius-card)] bg-surface p-7 ring-1 ring-line">
               <h2 className="text-title font-semibold text-ink">{c.plural}</h2>
               <ul className="mt-6 divide-y divide-line border-t border-line">
                 {brandEntries(c.id).map((b) => (
@@ -82,7 +82,7 @@ export default async function RepairsOverviewPage() {
               <li key={r.id}>
                 <Link
                   href={repairPath(r.slug)}
-                  className="group flex h-full flex-col rounded-[var(--radius-card)] bg-white p-6 ring-1 ring-line transition-[box-shadow,transform] duration-300 hover:-translate-y-0.5 hover:shadow-[var(--shadow-soft)]"
+                  className="group flex h-full flex-col rounded-[var(--radius-card)] bg-surface p-6 ring-1 ring-line transition-[box-shadow,transform] duration-300 hover:-translate-y-0.5 hover:shadow-[var(--shadow-soft)]"
                 >
                   <ContentIcon name={r.icon} className="size-6 text-accent" />
                   <span className="mt-6 font-medium text-ink">{r.name}</span>

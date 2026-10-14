@@ -26,7 +26,7 @@ export function AccordionTrigger({
         {...props}
       >
         {children}
-        <span className="grid size-8 shrink-0 place-items-center rounded-full bg-mist ring-1 ring-line transition-transform duration-300 group-data-[state=open]:rotate-45 group-data-[state=open]:bg-ink group-data-[state=open]:text-white group-data-[state=open]:ring-ink">
+        <span className="grid size-8 shrink-0 place-items-center rounded-full bg-mist ring-1 ring-line transition-transform duration-300 group-data-[state=open]:rotate-45 group-data-[state=open]:bg-night group-data-[state=open]:text-white group-data-[state=open]:ring-ink">
           <Plus className="size-4" aria-hidden />
         </span>
       </AccordionPrimitive.Trigger>

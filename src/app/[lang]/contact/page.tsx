@@ -37,7 +37,7 @@ export default async function ContactPage() {
       </PageIntro>
       <section className="py-16 lg:py-24">
         <div className="container-page grid gap-4 lg:grid-cols-[1fr_1.2fr]">
-          <div className="rounded-[var(--radius-card)] bg-white p-6 shadow-[var(--shadow-soft)] ring-1 ring-line sm:p-8">
+          <div className="rounded-[var(--radius-card)] bg-surface p-6 shadow-[var(--shadow-soft)] ring-1 ring-line sm:p-8">
             <h2 className="text-title font-semibold text-ink">{site.legalName}</h2>
             <ContactDetails className="mt-4" />
             <ReviewsLink className="mt-4 flex w-fit" />

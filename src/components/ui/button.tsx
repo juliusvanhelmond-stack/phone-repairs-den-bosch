@@ -10,10 +10,10 @@ export const buttonVariants = cva(
       variant: {
         primary:
           "bg-accent text-white shadow-[0_1px_2px_rgb(34_34_34/0.12),inset_0_1px_0_rgb(255_255_255/0.14)] hover:bg-accent-strong",
-        dark: "bg-ink text-white hover:bg-night-soft",
-        secondary: "bg-white text-ink shadow-[var(--shadow-ring)] hover:bg-mist",
+        dark: "bg-night text-white hover:bg-night-soft",
+        secondary: "bg-surface text-ink shadow-[var(--shadow-ring)] hover:bg-mist",
         ghost: "text-ink hover:bg-mist",
-        light: "bg-white text-ink hover:bg-white/90",
+        light: "bg-surface text-ink hover:bg-surface/90",
         "outline-light": "text-white ring-1 ring-white/25 ring-inset hover:bg-white/10",
       },
       size: {

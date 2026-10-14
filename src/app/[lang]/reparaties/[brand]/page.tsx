@@ -71,7 +71,7 @@ export default async function BrandPage({ params }: PageProps<"/[lang]/reparatie
               <a
                 key={s.category.id}
                 href={`#${s.category.id}`}
-                className="rounded-full bg-white px-4 py-2 text-sm text-ink ring-1 ring-line transition-colors hover:bg-ink hover:text-white hover:ring-ink"
+                className="rounded-full bg-surface px-4 py-2 text-sm text-ink ring-1 ring-line transition-colors hover:bg-night hover:text-white hover:ring-night"
               >
                 {brand.id === "apple" ? s.label : s.category.plural}
               </a>

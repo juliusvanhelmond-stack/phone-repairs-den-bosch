@@ -35,8 +35,8 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
       className={cn(
         "sticky top-0 z-50 transition-[background-color,box-shadow,backdrop-filter] duration-300",
         scrolled
-          ? "bg-white/85 shadow-[0_1px_0_rgb(34_34_34/0.06),0_8px_24px_-16px_rgb(16_111_49/0.14)] backdrop-blur-xl backdrop-saturate-150"
-          : "bg-white/0",
+          ? "bg-surface/85 shadow-[0_1px_0_rgb(34_34_34/0.06),0_8px_24px_-16px_rgb(16_111_49/0.14)] backdrop-blur-xl backdrop-saturate-150"
+          : "bg-surface/0",
       )}
     >
       <div className="container-page flex h-16 items-center justify-between gap-3 lg:h-[4.5rem] 2xl:gap-6">
@@ -110,7 +110,7 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
 function MegaMenu({ nav }: { nav: NavData }) {
   const { t } = useI18n();
   return (
-    <div className="mx-auto grid max-w-[76rem] gap-2 overflow-hidden rounded-[1.75rem] bg-white p-2 shadow-[var(--shadow-lift)] ring-1 ring-line lg:grid-cols-[1.2fr_1fr_0.8fr]">
+    <div className="mx-auto grid max-w-[76rem] gap-2 overflow-hidden rounded-[1.75rem] bg-surface p-2 shadow-[var(--shadow-lift)] ring-1 ring-line lg:grid-cols-[1.2fr_1fr_0.8fr]">
       <div className="space-y-6 p-6">
         {nav.categories.map((cat) => (
           <div key={cat.id}>
@@ -142,7 +142,7 @@ function MegaMenu({ nav }: { nav: NavData }) {
                   href={r.href}
                   className="group flex items-center gap-3 rounded-xl p-2 transition-colors hover:bg-accent-soft"
                 >
-                  <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-mist text-ink ring-1 ring-line transition-colors group-hover:bg-white group-hover:text-accent-strong">
+                  <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-mist text-ink ring-1 ring-line transition-colors group-hover:bg-surface group-hover:text-accent-strong">
                     <ContentIcon name={r.icon} className="size-[1.125rem]" />
                   </span>
                   <span className="text-[0.9375rem] text-ink group-hover:text-accent-strong">{r.name}</span>
@@ -192,7 +192,7 @@ function MobileNav({ nav, phone, whatsapp, email }: Props) {
       </Dialog.Trigger>
       <Dialog.Portal>
         <Dialog.Overlay className="fixed inset-0 z-50 bg-night/30 backdrop-blur-sm data-[state=open]:animate-[fade-up_0.2s_ease-out]" />
-        <Dialog.Content className="fixed inset-y-0 right-0 z-50 flex w-full max-w-sm flex-col bg-white shadow-2xl outline-none data-[state=open]:animate-[slide-in_0.35s_cubic-bezier(0.22,1,0.36,1)]">
+        <Dialog.Content className="fixed inset-y-0 right-0 z-50 flex w-full max-w-sm flex-col bg-surface shadow-2xl outline-none data-[state=open]:animate-[slide-in_0.35s_cubic-bezier(0.22,1,0.36,1)]">
           <VisuallyHidden.Root>
             <Dialog.Title>Menu</Dialog.Title>
             <Dialog.Description>{t("Navigatie van Phone Repairs", "Phone Repairs navigation")}</Dialog.Description>

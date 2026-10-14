@@ -18,8 +18,8 @@ const stepsFor = (t: Translate) => [
     n: "2",
     title: t("Maak een afspraak", "Make an appointment"),
     body: t(
-      "Er wordt alleen op afspraak gewerkt. Stuur een WhatsApp of bel, dan plan je samen een moment dat jou uitkomt.",
-      "We work by appointment only. Send a WhatsApp or call, and you agree on a time that suits you.",
+      "Er wordt altijd op afspraak gewerkt. Stuur een WhatsApp of bel, dan plan je samen een moment dat jou uitkomt.",
+      "We work always by appointment. Send a WhatsApp or call, and you agree on a time that suits you.",
     ),
   },
   {
@@ -51,7 +51,7 @@ export async function HowItWorks({ withHeading = true }: { withHeading?: boolean
           {steps.map((s, i) => (
             <li key={s.n} className="relative text-center">
               <Reveal delay={i * 0.1}>
-                <span className="relative mx-auto grid size-14 place-items-center rounded-full bg-white text-xl font-semibold text-ink shadow-[var(--shadow-soft)] ring-1 ring-line">
+                <span className="relative mx-auto grid size-14 place-items-center rounded-full bg-surface text-xl font-semibold text-ink shadow-[var(--shadow-soft)] ring-1 ring-line">
                   {s.n}
                   {i === 2 && <span className="absolute -top-0.5 -right-0.5 size-3 rounded-full bg-accent ring-4 ring-white" />}
                 </span>

@@ -41,7 +41,7 @@ export async function KiyohBadge({ className }: { className?: string }) {
           : t("Bekijk onze reviews op Kiyoh", "See our reviews on Kiyoh")
       }
       className={cn(
-        "inline-flex items-center gap-3 rounded-2xl bg-white px-4 py-3 text-ink ring-1 ring-line transition-shadow hover:shadow-[var(--shadow-soft)]",
+        "inline-flex items-center gap-3 rounded-2xl bg-surface px-4 py-3 text-ink ring-1 ring-line transition-shadow hover:shadow-[var(--shadow-soft)]",
         className,
       )}
     >
@@ -101,7 +101,7 @@ export async function KiyohFloat() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label={t(`Kiyoh: ${score} uit ${count} reviews. Bekijk onze reviews`, `Kiyoh: ${score} from ${count} reviews. See our reviews`)}
-      className="fixed bottom-6 left-6 z-30 hidden h-14 items-center gap-2 rounded-full bg-white pr-4 pl-3 text-ink shadow-[var(--shadow-lift)] ring-1 ring-line transition-transform hover:scale-[1.03] motion-reduce:transition-none motion-reduce:hover:scale-100 md:inline-flex"
+      className="fixed bottom-6 left-6 z-30 hidden h-14 items-center gap-2 rounded-full bg-surface pr-4 pl-3 text-ink shadow-[var(--shadow-lift)] ring-1 ring-line transition-transform hover:scale-[1.03] motion-reduce:transition-none motion-reduce:hover:scale-100 md:inline-flex"
     >
       <KiyohMark className="size-7" />
       <span className="flex flex-col leading-none">
@@ -124,7 +124,7 @@ export async function KiyohCompact({ className }: { className?: string }) {
       target="_blank"
       rel="noopener noreferrer"
       aria-label={t(`Kiyoh: ${score} uit ${count} reviews. Bekijk onze reviews`, `Kiyoh: ${score} from ${count} reviews. See our reviews`)}
-      className={cn("inline-flex h-11 items-center gap-2 rounded-full bg-white pr-3.5 pl-2 text-ink ring-1 ring-line", className)}
+      className={cn("inline-flex h-11 items-center gap-2 rounded-full bg-surface pr-3.5 pl-2 text-ink ring-1 ring-line", className)}
     >
       <KiyohMark className="size-6" />
       <span className="flex flex-col leading-none">

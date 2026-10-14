@@ -111,7 +111,7 @@ export function WhatsAppWidget() {
           </button>
         </div>
         <div className="px-5 pt-5 pb-5">
-          <p className="relative rounded-3xl rounded-bl-md bg-white px-5 py-4 text-[0.9375rem] leading-relaxed text-ink-soft shadow-[var(--shadow-soft)]">
+          <p className="relative rounded-3xl rounded-bl-md bg-surface px-5 py-4 text-[0.9375rem] leading-relaxed text-ink-soft shadow-[var(--shadow-soft)]">
             {wa.intro}
           </p>
           <div className="mt-5 flex justify-end">

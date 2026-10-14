@@ -45,7 +45,7 @@ export default async function AreaIndexPage() {
           {groups.map((g, i) => (
             <li key={g.place}>
               <Reveal delay={i * 0.03} className="h-full">
-                <div className="h-full rounded-[var(--radius-card)] bg-white p-7 ring-1 ring-line">
+                <div className="h-full rounded-[var(--radius-card)] bg-surface p-7 ring-1 ring-line">
                   {g.placeKind && (
                     <p className="text-xs text-muted">
                       {g.placeKind === "wijk" ? t("Wijk in Den Bosch", "Neighbourhood in Den Bosch") : t("Plaats", "Town")}

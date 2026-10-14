@@ -128,7 +128,7 @@ export default async function DevicePage({ params }: PageProps<"/[lang]/reparati
           `Is your ${device.name} broken? At Phone Repairs in Den Bosch it is repaired by appointment. Most repairs are done in about 30 minutes while you watch.`,
         )}
         aside={
-          <figure className="relative flex h-44 flex-col sm:h-auto sm:aspect-[4/3.4] overflow-hidden rounded-[var(--radius-panel)] bg-white ring-1 ring-line">
+          <figure className="relative flex h-44 flex-col sm:h-auto sm:aspect-[4/3.4] tone-light overflow-hidden rounded-[var(--radius-panel)] bg-white ring-1 ring-line">
             <div className="relative flex min-h-0 flex-1 items-center justify-center p-4 sm:p-[8%]">
               <DevicePhoto
                 device={device}
@@ -185,7 +185,7 @@ export default async function DevicePage({ params }: PageProps<"/[lang]/reparati
               </ul>
               <ReviewsLink className="mt-6 flex w-fit text-sm" />
             </div>
-            <div className="rounded-[var(--radius-card)] bg-white p-6 ring-1 ring-line">
+            <div className="rounded-[var(--radius-card)] bg-surface p-6 ring-1 ring-line">
               <h2 className="font-semibold text-ink">{t("Garantie", "Warranty")}</h2>
               {generalWarranty?.verified && generalWarranty.durationMonths ? (
                 <>

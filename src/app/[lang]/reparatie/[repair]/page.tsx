@@ -108,7 +108,7 @@ export default async function RepairPage({ params }: PageProps<"/[lang]/reparati
                   <li key={b.id}>
                     <Link
                       href={brandPath(b.id)}
-                      className="block rounded-full bg-white px-4 py-2 text-sm text-ink ring-1 ring-line transition-colors hover:bg-ink hover:text-white hover:ring-ink"
+                      className="block rounded-full bg-surface px-4 py-2 text-sm text-ink ring-1 ring-line transition-colors hover:bg-night hover:text-white hover:ring-night"
                     >
                       {b.name}
                     </Link>

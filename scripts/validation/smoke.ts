@@ -176,7 +176,7 @@ async function main() {
 
   await check("layout: opening hours, review badges, disclaimer, no model counts", async () => {
     await page.goto(BASE + "/");
-    await page.getByText(/alleen op afspraak/).first().waitFor();
+    await page.getByText(/altijd op afspraak/).first().waitFor();
     const footer = page.locator("footer");
     for (const name of ["algemene voorwaarden", "privacy policy"]) {
       const href = await footer.getByRole("link", { name }).getAttribute("href");
@@ -408,6 +408,37 @@ async function main() {
     assert(h1s.length === 1 && /Telefoon reparatie Den Bosch/.test(h1s[0]), `homepage h1: ${h1s.join(" | ")}`);
     const area = await (await fetch(BASE + "/iphone-reparatie-waalwijk")).text();
     assert(area.includes("Snelle en betrouwbare iPhone reparatie in Waalwijk"), "area page lacks its original text");
+  });
+
+  await check("theme: follows the device, switch toggles and remembers the choice", async () => {
+    const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 }, colorScheme: "dark" });
+    const p = await ctx.newPage();
+    await p.goto(BASE + "/");
+    const theme = () => p.evaluate(() => document.documentElement.dataset.theme);
+    assert((await theme()) === "dark", "does not follow the device setting");
+    await p.getByRole("button", { name: "Lichte weergave" }).click();
+    assert((await theme()) === "light", "switch did not change the theme");
+    await p.reload();
+    assert((await theme()) === "light", "choice not remembered");
+    await ctx.close();
+  });
+
+  await check("mail 6: altijd op afspraak, brand order, no duplicate buttons on mobile", async () => {
+    await page.goto(BASE + "/");
+    const html = await page.content();
+    assert(!/alleen op afspraak/i.test(html), "'alleen op afspraak' still on the homepage");
+    assert(/altijd op afspraak/i.test(html), "'altijd op afspraak' missing");
+    await page.getByRole("button", { name: /Reparaties/ }).first().click();
+    const menu = page.locator("header").getByText("Smartphones", { exact: true }).locator("xpath=..");
+    const names = (await menu.getByRole("link").allTextContents()).map((s) => s.trim());
+    const expected = ["iPhone", "Samsung", "Google", "OPPO", "OnePlus", "Xiaomi", "Poco", "Redmi", "Motorola", "Huawei", "Honor", "Nokia", "Sony", "Realme", "Asus"];
+    assert(JSON.stringify(names) === JSON.stringify(expected), `menu order ${names.join(", ")}`);
+    const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true });
+    const m = await ctx.newPage();
+    await m.goto(BASE + "/reparaties/apple/iphone-15-pro");
+    const inPage = await m.locator("main").getByRole("link", { name: /^(WhatsApp ons|Bel 073)/ }).filter({ visible: true }).count();
+    assert(inPage === 0, `${inPage} WhatsApp/Bel buttons in the page on mobile`);
+    await ctx.close();
   });
 
   await check("whatsapp: header CTA and contact order on contact page", async () => {

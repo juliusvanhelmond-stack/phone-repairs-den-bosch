@@ -35,7 +35,7 @@ export function MapGraphic() {
       </svg>
       <div className="absolute top-[42%] left-[55%] -translate-x-1/2 -translate-y-full">
         <span className="absolute top-full left-1/2 size-16 -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent/15" />
-        <span className="relative grid size-12 place-items-center rounded-full rounded-br-none bg-ink text-white shadow-[var(--shadow-lift)] [transform:rotate(45deg)]">
+        <span className="relative grid size-12 place-items-center rounded-full rounded-br-none bg-night text-white shadow-[var(--shadow-lift)] [transform:rotate(45deg)]">
           <MapPin className="size-5 [transform:rotate(-45deg)]" />
         </span>
       </div>
@@ -54,7 +54,7 @@ export async function ContactDetails({ className }: { className?: string }) {
     { icon: Phone, label: t("Telefoon", "Phone"), value: site.phone.display, href: site.phone.href },
     { icon: MapPin, label: t("Adres", "Address"), value: fullAddress, href: mapsUrl, external: true },
     { icon: Mail, label: "E-mail", value: site.email, href: `mailto:${site.email}` },
-    { icon: CalendarCheck, label: t("Afspraak", "Appointment"), value: t("Alleen op afspraak", "By appointment only") },
+    { icon: CalendarCheck, label: t("Afspraak", "Appointment"), value: t("Altijd op afspraak", "Always by appointment") },
     { icon: Car, label: t("Parkeren", "Parking"), value: t(site.parkingNote, "Free parking right outside") },
   ];
   return (
@@ -64,7 +64,7 @@ export async function ContactDetails({ className }: { className?: string }) {
           <Clock className="size-[1.125rem]" aria-hidden />
         </span>
         <span className="min-w-0">
-          <span className="block text-sm text-muted">{t("Openingstijden (alleen op afspraak)", "Opening hours (by appointment only)")}</span>
+          <span className="block text-sm text-muted">{t("Openingstijden (altijd op afspraak)", "Opening hours (always by appointment)")}</span>
           <OpeningHoursList className="mt-1.5 text-[0.9375rem]" />
         </span>
       </li>
@@ -108,14 +108,14 @@ export async function Location() {
           <Reveal className="h-full">
             <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="group relative block h-full" aria-label={t("Open de locatie in Google Maps", "Open the location in Google Maps")}>
               <MapGraphic />
-              <span className="absolute bottom-4 left-4 inline-flex items-center gap-1.5 rounded-full bg-white px-4 py-2 text-sm font-medium text-ink shadow-[var(--shadow-soft)] transition-colors group-hover:bg-ink group-hover:text-white">
+              <span className="absolute bottom-4 left-4 inline-flex items-center gap-1.5 rounded-full bg-surface px-4 py-2 text-sm font-medium text-ink shadow-[var(--shadow-soft)] transition-colors group-hover:bg-night group-hover:text-white">
                 Open in Google Maps
                 <ArrowUpRight className="size-4" aria-hidden />
               </span>
             </a>
           </Reveal>
           <Reveal delay={0.05}>
-            <div className="rounded-[var(--radius-card)] bg-white p-6 shadow-[var(--shadow-soft)] ring-1 ring-line sm:p-8">
+            <div className="rounded-[var(--radius-card)] bg-surface p-6 shadow-[var(--shadow-soft)] ring-1 ring-line sm:p-8">
               <ContactDetails />
               <Link
                 href="/contact"

@@ -11,22 +11,23 @@ import { readTableCells, type Cell } from "./wxr";
 
 export type BrandDef = { id: string; name: string; order: number };
 
+/** Brand order in every menu and overview, as set by the client (e-mail 2026-10-13, 23:21). */
 export const BRANDS: BrandDef[] = [
   { id: "apple", name: "Apple", order: 1 },
   { id: "samsung", name: "Samsung", order: 2 },
   { id: "google", name: "Google", order: 3 },
-  { id: "oneplus", name: "OnePlus", order: 4 },
-  { id: "honor", name: "Honor", order: 5 },
-  { id: "nokia", name: "Nokia", order: 6 },
-  { id: "huawei", name: "Huawei", order: 7 },
-  { id: "sony", name: "Sony", order: 8 },
-  { id: "xiaomi", name: "Xiaomi", order: 9 },
-  { id: "redmi", name: "Redmi", order: 10 },
-  { id: "poco", name: "Poco", order: 11 },
-  { id: "oppo", name: "OPPO", order: 12 },
-  { id: "asus", name: "Asus", order: 13 },
-  { id: "motorola", name: "Motorola", order: 14 },
-  { id: "realme", name: "Realme", order: 15 },
+  { id: "oppo", name: "OPPO", order: 4 },
+  { id: "oneplus", name: "OnePlus", order: 5 },
+  { id: "xiaomi", name: "Xiaomi", order: 6 },
+  { id: "poco", name: "Poco", order: 7 },
+  { id: "redmi", name: "Redmi", order: 8 },
+  { id: "motorola", name: "Motorola", order: 9 },
+  { id: "huawei", name: "Huawei", order: 10 },
+  { id: "honor", name: "Honor", order: 11 },
+  { id: "nokia", name: "Nokia", order: 12 },
+  { id: "sony", name: "Sony", order: 13 },
+  { id: "realme", name: "Realme", order: 14 },
+  { id: "asus", name: "Asus", order: 15 },
 ];
 
 /** First path segment of the original site → brand and default category. */

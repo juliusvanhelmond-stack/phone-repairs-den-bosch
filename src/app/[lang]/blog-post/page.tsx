@@ -49,7 +49,7 @@ export default async function BlogIndexPage() {
               <Reveal delay={i * 0.04} className="h-full">
                 <Link
                   href={blogPath(post.slug)}
-                  className="group flex h-full flex-col rounded-[var(--radius-card)] bg-white p-7 ring-1 ring-line transition-[box-shadow,transform] duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-lift)]"
+                  className="group flex h-full flex-col rounded-[var(--radius-card)] bg-surface p-7 ring-1 ring-line transition-[box-shadow,transform] duration-300 hover:-translate-y-1 hover:shadow-[var(--shadow-lift)]"
                 >
                   <h2 className="text-title font-semibold text-ink">{post.title}</h2>
                   {post.excerpt && <p className="mt-3 flex-1 leading-relaxed text-muted">{post.excerpt}</p>}

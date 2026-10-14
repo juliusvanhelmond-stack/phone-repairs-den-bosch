@@ -11,7 +11,13 @@ import { repairForLabel, slugify } from "./devices";
 import type { WxrItem } from "./wxr";
 
 const ORIGIN = "https://www.phonerepairs.nl";
-const json = (v: unknown) => JSON.stringify(v, null, 2) + "\n";
+/**
+ * Owner wording applied to all imported text (client request 2026-10-13: "altijd op afspraak"
+ * instead of "alleen op afspraak", everywhere on the site).
+ */
+const ownerWording = (text: string) =>
+  text.replace(/\b(a)lleen op afspraak\b/gi, (_m, a: string) => (a === "A" ? "Altijd op afspraak" : "altijd op afspraak"));
+const json = (v: unknown) => ownerWording(JSON.stringify(v, null, 2)) + "\n";
 
 type InfoPageDef = {
   path: string;

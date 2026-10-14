@@ -39,8 +39,8 @@ export async function About() {
               eyebrow={t("Over Phone Repairs", "About Phone Repairs")}
               title={t("Persoonlijk, vakkundig en gewoon in Den Bosch.", "Personal, skilled and right here in Den Bosch.")}
               intro={t(
-                "Phone Repairs repareert smartphones, tablets en MacBooks. Er wordt alleen op afspraak gewerkt, zodat er tijd en aandacht is voor jou en je toestel. Je kijkt mee terwijl er gewerkt wordt en je gegevens blijven op je toestel.",
-                "Phone Repairs repairs smartphones, tablets and MacBooks. We work by appointment only, so there is time and attention for you and your device. You watch while we work, and your data stays on your device.",
+                "Phone Repairs repareert smartphones, tablets en MacBooks. Er wordt altijd op afspraak gewerkt, zodat er tijd en aandacht is voor jou en je toestel. Je kijkt mee terwijl er gewerkt wordt en je gegevens blijven op je toestel.",
+                "Phone Repairs repairs smartphones, tablets and MacBooks. We work always by appointment, so there is time and attention for you and your device. You watch while we work, and your data stays on your device.",
               )}
             />
           </Reveal>
