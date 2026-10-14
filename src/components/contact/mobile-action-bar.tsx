@@ -1,4 +1,5 @@
 import { MessageCircle, Phone } from "lucide-react";
+import { WhatsAppNotifyDot } from "@/components/contact/whatsapp-notify";
 import { getI18n } from "@/lib/i18n-server";
 import { site, whatsappHref, whatsappMessage } from "@/lib/site";
 
@@ -21,10 +22,11 @@ export async function MobileActionBar() {
             href={wa}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-12 items-center justify-center gap-2 rounded-full bg-accent font-semibold text-white active:bg-accent-strong"
+            className="relative inline-flex h-12 items-center justify-center gap-2 rounded-full bg-accent font-semibold text-white active:bg-accent-strong"
           >
             <MessageCircle className="size-5" aria-hidden />
             WhatsApp
+            <WhatsAppNotifyDot />
           </a>
         )}
         <a

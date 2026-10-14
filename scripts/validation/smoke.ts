@@ -441,6 +441,30 @@ async function main() {
     await ctx.close();
   });
 
+  await check("mail 7: wording, warranty text once, partner links", async () => {
+    for (const route of ["/", "/reparaties/apple/iphone-15-pro", "/afspraak"]) {
+      const html = await (await fetch(BASE + route)).text();
+      assert(!/ongeveer 30 minuten/.test(html), `'ongeveer 30 minuten' on ${route}`);
+    }
+    const warranty = await (await fetch(BASE + "/garantie")).text();
+    assert(!/onderdeel\. Bij dergelijke beschadigingen vervalt/.test(warranty), "warranty sentence repeated");
+    const home = await (await fetch(BASE + "/")).text();
+    assert(home.includes("buyback.nl/?utm_source=phonerepairs&amp;utm_medium=affiliate&amp;utm_campaign=tradein"), "trade-in link missing");
+    const recovery = await (await fetch(BASE + "/data-recovery")).text();
+    assert(/<iframe[^>]+forms\.zohopublic\.eu[^>]+pc=XZZWU/.test(recovery), "data recovery form missing");
+  });
+
+  await check("mail 7: on mobile the WhatsApp panel does not open by itself, a bullet shows instead", async () => {
+    const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true });
+    const m = await ctx.newPage();
+    await m.goto(BASE + "/reparaties");
+    await m.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight));
+    const bar = m.getByRole("navigation", { name: "Snel contact" });
+    await bar.getByText("nieuw bericht", { exact: false }).waitFor({ state: "attached" });
+    assert((await m.getByRole("dialog").count()) === 0 || !(await m.getByRole("dialog").isVisible()), "panel opened on mobile");
+    await ctx.close();
+  });
+
   await check("whatsapp: header CTA and contact order on contact page", async () => {
     await page.goto(BASE + "/contact");
     const header = await page.locator("header").getByRole("link", { name: "WhatsApp ons" }).getAttribute("href");

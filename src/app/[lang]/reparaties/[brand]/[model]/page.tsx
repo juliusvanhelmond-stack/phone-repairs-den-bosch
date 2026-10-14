@@ -124,8 +124,8 @@ export default async function DevicePage({ params }: PageProps<"/[lang]/reparati
         eyebrow={brand.id === "apple" ? device.series : `${brand.name} · ${device.series}`}
         title={t(`${fullName} reparatie`, `${fullName} repair`)}
         intro={t(
-          `Is je ${device.name} kapot? Bij Phone Repairs in Den Bosch wordt hij op afspraak gerepareerd. De meeste reparaties zijn binnen ongeveer 30 minuten klaar, terwijl je meekijkt.`,
-          `Is your ${device.name} broken? At Phone Repairs in Den Bosch it is repaired by appointment. Most repairs are done in about 30 minutes while you watch.`,
+          `Is je ${device.name} kapot? Bij Phone Repairs in Den Bosch wordt hij op afspraak gerepareerd. De meeste reparaties zijn binnen 30 minuten klaar, terwijl je meekijkt.`,
+          `Is your ${device.name} broken? At Phone Repairs in Den Bosch it is repaired by appointment. Most repairs are done within 30 minutes while you watch.`,
         )}
         aside={
           <figure className="relative flex h-44 flex-col sm:h-auto sm:aspect-[4/3.4] tone-light overflow-hidden rounded-[var(--radius-panel)] bg-white ring-1 ring-line">

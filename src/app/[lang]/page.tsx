@@ -9,6 +9,7 @@ import { HowItWorks } from "@/components/home/how-it-works";
 import { Location } from "@/components/home/location";
 import { PopularRepairs } from "@/components/home/popular-repairs";
 import { ScreenProtector } from "@/components/home/screen-protector";
+import { TradeIn } from "@/components/partners/trade-in";
 import { Trust } from "@/components/home/trust";
 import { faqs, localizeFaq } from "@/lib/catalog";
 import { getI18n } from "@/lib/i18n-server";
@@ -48,6 +49,7 @@ export default async function HomePage() {
       <HowItWorks />
       <PopularModels />
       <ScreenProtector />
+      <TradeIn />
       <About />
       <Faq items={faqs.slice(0, 6).map((f) => localizeFaq(f, locale))} />
       <Location />

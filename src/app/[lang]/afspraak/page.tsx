@@ -103,7 +103,7 @@ export default async function AppointmentPage() {
             <div className="rounded-[var(--radius-card)] bg-surface p-7 ring-1 ring-line">
               <h2 className="font-semibold text-ink">{t("Goed om te weten", "Good to know")}</h2>
               <ul className="mt-4 space-y-3 text-sm leading-relaxed text-muted">
-                <li>{t("De meeste reparaties zijn binnen ongeveer 30 minuten klaar.", "Most repairs are done in about 30 minutes.")}</li>
+                <li>{t("De meeste reparaties zijn binnen 30 minuten klaar.", "Most repairs are done within 30 minutes.")}</li>
                 <li>{t("Je kunt meekijken terwijl je toestel wordt gerepareerd.", "You can watch while your device is repaired.")}</li>
                 <li>{t("Je gegevens blijven op je toestel staan.", "Your data stays on your device.")}</li>
                 <li>{t("Gratis parkeren voor de deur.", "Free parking right outside.")}</li>

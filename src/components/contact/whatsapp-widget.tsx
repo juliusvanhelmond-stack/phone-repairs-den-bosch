@@ -4,6 +4,7 @@ import { useCallback, useEffect, useId, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import { MessageCircle, X } from "lucide-react";
 import { useI18n } from "@/components/i18n/locale-provider";
+import { WHATSAPP_NOTIFY_EVENT } from "@/components/contact/whatsapp-notify";
 import { parsePublicPath } from "@/lib/i18n";
 import { site, whatsappCopy, whatsappHref, whatsappMessage } from "@/lib/site";
 import { cn } from "@/lib/utils";
@@ -31,7 +32,8 @@ function markSeen() {
  * Floating WhatsApp button with the chat prompt from the current site.
  * The panel opens by itself once per session, after the visitor has read part of a page
  * (scroll depth) or stayed a while; never on the appointment and contact pages, where the
- * options are already on screen.
+ * options are already on screen. On mobile it shows a notification bullet on the WhatsApp
+ * button of the bottom bar instead (client request 2026-10-14).
  */
 export function WhatsAppWidget() {
   const { locale, t } = useI18n();
@@ -58,7 +60,9 @@ export function WhatsAppWidget() {
       if (done || readSeen()) return;
       done = true;
       markSeen();
-      setOpen(true);
+      // Mobile: a notification bullet on the WhatsApp button instead of a panel over the page.
+      if (window.matchMedia("(max-width: 767px)").matches) window.dispatchEvent(new Event(WHATSAPP_NOTIFY_EVENT));
+      else setOpen(true);
     };
     const onScroll = () => {
       const max = document.documentElement.scrollHeight - window.innerHeight;

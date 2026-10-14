@@ -93,6 +93,18 @@ export const site = {
     privacy: "/wp-content/uploads/2026/09/Privacyverklaring-september-2026.pdf",
   },
   parkingNote: "Gratis parkeren voor de deur",
+  /**
+   * Partner links with the shop's own referral code (client, e-mail 2026-10-14): keep the
+   * parameters exactly, they are how the shop gets paid.
+   */
+  partners: {
+    /** Stellar data recovery intake form (Zoho), as embedded on the current /data-recovery/ page. */
+    dataRecoveryForm:
+      "https://forms.zohopublic.eu/ahogye/form/Diagnosis/formperma/NjvRlJCeWk-6kWpDnNOiviDvjs0WoTznjCUgcSCEIgw?ML=NL/Dutch&con1=Netherlands&con2=Netherlands&con3=Netherlands&pa=true&pc=XZZWU&pn=Phone%20Repairs",
+    dataRecoveryCode: "XZZWU",
+    /** Trade-in (buyback.nl) affiliate link from the current homepage. */
+    tradeIn: "https://buyback.nl/?utm_source=phonerepairs&utm_medium=affiliate&utm_campaign=tradein",
+  },
   sources: [SOURCE_URLS.home, SOURCE_URLS.denBosch, SOURCE_URLS.appointment],
 } as const;
 

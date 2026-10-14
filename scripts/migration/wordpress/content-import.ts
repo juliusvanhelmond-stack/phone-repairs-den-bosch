@@ -12,11 +12,15 @@ import type { WxrItem } from "./wxr";
 
 const ORIGIN = "https://www.phonerepairs.nl";
 /**
- * Owner wording applied to all imported text (client request 2026-10-13: "altijd op afspraak"
- * instead of "alleen op afspraak", everywhere on the site).
+ * Owner wording applied to all imported text (client requests: "altijd op afspraak" instead of
+ * "alleen op afspraak", 2026-10-13; "binnen 30 minuten" instead of "binnen ongeveer 30 minuten",
+ * 2026-10-14) plus sentences the current site repeats word for word right after each other.
  */
 const ownerWording = (text: string) =>
-  text.replace(/\b(a)lleen op afspraak\b/gi, (_m, a: string) => (a === "A" ? "Altijd op afspraak" : "altijd op afspraak"));
+  text
+    .replace(/\b(a)lleen op afspraak\b/gi, (_m, a: string) => (a === "A" ? "Altijd op afspraak" : "altijd op afspraak"))
+    .replace(/\bbinnen ongeveer 30 minuten\b/g, "binnen 30 minuten")
+    .replace(/([A-Z][^."\\]{20,}\.) \1/g, "$1");
 const json = (v: unknown) => ownerWording(JSON.stringify(v, null, 2)) + "\n";
 
 type InfoPageDef = {

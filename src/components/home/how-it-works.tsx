@@ -26,8 +26,8 @@ const stepsFor = (t: Translate) => [
     n: "3",
     title: t("Laat je toestel repareren", "Have your device repaired"),
     body: t(
-      "Je kijkt mee terwijl je toestel wordt gerepareerd. De meeste reparaties zijn binnen ongeveer 30 minuten klaar.",
-      "You watch while your device is repaired. Most repairs are done in about 30 minutes.",
+      "Je kijkt mee terwijl je toestel wordt gerepareerd. De meeste reparaties zijn binnen 30 minuten klaar.",
+      "You watch while your device is repaired. Most repairs are done within 30 minutes.",
     ),
   },
 ];
