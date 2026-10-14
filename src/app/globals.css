@@ -2,9 +2,10 @@
 
 @theme {
   /* Phone Repairs house colours: green #106f31, grey #515151, dark #222222.
-     Neutral page tint with a hint of green; cards stay pure white for depth. */
-  --color-canvas: #f1f4f2;
-  --color-mist: #e6ebe8;
+     Client request (2026-10-13): darker overall, #222 as main colour, the grey used a lot,
+     less white. Light grey page base; dark and grey bands via .tone-dark / .tone-grey. */
+  --color-canvas: #e9ebea;
+  --color-mist: #dde1df;
   --color-ink: #222222;
   --color-ink-soft: #3a3a3a;
   --color-muted: #515151;
@@ -15,8 +16,10 @@
   --color-accent-light: #86d19e;
   --color-night: #222222;
   --color-night-soft: #2e2e2e;
-  --color-line: #e2e6e3;
-  --color-line-strong: #cdd4cf;
+  /* The house grey as a surface (the `muted` token is for text and is redefined in tone scopes). */
+  --color-graphite: #515151;
+  --color-line: #d6dad8;
+  --color-line-strong: #c2c8c4;
   --color-success: #16a34a;
   --color-warning: #b45309;
   --color-warning-soft: #fffbeb;
@@ -145,6 +148,46 @@
   }
   .article > :first-child {
     margin-top: 0;
+  }
+}
+
+/*
+ * Tone scopes: a dark (#222) or grey (#515151) band. They redefine the text and line
+ * tokens, so components inside switch to light text without changes; white cards inside
+ * get the light-surface tokens back.
+ */
+@layer components {
+  .tone-dark,
+  .tone-grey {
+    --color-ink: #ffffff;
+    --color-ink-soft: #eeeeee;
+    --color-line: rgb(255 255 255 / 0.14);
+    --color-line-strong: rgb(255 255 255 / 0.26);
+    --color-accent-soft: rgb(134 209 158 / 0.16);
+    color: var(--color-ink);
+  }
+  .tone-dark {
+    background-color: var(--color-night);
+    --color-muted: #c4c8c6;
+    --color-mist: #2e2e2e;
+    --color-accent-strong: #86d19e;
+  }
+  .tone-grey {
+    background-color: var(--color-graphite);
+    --color-muted: #e4e6e5;
+    --color-mist: #5e5e5e;
+    --color-accent-strong: #b4e6c3;
+  }
+  :is(.tone-dark, .tone-grey) :where(.bg-white, .bg-canvas, .tone-light) {
+    --color-ink: #222222;
+    --color-ink-soft: #3a3a3a;
+    --color-muted: #515151;
+    --color-mist: #dde1df;
+    --color-line: #d6dad8;
+    --color-line-strong: #c2c8c4;
+    --color-accent-strong: #0c5a27;
+    --color-accent-soft: #e7f2ea;
+    color: var(--color-ink);
   }
 }
 

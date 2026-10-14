@@ -2,13 +2,12 @@ import Image from "next/image";
 import processPhoto from "@/assets/photos/process-workbench.jpg";
 import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
-import { Aura } from "@/components/ui/aura";
 import type { Translate } from "@/lib/i18n";
 import { getI18n } from "@/lib/i18n-server";
 
 const stepsFor = (t: Translate) => [
   {
-    n: "01",
+    n: "1",
     title: t("Kies je toestel", "Choose your device"),
     body: t(
       "Selecteer je merk, model en de reparatie die je nodig hebt. Zo weet je direct waar je aan toe bent.",
@@ -16,7 +15,7 @@ const stepsFor = (t: Translate) => [
     ),
   },
   {
-    n: "02",
+    n: "2",
     title: t("Maak een afspraak", "Make an appointment"),
     body: t(
       "Er wordt alleen op afspraak gewerkt. Stuur een WhatsApp of bel, dan plan je samen een moment dat jou uitkomt.",
@@ -24,7 +23,7 @@ const stepsFor = (t: Translate) => [
     ),
   },
   {
-    n: "03",
+    n: "3",
     title: t("Laat je toestel repareren", "Have your device repaired"),
     body: t(
       "Je kijkt mee terwijl je toestel wordt gerepareerd. De meeste reparaties zijn binnen ongeveer 30 minuten klaar.",
@@ -37,8 +36,7 @@ export async function HowItWorks({ withHeading = true }: { withHeading?: boolean
   const { t } = await getI18n();
   const steps = stepsFor(t);
   return (
-    <section className="relative isolate overflow-hidden py-20 lg:py-28">
-      <Aura variant="center" />
+    <section className="tone-grey relative isolate overflow-hidden py-20 lg:py-28">
       <div className="container-page">
         {withHeading && (
           <Reveal>
@@ -53,7 +51,7 @@ export async function HowItWorks({ withHeading = true }: { withHeading?: boolean
           {steps.map((s, i) => (
             <li key={s.n} className="relative text-center">
               <Reveal delay={i * 0.1}>
-                <span className="relative mx-auto grid size-14 place-items-center rounded-full bg-white font-mono text-sm font-medium text-ink shadow-[var(--shadow-soft)] ring-1 ring-line">
+                <span className="relative mx-auto grid size-14 place-items-center rounded-full bg-white text-xl font-semibold text-ink shadow-[var(--shadow-soft)] ring-1 ring-line">
                   {s.n}
                   {i === 2 && <span className="absolute -top-0.5 -right-0.5 size-3 rounded-full bg-accent ring-4 ring-white" />}
                 </span>
@@ -73,7 +71,7 @@ export async function HowItWorks({ withHeading = true }: { withHeading?: boolean
               sizes="(min-width: 1280px) 76rem, 100vw"
               className="object-cover object-[50%_60%]"
             />
-            <figcaption className="absolute bottom-4 left-4 rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-ink shadow-[var(--shadow-soft)] backdrop-blur sm:bottom-6 sm:left-6">
+            <figcaption className="tone-light absolute bottom-4 left-4 rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-ink shadow-[var(--shadow-soft)] backdrop-blur sm:bottom-6 sm:left-6">
               {t("Vakwerk, onderdeel voor onderdeel", "Craftsmanship, part by part")}
             </figcaption>
           </figure>

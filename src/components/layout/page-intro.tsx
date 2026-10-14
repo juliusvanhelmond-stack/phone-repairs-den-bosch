@@ -24,12 +24,8 @@ export function PageIntro({
   className?: string;
 }) {
   return (
-    <section className={cn("relative isolate overflow-hidden border-b border-line", className)}>
-      <Aura variant="hero" />
-      <div
-        className="bg-grid absolute inset-0 -z-10 [mask-image:radial-gradient(ellipse_60%_80%_at_80%_0%,#000_10%,transparent_70%)]"
-        aria-hidden
-      />
+    <section className={cn("tone-dark relative isolate overflow-hidden", className)}>
+      <Aura variant="dark" />
       <div
         className={cn(
           "container-page grid gap-10 pt-8 pb-14 lg:pb-20",

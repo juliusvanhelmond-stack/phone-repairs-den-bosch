@@ -1020,6 +1020,15 @@
         ],
         "bullets": [],
         "steps": []
+      },
+      {
+        "heading": "Problemen met jouw reparatie?",
+        "body": [],
+        "bullets": [],
+        "steps": [
+          "Ervaar je een probleem? Maak een afspraak en kom langs: onze specialist onderzoekt kosteloos de oorzaak.",
+          "Blijkt dat het probleem toe te wijzen is aan het eerder vervangen onderdeel? Dan vervangen we dat gratis voor je."
+        ]
       }
     ],
     "unconfirmed": [],
@@ -1036,7 +1045,7 @@
       {
         "url": "https://www.phonerepairs.nl/garantie/",
         "capturedAt": "2026-10-13",
-        "note": "Warranty text supplied by Martijn Derks in his e-mail 'Laatste mail van vandaag' (13 October 2026, 21:07); not yet on the current site.",
+        "note": "Warranty text supplied by Martijn Derks in his e-mails of 13 October 2026 ('Laatste mail van vandaag', 21:07; 'Problemen met jouw reparatie?', 21:21); not yet on the current site.",
         "verification": "owner-confirmed"
       }
     ]

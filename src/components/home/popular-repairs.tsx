@@ -14,8 +14,8 @@ export async function PopularRepairs() {
     .slice(0, 6)
     .map((r) => localizeRepair(r, locale));
   return (
-    <section className="relative isolate overflow-hidden py-20 lg:py-28">
-      <Aura variant="soft" />
+    <section className="tone-dark relative isolate overflow-hidden py-20 lg:py-28">
+      <Aura variant="dark" />
       <div className="container-page">
         <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
           <Reveal>

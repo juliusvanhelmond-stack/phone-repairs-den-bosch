@@ -52,6 +52,18 @@ export const INFO_PAGES: InfoPageDef[] = [
         ],
       },
       {
+        // E-mail "Re: Samenvatting…", 13 October 2026 21:21 ("ergens bij garantie"); typos corrected.
+        after: "Probleem na een reparatie?",
+        sections: [
+          ownerSection("Problemen met jouw reparatie?", {
+            steps: [
+              "Ervaar je een probleem? Maak een afspraak en kom langs: onze specialist onderzoekt kosteloos de oorzaak.",
+              "Blijkt dat het probleem toe te wijzen is aan het eerder vervangen onderdeel? Dan vervangen we dat gratis voor je.",
+            ],
+          }),
+        ],
+      },
+      {
         after: "Wanneer vervalt de garantie?",
         sections: [
           ownerSection("Wanneer geldt de garantie niet?", {
@@ -74,7 +86,7 @@ export const INFO_PAGES: InfoPageDef[] = [
     ownerSource: {
       url: `${ORIGIN}/garantie/`,
       capturedAt: "2026-10-13",
-      note: "Warranty text supplied by Martijn Derks in his e-mail 'Laatste mail van vandaag' (13 October 2026, 21:07); not yet on the current site.",
+      note: "Warranty text supplied by Martijn Derks in his e-mails of 13 October 2026 ('Laatste mail van vandaag', 21:07; 'Problemen met jouw reparatie?', 21:21); not yet on the current site.",
     },
   },
   { path: "/waterschade-reparatie-phone-repairs", eyebrow: "Waterschade" },

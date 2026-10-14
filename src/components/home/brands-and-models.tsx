@@ -10,7 +10,7 @@ import { getI18n } from "@/lib/i18n-server";
 export async function PopularBrands() {
   const { t } = await getI18n();
   return (
-    <section className="border-y border-white/80 bg-white/55 py-14">
+    <section className="tone-grey py-14">
       <div className="container-page flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
         <p className="max-w-xs text-sm leading-relaxed text-muted">
           {t(

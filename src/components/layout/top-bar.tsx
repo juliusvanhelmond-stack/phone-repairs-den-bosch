@@ -14,7 +14,7 @@ import { site } from "@/lib/site";
 export async function TopBar() {
   const { t } = await getI18n();
   return (
-    <div className="border-b border-line/70 bg-white/70 text-sm">
+    <div className="tone-dark text-sm">
       <div className="container-page flex min-h-14 items-center justify-between gap-3 py-2">
         <KiyohCompact className="md:hidden" />
         <Link
@@ -27,17 +27,17 @@ export async function TopBar() {
         </Link>
         {site.reviews?.trustindexId && (
           // Fixed box: the widget loads later and must not push the header down (layout shift).
-          <div className="flex h-14 w-32 shrink-0 items-center justify-end overflow-hidden">
+          <div className="flex h-14 w-32 shrink-0 items-center justify-center overflow-hidden rounded-xl bg-white">
             <TrustindexBadge
               widgetId={site.reviews.trustindexId}
-              className="flex items-center justify-end [zoom:0.64] [&_.ti-widget]:!m-0"
+              className="flex items-center justify-center [zoom:0.64] [&_.ti-widget]:!m-0"
             />
           </div>
         )}
       </div>
       <Link
         href="/contact#openingstijden"
-        className="flex items-center justify-center gap-2 border-t border-line/70 px-4 py-2 text-[0.8125rem] text-muted md:hidden"
+        className="flex items-center justify-center gap-2 border-t border-line px-4 py-2 text-[0.8125rem] text-muted md:hidden"
       >
         <Clock className="size-3.5 text-accent-strong" aria-hidden />
         <OpeningToday />

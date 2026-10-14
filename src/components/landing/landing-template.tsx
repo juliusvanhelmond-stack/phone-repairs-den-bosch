@@ -193,8 +193,8 @@ function SectionCard({ section }: { section: LandingSection }) {
         <ol className="mt-6 space-y-4">
           {section.steps.map((step, i) => (
             <li key={step} className="flex gap-4">
-              <span className="grid size-8 shrink-0 place-items-center rounded-full bg-accent-soft font-mono text-sm text-accent-strong">
-                {String(i + 1).padStart(2, "0")}
+              <span className="grid size-8 shrink-0 place-items-center rounded-full bg-accent-soft font-semibold text-accent-strong">
+                {i + 1}
               </span>
               <span className="pt-1 leading-relaxed text-muted">{step}</span>
             </li>

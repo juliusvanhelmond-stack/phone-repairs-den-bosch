@@ -17,8 +17,8 @@ export async function ScreenProtector() {
     <section className="py-16 lg:py-20">
       <div className="container-page">
         <Reveal>
-          <div className="grid gap-8 rounded-[var(--radius-panel)] bg-white p-7 ring-1 ring-line sm:p-10 lg:grid-cols-[auto_1fr] lg:gap-12">
-            <span className="grid size-14 place-items-center rounded-2xl bg-accent-soft text-accent-strong ring-1 ring-line">
+          <div className="tone-dark grid gap-8 rounded-[var(--radius-panel)] p-7 sm:p-10 lg:grid-cols-[auto_1fr] lg:gap-12">
+            <span className="grid size-14 place-items-center rounded-2xl bg-accent text-white">
               <ShieldCheck className="size-7" aria-hidden />
             </span>
             <div className="max-w-3xl">
