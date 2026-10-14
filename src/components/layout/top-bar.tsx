@@ -27,7 +27,7 @@ export async function TopBar() {
         </Link>
         {site.reviews?.trustindexId && (
           // Fixed box: the widget loads later and must not push the header down (layout shift).
-          <div className="flex h-14 w-32 shrink-0 items-center justify-center overflow-hidden rounded-xl bg-white">
+          <div className="flex h-14 w-32 shrink-0 items-center justify-center overflow-hidden rounded-xl has-[.ti-widget]:bg-white">
             <TrustindexBadge
               widgetId={site.reviews.trustindexId}
               className="flex items-center justify-center [zoom:0.64] [&_.ti-widget]:!m-0"

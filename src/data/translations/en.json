@@ -1572,6 +1572,50 @@
         }
       ],
       "unconfirmed": []
+    },
+    "iphone-reparatie-waalwijk": {
+      "title": "IPhone repair Waalwijk",
+      "eyebrow": "For Waalwijk",
+      "intro": "Living or working in Waalwijk? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "IPhone repair Waalwijk",
+        "description": "IPhone broken? From Waalwijk, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "telefoon-reparatie-eindhoven": {
+      "title": "Phone repair Eindhoven",
+      "eyebrow": "For Eindhoven",
+      "intro": "Living or working in Eindhoven? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Phone repair Eindhoven",
+        "description": "Phone broken? From Eindhoven, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "telefoon-reparatie-lokerenpassage": {
+      "title": "Phone repair Lokerenpassage",
+      "eyebrow": "For Lokerenpassage",
+      "intro": "Living or working in Lokerenpassage? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "Phone repair Lokerenpassage",
+        "description": "Phone broken? From Lokerenpassage, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
+    },
+    "iphone-reparatie-brabant": {
+      "title": "IPhone repair Brabant",
+      "eyebrow": "For Brabant",
+      "intro": "Living or working in Brabant? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done in about 30 minutes while you watch.",
+      "seo": {
+        "title": "IPhone repair Brabant",
+        "description": "IPhone broken? From Brabant, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+      },
+      "sections": [],
+      "unconfirmed": []
     }
   },
   "blog": {

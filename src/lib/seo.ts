@@ -9,6 +9,20 @@ export const absoluteUrl = (path: string) => new URL(path, site.url).toString();
  * Shared metadata builder: canonical URL per language, hreflang alternates,
  * Open Graph and the noindex guard. `path` is the Dutch path.
  */
+/** Appended to page titles by the layout template. */
+export const TITLE_SUFFIX = " | Phone Repairs";
+
+/**
+ * Page title (SEO audit HV Media, 2026-10-13: shorter, "Den Bosch" at most once).
+ * No suffix when the title already names the shop (titles copied from the current site)
+ * or when it would push the title past 60 characters.
+ */
+export function titleFor(title: string): Metadata["title"] {
+  const clean = title.replace(/\s*[·|–-]\s*Phone Repairs Den Bosch$/, "").trim();
+  if (/phone repairs/i.test(clean) || (clean + TITLE_SUFFIX).length > 60) return { absolute: clean };
+  return clean;
+}
+
 export function pageMetadata({
   title,
   description,
@@ -21,10 +35,8 @@ export function pageMetadata({
   locale: Locale;
 }): Metadata {
   const url = localizePath(path, locale);
-  // Titles copied from the current site may already end in the site name; skip the template then.
-  const branded = title.endsWith(" · Phone Repairs Den Bosch");
   return {
-    title: branded ? { absolute: title } : title,
+    title: titleFor(title),
     description,
     alternates: {
       canonical: url,

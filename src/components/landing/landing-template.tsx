@@ -61,16 +61,22 @@ export async function LandingTemplate({ page: source, children }: { page: Landin
         )
       : t(`Hoi Phone Repairs, ik heb een vraag over: ${page.title.toLowerCase()}.`, `Hi Phone Repairs, I have a question about: ${page.title.toLowerCase()}.`);
   const otherAreas = page.kind === "area" ? areasByPlace() : [];
+  const imported = source.sources.some((s) => s.verification === "verified-source" && /WordPress export/.test(s.note ?? ""));
 
   return (
     <>
       <PageIntro crumbs={landingCrumbs(page, t)} eyebrow={page.eyebrow} title={page.title} intro={page.intro}>
         <ContactActions message={message} />
         <DemoNote className="mt-8 max-w-2xl">
-          {t(
-            `Deze pagina houdt de URL van de huidige site (${page.path}/). De tekst is samengesteld uit wat er nu op staat; de volledige originele tekst wordt bij de migratie overgenomen.`,
-            `The Dutch version keeps the URL of the current site (${page.path}/). The text is put together from what is on it now and translated by us; the full original text follows with the migration.`,
-          )}
+          {imported
+            ? t(
+                `Deze pagina houdt de URL van de huidige site (${page.path}/). De tekst is overgenomen van de huidige pagina (WordPress-export).`,
+                `The Dutch version keeps the URL of the current site (${page.path}/) and its original text; this English version is a short summary by us.`,
+              )
+            : t(
+                `Deze pagina houdt de URL van de huidige site (${page.path}/). De tekst is samengesteld uit wat er nu op staat; de volledige originele tekst wordt bij de migratie overgenomen.`,
+                `The Dutch version keeps the URL of the current site (${page.path}/). The text is put together from what is on it now and translated by us; the full original text follows with the migration.`,
+              )}
           {page.unconfirmed.length > 0 && (
             <>
               {" "}

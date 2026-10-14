@@ -17,9 +17,10 @@ import type { Metadata } from "next";
 
 export async function generateMetadata(): Promise<Metadata> {
   const { locale, t } = await getI18n();
+  // Title of the current homepage (Yoast), kept word for word: it ranks on "telefoon reparatie Den Bosch".
   const title = t(
-    "Phone Repairs Den Bosch · Telefoon, tablet en MacBook reparatie",
-    "Phone Repairs Den Bosch · Phone, tablet and MacBook repair",
+    "Telefoon, tablet, MacBook reparatie | Phone Repairs Den Bosch",
+    "Phone, tablet and MacBook repair | Phone Repairs Den Bosch",
   );
   const meta = pageMetadata({
     title,

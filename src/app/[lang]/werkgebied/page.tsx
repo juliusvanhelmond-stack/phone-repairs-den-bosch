@@ -46,7 +46,11 @@ export default async function AreaIndexPage() {
             <li key={g.place}>
               <Reveal delay={i * 0.03} className="h-full">
                 <div className="h-full rounded-[var(--radius-card)] bg-white p-7 ring-1 ring-line">
-                  <p className="text-xs text-muted">{g.placeKind === "wijk" ? t("Wijk in Den Bosch", "Neighbourhood in Den Bosch") : t("Plaats", "Town")}</p>
+                  {g.placeKind && (
+                    <p className="text-xs text-muted">
+                      {g.placeKind === "wijk" ? t("Wijk in Den Bosch", "Neighbourhood in Den Bosch") : t("Plaats", "Town")}
+                    </p>
+                  )}
                   <h2 className="mt-1 text-title font-semibold text-ink">{g.place}</h2>
                   <ul className="mt-5 space-y-2">
                     {g.pages.map((page) => localizeLanding(page, locale)).map((p) => (

@@ -73,6 +73,8 @@ export function localizePath(nlPath: string, locale: Locale): string {
 /** Public path → locale plus the Dutch path used internally. */
 export function parsePublicPath(publicPath: string): { locale: Locale; nlPath: string } {
   const parts = publicPath.split("/").filter(Boolean);
+  // During prerendering, usePathname() returns the internal rewrite target (/nl/…) of Dutch pages.
+  if (parts[0] === "nl") return { locale: "nl", nlPath: `/${parts.slice(1).join("/")}` };
   if (parts[0] !== "en") return { locale: "nl", nlPath: publicPath || "/" };
   const [, first, second, ...rest] = parts;
   if (first === undefined) return { locale: "en", nlPath: "/" };

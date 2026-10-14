@@ -21,6 +21,19 @@ const known = new Set<string>([
   ...blogPosts.map((p) => blogPath(p.slug)),
 ]);
 
+/** Place slug → the page for that place (a /telefoon-… page when there are several). */
+const placePages = new Map<string, string>();
+for (const p of landingPages) {
+  if (p.kind !== "area" || !p.place) continue;
+  const key = p.place.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+  if (!placePages.has(key) || p.path.startsWith("/telefoon-")) placePages.set(key, p.path);
+}
+const AREA_URL = /^\/(?:telefoon|gsm|iphone|ipad|mobiel|scherm|smartphone|samsung|huawei)-reparaties?-(.+?)(?:-\d+)?$/;
+const placePageFor = (path: string) => {
+  const slug = AREA_URL.exec(path)?.[1];
+  return slug ? (placePages.get(slug) ?? null) : null;
+};
+
 /** Marks the proxy's own fetch of the 404 page, which must pass through untouched. */
 const INTERNAL_404 = "x-pr-not-found";
 
@@ -28,6 +41,13 @@ export async function proxy(request: NextRequest) {
   const pathname = request.nextUrl.pathname.replace(/(.)\/$/, "$1");
 
   if (request.headers.get(INTERNAL_404) === "1" && /^\/(nl|en)\/niet-gevonden$/.test(pathname)) return NextResponse.next();
+
+  // Old WordPress URLs end in "/": one permanent redirect to the canonical URL without it.
+  // (A plain URL: a cloned nextUrl would put the trailing slash back.)
+  if (request.nextUrl.pathname !== "/" && request.nextUrl.pathname.endsWith("/")) {
+    const target = (!known.has(pathname) && placePageFor(pathname)) || pathname;
+    return NextResponse.redirect(new URL(target + request.nextUrl.search, request.url), 301);
+  }
 
   // The internal Dutch prefix is never public: /nl/… → /…
   if (pathname === "/nl" || pathname.startsWith("/nl/")) {
@@ -44,6 +64,10 @@ export async function proxy(request: NextRequest) {
   }
 
   const { locale, nlPath } = parsePublicPath(pathname);
+  // Old place pages that are no longer in the export (renamed or trashed, but possibly still
+  // linked from elsewhere): to the page for the same place.
+  const place = locale === "nl" && !known.has(nlPath) ? placePageFor(nlPath) : null;
+  if (place) return NextResponse.redirect(new URL(place, request.url), 301);
   if (!known.has(nlPath)) {
     const page = await fetch(new URL(`/${locale}/niet-gevonden`, request.nextUrl.origin), {
       headers: { [INTERNAL_404]: "1" },

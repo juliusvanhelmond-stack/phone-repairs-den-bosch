@@ -18,16 +18,20 @@ export async function Hero() {
       />
       <div className="container-page grid items-center gap-6 pt-10 pb-16 lg:grid-cols-[1.05fr_1fr] lg:gap-10 lg:pt-16 lg:pb-24">
         <div className="max-w-2xl animate-fade-up">
-          <p className="glass mb-6 inline-flex items-center gap-2 rounded-full py-1.5 pr-3.5 pl-1.5 text-sm text-ink-soft">
-            <span className="grid size-6 place-items-center rounded-full bg-accent-soft text-accent">
-              <MapPin className="size-3.5" aria-hidden />
+          {/* The page's H1 carries the keyword the current homepage ranks on (SEO audit HV Media). */}
+          <div className="glass mb-6 inline-flex items-center gap-2 rounded-full py-1.5 pr-4 pl-1.5 text-ink-soft">
+            <span className="grid size-7 place-items-center rounded-full bg-accent-soft text-accent">
+              <MapPin className="size-4" aria-hidden />
             </span>
-            {t("Reparaties op afspraak in", "Repairs by appointment in")} {site.address.cityShort}
-          </p>
-          <h1 className="text-display font-semibold text-balance text-ink">
+            <h1 className="text-[0.9375rem] font-semibold whitespace-nowrap text-ink sm:text-base">
+              {t(`Telefoon reparatie ${site.address.cityShort}`, `Phone repair ${site.address.cityShort}`)}
+            </h1>
+            <span className="hidden text-sm text-muted sm:inline">· {t("op afspraak", "by appointment")}</span>
+          </div>
+          <p className="text-display font-semibold text-balance text-ink">
             {t("Je toestel weer als nieuw.", "Your device as good as new.")}{" "}
             <span className="text-muted">{t("Snel, vakkundig en transparant.", "Fast, skilled and transparent.")}</span>
-          </h1>
+          </p>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-pretty text-muted sm:text-xl">
             {t(
               "Van een gebroken scherm tot een versleten batterij. Bij Phone Repairs in Den Bosch wordt je toestel professioneel gerepareerd, vaak binnen 30 minuten terwijl je meekijkt.",

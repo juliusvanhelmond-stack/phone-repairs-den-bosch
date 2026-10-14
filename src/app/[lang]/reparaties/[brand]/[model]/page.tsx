@@ -53,7 +53,7 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/reparaties
   const brandName = getBrand(brand)?.name ?? "";
   const fullName = device.name.startsWith(brandName) || brand === "apple" ? device.name : `${brandName} ${device.name}`;
   return pageMetadata({
-    title: (locale === "nl" && device.seo?.title) || t(`${fullName} reparatie in Den Bosch`, `${fullName} repair in Den Bosch`),
+    title: (locale === "nl" && device.seo?.title) || t(`${fullName} reparatie Den Bosch`, `${fullName} repair Den Bosch`),
     description:
       (locale === "nl" && device.seo?.description) ||
       t(

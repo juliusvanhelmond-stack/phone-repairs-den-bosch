@@ -52,6 +52,9 @@ const ROUTES = [
   "/gsm-reparatie-cromvoirt",
   "/iphone-reparatie-meierijstad",
   "/telefoon-reparatie-maaspoort",
+  "/iphone-reparatie-waalwijk",
+  "/telefoon-reparatie-eindhoven",
+  "/telefoon-reparatie-lokerenpassage",
   "/blog-post",
   "/blog-post/ios-27-batterijproblemen",
   "/sitemap.xml",
@@ -78,6 +81,15 @@ const REDIRECTS: [string, string][] = [
   ["/over-phone-repairs/", "/over-ons"],
   ["/afspraak-maken/", "/afspraak"],
   ["/iphone-reparaties-oirschot/", "/telefoon-reparatie-oirschot"],
+  // SEO audit HV Media (2026-10-13): old series and utility pages
+  ["/pixel-9-serie/", "/reparaties/google"],
+  ["/iphone-16-serie/", "/reparaties/apple"],
+  ["/telefoon-reparatie-eindhoven-2/", "/telefoon-reparatie-eindhoven"],
+  ["/moederbord-reparatie/", "/moederbord-reparatie-den-bosch"],
+  // Old place URL not in the export (renamed page): matched by place
+  ["/iphone-reparaties-vught/", "/telefoon-reparatie-vught"],
+  // Kept URLs: the WordPress trailing slash goes in one step
+  ["/garantie/", "/garantie"],
   ["/samsung-reparatie-den-bosch/samsung-s23/", "/reparaties/samsung/galaxy-s23"],
   // Original device, series and area URLs from the WordPress export
   ["/iphone-reparatie/iphone-15-pro/", "/reparaties/apple/iphone-15-pro"],
@@ -145,6 +157,10 @@ async function main() {
 
   for (const [from, to] of REDIRECTS) {
     await check(`redirect ${from} → ${to}`, async () => {
+      // One permanent redirect straight to the target (no extra hop for the trailing slash).
+      const first = await page.request.get(BASE + from, { maxRedirects: 0 });
+      assert([301, 308].includes(first.status()), `status ${first.status()}`);
+      assert(new URL(first.headers().location ?? "", BASE).pathname === to, `location ${first.headers().location}`);
       const res = await page.goto(BASE + from);
       assert(res?.ok(), "final response not ok");
       assert(new URL(page.url()).pathname === to, `ended at ${page.url()}`);
@@ -380,6 +396,20 @@ async function main() {
     }
   });
 
+  await check("seo: server HTML has correct language links, one H1 and clean titles", async () => {
+    // Raw HTML as a crawler sees it (no JavaScript).
+    const device = await (await fetch(BASE + "/reparaties/apple/iphone-15-pro")).text();
+    assert(device.includes('href="/en/repairs/apple/iphone-15-pro"'), "language switch href wrong in server HTML");
+    assert(!device.includes('href="/en/nl/'), "internal /nl path leaked into a link");
+    const title = device.match(/<title>(.*?)<\/title>/)?.[1] ?? "";
+    assert(!/bel:/i.test(title) && (title.match(/Den Bosch/g) ?? []).length <= 1, `title ${title}`);
+    const home = await (await fetch(BASE + "/")).text();
+    const h1s = home.match(/<h1[\s>][\s\S]*?<\/h1>/g) ?? [];
+    assert(h1s.length === 1 && /Telefoon reparatie Den Bosch/.test(h1s[0]), `homepage h1: ${h1s.join(" | ")}`);
+    const area = await (await fetch(BASE + "/iphone-reparatie-waalwijk")).text();
+    assert(area.includes("Snelle en betrouwbare iPhone reparatie in Waalwijk"), "area page lacks its original text");
+  });
+
   await check("whatsapp: header CTA and contact order on contact page", async () => {
     await page.goto(BASE + "/contact");
     const header = await page.locator("header").getByRole("link", { name: "WhatsApp ons" }).getAttribute("href");
@@ -478,6 +508,8 @@ async function main() {
 
   for (const route of ["/", "/reparaties/apple/iphone-15-pro", "/afspraak", "/veelgestelde-vragen", "/veelgestelde-vragen/reparatie-opsturen", "/telefoon-en-tablet-hulp", "/en", "/en/appointment"]) {
     await check(`axe: no serious/critical violations on ${route}`, async () => {
+      // Measure the final colours, not text halfway through its scroll-in fade.
+      await page.emulateMedia({ reducedMotion: "reduce" });
       await page.goto(BASE + route, { waitUntil: "networkidle" });
       const { violations } = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa"]).analyze();
       const serious = violations.filter((v) => v.impact === "serious" || v.impact === "critical");

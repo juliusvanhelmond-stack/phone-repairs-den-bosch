@@ -118,7 +118,7 @@ function source(page: WxrItem, exportedAt: string) {
 
 function seoFor(page: WxrItem, title: string, intro: string) {
   const usable = (s: string | undefined, max: number) =>
-    s && !/%%|9[.,]8|beoordeling/i.test(s) && s.length <= max ? s.replace(/\s+/g, " ").trim() : undefined;
+    s && !/%%|9[.,]8|beoordeling|\bbel:?\s*073/i.test(s) && s.length <= max ? s.replace(/\s+/g, " ").trim() : undefined;
   return {
     title: usable(page.meta._yoast_wpseo_title, 70) ?? fit(title, 70),
     description: usable(page.meta._yoast_wpseo_metadesc, 170) ?? fit(intro, 170),
@@ -197,6 +197,38 @@ export function importContent(items: WxrItem[], exportedAt: string, root: string
     if (index >= 0) landing[index] = record;
     else landing.push(record);
   }
+  /*
+   * Area pages: the hand-written records (place, focus, title) get the original text of the
+   * place page on the same URL, so the local landing pages keep their content (SEO audit
+   * HV Media, 2026-10-13). English keeps the short hand-written text.
+   */
+  type AreaRecord = { kind: string; path: string; title: string; intro: string; originalTitle: string; seo: unknown; sections: unknown[]; sources: { url: string }[] };
+  let areaCount = 0;
+  for (const record of landing as unknown as AreaRecord[]) {
+    if (record.kind !== "area") continue;
+    const page = pages.find((p) => p.path === record.path);
+    if (!page) continue;
+    const { lead, sections } = sectionize(page.content);
+    const all = [
+      ...(lead.intro.length || lead.body.length || lead.bullets.length ? [{ ...lead, heading: cleanTitle(page.title) }] : []),
+      ...sections,
+    ].filter((s) => s.intro.length || s.body.length || s.bullets.length || s.steps.length);
+    if (!all.length) continue;
+    // The first paragraph becomes the intro.
+    const first = all[0];
+    const from = first.intro.length ? "intro" : "body";
+    const intro = first[from][0];
+    if (!intro) continue;
+    all[0] = { ...first, [from]: first[from].slice(1) };
+    record.originalTitle = cleanTitle(page.title);
+    record.intro = intro;
+    record.sections = all.filter((s) => s.intro.length || s.body.length || s.bullets.length || s.steps.length).map(short);
+    record.seo = seoFor(page, record.title, intro);
+    const src = source(page, exportedAt);
+    record.sources = [src, ...record.sources.filter((s) => s.url !== src.url)];
+    areaCount++;
+  }
+  report.push(`area pages with original text: ${areaCount}`);
   writeFileSync(landingPath, json(landing));
 
   /* FAQs */

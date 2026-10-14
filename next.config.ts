@@ -9,6 +9,7 @@ function legacyRedirects() {
   const inventory: InventoryRecord[] = JSON.parse(
     readFileSync(join(process.cwd(), "src/data/url-inventory.json"), "utf8"),
   );
+  // The generated rules also match the trailing slash of the WordPress URLs: one 301, no 308 first.
   return inventory
     .filter((r) => r.redirect && r.targetPath)
     .map((r) => ({
@@ -27,6 +28,8 @@ const nextConfig: NextConfig = {
   env: { BUILD_YEAR: String(new Date().getFullYear()) },
   partialPrefetching: true,
   poweredByHeader: false,
+  // Trailing slashes are handled in src/proxy.ts with a single 301 (old WordPress URLs end in "/").
+  skipTrailingSlashRedirect: true,
   turbopack: {
     rules: {
       "*.css": {

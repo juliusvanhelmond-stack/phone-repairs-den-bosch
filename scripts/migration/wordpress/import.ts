@@ -236,7 +236,10 @@ const hint = new Map(oldDevices.map((d) => [`${d.brandId}/${d.slug}`, d]));
 const yoast = (page: WxrItem) => {
   const clean = (s: string | undefined, max: number) =>
     s && !/%%|9[.,]8|beoordeling/i.test(s) && s.length <= max ? s.replace(/\s+/g, " ").trim() : undefined;
-  const seo = { title: clean(page.meta._yoast_wpseo_title, 70), description: clean(page.meta._yoast_wpseo_metadesc, 170) };
+  // Old-style titles ("… reparatie - Phone Repairs - bel: 073-8220013") are replaced by the
+  // site's own title format (SEO audit HV Media, 2026-10-13); hand-written titles are kept.
+  const title = clean(page.meta._yoast_wpseo_title, 70);
+  const seo = { title: title && !/\bbel:?\s*073/i.test(title) ? title : undefined, description: clean(page.meta._yoast_wpseo_metadesc, 170) };
   return seo.title || seo.description ? seo : undefined;
 };
 
@@ -355,6 +358,17 @@ const MAPPED: [RegExp, string][] = [
   [/^\/openingstijden-phone-repairs$/, "/contact"],
   [/^\/afspraak-met-phone-repairs-maken$/, "/afspraak"],
   [/^\/(beoordelingen-phone-repairs|telefoonwinkel-den-bosch|veelgestelde-vragen\/sitemap-phone-repairs)$/, "/"],
+  // Series and overview pages without own counterpart (SEO audit HV Media, 2026-10-13): to the brand.
+  [/^\/(iphone-[\w-]*serie+(-\d)?|iphone-air-serie)$/, "/reparaties/apple"],
+  [/^\/(google-)?pixel-[\w-]*serie$/, "/reparaties/google"],
+  [/^\/(samsung-z-flip|samsung-reparatie-den-bosch-\d)$/, "/reparaties/samsung"],
+  [/^\/umidigi-reparatie$/, "/bijzondere-merken-reparatie"],
+  [/^\/helpie_faq_page$/, "/veelgestelde-vragen"],
+  [/^\/onze-diensten$/, "/reparaties"],
+  [/^\/onderdelen$/, "/originele-onderdelen-phone-repairs"],
+  [/^\/boekapparaat$/, "/afspraak"],
+  // Account, vacancy and test pages of the old site.
+  [/^\/(test|mijn-account|status-van-de-vacature|bekijk-je-vacature)$/, "/"],
 ];
 const AREA = /^\/(?:telefoon|gsm|iphone|ipad|mobiel|scherm|smartphone|samsung|huawei)-reparaties?-(.+?)(?:-\d)?$/;
 for (const page of pages) {

@@ -11,7 +11,7 @@ import { LocaleProvider } from "@/components/i18n/locale-provider";
 import { JsonLd } from "@/components/ui/json-ld";
 import { locales, translator } from "@/lib/i18n";
 import { getLocale } from "@/lib/i18n-server";
-import { localBusinessJsonLd } from "@/lib/seo";
+import { localBusinessJsonLd, TITLE_SUFFIX } from "@/lib/seo";
 import { allowIndexing, site } from "@/lib/site";
 import "../globals.css";
 
@@ -31,7 +31,7 @@ export async function generateMetadata(): Promise<Metadata> {
         "Phone Repairs Den Bosch · Telefoon, tablet en MacBook reparatie",
         "Phone Repairs Den Bosch · Phone, tablet and MacBook repair",
       ),
-      template: "%s · Phone Repairs Den Bosch",
+      template: `%s${TITLE_SUFFIX}`,
     },
     description: t(
       "Van een gebroken scherm tot een versleten batterij. Bij Phone Repairs in Den Bosch wordt je toestel op afspraak gerepareerd, vaak binnen 30 minuten terwijl je meekijkt.",

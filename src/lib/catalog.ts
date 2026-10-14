@@ -193,11 +193,12 @@ export const servicePages = landingPages.filter((p) => p.kind === "service");
 export const faqTopicPages = landingPages.filter((p) => p.kind === "faq-topic");
 
 /** Places served, each with its area pages (original URLs), in data order. */
-export function areasByPlace(): { place: string; placeKind: "wijk" | "plaats"; pages: LandingPage[] }[] {
-  const groups = new Map<string, { place: string; placeKind: "wijk" | "plaats"; pages: LandingPage[] }>();
+/** Pages per place; `placeKind` is undefined for regions and shopping centres. */
+export function areasByPlace(): { place: string; placeKind?: "wijk" | "plaats"; pages: LandingPage[] }[] {
+  const groups = new Map<string, { place: string; placeKind?: "wijk" | "plaats"; pages: LandingPage[] }>();
   for (const page of areaPages) {
     const place = page.place ?? page.title;
-    const group = groups.get(place) ?? { place, placeKind: page.placeKind ?? "plaats", pages: [] };
+    const group = groups.get(place) ?? { place, placeKind: page.placeKind, pages: [] };
     group.pages.push(page);
     groups.set(place, group);
   }
