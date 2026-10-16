@@ -1,0 +1,197 @@
+{
+  "_source": "\"Wij repareren o.a. voor:\" logo carousel on https://www.phonerepairs.nl/ (read 2026-10-16), asked for by the client on 2026-10-15. Logos kept on their original /wp-content/uploads paths (soft hyphens removed from three file names, large files downscaled).",
+  "clients": [
+    {
+      "name": "Reviva",
+      "src": "/wp-content/uploads/2022/10/Reviva_Logo-scaled-1.jpg",
+      "width": 800,
+      "height": 132
+    },
+    {
+      "name": "Valocom Europe",
+      "src": "/wp-content/uploads/2022/10/Valocom.png",
+      "width": 305,
+      "height": 95
+    },
+    {
+      "name": "Noorderlicht",
+      "src": "/wp-content/uploads/2022/10/Noorderlicht.png",
+      "width": 225,
+      "height": 225
+    },
+    {
+      "name": "Wadilove bedrijfsadministratie & belastingadvies",
+      "src": "/wp-content/uploads/2022/10/Wadilove.jpeg",
+      "width": 300,
+      "height": 300
+    },
+    {
+      "name": "Renesas",
+      "src": "/wp-content/uploads/2023/01/Renesas.jpeg",
+      "width": 800,
+      "height": 181
+    },
+    {
+      "name": "Koninklijke Sanders B.V.",
+      "src": "/wp-content/uploads/2022/10/Koninklijke-Sanders-B.V..png",
+      "width": 322,
+      "height": 224
+    },
+    {
+      "name": "Dialog Semiconductor",
+      "src": "/wp-content/uploads/2022/10/Dialog_Semiconductor-Logo.wine_.png",
+      "width": 800,
+      "height": 533
+    },
+    {
+      "name": "Fatboy",
+      "src": "/wp-content/uploads/2022/10/fatboy-01.png",
+      "width": 586,
+      "height": 586
+    },
+    {
+      "name": "Opportunity Partners",
+      "src": "/wp-content/uploads/2022/10/OP.jpeg",
+      "width": 280,
+      "height": 280
+    },
+    {
+      "name": "Q-Concepts",
+      "src": "/wp-content/uploads/2022/10/q-concepts.png",
+      "width": 361,
+      "height": 140
+    },
+    {
+      "name": "Koning Willem I College",
+      "src": "/wp-content/uploads/2022/10/KW1.png",
+      "width": 368,
+      "height": 306
+    },
+    {
+      "name": "Omgevingsdienst Brabant Noord",
+      "src": "/wp-content/uploads/2022/10/logo-odbn-gif-jpg.jpeg",
+      "width": 600,
+      "height": 314
+    },
+    {
+      "name": "Digidact",
+      "src": "/wp-content/uploads/2022/10/logo-digidact-zonder-ondertitel_tekengebied_1.png",
+      "width": 800,
+      "height": 275
+    },
+    {
+      "name": "Heijmans",
+      "src": "/wp-content/uploads/2022/10/heijmans.jpg",
+      "width": 600,
+      "height": 455
+    },
+    {
+      "name": "van Cromvoirt makelaars",
+      "src": "/wp-content/uploads/2022/10/van-Cromvoirt-scaled.jpeg",
+      "width": 800,
+      "height": 343
+    },
+    {
+      "name": "X-Ingredient",
+      "src": "/wp-content/uploads/2023/01/Schermafbeelding-2023-01-24-om-16.04.02.png",
+      "width": 586,
+      "height": 80
+    },
+    {
+      "name": "Telecombinatie",
+      "src": "/wp-content/uploads/2022/10/telecombinatie-logo.png",
+      "width": 300,
+      "height": 150
+    },
+    {
+      "name": "Theater Artemis",
+      "src": "/wp-content/uploads/2022/10/Artemis.png",
+      "width": 326,
+      "height": 155
+    },
+    {
+      "name": "Finitro",
+      "src": "/wp-content/uploads/2022/10/Schermafbeelding-2022-10-02-om-21.44.45.png",
+      "width": 532,
+      "height": 154
+    },
+    {
+      "name": "Coolen Expertise",
+      "src": "/wp-content/uploads/2022/10/Coolen-Expertise.png",
+      "width": 320,
+      "height": 157
+    },
+    {
+      "name": "VB Real Estate Management B.V.",
+      "src": "/wp-content/uploads/2022/10/VB-REM.png",
+      "width": 251,
+      "height": 69
+    },
+    {
+      "name": "Pernod Ricard",
+      "src": "/wp-content/uploads/2022/10/Pernod-Ricard-logo.png",
+      "width": 800,
+      "height": 450
+    },
+    {
+      "name": "Lunch-Hart Den Bosch",
+      "src": "/wp-content/uploads/2022/10/Schermafbeelding-2022-10-02-om-21.58.42.png",
+      "width": 800,
+      "height": 493
+    },
+    {
+      "name": "ATO Scholenkring",
+      "src": "/wp-content/uploads/2023/09/ATO-Scholenkring.png",
+      "width": 227,
+      "height": 222
+    },
+    {
+      "name": "Het Rondeel",
+      "src": "/wp-content/uploads/2023/09/Het-Ronedeel.jpeg",
+      "width": 275,
+      "height": 183
+    },
+    {
+      "name": "RAV Brabant Midden-West-Noord",
+      "src": "/wp-content/uploads/2023/03/logo-rav.png",
+      "width": 794,
+      "height": 190
+    },
+    {
+      "name": "Kanteel",
+      "src": "/wp-content/uploads/2022/10/Kanteel.png",
+      "width": 431,
+      "height": 116
+    },
+    {
+      "name": "Adapt",
+      "src": "/wp-content/uploads/2022/10/Adapt.png",
+      "width": 500,
+      "height": 107
+    },
+    {
+      "name": "Circet Nederland",
+      "src": "/wp-content/uploads/2025/04/IMG_7019.png",
+      "width": 458,
+      "height": 173
+    },
+    {
+      "name": "Adriaan de Kock",
+      "src": "/wp-content/uploads/2022/10/Adriaan-de-Kock.png",
+      "width": 289,
+      "height": 43
+    },
+    {
+      "name": "De Koning adviesgroep",
+      "src": "/wp-content/uploads/2022/10/De-Koning-adviesgroep.jpeg",
+      "width": 400,
+      "height": 133
+    },
+    {
+      "name": "Anova Seafood",
+      "src": "/wp-content/uploads/2022/10/Anova-Seafoot.png",
+      "width": 300,
+      "height": 226
+    }
+  ]
+}

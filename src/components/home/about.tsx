@@ -1,7 +1,7 @@
 import { Link } from "@/components/i18n/link";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
-import aboutPhoto from "@/assets/photos/about-workshop.jpg";
+import aboutPhoto from "@/assets/photos/martijn-portrait.jpg";
 import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { Aura } from "@/components/ui/aura";
@@ -23,13 +23,13 @@ export async function About() {
             <Image
               src={aboutPhoto}
               alt={t(
-                "Technicus onderzoekt met een loep de binnenkant van een smartphone in een reparatiewerkplaats",
-                "Technician examining the inside of a smartphone with a magnifier in a repair workshop",
+                "Martijn, eigenaar en technicus van Phone Repairs",
+                "Martijn, owner and technician of Phone Repairs",
               )}
               fill
               placeholder="blur"
               sizes="(min-width: 1024px) 40vw, 100vw"
-              className="object-cover object-[60%_50%]"
+              className="object-cover object-[55%_35%]"
             />
           </div>
         </Reveal>

@@ -1,20 +1,19 @@
 # Image credits
 
-Photos are from the **Adobe Stock Free Collection**, licensed on 2026-10-08 via the JUNE Studio Adobe account
-(Adobe Stock standard licence; no attribution required). They are stored resized (max 2000 px) in
-`src/assets/photos/` and served through `next/image`.
+The atmosphere photos on the homepage are the shop's own photos of Martijn at work (professional shoot,
+2020), sent by Phone Repairs on 2026-10-12 (iCloud Mail Drop "wetransfer-35217c.zip", 18 photos) and asked for on
+the homepage on 2026-10-14 ("ik herkenbaar op main page"). They are stored resized (max 2000 px) in
+`src/assets/photos/` and served through `next/image`. The originals stay with the client; the other photos of
+the set can be added the same way.
 
-| File | Adobe Stock ID | Used in | Description |
+| File | Original | Used in | Description |
 | --- | --- | --- | --- |
-| `hero-screen-repair.jpg` | 735790954 | Homepage hero | Hands opening a phone with a cracked screen on a repair mat |
-| `about-workshop.jpg` | 257975054 | About section (home, /over-ons) | Technician inspecting a smartphone with a magnifier in a workshop |
-| `process-workbench.jpg` | 300745045 | "Zo werkt het" photo band | Workbench with opened smartphones, parts and tools |
-| `cta-internals.jpg` | 299326526 | Final call-to-action background | Close-up of smartphone internals and soldering iron |
+| `martijn-workplace.jpg` | RVM 810_6381 (3) | Homepage hero | Martijn at his workbench, looking into the camera |
+| `martijn-portrait.jpg` | RVM 810_6382 (4) | About section (home) | Portrait of Martijn |
+| `martijn-microscope.jpg` | RVM 810_6528 (14) | "Zo werkt het" photo band | Martijn soldering under the microscope |
+| `martijn-diagnostics.jpg` | RVM 810_6417 (7) | Final call-to-action background | Hands testing a phone on a diagnostic board |
 
-Also licensed but not used: 246194014 (disassembled phone with tools on a light background, copy space).
-
-These are generic stock photos, not photos of Phone Repairs. For launch, replace them with real photography of
-the shop and its technicians where possible (see docs/data-gaps.md).
+The Adobe Stock photos used before (735790954, 257975054, 300745045, 299326526) were removed on 2026-10-16.
 
 ## Device photos (`src/assets/devices/`)
 

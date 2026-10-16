@@ -302,6 +302,23 @@
   }
 }
 
+/* Logo marquee ("Wij repareren o.a. voor"): the track holds the list twice and slides one copy. */
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .marquee-track {
+    animation: marquee 80s linear infinite;
+  }
+  .marquee:hover .marquee-track,
+  .marquee:focus-within .marquee-track {
+    animation-play-state: paused;
+  }
+}
+
 /* Skyline line-drawing: draws itself as it scrolls into view. */
 @keyframes draw-line {
   from {

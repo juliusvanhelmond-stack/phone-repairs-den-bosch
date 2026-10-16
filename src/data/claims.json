@@ -3,7 +3,7 @@
     "sources": [{ "url": "https://www.phonerepairs.nl/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "'De reparaties zijn klaar in 30 minuten terwijl je meekijkt'" }] },
   { "id": "meekijken", "title": "Je kijkt mee", "body": "Je toestel gaat niet achter een gesloten deur. Je ziet zelf hoe de reparatie wordt uitgevoerd.", "icon": "eye",
     "sources": [{ "url": "https://www.phonerepairs.nl/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "'terwijl je meekijkt'" }] },
-  { "id": "originele-onderdelen", "title": "Originele onderdelen", "body": "Phone Repairs werkt met originele onderdelen, zoals de originele Samsung service packs.", "icon": "badge-check",
+  { "id": "originele-onderdelen", "title": "Originele service pack onderdelen", "body": "Phone Repairs werkt met originele onderdelen, zoals de originele service packs van Samsung.", "icon": "badge-check",
     "sources": [{ "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s23/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "'uitsluitend de originele Samsung service packs'; site also states only original quality is used." }] },
   { "id": "gegevens-veilig", "title": "Je gegevens blijven van jou", "body": "Bij een reparatie blijven je foto's, apps en berichten gewoon op je toestel staan.", "icon": "shield-check",
     "sources": [{ "url": "https://www.phonerepairs.nl/telefoon-reparatie-den-bosch/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "Data stays on the device during repairs." }] },

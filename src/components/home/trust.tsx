@@ -4,6 +4,8 @@ import { SectionHeading } from "@/components/ui/section-heading";
 import { claims, localizeClaim } from "@/lib/catalog";
 import { getI18n } from "@/lib/i18n-server";
 import { ReviewsBanner } from "@/components/contact/reviews-link";
+import { TrustindexBadge } from "@/components/contact/trustindex-badge";
+import { site } from "@/lib/site";
 
 export async function Trust() {
   const { locale, t } = await getI18n();
@@ -34,6 +36,12 @@ export async function Trust() {
             </li>
           ))}
         </ul>
+        {site.reviews?.carouselId && (
+          // Google reviews as the client's Trustindex widget renders them (asked for on 2026-10-15).
+          <div className="tone-light mt-3 rounded-[var(--radius-card)] bg-white p-4 text-ink sm:p-6">
+            <TrustindexBadge widgetId={site.reviews.carouselId} className="min-h-40" />
+          </div>
+        )}
         <Reveal>
           <ReviewsBanner className="mt-3" />
         </Reveal>

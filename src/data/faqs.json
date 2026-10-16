@@ -318,6 +318,25 @@
     ]
   },
   {
+    "id": "leentoestel",
+    "question": "Bieden jullie een leentoestel tijdens de reparatie?",
+    "answer": [
+      "Wij repareren jouw iPhone 17 Pro zo razend snel dat het instellen van een leentoestel langer zou duren. Zo heb jij helemaal geen leentoestel nodig. En zeg nou zelf; die 30 minuutjes zonder telefoon zijn eigenlijk best lekker."
+    ],
+    "topics": [
+      "reparaties"
+    ],
+    "repairIds": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/veelgestelde-vragen/",
+        "verification": "owner-confirmed",
+        "capturedAt": "2026-10-15",
+        "note": "Text supplied by Martijn Derks (Phone Repairs) in his e-mail of 15 October 2026, 17:24, for the FAQ."
+      }
+    ]
+  },
+  {
     "id": "afspraak-nodig",
     "question": "Moet ik een afspraak maken?",
     "answer": [

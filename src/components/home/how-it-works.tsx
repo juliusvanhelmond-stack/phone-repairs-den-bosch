@@ -1,5 +1,5 @@
 import Image from "next/image";
-import processPhoto from "@/assets/photos/process-workbench.jpg";
+import processPhoto from "@/assets/photos/martijn-microscope.jpg";
 import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
 import type { Translate } from "@/lib/i18n";
@@ -65,11 +65,11 @@ export async function HowItWorks({ withHeading = true }: { withHeading?: boolean
           <figure className="relative aspect-[4/3] overflow-hidden rounded-[var(--radius-panel)] bg-mist ring-1 ring-line sm:aspect-[21/9]">
             <Image
               src={processPhoto}
-              alt={t("Werkbank met geopende smartphones, onderdelen en precisiegereedschap", "Workbench with opened smartphones, parts and precision tools")}
+              alt={t("Martijn repareert een moederbord onder de microscoop", "Martijn repairing a logic board under the microscope")}
               fill
               placeholder="blur"
               sizes="(min-width: 1280px) 76rem, 100vw"
-              className="object-cover object-[50%_60%]"
+              className="object-cover object-[50%_50%]"
             />
             <figcaption className="tone-light absolute bottom-4 left-4 rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-ink shadow-[var(--shadow-soft)] backdrop-blur sm:bottom-6 sm:left-6">
               {t("Vakwerk, onderdeel voor onderdeel", "Craftsmanship, part by part")}

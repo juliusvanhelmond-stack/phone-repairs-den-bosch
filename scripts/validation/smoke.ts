@@ -478,10 +478,11 @@ async function main() {
   await check("google reviews: Trustindex badge in the top bar and link in the trust section", async () => {
     await page.goto(BASE + "/");
     const link = page.getByRole("link", { name: "Bekijk alle reviews op Google" });
-    assert((await link.getAttribute("href")) === "https://share.google/VZaMvnmVl8WfyaCh9", "reviews link");
+    assert((await link.getAttribute("href"))?.startsWith("https://www.google.com/maps/place/Phone+Repairs/"), "reviews link");
     // The badge itself is rendered by Trustindex (external) once it scrolls into view; here we
     // check that the embed is in place, not the third-party service.
     assert((await page.locator('[data-reviews-badge="2b08aab83f291770e106912ec94"]').count()) === 1, "trustindex embed missing");
+    assert((await page.locator('[data-reviews-badge="18acda436031150bd03607a064c"]').count()) === 1, "review carousel embed missing");
   });
 
   await check("kiyoh: review links on home and contact, feed key never in the page", async () => {

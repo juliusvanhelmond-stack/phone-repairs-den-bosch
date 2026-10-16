@@ -42,15 +42,17 @@ export const site = {
     hours: "7 dagen per week, 10 tot 20 uur",
   } as null | { display: string; number: string; title: string; intro: string; hours: string },
   /**
-   * Google Business profile with reviews (link from the client's current site, 2026-10-12).
+   * Google Business profile with reviews: the Google Maps review link the client asked for (mail 2026-10-15).
    * Score and review count are only shown through the client's own Trustindex widget
    * (widget id from their WordPress plugin, 2026-10-12), never typed into the site.
    */
   reviews: {
-    url: "https://share.google/VZaMvnmVl8WfyaCh9",
+    url: "https://www.google.com/maps/place/Phone+Repairs/@51.7156804,5.3213844,798m/data=!3m2!1e3!4b1!4m8!3m7!1s0x47c6ee3474713037:0xd930fb7ac597f393!8m2!3d51.7156804!4d5.3239593!9m1!1b1!16s%2Fg%2F1pv27l1d_?entry=ttu&g_ep=EgoyMDI2MTAxMS4wIKXMDSoASAFQAw%3D%3D",
     platform: "Google",
     trustindexId: "2b08aab83f291770e106912ec94",
-  } as null | { url: string; platform: string; trustindexId: string | null },
+    /** Google review carousel: the client's Trustindex widget from /beoordelingen-phone-repairs (WordPress export). */
+    carouselId: "18acda436031150bd03607a064c",
+  } as null | { url: string; platform: string; trustindexId: string | null; carouselId: string | null },
   /**
    * Kiyoh review page (from the client's "Kiyoh Zwevende Reviews-knop" WordPress plugin, 2026-10-13).
    * Score and count are read from the Kiyoh feed at runtime (`src/lib/kiyoh.ts`), never typed in.

@@ -99,6 +99,10 @@ const candidates = new Map<string, Candidate>();
 const seriesPages = new Set<string>();
 let fallbackOrder = 10_000;
 
+/** Models the owner asked to drop (mail 2026-10-14: "iPhone Ultra bestaat (nog) niet"); their pages 301 to the brand. */
+const REMOVED_MODELS = new Set(["apple:iphone ultra"]);
+const removedPages = new Map<string, string>();
+
 /** Summary pages repeating models from their detail pages, with other (older) prices. */
 const SUMMARY_PAGES = new Set(["/macbook-reparatie-den-bosch"]);
 
@@ -140,6 +144,11 @@ for (const page of pages) {
     const name = displayName(unit.heading, brandId);
     if (!single && (/vervangen|repareren|herstel/i.test(unit.heading) || /^macbook (pro|air)$/i.test(name))) {
       warnings.push(`${page.path}: heading "${unit.heading}" is not a model; ${unit.rows.length} rows skipped`);
+      return;
+    }
+    if (REMOVED_MODELS.has(`${brandId}:${name.toLowerCase()}`)) {
+      warnings.push(`${page.path}: "${name}" removed at the owner's request; ${unit.rows.length} rows skipped`);
+      if (single) removedPages.set(page.path, brandId);
       return;
     }
     const key = nameKey(brandId, name);
@@ -334,6 +343,9 @@ for (const path of seriesPages) {
   const brandId = brandForPath(path)?.brandId ?? brandForName(pages.find((p) => p.path === path)?.title ?? "");
   if (!brandId || !brands.some((b) => b.id === brandId) || devices.some((d) => d.legacyUrls.includes(url))) continue;
   upsert({ url, discoveredVia: "manual", pageType: "brand", status: "redirected", targetPath: `/reparaties/${brandId}`, redirect: true, title: pages.find((p) => p.path === path)?.title, notes: `Series/overview page, WordPress export ${exportedAt}` });
+}
+for (const [path, brandId] of removedPages) {
+  upsert({ url: `${ORIGIN}${path}/`, discoveredVia: "manual", pageType: "brand", status: "redirected", targetPath: `/reparaties/${brandId}`, redirect: true, title: pages.find((p) => p.path === path)?.title, notes: `Model removed at the owner's request (2026-10-14); WordPress export ${exportedAt}` });
 }
 // Text content: info pages, FAQs, blog posts.
 const content = importContent(items, exportedAt, ROOT);

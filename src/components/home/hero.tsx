@@ -1,7 +1,7 @@
 import { Link } from "@/components/i18n/link";
-import { ArrowRight, Eye, MapPin, ShieldCheck, Timer } from "lucide-react";
+import { ArrowRight, BadgeCheck, Eye, MapPin, ShieldCheck, Timer } from "lucide-react";
 import Image from "next/image";
-import heroPhoto from "@/assets/photos/hero-screen-repair.jpg";
+import heroPhoto from "@/assets/photos/martijn-workplace.jpg";
 import { ContactActions } from "@/components/contact/contact-actions";
 import { getI18n } from "@/lib/i18n-server";
 import { site } from "@/lib/site";
@@ -34,8 +34,8 @@ export async function Hero() {
           </p>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-pretty text-muted sm:text-xl">
             {t(
-              "Van een gebroken scherm tot een versleten batterij. Bij Phone Repairs in Den Bosch wordt je toestel professioneel gerepareerd, vaak binnen 30 minuten terwijl je meekijkt.",
-              "From a broken screen to a worn-out battery. At Phone Repairs in Den Bosch your device is repaired professionally, often within 30 minutes while you watch.",
+              "Van een gebroken scherm tot een versleten batterij. Bij Phone Repairs in Den Bosch wordt je toestel professioneel gerepareerd, binnen 30 minuten terwijl je meekijkt.",
+              "From a broken screen to a worn-out battery. At Phone Repairs in Den Bosch your device is repaired professionally, within 30 minutes while you watch.",
             )}
           </p>
           <ContactActions className="mt-9" email={false} />
@@ -59,6 +59,10 @@ export async function Hero() {
               <ShieldCheck className="size-4 text-accent" aria-hidden />
               {t("Je gegevens blijven op je toestel", "Your data stays on your device")}
             </li>
+            <li className="flex items-center gap-2">
+              <BadgeCheck className="size-4 text-accent" aria-hidden />
+              {t("Originele service pack onderdelen", "Original service pack parts")}
+            </li>
           </ul>
         </div>
 
@@ -67,14 +71,14 @@ export async function Hero() {
             <Image
               src={heroPhoto}
               alt={t(
-                "Technicus opent een smartphone met gebarsten scherm op een werkmat met reparatiegereedschap",
-                "Technician opening a smartphone with a cracked screen on a work mat with repair tools",
+                "Martijn van Phone Repairs aan zijn werkplek met reparatiegereedschap",
+                "Martijn of Phone Repairs at his workbench with repair tools",
               )}
               fill
               priority
               placeholder="blur"
               sizes="(min-width: 1024px) 45vw, 100vw"
-              className="object-cover object-[62%_55%]"
+              className="object-cover object-[42%_40%]"
             />
             <div className="absolute inset-0 bg-[linear-gradient(to_top,rgb(34_34_34/0.35),transparent_45%)]" aria-hidden />
           </div>

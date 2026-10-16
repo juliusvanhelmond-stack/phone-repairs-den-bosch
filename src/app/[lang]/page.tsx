@@ -1,4 +1,5 @@
 import { About } from "@/components/home/about";
+import { Clients } from "@/components/home/clients";
 import { PopularBrands, PopularModels } from "@/components/home/brands-and-models";
 import { Faq } from "@/components/home/faq";
 import { FinalCta } from "@/components/home/final-cta";
@@ -26,8 +27,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const meta = pageMetadata({
     title,
     description: t(
-      "Van een gebroken scherm tot een versleten batterij. Bij Phone Repairs in Den Bosch wordt je toestel op afspraak gerepareerd, vaak binnen 30 minuten terwijl je meekijkt.",
-      "From a cracked screen to a worn-out battery. At Phone Repairs in Den Bosch your device is repaired by appointment, often within 30 minutes while you watch.",
+      "Van een gebroken scherm tot een versleten batterij. Bij Phone Repairs in Den Bosch wordt je toestel op afspraak gerepareerd, binnen 30 minuten terwijl je meekijkt.",
+      "From a cracked screen to a worn-out battery. At Phone Repairs in Den Bosch your device is repaired by appointment, within 30 minutes while you watch.",
     ),
     path: "/",
     locale,
@@ -47,6 +48,7 @@ export default async function HomePage() {
       <PopularRepairs />
       <IphoneSection />
       <Trust />
+      <Clients />
       <HowItWorks />
       <PopularModels />
       <ScreenProtector />

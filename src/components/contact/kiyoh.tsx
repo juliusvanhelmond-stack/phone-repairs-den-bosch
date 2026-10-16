@@ -94,19 +94,27 @@ export async function KiyohFloat() {
   const kiyoh = site.kiyoh;
   if (!kiyoh) return null;
   const { t, score, count } = await loadKiyoh();
-  if (!score) return null;
+  // Without feed data (no KIYOH_FEED_HASH at build) it still shows, as a plain link.
   return (
     <a
       href={kiyoh.url}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label={t(`Kiyoh: ${score} uit ${count} reviews. Bekijk onze reviews`, `Kiyoh: ${score} from ${count} reviews. See our reviews`)}
+      aria-label={
+        score
+          ? t(`Kiyoh: ${score} uit ${count} reviews. Bekijk onze reviews`, `Kiyoh: ${score} from ${count} reviews. See our reviews`)
+          : t("Bekijk onze reviews op Kiyoh", "See our reviews on Kiyoh")
+      }
       className="fixed bottom-6 left-6 z-30 hidden h-14 items-center gap-2 rounded-full bg-surface pr-4 pl-3 text-ink shadow-[var(--shadow-lift)] ring-1 ring-line transition-transform hover:scale-[1.03] motion-reduce:transition-none motion-reduce:hover:scale-100 md:inline-flex"
     >
       <KiyohMark className="size-7" />
       <span className="flex flex-col leading-none">
         <span className="text-[0.6875rem] text-muted">Kiyoh</span>
-        <span className="mt-0.5 text-xl font-extrabold tabular-nums">{score}</span>
+        {score ? (
+          <span className="mt-0.5 text-xl font-extrabold tabular-nums">{score}</span>
+        ) : (
+          <span className="mt-1 text-sm font-semibold">{t("Reviews", "Reviews")}</span>
+        )}
       </span>
     </a>
   );
@@ -117,19 +125,26 @@ export async function KiyohCompact({ className }: { className?: string }) {
   const kiyoh = site.kiyoh;
   if (!kiyoh) return null;
   const { t, score, count } = await loadKiyoh();
-  if (!score) return null;
   return (
     <a
       href={kiyoh.url}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label={t(`Kiyoh: ${score} uit ${count} reviews. Bekijk onze reviews`, `Kiyoh: ${score} from ${count} reviews. See our reviews`)}
+      aria-label={
+        score
+          ? t(`Kiyoh: ${score} uit ${count} reviews. Bekijk onze reviews`, `Kiyoh: ${score} from ${count} reviews. See our reviews`)
+          : t("Bekijk onze reviews op Kiyoh", "See our reviews on Kiyoh")
+      }
       className={cn("inline-flex h-11 items-center gap-2 rounded-full bg-surface pr-3.5 pl-2 text-ink ring-1 ring-line", className)}
     >
       <KiyohMark className="size-6" />
       <span className="flex flex-col leading-none">
         <span className="text-[0.625rem] text-muted">Kiyoh</span>
-        <span className="mt-0.5 text-base font-extrabold tabular-nums">{score}</span>
+        {score ? (
+          <span className="mt-0.5 text-base font-extrabold tabular-nums">{score}</span>
+        ) : (
+          <span className="mt-0.5 text-xs font-semibold">{t("Reviews", "Reviews")}</span>
+        )}
       </span>
     </a>
   );

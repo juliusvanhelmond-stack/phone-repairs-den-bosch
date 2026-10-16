@@ -40,7 +40,7 @@
   {
     "id": "oplaadpoort-repareren",
     "slug": "oplaadpoort-repareren",
-    "name": "Oplaadpoort repareren",
+    "name": "Oplaadpoort vervangen",
     "shortName": "Oplaadpoort",
     "summary": "De kabel zit los, laden gaat alleen in een bepaalde hoek of helemaal niet meer.",
     "description": [
@@ -58,7 +58,7 @@
   {
     "id": "camera-repareren",
     "slug": "camera-repareren",
-    "name": "Camera repareren",
+    "name": "Camera vervangen",
     "shortName": "Camera",
     "summary": "Wazige foto's, een gebarsten cameralens of een camera die niet opstart.",
     "description": [
@@ -76,7 +76,7 @@
   {
     "id": "waterschade",
     "slug": "waterschade",
-    "name": "Waterschade",
+    "name": "Waterschade reparatie",
     "shortName": "Waterschade",
     "summary": "Je toestel is nat geworden. Snel handelen vergroot de kans op herstel.",
     "description": [
@@ -85,7 +85,7 @@
     ],
     "icon": "droplets",
     "categories": ["smartphone", "tablet", "laptop"],
-    "order": 5,
+    "order": 6,
     "popular": true,
     "advice": [
       "Zet je toestel niet aan en laad het niet op.",
@@ -106,8 +106,8 @@
     ],
     "icon": "layers",
     "categories": ["smartphone"],
-    "order": 6,
-    "popular": false,
+    "order": 5,
+    "popular": true,
     "advice": [],
     "sources": [
       { "url": "https://www.phonerepairs.nl/", "verification": "demo", "capturedAt": "2026-10-08", "note": "Availability to confirm against original site." }

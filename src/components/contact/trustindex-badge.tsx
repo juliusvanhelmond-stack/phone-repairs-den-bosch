@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 
 /**
- * Trustindex review badge (Google reviews), the same widget the current site uses.
+ * Trustindex widget (Google reviews: the badge or the review carousel), as on the current site.
  * The loader renders the widget next to its own <script> tag, so the script is
  * inserted into this container on mount. Score and count come from Trustindex.
  */

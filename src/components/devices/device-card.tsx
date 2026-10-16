@@ -5,7 +5,8 @@ import { devicePath, getBrand } from "@/lib/catalog";
 import type { DeviceModel } from "@/types/content";
 import { cn } from "@/lib/utils";
 
-export function DeviceCard({ device, className }: { device: DeviceModel; className?: string }) {
+/** `compact`: denser cards for long model lists (brand pages), so a visitor finds a model faster (2026-10-15). */
+export function DeviceCard({ device, compact, className }: { device: DeviceModel; compact?: boolean; className?: string }) {
   const wide = device.art === "laptop";
   const medium = device.art.startsWith("tablet") || device.art === "phone-foldable";
   return (
@@ -16,24 +17,24 @@ export function DeviceCard({ device, className }: { device: DeviceModel; classNa
         className,
       )}
     >
-      <div className="relative flex h-44 items-center justify-center tone-light overflow-hidden border-b border-line bg-white px-5 py-3">
+      <div className={cn("relative flex items-center justify-center tone-light overflow-hidden border-b border-line bg-white", compact ? "h-20 px-3 py-2 sm:h-28 lg:h-32" : "h-44 px-5 py-3")}>
         <DevicePhoto
           device={device}
           decorative
-          sizes="(min-width: 1024px) 18rem, (min-width: 768px) 30vw, 45vw"
+          sizes={compact ? "(min-width: 1280px) 12rem, (min-width: 768px) 22vw, 45vw" : "(min-width: 1024px) 18rem, (min-width: 768px) 30vw, 45vw"}
           className="transition-transform duration-500 ease-out group-hover:scale-[1.04]"
           artClassName={cn(
             "h-full w-auto transition-transform duration-500 ease-out group-hover:scale-[1.04]",
-            wide ? "max-w-56" : medium ? "max-w-32" : "max-w-[5.5rem]",
+            compact ? (wide ? "max-w-40" : medium ? "max-w-24" : "max-w-16") : wide ? "max-w-56" : medium ? "max-w-32" : "max-w-[5.5rem]",
           )}
         />
       </div>
-      <div className="flex flex-1 items-center justify-between gap-3 p-5">
+      <div className={cn("flex flex-1 items-center justify-between gap-3", compact ? "px-3.5 py-3" : "p-5")}>
         <span>
           <span className="block text-xs text-muted">{getBrand(device.brandId)?.name}</span>
-          <span className="block font-medium tracking-tight text-ink">{device.name}</span>
+          <span className={cn("block font-medium tracking-tight text-ink", compact && "text-[0.9375rem] leading-snug")}>{device.name}</span>
         </span>
-        <span className="grid size-9 shrink-0 place-items-center rounded-full bg-mist text-ink transition-colors group-hover:bg-night group-hover:text-white">
+        <span className={cn("grid shrink-0 place-items-center rounded-full bg-mist text-ink transition-colors group-hover:bg-night group-hover:text-white", compact ? "size-7 max-sm:hidden" : "size-9")}>
           <ArrowRight className="size-4" aria-hidden />
         </span>
       </div>

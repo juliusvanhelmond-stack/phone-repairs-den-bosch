@@ -1,7 +1,7 @@
 import { Link } from "@/components/i18n/link";
 import { Mail, MapPin, MessageCircle, Phone, Star } from "lucide-react";
 import { Logo } from "@/components/layout/logo";
-import { brandEntries, landingPages, localizeLanding, localizeRepair, repairPath, repairs } from "@/lib/catalog";
+import { blogPath, brandEntries, getBlogPost, landingPages, localizeLanding, localizeRepair, repairPath, repairs } from "@/lib/catalog";
 import { getI18n } from "@/lib/i18n-server";
 import { fullAddress, mapsUrl, site, whatsappHref, whatsappMessage } from "@/lib/site";
 
@@ -45,6 +45,10 @@ export async function SiteFooter() {
       return page ? [{ label: localizeLanding(page, locale).title, href: page.path }] : [];
     });
   const moreLinks = pageLinks(moreIds);
+  // The hydrogel screen protector page (a blog post on the current site), asked for in the menu (2026-10-14).
+  if (getBlogPost("flexible-hydrogel-screen-protectors")) {
+    moreLinks.push({ label: t("Hydrogel screenprotector", "Hydrogel screen protector"), href: blogPath("flexible-hydrogel-screen-protectors") });
+  }
   companyLinks.push(
     ...pageLinks(infoIds).map((l) =>
       l.href === "/iphone-onderdelen-kalibreren" ? { ...l, label: t("iPhone onderdelen kalibreren", "Calibrating iPhone parts") } : l,
@@ -76,13 +80,13 @@ export async function SiteFooter() {
               </li>
             )}
             <li>
-              <a href={site.phone.href} className="inline-flex items-center gap-3 transition-colors hover:text-white">
+              <a href={site.phone.href} className="inline-flex items-center gap-3 transition-colors hover:text-accent-light">
                 <Phone className="size-4 text-neutral-500" aria-hidden />
                 {site.phone.display}
               </a>
             </li>
             <li>
-              <a href={`mailto:${site.email}`} className="inline-flex items-center gap-3 transition-colors hover:text-white">
+              <a href={`mailto:${site.email}`} className="inline-flex items-center gap-3 transition-colors hover:text-accent-light">
                 <Mail className="size-4 text-neutral-500" aria-hidden />
                 {site.email}
               </a>
@@ -92,7 +96,7 @@ export async function SiteFooter() {
                 href={mapsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-3 transition-colors hover:text-white"
+                className="inline-flex items-center gap-3 transition-colors hover:text-accent-light"
               >
                 <MapPin className="size-4 text-neutral-500" aria-hidden />
                 {fullAddress}
@@ -104,7 +108,7 @@ export async function SiteFooter() {
                   href={site.reviews.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-3 transition-colors hover:text-white"
+                  className="inline-flex items-center gap-3 transition-colors hover:text-accent-light"
                 >
                   <Star className="size-4 text-neutral-500" aria-hidden />
                   {t("Reviews op", "Reviews on")} {site.reviews.platform}
@@ -121,8 +125,8 @@ export async function SiteFooter() {
             .map((r) => ({ label: localizeRepair(r, locale).name, href: repairPath(r.slug) }))}
         />
         <FooterColumn title={t("Merken", "Brands")} links={brandEntries().map((b) => ({ label: b.label, href: b.href }))} />
-        <FooterColumn title={t("Meer", "More")} links={moreLinks} />
-        <FooterColumn title="Phone Repairs" links={companyLinks} />
+        <FooterColumn title={t("Meer", "More")} links={byLength(moreLinks)} />
+        <FooterColumn title="Phone Repairs" links={byLength(companyLinks)} />
       </div>
       <div className="border-t border-white/10">
         <div className="container-page space-y-3 py-6 text-sm leading-relaxed text-neutral-400 md:pb-24">
@@ -152,6 +156,9 @@ export async function SiteFooter() {
   );
 }
 
+/** Longest label first, tapering to the shortest (client request, 2026-10-14). */
+const byLength = (links: { label: string; href: string }[]) => [...links].sort((a, b) => b.label.length - a.label.length);
+
 function FooterColumn({ title, links }: { title: string; links: { label: string; href: string }[] }) {
   return (
     <div>
@@ -159,7 +166,7 @@ function FooterColumn({ title, links }: { title: string; links: { label: string;
       <ul className="space-y-2.5 text-[0.9375rem]">
         {links.map((l) => (
           <li key={l.href}>
-            <Link href={l.href} className="transition-colors hover:text-white">
+            <Link href={l.href} className="transition-colors hover:text-accent-light">
               {l.label}
             </Link>
           </li>

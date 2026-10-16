@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ctaPhoto from "@/assets/photos/cta-internals.jpg";
+import ctaPhoto from "@/assets/photos/martijn-diagnostics.jpg";
 import { Reveal } from "@/components/motion/reveal";
 import { ContactActions } from "@/components/contact/contact-actions";
 import { getI18n } from "@/lib/i18n-server";

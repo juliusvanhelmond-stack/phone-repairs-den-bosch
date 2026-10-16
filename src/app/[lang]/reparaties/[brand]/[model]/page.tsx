@@ -57,8 +57,8 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/reparaties
     description:
       (locale === "nl" && device.seo?.description) ||
       t(
-        `${fullName} kapot? Scherm, batterij en meer laten repareren bij Phone Repairs in Den Bosch. Op afspraak, vaak binnen 30 minuten terwijl je meekijkt.`,
-        `${fullName} broken? Have the screen, battery and more repaired at Phone Repairs in Den Bosch. By appointment, often within 30 minutes while you watch.`,
+        `${fullName} kapot? Scherm, batterij en meer laten repareren bij Phone Repairs in Den Bosch. Op afspraak, binnen 30 minuten terwijl je meekijkt.`,
+        `${fullName} broken? Have the screen, battery and more repaired at Phone Repairs in Den Bosch. By appointment, within 30 minutes while you watch.`,
       ),
     path: devicePath(device),
     locale,

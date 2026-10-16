@@ -40,7 +40,7 @@
       ]
     },
     "oplaadpoort-repareren": {
-      "name": "Charging port repair",
+      "name": "Charging port replacement",
       "shortName": "Charging port",
       "summary": "The cable is loose, charging only works at a certain angle or not at all.",
       "description": [
@@ -49,7 +49,7 @@
       "advice": []
     },
     "camera-repareren": {
-      "name": "Camera repair",
+      "name": "Camera replacement",
       "shortName": "Camera",
       "summary": "Blurry photos, a cracked camera lens or a camera that won't start.",
       "description": [
@@ -58,7 +58,7 @@
       "advice": []
     },
     "waterschade": {
-      "name": "Water damage",
+      "name": "Water damage repair",
       "shortName": "Water damage",
       "summary": "Your device got wet. Acting fast improves the chance of recovery.",
       "description": [
@@ -220,6 +220,12 @@
         "Yes. The back, also called the back cover, holds important sensors that the iPhone needs to work properly. Damage to the back can damage these sensors and cause your iPhone to overheat. The battery can also be damaged, which can cause serious problems and even fire. Stop using the device and make an appointment with us soon to have the back replaced."
       ]
     },
+    "leentoestel": {
+      "question": "Do you offer a loan device during the repair?",
+      "answer": [
+        "We repair your iPhone 17 Pro so fast that setting up a loan device would take longer. So you don't need a loan device at all. And let's be honest: those 30 minutes without a phone are actually quite nice."
+      ]
+    },
     "waterbestendig-na-schermvervanging": {
       "question": "Is my phone still water-resistant after a screen replacement?",
       "answer": [
@@ -246,8 +252,8 @@
       "body": "Your device doesn't disappear behind a closed door. You see for yourself how the repair is done."
     },
     "originele-onderdelen": {
-      "title": "Original parts",
-      "body": "Phone Repairs works with original parts, such as the original Samsung service packs."
+      "title": "Original service pack parts",
+      "body": "Phone Repairs works with original parts, such as Samsung's original service packs."
     },
     "gegevens-veilig": {
       "title": "Your data stays yours",

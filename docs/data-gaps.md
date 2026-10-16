@@ -37,7 +37,7 @@ verbatim reuse on 2026-10-12). The export contains account e-mail addresses and 
 | Postal code | 5233 HA | LocalBusiness schema, contact page |
 | Exact opening hours | taken from the live site's sidebar widget (2026-10-13), by appointment | Top bar, contact page, OpeningHoursSpecification |
 | Original "Over Phone Repairs" text | owner story summarised from snippets; full text not extracted | /over-ons |
-| Photos of the shop / technicians | none — generic Adobe Stock photos used (docs/image-credits.md) | Hero, about, process band, CTA |
+| Photos of the shop / technicians | own photos of Martijn received 2026-10-12, used on the homepage (docs/image-credits.md) | Hero, about, process band, CTA |
 | Official device photography | none (vector renders used) | Device pages |
 | Area landing pages | 18 pages live on their original URL with template copy; original text not extracted | Local SEO |
 | Blog/news posts | 15 published posts with full text from the export (English: translated summary) | Blog |

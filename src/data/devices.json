@@ -33536,48 +33536,5 @@
         "modified": "2025-06-18 21:28:04"
       }
     }
-  },
-  {
-    "id": "apple-iphone-ultra",
-    "slug": "iphone-ultra",
-    "name": "iPhone Ultra",
-    "brandId": "apple",
-    "categoryId": "smartphone",
-    "series": "iPhone Ultra",
-    "order": 1017300,
-    "art": "phone-island",
-    "popular": false,
-    "aliases": [],
-    "repairs": [
-      "scherm-vervangen",
-      "achterkant-vervangen",
-      "batterij-vervangen",
-      "oplaadpoort-repareren",
-      "overige-reparaties",
-      "camera-repareren",
-      "waterschade"
-    ],
-    "legacyUrls": [
-      "https://www.phonerepairs.nl/iphone-reparatie/iphone-ultra-reparatie/"
-    ],
-    "sources": [
-      {
-        "url": "https://www.phonerepairs.nl/iphone-reparatie/iphone-ultra-reparatie/",
-        "verification": "verified-source",
-        "capturedAt": "2026-10-12",
-        "note": "WordPress export 2026-10-12; page last changed 2026-09-08."
-      }
-    ],
-    "seo": {
-      "title": "iPhone Ultra reparatie: Professioneel met originele onderdelen",
-      "description": "Heeft u schade aan uw iPhone Ultra? Ontdek de snelle iPhone Ultra reparatie met garantie en professionele service."
-    },
-    "extra": {
-      "wordpress": {
-        "pageId": "41673",
-        "pageTitle": "iPhone Ultra",
-        "modified": "2026-09-08 13:57:06"
-      }
-    }
   }
 ]

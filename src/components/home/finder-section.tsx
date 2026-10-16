@@ -18,8 +18,8 @@ export async function FinderSection() {
             eyebrow={t("Toestel zoeken", "Find your device")}
             title={t("In vier stappen naar de juiste reparatie.", "The right repair in four steps.")}
             intro={t(
-              "Kies je toestel, merk en model en zie direct welke reparaties mogelijk zijn. Daarna maak je meteen een afspraak.",
-              "Choose your device type, brand and model and see straight away which repairs are possible. Then book right away.",
+              "Kies je merk, model en reparatie. Daarna maak je meteen een afspraak.",
+              "Choose your brand, model and repair. Then book right away.",
             )}
             className="mb-10 lg:mb-12"
           />

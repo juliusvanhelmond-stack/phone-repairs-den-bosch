@@ -5,6 +5,7 @@ import { SiteFooter } from "@/components/layout/site-footer";
 import { SiteHeader } from "@/components/layout/site-header";
 import { KiyohFloat } from "@/components/contact/kiyoh";
 import { MobileActionBar } from "@/components/contact/mobile-action-bar";
+import { BackToTop } from "@/components/layout/back-to-top";
 import { ThemeScript } from "@/components/theme/theme-script";
 import { TopBar } from "@/components/layout/top-bar";
 import { WhatsAppWidget } from "@/components/contact/whatsapp-widget";
@@ -35,8 +36,8 @@ export async function generateMetadata(): Promise<Metadata> {
       template: `%s${TITLE_SUFFIX}`,
     },
     description: t(
-      "Van een gebroken scherm tot een versleten batterij. Bij Phone Repairs in Den Bosch wordt je toestel op afspraak gerepareerd, vaak binnen 30 minuten terwijl je meekijkt.",
-      "From a cracked screen to a worn-out battery. At Phone Repairs in Den Bosch your device is repaired by appointment, often within 30 minutes while you watch.",
+      "Van een gebroken scherm tot een versleten batterij. Bij Phone Repairs in Den Bosch wordt je toestel op afspraak gerepareerd, binnen 30 minuten terwijl je meekijkt.",
+      "From a cracked screen to a worn-out battery. At Phone Repairs in Den Bosch your device is repaired by appointment, within 30 minutes while you watch.",
     ),
     applicationName: site.name,
     robots: allowIndexing ? { index: true, follow: true } : { index: false, follow: false, nocache: true },
@@ -73,6 +74,7 @@ export default async function RootLayout({ children }: LayoutProps<"/[lang]">) {
           <SiteFooter />
           <MobileActionBar />
           <KiyohFloat />
+          <BackToTop />
           <WhatsAppWidget />
           <JsonLd data={localBusinessJsonLd()} />
         </LocaleProvider>

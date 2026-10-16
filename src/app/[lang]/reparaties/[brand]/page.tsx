@@ -87,12 +87,12 @@ export default async function BrandPage({ params }: PageProps<"/[lang]/reparatie
               {brand.id === "apple" ? s.label : `${brand.name} ${s.category.plural}`}
             </h2>
             {s.series.map((series) => (
-              <div key={series.name} className="mt-10">
-                {s.series.length > 1 && <h3 className="mb-4 text-sm font-medium tracking-wide text-muted uppercase">{series.name}</h3>}
-                <ul className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 lg:grid-cols-4">
+              <div key={series.name} className="mt-7">
+                {s.series.length > 1 && <h3 className="mb-3 text-sm font-medium tracking-wide text-muted uppercase">{series.name}</h3>}
+                <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3 sm:gap-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
                   {series.devices.map((d) => (
                     <li key={d.id}>
-                      <DeviceCard device={d} />
+                      <DeviceCard device={d} compact />
                     </li>
                   ))}
                 </ul>
