@@ -7,21 +7,53 @@ import { faqJsonLd } from "@/lib/seo";
 import { getI18n } from "@/lib/i18n-server";
 import { site } from "@/lib/site";
 import type { FaqItem } from "@/types/content";
+import type { Translate } from "@/lib/i18n";
+import { LinkedText } from "@/components/ui/linked-text";
+import { ArrowRight } from "lucide-react";
 
-export function FaqList({ items }: { items: FaqItem[] }) {
+/** Extra links under some answers (client request, 2026-10-16). */
+function moreLink(f: FaqItem, t: Translate): { href: string; label: string; external?: boolean } | null {
+  if (f.id === "openingstijden") return { href: "/contact#openingstijden", label: t("Bekijk de openingstijden", "See the opening hours") };
+  if (f.id === "parkeren") return { href: site.routeUrl, label: t("Plan je route", "Plan your route"), external: true };
+  if (f.topics.includes("garantie")) return { href: "/garantie", label: t("Bekijk alle garantievoorwaarden", "See all warranty terms") };
+  return null;
+}
+
+export async function FaqList({ items }: { items: FaqItem[] }) {
+  const { t } = await getI18n();
   return (
     <>
       <Accordion type="single" collapsible className="border-t border-line">
-        {items.map((f) => (
-          <AccordionItem key={f.id} value={f.id}>
-            <AccordionTrigger>{f.question}</AccordionTrigger>
-            <AccordionContent>
-              {f.answer.map((p) => (
-                <p key={p}>{p}</p>
-              ))}
-            </AccordionContent>
-          </AccordionItem>
-        ))}
+        {items.map((f) => {
+          const more = moreLink(f, t);
+          return (
+            <AccordionItem key={f.id} value={f.id}>
+              <AccordionTrigger>{f.question}</AccordionTrigger>
+              <AccordionContent>
+                {f.answer.map((p) => (
+                  <p key={p}>
+                    <LinkedText text={p} />
+                  </p>
+                ))}
+                {more && (
+                  <p>
+                    {more.external ? (
+                      <a href={more.href} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 font-medium text-accent-strong hover:text-accent">
+                        {more.label}
+                        <ArrowRight className="size-4" aria-hidden />
+                      </a>
+                    ) : (
+                      <Link href={more.href} className="inline-flex items-center gap-1 font-medium text-accent-strong hover:text-accent">
+                        {more.label}
+                        <ArrowRight className="size-4" aria-hidden />
+                      </Link>
+                    )}
+                  </p>
+                )}
+              </AccordionContent>
+            </AccordionItem>
+          );
+        })}
       </Accordion>
       <JsonLd data={faqJsonLd(items)} />
     </>

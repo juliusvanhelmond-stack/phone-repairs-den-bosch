@@ -34,10 +34,36 @@ export function DeviceCard({ device, compact, className }: { device: DeviceModel
           <span className="block text-xs text-muted">{getBrand(device.brandId)?.name}</span>
           <span className={cn("block font-medium tracking-tight text-ink", compact && "text-[0.9375rem] leading-snug")}>{device.name}</span>
         </span>
-        <span className={cn("grid shrink-0 place-items-center rounded-full bg-mist text-ink transition-colors group-hover:bg-night group-hover:text-white", compact ? "size-7 max-sm:hidden" : "size-9")}>
+        <span className={cn("grid shrink-0 place-items-center rounded-full bg-mist text-ink transition-colors group-hover:bg-accent group-hover:text-white", compact ? "size-7 max-sm:hidden" : "size-9")}>
           <ArrowRight className="size-4" aria-hidden />
         </span>
       </div>
+    </Link>
+  );
+}
+
+/**
+ * Small tile for long model lists (brand pages): photo and name only, many per row, so a visitor
+ * finds a model at a glance (client request 2026-10-16, after the grid of thephonelab.nl).
+ */
+export function DeviceTile({ device, className }: { device: DeviceModel; className?: string }) {
+  const wide = device.art === "laptop" || device.art === "console";
+  const medium = device.art.startsWith("tablet") || device.art === "phone-foldable";
+  return (
+    <Link
+      href={devicePath(device)}
+      className={cn("group flex h-full flex-col items-center gap-2 bg-surface px-2 pt-3 pb-3 text-center transition-colors hover:bg-mist", className)}
+    >
+      <span className="tone-light flex h-20 w-full items-center justify-center overflow-hidden rounded-xl bg-white sm:h-24">
+        <DevicePhoto
+          device={device}
+          decorative
+          sizes="(min-width: 1024px) 8rem, (min-width: 640px) 16vw, 30vw"
+          className="transition-transform duration-500 ease-out group-hover:scale-[1.05]"
+          artClassName={cn("h-full w-auto py-1.5", wide ? "max-w-24" : medium ? "max-w-14" : "max-w-10")}
+        />
+      </span>
+      <span className="text-[0.8125rem] leading-snug font-medium text-ink group-hover:text-accent-strong sm:text-sm">{device.name}</span>
     </Link>
   );
 }

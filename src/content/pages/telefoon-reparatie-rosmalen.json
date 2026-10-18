@@ -1,5 +1,4 @@
 {
-  "id": "telefoon-reparatie-rosmalen",
   "path": "/telefoon-reparatie-rosmalen",
   "kind": "area",
   "originalTitle": "Telefoon reparatie Rosmalen",
@@ -50,5 +49,6 @@
       "capturedAt": "2026-10-12",
       "note": "WordPress export 2026-10-12; page last changed 2026-10-09."
     }
-  ]
+  ],
+  "id": "telefoon-reparatie-rosmalen"
 }

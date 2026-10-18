@@ -68,8 +68,8 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/reparaties
 const factsFor = (t: Translate) => [
   {
     icon: Timer,
-    title: t("Vaak binnen 30 minuten", "Often within 30 minutes"),
-    body: t("De meeste reparaties zijn klaar terwijl je wacht.", "Most repairs are done while you wait."),
+    title: t("Binnen 30 minuten", "Within 30 minutes"),
+    body: t("De meeste reparaties zijn klaar terwijl je meekijkt met de reparatie.", "Most repairs are done while you watch the repair."),
   },
   {
     icon: Eye,
@@ -79,7 +79,7 @@ const factsFor = (t: Translate) => [
   {
     icon: BadgeCheck,
     title: t("Originele onderdelen", "Original parts"),
-    body: t("Gerepareerd met originele kwaliteit onderdelen.", "Repaired with original quality parts."),
+    body: t("Gerepareerd met originele onderdelen.", "Repaired with original parts."),
   },
   {
     icon: ShieldCheck,
@@ -137,7 +137,6 @@ export default async function DevicePage({ params }: PageProps<"/[lang]/reparati
                 artClassName={cn("relative h-full w-auto", wide ? "max-w-[82%]" : medium ? "max-w-[48%]" : "max-w-[34%]")}
               />
             </div>
-            <figcaption className="px-4 pb-2 text-right text-[0.6875rem] text-muted sm:px-5 sm:pb-4 sm:text-xs">{t("Afbeelding ter illustratie", "Illustrative image")}</figcaption>
           </figure>
         }
       >

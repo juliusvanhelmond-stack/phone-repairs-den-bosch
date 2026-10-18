@@ -108,7 +108,7 @@ export async function Location() {
           <Reveal className="h-full">
             <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="group relative block h-full" aria-label={t("Open de locatie in Google Maps", "Open the location in Google Maps")}>
               <MapGraphic />
-              <span className="absolute bottom-4 left-4 inline-flex items-center gap-1.5 rounded-full bg-surface px-4 py-2 text-sm font-medium text-ink shadow-[var(--shadow-soft)] transition-colors group-hover:bg-night group-hover:text-white">
+              <span className="absolute bottom-4 left-4 inline-flex items-center gap-1.5 rounded-full bg-surface px-4 py-2 text-sm font-medium text-ink shadow-[var(--shadow-soft)] transition-colors group-hover:bg-accent group-hover:text-white">
                 Open in Google Maps
                 <ArrowUpRight className="size-4" aria-hidden />
               </span>

@@ -8,7 +8,15 @@ import type { AnyNode } from "domhandler";
 import type { WxrItem } from "./wxr";
 
 /** `intro` holds paragraphs that come before the list; `body` the rest (template order: intro, list, body). */
-export type Section = { heading: string; intro: string[]; body: string[]; bullets: string[]; steps: string[] };
+export type Section = {
+  heading: string;
+  intro: string[];
+  body: string[];
+  bullets: string[];
+  steps: string[];
+  /** Rate list (owner text only, e.g. transcribed from a price image on the original page). */
+  prices?: { label: string; price: string; note?: string }[];
+};
 
 const hasList = (s: Section) => s.bullets.length > 0 || s.steps.length > 0;
 const pushText = (s: Section, text: string) => {

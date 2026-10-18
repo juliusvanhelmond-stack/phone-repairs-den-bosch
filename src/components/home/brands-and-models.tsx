@@ -23,13 +23,22 @@ export async function PopularBrands() {
             <li key={b.key}>
               <Link
                 href={b.href}
-                className="group flex h-12 items-center justify-center gap-2.5 rounded-full bg-surface px-5 text-[1.0625rem] font-semibold tracking-tight text-ink-soft shadow-[var(--shadow-soft)] ring-1 ring-line transition-colors hover:bg-night hover:text-white hover:ring-night"
+                className="group flex h-12 items-center justify-center gap-2.5 rounded-full bg-surface px-5 text-[1.0625rem] font-semibold tracking-tight text-ink-soft shadow-[var(--shadow-soft)] ring-1 ring-line transition-colors hover:bg-accent hover:text-white hover:ring-accent"
               >
                 <BrandMark brandId={b.brandId} className="size-[1.125rem]" />
                 {b.label}
               </Link>
             </li>
           ))}
+          {/* Brands without own pages: the page about rare and lesser-known brands (client request, 2026-10-16). */}
+          <li>
+            <Link
+              href="/bijzondere-merken-reparatie"
+              className="flex h-12 items-center justify-center rounded-full bg-surface px-5 text-[1.0625rem] font-semibold tracking-tight text-ink-soft shadow-[var(--shadow-soft)] ring-1 ring-line transition-colors hover:bg-accent hover:text-white hover:ring-accent"
+            >
+              {t("Overige merken", "Other brands")}
+            </Link>
+          </li>
         </ul>
       </div>
     </section>
@@ -38,7 +47,8 @@ export async function PopularBrands() {
 
 export async function PopularModels() {
   const { t } = await getI18n();
-  const items = popularDevices.slice(0, 8);
+  // Four per brand: iPhone, Samsung and Pixel (client request, 2026-10-16).
+  const items = ["apple", "samsung", "google"].flatMap((brand) => popularDevices.filter((d) => d.brandId === brand).slice(0, 4));
   return (
     <section className="bg-mist py-20 lg:py-28">
       <div className="container-page">

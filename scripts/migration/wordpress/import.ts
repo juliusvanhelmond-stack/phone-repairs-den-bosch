@@ -303,7 +303,7 @@ for (const [path, fact] of facts) {
 }
 const brands = BRANDS.filter((b) => byBrand.has(b.id)).map((b) => {
   const old = oldBrands.find((o) => o.id === b.id);
-  const order = ["smartphone", "tablet", "laptop"];
+  const order = ["smartphone", "tablet", "laptop", "console"];
   const roots = brandRoots.get(b.id) ?? [];
   const rootPage = pages.find((p) => p.path === roots[0]);
   return {

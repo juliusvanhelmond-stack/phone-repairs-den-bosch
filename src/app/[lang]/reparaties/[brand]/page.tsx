@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { DeviceCard } from "@/components/devices/device-card";
+import { DeviceTile } from "@/components/devices/device-card";
 import { FinalCta } from "@/components/home/final-cta";
 import { PageIntro } from "@/components/layout/page-intro";
 import { brandLabel, brandPath, brands, categories, devicesForBrand, getBrand, localizeCategory } from "@/lib/catalog";
@@ -25,8 +25,8 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/reparaties
     description:
       (locale === "nl" && brand.seo?.description) ||
       t(
-        `${name} laten repareren in Den Bosch. Kies je model en bekijk welke reparaties mogelijk zijn. Op afspraak, vaak binnen 30 minuten.`,
-        `Have your ${name} repaired in Den Bosch. Choose your model and see which repairs are possible. By appointment, often within 30 minutes.`,
+        `${name} laten repareren in Den Bosch. Kies je model en bekijk welke reparaties mogelijk zijn. Op afspraak, binnen 30 minuten.`,
+        `Have your ${name} repaired in Den Bosch. Choose your model and see which repairs are possible. By appointment, within 30 minutes.`,
       ),
     path: brandPath(brand.id),
     locale,
@@ -89,10 +89,10 @@ export default async function BrandPage({ params }: PageProps<"/[lang]/reparatie
             {s.series.map((series) => (
               <div key={series.name} className="mt-7">
                 {s.series.length > 1 && <h3 className="mb-3 text-sm font-medium tracking-wide text-muted uppercase">{series.name}</h3>}
-                <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3 sm:gap-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
+                <ul className="grid grid-cols-3 gap-px overflow-hidden rounded-2xl bg-line ring-1 ring-line sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8">
                   {series.devices.map((d) => (
                     <li key={d.id}>
-                      <DeviceCard device={d} compact />
+                      <DeviceTile device={d} />
                     </li>
                   ))}
                 </ul>

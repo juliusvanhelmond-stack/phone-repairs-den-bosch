@@ -68500,6 +68500,432 @@
     ]
   },
   {
+    "deviceId": "nintendo-nintendo-switch-2",
+    "sourceUrl": "https://www.phonerepairs.nl/nintendo-switch-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-10-08",
+    "rows": [
+      {
+        "label": "Touchscreen / LCD",
+        "raw": "op aanvraag",
+        "amount": null,
+        "status": "on-request",
+        "repairId": "scherm-vervangen"
+      },
+      {
+        "label": "Batterij vervangen",
+        "raw": "€115,-",
+        "amount": 115,
+        "status": "price",
+        "repairId": "batterij-vervangen"
+      },
+      {
+        "label": "Oplaadconnector vervangen (moederbord reparatie)",
+        "raw": "€225,-",
+        "amount": 225,
+        "status": "price",
+        "repairId": "oplaadpoort-repareren",
+        "links": [
+          {
+            "text": "(moederbord reparatie)",
+            "href": "/moederbord-reparatie-den-bosch"
+          }
+        ]
+      },
+      {
+        "label": "Joy-Con rail (links of rechts) vervangen",
+        "raw": "€95,-",
+        "amount": 95,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Koelpasta vervangen en stof verwijderen uit toestel",
+        "raw": "€95,-",
+        "amount": 95,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Koelventilator en koelpasta vervangen en stof verwijderen uit toestel",
+        "raw": "€115,-",
+        "amount": 115,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Heatsink met koelvinnen en koelpasta vervangen en stof verwijderen uit toestel",
+        "raw": "€110,-",
+        "amount": 110,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Stof verwijderen uit toestel",
+        "raw": "€85,-",
+        "amount": 85,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Power volume knoppen vervangen",
+        "raw": "€115,-",
+        "amount": 115,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Speakers vervangen",
+        "raw": "€115,-",
+        "amount": 115,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Micro SD geheugen kaart reader vervangen",
+        "raw": "€125,-",
+        "amount": 125,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Docking station (hub) moederbord (incl. poorten) vervangen",
+        "raw": "€115,-",
+        "amount": 115,
+        "status": "price",
+        "repairId": "oplaadpoort-repareren"
+      },
+      {
+        "label": "Moederbord onderzoek",
+        "raw": "€59,-",
+        "amount": 59,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      }
+    ]
+  },
+  {
+    "deviceId": "nintendo-nintendo-switch-oled",
+    "sourceUrl": "https://www.phonerepairs.nl/nintendo-switch-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-10-08",
+    "rows": [
+      {
+        "label": "Touchscreen / OLED vervangen",
+        "raw": "€250,-",
+        "amount": 250,
+        "status": "price",
+        "repairId": "scherm-vervangen"
+      },
+      {
+        "label": "Batterij vervangen",
+        "raw": "€60,-",
+        "amount": 60,
+        "status": "price",
+        "repairId": "batterij-vervangen"
+      },
+      {
+        "label": "Oplaadconnector vervangen (moederbord reparatie)",
+        "raw": "€170,-",
+        "amount": 170,
+        "status": "price",
+        "repairId": "oplaadpoort-repareren",
+        "links": [
+          {
+            "text": "(moederbord reparatie)",
+            "href": "/moederbord-reparatie-den-bosch"
+          }
+        ]
+      },
+      {
+        "label": "Joy-Con rail (links of rechts) vervangen",
+        "raw": "€85,-",
+        "amount": 85,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Koelpasta vervangen en stof verwijderen uit toestel",
+        "raw": "€95,-",
+        "amount": 95,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Koelventilator en koelpasta vervangen en stof verwijderen uit toestel",
+        "raw": "€85,-",
+        "amount": 85,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Heatsink met koelvinnen en koelpasta vervangen en stof verwijderen uit toestel",
+        "raw": "€110,-",
+        "amount": 110,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Stof verwijderen uit toestel",
+        "raw": "€50,-",
+        "amount": 50,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Power volume knoppen vervangen",
+        "raw": "€95,-",
+        "amount": 95,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Speakers vervangen",
+        "raw": "€95,-",
+        "amount": 95,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Game kaart reader met headset jack plug vervangen",
+        "raw": "€125,-",
+        "amount": 125,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Micro SD geheugen kaart reader vervangen",
+        "raw": "€125,-",
+        "amount": 125,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Moederbord onderzoek",
+        "raw": "€59,-",
+        "amount": 59,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      }
+    ]
+  },
+  {
+    "deviceId": "nintendo-nintendo-switch",
+    "sourceUrl": "https://www.phonerepairs.nl/nintendo-switch-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-10-08",
+    "rows": [
+      {
+        "label": "Touchscreen / glas vervangen",
+        "raw": "€80,-",
+        "amount": 80,
+        "status": "price",
+        "repairId": "scherm-vervangen"
+      },
+      {
+        "label": "Touchscreen en LCD vervangen",
+        "raw": "€150,-",
+        "amount": 150,
+        "status": "price",
+        "repairId": "scherm-vervangen"
+      },
+      {
+        "label": "Batterij vervangen",
+        "raw": "€65,-",
+        "amount": 65,
+        "status": "price",
+        "repairId": "batterij-vervangen"
+      },
+      {
+        "label": "Oplaadconnector vervangen (moederbord reparatie)",
+        "raw": "€140,-",
+        "amount": 140,
+        "status": "price",
+        "repairId": "oplaadpoort-repareren",
+        "links": [
+          {
+            "text": "(moederbord reparatie)",
+            "href": "/moederbord-reparatie-den-bosch"
+          }
+        ]
+      },
+      {
+        "label": "Joy-Con rail (links of rechts) vervangen",
+        "raw": "€70,-",
+        "amount": 70,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Koelpasta vervangen en stof verwijderen uit toestel",
+        "raw": "€60,-",
+        "amount": 60,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Koelventilator en koelpasta vervangen en stof verwijderen uit toestel",
+        "raw": "€75,-",
+        "amount": 75,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Heatsink met koelvinnen en koelpasta vervangen en stof verwijderen uit toestel",
+        "raw": "€90,-",
+        "amount": 90,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Stof verwijderen uit toestel",
+        "raw": "€60,-",
+        "amount": 60,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Power volume knoppen vervangen",
+        "raw": "€70,-",
+        "amount": 70,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Speakers vervangen",
+        "raw": "€70,-",
+        "amount": 70,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Game kaart reader met headset jack plug vervangen",
+        "raw": "€95,-",
+        "amount": 95,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Micro SD geheugen kaart reader vervangen",
+        "raw": "€50,-",
+        "amount": 50,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Moederbord onderzoek",
+        "raw": "€59,-",
+        "amount": 59,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      }
+    ]
+  },
+  {
+    "deviceId": "nintendo-nintendo-switch-lite",
+    "sourceUrl": "https://www.phonerepairs.nl/nintendo-switch-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-10-08",
+    "rows": [
+      {
+        "label": "Touchscreen / glas vervangen",
+        "raw": "€80,-",
+        "amount": 80,
+        "status": "price",
+        "repairId": "scherm-vervangen"
+      },
+      {
+        "label": "Nintendo Switch LCD vervangen",
+        "raw": "€80,-",
+        "amount": 80,
+        "status": "price",
+        "repairId": "scherm-vervangen"
+      },
+      {
+        "label": "Nintendo Switch batterij vervangen",
+        "raw": "€65,-",
+        "amount": 65,
+        "status": "price",
+        "repairId": "batterij-vervangen"
+      },
+      {
+        "label": "Nintendo Switch oplaadconnector vervangen (moederbord reparatie)",
+        "raw": "€120,-",
+        "amount": 120,
+        "status": "price",
+        "repairId": "oplaadpoort-repareren"
+      },
+      {
+        "label": "Nintendo Switch joystick links vervangen",
+        "raw": "€75,-",
+        "amount": 75,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Nintendo Switch joystick rechts vervangen",
+        "raw": "€85,-",
+        "amount": 85,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Nintendo Switch power volume knoppen vervangen",
+        "raw": "€70,-",
+        "amount": 70,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Nintendo Switch speakers vervangen",
+        "raw": "€70,-",
+        "amount": 70,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Nintendo Switch game kaart slot vervangen",
+        "raw": "€80,-",
+        "amount": 80,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Nintendo Switch Micro SD geheugen kaart slot vervangen",
+        "raw": "€70,-",
+        "amount": 70,
+        "status": "price",
+        "repairId": "overige-reparaties"
+      },
+      {
+        "label": "Nintendo Switch moederbord onderzoek",
+        "raw": "€59,-",
+        "amount": 59,
+        "status": "price",
+        "repairId": "overige-reparaties",
+        "links": [
+          {
+            "text": "moederbord onderzoek",
+            "href": "/moederbord-reparatie-den-bosch"
+          }
+        ]
+      },
+      {
+        "label": "Nintendo Switch oplaad IC vervangen (moederbord reparatie)",
+        "raw": "€130,-",
+        "amount": 130,
+        "status": "price",
+        "repairId": "oplaadpoort-repareren",
+        "links": [
+          {
+            "text": "(moederbord reparatie)",
+            "href": "/moederbord-reparatie-den-bosch"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "deviceId": "huawei-huawei-nova-5t",
     "sourceUrl": "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-nova-5t/",
     "capturedAt": "2026-10-12",

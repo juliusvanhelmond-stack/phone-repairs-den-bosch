@@ -26,17 +26,113 @@
       ]
     },
     {
-      "heading": "Tarieven telefoon- en tablethulp",
+      "heading": "Schoonmaken",
+      "intro": [],
+      "body": [
+        "* Voor sommige toestellen kunnen de kosten hoger zijn. Vraag vooraf naar het tarief voor jouw toestel."
+      ],
+      "bullets": [],
+      "steps": [],
+      "prices": [
+        {
+          "label": "Oplaadpoort, microfoon en mediaspeaker onderzijde (uitwendig)",
+          "price": "€15,-"
+        },
+        {
+          "label": "Oorluidspreker (uitwendig)",
+          "price": "€15,-"
+        },
+        {
+          "label": "Oorluidspreker (inwendig)*",
+          "price": "€30,-"
+        },
+        {
+          "label": "Medialuidspreker (inwendig)*",
+          "price": "€30,-"
+        },
+        {
+          "label": "Microfoon (inwendig)*",
+          "price": "€35,-"
+        },
+        {
+          "label": "Selfiecamera voorzijde*",
+          "price": "€60,-"
+        },
+        {
+          "label": "Camera's achterzijde*",
+          "price": "€45,-"
+        },
+        {
+          "label": "Toestel geheel inwendig: speakers, oplaadpoort, camera's, microfoons enz.*",
+          "price": "€60,-"
+        }
+      ]
+    },
+    {
+      "heading": "Instellen, software en gegevens",
       "intro": [],
       "body": [],
       "bullets": [],
       "steps": [],
-      "image": {
-        "src": "/wp-content/uploads/2026/09/Codex-afbeelding-24-sep-2026-10_52_25.png",
-        "alt": "Tarievenoverzicht telefoon- en tablethulp van Phone Repairs: schoonmaken, instellen, software en gegevens, persoonlijke hulp en total-lossverklaring voor je verzekering",
-        "width": 1024,
-        "height": 1536
-      }
+      "prices": [
+        {
+          "label": "Nieuwe smartphone of tablet instellen",
+          "price": "€35,-"
+        },
+        {
+          "label": "Software updaten naar de nieuwste versie",
+          "price": "€30,-"
+        },
+        {
+          "label": "Software herstellen",
+          "price": "€35,-"
+        },
+        {
+          "label": "Een bricked toestel herstellen",
+          "price": "€85,-",
+          "note": "Is herstellen niet mogelijk? Dan betaal je €35,-."
+        },
+        {
+          "label": "E-mailaccount instellen (per account)",
+          "price": "€25,-"
+        },
+        {
+          "label": "Data overzetten naar een nieuwe smartphone of tablet",
+          "price": "€40,-"
+        }
+      ]
+    },
+    {
+      "heading": "Persoonlijke hulp",
+      "intro": [],
+      "body": [],
+      "bullets": [],
+      "steps": [],
+      "prices": [
+        {
+          "label": "Uitleg en demonstratie (per half uur)",
+          "price": "€35,-"
+        },
+        {
+          "label": "Problemen oplossen (per half uur)",
+          "price": "€35,-"
+        }
+      ]
+    },
+    {
+      "heading": "Total-lossverklaring voor je verzekering",
+      "intro": [],
+      "body": [
+        "Let op: deze dienst heeft alleen zin als je de schade kunt verhalen op je inboedel-, reis- of elektronicaverzekering en de schade binnen de polisdekking valt."
+      ],
+      "bullets": [],
+      "steps": [],
+      "prices": [
+        {
+          "label": "Voor een smartphone of tablet",
+          "price": "€30,-"
+        }
+      ]
     },
     {
       "heading": "Op afspraak",
@@ -58,6 +154,12 @@
       "verification": "verified-source",
       "capturedAt": "2026-10-12",
       "note": "WordPress export 2026-10-12; page last changed 2026-10-08. 'Waar kunnen we je mee helpen?' transcribed from the page's infographic (exec-79dcf662…png); the rate card is shown as the original image (prices not retyped). Restored at the client's request (e-mail 2026-10-13)."
+    },
+    {
+      "url": "https://www.phonerepairs.nl/telefoon-en-tablet-hulp/",
+      "verification": "owner-confirmed",
+      "capturedAt": "2026-10-16",
+      "note": "Rates transcribed from the shop's rate card image (/wp-content/uploads/2026/09/Codex-afbeelding-24-sep-2026-10_52_25.png) at the owner's request; amounts confirmed by Martijn Derks, e-mail 16 October 2026."
     }
   ],
   "id": "telefoon-en-tablet-hulp"

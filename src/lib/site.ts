@@ -95,6 +95,8 @@ export const site = {
     privacy: "/wp-content/uploads/2026/09/Privacyverklaring-september-2026.pdf",
   },
   parkingNote: "Gratis parkeren voor de deur",
+  /** "Plan je route" link the client asked for (e-mail 2026-10-16), verbatim. */
+  routeUrl: "https://www.google.com/maps?ll=51.71568,5.323959&z=13&t=m&hl=nl&gl=NL&mapclient=embed&cid=15650285209832125331",
   /**
    * Partner links with the shop's own referral code (client, e-mail 2026-10-14): keep the
    * parameters exactly, they are how the shop gets paid.

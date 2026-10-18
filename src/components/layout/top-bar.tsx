@@ -30,10 +30,13 @@ export async function TopBar() {
           <ThemeToggle />
           {site.reviews?.trustindexId && (
             // Fixed box: the widget loads later and must not push the header down (layout shift).
-            <div className="flex h-14 w-32 shrink-0 items-center justify-center overflow-hidden rounded-xl has-[.ti-widget]:bg-white">
+            // Dark like the Kiyoh badge, content centred (client request, 2026-10-16). The widget's own styles cannot be
+            // overridden from here, so its colours are inverted (hue turned back, so Google's colours stay) and the
+            // bottom margin it adds is offset.
+            <div className="flex h-14 w-32 shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-white/10 ring-1 ring-white/15">
               <TrustindexBadge
                 widgetId={site.reviews.trustindexId}
-                className="flex items-center justify-center [zoom:0.64] [&_.ti-widget]:!m-0"
+                className="flex translate-y-[5px] items-center justify-center [filter:invert(1)_hue-rotate(180deg)] [zoom:0.64] [&_.ti-star]:[filter:invert(1)_hue-rotate(180deg)] [&_.ti-widget]:!m-0"
               />
             </div>
           )}

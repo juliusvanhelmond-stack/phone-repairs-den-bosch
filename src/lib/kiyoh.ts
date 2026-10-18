@@ -7,6 +7,19 @@ const summarySchema = z.object({
   score: z.number().min(0).max(10),
   /** All-time number of reviews. */
   count: z.number().int().nonnegative(),
+  /** Most recent reviews as published on Kiyoh (first name, place, rating, text). */
+  reviews: z
+    .array(
+      z.object({
+        author: z.string(),
+        city: z.string(),
+        rating: z.number().min(0).max(10),
+        title: z.string(),
+        text: z.string(),
+        date: z.string(),
+      }),
+    )
+    .default([]),
   fetchedAt: z.string(),
 });
 

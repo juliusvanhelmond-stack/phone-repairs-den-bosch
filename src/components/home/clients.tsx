@@ -3,7 +3,7 @@ import { getI18n } from "@/lib/i18n-server";
 
 /**
  * "Wij repareren o.a. voor:" logo carousel of the current homepage (logos and order as there).
- * A CSS marquee; with reduced motion the logos wrap instead.
+ * A CSS marquee; with reduced motion a still row that scrolls sideways.
  */
 export async function Clients() {
   const { t } = await getI18n();
@@ -11,7 +11,7 @@ export async function Clients() {
   if (!clients.length) return null;
   const list = (hidden: boolean) => (
     <ul
-      className={`flex shrink-0 items-center gap-4 pr-4 motion-reduce:shrink motion-reduce:flex-wrap motion-reduce:justify-center motion-reduce:gap-3 motion-reduce:px-4 ${hidden ? "motion-reduce:hidden" : ""}`}
+      className={`flex shrink-0 items-center gap-4 pr-4 motion-reduce:pl-4 ${hidden ? "motion-reduce:hidden" : ""}`}
       aria-hidden={hidden || undefined}
     >
       {clients.map((c) => (
@@ -37,9 +37,14 @@ export async function Clients() {
           {t("Wij repareren o.a. voor:", "Among others, we repair for:")}
         </h2>
       </div>
-      {/* With reduced motion the logos wrap in a static grid instead of sliding. */}
-      <div className="marquee mt-8 overflow-hidden motion-safe:[mask-image:linear-gradient(to_right,transparent,#000_6%,#000_94%,transparent)]">
-        <div className="marquee-track flex w-max motion-reduce:w-full">
+      {/* With reduced motion (e.g. an iPad with "Reduce motion" on) the row stays still and can be swiped sideways. */}
+      <div
+        className="marquee mt-8 overflow-hidden [mask-image:linear-gradient(to_right,transparent,#000_6%,#000_94%,transparent)] motion-reduce:overflow-x-auto"
+        tabIndex={0}
+        role="region"
+        aria-labelledby="klanten-titel"
+      >
+        <div className="marquee-track flex w-max">
           {list(false)}
           {list(true)}
         </div>

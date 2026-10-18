@@ -187,7 +187,7 @@ async function main() {
     for (const label of ["iPhone", "iPad", "MacBook"]) await footer.getByRole("link", { name: label, exact: true }).waitFor();
     assert(!/\b\d+\s+modellen\b/.test((await page.locator("main").textContent()) ?? ""), "model counts shown");
     await page.goto(BASE + "/contact");
-    await page.locator("#openingstijden").getByText("Zondag").waitFor();
+    await page.locator("#openingstijden").getByText("Zondag", { exact: true }).waitFor();
   });
 
   await check("mobile: Menu label and pinned WhatsApp/call bar", async () => {
@@ -339,7 +339,7 @@ async function main() {
 
   await check("appointment form: validation errors", async () => {
     await page.goto(BASE + "/afspraak");
-    await page.getByRole("button", { name: "Afspraak aanvragen" }).click();
+    await page.getByRole("button", { name: "Afspraak maken" }).click();
     await page.locator("form").getByRole("alert").waitFor();
     assert((await page.getByText("Vul je naam in.").count()) === 1, "name error missing");
     assert((await page.locator('[aria-invalid="true"]').count()) >= 4, "fields not marked invalid");
@@ -352,7 +352,7 @@ async function main() {
     await page.fill("#name", "Test Persoon");
     await page.fill("#phone", "0612345678");
     await page.fill("#email", "test@example.com");
-    await page.getByRole("button", { name: "Afspraak aanvragen" }).click();
+    await page.getByRole("button", { name: "Afspraak maken" }).click();
     await page.getByRole("heading", { name: "Je aanvraag is nog niet verstuurd" }).waitFor();
     const mailto = await page.getByRole("link", { name: /Verstuur via e-mail/ }).getAttribute("href");
     assert(mailto?.startsWith("mailto:info@phonerepairs.nl"), `mailto ${mailto}`);
@@ -387,8 +387,10 @@ async function main() {
 
   await check("garantie: exclusions show a cross, not a checkmark", async () => {
     await page.goto(BASE + "/garantie");
-    const list = page.getByRole("heading", { name: "Wanneer vervalt de garantie?" }).locator("xpath=..");
-    assert((await list.locator("svg.lucide-x").count()) >= 5, "no crosses");
+    // The old "Wanneer vervalt de garantie?" block was removed at the owner's request (2026-10-16).
+    assert((await page.getByRole("heading", { name: "Wanneer vervalt de garantie?" }).count()) === 0, "old block still shown");
+    const list = page.getByRole("heading", { name: "Wanneer geldt de garantie niet?" }).locator("xpath=..");
+    assert((await list.locator("svg.lucide-x").count()) >= 3, "no crosses");
     assert((await list.getByText(/^✕/).count()) === 0, "raw ✕ still shown");
     // Owner-supplied warranty text (e-mail 13 October).
     for (const heading of ["Wanneer geldt de garantie niet?", "Batterijgarantie", "Garantie op screenprotectors"]) {
@@ -494,23 +496,21 @@ async function main() {
     }
   });
 
-  await check("whatsapp: prompt opens by itself once, with the original copy", async () => {
+  await check("whatsapp: never opens by itself; a bullet on the launcher, panel with the original copy", async () => {
     const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
     const p = await ctx.newPage();
     await p.goto(BASE + "/reparaties/apple/iphone-15-pro", { waitUntil: "networkidle" });
     await p.evaluate(() => window.scrollTo({ top: document.documentElement.scrollHeight, behavior: "instant" }));
+    const launcher = p.getByRole("button", { name: "WhatsApp met Phone Repairs" });
+    await launcher.getByText("nieuw bericht", { exact: false }).waitFor({ state: "attached" });
     const dialog = p.getByRole("dialog", { name: "WhatsApp met Phone Repairs" });
+    assert(!(await dialog.isVisible()), "panel opened by itself");
+    await launcher.click();
     await dialog.waitFor();
     await dialog.getByText("Gemiddelde reactietijd: 10 minuten.").waitFor();
     assert((await dialog.getByRole("link", { name: "Open WhatsApp" }).getAttribute("href")) === WA, "panel link");
     await p.keyboard.press("Escape");
     await dialog.waitFor({ state: "hidden" });
-    await p.goto(BASE + "/reparaties/apple/iphone-16", { waitUntil: "networkidle" });
-    await p.evaluate(() => window.scrollTo({ top: document.documentElement.scrollHeight, behavior: "instant" }));
-    await p.waitForTimeout(500);
-    assert(!(await dialog.isVisible()), "prompt opened again in the same session");
-    await p.getByRole("button", { name: "WhatsApp met Phone Repairs" }).click();
-    await dialog.waitFor();
     await ctx.close();
   });
 
@@ -567,7 +567,9 @@ async function main() {
       // Measure the final colours, not text halfway through its scroll-in fade.
       await page.emulateMedia({ reducedMotion: "reduce" });
       await page.goto(BASE + route, { waitUntil: "networkidle" });
-      const { violations } = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa"]).analyze();
+      // The Trustindex badge is third-party markup shown inverted (white on dark) with a CSS filter,
+      // which axe's contrast check does not take into account.
+      const { violations } = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa"]).exclude("[data-reviews-badge]").analyze();
       const serious = violations.filter((v) => v.impact === "serious" || v.impact === "critical");
       assert(
         serious.length === 0,

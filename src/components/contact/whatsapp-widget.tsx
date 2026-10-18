@@ -4,7 +4,7 @@ import { useCallback, useEffect, useId, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import { MessageCircle, X } from "lucide-react";
 import { useI18n } from "@/components/i18n/locale-provider";
-import { WHATSAPP_NOTIFY_EVENT } from "@/components/contact/whatsapp-notify";
+import { WHATSAPP_NOTIFY_EVENT, WhatsAppNotifyDot } from "@/components/contact/whatsapp-notify";
 import { parsePublicPath } from "@/lib/i18n";
 import { site, whatsappCopy, whatsappHref, whatsappMessage } from "@/lib/site";
 import { cn } from "@/lib/utils";
@@ -30,10 +30,10 @@ function markSeen() {
 
 /**
  * Floating WhatsApp button with the chat prompt from the current site.
- * The panel opens by itself once per session, after the visitor has read part of a page
- * (scroll depth) or stayed a while; never on the appointment and contact pages, where the
- * options are already on screen. On mobile it shows a notification bullet on the WhatsApp
- * button of the bottom bar instead (client request 2026-10-14).
+ * The panel never opens by itself: once per session, after the visitor has read part of a page
+ * (scroll depth) or stayed a while, a notification bullet appears on the WhatsApp button (the
+ * launcher on desktop, the bottom bar on mobile; client requests 2026-10-14 and 2026-10-16).
+ * Not on the appointment and contact pages, where the options are already on screen.
  */
 export function WhatsAppWidget() {
   const { locale, t } = useI18n();
@@ -60,9 +60,8 @@ export function WhatsAppWidget() {
       if (done || readSeen()) return;
       done = true;
       markSeen();
-      // Mobile: a notification bullet on the WhatsApp button instead of a panel over the page.
-      if (window.matchMedia("(max-width: 767px)").matches) window.dispatchEvent(new Event(WHATSAPP_NOTIFY_EVENT));
-      else setOpen(true);
+      // A notification bullet on the WhatsApp button instead of a panel over the page (mobile and desktop).
+      window.dispatchEvent(new Event(WHATSAPP_NOTIFY_EVENT));
     };
     const onScroll = () => {
       const max = document.documentElement.scrollHeight - window.innerHeight;
@@ -156,9 +155,10 @@ export function WhatsAppWidget() {
           setOpen(true);
           requestAnimationFrame(() => ctaRef.current?.focus());
         }}
-        className="pointer-events-auto hidden size-14 place-items-center rounded-full bg-accent md:grid text-white shadow-[var(--shadow-lift)] ring-4 ring-white/70 transition-[transform,background-color] hover:scale-105 hover:bg-accent-strong motion-reduce:transition-none motion-reduce:hover:scale-100"
+        className="pointer-events-auto relative hidden size-14 place-items-center rounded-full bg-accent md:grid text-white shadow-[var(--shadow-lift)] ring-4 ring-white/70 transition-[transform,background-color] hover:scale-105 hover:bg-accent-strong motion-reduce:transition-none motion-reduce:hover:scale-100"
       >
         {open ? <X className="size-6" aria-hidden /> : <MessageCircle className="size-7" aria-hidden />}
+        <WhatsAppNotifyDot className="-top-1 -right-1" />
       </button>
     </div>
   );

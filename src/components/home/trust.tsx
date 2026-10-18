@@ -5,14 +5,14 @@ import { claims, localizeClaim } from "@/lib/catalog";
 import { getI18n } from "@/lib/i18n-server";
 import { ReviewsBanner } from "@/components/contact/reviews-link";
 import { TrustindexBadge } from "@/components/contact/trustindex-badge";
+import { KiyohReviews } from "@/components/contact/kiyoh-reviews";
 import { site } from "@/lib/site";
 
 export async function Trust() {
   const { locale, t } = await getI18n();
   return (
     <section className="relative isolate overflow-hidden bg-night py-20 text-white lg:py-28">
-      <div className="bg-grid absolute inset-0 -z-10 opacity-40 invert [mask-image:linear-gradient(to_bottom,#000,transparent_70%)]" aria-hidden />
-      <div className="absolute -top-40 left-1/2 -z-10 h-80 w-[48rem] -translate-x-1/2 rounded-full bg-accent/25 blur-[120px]" aria-hidden />
+            <div className="absolute -top-40 left-1/2 -z-10 h-80 w-[48rem] -translate-x-1/2 rounded-full bg-accent/25 blur-[120px]" aria-hidden />
       <div className="container-page">
         <Reveal>
           <SectionHeading
@@ -42,6 +42,7 @@ export async function Trust() {
             <TrustindexBadge widgetId={site.reviews.carouselId} className="min-h-40" />
           </div>
         )}
+        <KiyohReviews className="mt-3" />
         <Reveal>
           <ReviewsBanner className="mt-3" />
         </Reveal>

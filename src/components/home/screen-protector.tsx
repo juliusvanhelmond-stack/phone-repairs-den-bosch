@@ -44,7 +44,7 @@ export async function ScreenProtector() {
                 href={blogPath(SLUG)}
                 className="mt-6 inline-flex items-center gap-1.5 text-[0.9375rem] font-medium text-accent-strong hover:text-accent"
               >
-                {t("Alles over de hydrogel screenprotector", "All about the hydrogel screen protector")}
+                {t("Alles over de hydrogel screenprotector en de prijzen", "All about the hydrogel screen protector and prices")}
                 <ArrowRight className="size-4" aria-hidden />
               </Link>
             </div>

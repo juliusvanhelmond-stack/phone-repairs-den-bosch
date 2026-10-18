@@ -54,7 +54,8 @@
       "heading": "Batterijgarantie",
       "body": [
         "Een batterij slijt na verloop van tijd — dat is normaal.",
-        "Daarom krijg je op batterijen 12 maanden garantie."
+        "Daarom krijg je op batterijen 12 maanden garantie.",
+        "Binnen deze periode geldt garantie als de maximumcapaciteit onder 80% zakt."
       ],
       "bullets": [],
       "steps": []
@@ -109,28 +110,6 @@
       "steps": []
     },
     {
-      "heading": "Wanneer vervalt de garantie?",
-      "intro": [
-        "Garantie is bedoeld voor een defect aan het door ons vervangen of gerepareerde onderdeel. De garantie dekt geen schade die na de reparatie aan het toestel of onderdeel ontstaat.",
-        "De garantie vervalt onder andere bij:"
-      ],
-      "body": [
-        "Bij dergelijke beschadigingen vervalt de garantie op het betreffende onderdeel. Ook bij vocht-, water-, vloeistof- of bliksemschade kan geen aanspraak worden gemaakt op de reparatiegarantie."
-      ],
-      "bullets": [
-        "✕ Val-, stoot- of drukschade",
-        "✕ Barsten, breuken, scheuren en krassen",
-        "✕ Zichtbare fysieke of gebruikersschade",
-        "✕ Beschadiging van LCD-, OLED- of AMOLED-panelen en digitizers",
-        "✕ Zwarte vlekken, strepen of andere zichtbare displayschade als gevolg van fysieke beschadiging",
-        "✕ Vocht-, water- of vloeistofschade",
-        "✕ Warmteschade, waaronder het loslaten van lijmlagen als gevolg van externe warmte",
-        "✕ Beschadigde of defect geraakte scharnieren door fysieke belasting",
-        "✕ Andere zichtbare schade die na de reparatie is ontstaan"
-      ],
-      "steps": []
-    },
-    {
       "heading": "Wanneer geldt de garantie niet?",
       "intro": [
         "We geven géén garantie bij:"
@@ -146,7 +125,7 @@
     {
       "heading": "Ook gelden deze uitzonderingen",
       "body": [
-        "Wanneer je jouw device laat repareren bij Phone Repairs kan mogelijk je fabrieksgarantie vervallen. Dit is onder andere afhankelijk van het merk en kwaliteit van onderdeel."
+        "Wanneer je jouw device laat repareren bij Phone Repairs kan mogelijk je fabrieksgarantie vervallen. Dit is onder andere afhankelijk van het merk en de kwaliteit van het door jou gekozen onderdeel."
       ],
       "bullets": [
         "✕ Waterschade-reparaties (ook latere moederbordreparaties)",

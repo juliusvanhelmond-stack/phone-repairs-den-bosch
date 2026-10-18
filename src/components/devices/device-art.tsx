@@ -20,6 +20,7 @@ export function DeviceArt({
   const a11y = title ? { role: "img", "aria-label": title } : { "aria-hidden": true };
 
   if (art === "laptop") return <Laptop id={id} className={className} a11y={a11y} />;
+  if (art === "console") return <Console id={id} className={className} a11y={a11y} />;
   if (art === "tablet" || art === "tablet-home-button")
     return <Tablet id={id} homeButton={art === "tablet-home-button"} className={className} a11y={a11y} />;
   if (art === "phone-foldable") return <Foldable id={id} className={className} a11y={a11y} />;
@@ -131,6 +132,33 @@ function Tablet({ id, homeButton, className, a11y }: { id: string; homeButton: b
       <text x={W / 2} y={bezel + 64} textAnchor="middle" fill="#fff" fillOpacity="0.92" fontSize="40" fontWeight="600" letterSpacing="-1" fontFamily="var(--font-geist-sans), sans-serif">
         9:41
       </text>
+    </svg>
+  );
+}
+
+/** Handheld console with detachable controllers (Nintendo Switch type), neutral grey. */
+function Console({ id, className, a11y }: { id: string; className?: string; a11y: A11y }) {
+  return (
+    <svg viewBox="0 0 320 140" className={cn("h-auto w-full drop-shadow-[0_18px_30px_rgb(34_34_34/0.18)]", className)} {...a11y}>
+      <Defs id={id} />
+      <rect x="2" y="6" width="56" height="128" rx="28" fill="#9CA3AF" />
+      <rect x="262" y="6" width="56" height="128" rx="28" fill="#6B7280" />
+      <rect x="60" y="6" width="200" height="128" rx="8" fill="#1b1f1d" />
+      <Screen id={id} x={72} y={16} w={176} h={108} r={4} />
+      <circle cx="30" cy="40" r="11" fill="#4B5563" />
+      <circle cx="290" cy="90" r="11" fill="#374151" />
+      <g fill="#4B5563">
+        <circle cx="30" cy="80" r="5" />
+        <circle cx="20" cy="90" r="5" />
+        <circle cx="40" cy="90" r="5" />
+        <circle cx="30" cy="100" r="5" />
+      </g>
+      <g fill="#374151">
+        <circle cx="290" cy="30" r="5" />
+        <circle cx="280" cy="40" r="5" />
+        <circle cx="300" cy="40" r="5" />
+        <circle cx="290" cy="50" r="5" />
+      </g>
     </svg>
   );
 }

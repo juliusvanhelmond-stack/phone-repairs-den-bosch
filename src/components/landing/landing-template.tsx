@@ -26,6 +26,10 @@ export function landingCrumbs(page: LandingPage, t: Translate): Crumb[] {
 }
 
 function focusDevices(page: LandingPage, t: Translate): { title: string; devices: DeviceModel[] } | null {
+  // The Nintendo Switch page lists the Switch models with their price lists (client request, 2026-10-16).
+  if (page.path === "/nintendo-switch-reparatie") {
+    return { title: t("Kies je Nintendo Switch", "Choose your Nintendo Switch"), devices: devicesForBrand("nintendo") };
+  }
   switch (page.focus) {
     case undefined:
       return null;
@@ -224,6 +228,20 @@ function SectionCard({ section }: { section: LandingSection }) {
             );
           })}
         </ul>
+      )}
+      {/* English overlays (translations/en.json) may leave out prices: they are optional there. */}
+      {section.prices?.length > 0 && (
+        <dl className="mt-5 divide-y divide-line border-y border-line">
+          {section.prices.map((r) => (
+            <div key={r.label} className="flex items-start justify-between gap-6 py-3">
+              <dt className="text-ink">
+                {r.label}
+                {r.note && <span className="mt-0.5 block text-sm text-muted">{r.note}</span>}
+              </dt>
+              <dd className="shrink-0 font-semibold text-ink tabular-nums">{r.price}</dd>
+            </div>
+          ))}
+        </dl>
       )}
       {section.body.map((p) => (
         <p key={p} className="mt-4 leading-relaxed text-muted">

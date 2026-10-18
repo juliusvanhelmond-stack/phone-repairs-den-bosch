@@ -6,7 +6,7 @@
  * (NEXT_PUBLIC_KEYSTATIC_STORAGE=github plus the KEYSTATIC_* secrets, see docs/cms.md).
  * Prices are deliberately not editable here: they only come from the shop's price lists.
  */
-import { collection, config, fields } from "@keystatic/core";
+import { collection, config, fields, singleton } from "@keystatic/core";
 
 const repo = (process.env.NEXT_PUBLIC_KEYSTATIC_REPO ?? "juliusvanhelmond-stack/phone-repairs-den-bosch").split("/");
 
@@ -20,7 +20,21 @@ export default config({
       : { kind: "local" },
   ui: {
     brand: { name: "Phone Repairs" },
-    navigation: { Inhoud: ["pages", "seo"] },
+    navigation: { Inhoud: ["mededeling", "pages", "seo"] },
+  },
+  singletons: {
+    // Announcement bar above the site, e.g. for holidays (client request, 2026-10-16).
+    mededeling: singleton({
+      label: "Mededeling bovenaan (bijv. vakantie)",
+      path: "src/content/announcement",
+      format: { data: "json" },
+      schema: {
+        active: fields.checkbox({ label: "Tonen op de website", defaultValue: false }),
+        text: fields.text({ label: "Tekst", description: "Kort en duidelijk, bijv. 'Van 20 t/m 27 december zijn we gesloten.'", multiline: true }),
+        linkLabel: fields.text({ label: "Linktekst (optioneel)", description: "Bijv. 'Meer informatie'." }),
+        linkHref: fields.text({ label: "Link (optioneel)", description: "Een pad op de site, bijv. /contact, of een volledige URL." }),
+      },
+    }),
   },
   collections: {
     pages: collection({
@@ -93,6 +107,14 @@ export default config({
             intro: lines("Alinea's vóór de lijst"),
             bullets: lines("Opsommingstekens", "Begin een regel met ✕ voor een rood kruisje in plaats van een vinkje."),
             steps: lines("Genummerde stappen"),
+            prices: fields.array(
+              fields.object({
+                label: fields.text({ label: "Omschrijving" }),
+                price: fields.text({ label: "Prijs", description: "Zoals je hem wilt tonen, bijv. €15,-" }),
+                note: fields.text({ label: "Toelichting (optioneel)", multiline: true }),
+              }),
+              { label: "Tarieven", itemLabel: (p) => `${p.fields.label.value} — ${p.fields.price.value}` },
+            ),
             body: lines("Alinea's na de lijst"),
             image: fields.object(
               {

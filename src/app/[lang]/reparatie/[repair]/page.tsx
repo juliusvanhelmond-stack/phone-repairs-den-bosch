@@ -11,7 +11,7 @@ import { ContentIcon } from "@/components/repairs/icon";
 import { ContactActions } from "@/components/contact/contact-actions";
 import { WhatsAppCard } from "@/components/contact/whatsapp-card";
 import { JsonLd } from "@/components/ui/json-ld";
-import { brandPath, brands, faqs, getRepair, localizeFaq, localizeRepair, popularDevices, repairPath, repairs } from "@/lib/catalog";
+import { brandEntries, brands, faqs, getRepair, localizeFaq, localizeRepair, popularDevices, repairPath, repairs } from "@/lib/catalog";
 import { localizePath } from "@/lib/i18n";
 import { getI18n } from "@/lib/i18n-server";
 import { pageMetadata, serviceJsonLd } from "@/lib/seo";
@@ -49,7 +49,12 @@ export default async function RepairPage({ params }: PageProps<"/[lang]/reparati
   if (!found) notFound();
   const repair = localizeRepair(found, locale);
 
-  const relevantBrands = brands.filter((b) => b.categories.some((c) => repair.categories.includes(c)));
+  // Apple as iPhone/iPad/MacBook, like every other brand list (client request, 2026-10-13).
+  const relevantBrands = brandEntries().filter((e) =>
+    e.categoryId
+      ? repair.categories.includes(e.categoryId)
+      : brands.find((b) => b.id === e.brandId)?.categories.some((c) => repair.categories.includes(c)),
+  );
   const examples = popularDevices.filter((d) => repair.categories.includes(d.categoryId)).slice(0, 4);
   const scopedFaqs = faqs.filter((f) => f.repairIds.includes(repair.id));
   const faqItems = [...scopedFaqs, ...faqs.filter((f) => f.repairIds.length === 0)]
@@ -68,7 +73,6 @@ export default async function RepairPage({ params }: PageProps<"/[lang]/reparati
         intro={repair.summary}
         aside={
           <div className="relative grid aspect-[4/3] place-items-center overflow-hidden rounded-[var(--radius-panel)] bg-night">
-            <div className="bg-grid absolute inset-0 opacity-40 invert [mask-image:radial-gradient(ellipse_at_center,#000,transparent_70%)]" aria-hidden />
             <div className="absolute size-64 rounded-full bg-accent/40 blur-[90px]" aria-hidden />
             <span className="relative grid size-28 place-items-center rounded-[2rem] bg-white/10 text-white ring-1 ring-white/20 backdrop-blur">
               <ContentIcon name={repair.icon} className="size-12" />
@@ -100,17 +104,16 @@ export default async function RepairPage({ params }: PageProps<"/[lang]/reparati
             )}
           </div>
           <div className="space-y-4">
-            <WhatsAppCard message={whatsappMessage({ repair: repair.name, locale })} />
             <div className="rounded-[var(--radius-card)] bg-mist p-7 ring-1 ring-line">
               <h2 className="font-semibold text-ink">{t("Kies je merk", "Choose your brand")}</h2>
               <ul className="mt-4 flex flex-wrap gap-2">
                 {relevantBrands.map((b) => (
-                  <li key={b.id}>
+                  <li key={b.key}>
                     <Link
-                      href={brandPath(b.id)}
-                      className="block rounded-full bg-surface px-4 py-2 text-sm text-ink ring-1 ring-line transition-colors hover:bg-night hover:text-white hover:ring-night"
+                      href={b.href}
+                      className="block rounded-full bg-surface px-4 py-2 text-sm text-ink ring-1 ring-line transition-colors hover:bg-accent hover:text-white hover:ring-accent"
                     >
-                      {b.name}
+                      {b.label}
                     </Link>
                   </li>
                 ))}
@@ -123,6 +126,8 @@ export default async function RepairPage({ params }: PageProps<"/[lang]/reparati
                 <ArrowRight className="size-4" aria-hidden />
               </Link>
             </div>
+            {/* Brands first, WhatsApp below (client request, 2026-10-16). */}
+            <WhatsAppCard message={whatsappMessage({ repair: repair.name, locale })} />
           </div>
         </div>
       </section>

@@ -78,6 +78,7 @@ export const deviceArtSchema = z.enum([
   "tablet",
   "tablet-home-button",
   "laptop",
+  "console",
 ]);
 export type DeviceArt = z.infer<typeof deviceArtSchema>;
 
@@ -285,6 +286,8 @@ export const landingSectionSchema = z.object({
   body: z.array(z.string()).default([]),
   bullets: z.array(z.string()).default([]),
   steps: z.array(z.string()).default([]),
+  /** Rate list (label + amount as written by the shop, e.g. "€15,-"), editable in the CMS. */
+  prices: z.array(z.object({ label: z.string(), price: z.string(), note: z.string().optional() })).default([]),
   image: landingImageSchema.optional(),
 });
 export type LandingSection = z.infer<typeof landingSectionSchema>;

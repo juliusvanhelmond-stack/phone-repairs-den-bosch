@@ -2019,7 +2019,7 @@
     "order": 6400,
     "releaseYear": 2026,
     "art": "phone-punch-hole",
-    "popular": false,
+    "popular": true,
     "aliases": [
       "Samsung S26 Ultra",
       "Samsung Galaxy S26 Ultra"
@@ -2113,7 +2113,7 @@
     "order": 6600,
     "releaseYear": 2026,
     "art": "phone-punch-hole",
-    "popular": false,
+    "popular": true,
     "aliases": [
       "Samsung S26",
       "Samsung Galaxy S26"
@@ -2252,7 +2252,7 @@
     "order": 6900,
     "releaseYear": 2025,
     "art": "phone-punch-hole",
-    "popular": false,
+    "popular": true,
     "aliases": [
       "Samsung S25 Ultra",
       "Samsung Galaxy S25 Ultra"
@@ -7682,7 +7682,7 @@
     "series": "Pixel 11",
     "order": 17900,
     "art": "phone-punch-hole",
-    "popular": false,
+    "popular": true,
     "aliases": [
       "Google Pixel 11 Pro"
     ],
@@ -7727,7 +7727,7 @@
     "series": "Pixel 11",
     "order": 18000,
     "art": "phone-punch-hole",
-    "popular": false,
+    "popular": true,
     "aliases": [
       "Google Pixel 11"
     ],
@@ -7907,7 +7907,7 @@
     "series": "Pixel 10",
     "order": 18500,
     "art": "phone-punch-hole",
-    "popular": false,
+    "popular": true,
     "aliases": [
       "Google Pixel 10 Pro"
     ],
@@ -31915,13 +31915,160 @@
     }
   },
   {
+    "id": "nintendo-nintendo-switch-2",
+    "slug": "nintendo-switch-2",
+    "name": "Nintendo Switch 2",
+    "brandId": "nintendo",
+    "categoryId": "console",
+    "series": "Nintendo Switch",
+    "order": 1011300,
+    "art": "console",
+    "popular": false,
+    "aliases": [
+      "Nintendo Switch 2 reparatie"
+    ],
+    "repairs": [
+      "scherm-vervangen",
+      "batterij-vervangen",
+      "oplaadpoort-repareren",
+      "overige-reparaties"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/nintendo-switch-reparatie/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "WordPress export 2026-10-12; page last changed 2026-10-08."
+      }
+    ],
+    "extra": {
+      "wordpress": {
+        "pageId": "26771",
+        "pageTitle": "Nintendo Switch reparatie",
+        "modified": "2026-10-08 21:36:02"
+      }
+    }
+  },
+  {
+    "id": "nintendo-nintendo-switch-oled",
+    "slug": "nintendo-switch-oled",
+    "name": "Nintendo Switch OLED",
+    "brandId": "nintendo",
+    "categoryId": "console",
+    "series": "Nintendo Switch OLED",
+    "order": 1011401,
+    "art": "console",
+    "popular": false,
+    "aliases": [
+      "Nintendo Switch OLED reparatie (HEG-001)",
+      "HEG-001"
+    ],
+    "repairs": [
+      "scherm-vervangen",
+      "batterij-vervangen",
+      "oplaadpoort-repareren",
+      "overige-reparaties"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/nintendo-switch-reparatie/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "WordPress export 2026-10-12; page last changed 2026-10-08."
+      }
+    ],
+    "extra": {
+      "wordpress": {
+        "pageId": "26771",
+        "pageTitle": "Nintendo Switch reparatie",
+        "modified": "2026-10-08 21:36:02"
+      }
+    }
+  },
+  {
+    "id": "nintendo-nintendo-switch",
+    "slug": "nintendo-switch",
+    "name": "Nintendo Switch",
+    "brandId": "nintendo",
+    "categoryId": "console",
+    "series": "Nintendo Switch",
+    "order": 1011502,
+    "art": "console",
+    "popular": false,
+    "aliases": [
+      "Nintendo Switch reparatie (HAC-001) / (HAC-001(-01)",
+      "HAC-001"
+    ],
+    "repairs": [
+      "scherm-vervangen",
+      "batterij-vervangen",
+      "oplaadpoort-repareren",
+      "overige-reparaties"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/nintendo-switch-reparatie/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "WordPress export 2026-10-12; page last changed 2026-10-08."
+      }
+    ],
+    "extra": {
+      "wordpress": {
+        "pageId": "26771",
+        "pageTitle": "Nintendo Switch reparatie",
+        "modified": "2026-10-08 21:36:02"
+      }
+    }
+  },
+  {
+    "id": "nintendo-nintendo-switch-lite",
+    "slug": "nintendo-switch-lite",
+    "name": "Nintendo Switch Lite",
+    "brandId": "nintendo",
+    "categoryId": "console",
+    "series": "Nintendo Switch Lite",
+    "order": 1011603,
+    "art": "console",
+    "popular": false,
+    "aliases": [
+      "Nintendo Switch Lite reparatie (HDH-001)",
+      "HDH-001"
+    ],
+    "repairs": [
+      "scherm-vervangen",
+      "batterij-vervangen",
+      "oplaadpoort-repareren",
+      "overige-reparaties"
+    ],
+    "legacyUrls": [],
+    "sources": [
+      {
+        "url": "https://www.phonerepairs.nl/nintendo-switch-reparatie/",
+        "verification": "verified-source",
+        "capturedAt": "2026-10-12",
+        "note": "WordPress export 2026-10-12; page last changed 2026-10-08."
+      }
+    ],
+    "extra": {
+      "wordpress": {
+        "pageId": "26771",
+        "pageTitle": "Nintendo Switch reparatie",
+        "modified": "2026-10-08 21:36:02"
+      }
+    }
+  },
+  {
     "id": "huawei-huawei-nova-5t",
     "slug": "huawei-nova-5t",
     "name": "Huawei Nova 5T",
     "brandId": "huawei",
     "categoryId": "smartphone",
     "series": "Huawei Nova",
-    "order": 1011300,
+    "order": 1011700,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -31964,7 +32111,7 @@
     "brandId": "poco",
     "categoryId": "smartphone",
     "series": "Pocophone X",
-    "order": 1011500,
+    "order": 1011900,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -32006,7 +32153,7 @@
     "brandId": "apple",
     "categoryId": "smartphone",
     "series": "iPhone SE",
-    "order": 1011700,
+    "order": 1012100,
     "art": "phone-home-button",
     "popular": false,
     "aliases": [],
@@ -32048,7 +32195,7 @@
     "brandId": "apple",
     "categoryId": "smartphone",
     "series": "iPhone",
-    "order": 1011800,
+    "order": 1012200,
     "art": "phone-island",
     "popular": false,
     "aliases": [],
@@ -32090,7 +32237,7 @@
     "brandId": "huawei",
     "categoryId": "smartphone",
     "series": "Huawei Y",
-    "order": 1011900,
+    "order": 1012300,
     "releaseYear": 2019,
     "art": "phone-punch-hole",
     "popular": false,
@@ -32136,7 +32283,7 @@
     "brandId": "huawei",
     "categoryId": "smartphone",
     "series": "Huawei Y",
-    "order": 1012100,
+    "order": 1012500,
     "releaseYear": 2019,
     "art": "phone-punch-hole",
     "popular": false,
@@ -32182,7 +32329,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy A",
-    "order": 1012200,
+    "order": 1012600,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32228,7 +32375,7 @@
     "brandId": "oppo",
     "categoryId": "smartphone",
     "series": "OPPO Reno",
-    "order": 1012500,
+    "order": 1012900,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -32269,7 +32416,7 @@
     "brandId": "google",
     "categoryId": "smartphone",
     "series": "Pixel",
-    "order": 1012600,
+    "order": 1013000,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32312,7 +32459,7 @@
     "brandId": "realme",
     "categoryId": "smartphone",
     "series": "Realme",
-    "order": 1012700,
+    "order": 1013100,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -32351,7 +32498,7 @@
     "brandId": "realme",
     "categoryId": "smartphone",
     "series": "Realme",
-    "order": 1012800,
+    "order": 1013200,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -32390,7 +32537,7 @@
     "brandId": "apple",
     "categoryId": "smartphone",
     "series": "iPhone",
-    "order": 1012900,
+    "order": 1013300,
     "art": "phone-island",
     "popular": false,
     "aliases": [],
@@ -32432,7 +32579,7 @@
     "brandId": "xiaomi",
     "categoryId": "smartphone",
     "series": "Xiaomi Mi Note",
-    "order": 1013100,
+    "order": 1013500,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32478,7 +32625,7 @@
     "brandId": "xiaomi",
     "categoryId": "smartphone",
     "series": "Xiaomi Mi",
-    "order": 1013200,
+    "order": 1013600,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -32519,7 +32666,7 @@
     "brandId": "google",
     "categoryId": "smartphone",
     "series": "Pixel",
-    "order": 1013500,
+    "order": 1013900,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32562,7 +32709,7 @@
     "brandId": "oppo",
     "categoryId": "smartphone",
     "series": "OPPO Reno",
-    "order": 1013600,
+    "order": 1014000,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32607,7 +32754,7 @@
     "brandId": "poco",
     "categoryId": "smartphone",
     "series": "Pocophone M",
-    "order": 1013800,
+    "order": 1014200,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -32649,7 +32796,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy M",
-    "order": 1013900,
+    "order": 1014300,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32692,7 +32839,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy M",
-    "order": 1014000,
+    "order": 1014400,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32734,7 +32881,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy F",
-    "order": 1014100,
+    "order": 1014500,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32775,7 +32922,7 @@
     "brandId": "xiaomi",
     "categoryId": "smartphone",
     "series": "Xiaomi Mi Max",
-    "order": 1014700,
+    "order": 1015100,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -32810,7 +32957,7 @@
     "brandId": "apple",
     "categoryId": "smartphone",
     "series": "iPhone",
-    "order": 1015100,
+    "order": 1015500,
     "art": "phone-home-button",
     "popular": false,
     "aliases": [
@@ -32850,7 +32997,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy S",
-    "order": 1015200,
+    "order": 1015600,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32895,7 +33042,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy S",
-    "order": 1015300,
+    "order": 1015700,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32940,7 +33087,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy S",
-    "order": 1015400,
+    "order": 1015800,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32985,7 +33132,7 @@
     "brandId": "huawei",
     "categoryId": "smartphone",
     "series": "Huawei P Smart S",
-    "order": 1015500,
+    "order": 1015900,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -33030,7 +33177,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy A",
-    "order": 1015600,
+    "order": 1016000,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -33075,7 +33222,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy M",
-    "order": 1015700,
+    "order": 1016100,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -33118,7 +33265,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy Note",
-    "order": 1015800,
+    "order": 1016200,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -33160,7 +33307,7 @@
     "brandId": "redmi",
     "categoryId": "smartphone",
     "series": "Redmi",
-    "order": 1015900,
+    "order": 1016300,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -33202,7 +33349,7 @@
     "brandId": "oppo",
     "categoryId": "smartphone",
     "series": "OPPO Reno",
-    "order": 1016100,
+    "order": 1016500,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -33247,7 +33394,7 @@
     "brandId": "oppo",
     "categoryId": "smartphone",
     "series": "OPPO Reno",
-    "order": 1016200,
+    "order": 1016600,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -33292,7 +33439,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy M",
-    "order": 1016400,
+    "order": 1016800,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -33333,7 +33480,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy M",
-    "order": 1016700,
+    "order": 1017100,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -33376,7 +33523,7 @@
     "brandId": "oppo",
     "categoryId": "smartphone",
     "series": "OPPO Reno",
-    "order": 1016800,
+    "order": 1017200,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -33421,7 +33568,7 @@
     "brandId": "apple",
     "categoryId": "tablet",
     "series": "iPad Pro",
-    "order": 1016900,
+    "order": 1017300,
     "releaseYear": 2022,
     "art": "tablet",
     "popular": false,
@@ -33459,7 +33606,7 @@
     "brandId": "realme",
     "categoryId": "smartphone",
     "series": "Realme GT Neo",
-    "order": 1017100,
+    "order": 1017500,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -33501,7 +33648,7 @@
     "brandId": "poco",
     "categoryId": "smartphone",
     "series": "Poco F",
-    "order": 1017200,
+    "order": 1017600,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],

@@ -6,8 +6,9 @@
  *   objects; they are dropped here. A page made in the CMS without a source gets its own
  *   future URL as source ("owner-confirmed": written by the shop or its agency).
  * - seo/*.json → seo-overrides.json: title/description per URL path.
+ * - announcement.json → announcement.json: the announcement bar, or null when switched off.
  */
-import { mkdirSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { GENERATED_DIR, PAGES_DIR, SEO_DIR, readEntries } from "./files";
 
@@ -28,6 +29,9 @@ function section(raw: Raw) {
     body: list(raw.body),
     bullets: list(raw.bullets),
     steps: list(raw.steps),
+    prices: (Array.isArray(raw.prices) ? (raw.prices as Raw[]) : [])
+      .filter((r) => str(r.label) && str(r.price))
+      .map((r) => ({ label: str(r.label), price: str(r.price), ...(opt(r.note) ? { note: str(r.note) } : {}) })),
     ...(str(image.src)
       ? { image: { src: str(image.src), alt: str(image.alt), width: Number(image.width), height: Number(image.height) } }
       : {}),
@@ -77,7 +81,19 @@ const seo = readEntries<Raw>(ROOT, SEO_DIR)
   .map((s) => ({ id: s.id, path: str(s.path).replace(/(.)\/$/, "$1"), title: opt(s.title), description: opt(s.description) }))
   .filter((s) => s.path.startsWith("/") && (s.title || s.description));
 
+// Announcement bar (CMS singleton src/content/announcement.json): only written when switched on.
+let announcement: { text: string; linkLabel?: string; linkHref?: string } | null = null;
+try {
+  const a = JSON.parse(readFileSync(join(ROOT, "src/content/announcement.json"), "utf8")) as Raw;
+  if (a.active === true && str(a.text)) {
+    announcement = { text: str(a.text), ...(opt(a.linkLabel) && opt(a.linkHref) ? { linkLabel: str(a.linkLabel), linkHref: str(a.linkHref) } : {}) };
+  }
+} catch {
+  // No announcement file: no bar.
+}
+
 mkdirSync(join(ROOT, GENERATED_DIR), { recursive: true });
+writeFileSync(join(ROOT, GENERATED_DIR, "announcement.json"), JSON.stringify(announcement, null, 2) + "\n");
 writeFileSync(join(ROOT, GENERATED_DIR, "landing-pages.json"), JSON.stringify(pages, null, 2) + "\n");
 writeFileSync(join(ROOT, GENERATED_DIR, "seo-overrides.json"), JSON.stringify(seo, null, 2) + "\n");
 console.log(`Content: ${pages.length} pages, ${seo.length} SEO overrides → ${GENERATED_DIR}/`);

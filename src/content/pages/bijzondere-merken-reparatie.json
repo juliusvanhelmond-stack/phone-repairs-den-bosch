@@ -2,24 +2,57 @@
   "path": "/bijzondere-merken-reparatie",
   "kind": "service",
   "originalTitle": "Bijzondere merken reparatie voor elk type smartphone",
-  "title": "Reparatie van bijzondere merken",
+  "title": "Reparatie van zeldzame en minder bekende merken",
   "eyebrow": "Bijzondere merken",
-  "intro": "Niet elke smartphone is een iPhone of Samsung. Phone Repairs repareert ook toestellen van minder gangbare merken.",
+  "intro": "Bij Phone Repairs Den Bosch houdt onze expertise niet op bij bekende merken zoals Apple en Samsung. Ook voor minder bekende merken, bijzondere modellen en toestellen die je niet overal kunt laten repareren, zoeken we graag naar een passende oplossing. Staat jouw merk of model niet op onze website? Geen probleem. De kans is groot dat we je alsnog kunnen helpen. Daarom controleren we eerst of de juiste onderdelen via de fabrikant of onze leveranciers verkrijgbaar zijn.",
   "seo": {
     "title": "Bijzondere merken reparatie · Phone Repairs",
     "description": "Google Pixel, Honor, Nexus of een ander merk? Ook minder gangbare smartphones repareer je bij Phone Repairs in Den Bosch."
   },
   "sections": [
     {
-      "heading": "Ook deze merken",
-      "bullets": [
-        "Google Pixel",
-        "Honor",
-        "Nexus"
-      ],
+      "heading": "Onderdelen op aanvraag",
+      "intro": [],
       "body": [
-        "Twijfel je of jouw toestel gerepareerd kan worden? Neem contact op, dan hoor je het meteen."
-      ]
+        "Staat jouw telefoon of defect niet tussen ons standaard reparatieaanbod? Neem dan gerust contact met ons op via telefoon, WhatsApp of e-mail. We vertellen je graag welke reparatiemogelijkheden, onderdelen en levertijden er voor jouw toestel zijn."
+      ],
+      "bullets": [
+        "Speciaal voor jouw toestel: we controleren de beschikbaarheid van de juiste onderdelen en bestellen deze speciaal voor jouw toestel.",
+        "Duidelijkheid over de levertijd: bij minder gangbare onderdelen kan de levertijd variëren van enkele werkdagen tot een paar weken. Zodra we dit weten, laten we je precies weten waar je aan toe bent.",
+        "Vooraf een heldere prijs: voordat we iets bestellen of repareren, ontvang je een duidelijke prijsopgave inclusief onderdelen, montage en btw. Zo kom je achteraf niet voor verrassingen te staan."
+      ],
+      "steps": []
+    },
+    {
+      "heading": "Vrijwel elk zeldzaam onderdeel leverbaar via ons netwerk",
+      "intro": [
+        "Kun je een onderdeel nergens vinden? Wij gaan verder waar anderen stoppen:"
+      ],
+      "body": [],
+      "bullets": [
+        "Direct bij de fabrikant: we controleren altijd eerst de officiële toeleveringskanalen.",
+        "Wereldwijd inkoopnetwerk: levert de fabrikant niet meer? Dan schakelen we ons netwerk in Shenzhen (China) in, inclusief onze directe contacten op elektronicamarkt Huaqiangbei.",
+        "Originele kwaliteit: dankzij deze korte lijnen met gespecialiseerde toeleveranciers kunnen we vrijwel elk specifiek onderdeel traceren."
+      ],
+      "steps": []
+    },
+    {
+      "heading": "Hoe werkt deze zoekservice?",
+      "intro": [],
+      "body": [
+        "Voor het opsporen van zeldzame of moeilijk verkrijgbare onderdelen rekenen we een vaste onderzoekstoeslag van € 30,- bovenop de uiteindelijke reparatiekosten. Dit bedrag dekt de tijd en het internationale onderzoek en rekenen we vooraf af. Betalen kan bij ons eenvoudig via pin, contant of een betaalverzoek."
+      ],
+      "bullets": [],
+      "steps": []
+    },
+    {
+      "heading": "Altijd 12 maanden garantie op bijzondere merken reparatie",
+      "intro": [],
+      "body": [
+        "Wij zijn uniek met onze garantietermijn van 12 maanden garantie. Reparaties dienen goed te worden uitgevoerd en moeten duurzaam zijn. Wij gebruiken originele service pack onderdelen en geven je zelfs 12 maanden garantie op de vervangen onderdelen."
+      ],
+      "bullets": [],
+      "steps": []
     }
   ],
   "unconfirmed": [],
@@ -29,9 +62,9 @@
   "sources": [
     {
       "url": "https://www.phonerepairs.nl/bijzondere-merken-reparatie/",
-      "verification": "search-index",
+      "verification": "verified-source",
       "capturedAt": "2026-10-12",
-      "note": "Original title only; brand list (Samsung, Huawei, Honor, Nexus, Google Pixel, OnePlus) seen in a search snippet of the site, exact page to confirm."
+      "note": "WordPress export 2026-10-12. The sections 'Onderdelen op aanvraag', 'Vrijwel elk zeldzaam onderdeel…' and 'Hoe werkt deze zoekservice?' are transcribed from the page's two infographics (download-2.png, Codex-afbeelding-23-sep-2026-19_18_51.png) at the owner's request (e-mail 16 October 2026)."
     }
   ],
   "id": "bijzondere-merken-reparatie"

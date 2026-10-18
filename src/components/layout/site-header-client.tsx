@@ -157,7 +157,6 @@ function MegaMenu({ nav }: { nav: NavData }) {
           href="/#toestel-zoeken"
           className="group relative flex min-h-56 flex-col justify-end overflow-hidden rounded-[1.25rem] bg-night p-6 text-white"
         >
-          <div className="bg-grid absolute inset-0 opacity-[0.35] invert" aria-hidden />
           <div
             className="absolute -top-16 -right-16 size-56 rounded-full bg-accent/40 blur-3xl"
             aria-hidden

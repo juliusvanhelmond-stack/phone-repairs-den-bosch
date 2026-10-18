@@ -62,12 +62,12 @@ export async function RepairPriceList({ device, repairs }: { device: DeviceModel
                 {...(wa ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                 className="inline-flex h-10 shrink-0 items-center gap-1.5 rounded-full bg-accent px-4 text-sm font-medium text-white transition-colors hover:bg-accent-strong"
                 aria-label={t(
-                  `${r.name} voor je ${name} aanvragen via ${wa ? "WhatsApp" : "telefoon"}`,
-                  `Request ${r.name.toLowerCase()} for your ${name} via ${wa ? "WhatsApp" : "phone"}`,
+                  `Afspraak maken voor ${r.name.toLowerCase()} van je ${name} via ${wa ? "WhatsApp" : "telefoon"}`,
+                  `Make an appointment for ${r.name.toLowerCase()} of your ${name} via ${wa ? "WhatsApp" : "phone"}`,
                 )}
               >
                 {wa ? <MessageCircle className="size-4" aria-hidden /> : <Phone className="size-4" aria-hidden />}
-                {t("Aanvragen", "Request")}
+                {t("Afspraak maken", "Make an appointment")}
               </a>
             </div>
             <PriceRows rows={rows} t={t} locale={locale} />

@@ -28,7 +28,8 @@ export async function ContactActions({
   const wa = whatsappHref(message ?? whatsappMessage({ locale }));
   const dark = tone === "dark";
   return (
-    <div className={className}>
+    // Without the e-mail line nothing is left on mobile: hide the wrapper too, so its margin leaves no gap.
+    <div className={cn(!email && "max-md:hidden", className)}>
       {/* On mobile the pinned WhatsApp/Bellen bar is always visible: no duplicate buttons (client request). */}
       <div className="hidden flex-row flex-wrap gap-3 md:flex">
         {wa && (

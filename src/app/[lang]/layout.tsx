@@ -6,6 +6,8 @@ import { SiteHeader } from "@/components/layout/site-header";
 import { KiyohFloat } from "@/components/contact/kiyoh";
 import { MobileActionBar } from "@/components/contact/mobile-action-bar";
 import { BackToTop } from "@/components/layout/back-to-top";
+import { ScrollToTop } from "@/components/layout/scroll-to-top";
+import { AnnouncementBar } from "@/components/layout/announcement-bar";
 import { ThemeScript } from "@/components/theme/theme-script";
 import { TopBar } from "@/components/layout/top-bar";
 import { WhatsAppWidget } from "@/components/contact/whatsapp-widget";
@@ -66,6 +68,7 @@ export default async function RootLayout({ children }: LayoutProps<"/[lang]">) {
           >
             {t("Naar de inhoud", "Skip to content")}
           </a>
+          <AnnouncementBar />
           <TopBar />
           <SiteHeader />
           <main id="inhoud" className="flex-1">
@@ -75,6 +78,7 @@ export default async function RootLayout({ children }: LayoutProps<"/[lang]">) {
           <MobileActionBar />
           <KiyohFloat />
           <BackToTop />
+          <ScrollToTop />
           <WhatsAppWidget />
           <JsonLd data={localBusinessJsonLd()} />
         </LocaleProvider>

@@ -304,5 +304,16 @@
         "note": "WordPress export 2026-10-12; page last changed 2019-11-15."
       }
     ]
+  },
+  {
+    "id": "nintendo",
+    "name": "Nintendo",
+    "categories": [
+      "console"
+    ],
+    "popular": false,
+    "order": 16,
+    "legacyUrls": [],
+    "sources": []
   }
 ]

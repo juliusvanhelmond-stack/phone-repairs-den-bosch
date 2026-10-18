@@ -304,7 +304,7 @@ export function DeviceFinder({
           >
             {step === "category" && (
               <div className="space-y-8">
-                <div className="grid gap-3 sm:grid-cols-3">
+                <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
                   {categories.map((c) => {
                     return (
                       <ChoiceCard
@@ -313,12 +313,16 @@ export function DeviceFinder({
                         className="flex-row p-0 sm:flex-col"
                       >
                         <div className="relative flex h-auto w-24 shrink-0 items-center justify-center tone-light overflow-hidden border-line bg-white p-2 max-sm:border-r sm:h-36 sm:w-auto sm:border-b sm:p-4">
-                          <Image
-                            src={categoryPhoto(c.id)}
-                            alt=""
-                            sizes="(min-width: 640px) 16rem, 6rem"
-                            className="h-full max-h-20 w-full object-contain transition-transform duration-500 group-hover:scale-[1.04] sm:max-h-none"
-                          />
+                          {c.id === "console" ? (
+                            <DeviceArt art="console" className="w-full max-w-36 transition-transform duration-500 group-hover:scale-[1.04]" />
+                          ) : (
+                            <Image
+                              src={categoryPhoto(c.id)}
+                              alt=""
+                              sizes="(min-width: 640px) 16rem, 6rem"
+                              className="h-full max-h-20 w-full object-contain transition-transform duration-500 group-hover:scale-[1.04] sm:max-h-none"
+                            />
+                          )}
                         </div>
                         <div className="flex flex-1 items-center justify-between gap-3 p-4 sm:p-5">
                           <span>
@@ -661,7 +665,7 @@ function FinderResult({
           )}
           <ul className="mt-6 grid gap-3 border-t border-line pt-5 text-sm text-ink-soft sm:grid-cols-2">
             <li className="flex items-center gap-2">
-              <Timer className="size-4 text-accent" aria-hidden /> {t("Vaak klaar binnen 30 minuten", "Often ready within 30 minutes")}
+              <Timer className="size-4 text-accent" aria-hidden /> {t("Klaar binnen 30 minuten", "Ready within 30 minutes")}
             </li>
             <li className="flex items-center gap-2">
               <Check className="size-4 text-accent" aria-hidden /> {t("Originele onderdelen", "Original parts")}

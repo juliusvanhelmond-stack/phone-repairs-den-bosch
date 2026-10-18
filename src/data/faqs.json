@@ -321,7 +321,7 @@
     "id": "leentoestel",
     "question": "Bieden jullie een leentoestel tijdens de reparatie?",
     "answer": [
-      "Wij repareren jouw iPhone 17 Pro zo razend snel dat het instellen van een leentoestel langer zou duren. Zo heb jij helemaal geen leentoestel nodig. En zeg nou zelf; die 30 minuutjes zonder telefoon zijn eigenlijk best lekker."
+      "Wij repareren jouw toestel zo razend snel dat het instellen van een leentoestel langer zou duren. Zo heb jij helemaal geen leentoestel nodig. En zeg nou zelf; die 30 minuutjes zonder telefoon zijn eigenlijk best lekker."
     ],
     "topics": [
       "reparaties"
@@ -394,7 +394,7 @@
     "id": "openingstijden",
     "question": "Wanneer zijn jullie open?",
     "answer": [
-      "Phone Repairs is zeven dagen per week geopend, ook in de avond, en op zon- en feestdagen. Omdat er op afspraak wordt gewerkt, spreken wij samen met jou af op een moment dat het jou uitkomt."
+      "Phone Repairs is zeven dagen per week geopend, ook in de avond, en op zon- en feestdagen. Op zon- en feestdagen gelden de openingstijden van zondag. Omdat er op afspraak wordt gewerkt, spreken wij samen met jou af op een moment dat het jou uitkomt."
     ],
     "topics": [
       "locatie",

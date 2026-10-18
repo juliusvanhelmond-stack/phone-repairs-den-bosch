@@ -32,8 +32,8 @@ export async function generateMetadata(): Promise<Metadata> {
   return pageMetadata({
     title: t("Over ons", "About us"),
     description: t(
-      "Phone Repairs repareert smartphones, tablets en MacBooks in Den Bosch. Op afspraak, persoonlijk en vaak binnen 30 minuten.",
-      "Phone Repairs repairs smartphones, tablets and MacBooks in Den Bosch. By appointment, personal and often within 30 minutes.",
+      "Phone Repairs repareert smartphones, tablets en MacBooks in Den Bosch. Op afspraak, persoonlijk en binnen 30 minuten.",
+      "Phone Repairs repairs smartphones, tablets and MacBooks in Den Bosch. By appointment, personal and within 30 minutes.",
     ),
     path: "/over-ons",
     locale,

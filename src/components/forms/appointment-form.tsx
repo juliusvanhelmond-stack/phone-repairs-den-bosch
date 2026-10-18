@@ -299,7 +299,7 @@ export function AppointmentForm({
           {t("We gebruiken je gegevens alleen om je afspraak in te plannen.", "We only use your details to schedule your appointment.")}
         </p>
         <Button type="submit" size="lg" disabled={isSubmitting}>
-          {t("Afspraak aanvragen", "Request appointment")}
+          {t("Afspraak maken", "Make an appointment")}
           <ArrowRight aria-hidden />
         </Button>
       </div>

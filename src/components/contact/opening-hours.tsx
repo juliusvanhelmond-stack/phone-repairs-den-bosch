@@ -45,19 +45,25 @@ export function OpeningToday({ className }: { className?: string }) {
 
 /** All opening hours, today highlighted. */
 export function OpeningHoursList({ className }: { className?: string }) {
-  const { locale } = useI18n();
+  const { locale, t } = useI18n();
   const today = useToday();
   return (
-    <dl className={cn("grid grid-cols-[auto_1fr] gap-x-6 gap-y-1.5", className)}>
-      {site.openingHours.days.map((d) => {
-        const current = d.day === today;
-        return (
-          <div key={d.day} className="contents">
-            <dt className={cn(current ? "font-semibold text-ink" : "text-muted")}>{locale === "en" ? d.en : d.nl}</dt>
-            <dd className={cn("tabular-nums", current ? "font-semibold text-ink" : "text-ink-soft")}>{range(d)}</dd>
-          </div>
-        );
-      })}
-    </dl>
+    <div className={className}>
+      <dl className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-1.5">
+        {site.openingHours.days.map((d) => {
+          const current = d.day === today;
+          return (
+            <div key={d.day} className="contents">
+              <dt className={cn(current ? "font-semibold text-ink" : "text-muted")}>{locale === "en" ? d.en : d.nl}</dt>
+              <dd className={cn("tabular-nums", current ? "font-semibold text-ink" : "text-ink-soft")}>{range(d)}</dd>
+            </div>
+          );
+        })}
+      </dl>
+      {/* Owner, e-mail 2026-10-16: public holidays follow the Sunday hours. */}
+      <p className="mt-3 text-sm text-muted">
+        {t("Op feestdagen gelden de openingstijden van zondag.", "On public holidays the Sunday hours apply.")}
+      </p>
+    </div>
   );
 }

@@ -21,6 +21,10 @@ const ownerWording = (text: string) =>
   text
     .replace(/\b(a)lleen op afspraak\b/gi, (_m, a: string) => (a === "A" ? "Altijd op afspraak" : "altijd op afspraak"))
     .replace(/\bbinnen ongeveer 30 minuten\b/g, "binnen 30 minuten")
+    // Return shipping costs €12 (owner, e-mail 2026-10-16; the old page says €11).
+    .replace("aangetekend terug (kosten €11,-)", "aangetekend terug (kosten €12,-)")
+    // "Ruim 20 jaar reparatie ervaring is de juiste tijd" (owner, e-mail 2026-10-16); some old pages say 15.
+    .replace(/\bmeer dan 15 jaar ervaring\b/g, "ruim 20 jaar ervaring")
     .replace(/([A-Z][^."\\]{20,}\.) \1/g, "$1");
 const json = (v: unknown) => ownerWording(JSON.stringify(v, null, 2)) + "\n";
 
@@ -44,15 +48,20 @@ export const INFO_PAGES: InfoPageDef[] = [
   {
     path: "/garantie",
     eyebrow: "Garantie",
-    // Martijn Derks (Phone Repairs), e-mail "Laatste mail van vandaag", 13 October 2026 21:07.
-    // Left out until he confirms: the swap/motherboard line ("3 maanden" vs 60 days on this page),
-    // the unfinished battery conditions and the empty list items.
+    // Martijn Derks (Phone Repairs), e-mail "Laatste mail van vandaag", 13 October 2026 21:07, and his
+    // answers of 16 October: motherboard repairs stay 60 days (as on this page), no swap line, the battery
+    // has one condition, the old "Wanneer vervalt de garantie?" block goes.
+    drop: /^Wanneer vervalt de garantie\?$/,
     ownerSections: [
       {
         after: "Overige reparaties – 12 maanden garantie",
         sections: [
           ownerSection("Batterijgarantie", {
-            body: ["Een batterij slijt na verloop van tijd — dat is normaal.", "Daarom krijg je op batterijen 12 maanden garantie."],
+            body: [
+              "Een batterij slijt na verloop van tijd — dat is normaal.",
+              "Daarom krijg je op batterijen 12 maanden garantie.",
+              "Binnen deze periode geldt garantie als de maximumcapaciteit onder 80% zakt.",
+            ],
           }),
           ownerSection("Garantie op screenprotectors", {
             body: [
@@ -75,7 +84,7 @@ export const INFO_PAGES: InfoPageDef[] = [
         ],
       },
       {
-        after: "Wanneer vervalt de garantie?",
+        after: "Waarop geldt de garantie?",
         sections: [
           ownerSection("Wanneer geldt de garantie niet?", {
             intro: ["We geven géén garantie bij:"],
@@ -88,7 +97,7 @@ export const INFO_PAGES: InfoPageDef[] = [
               "✕ Kabelproblemen bij vouwbare apparaten (zoals Samsung Z-serie of laptops/MacBooks) — door slijtage bij veelvuldig open- en dichtvouwen",
             ],
             body: [
-              "Wanneer je jouw device laat repareren bij Phone Repairs kan mogelijk je fabrieksgarantie vervallen. Dit is onder andere afhankelijk van het merk en kwaliteit van onderdeel.",
+              "Wanneer je jouw device laat repareren bij Phone Repairs kan mogelijk je fabrieksgarantie vervallen. Dit is onder andere afhankelijk van het merk en de kwaliteit van het door jou gekozen onderdeel.",
             ],
           }),
         ],
@@ -101,7 +110,36 @@ export const INFO_PAGES: InfoPageDef[] = [
     },
   },
   { path: "/waterschade-reparatie-phone-repairs", eyebrow: "Waterschade" },
-  { path: "/moederbord-reparatie-den-bosch", eyebrow: "Moederbord reparatie" },
+  {
+    path: "/moederbord-reparatie-den-bosch",
+    eyebrow: "Moederbord reparatie",
+    // The rate card on this page is an image ("Tarieven moederbord onderzoek", /wp-content/uploads/2026/09/
+    // exec-484fc69d-…png); the owner asked for the rates as text (e-mail 2026-10-16).
+    ownerSections: [
+      {
+        after: "Hete lucht solderen",
+        sections: [
+          ownerSection("Tarieven moederbord onderzoek", {
+            intro: ["Inclusief btw en montage."],
+            prices: [
+              { label: "Telefoons – moederbord diagnose", price: "€49,-" },
+              { label: "Tablets – moederbord diagnose", price: "€59,-" },
+              { label: "MacBook – moederbord diagnose", price: "€69,-" },
+              { label: "Nintendo Switch – moederbord diagnose", price: "€49,-" },
+            ],
+            body: [
+              "We onderzoeken je toestel eerst om de oorzaak van het probleem vast te stellen. Vervolgens bespreken we de reparatiemogelijkheden en de geschatte kosten met je. Besluit je niet tot reparatie over te gaan? Dan betaal je alleen de moederbordonderzoekskosten.",
+            ],
+          }),
+        ],
+      },
+    ],
+    ownerSource: {
+      url: `${ORIGIN}/moederbord-reparatie-den-bosch/`,
+      capturedAt: "2026-10-16",
+      note: "Motherboard diagnosis rates and the 'Eerst onderzoek en overleg' text transcribed from the images on this page at the owner's request (e-mail 16 October 2026).",
+    },
+  },
   { path: "/data-recovery", eyebrow: "Data recovery", drop: /waterschade|waterdicht/i },
   { path: "/originele-onderdelen-phone-repairs", eyebrow: "Onderdelen", drop: /waterschade|hoe langer u wacht|voorraad/i },
   // Only the first section is about the OLED screens; the rest is a general SEO block.
@@ -148,6 +186,7 @@ const short = (s: Section) => ({
   body: s.body,
   bullets: s.bullets,
   steps: s.steps,
+  ...(s.prices?.length ? { prices: s.prices } : {}),
 });
 
 export function importContent(items: WxrItem[], exportedAt: string, root: string) {

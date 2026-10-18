@@ -28,6 +28,8 @@ export const BRANDS: BrandDef[] = [
   { id: "sony", name: "Sony", order: 13 },
   { id: "realme", name: "Realme", order: 14 },
   { id: "asus", name: "Asus", order: 15 },
+  // Asked for in the device overview, per model (owner, e-mail 2026-10-16).
+  { id: "nintendo", name: "Nintendo", order: 16 },
 ];
 
 /** First path segment of the original site → brand and default category. */
@@ -49,6 +51,7 @@ const PATH_BRANDS: [RegExp, string, string][] = [
   [/^\/oppo-reparatie(\/|$)/, "oppo", "smartphone"],
   [/^\/asus-zenfone-reparatie(\/|$)/, "asus", "smartphone"],
   [/^\/(moto|motorola)-reparatie(\/|$)/, "motorola", "smartphone"],
+  [/^\/nintendo-switch-reparatie(\/|$)/, "nintendo", "console"],
   [/^\/realme-(reparatie|7-pro)(\/|$)/, "realme", "smartphone"],
 ];
 
@@ -69,6 +72,7 @@ const NAME_BRANDS: [RegExp, string][] = [
   [/^(asus|zenfone)/i, "asus"],
   [/^(motorola|moto)\b/i, "motorola"],
   [/^realme/i, "realme"],
+  [/^nintendo/i, "nintendo"],
 ];
 
 export function brandForPath(path: string): { brandId: string; categoryId: string } | null {
@@ -79,6 +83,7 @@ export function brandForPath(path: string): { brandId: string; categoryId: strin
 export function categoryForName(name: string, fallback: string): string {
   if (/macbook/i.test(name)) return "laptop";
   if (/\b(ipad|tab)\b/i.test(name)) return "tablet";
+  if (/nintendo|switch/i.test(name)) return "console";
   return fallback === "tablet" || fallback === "laptop" ? "smartphone" : fallback;
 }
 
@@ -108,6 +113,8 @@ export function displayName(raw: string, brandId: string): string {
   }
   if (brandId === "google") n = n.replace(/^Google\s+/i, "");
   if (brandId === "sony") n = n.replace(/^Sony\s+/i, "");
+  // "Nintendo Switch reparatie (HAC-001) / (HAC-001(-01)": the model is what comes before "reparatie".
+  if (brandId === "nintendo") n = n.replace(/\s+reparatie\b.*$/i, "");
   if (brandId === "apple") {
     n = n
       .replace(/^Apple\s+/i, "")
@@ -292,10 +299,12 @@ export type Art =
   | "phone-flip"
   | "tablet"
   | "tablet-home-button"
-  | "laptop";
+  | "laptop"
+  | "console";
 
 export function artFor(name: string, brandId: string, categoryId: string): Art {
   if (categoryId === "laptop") return "laptop";
+  if (categoryId === "console") return "console";
   if (categoryId === "tablet") {
     const old = /\biPad (Air (2|3)\b|mini [2-5]\b|[2-9]\b|(Pro )?(9\.7|10\.5)|Mini [2-5]\b|Air 2019)|\biPad [2-9] 20(1\d|20|21)\b/i;
     return brandId === "apple" && old.test(name) ? "tablet-home-button" : "tablet";

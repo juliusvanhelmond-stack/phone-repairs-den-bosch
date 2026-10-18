@@ -20,7 +20,7 @@ The Adobe Stock photos used before (735790954, 257975054, 300745045, 299326526) 
 One representative photo per device type, shown on a white background on device cards, device pages and in the
 device finder. All are unbranded mockups licensed through Adobe Stock (standard licence, free tier) on 2026-10-12.
 They illustrate the type of device, not the exact model, so the alt text says "voorbeeldafbeelding" and device
-pages carry the caption "Afbeelding ter illustratie". Backgrounds were whitened and cropped locally
+pages carried the caption "Afbeelding ter illustratie" until the client asked to remove it (2026-10-16). Backgrounds were whitened and cropped locally
 (no generative edits). Foldables (Galaxy Z) still use the SVG render: no suitable photo on white was found.
 
 | File | Used for | Adobe Stock ID |

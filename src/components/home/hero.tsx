@@ -12,10 +12,6 @@ export async function Hero() {
   return (
     <section className="relative isolate -mt-16 overflow-hidden pt-16 lg:-mt-[4.5rem] lg:pt-[4.5rem]">
       <Aura variant="hero" />
-      <div
-        className="bg-grid absolute inset-0 -z-10 [mask-image:radial-gradient(ellipse_70%_60%_at_70%_40%,#000_20%,transparent_75%)]"
-        aria-hidden
-      />
       <div className="container-page grid items-center gap-6 pt-10 pb-16 lg:grid-cols-[1.05fr_1fr] lg:gap-10 lg:pt-16 lg:pb-24">
         <div className="max-w-2xl animate-fade-up">
           {/* The page's H1 carries the keyword the current homepage ranks on (SEO audit HV Media). */}
@@ -29,8 +25,8 @@ export async function Hero() {
             <span className="hidden text-sm text-muted sm:inline">· {t("op afspraak", "by appointment")}</span>
           </div>
           <p className="text-display font-semibold text-balance text-ink">
-            {t("Je toestel weer als nieuw.", "Your device as good as new.")}{" "}
-            <span className="text-muted">{t("Snel, vakkundig en transparant.", "Fast, skilled and transparent.")}</span>
+            {t("Kijk mee hoe onze expert je toestel repareert.", "Watch our expert repair your device.")}{" "}
+            <span className="text-muted">{t("Snel, eerlijk en vakkundig.", "Fast, honest and skilled.")}</span>
           </p>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-pretty text-muted sm:text-xl">
             {t(
@@ -49,7 +45,7 @@ export async function Hero() {
           <ul className="mt-10 flex flex-wrap gap-x-6 gap-y-3 text-sm text-ink-soft">
             <li className="flex items-center gap-2">
               <Timer className="size-4 text-accent" aria-hidden />
-              {t("Vaak klaar binnen 30 minuten", "Often ready within 30 minutes")}
+              {t("Klaar binnen 30 minuten", "Ready within 30 minutes")}
             </li>
             <li className="flex items-center gap-2">
               <Eye className="size-4 text-accent" aria-hidden />
@@ -88,7 +84,7 @@ export async function Hero() {
             </span>
             <span>
               <span className="block text-sm font-medium text-ink">{t("Schermreparatie", "Screen repair")}</span>
-              <span className="block text-xs text-muted">{t("Vaak binnen 30 minuten", "Often within 30 minutes")}</span>
+              <span className="block text-xs text-muted">{t("Binnen 30 minuten", "Within 30 minutes")}</span>
             </span>
           </FloatingCard>
           <FloatingCard className="bottom-5 left-4 max-sm:hidden sm:bottom-8 sm:left-8 lg:left-0" delay="0.7s">

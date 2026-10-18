@@ -6,7 +6,7 @@ import { IphoneExperience, type RepairInfo } from "./iphone-experience";
 import { MODEL_URL } from "./config";
 import { REPAIR_ORDER, REPAIR_SERVICE_IDS, type RepairKey } from "./parts";
 
-/** Repairs whose typical duration is backed by the original site ("vaak binnen 30 minuten"). */
+/** Repairs whose typical duration is backed by the original site ("binnen 30 minuten"). */
 const VERIFIED_QUICK = new Set<RepairKey>(["display", "battery"]);
 
 /**
@@ -31,7 +31,7 @@ export async function IphoneSection() {
           whatsappHref(whatsappMessage({ device: device?.name ?? "iPhone", repair: service.name, locale })) ??
           `/afspraak?${device ? `toestel=${device.id}&` : ""}reparatie=${service.id}`,
         ...(price ? { price } : {}),
-        ...(VERIFIED_QUICK.has(key) ? { duration: t("Vaak binnen 30 minuten", "Often within 30 minutes") } : {}),
+        ...(VERIFIED_QUICK.has(key) ? { duration: t("Binnen 30 minuten", "Within 30 minutes") } : {}),
       };
       return [key, info];
     }),

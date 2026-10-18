@@ -66,7 +66,7 @@
     ],
     "icon": "camera",
     "categories": ["smartphone", "tablet"],
-    "order": 4,
+    "order": 5,
     "popular": true,
     "advice": [],
     "sources": [
@@ -106,7 +106,7 @@
     ],
     "icon": "layers",
     "categories": ["smartphone"],
-    "order": 5,
+    "order": 4,
     "popular": true,
     "advice": [],
     "sources": [

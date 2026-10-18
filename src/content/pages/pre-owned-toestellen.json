@@ -25,6 +25,60 @@
       "body": [
         "Het aanbod wisselt steeds. Bel of mail om te horen welke toestellen er nu beschikbaar zijn."
       ]
+    },
+    {
+      "heading": "Aanbieding direct leverbaar",
+      "intro": [],
+      "body": [],
+      "bullets": [],
+      "steps": [],
+      "prices": [
+        {
+          "label": "Google Pixel 9 Pro Fold 256GB zwart",
+          "price": "€750,-"
+        }
+      ]
+    },
+    {
+      "heading": "Levertijd 1-2 werkdagen",
+      "intro": [],
+      "body": [],
+      "bullets": [],
+      "steps": [],
+      "prices": [
+        {
+          "label": "iPhone 15 Pro 256GB",
+          "price": "€725,-"
+        },
+        {
+          "label": "iPhone 15 Pro 128GB",
+          "price": "€650,-"
+        },
+        {
+          "label": "iPhone 15 256GB",
+          "price": "€600,-"
+        },
+        {
+          "label": "iPhone 15 128GB",
+          "price": "€570,-"
+        },
+        {
+          "label": "iPhone 14 Pro 256GB",
+          "price": "€615,-"
+        },
+        {
+          "label": "iPhone 14 Pro 128GB",
+          "price": "€550,-"
+        },
+        {
+          "label": "iPhone 14 256GB",
+          "price": "€550,-"
+        },
+        {
+          "label": "iPhone 14 128GB",
+          "price": "€465,-"
+        }
+      ]
     }
   ],
   "unconfirmed": [
@@ -40,6 +94,12 @@
       "verification": "search-index",
       "capturedAt": "2026-10-12",
       "note": "Tested on dozens of points (battery, screen, cameras); battery condition 85-98%; supplied with original charger and cable."
+    },
+    {
+      "url": "https://www.phonerepairs.nl/pre-owned-toestellen/",
+      "verification": "owner-confirmed",
+      "capturedAt": "2026-10-16",
+      "note": "Offer and prices transcribed from the page's image 'Aanbieding direct leverbaar' (/wp-content/uploads/2026/10/exec-d695c43c-305a-4518-a5d2-eb6d3ced8ec9.png) at the owner's request (e-mail 16 October 2026: 'Pre-owned prijzen … mag als tekst'); editable in the CMS."
     }
   ],
   "id": "pre-owned-toestellen"

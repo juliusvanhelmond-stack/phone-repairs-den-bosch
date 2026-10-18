@@ -13,7 +13,12 @@
     "laptop": {
       "name": "MacBook",
       "plural": "MacBooks",
-      "description": "MacBook Air and MacBook Pro"
+      "description": "MacBook Pro, MacBook Air and MacBook Neo"
+    },
+    "console": {
+      "name": "Game console",
+      "plural": "Game consoles",
+      "description": "Nintendo Switch"
     }
   },
   "repairs": {
@@ -121,7 +126,7 @@
     "openingstijden": {
       "question": "When are you open?",
       "answer": [
-        "Phone Repairs is open seven days a week, including evenings, Sundays and public holidays. Because we work by appointment, we arrange a time with you that suits you."
+        "Phone Repairs is open seven days a week, including evenings, Sundays and public holidays. On Sundays and public holidays the Sunday opening hours apply. Because we work by appointment, we arrange a time with you that suits you."
       ]
     },
     "eigen-onderdelen": {
@@ -223,7 +228,7 @@
     "leentoestel": {
       "question": "Do you offer a loan device during the repair?",
       "answer": [
-        "We repair your iPhone 17 Pro so fast that setting up a loan device would take longer. So you don't need a loan device at all. And let's be honest: those 30 minutes without a phone are actually quite nice."
+        "We repair your device so fast that setting up a loan device would take longer. So you don't need a loan device at all. And let's be honest: those 30 minutes without a phone are actually quite nice."
       ]
     },
     "waterbestendig-na-schermvervanging": {
@@ -244,16 +249,16 @@
   },
   "claims": {
     "dertig-minuten": {
-      "title": "Often ready within 30 minutes",
-      "body": "Most repairs are done in about half an hour, so you usually don't have to leave your device behind."
+      "title": "Ready within 30 minutes",
+      "body": "Most repairs are done in about half an hour, so you rarely have to leave your device behind."
     },
     "meekijken": {
       "title": "You watch the repair",
-      "body": "Your device doesn't disappear behind a closed door. You see for yourself how the repair is done."
+      "body": "You can simply watch how our specialist professionally repairs your device."
     },
     "originele-onderdelen": {
       "title": "Original service pack parts",
-      "body": "Phone Repairs works with original parts, such as Samsung's original service packs."
+      "body": "Phone Repairs works with original parts, such as the original service packs from Apple, Samsung, Google Pixel and more."
     },
     "gegevens-veilig": {
       "title": "Your data stays yours",
@@ -275,7 +280,7 @@
       "intro": "Living or working in Rosmalen? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Phone repair Rosmalen · by appointment in Den Bosch",
-        "description": "Phone broken? From Rosmalen, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Phone broken? From Rosmalen, have your phone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -286,7 +291,7 @@
       "intro": "Living or working in Rosmalen? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Phone repair Rosmalen · by appointment in Den Bosch",
-        "description": "Phone broken? From Rosmalen, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Phone broken? From Rosmalen, have your phone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -297,7 +302,7 @@
       "intro": "Broken screen and living or working in Rosmalen? At Phone Repairs at Ploossche Hof in Den Bosch it is replaced by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Screen repair Rosmalen · by appointment in Den Bosch",
-        "description": "Screen broken? From Rosmalen, have your screen repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Screen broken? From Rosmalen, have your screen repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -308,7 +313,7 @@
       "intro": "Living or working in Rosmalen? At Phone Repairs at Ploossche Hof in Den Bosch your iPad is repaired by appointment, with original parts.",
       "seo": {
         "title": "iPad repair Rosmalen · by appointment in Den Bosch",
-        "description": "iPad broken? From Rosmalen, have your iPad repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "iPad broken? From Rosmalen, have your iPad repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [
         {
@@ -331,7 +336,7 @@
       "intro": "Living in De Rompert? Phone Repairs is in the same city, at Ploossche Hof in Den Bosch. Your phone is repaired here by appointment, and most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Phone repair in De Rompert · by appointment in Den Bosch",
-        "description": "Phone broken? From De Rompert, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Phone broken? From De Rompert, have your phone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -342,7 +347,7 @@
       "intro": "Living in Helftheuvel? Phone Repairs is in the same city, at Ploossche Hof in Den Bosch. Your phone is repaired here by appointment, and most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Phone repair in Helftheuvel · by appointment in Den Bosch",
-        "description": "Phone broken? From Helftheuvel, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Phone broken? From Helftheuvel, have your phone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -353,7 +358,7 @@
       "intro": "Living or working in Vught? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Phone repair Vught · by appointment in Den Bosch",
-        "description": "Phone broken? From Vught, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Phone broken? From Vught, have your phone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -364,7 +369,7 @@
       "intro": "Living or working in Vught? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "iPhone repair Vught · by appointment in Den Bosch",
-        "description": "iPhone broken? From Vught, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "iPhone broken? From Vught, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": [
@@ -378,7 +383,7 @@
       "intro": "Living or working in Oss? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Phone repair Oss · by appointment in Den Bosch",
-        "description": "Phone broken? From Oss, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Phone broken? From Oss, have your phone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -389,7 +394,7 @@
       "intro": "Living or working in Oss? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "iPhone repair Oss · by appointment in Den Bosch",
-        "description": "iPhone broken? From Oss, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "iPhone broken? From Oss, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -400,7 +405,7 @@
       "intro": "Broken screen and living or working in Oss? At Phone Repairs at Ploossche Hof in Den Bosch it is replaced by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Screen repair Oss · by appointment in Den Bosch",
-        "description": "Screen broken? From Oss, have your screen repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Screen broken? From Oss, have your screen repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -411,7 +416,7 @@
       "intro": "Living or working in Waalwijk? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Phone repair Waalwijk · by appointment in Den Bosch",
-        "description": "Phone broken? From Waalwijk, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Phone broken? From Waalwijk, have your phone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": [
@@ -424,7 +429,7 @@
       "intro": "Living or working in Waalwijk? At Phone Repairs at Ploossche Hof in Den Bosch your smartphone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Smartphone repair Waalwijk · by appointment in Den Bosch",
-        "description": "Smartphone broken? From Waalwijk, have your smartphone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Smartphone broken? From Waalwijk, have your smartphone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -435,7 +440,7 @@
       "intro": "Living or working in Waalwijk? At Phone Repairs at Ploossche Hof in Den Bosch your iPad is repaired by appointment, with original parts.",
       "seo": {
         "title": "iPad repair Waalwijk · by appointment in Den Bosch",
-        "description": "iPad broken? From Waalwijk, have your iPad repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "iPad broken? From Waalwijk, have your iPad repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [
         {
@@ -455,7 +460,7 @@
       "intro": "Living or working in Zaltbommel? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Phone repair Zaltbommel · by appointment in Den Bosch",
-        "description": "Phone broken? From Zaltbommel, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Phone broken? From Zaltbommel, have your phone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -466,7 +471,7 @@
       "intro": "Living or working in Boxtel? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Phone repair Boxtel · by appointment in Den Bosch",
-        "description": "Phone broken? From Boxtel, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Phone broken? From Boxtel, have your phone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -477,7 +482,7 @@
       "intro": "Living or working in Schijndel? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Phone repair Schijndel · by appointment in Den Bosch",
-        "description": "Phone broken? From Schijndel, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Phone broken? From Schijndel, have your phone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": [
@@ -490,7 +495,7 @@
       "intro": "Living or working in Geldermalsen? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "iPhone repair Geldermalsen · by appointment in Den Bosch",
-        "description": "iPhone broken? From Geldermalsen, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "iPhone broken? From Geldermalsen, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": [
@@ -561,6 +566,60 @@
           ],
           "bullets": [],
           "steps": []
+        },
+        {
+          "heading": "Special offer, available now",
+          "intro": [],
+          "body": [],
+          "bullets": [],
+          "steps": [],
+          "prices": [
+            {
+              "label": "Google Pixel 9 Pro Fold 256GB black",
+              "price": "€750,-"
+            }
+          ]
+        },
+        {
+          "heading": "Delivery time 1-2 working days",
+          "intro": [],
+          "body": [],
+          "bullets": [],
+          "steps": [],
+          "prices": [
+            {
+              "label": "iPhone 15 Pro 256GB",
+              "price": "€725,-"
+            },
+            {
+              "label": "iPhone 15 Pro 128GB",
+              "price": "€650,-"
+            },
+            {
+              "label": "iPhone 15 256GB",
+              "price": "€600,-"
+            },
+            {
+              "label": "iPhone 15 128GB",
+              "price": "€570,-"
+            },
+            {
+              "label": "iPhone 14 Pro 256GB",
+              "price": "€615,-"
+            },
+            {
+              "label": "iPhone 14 Pro 128GB",
+              "price": "€550,-"
+            },
+            {
+              "label": "iPhone 14 256GB",
+              "price": "€550,-"
+            },
+            {
+              "label": "iPhone 14 128GB",
+              "price": "€465,-"
+            }
+          ]
         }
       ],
       "unconfirmed": [
@@ -569,24 +628,56 @@
       ]
     },
     "bijzondere-merken-reparatie": {
-      "title": "Repairs for less common brands",
+      "title": "Repair of rare and lesser-known brands",
       "eyebrow": "Other brands",
-      "intro": "Not every smartphone is an iPhone or a Samsung. Phone Repairs also repairs devices from less common brands.",
+      "intro": "At Phone Repairs Den Bosch our expertise doesn't stop at well-known brands like Apple and Samsung. For lesser-known brands, special models and devices you can't get repaired just anywhere, we're also happy to look for a suitable solution. Is your brand or model not on our website? No problem. Chances are we can still help you. That's why we first check whether the right parts are available from the manufacturer or our suppliers.",
       "seo": {
         "title": "Repairs for less common brands · Phone Repairs",
         "description": "Google Pixel, Honor, Nexus or another brand? Less common smartphones are repaired at Phone Repairs in Den Bosch too."
       },
       "sections": [
         {
-          "heading": "These brands too",
-          "bullets": [
-            "Google Pixel",
-            "Honor",
-            "Nexus"
-          ],
+          "heading": "Parts on request",
+          "intro": [],
           "body": [
-            "Not sure whether your device can be repaired? Get in touch and you'll know straight away."
+            "Is your phone or fault not part of our standard repairs? Feel free to contact us by phone, WhatsApp or e-mail. We'll gladly tell you which repair options, parts and delivery times there are for your device."
           ],
+          "bullets": [
+            "Especially for your device: we check the availability of the right parts and order them especially for your device.",
+            "Clarity about delivery time: for less common parts the delivery time can vary from a few working days to a few weeks. As soon as we know, we'll tell you exactly where you stand.",
+            "A clear price in advance: before we order or repair anything, you receive a clear quote including parts, fitting and VAT. So there are no surprises afterwards."
+          ],
+          "steps": []
+        },
+        {
+          "heading": "Almost any rare part available through our network",
+          "intro": [
+            "Can't find a part anywhere? We go further where others stop:"
+          ],
+          "body": [],
+          "bullets": [
+            "Directly from the manufacturer: we always check the official supply channels first.",
+            "Worldwide sourcing network: if the manufacturer no longer supplies it, we call on our network in Shenzhen (China), including our direct contacts at the Huaqiangbei electronics market.",
+            "Original quality: thanks to these short lines with specialised suppliers we can trace almost any specific part."
+          ],
+          "steps": []
+        },
+        {
+          "heading": "How does this search service work?",
+          "intro": [],
+          "body": [
+            "For tracking down rare or hard-to-get parts we charge a fixed research fee of € 30,- on top of the final repair costs. This covers the time and the international search and is paid in advance. You can pay easily by card, cash or a payment request."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "Always 12 months' warranty on repairs of special brands",
+          "intro": [],
+          "body": [
+            "We stand out with our 12-month warranty. Repairs must be done properly and be durable. We use original service pack parts and even give you 12 months' warranty on the replaced parts."
+          ],
+          "bullets": [],
           "steps": []
         }
       ],
@@ -1360,7 +1451,7 @@
       "intro": "Living or working in Cromvoirt? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Phone repair Cromvoirt · by appointment in Den Bosch",
-        "description": "Phone broken? From Cromvoirt, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Phone broken? From Cromvoirt, have your phone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -1371,7 +1462,7 @@
       "intro": "Living or working in Helvoirt? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "iPhone repair Helvoirt · by appointment in Den Bosch",
-        "description": "iPhone broken? From Helvoirt, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "iPhone broken? From Helvoirt, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -1382,7 +1473,7 @@
       "intro": "Living or working in Oirschot? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Phone repair Oirschot · by appointment in Den Bosch",
-        "description": "Phone broken? From Oirschot, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Phone broken? From Oirschot, have your phone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -1393,7 +1484,7 @@
       "intro": "Living or working in Meierijstad? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "iPhone repair Meierijstad · by appointment in Den Bosch",
-        "description": "iPhone broken? From Meierijstad, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "iPhone broken? From Meierijstad, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -1404,7 +1495,7 @@
       "intro": "Living or working in Veghel? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Phone repair Veghel · by appointment in Den Bosch",
-        "description": "Phone broken? From Veghel, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Phone broken? From Veghel, have your phone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -1415,7 +1506,7 @@
       "intro": "Living or working in Sint-Michielsgestel? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Phone repair Sint-Michielsgestel · by appointment in Den Bosch",
-        "description": "Phone broken? From Sint-Michielsgestel, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Phone broken? From Sint-Michielsgestel, have your phone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -1426,7 +1517,7 @@
       "intro": "Living or working in Drunen? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Phone repair Drunen · by appointment in Den Bosch",
-        "description": "Phone broken? From Drunen, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Phone broken? From Drunen, have your phone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -1437,7 +1528,7 @@
       "intro": "Living or working in Vlijmen? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "iPhone repair Vlijmen · by appointment in Den Bosch",
-        "description": "iPhone broken? From Vlijmen, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "iPhone broken? From Vlijmen, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -1448,7 +1539,7 @@
       "intro": "Living or working in Engelen? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "iPhone repair Engelen · by appointment in Den Bosch",
-        "description": "iPhone broken? From Engelen, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "iPhone broken? From Engelen, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -1459,7 +1550,7 @@
       "intro": "Living or working in Haaren? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "iPhone repair Haaren · by appointment in Den Bosch",
-        "description": "iPhone broken? From Haaren, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "iPhone broken? From Haaren, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -1470,7 +1561,7 @@
       "intro": "Living or working in Kerkdriel? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Phone repair Kerkdriel · by appointment in Den Bosch",
-        "description": "Phone broken? From Kerkdriel, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Phone broken? From Kerkdriel, have your phone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -1481,7 +1572,7 @@
       "intro": "Living or working in Nieuwkuijk? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Phone repair Nieuwkuijk · by appointment in Den Bosch",
-        "description": "Phone broken? From Nieuwkuijk, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Phone broken? From Nieuwkuijk, have your phone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -1492,7 +1583,7 @@
       "intro": "Living or working in Oisterwijk? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "iPhone repair Oisterwijk · by appointment in Den Bosch",
-        "description": "iPhone broken? From Oisterwijk, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "iPhone broken? From Oisterwijk, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -1503,7 +1594,7 @@
       "intro": "Living or working in Maasdriel? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "iPhone repair Maasdriel · by appointment in Den Bosch",
-        "description": "iPhone broken? From Maasdriel, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "iPhone broken? From Maasdriel, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -1514,7 +1605,7 @@
       "intro": "Living or working in Ammerzoden? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "iPhone repair Ammerzoden · by appointment in Den Bosch",
-        "description": "iPhone broken? From Ammerzoden, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "iPhone broken? From Ammerzoden, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -1525,7 +1616,7 @@
       "intro": "Living or working in Maaspoort? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Phone repair Maaspoort · by appointment in Den Bosch",
-        "description": "Phone broken? From Maaspoort, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Phone broken? From Maaspoort, have your phone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -1555,17 +1646,113 @@
           ]
         },
         {
-          "heading": "Phone and tablet help rates",
+          "heading": "Cleaning",
+          "intro": [],
+          "body": [
+            "* For some devices the costs can be higher. Ask for the rate for your device in advance."
+          ],
+          "bullets": [],
+          "steps": [],
+          "prices": [
+            {
+              "label": "Charging port, microphone and bottom media speaker (outside)",
+              "price": "€15,-"
+            },
+            {
+              "label": "Earpiece speaker (outside)",
+              "price": "€15,-"
+            },
+            {
+              "label": "Earpiece speaker (inside)*",
+              "price": "€30,-"
+            },
+            {
+              "label": "Media speaker (inside)*",
+              "price": "€30,-"
+            },
+            {
+              "label": "Microphone (inside)*",
+              "price": "€35,-"
+            },
+            {
+              "label": "Front selfie camera*",
+              "price": "€60,-"
+            },
+            {
+              "label": "Rear cameras*",
+              "price": "€45,-"
+            },
+            {
+              "label": "Whole device inside: speakers, charging port, cameras, microphones etc.*",
+              "price": "€60,-"
+            }
+          ]
+        },
+        {
+          "heading": "Setup, software and data",
           "intro": [],
           "body": [],
           "bullets": [],
           "steps": [],
-          "image": {
-            "src": "/wp-content/uploads/2026/09/Codex-afbeelding-24-sep-2026-10_52_25.png",
-            "alt": "Phone Repairs rate card for phone and tablet help (in Dutch): cleaning, setup, software and data, personal help and a total loss statement for your insurance",
-            "width": 1024,
-            "height": 1536
-          }
+          "prices": [
+            {
+              "label": "Setting up a new smartphone or tablet",
+              "price": "€35,-"
+            },
+            {
+              "label": "Updating software to the latest version",
+              "price": "€30,-"
+            },
+            {
+              "label": "Restoring software",
+              "price": "€35,-"
+            },
+            {
+              "label": "Restoring a bricked device",
+              "price": "€85,-",
+              "note": "Can it not be restored? Then you pay €35,-."
+            },
+            {
+              "label": "Setting up an e-mail account (per account)",
+              "price": "€25,-"
+            },
+            {
+              "label": "Transferring data to a new smartphone or tablet",
+              "price": "€40,-"
+            }
+          ]
+        },
+        {
+          "heading": "Personal help",
+          "intro": [],
+          "body": [],
+          "bullets": [],
+          "steps": [],
+          "prices": [
+            {
+              "label": "Explanation and demonstration (per half hour)",
+              "price": "€35,-"
+            },
+            {
+              "label": "Troubleshooting (per half hour)",
+              "price": "€35,-"
+            }
+          ]
+        },
+        {
+          "heading": "Total loss statement for your insurance",
+          "intro": [],
+          "body": [
+            "Note: this service only makes sense if you can claim the damage on your home contents, travel or electronics insurance and the damage is covered by the policy."
+          ],
+          "bullets": [],
+          "steps": [],
+          "prices": [
+            {
+              "label": "For a smartphone or tablet",
+              "price": "€30,-"
+            }
+          ]
         },
         {
           "heading": "By appointment",
@@ -1585,7 +1772,7 @@
       "intro": "Living or working in Waalwijk? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "IPhone repair Waalwijk",
-        "description": "IPhone broken? From Waalwijk, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "IPhone broken? From Waalwijk, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -1596,7 +1783,7 @@
       "intro": "Living or working in Eindhoven? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Phone repair Eindhoven",
-        "description": "Phone broken? From Eindhoven, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Phone broken? From Eindhoven, have your phone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -1607,7 +1794,7 @@
       "intro": "Living or working in Lokerenpassage? At Phone Repairs at Ploossche Hof in Den Bosch your phone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "Phone repair Lokerenpassage",
-        "description": "Phone broken? From Lokerenpassage, have your phone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "Phone broken? From Lokerenpassage, have your phone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []
@@ -1618,7 +1805,7 @@
       "intro": "Living or working in Brabant? At Phone Repairs at Ploossche Hof in Den Bosch your iPhone is repaired by appointment. Most repairs are done within 30 minutes while you watch.",
       "seo": {
         "title": "IPhone repair Brabant",
-        "description": "IPhone broken? From Brabant, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, often ready within 30 minutes."
+        "description": "IPhone broken? From Brabant, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
       "unconfirmed": []

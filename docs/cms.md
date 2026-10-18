@@ -14,8 +14,10 @@ reverted.
 | --- | --- | --- |
 | **Pagina's**: area (place) pages, info pages, FAQ topics — title, intro, text blocks, SEO title and description; new pages can be added | `src/content/pages/<id>.json` | New area pages appear on /werkgebied and in the sitemap automatically. |
 | **SEO per URL**: title and meta description for *any* page (models, brands, repairs, homepage, …) | `src/content/seo/<path>.json` | Applied in `pageMetadata` (Dutch only). Used exactly as written. |
+| **Mededeling bovenaan**: a green bar above the site (holidays, changed hours), switched on/off with a checkbox | `src/content/announcement.json` | Optional link (site path or full URL). Nothing shows when it is off. |
+| **Tarieven** in page blocks: rate lists (label + amount as written, e.g. €15,-) | in the page file | Used on /telefoon-en-tablet-hulp and /pre-owned-toestellen so the shop can change amounts itself (client request, 2026-10-16). |
 
-Not in the CMS (on purpose): prices (only from the shop's price lists), devices and price lists
+Not in the CMS (on purpose): repair prices per model (only from the shop's price lists), devices and price lists
 (WordPress import), redirects (`src/data/url-inventory.json`), blog posts and FAQs (phase 2, see
 below). The admin itself is in English (Keystatic has no Dutch UI); field labels and help texts
 are Dutch.

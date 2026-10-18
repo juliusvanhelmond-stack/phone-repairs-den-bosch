@@ -8,6 +8,8 @@ import { PageIntro } from "@/components/layout/page-intro";
 import { blogPath, blogPosts, getBlogPost, localizeBlog } from "@/lib/catalog";
 import { getI18n } from "@/lib/i18n-server";
 import { pageMetadata } from "@/lib/seo";
+import { embedVideos } from "@/lib/video-embed";
+import { HydrogelPrices, HYDROGEL_SLUG } from "@/components/partners/hydrogel-prices";
 
 // Blog posts keep their original URL (/blog-post/<slug>). Unknown slugs get a real 404 from src/proxy.ts.
 export const instant = false;
@@ -50,7 +52,7 @@ export default async function BlogPostPage({ params }: PageProps<"/[lang]/blog-p
         <div className="container-page max-w-3xl">
           {/* bodyHtml was sanitised at import (scripts/migration/wordpress/content.ts): text, headings, lists and links only. */}
           {post.bodyHtml && locale === "nl" ? (
-            <div className="article" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
+            <div className="article" dangerouslySetInnerHTML={{ __html: embedVideos(post.bodyHtml) }} />
           ) : (
             <>
               <div className="space-y-5 text-lg leading-relaxed text-muted">
@@ -62,7 +64,7 @@ export default async function BlogPostPage({ params }: PageProps<"/[lang]/blog-p
                 <section className="mt-12 border-t border-line pt-10">
                   <h2 className="text-title font-semibold text-ink">Full article (in Dutch)</h2>
                   <p className="mt-2 text-sm text-muted">The summary above is our translation; the full post is available in Dutch only.</p>
-                  <div lang="nl" className="article mt-6" dangerouslySetInnerHTML={{ __html: post.bodyHtml }} />
+                  <div lang="nl" className="article mt-6" dangerouslySetInnerHTML={{ __html: embedVideos(post.bodyHtml) }} />
                 </section>
               ) : (
                 <DemoNote className="mt-10">
@@ -74,6 +76,7 @@ export default async function BlogPostPage({ params }: PageProps<"/[lang]/blog-p
               )}
             </>
           )}
+          {post.slug === HYDROGEL_SLUG && <HydrogelPrices className="mt-12" />}
           <Link href="/blog-post" className="mt-12 inline-flex items-center gap-2 font-medium text-accent-strong hover:text-accent">
             <ArrowLeft className="size-4" aria-hidden />
             {t("Alle berichten", "All posts")}

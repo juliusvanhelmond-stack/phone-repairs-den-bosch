@@ -1,4 +1,5 @@
 import { ArrowUpRight, Star } from "lucide-react";
+import { GoogleMark } from "@/components/contact/google-mark";
 import { KiyohBadge, KiyohLink } from "@/components/contact/kiyoh";
 import { getI18n } from "@/lib/i18n-server";
 import { site } from "@/lib/site";
@@ -35,15 +36,20 @@ export async function ReviewsBanner({ className }: { className?: string }) {
       </div>
       <div className="flex shrink-0 flex-col items-stretch gap-3 sm:w-64">
         <KiyohBadge />
-        {/* The Google (Trustindex) badge sits in the top bar on every page; Trustindex renders one per page. */}
+        {/* A white box like the Kiyoh badge, with the Google mark (client request, 2026-10-16). */}
         <a
           href={reviews.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center justify-center gap-1.5 text-sm font-medium text-white underline-offset-4 hover:underline"
+          aria-label={t(`Bekijk alle reviews op ${reviews.platform}`, `See all reviews on ${reviews.platform}`)}
+          className="tone-light inline-flex items-center gap-3 rounded-2xl bg-white px-4 py-3 text-ink ring-1 ring-line transition-shadow hover:shadow-[var(--shadow-soft)]"
         >
-          {t(`Bekijk alle reviews op ${reviews.platform}`, `See all reviews on ${reviews.platform}`)}
-          <ArrowUpRight className="size-4" aria-hidden />
+          <GoogleMark className="size-7" />
+          <span className="flex flex-col leading-tight">
+            <span className="text-xs text-muted">{reviews.platform}</span>
+            <span className="text-sm font-semibold">{t("Bekijk alle reviews", "See all reviews")}</span>
+          </span>
+          <ArrowUpRight className="ml-auto size-4 text-muted" aria-hidden />
         </a>
       </div>
     </div>
@@ -71,7 +77,7 @@ async function GoogleReviewsLink({ className }: { className?: string }) {
       rel="noopener noreferrer"
       className={cn("inline-flex items-center gap-1.5 font-medium text-accent-strong hover:text-accent", className)}
     >
-      <Star className="size-4" aria-hidden />
+      <GoogleMark className="size-4" />
       {t(`Reviews op ${reviews.platform}`, `Reviews on ${reviews.platform}`)}
       <ArrowUpRight className="size-4" aria-hidden />
     </a>
