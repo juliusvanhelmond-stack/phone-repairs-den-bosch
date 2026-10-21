@@ -4,17 +4,11 @@
   "categoryId": "smartphone",
   "series": "Pixel 9",
   "order": 19100,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": null,
-  "popular": false,
+  "popular": true,
   "aliases": [
     "Google Pixel 9 Pro"
   ],
-  "seo": {
-    "title": "Google Pixel 9 Pro reparatie voor snelle oplossingen",
-    "description": "Laat uw Google Pixel 9 Pro reparatie snel en professioneel uitvoeren met 12 maanden garantie op originele onderdelen."
-  },
   "prices": [
     {
       "label": "Scherm, P-OLED, front frame en vingerprint scanner vervangen (origineel Google service pack, zoals Google vereist)",
@@ -92,6 +86,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Google Pixel 9 Pro reparatie voor snelle oplossingen",
+    "description": "Laat uw Google Pixel 9 Pro reparatie snel en professioneel uitvoeren met 12 maanden garantie op originele onderdelen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/google-pixel-reparatie/google-pixel-9-pro/"
   ],
