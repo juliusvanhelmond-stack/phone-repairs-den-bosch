@@ -7,15 +7,11 @@
   "releaseYear": "2024",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-s24-ultra/photo.webp",
-  "popular": true,
+  "popular": false,
   "aliases": [
     "Samsung S24 Ultra",
     "Samsung Galaxy S24 Ultra"
   ],
-  "seo": {
-    "title": "Samsung S24 Ultra reparatie voor kapotte schermen",
-    "description": "Snel en professioneel Samsung S24 Ultra reparatie? Ontdek de prijzen en mogelijkheden bij Phone Repairs Den Bosch nu!"
-  },
   "prices": [
     {
       "label": "Scherm, Dynamic AMOLED, frame / zijkanten en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -128,6 +124,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung S24 Ultra reparatie voor kapotte schermen",
+    "description": "Snel en professioneel Samsung S24 Ultra reparatie? Ontdek de prijzen en mogelijkheden bij Phone Repairs Den Bosch nu!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s24-ultra-reparatie/"
   ],
