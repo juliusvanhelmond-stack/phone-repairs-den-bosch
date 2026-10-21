@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "Honor Magic V",
   "order": 26400,
-  "releaseYear": "",
   "art": "phone-foldable",
   "photo": "/images/toestellen/honor-magic-v5/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "Honor Magic V5 reparatie bij Phone Repairs",
-    "description": "Heeft u schade aan uw Honor Magic V5? Wij bieden snelle en professionele Honor Magic V5 reparatie met garantie."
-  },
   "prices": [
     {
       "label": "Scherm (voorkant), OLED (origineel Honor service pack, zoals Honor vereist) vervangen",
@@ -23,7 +18,7 @@
     },
     {
       "label": "Scherm (groot) OLED, frame en scharnier (origineel Honor service pack, zoals Honor vereist) vervangen",
-      "price": "€875,-",
+      "price": "€1100,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
@@ -106,6 +101,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Honor Magic V5 reparatie bij Phone Repairs",
+    "description": "Heeft u schade aan uw Honor Magic V5? Wij bieden snelle en professionele Honor Magic V5 reparatie met garantie."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/honor-reparatie/honor-magic-v5/"
   ],
