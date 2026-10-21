@@ -46,16 +46,11 @@
       ]
     },
     {
-      "label": "Batterij origineel Apple Service pack vervangen",
-      "price": "€160,-",
-      "repairId": "batterij-vervangen",
+      "label": "Achterkant glas vervangen (incl.draadloos laden coil) origineel Apple Service pack",
+      "price": "€250,-",
+      "repairId": "achterkant-vervangen",
       "popular": false,
-      "links": [
-        {
-          "text": "origineel Apple Service pack",
-          "href": "/iphone-batterij-vervanging"
-        }
-      ]
+      "links": []
     },
     {
       "label": "Volledig midframe vervangen (incl. achterkant glas, knoppen, oplaadpoort, antennes, taptic engine, luidspreker) origineel Apple service pack",
@@ -66,6 +61,18 @@
         {
           "text": "origineel Apple service pack",
           "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Batterij origineel Apple Service pack vervangen",
+      "price": "€160,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple Service pack",
+          "href": "/iphone-batterij-vervanging"
         }
       ]
     },
