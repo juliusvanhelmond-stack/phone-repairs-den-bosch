@@ -22,18 +22,6 @@
       ]
     },
     {
-      "label": "Scherm vervangen premium OLED",
-      "price": "op aanvraag",
-      "repairId": "scherm-vervangen",
-      "popular": false,
-      "links": [
-        {
-          "text": "premium OLED",
-          "href": "/iphone-premium-oled-scherm"
-        }
-      ]
-    },
-    {
       "label": "Scherm vervangen origineel pulled (origineel scherm afkomstig uit een nieuw toestel)",
       "price": "op aanvraag",
       "repairId": "scherm-vervangen",
@@ -42,6 +30,18 @@
         {
           "text": "origineel pulled",
           "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Scherm vervangen premium OLED",
+      "price": "op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "premium OLED",
+          "href": "/iphone-premium-oled-scherm"
         }
       ]
     },
