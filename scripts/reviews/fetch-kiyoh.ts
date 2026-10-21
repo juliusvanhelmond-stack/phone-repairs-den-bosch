@@ -57,7 +57,8 @@ function latestReviews(xml: string, max = 12) {
 }
 
 async function main() {
-  const hash = process.env.KIYOH_FEED_HASH;
+  // Tolerate a pasted value with surrounding whitespace or quotes (Vercel dashboard).
+  const hash = process.env.KIYOH_FEED_HASH?.trim().replace(/^["']|["']$/g, "");
   if (!hash) {
     console.log("Kiyoh: KIYOH_FEED_HASH not set, keeping the current data (if any).");
     return;
