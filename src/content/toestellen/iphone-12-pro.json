@@ -12,10 +12,6 @@
     "iPhone 12 Pro (A2407)",
     "A2407"
   ],
-  "seo": {
-    "title": "iPhone 12 Pro reparatie met garantie en kwaliteit",
-    "description": "Profiteer van snelle en professionele iPhone 12 Pro reparatie. Bekijk het proces en ontvang 12 maanden garantie."
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
@@ -270,6 +266,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone 12 Pro reparatie met garantie en kwaliteit",
+    "description": "Profiteer van snelle en professionele iPhone 12 Pro reparatie. Bekijk het proces en ontvang 12 maanden garantie."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-12-pro/"
   ],
