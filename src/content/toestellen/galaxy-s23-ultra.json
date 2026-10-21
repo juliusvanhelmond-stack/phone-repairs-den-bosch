@@ -7,15 +7,11 @@
   "releaseYear": "2023",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-s23-ultra/photo.webp",
-  "popular": false,
+  "popular": true,
   "aliases": [
     "Samsung S23 Ultra",
     "Samsung Galaxy S23 Ultra"
   ],
-  "seo": {
-    "title": "Samsung S23 Ultra reparatie: Schermvervangingen",
-    "description": "Laat uw Samsung S23 Ultra reparatie snel en professioneel uitvoeren. Bel ons voor een afspraak en kijk mee!"
-  },
   "prices": [
     {
       "label": "Scherm, Dynamic AMOLED, frame / zijkanten en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -135,6 +131,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung S23 Ultra reparatie: Schermvervangingen",
+    "description": "Laat uw Samsung S23 Ultra reparatie snel en professioneel uitvoeren. Bel ons voor een afspraak en kijk mee!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s23-ultra/"
   ],
