@@ -7,14 +7,10 @@
   "releaseYear": "2025",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-a56/photo.jpg",
-  "popular": false,
+  "popular": true,
   "aliases": [
     "Samsung A56"
   ],
-  "seo": {
-    "title": "Samsung A56 reparatie voor schermvervanging",
-    "description": "Snel en professioneel uw Samsung A56 reparatie laten uitvoeren? Bel Phone Repairs Den Bosch voor originele service packs."
-  },
   "prices": [
     {
       "label": "Scherm, amoled en frame vervangen (originele Samsung service pack, zoals Samsung vereist)",
@@ -106,6 +102,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung A56 reparatie voor schermvervanging",
+    "description": "Snel en professioneel uw Samsung A56 reparatie laten uitvoeren? Bel Phone Repairs Den Bosch voor originele service packs."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a56/"
   ],
