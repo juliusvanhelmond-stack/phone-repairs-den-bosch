@@ -9,10 +9,6 @@
   "photo": "/images/toestellen/iphone-13-pro-max/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "iPhone 13 Pro Max reparatie voor gebarsten scherm",
-    "description": "Laat uw iPhone 13 Pro Max snel en professioneel repareren met garantie. Neem contact op voor een afspraak."
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
@@ -274,6 +270,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone 13 Pro Max reparatie voor gebarsten scherm",
+    "description": "Laat uw iPhone 13 Pro Max snel en professioneel repareren met garantie. Neem contact op voor een afspraak."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-13-pro-max/"
   ],
