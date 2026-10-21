@@ -10,7 +10,7 @@
   "aliases": [],
   "prices": [
     {
-      "label": "Scherm voorzijde (klein) vervangen origineel Apple service pack.",
+      "label": "Scherm buitendisplay vervangen origineel Apple service pack.",
       "price": "€750,-",
       "repairId": "scherm-vervangen",
       "popular": true,
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "label": "Scherm binnenkant (groot) OLED, frame en scharnier origineel Apple service pack",
+      "label": "Scherm binnendisplay OLED, frame en scharnier origineel Apple service pack",
       "price": "€1400,-",
       "repairId": "scherm-vervangen",
       "popular": true,
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "label": "Scherm binnenkant (groot) OLED, frame en scharnier origineel pulled (origineel scherm afkomstig uit een nieuw toestel)",
+      "label": "Scherm binnendisplay OLED, frame en scharnier origineel pulled (origineel scherm afkomstig uit een nieuw toestel)",
       "price": "op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "label": "Scherm voorzijde (klein) vervangen origineel pulled (origineel scherm afkomstig uit een nieuw toestel)",
+      "label": "Scherm buitendisplayvervangen origineel pulled (origineel scherm afkomstig uit een nieuw toestel)",
       "price": "op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
