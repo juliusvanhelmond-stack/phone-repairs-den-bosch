@@ -6,13 +6,9 @@
   "order": 1800,
   "releaseYear": "2024",
   "art": "phone-island",
-  "photo": null,
+  "photo": "/images/toestellen/iphone-16-pro-max/photo.png",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "iPhone 16 Pro Max reparatie: professioneel, originele onderdelen",
-    "description": "Professionele iPhone 16 Pro Max reparatie met garantie. Scherm of batterij vervangen? Bel ons voor een afspraak in Den Bosch."
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
@@ -220,6 +216,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone 16 Pro Max reparatie: professioneel, originele onderdelen",
+    "description": "Professionele iPhone 16 Pro Max reparatie met garantie. Scherm of batterij vervangen? Bel ons voor een afspraak in Den Bosch."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-16-pro-max/"
   ],
