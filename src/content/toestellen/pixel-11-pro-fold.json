@@ -4,21 +4,16 @@
   "categoryId": "smartphone",
   "series": "Pixel 11",
   "order": 17700,
-  "releaseYear": "",
   "art": "phone-foldable",
   "photo": "/images/toestellen/pixel-11-pro-fold/photo.jpg",
   "popular": false,
   "aliases": [
     "Google Pixel 11 Pro Fold"
   ],
-  "seo": {
-    "title": "Google Pixel 11 Pro Fold reparatie: snelle service",
-    "description": "Snelle en professionele Google Pixel 101Pro Fold reparatie met garantie. Laat ons je toestel herstellen terwijl u meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm voorkant (klein) vervangen (origineel Google service pack, zoals Google vereist) vervangen",
-      "price": "op aanvraag",
+      "price": "€375,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
@@ -92,6 +87,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Google Pixel 11 Pro Fold reparatie: snelle service",
+    "description": "Snelle en professionele Google Pixel 101Pro Fold reparatie met garantie. Laat ons je toestel herstellen terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/google-pixel-reparatie/google-pixel-11-pro-fold/"
   ],
