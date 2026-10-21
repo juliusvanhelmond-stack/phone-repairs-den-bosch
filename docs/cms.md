@@ -20,6 +20,8 @@ reverted.
 | **Blog**: posts with headings, lists, links and images; new posts can be added | `src/content/blog/<url-naam>.mdoc` (Markdoc), images in `public/images/blog/` | Client request 2026-10-21. A YouTube link on its own line becomes a video. Without a summary the start of the text is used. Posts without an English version show Dutch on /en (warning only). |
 | **Openingstijden**: hours per day (or closed) and the note below them | `src/content/openingstijden.json` | Client request 2026-10-21. Read by `site.openingHours` (top bar, contact, structured data). |
 
+Deleting a device or blog post in the CMS is safe: its old URLs then 301 to the brand overview or the blog (`src/lib/legacy-targets.ts`; the data check only warns).
+
 Since 2026-10-21 the CMS is the source of devices, prices and blog posts: the shop maintains them there
 instead of on the old site. Not in the CMS: redirects (`src/data/url-inventory.json`), brands and repair
 categories, FAQs. The admin itself is in English (Keystatic has no Dutch UI); field labels and help texts

@@ -21,6 +21,7 @@ import {
   warranties,
 } from "../../src/lib/catalog";
 import { staticPaths } from "../../src/lib/routes";
+import { resolveLegacyTarget } from "../../src/lib/legacy-targets";
 import { ORIGIN } from "../../src/lib/sources";
 import { urlRecordSchema } from "../../src/types/content";
 import inventoryJson from "../../src/data/url-inventory.json";
@@ -112,17 +113,24 @@ else {
     ...landingPages.map((p) => p.path),
     ...blogPosts.map((p) => `/blog-post/${p.slug}`),
   ]);
+  const blogSlugs = new Set(blogPosts.map((p) => p.slug));
   for (const r of inventory.data) {
     if (!r.targetPath) continue;
-    const parts = r.targetPath.split("/").filter(Boolean);
+    // A device or blog post deleted in the CMS: its old URLs go to the brand or the blog (warning only).
+    const target = resolveLegacyTarget(r.targetPath, {
+      device: (brandId, slug) => deviceIds.has(`${brandId}-${slug}`),
+      blogPost: (slug) => blogSlugs.has(slug),
+    });
+    if (target !== r.targetPath) warn(`inventory ${r.url}: ${r.targetPath} no longer exists, redirects to ${target}`);
+    const parts = target.split("/").filter(Boolean);
     const exists =
-      staticRoutes.has(r.targetPath) ||
+      staticRoutes.has(target) ||
       (parts[0] === "reparaties" && parts.length === 2 && !!getBrand(parts[1])) ||
       (parts[0] === "reparaties" && parts.length === 3 && deviceIds.has(`${parts[1]}-${parts[2]}`)) ||
       (parts[0] === "reparatie" && parts.length === 2 && !!getRepair(parts[1]));
-    if (!exists) fail(`inventory ${r.url}: target ${r.targetPath} is not a route`);
+    if (!exists) fail(`inventory ${r.url}: target ${target} is not a route`);
     const source = new URL(r.url).pathname.replace(/\/$/, "") || "/";
-    if (r.redirect && source === r.targetPath) fail(`inventory ${r.url}: redirect to itself`);
+    if (r.redirect && source === target) fail(`inventory ${r.url}: redirect to itself`);
     // Redirects run before routing, so a redirect from a live path would hide that page.
     if (r.redirect && staticRoutes.has(source)) fail(`inventory ${r.url}: redirect shadows the live page ${source}`);
   }
