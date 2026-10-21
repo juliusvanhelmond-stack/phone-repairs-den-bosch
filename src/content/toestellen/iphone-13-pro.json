@@ -9,10 +9,6 @@
   "photo": "/images/toestellen/iphone-13-pro/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "iPhone 13 Pro reparatie met 12 maanden garantie",
-    "description": "Snel en professioneel iPhone 13 Pro reparatie met garantie. Scherm vervangen of batterij vervangen? Bel ons nu!"
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
@@ -274,6 +270,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone 13 Pro reparatie met 12 maanden garantie",
+    "description": "Snel en professioneel iPhone 13 Pro reparatie met garantie. Scherm vervangen of batterij vervangen? Bel ons nu!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-13-pro-reparatie/"
   ],
