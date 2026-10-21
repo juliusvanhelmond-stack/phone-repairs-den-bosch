@@ -6,15 +6,11 @@
   "order": 2900,
   "releaseYear": "2022",
   "art": "phone-island",
-  "photo": null,
+  "photo": "/images/toestellen/iphone-14-pro-max/photo.png",
   "popular": false,
   "aliases": [
     "iPhone 13 Pro Max"
   ],
-  "seo": {
-    "title": "iPhone 14 Pro Max reparatie met originele onderdelen",
-    "description": "Snel en professioneel uw iPhone 14 Pro Max laten repararen met garantie, en originele onderdelen met 12 maanden garantie"
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
@@ -269,6 +265,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone 14 Pro Max reparatie met originele onderdelen",
+    "description": "Snel en professioneel uw iPhone 14 Pro Max laten repararen met garantie, en originele onderdelen met 12 maanden garantie"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-14-pro-max-3/",
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-14-pro-max-2/",
