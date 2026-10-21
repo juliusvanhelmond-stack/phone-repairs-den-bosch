@@ -4,28 +4,22 @@
   "categoryId": "smartphone",
   "series": "Pixel 11",
   "order": 17900,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": null,
   "popular": true,
   "aliases": [
     "Google Pixel 11 Pro"
   ],
-  "seo": {
-    "title": "Google Pixel 11 Pro reparatie bij Phone Repairs",
-    "description": "Professionele Google Pixel 11 Pro reparatie met originele onderdelen en 12 maanden garantie. Neem contact op voor meer informatie."
-  },
   "prices": [
     {
       "label": "Scherm, P-OLED, front frame en vingerprint scanner vervangen (origineel Google service pack, zoals Google vereist)",
-      "price": "op aanvraag",
+      "price": "€375,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
     },
     {
       "label": "Achterkant incl. camera lenzen vervangen",
-      "price": "op aanvraag",
+      "price": "€250,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "links": []
@@ -92,6 +86,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Google Pixel 11 Pro reparatie bij Phone Repairs",
+    "description": "Professionele Google Pixel 11 Pro reparatie met originele onderdelen en 12 maanden garantie. Neem contact op voor meer informatie."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/google-pixel-reparatie/google-pixel-11-pro/"
   ],
