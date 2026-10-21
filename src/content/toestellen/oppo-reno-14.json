@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "OPPO Reno",
   "order": 45400,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/oppo-reno-14/photo.webp",
-  "popular": false,
+  "popular": true,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "Heeft u een OPPO Reno 14 reparatie nodig? Ontdek onze snelle en professionele service met garantie en originele onderdelen."
-  },
   "prices": [
     {
       "label": "Scherm (origineel OPPO service pack, zoals OPPO vereist)",
@@ -78,6 +73,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Heeft u een OPPO Reno 14 reparatie nodig? Ontdek onze snelle en professionele service met garantie en originele onderdelen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oppo-reparatie/oppo-reno-reparatie/oppo-reno-14/"
   ],
