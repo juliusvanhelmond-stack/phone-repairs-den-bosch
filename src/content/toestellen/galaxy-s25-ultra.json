@@ -7,15 +7,11 @@
   "releaseYear": "2025",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-s25-ultra/photo.webp",
-  "popular": true,
+  "popular": false,
   "aliases": [
     "Samsung S25 Ultra",
     "Samsung Galaxy S25 Ultra"
   ],
-  "seo": {
-    "title": "Samsung S25 Ultra reparatie voor kapotte schermen",
-    "description": "Laat uw Samsung S25 Ultra reparatie professioneel uitvoeren met originele onderdelen en kijk mee tijdens de service."
-  },
   "prices": [
     {
       "label": "Scherm, Dynamic AMOLED, frame / zijkanten en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -135,6 +131,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung S25 Ultra reparatie voor kapotte schermen",
+    "description": "Laat uw Samsung S25 Ultra reparatie professioneel uitvoeren met originele onderdelen en kijk mee tijdens de service."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s25-ultra/"
   ],
