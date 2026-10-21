@@ -126,6 +126,13 @@ export default config({
           ],
           defaultValue: "phone-island",
         }),
+        photo: fields.image({
+          label: "Foto van dit model (optioneel)",
+          description:
+            "Een eigen foto (of een foto waarvoor je toestemming hebt), liefst op een witte of transparante achtergrond, ongeveer vierkant. Zonder foto staat er een voorbeeldfoto van het soort toestel.",
+          directory: "public/images/toestellen",
+          publicPath: "/images/toestellen/",
+        }),
         popular: fields.checkbox({
           label: "Populair model",
           description: "Komt in aanmerking voor 'Veelgevraagde reparaties' op de homepage en de populaire modellen.",

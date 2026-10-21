@@ -40,3 +40,13 @@ pages carried the caption "Afbeelding ter illustratie" until the client asked to
 `src/app/icon.png`, `apple-icon.png` and `favicon.ico` are the current site's own favicon (wrench and screwdriver,
 `/wp-content/uploads/2021/10/cropped-PR_favicon_RGB_MV2021040*.png` on www.phonerepairs.nl), downloaded unchanged
 at the client's request (e-mail 2026-10-19: "Logo in browser zoals op oude site").
+
+## Photos per device model
+
+`public/images/toestellen/<url-naam>/photo.(jpg|webp)`: the shop's own model images from its current
+site (the image on each old model page; on pages with several models only an image whose file name
+names the model), re-used at the client's request (2026-10-22, permission to reuse all site content
+2026-10-12), resized to at most 640 px. The shop adds or replaces them per device in the CMS
+("Foto van dit model"). Devices without a photo show the licensed example photo of their type.
+Some of these images were taken from manufacturers' or press material by the shop itself; the shop is
+responsible for them, as on its current site.

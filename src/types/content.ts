@@ -93,6 +93,8 @@ export const deviceModelSchema = z.object({
   order: z.number().int().default(0),
   releaseYear: z.number().int().min(2010).max(2030).optional(),
   art: deviceArtSchema,
+  /** Own photo of the model, uploaded by the shop in the CMS (public path); otherwise the example photo of the type. */
+  photo: z.string().startsWith("/").optional(),
   popular: z.boolean().default(false),
   aliases: z.array(z.string()).default([]),
   /** Overrides the category default set of repairs. */

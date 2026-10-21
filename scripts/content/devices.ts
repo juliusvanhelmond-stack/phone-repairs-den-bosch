@@ -7,6 +7,8 @@
  * Provenance (original URLs, sources, WordPress ids, the price list's source page) stays in the same
  * file under keys the CMS does not show (`fields.ignored()`), so a save in the CMS keeps it.
  */
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import { repairForLabel } from "../migration/wordpress/devices";
 
 export const DEVICES_DIR = "src/content/toestellen";
@@ -26,6 +28,8 @@ export type DeviceEntry = {
   order: number;
   releaseYear: string;
   art: string;
+  /** Public path of the shop's own photo (Keystatic image field), or empty. */
+  photo?: string | null;
   popular: boolean;
   aliases: string[];
   seo: { title: string; description: string };
@@ -69,6 +73,7 @@ export function toEntry(device: Device, list: PriceList | undefined): DeviceEntr
     order: device.order,
     releaseYear: device.releaseYear ? String(device.releaseYear) : "",
     art: device.art,
+    photo: null,
     popular: device.popular,
     aliases: device.aliases,
     seo: { title: device.seo?.title ?? "", description: device.seo?.description ?? "" },
@@ -104,8 +109,11 @@ export function parsePrice(text: string): { amount: number | null; status: "pric
 const today = () => new Date().toISOString().slice(0, 10);
 
 /** CMS file → the site's device and price list records. Errors name the device and row. */
-export function fromEntry(slug: string, e: DeviceEntry, errors: string[]) {
+export function fromEntry(slug: string, e: DeviceEntry, errors: string[], root = process.cwd()) {
   const id = `${e.brandId}-${slug}`;
+  if (e.photo?.trim() && !existsSync(join(root, "public", e.photo.trim()))) {
+    errors.push(`toestel ${e.name} (${slug}): foto ${e.photo} niet gevonden`);
+  }
   const path = `/reparaties/${e.brandId}/${slug}`;
   const rows = (e.prices ?? [])
     .filter((p) => p.label?.trim())
@@ -142,6 +150,7 @@ export function fromEntry(slug: string, e: DeviceEntry, errors: string[]) {
     order: e.order ?? 0,
     ...(Number(e.releaseYear) ? { releaseYear: Number(e.releaseYear) } : {}),
     art: e.art,
+    ...(e.photo?.trim() ? { photo: e.photo.trim() } : {}),
     popular: !!e.popular,
     aliases: (e.aliases ?? []).filter(Boolean),
     ...(rows.length ? { repairs: [...new Set(rows.map((r) => r.repairId).filter((r): r is string => !!r))] } : {}),

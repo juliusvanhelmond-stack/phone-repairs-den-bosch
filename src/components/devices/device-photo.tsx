@@ -19,7 +19,7 @@ import macbook from "@/assets/devices/macbook.jpg";
  * Product-style photos on white, one per device type. They are licensed, unbranded
  * Adobe Stock mockups (docs/image-credits.md): representative of the type, not the
  * exact model, so the alt text says "voorbeeld". Foldables have no suitable photo yet
- * and fall back to the SVG render.
+ * and fall back to the SVG render. A model with its own photo (uploaded in the CMS) shows that instead.
  */
 const photos = {
   "iphone-pro": iphonePro,
@@ -35,7 +35,7 @@ const photos = {
 
 export type DevicePhotoKey = keyof typeof photos;
 
-type PhotoDevice = Pick<DeviceModel, "brandId" | "name" | "art">;
+type PhotoDevice = Pick<DeviceModel, "brandId" | "name" | "art" | "photo">;
 
 export function devicePhotoKey(device: PhotoDevice): DevicePhotoKey | null {
   const apple = device.brandId === "apple";
@@ -82,6 +82,20 @@ export function DevicePhoto({
   decorative?: boolean;
 }) {
   const { t } = useI18n();
+  // The shop's own photo of this model (CMS, client request 2026-10-22): shown as the model itself.
+  if (device.photo) {
+    return (
+      <Image
+        src={device.photo}
+        width={800}
+        height={800}
+        alt={decorative ? "" : device.name}
+        sizes={sizes}
+        priority={priority}
+        className={cn("h-full w-full object-contain", className)}
+      />
+    );
+  }
   const key = devicePhotoKey(device);
   if (!key) return <DeviceArt art={device.art} title={decorative ? undefined : device.name} className={artClassName} />;
   return (
