@@ -1,0 +1,66 @@
+{
+  "name": "MacBook Pro 16″ (2019 / 2020) A2141",
+  "brandId": "apple",
+  "categoryId": "laptop",
+  "series": "MacBook Pro",
+  "order": 53307,
+  "releaseYear": "2019",
+  "art": "laptop",
+  "popular": false,
+  "aliases": [
+    "Apple MacBook Pro 16\" A2141"
+  ],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "MacBook Pro 16″ (2019 / 2020) A2141 scherm unit (complete bovenkant) vervangen origineel pulled",
+      "price": "€795,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel pulled",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "MacBook Pro 16″ (2019 / 2020) A2141 batterij vervangen",
+      "price": "€250,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€200,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/macbook-pro-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-10-09."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "40856",
+      "pageTitle": "MacBook Pro reparatie",
+      "modified": "2026-10-09 00:19:04"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/macbook-pro-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-10-09"
+  }
+}

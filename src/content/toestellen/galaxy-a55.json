@@ -1,0 +1,131 @@
+{
+  "name": "Galaxy A55",
+  "brandId": "samsung",
+  "categoryId": "smartphone",
+  "series": "Galaxy A",
+  "order": 11000,
+  "releaseYear": "2024",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Samsung A55"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Samsung A55 reparatie √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen"
+  },
+  "prices": [
+    {
+      "label": "Scherm, Amoled en frame vervangen (originele Samsung service pack, zoals Samsung vereist)",
+      "price": "€150,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterzijde vervangen (incl. cameralenzen)",
+      "price": "€70,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB oplaadpoort vervangen",
+      "price": "€70,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "batterij vervangen",
+      "price": "€70,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Luidspreker vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera's achterkant vervangen",
+      "price": "€95,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera voorkant vervangen",
+      "price": "€70,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "koptelefoon aansluiting vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Melding toestel is te warm/heet oplossen (moederbord reparatie 1-3 werkdagen)",
+      "price": "€120,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Software herstel",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a55/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a55/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-06-16."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "36450",
+      "pageTitle": "Samsung A55",
+      "modified": "2026-06-16 19:29:04"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a55/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-06-16"
+  }
+}

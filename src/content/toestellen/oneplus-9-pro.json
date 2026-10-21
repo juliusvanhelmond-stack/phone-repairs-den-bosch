@@ -1,0 +1,197 @@
+{
+  "name": "OnePlus 9 Pro",
+  "brandId": "oneplus",
+  "categoryId": "smartphone",
+  "series": "OnePlus",
+  "order": 25000,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "OnePlus 9 Pro (IN2023)",
+    "IN2023"
+  ],
+  "seo": {
+    "title": "",
+    "description": "OnePlus 9 Pro reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl u meekijkt."
+  },
+  "prices": [
+    {
+      "label": "Scherm, Fluid AMOLED vervangen",
+      "price": "€350,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Scherm, Fluid AMOLED vervangen (alleen mogelijk als frame geen schade heeft)",
+      "price": "€295,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant incl. camera lenzen vervangen",
+      "price": "€110,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€85,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadconnector vervangen",
+      "price": "€115,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Volume knoppen vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Aan/uit knop vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Mute/stil knop vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Luidspreker vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Microfoon vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Koptelefoon ingang vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera's achterzijde vervangen",
+      "price": "€140,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera lens achterzijde vervangen",
+      "price": "€60,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera voorzijde vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Trilmotor vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Simhouder vervangen",
+      "price": "€15,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "OnePlus Dash lader",
+      "price": "€35,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "OnePlus USB-C oplaadkabel",
+      "price": "€15,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "OnePlus Travel lader",
+      "price": "€15,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-9-pro/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-9-pro/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2025-12-23."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "30717",
+      "pageTitle": "OnePlus 9 Pro",
+      "modified": "2025-12-23 11:20:04"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-9-pro/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2025-12-23"
+  }
+}

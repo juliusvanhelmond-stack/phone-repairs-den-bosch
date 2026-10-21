@@ -1,0 +1,89 @@
+{
+  "name": "Huawei Nova 4",
+  "brandId": "huawei",
+  "categoryId": "smartphone",
+  "series": "Huawei Nova",
+  "order": 1007700,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": "Huawei Nova 4 reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD vervangen",
+      "price": "€150,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij",
+      "price": "op aanvraag",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Aan/uit/volume knoppen flex vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Koptelefoon ingang vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Front / selfie camera vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-nova-4-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-nova-4-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2019-01-06."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "22939",
+      "pageTitle": "Huawei Nova 4",
+      "modified": "2019-01-06 16:31:44"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-nova-4-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2019-01-06"
+  }
+}

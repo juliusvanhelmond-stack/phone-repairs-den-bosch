@@ -1,0 +1,131 @@
+{
+  "name": "Galaxy A24",
+  "brandId": "samsung",
+  "categoryId": "smartphone",
+  "series": "Galaxy A",
+  "order": 13300,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Samsung A24"
+  ],
+  "seo": {
+    "title": "Samsung A24 reparatie voor een kapot scherm",
+    "description": "Professionele Samsung A24 reparatie tegen scherpe prijzen. Snelle service en originele onderdelen voor je toestel."
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD 5G vervangen",
+      "price": "€140,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterzijde vervangen",
+      "price": "€60,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij origineel vervangen",
+      "price": "€60,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadpoort vervangen",
+      "price": "€50,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "€60,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Luidspreker vervangen",
+      "price": "€60,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Volume knoppen vervangen",
+      "price": "€60,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera achterkant vervangen",
+      "price": "€60,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera voorkant vervangen",
+      "price": "€50,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "koptelefoon aansluiting vervangen",
+      "price": "€50,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Software herstel",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a24/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a24/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2025-10-20."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "39699",
+      "pageTitle": "Samsung A24",
+      "modified": "2025-10-20 13:06:23"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a24/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2025-10-20"
+  }
+}

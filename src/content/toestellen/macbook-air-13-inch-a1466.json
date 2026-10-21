@@ -1,0 +1,57 @@
+{
+  "name": "MacBook Air 13 inch A1466",
+  "brandId": "apple",
+  "categoryId": "laptop",
+  "series": "MacBook Air",
+  "order": 53406,
+  "releaseYear": "",
+  "art": "laptop",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "(2014 - 2017) scherm unit (complete bovenkant)vervangen origineel pulled",
+      "price": "€395,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel pulled",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "(2014 - 2017) batterij vervangen",
+      "price": "€160,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/macbook-air-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-10-09."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "40861",
+      "pageTitle": "MacBook Air reparatie",
+      "modified": "2026-10-09 00:19:20"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/macbook-air-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-10-09"
+  }
+}

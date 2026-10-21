@@ -1,0 +1,55 @@
+{
+  "name": "Galaxy Note 5",
+  "brandId": "samsung",
+  "categoryId": "smartphone",
+  "series": "Galaxy Note",
+  "order": 16706,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Samsung Galaxy Note 5 (N920)",
+    "N920"
+  ],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD (N920) vervangen",
+      "price": "€255,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy Note 5oplaadpooort vervangen incl. nieuw scherm",
+      "price": "€325,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-note-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2020-06-16."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "13179",
+      "pageTitle": "Samsung Note",
+      "modified": "2020-06-16 14:16:20"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-note-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2020-06-16"
+  }
+}

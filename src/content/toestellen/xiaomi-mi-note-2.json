@@ -1,0 +1,52 @@
+{
+  "name": "Xiaomi Mi Note 2",
+  "brandId": "xiaomi",
+  "categoryId": "smartphone",
+  "series": "Xiaomi Mi Note",
+  "order": 35828,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD, frame en vingerafdrukscanner vervangen",
+      "price": "€275,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterzijde vervangen",
+      "price": "op aanvraag",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/xiaomi-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2021-02-01."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "4019",
+      "pageTitle": "Xiaomi",
+      "modified": "2021-02-01 18:51:44"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/xiaomi-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2021-02-01"
+  }
+}

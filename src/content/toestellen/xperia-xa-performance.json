@@ -1,0 +1,72 @@
+{
+  "name": "Xperia XA Performance",
+  "brandId": "sony",
+  "categoryId": "smartphone",
+  "series": "Xperia XA Performance",
+  "order": 33117,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Sony Xperia XA Performance",
+    "Sony Xperia XA Performance (F8131)",
+    "F8131"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Sony Xperia XA Performance reparatie Klaar terwijl u meekijkt. Vakkundig gerepareerd. Originele onderdelen. bel: 073-8220013"
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD en behuizing vervangen",
+      "price": "€150,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Sony Xperia XA batterij vervangen",
+      "price": "€80,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-xa-performance-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-xa-performance-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2021-11-22."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "15447",
+      "pageTitle": "Sony Xperia XA Performance",
+      "modified": "2021-11-22 13:10:23"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-xa-performance-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2021-11-22"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "name": "Galaxy A5 2018",
+  "brandId": "samsung",
+  "categoryId": "smartphone",
+  "series": "Galaxy A",
+  "order": 1004200,
+  "releaseYear": "2018",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Samsung A5 2018"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Samsung A5 2018 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
+  "prices": [
+    {
+      "label": "Samsung A5 scherm, LCD vervangen",
+      "price": "€180,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung A5 achterzijde vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung A5 frame/ zijkanten vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung A5 batterij vervangen",
+      "price": "op aanvraag",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung A5 oorluidspreker vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung A5 camera lens vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung A5 camera achterkant vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung A5 camera voorkant vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung A5 koptelefoon aansluiting vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Software herstel",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a5-2018-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a5-2018-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2020-03-16."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "18263",
+      "pageTitle": "Samsung A5 2018",
+      "modified": "2020-03-16 12:04:30"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a5-2018-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2020-03-16"
+  }
+}

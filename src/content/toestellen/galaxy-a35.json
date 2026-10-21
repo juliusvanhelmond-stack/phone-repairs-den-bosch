@@ -1,0 +1,110 @@
+{
+  "name": "Galaxy A35",
+  "brandId": "samsung",
+  "categoryId": "smartphone",
+  "series": "Galaxy A",
+  "order": 12200,
+  "releaseYear": "2024",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Samsung A35"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Samsung A35 reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen"
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD en frame vervangen (originele Samsung service pack, zoals Samsung vereist)",
+      "price": "€140,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterzijde vervangen incl. camera lenzen",
+      "price": "€60,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB oplaadpoort vervangen",
+      "price": "€70,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€60,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "€60,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera's achterkant per stuk vervangen",
+      "price": "€60,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera voorkant vervangen",
+      "price": "€60,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Software herstel",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a35/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a35/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-06-30."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "36456",
+      "pageTitle": "Samsung A35",
+      "modified": "2026-06-30 17:10:46"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a35/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-06-30"
+  }
+}

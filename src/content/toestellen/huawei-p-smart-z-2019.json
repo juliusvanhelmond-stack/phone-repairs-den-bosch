@@ -1,0 +1,141 @@
+{
+  "name": "Huawei P Smart Z 2019",
+  "brandId": "huawei",
+  "categoryId": "smartphone",
+  "series": "Huawei P Smart",
+  "order": 32800,
+  "releaseYear": "2019",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Huawei P Smart Z 2019 (STK-LX1)",
+    "STK-LX1"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Huawei P Smart Z 2019 reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD en frame vervangen (origineel Huawei service pack, zoals Huawei vereist)",
+      "price": "€140,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant, incl. vingerafdrukscanner en cameralens vervangen",
+      "price": "€60,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€65,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadconnector vervangen",
+      "price": "€70,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "€50,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Aan/uit/volume vervangen",
+      "price": "€50,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Huawei P Smart Z2019 camera 16mp achterzijde vervangen",
+      "price": "€70,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Huawei P Smart Z2019 camera 2mp dieptesensor achterzijde vervangen",
+      "price": "€70,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera voor zijde vervangen",
+      "price": "€80,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "€50,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Luidspreker vervangen",
+      "price": "€55,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Huawei P Smar tZ 2019 Simkaart houder vervangen",
+      "price": "€15,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-p-smart-z-2019-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-p-smart-z-2019-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2021-01-04."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "24466",
+      "pageTitle": "Huawei P Smart Z 2019",
+      "modified": "2021-01-04 08:59:25"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-p-smart-z-2019-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2021-01-04"
+  }
+}

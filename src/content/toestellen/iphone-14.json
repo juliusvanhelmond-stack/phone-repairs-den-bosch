@@ -1,0 +1,311 @@
+{
+  "name": "iPhone 14",
+  "brandId": "apple",
+  "categoryId": "smartphone",
+  "series": "iPhone 14",
+  "order": 3200,
+  "releaseYear": "2022",
+  "art": "phone-notch",
+  "popular": true,
+  "aliases": [],
+  "seo": {
+    "title": "iPhone 14 reparatie: Snel en Professioneel",
+    "description": "Professionele iPhone 14 reparatie met garantie. Laat uw gebarsten scherm snel en vakkundig herstellen bij Phone Repairs Den Bosch."
+  },
+  "prices": [
+    {
+      "label": "Scherm vervangen premium OLED",
+      "price": "€135,-",
+      "repairId": "scherm-vervangen",
+      "popular": true,
+      "links": [
+        {
+          "text": "premium OLED",
+          "href": "/iphone-premium-oled-scherm"
+        }
+      ]
+    },
+    {
+      "label": "Scherm vervangen origineel pulled (origineel scherm afkomstig uit een nieuw toestel)",
+      "price": "€210,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel pulled",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Scherm vervangen origineel Apple service pack",
+      "price": "€250,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Achterkant glas vervangen (incl. cameralenzen, flitser, draadloos laden coil) origineel Apple Service pack",
+      "price": "€115,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple Service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Volledig midframe vervangen (incl. knoppen, cameralenzen, oplaadpoort, antennes, taptic engine, luidspreker) origineel Apple service pack",
+      "price": "€170,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Batterij origineel Apple Service pack vervangen",
+      "price": "€135,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple Service pack",
+          "href": "/iphone-batterij-vervanging"
+        }
+      ]
+    },
+    {
+      "label": "Batterij origineel pulled vervangen",
+      "price": "€80,-",
+      "repairId": "batterij-vervangen",
+      "popular": true,
+      "links": [
+        {
+          "text": "origineel pulled",
+          "href": "/iphone-batterij-vervanging"
+        }
+      ]
+    },
+    {
+      "label": "Oplaadconnector origineel Apple service pack vervangen",
+      "price": "€110,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Face ID true depth camera / front camera module origineel Apple Service pack vervangen",
+      "price": "€260,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple Service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Taptic Engine vervangen",
+      "price": "€50,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera's aan de achterkant origineel pulled vervangen",
+      "price": "€100,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel pulled",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Camera's aan de achterkant origineel Apple service pack vervangen",
+      "price": "€250,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Gesprekspartner hoort mij niet, microfoon vervangen",
+      "price": "€95,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Ik hoor mijn gesprekspartner niet, oorluidspreker vervangen",
+      "price": "€95,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Handsfree/muziek luidspreker defect, vervangen",
+      "price": "€95,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Simkaart lezer vervangen",
+      "price": "€95,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Simkaart lezer vervangen",
+      "price": "€95,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Simkaart houder vervangen",
+      "price": "€15,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Silicone case",
+      "price": "€15,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Draadloze oplader fast charge stand zwart 10 Watt",
+      "price": "€35,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Apple MagSafe oplader MFi (Made For iPhone) certificaat",
+      "price": "€45,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": [
+        {
+          "text": "MFi",
+          "href": "https://en.wikipedia.org/wiki/MFi_Program"
+        }
+      ]
+    },
+    {
+      "label": "Apple Lightning kabel MFi (Made For iPhone) certificaat",
+      "price": "€20,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": [
+        {
+          "text": "MFi",
+          "href": "https://en.wikipedia.org/wiki/MFi_Program"
+        }
+      ]
+    },
+    {
+      "label": "Apple lader 20 Watt USB-C MFi (Made For iPhone) certificaat",
+      "price": "€25,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": [
+        {
+          "text": "MFi",
+          "href": "https://en.wikipedia.org/wiki/MFi_Program"
+        }
+      ]
+    },
+    {
+      "label": "Apple USB‑C-naar-Lightning-kabel (1 m) MFi (Made For iPhone) certificaat",
+      "price": "€20,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": [
+        {
+          "text": "MFi",
+          "href": "https://en.wikipedia.org/wiki/MFi_Program"
+        }
+      ]
+    },
+    {
+      "label": "Apple EarPods met Lightning-connector",
+      "price": "€25,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Apple Lightning naar mini jack adapter",
+      "price": "€9,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/iphone-reparatie/iphone-14-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/iphone-reparatie/iphone-14-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-10-12."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "33509",
+      "pageTitle": "iPhone 14",
+      "modified": "2026-10-12 10:54:20"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/iphone-reparatie/iphone-14-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-10-12"
+  }
+}

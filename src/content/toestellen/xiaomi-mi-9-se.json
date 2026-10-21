@@ -1,0 +1,96 @@
+{
+  "name": "Xiaomi Mi 9 SE",
+  "brandId": "xiaomi",
+  "categoryId": "smartphone",
+  "series": "Xiaomi Mi",
+  "order": 35805,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": "Xiaomi Mi 9 SE reparatie Nederland. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt. Officiële BTW factuur op naam"
+  },
+  "prices": [
+    {
+      "label": "Scherm, AMOLED en frame vervangen (service pack zoals Xiaomi vereist)",
+      "price": "€250,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen",
+      "price": "op aanvraag",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "op aanvraag",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB oplaad poort vervangen",
+      "price": "op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Aan/uit/volume knoppen vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Luidspreker vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-mi-9-se-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-mi-9-se-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2019-10-20."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "23681",
+      "pageTitle": "Xiaomi Mi 9 SE",
+      "modified": "2019-10-20 16:55:58"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-mi-9-se-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2019-10-20"
+  }
+}

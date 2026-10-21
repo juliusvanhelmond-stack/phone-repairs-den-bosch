@@ -1,0 +1,182 @@
+{
+  "name": "Galaxy S9",
+  "brandId": "samsung",
+  "categoryId": "smartphone",
+  "series": "Galaxy S",
+  "order": 9700,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Samsung S9",
+    "Samsung Galaxy S9 (G960F)",
+    "G960F"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Samsung S9 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
+  "prices": [
+    {
+      "label": "Scherm, OLED, frame / zijkanten vervangen (origineel Samsung service pack, zoals Samsung vereist)",
+      "price": "€195,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterzijde vervangen",
+      "price": "€50,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€65,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB oplaad poort vervangen",
+      "price": "€65,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Vingerafdruklezer vervangen",
+      "price": "€50,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "€55,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera achterzijde vervangen",
+      "price": "€100,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera voorzijde vervangen",
+      "price": "€90,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Irisscanner vervangen",
+      "price": "€90,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Proximity sensor vervangen",
+      "price": "€60,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera lens vervangen",
+      "price": "€60,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Aan/uit knop vervangen",
+      "price": "€90,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Volume knop vervangen",
+      "price": "€90,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Koptelefoon ingang vervangen",
+      "price": "€90,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Trilmotor vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Simtray vervangen",
+      "price": "€15,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Software herstel",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Melding toestel is te warm/heet oplossen (moederbord reparatie 1-3 werkdagen)",
+      "price": "€80,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-s-reparatie/samsung-s9-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-s-reparatie/samsung-s9-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2023-07-05."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "18968",
+      "pageTitle": "Samsung S9",
+      "modified": "2023-07-05 16:22:31"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-s-reparatie/samsung-s9-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2023-07-05"
+  }
+}

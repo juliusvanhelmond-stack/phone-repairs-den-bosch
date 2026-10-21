@@ -1,0 +1,64 @@
+{
+  "name": "Galaxy A3, A5 en A7 versie 2015",
+  "brandId": "samsung",
+  "categoryId": "smartphone",
+  "series": "Galaxy A",
+  "order": 10021,
+  "releaseYear": "2015",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Samsung A3, A5 en A7 versie 2015 (A300, A500, A700)",
+    "A300",
+    "A500",
+    "A700"
+  ],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Samsung A3 scherm, LCD vervangen",
+      "price": "€100,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung A5 scherm, LCD vervangen",
+      "price": "€125,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung A7 scherm, LCD vervangen",
+      "price": "€135,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2020-10-16."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "13207",
+      "pageTitle": "Samsung A-serie",
+      "modified": "2020-10-16 15:00:42"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2020-10-16"
+  }
+}

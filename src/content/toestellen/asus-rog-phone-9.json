@@ -1,0 +1,105 @@
+{
+  "name": "Asus ROG Phone 9",
+  "brandId": "asus",
+  "categoryId": "smartphone",
+  "series": "Asus ROG Phone",
+  "order": 49400,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Asus ROG Phone 9 (Republic Of Gamers)"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Asus ROG Phone 9 reparatie, snel en vakkundig, originele onderdelen, 12 maanden gar, klaar terwijl u meekijkt. Officiële BTW factuu"
+  },
+  "prices": [
+    {
+      "label": "Scherm, AMOLED vervangen",
+      "price": "€495,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Backcover vervangen",
+      "price": "€250,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadpoort vervangen",
+      "price": "op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "op aanvraag",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Frontcamera vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera main vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera small vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/asus-zenfone-reparatie/asus-rog-phone-9/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/asus-zenfone-reparatie/asus-rog-phone-9/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2025-06-18."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "37598",
+      "pageTitle": "Asus ROG Phone 9",
+      "modified": "2025-06-18 21:28:19"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/asus-zenfone-reparatie/asus-rog-phone-9/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2025-06-18"
+  }
+}

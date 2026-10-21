@@ -1,0 +1,105 @@
+{
+  "name": "Asus ROG Phone 8",
+  "brandId": "asus",
+  "categoryId": "smartphone",
+  "series": "Asus ROG Phone",
+  "order": 49600,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Asus ROG Phone 8 (Republic Of Gamers)"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Asus ROG Phone 8 reparatie, snel en vakkundig, originele onderdelen, 12 maanden gar, klaar terwijl u meekijkt. Officiële BTW factuu"
+  },
+  "prices": [
+    {
+      "label": "Scherm, AMOLED vervangen",
+      "price": "€450,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Backcover vervangen",
+      "price": "€199,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadpoort vervangen",
+      "price": "op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "op aanvraag",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Frontcamera vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera main vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera small vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€90,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/asus-zenfone-reparatie/asus-rog-phone-8/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/asus-zenfone-reparatie/asus-rog-phone-8/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2025-04-19."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "36162",
+      "pageTitle": "Asus ROG Phone 8",
+      "modified": "2025-04-19 08:09:41"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/asus-zenfone-reparatie/asus-rog-phone-8/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2025-04-19"
+  }
+}

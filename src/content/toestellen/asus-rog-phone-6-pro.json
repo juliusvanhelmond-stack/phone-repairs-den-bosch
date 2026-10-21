@@ -1,0 +1,105 @@
+{
+  "name": "Asus ROG Phone 6 Pro",
+  "brandId": "asus",
+  "categoryId": "smartphone",
+  "series": "Asus ROG Phone",
+  "order": 49800,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Asus ROG Phone 6 Pro (Republic Of Gamers)"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Asus ROG Phone 6 Pro reparatie, snel en vakkundig, originele onderdelen, 12 maanden gar, klaar terwijl u meekijkt. Officiële BTW factuu"
+  },
+  "prices": [
+    {
+      "label": "Scherm, AMOLED vervangen",
+      "price": "€415,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Scherm, AMOLED en frame vervangen",
+      "price": "op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Backcover vervangen",
+      "price": "op aanvraag",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadpoort vervangen",
+      "price": "op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Frontcamera vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera main vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera small vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/asus-zenfone-reparatie/asus-rog-phone-6-pro/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/asus-zenfone-reparatie/asus-rog-phone-6-pro/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2024-06-06."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "33621",
+      "pageTitle": "Asus ROG Phone 6 Pro",
+      "modified": "2024-06-06 15:15:34"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/asus-zenfone-reparatie/asus-rog-phone-6-pro/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2024-06-06"
+  }
+}

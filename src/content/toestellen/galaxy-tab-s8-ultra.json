@@ -1,0 +1,49 @@
+{
+  "name": "Galaxy Tab S8 Ultra",
+  "brandId": "samsung",
+  "categoryId": "tablet",
+  "series": "Galaxy Tab S",
+  "order": 55210,
+  "releaseYear": "",
+  "art": "tablet",
+  "popular": false,
+  "aliases": [
+    "Samsung Tab S8 Ultra (SM-X900 / SM-X906)",
+    "SM-X900",
+    "SM-X906"
+  ],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Samsung Tab S8 scherm, LCD vervangen (origineel Samsung service pack, zoals Samsung vereist)",
+      "price": "€600,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/samsung-tab-reparatie-den-bosch/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-10-09."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "949",
+      "pageTitle": "Samsung Tab",
+      "modified": "2026-10-09 00:20:24"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/samsung-tab-reparatie-den-bosch/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-10-09"
+  }
+}

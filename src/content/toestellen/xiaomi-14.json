@@ -1,0 +1,117 @@
+{
+  "name": "Xiaomi 14",
+  "brandId": "xiaomi",
+  "categoryId": "smartphone",
+  "series": "Xiaomi",
+  "order": 37000,
+  "releaseYear": "2024",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": "Xiaomi 14 reparatie Nederland. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
+  },
+  "prices": [
+    {
+      "label": "Scherm vervangen",
+      "price": "€195,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Scherm en frame vervangen",
+      "price": "€300,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant (excl. camera lenzen) vervangen",
+      "price": "€80,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant camera lenzen vervangen",
+      "price": "€60,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€80,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera's vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Front camera's vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Luidspreker vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Simkaart houder vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-14/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-14/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-09-03."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "36419",
+      "pageTitle": "Xiaomi 14",
+      "modified": "2026-09-03 10:55:50"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-14/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-09-03"
+  }
+}

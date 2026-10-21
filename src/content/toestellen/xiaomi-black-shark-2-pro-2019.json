@@ -1,0 +1,52 @@
+{
+  "name": "Xiaomi Black Shark 2 Pro (2019)",
+  "brandId": "xiaomi",
+  "categoryId": "smartphone",
+  "series": "Xiaomi Black Shark",
+  "order": 35806,
+  "releaseYear": "2019",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm, AMOLED vervangen",
+      "price": "€280,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera lens vervangen",
+      "price": "€70,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/xiaomi-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2021-02-01."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "4019",
+      "pageTitle": "Xiaomi",
+      "modified": "2021-02-01 18:51:44"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/xiaomi-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2021-02-01"
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "name": "iPad 8 2020 (10.2 inch)",
+  "brandId": "apple",
+  "categoryId": "tablet",
+  "series": "iPad",
+  "order": 54600,
+  "releaseYear": "2020",
+  "art": "tablet-home-button",
+  "popular": false,
+  "aliases": [
+    "A2270"
+  ],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm (glas) vervangen",
+      "price": "€170,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Geen/slecht beeld LCD vervangen. incl. nieuw scherm (glas)",
+      "price": "op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Uitdeuken behuizing, hoeken t.b.v. scherm reparatie",
+      "price": "op aanvraag",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij origineel vervangen incl. nieuw scherm (glas)",
+      "price": "op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadconnector vervangen",
+      "price": "op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Home knop vervangen incl. nieuw scherm (glas)",
+      "price": "op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Aan/uit/volume knop vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "koptelefoon aansluiting vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera aan de achterkant vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Wifi antenne vervangen.",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€50,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Apple Lightning kabel MFi (Made For iPad) certificaat",
+      "price": "€20,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": [
+        {
+          "text": "MFi",
+          "href": "https://en.wikipedia.org/wiki/MFi_Program"
+        }
+      ]
+    },
+    {
+      "label": "Apple iPad lader 10W MFi (Made For iPad) certificaat",
+      "price": "€25,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": [
+        {
+          "text": "MFi",
+          "href": "https://en.wikipedia.org/wiki/MFi_Program"
+        }
+      ]
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/ipad-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2020-10-21."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "30731",
+      "pageTitle": "iPad",
+      "modified": "2020-10-21 18:15:52"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/ipad-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2020-10-21"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Xiaomi Redmi Note Pro 4",
+  "brandId": "redmi",
+  "categoryId": "smartphone",
+  "series": "Xiaomi Redmi Note Pro",
+  "order": 40219,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD, frame vervangen",
+      "price": "€110,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaad poort vervangen",
+      "price": "€60,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Volume, aan/uit knoppen vervangen",
+      "price": "€60,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Vingerafdruklezer vervangen",
+      "price": "€80,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Volledige behuizing vervangen (incl. knoppen, oplaadpoort, antennes, taptic engine, luidspreker)",
+      "price": "€80,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€60,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/redmi-reparatie-den-bosch/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2021-02-01."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "13232",
+      "pageTitle": "Redmi",
+      "modified": "2021-02-01 19:01:09"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/redmi-reparatie-den-bosch/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2021-02-01"
+  }
+}

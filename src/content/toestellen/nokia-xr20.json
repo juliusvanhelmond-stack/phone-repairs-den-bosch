@@ -1,0 +1,87 @@
+{
+  "name": "Nokia XR20",
+  "brandId": "nokia",
+  "categoryId": "smartphone",
+  "series": "Nokia XR",
+  "order": 27800,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": "Nokia XR20 reparatie snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt. Officiële BTW factuur op naam"
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD vervangen",
+      "price": "€130,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterzijde vervangen (excl. camera lenzen)",
+      "price": "€70,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadpoort vervangen",
+      "price": "€75,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€70,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Software herstel",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/nokia-reparatie/nokia-xr20/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/nokia-reparatie/nokia-xr20/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2024-06-07."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "35023",
+      "pageTitle": "Nokia XR20",
+      "modified": "2024-06-07 15:18:13"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/nokia-reparatie/nokia-xr20/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2024-06-07"
+  }
+}

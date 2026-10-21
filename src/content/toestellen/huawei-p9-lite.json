@@ -1,0 +1,80 @@
+{
+  "name": "Huawei P9 Lite",
+  "brandId": "huawei",
+  "categoryId": "smartphone",
+  "series": "Huawei P",
+  "order": 29017,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD, frame vervangen",
+      "price": "€95,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen",
+      "price": "€60,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€60,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "€60,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Aan/uit/volume vervangen",
+      "price": "€60,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Huawei P9 camera lens vervangen",
+      "price": "€50,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2021-02-01."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "893",
+      "pageTitle": "Huawei",
+      "modified": "2021-02-01 18:56:19"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2021-02-01"
+  }
+}

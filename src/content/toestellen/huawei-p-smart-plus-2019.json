@@ -1,0 +1,113 @@
+{
+  "name": "Huawei P Smart Plus 2019",
+  "brandId": "huawei",
+  "categoryId": "smartphone",
+  "series": "Huawei P Smart",
+  "order": 32900,
+  "releaseYear": "2019",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Huawei P Smart Plus 2019 (POT-L21 POT-LX1)",
+    "POT-L21 POT-LX1"
+  ],
+  "seo": {
+    "title": "",
+    "description": "iPHuawei P Smart Plus 2019 reparatie √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen √ 12 mnd. gar."
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD en frame vervangen (origineel Huawei service pack, zoals Huawei vereist)",
+      "price": "€150,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant incl. cameralenzen vervangen",
+      "price": "€45,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€70,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadconnector vervangen",
+      "price": "€70,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Aan/uit/volume vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera's achterzijde vervangen",
+      "price": "€90,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera voor zijde vervangen",
+      "price": "€70,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-p-smart-plus-2019-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-p-smart-plus-2019-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2020-11-21."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "26752",
+      "pageTitle": "Huawei P Smart Plus 2019",
+      "modified": "2020-11-21 12:30:52"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-p-smart-plus-2019-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2020-11-21"
+  }
+}

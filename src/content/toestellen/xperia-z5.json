@@ -1,0 +1,123 @@
+{
+  "name": "Xperia Z5",
+  "brandId": "sony",
+  "categoryId": "smartphone",
+  "series": "Xperia Z",
+  "order": 33119,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Sony Xperia Z5",
+    "Sony Xperia Z5 (E6653 / E6603)",
+    "E6653",
+    "E6603",
+    "Sony Xperia Z5 (E6603)"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Sony Xperia Z5 reparatie klaar terwijl je wacht en meekijkt iPhone, Nexus, Nokia, Huawei, Honor, Sony, Motorola, OnePlus. Vakkundig gerepareerd. Originele onderdelen"
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD en behuizing vervangen",
+      "price": "€200,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen",
+      "price": "€60,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€70,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Koptelefoon ingang vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB oplaadpunt vervangen",
+      "price": "€60,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Volume, aan/uit knoppen vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Microfoon vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera achterzijde vervangen",
+      "price": "€70,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Front camera vervangen",
+      "price": "€60,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-z5-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-z5-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2019-06-17."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "15451",
+      "pageTitle": "Sony Xperia Z5",
+      "modified": "2019-06-17 14:12:07"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-z5-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2019-06-17"
+  }
+}

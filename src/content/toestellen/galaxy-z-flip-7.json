@@ -1,0 +1,145 @@
+{
+  "name": "Galaxy Z Flip 7",
+  "brandId": "samsung",
+  "categoryId": "smartphone",
+  "series": "Galaxy Z Flip",
+  "order": 16000,
+  "releaseYear": "",
+  "art": "phone-flip",
+  "popular": false,
+  "aliases": [
+    "Samsung Galaxy Z Flip 7"
+  ],
+  "seo": {
+    "title": "Samsung Galaxy Z Flip 7 reparatie tegen scherpe prijzen",
+    "description": "Uw Samsung Galaxy Z Flip 7 heeft reparatie nodig? Wij bieden snelle service met originele onderdelen. Bel nu!"
+  },
+  "prices": [
+    {
+      "label": "Scherm, OLED,frame / zijkanten en scharnier vervangen (origineel Samsung service pack, zoals Samsung vereist) vervangen",
+      "price": "€445,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant (boven) incl. OLED scherm en cameralenzen vervangen",
+      "price": "€145,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant (beneden) vervangen",
+      "price": "€70,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij onder en boven vervangen",
+      "price": "€145,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB oplaad poort vervangen",
+      "price": "€95,",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Vingerafdruklezer vervangen",
+      "price": "€120,-,",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "€90,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera's achterzijde vervangen",
+      "price": "€130,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera voorzijde vervangen",
+      "price": "€130,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Aan/uit knop vervangen",
+      "price": "€120,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Volume knop vervangen",
+      "price": "€120,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Trilmotor vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Software herstel",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-z-flip-7/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-z-flip-7/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-07-29."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "38640",
+      "pageTitle": "Samsung Galaxy Z Flip 7",
+      "modified": "2026-07-29 17:11:43"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-z-flip-7/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-07-29"
+  }
+}

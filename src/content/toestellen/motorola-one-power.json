@@ -1,0 +1,61 @@
+{
+  "name": "Motorola One Power",
+  "brandId": "motorola",
+  "categoryId": "smartphone",
+  "series": "Motorola One Power",
+  "order": 51900,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": "Motorola One Power reparatie Smartphone en tablet reparatie van iPhone, iPad, Samsung, LG, Huawei, Sony, Nexus, Originele onderdelen, 12 mnd. garantie"
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD",
+      "price": "€150,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/motorola-reparatie/motorola-one-power-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/motorola-reparatie/motorola-one-power-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2018-10-22."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "20561",
+      "pageTitle": "Motorola One Power",
+      "modified": "2018-10-22 22:03:48"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/motorola-reparatie/motorola-one-power-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2018-10-22"
+  }
+}

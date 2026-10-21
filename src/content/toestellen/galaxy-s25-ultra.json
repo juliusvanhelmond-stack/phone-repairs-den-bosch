@@ -1,0 +1,160 @@
+{
+  "name": "Galaxy S25 Ultra",
+  "brandId": "samsung",
+  "categoryId": "smartphone",
+  "series": "Galaxy S",
+  "order": 6900,
+  "releaseYear": "2025",
+  "art": "phone-punch-hole",
+  "popular": true,
+  "aliases": [
+    "Samsung S25 Ultra",
+    "Samsung Galaxy S25 Ultra"
+  ],
+  "seo": {
+    "title": "Samsung S25 Ultra reparatie voor kapotte schermen",
+    "description": "Laat uw Samsung S25 Ultra reparatie professioneel uitvoeren met originele onderdelen en kijk mee tijdens de service."
+  },
+  "prices": [
+    {
+      "label": "Scherm, Dynamic AMOLED, frame / zijkanten en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist)",
+      "price": "€325,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterzijde (incl.camera lenzen) vervangen",
+      "price": "€90,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadpoort vervangen",
+      "price": "€90,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€90,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "€90,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Luidspreker vervangen",
+      "price": "€90,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Hoofd camera achterzijde vervangen",
+      "price": "€120,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Ultra wide camera achterzijde vervangen",
+      "price": "€90,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Telephoto achterzijde vervangen",
+      "price": "€90,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera voorzijde vervangen",
+      "price": "€90,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Trilmotor vervangen",
+      "price": "€90,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "SIM kaart houder",
+      "price": "€15,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Aan/uit knop vervangen",
+      "price": "€90,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Volume knoppen vervangen",
+      "price": "€90,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Software herstel",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s25-ultra/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s25-ultra/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-07-09."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "37205",
+      "pageTitle": "Samsung S25 Ultra",
+      "modified": "2026-07-09 12:13:33"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s25-ultra/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-07-09"
+  }
+}

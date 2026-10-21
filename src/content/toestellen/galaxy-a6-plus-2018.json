@@ -1,0 +1,82 @@
+{
+  "name": "Galaxy A6+ 2018",
+  "brandId": "samsung",
+  "categoryId": "smartphone",
+  "series": "Galaxy A",
+  "order": 10015,
+  "releaseYear": "2018",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Samsung A6 Plus 2018"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Samsung A6 Plus reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
+  "prices": [
+    {
+      "label": "Samsung A6 Plus scherm, LCD vervangen",
+      "price": "€130,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung A6 Plus achterzijde, frame/ zijkanten vervangen",
+      "price": "€140,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung A6 Plus batterij vervangen",
+      "price": "€95,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Software herstel",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a6-plus-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a6-plus-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2019-12-03."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "19747",
+      "pageTitle": "Samsung A6 Plus 2018",
+      "modified": "2019-12-03 10:04:44"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a6-plus-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2019-12-03"
+  }
+}

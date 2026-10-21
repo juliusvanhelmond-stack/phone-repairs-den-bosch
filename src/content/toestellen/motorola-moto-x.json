@@ -1,0 +1,64 @@
+{
+  "name": "Motorola MOTO X",
+  "brandId": "motorola",
+  "categoryId": "smartphone",
+  "series": "Motorola MOTO X",
+  "order": 50605,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Motorola MOTO X (XT 1092, XT1097 en XT1055 )",
+    "XT 1092",
+    "XT1097",
+    "XT1055"
+  ],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "(XT1092) scherm, LCD, frame vervangen",
+      "price": "€240,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Motorola New MOTO X (XT1097) scherm, LCD, frame vervangen",
+      "price": "€240,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "(XT1055) scherm, LCD, frame vervangen",
+      "price": "€150,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/motorola-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2020-02-21."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "8824",
+      "pageTitle": "Motorola",
+      "modified": "2020-02-21 18:57:58"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/motorola-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2020-02-21"
+  }
+}

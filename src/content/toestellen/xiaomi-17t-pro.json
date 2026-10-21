@@ -1,0 +1,98 @@
+{
+  "name": "Xiaomi 17T Pro",
+  "brandId": "xiaomi",
+  "categoryId": "smartphone",
+  "series": "Xiaomi",
+  "order": 36400,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Xiaomi Mi 17T Pro"
+  ],
+  "seo": {
+    "title": "Xiaomi Mi 17T Pro reparatie: Veelvoorkomende defecten",
+    "description": "Snel en betrouwbaar uw Xiaomi Mi 17T Pro laten repareren? Wij bieden alle reparaties met originele onderdelen en full service garantie."
+  },
+  "prices": [
+    {
+      "label": "Scherm en frame vervangen (Xiaomi service pack scherm, zoals Xiaomi vereist)",
+      "price": "€295,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant (incl. camera lenzen) vervangen",
+      "price": "€95,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€95,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadpoort vervangen",
+      "price": "€95,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "SIM kaart lezer vervangen",
+      "price": "€95,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€95,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€95,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-17t-pro-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-17t-pro-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-09-23."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "43282",
+      "pageTitle": "Xiaomi 17T Pro",
+      "modified": "2026-09-23 10:18:02"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-17t-pro-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-09-23"
+  }
+}

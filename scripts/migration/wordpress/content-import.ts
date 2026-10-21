@@ -6,7 +6,7 @@
  */
 import { readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import { boilerplateHeadings, paragraphs, sanitizeArticle, sectionize, type Section } from "./content";
+import { boilerplateHeadings, paragraphs, sectionize, type Section } from "./content";
 import { repairForLabel, slugify } from "./devices";
 import type { WxrItem } from "./wxr";
 import { PAGES_DIR, readEntries, writeEntry } from "../../content/files";
@@ -314,45 +314,9 @@ export function importContent(items: WxrItem[], exportedAt: string, root: string
   const faqIds = new Set(wpFaqs.map((f) => f.id));
   writeFileSync(faqPath, json([...wpFaqs, ...faqs.filter((f) => !faqIds.has(f.id))]));
 
-  /* Blog posts */
-  const blogPath = join(root, "src/data/blog.json");
-  type Blog = { id: string; slug: string; summary: string[]; excerpt?: string; legacyUrls: string[] };
-  const blog: Blog[] = JSON.parse(readFileSync(blogPath, "utf8"));
-  const posts = items
-    .filter((i) => i.type === "blog_post" && i.status === "publish")
-    .sort((a, b) => b.date.localeCompare(a.date));
-  for (const post of posts) {
-    const bodyHtml = sanitizeArticle(post.content);
-    const text = paragraphs(post.content).filter((p) => p.length > 60);
-    const old = blog.find((b) => b.slug === post.slug);
-    const record = {
-      id: post.slug,
-      slug: post.slug,
-      title: cleanTitle(post.title),
-      publishedAt: post.date.slice(0, 10),
-      updatedAt: post.modified.slice(0, 10),
-      excerpt: fit(cleanTitle(post.excerpt) || text[0] || "", 200),
-      summary: old?.summary.length ? old.summary : text.slice(0, 2),
-      bodyHtml,
-      legacyUrls: [`/blog-post/${post.slug}/`],
-      sources: [source(post, exportedAt)],
-    };
-    const index = blog.findIndex((b) => b.slug === post.slug);
-    if (index >= 0) blog[index] = { ...blog[index], ...record };
-    else blog.push(record);
-  }
-  // The export is leading: posts that are no longer published (e.g. in the trash) are removed.
-  const published = new Set(posts.map((p) => p.slug));
-  const removedBlogs = blog.filter((b) => !published.has(b.slug));
-  writeFileSync(blogPath, json(blog.filter((b) => published.has(b.slug))));
-  if (removedBlogs.length) {
-    const enPath = join(root, "src/data/translations/en.json");
-    const en = JSON.parse(readFileSync(enPath, "utf8"));
-    for (const b of removedBlogs) delete en.blog[b.id];
-    writeFileSync(enPath, json(en));
-    report.push(`blog posts no longer published, removed: ${removedBlogs.map((b) => b.slug).join(", ")}`);
-  }
+  /* Blog posts: edited in the CMS since 2026-10-21 (src/content/blog/*.mdoc); the export is no longer read for them. */
+  const posts = items.filter((i) => i.type === "blog_post" && i.status === "publish");
 
   report.push(`content: ${INFO_PAGES.length} info pages, ${wpFaqs.length} FAQs, ${posts.length} blog posts`);
-  return { report, removedBlogSlugs: removedBlogs.map((b) => b.slug) };
+  return { report, removedBlogSlugs: [] as string[] };
 }

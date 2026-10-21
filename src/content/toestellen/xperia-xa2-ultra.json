@@ -1,0 +1,91 @@
+{
+  "name": "Xperia XA2 Ultra",
+  "brandId": "sony",
+  "categoryId": "smartphone",
+  "series": "Xperia XA",
+  "order": 33112,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Sony Xperia XA2 Ultra"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Sony Xperia XA2 Ultra reparatie Klaar terwijl u meekijkt met de reparatie. Vakkundig gerepareerd. Originele onderdelen. bel: 073-8220013"
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD en behuizing vervangen",
+      "price": "€230,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterzijde vervangen",
+      "price": "€90,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij origineel vervangen",
+      "price": "€90,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera achterzijde vervangen",
+      "price": "€90,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "€90,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-xa2-ultra/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-xa2-ultra/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2018-05-12."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "18902",
+      "pageTitle": "Sony Xperia XA2 Ultra",
+      "modified": "2018-05-12 12:06:34"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-xa2-ultra/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2018-05-12"
+  }
+}

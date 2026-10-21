@@ -1,0 +1,120 @@
+{
+  "name": "Xperia 5",
+  "brandId": "sony",
+  "categoryId": "smartphone",
+  "series": "Xperia",
+  "order": 33102,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Sony Xperia 5",
+    "Sony Xperia 5 j9210"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Sony Xperia 5 reparatie klaar terwijl je wacht en meekijkt iPhone, Nexus, Nokia, Huawei, Honor, Sony, Motorola, OnePlus. Vakkundig gerepareerd. Originele onderdelen."
+  },
+  "prices": [
+    {
+      "label": "Scherm, OLED 4K en frame vervangen",
+      "price": "€295,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen",
+      "price": "€60,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€90,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Koptelefoon ingang vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB oplaadpunt vervangen",
+      "price": "op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Volume, aan/uit knoppen vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Microfoon vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera achterzijde vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Front camera vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-5-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-5-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2023-09-01."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "25592",
+      "pageTitle": "Sony Xperia 5",
+      "modified": "2023-09-01 15:26:18"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-5-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2023-09-01"
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "name": "iPhone Air 2",
+  "brandId": "apple",
+  "categoryId": "smartphone",
+  "series": "iPhone Air",
+  "order": 1600,
+  "releaseYear": "",
+  "art": "phone-island",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "iPhone Air 2 reparatie Professioneel met originele onderdelen",
+    "description": "Heeft u schade aan uw iPhone Air 2? Laat de iPhone 17 Air reparatie snel en professioneel uitvoeren met garantie."
+  },
+  "prices": [
+    {
+      "label": "Scherm vervangen premium OLED",
+      "price": "op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "premium OLED",
+          "href": "/iphone-premium-oled-scherm"
+        }
+      ]
+    },
+    {
+      "label": "Scherm vervangen origineel pulled (origineel scherm afkomstig uit een nieuw toestel)",
+      "price": "op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel pulled",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Scherm vervangen origineel Apple service pack",
+      "price": "op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Achterkant glas vervangen (incl. cameralenzen, flitser, draadloos laden coil) origineel Apple Service pack",
+      "price": "op aanvraag",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij origineel Apple Service pack vervangen",
+      "price": "op aanvraag",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple Service pack",
+          "href": "/iphone-batterij-vervanging"
+        }
+      ]
+    },
+    {
+      "label": "Batterij origineel pulled vervangen",
+      "price": "op aanvraag",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel pulled",
+          "href": "/iphone-batterij-vervanging"
+        }
+      ]
+    },
+    {
+      "label": "Volledig midframe vervangen (incl. achterkant glas, knoppen, oplaadpoort, antennes, taptic engine, luidspreker) origineel Apple Service pack",
+      "price": "op aanvraag",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple Service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "USB-C oplaadconnector origineel Apple Service pack vervangen",
+      "price": "op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple Service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Face ID true depth camera / front camera module origineel Apple Service pack vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple Service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Taptic Engine origineel Apple service pack vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Camera's aan de achterkant origineel pulled vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel pulled",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Camera's aan de achterkant origineel Apple service pack vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Gesprekspartner hoort mij niet, microfoon origineel Apple service pack vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Ik hoor mijn gesprekspartner niet, oorluidspreker origineel Apple service packvervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Handsfree/muziek luidspreker defect origineel Apple service pack vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Simkaart houder vervangen",
+      "price": "€25,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Apple MagSafe oplader MFi (Made For iPhone) certificaat",
+      "price": "€45,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": [
+        {
+          "text": "MFi",
+          "href": "https://en.wikipedia.org/wiki/MFi_Program"
+        }
+      ]
+    },
+    {
+      "label": "Apple USB-C kabel MFi (Made For iPhone) certificaat",
+      "price": "€20,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": [
+        {
+          "text": "MFi",
+          "href": "https://en.wikipedia.org/wiki/MFi_Program"
+        }
+      ]
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/iphone-reparatie/iphone-air-2/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/iphone-reparatie/iphone-air-2/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-09-08."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "42154",
+      "pageTitle": "iPhone Air 2",
+      "modified": "2026-09-08 20:09:35"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/iphone-reparatie/iphone-air-2/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-09-08"
+  }
+}

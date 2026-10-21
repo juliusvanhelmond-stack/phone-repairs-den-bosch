@@ -1,0 +1,98 @@
+{
+  "name": "Xperia 10 IV",
+  "brandId": "sony",
+  "categoryId": "smartphone",
+  "series": "Xperia",
+  "order": 33300,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Sony Xperia 10 IV"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Sony Xperia 10 IV reparatie klaar terwijl je wacht en meekijkt iPhone, Xiaomi, Sony, Motorola, OnePlus. Vakkundig gerepareerd. Originele onderdelen."
+  },
+  "prices": [
+    {
+      "label": "Scherm, OLED vervangen",
+      "price": "€280,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen",
+      "price": "€75,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€85,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB oplaadpunt vervangen",
+      "price": "€85,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Microfoon vervangen",
+      "price": "€85,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Front camera vervangen",
+      "price": "€90,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-10-iv/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-10-iv/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2023-10-04."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "35853",
+      "pageTitle": "Sony Xperia 10 IV",
+      "modified": "2023-10-04 13:37:38"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-10-iv/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2023-10-04"
+  }
+}

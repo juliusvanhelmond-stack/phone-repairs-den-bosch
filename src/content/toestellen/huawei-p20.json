@@ -1,0 +1,127 @@
+{
+  "name": "Huawei P20",
+  "brandId": "huawei",
+  "categoryId": "smartphone",
+  "series": "Huawei P",
+  "order": 29004,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Huawei P20 (EML-L29C)",
+    "EML-L29C"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Huawei P20 reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD en frame (origineel Huawei service pack, zoals Huawei vereist)",
+      "price": "€170,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen",
+      "price": "€60,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij",
+      "price": "€70,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadconnector vervangen",
+      "price": "€70,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Aan/uit/volume vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Leica camera's achterzijde vervangen",
+      "price": "€80,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera voor zijde vervangen",
+      "price": "€75,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Leica camera lens achterzijde vervangen",
+      "price": "€30,--",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "€60,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Microfoon vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-p20-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-p20-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2023-05-18."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "18979",
+      "pageTitle": "Huawei P20",
+      "modified": "2023-05-18 15:11:26"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-p20-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2023-05-18"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "name": "Honor Magic V2",
+  "brandId": "honor",
+  "categoryId": "smartphone",
+  "series": "Honor Magic V",
+  "order": 26500,
+  "releaseYear": "",
+  "art": "phone-foldable",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "Honor Magic V2 reparatie bij Phone Repairs",
+    "description": "Heeft u schade aan uw Honor Magic V2? Wij bieden snelle en professionele Honor Magic V2 reparatie met garantie."
+  },
+  "prices": [
+    {
+      "label": "Scherm (voorkant), OLED (origineel Honor service pack, zoals Honor vereist) vervangen",
+      "price": "€240,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Scherm (groot) OLED, frame en scharnier (origineel Honor service pack, zoals Honor vereist) vervangen",
+      "price": "€625,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Backcover vervangen",
+      "price": "op aanvraag",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterijen vervangen",
+      "price": "op aanvraag",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadconnector vervangen",
+      "price": "op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achtercamera's vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Selfie camera vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Honor X10 5G koptelefoon aansluiting vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Honor X10 5G oorluidspreker vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Honor X10 5G speaker vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Honor X10 5G aan/uit/volume knoppen vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€140,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/honor-reparatie/honor-magic-v2-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/honor-reparatie/honor-magic-v2-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-02-19."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "40037",
+      "pageTitle": "Honor Magic V2",
+      "modified": "2026-02-19 09:49:10"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/honor-reparatie/honor-magic-v2-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-02-19"
+  }
+}

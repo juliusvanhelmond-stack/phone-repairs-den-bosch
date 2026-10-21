@@ -1,0 +1,69 @@
+{
+  "name": "Xperia XZ",
+  "brandId": "sony",
+  "categoryId": "smartphone",
+  "series": "Xperia XZ",
+  "order": 33109,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Sony Xperia XZ (F8331)",
+    "F8331"
+  ],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD vervangen",
+      "price": "€190,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Sony Xperia XZachterkant vervangen",
+      "price": "€60,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€80,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Volume, aan/uit, trilmotor flex",
+      "price": "€190,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/sony-xperia-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2020-05-14."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "901",
+      "pageTitle": "Sony Xperia",
+      "modified": "2020-05-14 00:54:13"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/sony-xperia-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2020-05-14"
+  }
+}

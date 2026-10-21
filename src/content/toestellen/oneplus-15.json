@@ -1,0 +1,196 @@
+{
+  "name": "OnePlus 15",
+  "brandId": "oneplus",
+  "categoryId": "smartphone",
+  "series": "OnePlus",
+  "order": 23800,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "CPH2747"
+  ],
+  "seo": {
+    "title": "OnePlus 15 reparatie bij u in de buurt",
+    "description": "Voer uw OnePlus 15 reparatie snel uit met originele onderdelen. Maak vandaag nog een afspraak voor professionele service."
+  },
+  "prices": [
+    {
+      "label": "Scherm, Fluid OLED, ultrasonic vingerafdruklezer en frame vervangen origineel OnePlus service pack",
+      "price": "€325,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Scherm, Fluid OLED en ultrasonic vingerafdruklezer vervangen (alleen mogelijk als frame geen schade heeft) origineel OnePlus service pack",
+      "price": "€295,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen",
+      "price": "€120,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€110,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadconnector vervangen",
+      "price": "op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Volume knoppen vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Aan/uit knop vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Mute/stil knop vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Luidspreker vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Microfoon vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Koptelefoon ingang vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera's achterzijde vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera lens achterzijde vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera voorzijde vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Trilmotor vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Simhouder vervangen",
+      "price": "€15,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "OnePlus Dash lader",
+      "price": "€35,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "OnePlus USB-C oplaadkabel",
+      "price": "€15,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "OnePlus Travel lader",
+      "price": "€15,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-15/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-15/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-07-17."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "39650",
+      "pageTitle": "OnePlus 15",
+      "modified": "2026-07-17 14:27:16"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-15/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-07-17"
+  }
+}

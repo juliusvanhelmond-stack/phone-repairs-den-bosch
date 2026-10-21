@@ -1,0 +1,45 @@
+{
+  "name": "Honor 6X",
+  "brandId": "honor",
+  "categoryId": "smartphone",
+  "series": "Honor",
+  "order": 26314,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD, frame vervangen",
+      "price": "€140,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/honor-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2020-10-06."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "1024",
+      "pageTitle": "Honor",
+      "modified": "2020-10-06 13:03:51"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/honor-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2020-10-06"
+  }
+}

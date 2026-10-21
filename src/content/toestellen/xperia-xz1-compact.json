@@ -1,0 +1,86 @@
+{
+  "name": "Xperia XZ1 compact",
+  "brandId": "sony",
+  "categoryId": "smartphone",
+  "series": "Xperia XZ",
+  "order": 35000,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Sony Xperia XZ1 compact",
+    "Sony Xperia XZ1 compact (G8441)",
+    "G8441"
+  ],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD vervangen",
+      "price": "€145,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen",
+      "price": "€60,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€80,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Volume, aan/uit, trilmotor flex",
+      "price": "€90,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-xz1-compact-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-xz1-compact-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2018-10-07."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "19155",
+      "pageTitle": "Sony Xperia XZ1 compact",
+      "modified": "2018-10-07 13:56:03"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-xz1-compact-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2018-10-07"
+  }
+}

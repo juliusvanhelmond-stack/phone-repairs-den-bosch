@@ -1,0 +1,117 @@
+{
+  "name": "OPPO Find N3 Flip",
+  "brandId": "oppo",
+  "categoryId": "smartphone",
+  "series": "OPPO Find X",
+  "order": 44000,
+  "releaseYear": "",
+  "art": "phone-flip",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": "OPPO Find N3 Flip reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
+  "prices": [
+    {
+      "label": "Scherm, AMOLED en frame vervangen",
+      "price": "€695,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant boven incl. LCD scherm achterzijde en cameralens vervangen",
+      "price": "op aanvraag",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant onder vervangen",
+      "price": "op aanvraag",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij boven vervangen",
+      "price": "op aanvraag",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij onder vervangen",
+      "price": "op aanvraag",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadconnector vervangen",
+      "price": "op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera's achterzijde vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera's voorzijde vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Simkaart lezer vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Simkaart houder vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/oppo-reparatie/oppo-find-n3-flip/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/oppo-reparatie/oppo-find-n3-flip/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2024-10-09."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "35828",
+      "pageTitle": "OPPO Find N3 Flip",
+      "modified": "2024-10-09 09:54:01"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/oppo-reparatie/oppo-find-n3-flip/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2024-10-09"
+  }
+}

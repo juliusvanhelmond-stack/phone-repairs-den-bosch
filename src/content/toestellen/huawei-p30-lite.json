@@ -1,0 +1,129 @@
+{
+  "name": "Huawei P30 Lite",
+  "brandId": "huawei",
+  "categoryId": "smartphone",
+  "series": "Huawei P",
+  "order": 29002,
+  "releaseYear": "2019",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Huawei P30 Lite (MAR-LX1A)",
+    "MAR-LX1A",
+    "Huawei P30 Lite (MAR-LX1M)",
+    "MAR-LX1M"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Huawei P30 Lite reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD en frame, zijkanten vervangen (origineel Huawei service pack, zoals Huawei vereist)",
+      "price": "€130,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen",
+      "price": "€35,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Vingerafdruk lezer vervangen",
+      "price": "€45,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "batterij vervangen",
+      "price": "€60,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "oplaadconnector vervangen",
+      "price": "€70,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Aan/uit/volume vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Leica camera's achterzijde vervangen",
+      "price": "€70,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera voor zijde vervangen",
+      "price": "€70,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Leica camera lens achterzijde vervangen",
+      "price": "€70,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-p30-lite/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-p30-lite/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2021-08-17."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "27160",
+      "pageTitle": "Huawei P30 Lite",
+      "modified": "2021-08-17 19:22:39"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-p30-lite/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2021-08-17"
+  }
+}

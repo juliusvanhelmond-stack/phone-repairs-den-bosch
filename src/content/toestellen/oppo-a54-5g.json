@@ -1,0 +1,82 @@
+{
+  "name": "Oppo A54 5G",
+  "brandId": "oppo",
+  "categoryId": "smartphone",
+  "series": "OPPO A",
+  "order": 48600,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm, AMOLED vervangen",
+      "price": "€150,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen",
+      "price": "op aanvraag",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€70,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Headjack vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Microfoon vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/oppo-reparatie/oppo-a54-5g/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/oppo-reparatie/oppo-a54-5g/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2024-06-07."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "31964",
+      "pageTitle": "Oppo A54 5G",
+      "modified": "2024-06-07 15:25:05"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/oppo-reparatie/oppo-a54-5g/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2024-06-07"
+  }
+}

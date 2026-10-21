@@ -1,0 +1,111 @@
+{
+  "name": "Asus ROG Phone (Republic Of Gamers)",
+  "brandId": "asus",
+  "categoryId": "smartphone",
+  "series": "Asus ROG Phone (Republic Of Gamers)",
+  "order": 49201,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Asus ROG Phone (Republic Of Gamers) (ZS600KL)",
+    "ZS600KL"
+  ],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm, AMOLED vervangen",
+      "price": "€345,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen (excl. cameralenzen en vingerscanner)",
+      "price": "€170,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij origineel vervangen",
+      "price": "€150,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Headjack vervangen",
+      "price": "€150,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Scherm, aan/uit/volume knoppen vervangen",
+      "price": "€150,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "€150,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera achter vervangen",
+      "price": "€195,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Voor camera vervangen",
+      "price": "€150,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Luidspreker vervangen",
+      "price": "€110,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Sim kaart vervangen",
+      "price": "€20,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/asus-zenfone-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2019-11-15."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "12465",
+      "pageTitle": "Asus Zenfone",
+      "modified": "2019-11-15 18:31:55"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/asus-zenfone-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2019-11-15"
+  }
+}

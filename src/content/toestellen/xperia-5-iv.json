@@ -1,0 +1,119 @@
+{
+  "name": "Xperia 5 IV",
+  "brandId": "sony",
+  "categoryId": "smartphone",
+  "series": "Xperia",
+  "order": 33800,
+  "releaseYear": "2022",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Sony Xperia 5 IV"
+  ],
+  "seo": {
+    "title": "Sony Xperia 5 IV reparatie: Originele Onderdelen",
+    "description": "Laat uw Sony Xperia 5 IV reparatie snel en professioneel uitvoeren. Bel vandaag nog voor een afspraak bij Phone Repairs Den Bosch."
+  },
+  "prices": [
+    {
+      "label": "Scherm, OLED 4K en frame vervangen",
+      "price": "€395,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen",
+      "price": "€70,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€90,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Koptelefoon ingang vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB oplaadpunt vervangen",
+      "price": "op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Volume, aan/uit knoppen vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Microfoon vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera achterzijde vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Front camera vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-5-iv/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-5-iv/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2025-12-27."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "40191",
+      "pageTitle": "Sony Xperia 5 IV",
+      "modified": "2025-12-27 15:45:44"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-5-iv/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2025-12-27"
+  }
+}

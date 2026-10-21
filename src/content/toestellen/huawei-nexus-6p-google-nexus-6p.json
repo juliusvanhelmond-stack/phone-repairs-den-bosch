@@ -1,0 +1,136 @@
+{
+  "name": "Huawei Nexus 6P (Google Nexus 6P)",
+  "brandId": "huawei",
+  "categoryId": "smartphone",
+  "series": "Huawei Nexus",
+  "order": 29020,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Nexus 6P scherm, LCD, frame vervangen",
+      "price": "€190,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nexus 6P achterkant vervangen",
+      "price": "€80,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant camera lens / glas achterkant bovenzijde vervangen",
+      "price": "€60,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nexus 6P batterij vervangen",
+      "price": "€80,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nexus 6P usb type-c oplaadpunt vervangen",
+      "price": "€80,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nexus 6P volume, aan/uit knoppen vervangen",
+      "price": "€80,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nexus 6P camera achterzijde vervangen",
+      "price": "€90,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nexus 6P camera voorzijde vervangen",
+      "price": "€80,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nexus 6P koptelefoon aansluiting vervangen",
+      "price": "€80,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nexus 6P vingerafdrukscanner vervangen",
+      "price": "€85,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nexus 6P trilmotor vervangen",
+      "price": "€80,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nexus 6P silicone case",
+      "price": "€10,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nexus 6P tempered glass",
+      "price": "€10,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nexus 6P USB Type C converter naar micro USB",
+      "price": "€10,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2021-02-01."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "893",
+      "pageTitle": "Huawei",
+      "modified": "2021-02-01 18:56:19"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2021-02-01"
+  }
+}

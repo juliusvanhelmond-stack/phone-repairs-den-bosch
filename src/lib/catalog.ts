@@ -23,14 +23,16 @@ import {
 import categoriesJson from "@/data/categories.json";
 import brandsJson from "@/data/brands.json";
 import repairsJson from "@/data/repairs.json";
-import priceListsJson from "@/data/price-lists.json";
-import devicesJson from "@/data/devices.json";
+// Devices and price lists: merged from the CMS files in src/content/toestellen by `npm run content`.
+import priceListsJson from "@/data/generated/price-lists.json";
+import devicesJson from "@/data/generated/devices.json";
 import warrantyJson from "@/data/warranty.json";
 import faqsJson from "@/data/faqs.json";
 import claimsJson from "@/data/claims.json";
 // Merged from the CMS files in src/content/pages by `npm run content` (runs before dev/build/check).
 import landingPagesJson from "@/data/generated/landing-pages.json";
-import blogJson from "@/data/blog.json";
+// Blog posts: rendered from the CMS files in src/content/blog by `npm run content`.
+import blogJson from "@/data/generated/blog.json";
 import enJson from "@/data/translations/en.json";
 import type { Locale } from "@/lib/i18n";
 
@@ -38,7 +40,13 @@ import type { Locale } from "@/lib/i18n";
 const byOrder = <T extends { order: number }>(a: T, b: T) => a.order - b.order;
 
 export const categories = z.array(deviceCategorySchema).parse(categoriesJson).sort(byOrder);
-export const brands = z.array(brandSchema).parse(brandsJson).sort(byOrder);
+export const devices = z.array(deviceModelSchema).parse(devicesJson);
+// A device added in the CMS may be the brand's first in a category (e.g. a first Samsung tablet).
+export const brands = z
+  .array(brandSchema)
+  .parse(brandsJson)
+  .map((b) => ({ ...b, categories: [...new Set([...b.categories, ...devices.filter((d) => d.brandId === b.id).map((d) => d.categoryId)])] }))
+  .sort(byOrder);
 export const repairs = z.array(repairServiceSchema).parse(repairsJson).sort(byOrder);
 export const priceLists = z.array(priceListSchema).parse(priceListsJson);
 export const warranties = z.array(warrantyInfoSchema).parse(warrantyJson);
@@ -46,7 +54,6 @@ export const faqs = z.array(faqItemSchema).parse(faqsJson);
 export const claims = z.array(claimSchema).parse(claimsJson);
 export const landingPages = z.array(landingPageSchema).parse(landingPagesJson);
 export const blogPosts = z.array(blogArticleSchema).parse(blogJson);
-export const devices = z.array(deviceModelSchema).parse(devicesJson);
 
 const brandById = new Map(brands.map((b) => [b.id, b]));
 const categoryById = new Map(categories.map((c) => [c.id, c]));

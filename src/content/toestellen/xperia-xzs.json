@@ -1,0 +1,86 @@
+{
+  "name": "Xperia XZs",
+  "brandId": "sony",
+  "categoryId": "smartphone",
+  "series": "Xperia XZs",
+  "order": 33107,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Sony Xperia XZs",
+    "Sony Xperia XZs (G8231)",
+    "G8231"
+  ],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD vervangen",
+      "price": "€155,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen (incl. nieuw scherm)",
+      "price": "€185,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Volume, aan/uit, trilmotor flex (incl. nieuw scherm)",
+      "price": "€185,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Microfoon (incl. nieuw scherm)",
+      "price": "€185,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-xzs-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-xzs-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2020-05-14."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "16949",
+      "pageTitle": "Sony Xperia XZs",
+      "modified": "2020-05-14 00:54:16"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-xzs-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2020-05-14"
+  }
+}

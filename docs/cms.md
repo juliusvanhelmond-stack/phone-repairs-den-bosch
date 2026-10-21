@@ -16,17 +16,21 @@ reverted.
 | **SEO per URL**: title and meta description for *any* page (models, brands, repairs, homepage, …) | `src/content/seo/<path>.json` | Applied in `pageMetadata` (Dutch only). Used exactly as written. |
 | **Mededeling bovenaan**: a green bar above the site (holidays, changed hours), switched on/off with a checkbox | `src/content/announcement.json` | Optional link (site path or full URL). Nothing shows when it is off. |
 | **Tarieven** in page blocks: rate lists (label + amount as written, e.g. €15,-) | in the page file | Used on /telefoon-en-tablet-hulp and /pre-owned-toestellen so the shop can change amounts itself (client request, 2026-10-16). |
+| **Toestellen en prijzen**: every device (name, brand, kind, series, order, year, example image, "popular", search names, SEO) with its price list (description, price text, repair, "Meest gekozen", links); new devices can be added | `src/content/toestellen/<url-naam>.json` | Client request 2026-10-21. Prices are typed as €130,- (whole euros), "op aanvraag" or "verwacht"; an unreadable price stops the build with a clear message. Rows set to "Automatisch" get their repair from the description, like the import. Provenance (old URLs, sources) is kept in the file but not shown. |
+| **Blog**: posts with headings, lists, links and images; new posts can be added | `src/content/blog/<url-naam>.mdoc` (Markdoc), images in `public/images/blog/` | Client request 2026-10-21. A YouTube link on its own line becomes a video. Without a summary the start of the text is used. Posts without an English version show Dutch on /en (warning only). |
+| **Openingstijden**: hours per day (or closed) and the note below them | `src/content/openingstijden.json` | Client request 2026-10-21. Read by `site.openingHours` (top bar, contact, structured data). |
 
-Not in the CMS (on purpose): repair prices per model (only from the shop's price lists), devices and price lists
-(WordPress import), redirects (`src/data/url-inventory.json`), blog posts and FAQs (phase 2, see
-below). The admin itself is in English (Keystatic has no Dutch UI); field labels and help texts
+Since 2026-10-21 the CMS is the source of devices, prices and blog posts: the shop maintains them there
+instead of on the old site. Not in the CMS: redirects (`src/data/url-inventory.json`), brands and repair
+categories, FAQs. The admin itself is in English (Keystatic has no Dutch UI); field labels and help texts
 are Dutch.
 
 ## How it fits in the code
 
 - `keystatic.config.ts` — collections and fields.
 - `npm run content` (`scripts/content/build-content.ts`) merges `src/content/` into
-  `src/data/generated/landing-pages.json` and `seo-overrides.json` (git-ignored). It runs before
+  `src/data/generated/` (landing pages, SEO overrides, devices, price lists, blog posts rendered
+  to HTML; git-ignored). It runs before
   `dev`, `build` and `check`. It fills defaults for pages made in the CMS: a source
   ("owner-confirmed", the page's own URL), the SEO title/description from title/intro, focus
   "telefoon" for area pages.
@@ -36,8 +40,10 @@ are Dutch.
 - `src/app/keystatic` (admin, own root layout) and `src/app/api/keystatic` (API). Outside
   development the admin only runs when GitHub storage is configured (`src/lib/cms.ts`); until
   then /keystatic shows "Beheer nog niet gekoppeld" and the API answers 404.
-- The WordPress importer now writes the page files in `src/content/pages/`. **After launch, do
-  not run `npm run import:wordpress -- --write` again**: it would overwrite pages edited in the CMS.
+- The WordPress importer writes the page and device files in `src/content/pages/` and
+  `src/content/toestellen/` (blog posts are no longer imported). **Now that the shop edits devices and
+  prices in the CMS, do not run `npm run import:wordpress -- --write` again**: it would overwrite
+  those edits. Make changes in the CMS files instead.
 
 ## Working locally
 
@@ -83,6 +89,6 @@ production (or work on a separate branch and merge after review, if you want a c
 
 ## Phase 2 (not built yet)
 
-- FAQs and blog posts in the CMS (blog bodies are HTML now; new posts would use the CMS editor).
+- FAQs in the CMS.
 - Redirects in the CMS, for link-building results.
 - English fields for pages created in the CMS.

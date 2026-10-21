@@ -1,0 +1,276 @@
+{
+  "name": "iPhone 17 Pro Max",
+  "brandId": "apple",
+  "categoryId": "smartphone",
+  "series": "iPhone 17",
+  "order": 1000,
+  "releaseYear": "2025",
+  "art": "phone-island",
+  "popular": false,
+  "aliases": [
+    "iPhone 17 Pro"
+  ],
+  "seo": {
+    "title": "iPhone 17 Pro Max reparatie Professioneel originele onderdelen",
+    "description": "Snel en professioneel iPhone 17 Pro Max reparatie met 12 maanden garantie. Bel nu voor een afspraak en laat uw scherm vervangen."
+  },
+  "prices": [
+    {
+      "label": "Scherm vervangen premium OLED",
+      "price": "€285,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "premium OLED",
+          "href": "/iphone-premium-oled-scherm"
+        }
+      ]
+    },
+    {
+      "label": "Scherm vervangen origineel pulled (origineel scherm afkomstig uit een nieuw toestel)",
+      "price": "€425,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel pulled",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Scherm vervangen origineel Apple service pack",
+      "price": "€575,-",
+      "repairId": "scherm-vervangen",
+      "popular": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Batterij origineel Apple Service pack vervangen",
+      "price": "€155,-",
+      "repairId": "batterij-vervangen",
+      "popular": true,
+      "links": [
+        {
+          "text": "origineel Apple Service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Batterij origineel pulled vervangen",
+      "price": "€99,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel pulled",
+          "href": "/iphone-batterij-vervanging"
+        }
+      ]
+    },
+    {
+      "label": "Achterkant glas vervangen (incl. draadloos laden coil) origineel Apple Service pack",
+      "price": "€175,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple Service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Camera lens aan de achterkant vervangen (per lens)",
+      "price": "€80,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Volledige achterkant vervangen (incl. achterkant glas, knoppen, oplaadpoort, antennes, taptic engine, luidspreker, cameralenzen) origineel Apple Service pack",
+      "price": "€495,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple Service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "USB-C oplaadconnector origineel Apple Service pack vervangen",
+      "price": "€140,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple Service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Face ID true depth camera / front camera module origineel Apple Service pack vervangen",
+      "price": "€395,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple Service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Simkaart lezer vervangen",
+      "price": "€150,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Taptic Engine vervangen",
+      "price": "€110,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera's aan de achterkant origineel pulled vervangen",
+      "price": "€170,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel pulled",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Camera's aan de achterkant origineel Apple service pack vervangen",
+      "price": "€395,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Gesprekspartner hoort mij niet, microfoon origineel Apple service pack vervangen",
+      "price": "€160,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Ik hoor mijn gesprekspartner niet, oorluidspreker origineel Apple service pack vervangen",
+      "price": "€175,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Handsfree/muziek luidspreker defect origineel Apple service pack vervangen",
+      "price": "€175,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Simkaart houder vervangen",
+      "price": "€15,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Apple MagSafe oplader MFi (Made For iPhone) certificaat",
+      "price": "€45,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": [
+        {
+          "text": "MFi",
+          "href": "https://en.wikipedia.org/wiki/MFi_Program"
+        }
+      ]
+    },
+    {
+      "label": "Apple USB-C kabel MFi (Made For iPhone) certificaat",
+      "price": "€20,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": [
+        {
+          "text": "MFi",
+          "href": "https://en.wikipedia.org/wiki/MFi_Program"
+        }
+      ]
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/iphone-reparatie/iphone-17-pro-max/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/iphone-reparatie/iphone-17-pro-max/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-10-12."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "39211",
+      "pageTitle": "iPhone 17 Pro Max",
+      "modified": "2026-10-12 11:54:02"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/iphone-reparatie/iphone-17-pro-max/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-10-12"
+  }
+}

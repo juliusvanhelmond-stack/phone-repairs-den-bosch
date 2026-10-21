@@ -1,0 +1,70 @@
+{
+  "name": "Galaxy J5 2017",
+  "brandId": "samsung",
+  "categoryId": "smartphone",
+  "series": "Galaxy J",
+  "order": 1003100,
+  "releaseYear": "2017",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Samsung J5 2017",
+    "Samsung Galaxy J5 2017 (SM-J530)",
+    "SM-J530"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Samsung J5 2017 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD vervangen",
+      "price": "€120,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Software herstel",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-j5-2017-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-j5-2017-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2019-02-11."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "16041",
+      "pageTitle": "Samsung J5 2017",
+      "modified": "2019-02-11 15:50:08"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-j5-2017-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2019-02-11"
+  }
+}

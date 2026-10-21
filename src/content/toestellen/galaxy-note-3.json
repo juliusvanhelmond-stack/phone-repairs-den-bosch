@@ -1,0 +1,48 @@
+{
+  "name": "Galaxy Note 3",
+  "brandId": "samsung",
+  "categoryId": "smartphone",
+  "series": "Galaxy Note",
+  "order": 16708,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Samsung Galaxy Note 3 (N9005)",
+    "N9005"
+  ],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD, frame (N9005) vervangen",
+      "price": "€240,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-note-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2020-06-16."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "13179",
+      "pageTitle": "Samsung Note",
+      "modified": "2020-06-16 14:16:20"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-note-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2020-06-16"
+  }
+}

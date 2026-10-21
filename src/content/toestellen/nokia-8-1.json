@@ -1,0 +1,108 @@
+{
+  "name": "Nokia 8.1",
+  "brandId": "nokia",
+  "categoryId": "smartphone",
+  "series": "Nokia",
+  "order": 28600,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": "Nokia 8.1 reparatie snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt. Officiële BTW factuur op naam"
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD en frame vervangen",
+      "price": "€160,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Scherm, LCD vervangen",
+      "price": "€140,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterzijde vervangen (incl. vingerafdruklezer en camera lenzen)",
+      "price": "€95,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Vingerafdruklezer vervangen",
+      "price": "€60,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadpoort vervangen",
+      "price": "€75,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera lenzen vervangen",
+      "price": "€50,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij origineel vervangen",
+      "price": "€80,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Software herstel",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/nokia-reparatie/nokia-8-1-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/nokia-reparatie/nokia-8-1-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2020-05-06."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "22686",
+      "pageTitle": "Nokia 8.1",
+      "modified": "2020-05-06 10:40:58"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/nokia-reparatie/nokia-8-1-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2020-05-06"
+  }
+}

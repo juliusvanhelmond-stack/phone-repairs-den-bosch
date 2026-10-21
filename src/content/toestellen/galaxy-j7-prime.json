@@ -1,0 +1,70 @@
+{
+  "name": "Galaxy J7 Prime",
+  "brandId": "samsung",
+  "categoryId": "smartphone",
+  "series": "Galaxy J",
+  "order": 1007200,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Samsung J7 Prime",
+    "Samsung Galaxy J7 Prime (SM-G610)",
+    "SM-G610"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Samsung J7 Prime reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD vervangen",
+      "price": "€125,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Software herstel",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-j7-prime-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-j7-prime-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2018-10-25."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "22449",
+      "pageTitle": "Samsung J7 Prime",
+      "modified": "2018-10-25 15:55:06"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-j7-prime-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2018-10-25"
+  }
+}

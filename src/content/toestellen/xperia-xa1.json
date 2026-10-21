@@ -1,0 +1,88 @@
+{
+  "name": "Xperia XA1",
+  "brandId": "sony",
+  "categoryId": "smartphone",
+  "series": "Xperia XA",
+  "order": 33114,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Sony Xperia XA1",
+    "Sony Xperia XA1 (G3121)",
+    "G3121",
+    "Sony Xperia XA1 (F3111)",
+    "F3111"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Sony Xperia XA1 reparatie Klaar terwijl u wach. Vakkundig gerepareerd. Originele onderdelen."
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD en behuizing vervangen",
+      "price": "€155,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterzijde vervangen",
+      "price": "€60,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€80,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB oplaadpunt vervangen",
+      "price": "€80,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-xa1-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-xa1-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2025-04-14."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "15884",
+      "pageTitle": "Sony Xperia XA1",
+      "modified": "2025-04-14 12:44:56"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-xa1-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2025-04-14"
+  }
+}

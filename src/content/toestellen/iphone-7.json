@@ -1,0 +1,214 @@
+{
+  "name": "iPhone 7",
+  "brandId": "apple",
+  "categoryId": "smartphone",
+  "series": "iPhone 7",
+  "order": 6100,
+  "releaseYear": "2016",
+  "art": "phone-home-button",
+  "popular": false,
+  "aliases": [
+    "iPhone 7 (A1660)",
+    "A1660"
+  ],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm vervangen",
+      "price": "€60,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij origineel vervangen (bij aankoop scherm reparatie)",
+      "price": "€35,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij origineel vervangen",
+      "price": "€45,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant/Volledige behuizing vervangen (incl. knoppen, oplaadpoort, antennes, taptic engine, luidspreker)",
+      "price": "€95,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadconnector vervangen",
+      "price": "€65,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Taptic Engine vervangen",
+      "price": "€45,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera lens aan de achterkant vervangen",
+      "price": "€60,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera aan de achterkant vervangen",
+      "price": "€50,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera aan de voorkant vervangen",
+      "price": "€50,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Gesprekspartner hoort mij niet, microfoon vervangen",
+      "price": "€65,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Ik hoor mijn gesprekspartner niet, oorluidspreker vervangen",
+      "price": "€50,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Siri werkt niet, top microfoon vervangen",
+      "price": "€60,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Handsfree/muziek luidspreker defect, vervangen",
+      "price": "€60,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Simkaart houder vervangen",
+      "price": "€10,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Silicone case",
+      "price": "€10,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Tempered Glass 0.3mm - 2,5D",
+      "price": "€15,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Bookcase zwart",
+      "price": "€20,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Apple Lightning kabel MFi (Made For iPhone) certificaat",
+      "price": "€15,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": [
+        {
+          "text": "MFi",
+          "href": "https://en.wikipedia.org/wiki/MFi_Program"
+        }
+      ]
+    },
+    {
+      "label": "Apple lader 5W. MFi (Made For iPhone) certificaat",
+      "price": "€15,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": [
+        {
+          "text": "MFi",
+          "href": "https://en.wikipedia.org/wiki/MFi_Program"
+        }
+      ]
+    },
+    {
+      "label": "Apple EarPods met Lightning-connector",
+      "price": "€25,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Apple Lightning naar mini jack adapter",
+      "price": "€9,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/iphone-reparatie/iphone-7-reparatie-den-bosch/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/iphone-reparatie/iphone-7-reparatie-den-bosch/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2025-04-16."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "14142",
+      "pageTitle": "iPhone 7",
+      "modified": "2025-04-16 11:55:40"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/iphone-reparatie/iphone-7-reparatie-den-bosch/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2025-04-16"
+  }
+}

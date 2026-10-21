@@ -1,0 +1,160 @@
+{
+  "name": "Galaxy S25+",
+  "brandId": "samsung",
+  "categoryId": "smartphone",
+  "series": "Galaxy S",
+  "order": 7000,
+  "releaseYear": "2025",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Samsung S25 Plus",
+    "Samsung Galaxy S25 Plus"
+  ],
+  "seo": {
+    "title": "Samsung S25 Plus reparatie bij Phone Repairs",
+    "description": "Laat uw Samsung S25 Plus reparatie snel en professioneel uitvoeren. Originele onderdelen en transparante prijzen voor reparaties."
+  },
+  "prices": [
+    {
+      "label": "Scherm, Dynamic AMOLED, frame / zijkanten en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist)",
+      "price": "€295,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy S25 Ultra achterzijde (incl.camera lenzen) vervangen",
+      "price": "€85,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy S25 batterij vervangen",
+      "price": "€90,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy S25 Ultra oplaadpoort vervangen",
+      "price": "€90,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy S25 Ultra oorluidspreker vervangen",
+      "price": "€90,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy S25 Ultra luidspreker vervangen",
+      "price": "€90,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy S25 Ultra hoofd camera achterzijde vervangen",
+      "price": "€120,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy S25 Ultra ultra wide camera achterzijde vervangen",
+      "price": "€100,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy S25 Ultra telephoto achterzijde vervangen",
+      "price": "€100,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy S25 Ultra camera voorzijde vervangen",
+      "price": "€100,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy S25 Ultra trilmotor vervangen",
+      "price": "€80,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy S25 Ultra SIM kaart houder",
+      "price": "€15,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy S25 Ultra aan/uit knop vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy S25 Ultra volume knoppen vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Software herstel",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s25-plus/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s25-plus/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-02-08."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "37208",
+      "pageTitle": "Samsung S25 Plus",
+      "modified": "2026-02-08 15:23:19"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s25-plus/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-02-08"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Motorola G200 5G",
+  "brandId": "motorola",
+  "categoryId": "smartphone",
+  "series": "Motorola G",
+  "order": 51400,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": "Motorola G200 5G reparatie Den Bosch. snel en vakkundig, originele onderdelen, 12 maanden gar., klaar terwijl u meekijkt. Officiële BTW"
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD vervangen",
+      "price": "€130,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Backcover vervangen",
+      "price": "€55,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "S cameralens vervangen",
+      "price": "€60,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadpoort vervangen",
+      "price": "€70,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€60,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/moto-reparatie/motorola-g200-5g/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/moto-reparatie/motorola-g200-5g/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2024-06-07."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "34800",
+      "pageTitle": "Motorola G200 5G",
+      "modified": "2024-06-07 15:19:58"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/moto-reparatie/motorola-g200-5g/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2024-06-07"
+  }
+}

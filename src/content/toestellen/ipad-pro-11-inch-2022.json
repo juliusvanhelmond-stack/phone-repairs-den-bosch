@@ -1,0 +1,54 @@
+{
+  "name": "iPad Pro 11 inch 2022",
+  "brandId": "apple",
+  "categoryId": "tablet",
+  "series": "iPad Pro",
+  "order": 1016100,
+  "releaseYear": "2022",
+  "art": "tablet",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": "iPad Pro 11 inch 2021 reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, bel 073-8220013"
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD vervangen",
+      "price": "€550,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-pro-reparatie/ipad-pro-11-inch-2022/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-pro-reparatie/ipad-pro-11-inch-2022/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2024-06-06."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "35735",
+      "pageTitle": "iPad Pro 11 inch 2022",
+      "modified": "2024-06-06 15:08:03"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-pro-reparatie/ipad-pro-11-inch-2022/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2024-06-06"
+  }
+}

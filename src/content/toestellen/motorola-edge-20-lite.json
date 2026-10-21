@@ -1,0 +1,68 @@
+{
+  "name": "Motorola Edge 20 Lite",
+  "brandId": "motorola",
+  "categoryId": "smartphone",
+  "series": "Motorola Edge",
+  "order": 51300,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": "Motorola Edge 20 Liter eparatie Den Bosch. snel en vakkundig, originele onderdelen, 12 maanden gar., klaar terwijl u meekijkt."
+  },
+  "prices": [
+    {
+      "label": "vscherm, LCD vervangen",
+      "price": "€150,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Motorola G200 5G batterij vervangen",
+      "price": "€60,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/moto-reparatie/motorola-edge-20-lite/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/moto-reparatie/motorola-edge-20-lite/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2024-06-07."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "36373",
+      "pageTitle": "Motorola Edge 20 Lite",
+      "modified": "2024-06-07 15:19:53"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/moto-reparatie/motorola-edge-20-lite/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2024-06-07"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Motorola MOTO G",
+  "brandId": "motorola",
+  "categoryId": "smartphone",
+  "series": "Motorola MOTO G",
+  "order": 50606,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Motorola New MOTO G (XT1542) 3th gen 2015 scherm, LCD, frame vervangen",
+      "price": "€120,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Motorola New MOTO G (XT1542) 3th gen 2015 USB oplaadpoort vervangen",
+      "price": "€70,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "(XT1068 en XT1072) 2nd gen scherm, LCD, frame vervangen",
+      "price": "€120,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Motorola New MOTO G (XT1032) 1st gen scherm, LCD, frame vervangen",
+      "price": "€110,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/motorola-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2020-02-21."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "8824",
+      "pageTitle": "Motorola",
+      "modified": "2020-02-21 18:57:58"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/motorola-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2020-02-21"
+  }
+}

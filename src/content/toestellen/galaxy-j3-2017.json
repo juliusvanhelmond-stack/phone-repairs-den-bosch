@@ -1,0 +1,84 @@
+{
+  "name": "Galaxy J3 2017",
+  "brandId": "samsung",
+  "categoryId": "smartphone",
+  "series": "Galaxy J",
+  "order": 1003200,
+  "releaseYear": "2017",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Samsung J3 2017",
+    "Samsung Galaxy J3 2017 (SM-J330)",
+    "SM-J330"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Samsung J3 2017 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD vervangen",
+      "price": "€110,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterzijde/behuizing incl. camera lens en knoppen vervangen",
+      "price": "€80,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera lens vervangen",
+      "price": "€30,--",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Software herstel",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-j3-2017-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-j3-2017-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2019-11-17."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "16043",
+      "pageTitle": "Samsung J3 2017",
+      "modified": "2019-11-17 10:58:54"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-j3-2017-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2019-11-17"
+  }
+}

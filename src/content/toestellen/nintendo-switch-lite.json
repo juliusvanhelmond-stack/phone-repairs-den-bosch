@@ -1,0 +1,135 @@
+{
+  "name": "Nintendo Switch Lite",
+  "brandId": "nintendo",
+  "categoryId": "console",
+  "series": "Nintendo Switch",
+  "order": 1010903,
+  "releaseYear": "",
+  "art": "console",
+  "popular": false,
+  "aliases": [
+    "Nintendo Switch Lite reparatie (HDH-001)",
+    "HDH-001"
+  ],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Touchscreen / glas vervangen",
+      "price": "€80,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nintendo Switch LCD vervangen",
+      "price": "€80,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nintendo Switch batterij vervangen",
+      "price": "€65,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nintendo Switch oplaadconnector vervangen (moederbord reparatie)",
+      "price": "€120,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nintendo Switch joystick links vervangen",
+      "price": "€75,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nintendo Switch joystick rechts vervangen",
+      "price": "€85,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nintendo Switch power volume knoppen vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nintendo Switch speakers vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nintendo Switch game kaart slot vervangen",
+      "price": "€80,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nintendo Switch Micro SD geheugen kaart slot vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nintendo Switch moederbord onderzoek",
+      "price": "€49,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": [
+        {
+          "text": "moederbord onderzoek",
+          "href": "/moederbord-reparatie-den-bosch"
+        }
+      ]
+    },
+    {
+      "label": "Nintendo Switch oplaad IC vervangen (moederbord reparatie)",
+      "price": "€130,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": [
+        {
+          "text": "(moederbord reparatie)",
+          "href": "/moederbord-reparatie-den-bosch"
+        }
+      ]
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/nintendo-switch-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-10-08."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "26771",
+      "pageTitle": "Nintendo Switch reparatie",
+      "modified": "2026-10-08 21:36:02"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/nintendo-switch-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-10-08"
+  }
+}

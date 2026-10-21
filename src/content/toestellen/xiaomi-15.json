@@ -1,0 +1,103 @@
+{
+  "name": "Xiaomi 15",
+  "brandId": "xiaomi",
+  "categoryId": "smartphone",
+  "series": "Xiaomi",
+  "order": 36800,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "Xiaomi Mi 15 reparatie service in Den Bosch",
+    "description": "Laat uw Xiaomi Mi 15 reparatie snel en professioneel uitvoeren bij Phone Repairs Den Bosch met garantie op onderdelen."
+  },
+  "prices": [
+    {
+      "label": "Scherm en frame vervangen",
+      "price": "€250,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant (incl. camera lenzen) vervangen",
+      "price": "€110,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€90.-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera's vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Front camera's vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Luidspreker vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Pro simkaart houder vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-15/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-15/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-09-03."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "37429",
+      "pageTitle": "Xiaomi 15",
+      "modified": "2026-09-03 10:55:12"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-15/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-09-03"
+  }
+}

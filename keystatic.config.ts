@@ -4,11 +4,31 @@
  *
  * Storage: local files in development; in production GitHub, once the GitHub App is set up
  * (NEXT_PUBLIC_KEYSTATIC_STORAGE=github plus the KEYSTATIC_* secrets, see docs/cms.md).
- * Prices are deliberately not editable here: they only come from the shop's price lists.
+ * Since 2026-10-21 the shop also edits its devices and prices, blog posts and opening hours here
+ * (client request): from then on the CMS is the source of those, not the old site.
  */
 import { collection, config, fields, singleton } from "@keystatic/core";
+import brandsJson from "./src/data/brands.json";
+import categoriesJson from "./src/data/categories.json";
+import repairsJson from "./src/data/repairs.json";
 
 const repo = (process.env.NEXT_PUBLIC_KEYSTATIC_REPO ?? "juliusvanhelmond-stack/phone-repairs-den-bosch").split("/");
+
+const byOrder = <T extends { order: number }>(list: T[]) => [...list].sort((a, b) => a.order - b.order);
+const brandOptions = byOrder(brandsJson).map((b) => ({ label: b.id === "apple" ? "Apple (iPhone, iPad, MacBook)" : b.name, value: b.id }));
+const categoryOptions = byOrder(categoriesJson).map((c) => ({ label: c.name === "MacBook" ? "MacBook / laptop" : c.name, value: c.id }));
+const repairOptions = [
+  { label: "Automatisch (op basis van de omschrijving)", value: "auto" },
+  ...byOrder(repairsJson).map((r) => ({ label: r.name, value: r.id })),
+  { label: "Accessoire (geen reparatie)", value: "accessoire" },
+];
+const time = (label: string) =>
+  fields.text({ label, validation: { pattern: { regex: /^([01]\d|2[0-3]):[0-5]\d$/, message: "Schrijf de tijd als 09:00." } } });
+const day = (label: string) =>
+  fields.object(
+    { gesloten: fields.checkbox({ label: "Gesloten", defaultValue: false }), open: time("Open vanaf"), dicht: time("Open tot") },
+    { label, layout: [4, 4, 4] },
+  );
 
 const lines = (label: string, description?: string) =>
   fields.array(fields.text({ label, multiline: true }), { label, description, itemLabel: (p) => p.value.slice(0, 80) || "(leeg)" });
@@ -20,9 +40,32 @@ export default config({
       : { kind: "local" },
   ui: {
     brand: { name: "Phone Repairs" },
-    navigation: { Inhoud: ["mededeling", "pages", "seo"] },
+    navigation: {
+      Winkel: ["toestellen", "openingstijden", "mededeling"],
+      Inhoud: ["blog", "pages", "seo"],
+    },
   },
   singletons: {
+    // Opening hours, always by appointment (client request 2026-10-21).
+    openingstijden: singleton({
+      label: "Openingstijden",
+      path: "src/content/openingstijden",
+      format: { data: "json" },
+      schema: {
+        maandag: day("Maandag"),
+        dinsdag: day("Dinsdag"),
+        woensdag: day("Woensdag"),
+        donderdag: day("Donderdag"),
+        vrijdag: day("Vrijdag"),
+        zaterdag: day("Zaterdag"),
+        zondag: day("Zondag"),
+        opmerking: fields.text({
+          label: "Opmerking onder de openingstijden",
+          description: "Bijv. 'Op feestdagen gelden de openingstijden van zondag.' Laat leeg voor geen opmerking. Tijdelijke wijzigingen (vakantie) kun je beter in de mededeling bovenaan zetten.",
+          multiline: true,
+        }),
+      },
+    }),
     // Announcement bar above the site, e.g. for holidays (client request, 2026-10-16).
     mededeling: singleton({
       label: "Mededeling bovenaan (bijv. vakantie)",
@@ -37,6 +80,149 @@ export default config({
     }),
   },
   collections: {
+    // Devices with their price lists (client request 2026-10-21), one file per device.
+    toestellen: collection({
+      label: "Toestellen en prijzen",
+      path: "src/content/toestellen/*",
+      format: { data: "json" },
+      slugField: "name",
+      schema: {
+        name: fields.slug({
+          name: { label: "Naam van het toestel", description: "Zoals hij op de site staat, bijv. iPhone 17 Pro of Galaxy S26.", validation: { isRequired: true } },
+          slug: {
+            label: "URL-naam",
+            description: "Wordt de URL: /reparaties/<merk>/<url-naam>. Wordt automatisch ingevuld; niet meer wijzigen als het toestel online staat.",
+          },
+        }),
+        brandId: fields.select({ label: "Merk", options: brandOptions, defaultValue: "apple" }),
+        categoryId: fields.select({ label: "Soort toestel", options: categoryOptions, defaultValue: "smartphone" }),
+        series: fields.text({
+          label: "Serie",
+          description: "Groepeert de modellen op de merkpagina, bijv. 'iPhone 17' of 'Galaxy S'. Leeg = de naam tot het eerste cijfer.",
+        }),
+        order: fields.integer({
+          label: "Volgorde",
+          description: "Lager getal = hoger in de lijst. Nieuwe modellen staan bovenaan met een laag getal, bijv. 100.",
+          defaultValue: 100,
+        }),
+        releaseYear: fields.text({
+          label: "Jaar van uitkomen (optioneel)",
+          validation: { pattern: { regex: /^(20[1-3]\d)?$/, message: "Een jaartal, bijv. 2026, of leeg." } },
+        }),
+        art: fields.select({
+          label: "Voorbeeldafbeelding",
+          description: "Welke voorbeeldfoto of tekening bij dit toestel past.",
+          options: [
+            { label: "iPhone/telefoon met Dynamic Island (iPhone 14 Pro en nieuwer)", value: "phone-island" },
+            { label: "iPhone met notch (iPhone X t/m 14)", value: "phone-notch" },
+            { label: "Telefoon met thuisknop (iPhone 8, SE)", value: "phone-home-button" },
+            { label: "Android-telefoon (camera in het scherm)", value: "phone-punch-hole" },
+            { label: "Vouwtelefoon (Fold)", value: "phone-foldable" },
+            { label: "Klaptelefoon (Flip)", value: "phone-flip" },
+            { label: "Tablet", value: "tablet" },
+            { label: "Tablet met thuisknop", value: "tablet-home-button" },
+            { label: "MacBook / laptop", value: "laptop" },
+            { label: "Spelcomputer", value: "console" },
+          ],
+          defaultValue: "phone-island",
+        }),
+        popular: fields.checkbox({
+          label: "Populair model",
+          description: "Komt in aanmerking voor 'Veelgevraagde reparaties' op de homepage en de populaire modellen.",
+          defaultValue: false,
+        }),
+        aliases: fields.array(fields.text({ label: "Naam" }), {
+          label: "Andere namen en modelnummers (voor de zoekfunctie)",
+          description: "Bijv. A3101 of 'Galaxy S26 5G'.",
+          itemLabel: (p) => p.value || "(leeg)",
+        }),
+        prices: fields.array(
+          fields.object({
+            label: fields.text({
+              label: "Omschrijving",
+              description: "Zoals op de prijslijst, bijv. 'Scherm vervangen origineel Apple service pack'.",
+              validation: { isRequired: true },
+            }),
+            price: fields.text({
+              label: "Prijs",
+              description: "Bijv. €130,- (hele euro's), 'op aanvraag' of 'verwacht'.",
+              validation: { isRequired: true },
+            }),
+            repairId: fields.select({ label: "Reparatie", description: "Onder welke reparatie deze regel staat.", options: repairOptions, defaultValue: "auto" }),
+            popular: fields.checkbox({ label: "Meest gekozen", description: "Toont het groene label 'Meest gekozen'.", defaultValue: false }),
+            links: fields.array(
+              fields.object({
+                text: fields.text({ label: "Tekst uit de omschrijving", description: "Precies zoals in de omschrijving, bijv. 'origineel Apple service pack'." }),
+                href: fields.text({ label: "Link", description: "Een pad op de site, bijv. /iphone-onderdelen-kalibreren." }),
+              }),
+              { label: "Links in de omschrijving (optioneel)", itemLabel: (p) => p.fields.text.value || "(nieuwe link)" },
+            ),
+          }),
+          {
+            label: "Prijzen",
+            description: "Eén regel per reparatie of onderdeel, in de volgorde waarin ze op de site staan. Prijzen zijn inclusief montage en btw.",
+            itemLabel: (p) => `${p.fields.label.value || "(nieuwe regel)"} — ${p.fields.price.value}`,
+          },
+        ),
+        seo: fields.object(
+          {
+            title: fields.text({ label: "SEO-titel (optioneel)", description: "Leeg = '<naam> reparatie Den Bosch'.", validation: { length: { max: 70 } } }),
+            description: fields.text({ label: "Meta-omschrijving (optioneel)", multiline: true, validation: { length: { max: 170 } } }),
+          },
+          { label: "SEO" },
+        ),
+        // Provenance from the import (original URLs, sources, price list source): kept, not shown.
+        legacyUrls: fields.ignored(),
+        sources: fields.ignored(),
+        extra: fields.ignored(),
+        priceSource: fields.ignored(),
+      },
+    }),
+    // Blog posts (client request 2026-10-21): text with headings, lists, links and images.
+    blog: collection({
+      label: "Blog",
+      path: "src/content/blog/*",
+      format: { contentField: "body" },
+      slugField: "title",
+      columns: ["title", "publishedAt"],
+      entryLayout: "content",
+      schema: {
+        title: fields.slug({
+          name: { label: "Titel", validation: { isRequired: true } },
+          slug: { label: "URL-naam", description: "Wordt de URL: /blog-post/<url-naam>. Niet meer wijzigen als het bericht online staat." },
+        }),
+        publishedAt: fields.date({ label: "Publicatiedatum", defaultValue: { kind: "today" }, validation: { isRequired: true } }),
+        excerpt: fields.text({
+          label: "Korte samenvatting",
+          description: "Eén of twee zinnen voor het blogoverzicht.",
+          multiline: true,
+          validation: { length: { max: 300 } },
+        }),
+        seo: fields.object(
+          {
+            title: fields.text({ label: "SEO-titel (optioneel)", validation: { length: { max: 70 } } }),
+            description: fields.text({ label: "Meta-omschrijving (optioneel)", multiline: true, validation: { length: { max: 170 } } }),
+          },
+          { label: "SEO" },
+        ),
+        body: fields.markdoc({
+          label: "Tekst",
+          description: "Een YouTube-link op een eigen regel wordt een video.",
+          options: {
+            heading: [2, 3, 4],
+            image: { directory: "public/images/blog", publicPath: "/images/blog/" },
+            code: false,
+            codeBlock: false,
+            table: false,
+          },
+        }),
+        updatedAt: fields.ignored(),
+        summary: fields.ignored(),
+        legacyUrls: fields.ignored(),
+        sources: fields.ignored(),
+        extra: fields.ignored(),
+      },
+    }),
     pages: collection({
       label: "Pagina's (plaats-, info- en FAQ-pagina's)",
       path: "src/content/pages/*",

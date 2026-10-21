@@ -83,7 +83,7 @@ export function localBusinessJsonLd() {
       addressCountry: site.address.country,
     },
     areaServed: ["'s-Hertogenbosch", "Rosmalen"],
-    openingHoursSpecification: site.openingHours.days.map((d) => ({
+    openingHoursSpecification: site.openingHours.days.filter((d) => !d.closed).map((d) => ({
       "@type": "OpeningHoursSpecification",
       dayOfWeek: `https://schema.org/${["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][d.day]}`,
       opens: d.opens,

@@ -1,0 +1,96 @@
+{
+  "name": "Pixel 7a",
+  "brandId": "google",
+  "categoryId": "smartphone",
+  "series": "Pixel 7",
+  "order": 20100,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Google Pixel 7a",
+    "Google Pixel 7a (GWKK3, GHL1X, G0DZQ, G82U8)",
+    "GWKK3",
+    "GHL1X",
+    "G0DZQ",
+    "G82U8"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Google Pixel 7a reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl meekijkt."
+  },
+  "prices": [
+    {
+      "label": "Scherm, P-OLED, front frame en vingerprint scanner vervangen",
+      "price": "€195,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant incl. camera lenzen vervangen",
+      "price": "€95,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij origineel vervangen",
+      "price": "€95,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB oplaad connector vervangen",
+      "price": "op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Cameralens achterzijde vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera achterzijde vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera's voorzijde vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/google-pixel-reparatie/google-pixel-7a/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/google-pixel-reparatie/google-pixel-7a/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-05-05."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "35248",
+      "pageTitle": "Google Pixel 7a",
+      "modified": "2026-05-05 15:35:30"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/google-pixel-reparatie/google-pixel-7a/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-05-05"
+  }
+}

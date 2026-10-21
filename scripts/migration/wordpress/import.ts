@@ -4,14 +4,15 @@
  *   npm run import:wordpress -- <path/to/export.xml> [--write]
  *
  * Without --write it only prints a report. With --write it regenerates
- * src/data/devices.json, src/data/price-lists.json and src/data/brands.json and merges
+ * the device files in src/content/toestellen/ (CMS), src/data/brands.json and merges
  * the original URLs into src/data/url-inventory.json (301s to the new pages).
  *
  * The export itself contains personal data (account e-mails) and is never committed;
  * only public page content is read. Prices are copied verbatim with their source URL
  * (the client gave permission to reuse all content of the current site, 2026-10-12).
  */
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { DEVICES_DIR, toEntry, type DeviceEntry } from "../../content/devices";
 import { join } from "node:path";
 import {
   artFor,
@@ -263,15 +264,13 @@ console.log(`${warnings.length} warnings (--verbose to list)`);
 if (!write) process.exit(0);
 
 /* ------------------------------------------------------------------ write */
-type OldDevice = { id: string; brandId: string; slug: string; releaseYear?: number; popular?: boolean; art?: string };
-const oldDevices: OldDevice[] = (() => {
-  const path = join(ROOT, "src/data/devices.json");
-  if (existsSync(path)) return JSON.parse(readFileSync(path, "utf8"));
-  return ["apple", "samsung", "huawei", "oneplus", "xiaomi", "sony", "lg"].flatMap((b) => {
-    const p = join(ROOT, `src/data/devices/${b}.json`);
-    return existsSync(p) ? JSON.parse(readFileSync(p, "utf8")) : [];
-  });
-})();
+type OldDevice = { brandId: string; slug: string; releaseYear?: string; popular?: boolean };
+// Hand-set fields (release year, "popular") are kept from the current CMS files.
+const oldDevices: OldDevice[] = existsSync(join(ROOT, DEVICES_DIR))
+  ? readdirSync(join(ROOT, DEVICES_DIR))
+      .filter((f) => f.endsWith(".json"))
+      .map((f) => ({ ...(JSON.parse(readFileSync(join(ROOT, DEVICES_DIR, f), "utf8")) as DeviceEntry), slug: f.slice(0, -5) }))
+  : [];
 const hint = new Map(oldDevices.map((d) => [`${d.brandId}/${d.slug}`, d]));
 
 const yoast = (page: WxrItem) => {
@@ -290,7 +289,7 @@ const devices = list.map((c) => {
   while (usedSlugs.has(`${c.brandId}/${slug}`)) slug = `${slug}-2`;
   usedSlugs.add(`${c.brandId}/${slug}`);
   const old = hint.get(`${c.brandId}/${slug}`);
-  const releaseYear = old?.releaseYear ?? yearFromName(c.name);
+  const releaseYear = Number(old?.releaseYear) || yearFromName(c.name);
   c.aliases.delete(c.name);
   return {
     id: `${c.brandId}-${slug}`,
@@ -321,8 +320,11 @@ const priceLists = list.map((c, i) => ({
 }));
 
 const json = (v: unknown) => JSON.stringify(v, null, 2) + "\n";
-writeFileSync(join(ROOT, "src/data/devices.json"), json(devices));
-writeFileSync(join(ROOT, "src/data/price-lists.json"), json(priceLists));
+// One CMS file per device (src/content/toestellen/<slug>.json). After launch the shop edits these in the
+// CMS: running the importer again would overwrite those edits (see docs/cms.md).
+rmSync(join(ROOT, DEVICES_DIR), { recursive: true, force: true });
+mkdirSync(join(ROOT, DEVICES_DIR), { recursive: true });
+devices.forEach((d, i) => writeFileSync(join(ROOT, DEVICES_DIR, `${d.slug}.json`), json(toEntry(d, priceLists[i]))));
 
 // Brands: keep hand-written fields, refresh categories and original URLs.
 type BrandJson = { id: string; name: string; categories: string[]; popular: boolean; order: number; legacyUrls: string[]; sources: Source[] };

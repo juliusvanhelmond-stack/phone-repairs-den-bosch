@@ -1,8 +1,10 @@
 /**
  * WordPress turned a YouTube URL on its own line into a player (oEmbed); the imported HTML only has the
- * URL. Replace such paragraphs with a privacy-friendly embed (youtube-nocookie), Shorts in portrait.
+ * URL (blog posts in the CMS: a line with only the URL). Replace such paragraphs with a privacy-friendly embed (youtube-nocookie), Shorts in portrait.
  */
-const YOUTUBE = /<p>\s*(https?:\/\/(?:www\.|m\.)?(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|shorts\/|embed\/))([\w-]{11})[^<\s]*)\s*<\/p>/g;
+// The URL may be plain text or, when typed in the CMS editor, a link to itself.
+const YOUTUBE =
+  /<p>\s*(?:<a [^>]*>)?(https?:\/\/(?:www\.|m\.)?(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|shorts\/|embed\/))([\w-]{11})[^<\s]*)(?:<\/a>)?\s*<\/p>/g;
 
 export function embedVideos(html: string): string {
   return html.replace(YOUTUBE, (_all, url: string, id: string) => {

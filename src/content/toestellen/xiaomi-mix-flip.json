@@ -1,0 +1,106 @@
+{
+  "name": "Xiaomi Mix Flip",
+  "brandId": "xiaomi",
+  "categoryId": "smartphone",
+  "series": "Xiaomi",
+  "order": 36500,
+  "releaseYear": "",
+  "art": "phone-flip",
+  "popular": false,
+  "aliases": [
+    "Xiaomi Mix Flip (2405CPX3DC)",
+    "2405CPX3DC"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Xiaomi Mix Flip reparatie Nederland. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
+  },
+  "prices": [
+    {
+      "label": "Scherm, OLED,frame / zijkanten en scharnier vervangen (origineel Xiaomi service pack, zoals Xiaomi vereist) vervangen",
+      "price": "€650,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant (incl. camera lenzen) en LCD vervangen",
+      "price": "€185,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij boven en onderzijde vervangen",
+      "price": "€150,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera main camera vervangen",
+      "price": "€100,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Front camera's vervangen",
+      "price": "€100,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "€100,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Luidspreker vervangen",
+      "price": "€100,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Pro simkaart houder vervangen",
+      "price": "€20,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-mix-flip/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-mix-flip/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-09-03."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "37438",
+      "pageTitle": "Xiaomi Mix Flip",
+      "modified": "2026-09-03 10:53:16"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-mix-flip/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-09-03"
+  }
+}

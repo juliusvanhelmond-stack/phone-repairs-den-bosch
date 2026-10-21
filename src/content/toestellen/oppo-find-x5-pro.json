@@ -1,0 +1,148 @@
+{
+  "name": "OPPO Find X5 Pro",
+  "brandId": "oppo",
+  "categoryId": "smartphone",
+  "series": "OPPO Find X",
+  "order": 44300,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "OPPO Find X5 Pro (CPH2305)",
+    "CPH2305"
+  ],
+  "seo": {
+    "title": "",
+    "description": "OPPO Find X5 Pro reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
+  "prices": [
+    {
+      "label": "Scherm, AMOLED vervangen",
+      "price": "€250,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Scherm, AMOLED en frame vervangen",
+      "price": "€450,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen",
+      "price": "€195,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij origineel vervangen",
+      "price": "€120,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "oplaadconnector vervangen",
+      "price": "€120,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "oorluidspreker vervangen",
+      "price": "€95,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "luidspreker vervangen",
+      "price": "€95,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera 50 MP wide angel achterzijde vervangen",
+      "price": "€260,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera 50 MP Ultra wide achterzijde vervangen",
+      "price": "€300,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Microscoop camera achterzijde vervangen",
+      "price": "€150,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Flister vervangen",
+      "price": "€100,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera's voorzijde vervangen",
+      "price": "€250,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Trilmotor vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Simkaart houder vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/oppo-reparatie/oppo-find-x5-pro-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/oppo-reparatie/oppo-find-x5-pro-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2025-08-18."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "33099",
+      "pageTitle": "OPPO Find X5 Pro",
+      "modified": "2025-08-18 14:50:35"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/oppo-reparatie/oppo-find-x5-pro-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2025-08-18"
+  }
+}

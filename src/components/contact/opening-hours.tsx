@@ -21,7 +21,10 @@ function useToday() {
   return today;
 }
 
-const range = (d: { opens: string; closes: string }) => `${d.opens} – ${d.closes}`;
+const HOLIDAY_NOTE = "Op feestdagen gelden de openingstijden van zondag.";
+
+type Day = { closed: boolean; opens: string; closes: string };
+const range = (d: Day, closed: string) => (d.closed ? closed : `${d.opens} – ${d.closes}`);
 
 /** "Vandaag 09:00 – 20:00 · op afspraak"; before hydration a general line. */
 export function OpeningToday({ className }: { className?: string }) {
@@ -32,7 +35,7 @@ export function OpeningToday({ className }: { className?: string }) {
     <span className={className}>
       {day ? (
         <>
-          {t("Vandaag", "Today")} <span className="font-medium text-ink tabular-nums">{range(day)}</span>
+          {t("Vandaag", "Today")} <span className="font-medium text-ink tabular-nums">{range(day, t("gesloten", "closed"))}</span>
         </>
       ) : (
         t("7 dagen per week geopend", "Open 7 days a week")
@@ -55,15 +58,17 @@ export function OpeningHoursList({ className }: { className?: string }) {
           return (
             <div key={d.day} className="contents">
               <dt className={cn(current ? "font-semibold text-ink" : "text-muted")}>{locale === "en" ? d.en : d.nl}</dt>
-              <dd className={cn("tabular-nums", current ? "font-semibold text-ink" : "text-ink-soft")}>{range(d)}</dd>
+              <dd className={cn("tabular-nums", current ? "font-semibold text-ink" : "text-ink-soft")}>{range(d, t("Gesloten", "Closed"))}</dd>
             </div>
           );
         })}
       </dl>
-      {/* Owner, e-mail 2026-10-16: public holidays follow the Sunday hours. */}
-      <p className="mt-3 text-sm text-muted">
-        {t("Op feestdagen gelden de openingstijden van zondag.", "On public holidays the Sunday hours apply.")}
-      </p>
+      {/* Note edited in the CMS; first text by the owner (e-mail 2026-10-16). */}
+      {site.openingHours.note && (
+        <p className="mt-3 text-sm text-muted">
+          {site.openingHours.note === HOLIDAY_NOTE ? t(HOLIDAY_NOTE, "On public holidays the Sunday hours apply.") : site.openingHours.note}
+        </p>
+      )}
     </div>
   );
 }

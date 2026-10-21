@@ -1,0 +1,147 @@
+{
+  "name": "Galaxy Z Flip 4",
+  "brandId": "samsung",
+  "categoryId": "smartphone",
+  "series": "Galaxy Z Flip",
+  "order": 16400,
+  "releaseYear": "",
+  "art": "phone-flip",
+  "popular": false,
+  "aliases": [
+    "Samsung Galaxy Z Flip 4",
+    "Samsung Galaxy Z Flip 4 (SM-F721B)",
+    "SM-F721B"
+  ],
+  "seo": {
+    "title": "Samsung Galaxy Z Flip 4 reparatie | Phone Repairs | 073-8220013",
+    "description": "Samsung Galaxy Z Flip 4 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden gar., klaar terwijl u meekijkt."
+  },
+  "prices": [
+    {
+      "label": "Scherm, OLED,frame / zijkanten en scharnier vervangen (origineel Samsung service pack, zoals Samsung vereist) vervangen",
+      "price": "€425,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant (boven) incl. OLED scherm en cameralenzen vervangen",
+      "price": "€120,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant (beneden) vervangen",
+      "price": "€50,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterijen vervangen",
+      "price": "€125,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB oplaad poort vervangen",
+      "price": "€95,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Vingerafdruklezer vervangen",
+      "price": "€125,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "€100,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera's achterzijde vervangen",
+      "price": "€175,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera voorzijde vervangen",
+      "price": "€125",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Aan/uit knop vervangen",
+      "price": "€125,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Volume knop vervangen",
+      "price": "€125.-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Trilmotor vervangen",
+      "price": "€60,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Software herstel",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-z-flip-4/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-z-flip-4/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-05-06."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "33490",
+      "pageTitle": "Samsung Galaxy Z Flip 4",
+      "modified": "2026-05-06 08:36:41"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-z-flip-4/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-05-06"
+  }
+}

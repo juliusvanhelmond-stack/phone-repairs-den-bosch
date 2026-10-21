@@ -1,0 +1,82 @@
+{
+  "name": "OPPO A78",
+  "brandId": "oppo",
+  "categoryId": "smartphone",
+  "series": "OPPO A",
+  "order": 48000,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm, OLED vervangen",
+      "price": "€130,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen",
+      "price": "op aanvraag",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij origineel vervangen",
+      "price": "€75,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Headjack vervangen",
+      "price": "€75,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Microfoon vervangen",
+      "price": "€75,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/oppo-reparatie/oppo-a78/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/oppo-reparatie/oppo-a78/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2025-04-16."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "38553",
+      "pageTitle": "OPPO A78",
+      "modified": "2025-04-16 09:41:26"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/oppo-reparatie/oppo-a78/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2025-04-16"
+  }
+}

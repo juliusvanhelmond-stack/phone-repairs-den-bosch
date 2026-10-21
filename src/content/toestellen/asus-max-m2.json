@@ -1,0 +1,49 @@
+{
+  "name": "Asus Max M2",
+  "brandId": "asus",
+  "categoryId": "smartphone",
+  "series": "Asus Max M",
+  "order": 49202,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Asus Max M2 (ZB633KL / ZB632KL)",
+    "ZB633KL",
+    "ZB632KL"
+  ],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD en midframe vervangen",
+      "price": "€135,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/asus-zenfone-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2019-11-15."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "12465",
+      "pageTitle": "Asus Zenfone",
+      "modified": "2019-11-15 18:31:55"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/asus-zenfone-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2019-11-15"
+  }
+}

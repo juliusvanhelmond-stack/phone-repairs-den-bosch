@@ -1,0 +1,69 @@
+{
+  "name": "MacBook Pro 2023 14″ A2918",
+  "brandId": "apple",
+  "categoryId": "laptop",
+  "series": "MacBook Pro",
+  "order": 53301,
+  "releaseYear": "2023",
+  "art": "laptop",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "MacBook Pro M1 2023 16″ A2919 scherm unit (complete bovenkant) vervangen origineel Apple service pack",
+      "price": "€900,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Scherm unit (complete bovenkant) vervangen origineel pulled.",
+      "price": "€750,-",
+      "repairId": "scherm-vervangen",
+      "popular": true,
+      "links": [
+        {
+          "text": "origineel pulled",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€250,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/macbook-pro-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-10-09."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "40856",
+      "pageTitle": "MacBook Pro reparatie",
+      "modified": "2026-10-09 00:19:04"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/macbook-pro-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-10-09"
+  }
+}

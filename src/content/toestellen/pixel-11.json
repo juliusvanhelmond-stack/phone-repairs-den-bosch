@@ -1,0 +1,117 @@
+{
+  "name": "Pixel 11",
+  "brandId": "google",
+  "categoryId": "smartphone",
+  "series": "Pixel 11",
+  "order": 18000,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": true,
+  "aliases": [
+    "Google Pixel 11"
+  ],
+  "seo": {
+    "title": "Google Pixel 11 reparatie met originele onderdelen",
+    "description": "Heeft u problemen met uw Google Pixel 11? Wij bieden snelle en professionele reparaties met garantie en originele onderdelen."
+  },
+  "prices": [
+    {
+      "label": "Scherm, P-OLED, front frame en vingerprint scanner vervangen (origineel Google service pack, zoals Google vereist)",
+      "price": "op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant incl. camera lenzen vervangen",
+      "price": "op aanvraag",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij origineel vervangen",
+      "price": "op aanvraag",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB oplaad connector vervangen",
+      "price": "op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Cameralens achterzijde vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera achterzijde vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera's voorzijde vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Simkaart vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Software herstel",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/google-pixel-reparatie/google-pixel-11/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/google-pixel-reparatie/google-pixel-11/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-09-23."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "41952",
+      "pageTitle": "Google Pixel 11",
+      "modified": "2026-09-23 12:36:00"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/google-pixel-reparatie/google-pixel-11/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-09-23"
+  }
+}

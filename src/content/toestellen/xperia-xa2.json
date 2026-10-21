@@ -1,0 +1,84 @@
+{
+  "name": "Xperia XA2",
+  "brandId": "sony",
+  "categoryId": "smartphone",
+  "series": "Xperia XA",
+  "order": 33113,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Sony Xperia XA2"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Sony Xperia XA2 reparatie klaar terwijl je wacht en meekijkt iPhone, Nexus, Nokia, Huawei, Honor, Sony, Motorola, OnePlus. Vakkundig gerepareerd. Originele onderdelen."
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD en behuizing vervangen",
+      "price": "€180,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterzijde vervangen",
+      "price": "€90,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€90,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB oplaadpunt vervangen",
+      "price": "€90,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-xa2/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-xa2/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2018-05-12."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "18898",
+      "pageTitle": "Sony Xperia XA2",
+      "modified": "2018-05-12 12:03:44"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-xa2/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2018-05-12"
+  }
+}

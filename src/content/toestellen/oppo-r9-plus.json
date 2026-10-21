@@ -1,0 +1,54 @@
+{
+  "name": "OPPO R9 Plus",
+  "brandId": "oppo",
+  "categoryId": "smartphone",
+  "series": "OPPO R",
+  "order": 43212,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": "OPPO R9 Plus reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD en frame vervangen",
+      "price": "€140,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/oppo-reparatie/oppo-r9-plus-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/oppo-reparatie/oppo-r9-plus-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2018-06-18."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "15761",
+      "pageTitle": "OPPO R9 Plus",
+      "modified": "2018-06-18 17:08:14"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/oppo-reparatie/oppo-r9-plus-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2018-06-18"
+  }
+}

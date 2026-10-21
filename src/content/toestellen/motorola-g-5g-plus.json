@@ -1,0 +1,92 @@
+{
+  "name": "Motorola G 5G plus",
+  "brandId": "motorola",
+  "categoryId": "smartphone",
+  "series": "Motorola G",
+  "order": 51500,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Motorola G 5G plus (XT2075)",
+    "XT2075"
+  ],
+  "seo": {
+    "title": "",
+    "description": "MMotorola G 5G plus reparatie Den Bosch. snel en vakkundig, originele onderdelen, 12 maanden gar., klaar terwijl u meekijkt. Officiële BTW"
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD vervangen",
+      "price": "€130,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Backcover vervangen",
+      "price": "€55,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Cameralens vervangen",
+      "price": "€60,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadpoort vervangen",
+      "price": "€70,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€60,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/moto-reparatie/motorola-g-5g-plus-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/moto-reparatie/motorola-g-5g-plus-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2024-06-07."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "31992",
+      "pageTitle": "Motorola G 5G plus",
+      "modified": "2024-06-07 15:20:05"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/moto-reparatie/motorola-g-5g-plus-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2024-06-07"
+  }
+}

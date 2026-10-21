@@ -1,0 +1,72 @@
+{
+  "name": "Moto G5",
+  "brandId": "motorola",
+  "categoryId": "smartphone",
+  "series": "Moto G",
+  "order": 1000808,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Moto G5 (XT1685, XT1672)",
+    "XT1685",
+    "XT1672"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Moto G5 reparatie Den Bosch. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt. Officiële BTW factuur op naam"
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD vervangen",
+      "price": "€110,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB poort vervangen",
+      "price": "€60,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/moto-reparatie/moto-g5-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/moto-reparatie/moto-g5-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2018-07-04."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "15098",
+      "pageTitle": "Moto G5",
+      "modified": "2018-07-04 14:03:09"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/moto-reparatie/moto-g5-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2018-07-04"
+  }
+}

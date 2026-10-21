@@ -1,0 +1,48 @@
+{
+  "name": "Asus ROG Phone 2 (Republic Of Gamers)",
+  "brandId": "asus",
+  "categoryId": "smartphone",
+  "series": "Asus ROG Phone",
+  "order": 49200,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Asus ROG Phone 2 (Republic Of Gamers) (ZS660KL)",
+    "ZS660KL"
+  ],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm, AMOLED vervangen",
+      "price": "€450,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/asus-zenfone-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2019-11-15."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "12465",
+      "pageTitle": "Asus Zenfone",
+      "modified": "2019-11-15 18:31:55"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/asus-zenfone-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2019-11-15"
+  }
+}

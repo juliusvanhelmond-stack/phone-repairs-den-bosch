@@ -1,0 +1,113 @@
+{
+  "name": "Asus ROG Phone 6",
+  "brandId": "asus",
+  "categoryId": "smartphone",
+  "series": "Asus ROG Phone",
+  "order": 49900,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Asus ROG Phone 6 (AI2201) (Republic Of Gamers)",
+    "AI2201"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Asus ROG Phone 6 reparatie, snel en vakkundig, originele onderdelen, 12 maanden gar, klaar terwijl u meekijkt. Officiële BTW factuu"
+  },
+  "prices": [
+    {
+      "label": "(AI2201) scherm, AMOLED vervangen",
+      "price": "€395,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Asus ROG Phone 6D Ultimate (AI2203) scherm, AMOLED vervangen",
+      "price": "€415,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Backcover vervangen",
+      "price": "€195,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadpoort vervangen",
+      "price": "op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€140,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Frontcamera vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera main vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera small vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/asus-zenfone-reparatie/asus-rog-phone-6/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/asus-zenfone-reparatie/asus-rog-phone-6/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2024-06-06."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "33618",
+      "pageTitle": "Asus ROG Phone 6",
+      "modified": "2024-06-06 15:15:38"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/asus-zenfone-reparatie/asus-rog-phone-6/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2024-06-06"
+  }
+}

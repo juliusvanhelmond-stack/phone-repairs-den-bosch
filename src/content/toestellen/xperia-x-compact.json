@@ -1,0 +1,93 @@
+{
+  "name": "Xperia X compact",
+  "brandId": "sony",
+  "categoryId": "smartphone",
+  "series": "Xperia X compact",
+  "order": 33111,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Sony Xperia X compact",
+    "Sony Xperia X compact (F5231)",
+    "F5231"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Sony Xperia X compact klaar terwijl je wacht en meekijkt iPhone, Nexus, Nokia, Huawei, Honor, Sony, Motorola, OnePlus. Vakkundig gerepareerd. Originele onderdelen."
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD en behuizing vervangen",
+      "price": "€180,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen",
+      "price": "€60,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achter camera vervangen",
+      "price": "€90,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Aan/uit/ volume flex vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Koptelefoon ingang vervangen",
+      "price": "€75,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-x-compact/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-x-compact/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2017-09-30."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "15440",
+      "pageTitle": "Sony Xperia X compact",
+      "modified": "2017-09-30 00:53:13"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-x-compact/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2017-09-30"
+  }
+}

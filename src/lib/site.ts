@@ -1,3 +1,4 @@
+import hoursJson from "@/content/openingstijden.json";
 import type { Locale } from "@/lib/i18n";
 import { SOURCE_URLS } from "@/lib/sources";
 
@@ -5,6 +6,17 @@ import { SOURCE_URLS } from "@/lib/sources";
  * Business details. Only values seen on the original site are filled in;
  * unknown values are `null` and the UI hides what depends on them.
  */
+/** Days in the order shown (Monday first): CMS key, JavaScript day number (0 = Sunday), Dutch and English name. */
+const DAYS = [
+  ["maandag", 1, "Maandag", "Monday"],
+  ["dinsdag", 2, "Dinsdag", "Tuesday"],
+  ["woensdag", 3, "Woensdag", "Wednesday"],
+  ["donderdag", 4, "Donderdag", "Thursday"],
+  ["vrijdag", 5, "Vrijdag", "Friday"],
+  ["zaterdag", 6, "Zaterdag", "Saturday"],
+  ["zondag", 0, "Zondag", "Sunday"],
+] as const;
+
 export const site = {
   name: "Phone Repairs",
   legalName: "Phone Repairs Den Bosch",
@@ -68,23 +80,18 @@ export const site = {
   },
   openingNote: "7 dagen per week geopend, ook in de avond. Altijd op afspraak.",
   /**
-   * Opening hours, always by appointment. Copied from the "Openingstijden" widget on the live
-   * homepage (read 2026-10-13); the client allowed verbatim reuse of opening hours (2026-10-12).
-   * `day` follows JavaScript (0 = Sunday).
+   * Opening hours, always by appointment. Edited by the shop in the CMS (src/content/openingstijden.json,
+   * client request 2026-10-21); first copied from the "Openingstijden" widget on the live homepage
+   * (read 2026-10-13, verbatim reuse allowed 2026-10-12). `day` follows JavaScript (0 = Sunday).
    */
   openingHours: {
     byAppointment: true,
     source: "https://www.phonerepairs.nl/",
-    capturedAt: "2026-10-13",
-    days: [
-      { day: 1, nl: "Maandag", en: "Monday", opens: "10:00", closes: "20:00" },
-      { day: 2, nl: "Dinsdag", en: "Tuesday", opens: "09:00", closes: "20:00" },
-      { day: 3, nl: "Woensdag", en: "Wednesday", opens: "09:00", closes: "20:00" },
-      { day: 4, nl: "Donderdag", en: "Thursday", opens: "09:00", closes: "20:00" },
-      { day: 5, nl: "Vrijdag", en: "Friday", opens: "09:00", closes: "17:00" },
-      { day: 6, nl: "Zaterdag", en: "Saturday", opens: "10:00", closes: "17:00" },
-      { day: 0, nl: "Zondag", en: "Sunday", opens: "11:00", closes: "17:00" },
-    ],
+    days: DAYS.map(([key, day, nl, en]) => {
+      const h = hoursJson[key];
+      return { day, nl, en, closed: h.gesloten, opens: h.gesloten ? "" : h.open, closes: h.gesloten ? "" : h.dicht };
+    }),
+    note: hoursJson.opmerking.trim(),
   },
   /**
    * Terms and privacy statement: the client's current PDFs, kept on their original paths

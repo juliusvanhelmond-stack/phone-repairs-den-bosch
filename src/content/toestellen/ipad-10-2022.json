@@ -1,0 +1,169 @@
+{
+  "name": "iPad 10 2022",
+  "brandId": "apple",
+  "categoryId": "tablet",
+  "series": "iPad",
+  "order": 54800,
+  "releaseYear": "2022",
+  "art": "tablet",
+  "popular": false,
+  "aliases": [
+    "iPad 10 2022 (10.2 inch)"
+  ],
+  "seo": {
+    "title": "",
+    "description": "iPad 10 2022 reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, bel 073-8220013"
+  },
+  "prices": [
+    {
+      "label": "Scherm (glas) vervangen origineel Apple service pack",
+      "price": "€195,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/originele-onderdelen-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Geen/slecht beeld LCD vervangen. incl. nieuw scherm (glas)",
+      "price": "€300,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Uitdeuken behuizing, hoeken t.b.v. scherm reparatie",
+      "price": "op aanvraag",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij origineel vervangen incl. nieuw scherm (glas)",
+      "price": "op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadconnector vervangen",
+      "price": "op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Home knop vervangen incl. nieuw scherm (glas)",
+      "price": "op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Aan/uit/volume knop vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "koptelefoon aansluiting vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera aan de achterkant vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera aan de voorkant vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Muziek luidspreker vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Wifi antenne vervangen.",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€50,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Apple Lightning kabel MFi (Made For iPad) certificaat",
+      "price": "€20,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": [
+        {
+          "text": "MFi",
+          "href": "https://en.wikipedia.org/wiki/MFi_Program"
+        }
+      ]
+    },
+    {
+      "label": "Apple iPad lader 10W MFi (Made For iPad) certificaat",
+      "price": "€25,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": [
+        {
+          "text": "MFi",
+          "href": "https://en.wikipedia.org/wiki/MFi_Program"
+        }
+      ]
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-10-2022/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-10-2022/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-04-29."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "34216",
+      "pageTitle": "iPad 10 2022",
+      "modified": "2026-04-29 12:45:30"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-10-2022/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-04-29"
+  }
+}

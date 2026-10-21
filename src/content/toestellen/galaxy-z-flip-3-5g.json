@@ -1,0 +1,161 @@
+{
+  "name": "Galaxy Z Flip 3 5G",
+  "brandId": "samsung",
+  "categoryId": "smartphone",
+  "series": "Galaxy Z Flip",
+  "order": 16500,
+  "releaseYear": "",
+  "art": "phone-flip",
+  "popular": false,
+  "aliases": [
+    "Samsung Galaxy Z Flip 3 5G",
+    "Samsung Galaxy Z Flip 3 5G (SM-F711B)",
+    "SM-F711B"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Samsung Z Flip 3 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden gar., klaar terwijl u meekijkt."
+  },
+  "prices": [
+    {
+      "label": "Samsung Galaxy Z Flip 3 scherm, OLED, frame / zijkanten en scharnier vervangen (origineel Samsung service pack, zoals Samsung vereist) vervangen",
+      "price": "€365,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy Z Flip 3 achterkant (boven) incl. OLED scherm en cameralenzen vervangen",
+      "price": "€110,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy Z Flip 3 achterkant (beneden) vervangen",
+      "price": "€50,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy Z Flip 3 batterijen vervangen",
+      "price": "€125,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy Z Flip 3 USB oplaad poort vervangen",
+      "price": "€95,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy Z Flip 3 vingerafdruklezer vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy Z Flip 3 oorluidspreker vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy Z Flip 3 camera's achterzijde vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy Z Flip 3 camera voorzijde vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy Z Flip 3 irisscanner vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy Z Flip 3 aan/uit knop vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy Z Flip 3 volume knop vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy Z Flip 3 koptelefoon ingang vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy Z Flip 3 trilmotor vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Software herstel",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-z-flip-3/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-z-flip-3/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-07-22."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "32387",
+      "pageTitle": "Samsung Galaxy Z Flip 3 5G",
+      "modified": "2026-07-22 17:59:14"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-z-flip-3/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-07-22"
+  }
+}

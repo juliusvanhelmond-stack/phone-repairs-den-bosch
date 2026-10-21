@@ -96,10 +96,11 @@ const english: [string, { id: string }[], Record<string, unknown>][] = [
 ];
 for (const [label, items, table] of english) {
   const ids = new Set(items.map((i) => i.id));
-  // Pages added in the CMS may not have English yet: /en then shows the Dutch text (warning only).
-  for (const i of items)
-    if (!(i.id in table)) (label === "page" ? warn : fail)(`${label} ${i.id}: no English translation in translations/en.json`);
-  for (const id of Object.keys(table)) if (!ids.has(id)) fail(`translations/en.json: unknown ${label} ${id}`);
+  // Pages and blog posts are added and removed in the CMS: a missing English version (then /en shows the
+  // Dutch text) or a translation of a removed entry is a warning only.
+  const report = label === "page" || label === "blog" ? warn : fail;
+  for (const i of items) if (!(i.id in table)) report(`${label} ${i.id}: no English translation in translations/en.json`);
+  for (const id of Object.keys(table)) if (!ids.has(id)) report(`translations/en.json: unknown ${label} ${id}`);
 }
 
 const inventory = z.array(urlRecordSchema).safeParse(inventoryJson);

@@ -1,0 +1,127 @@
+{
+  "name": "Pixel 3a XL",
+  "brandId": "google",
+  "categoryId": "smartphone",
+  "series": "Pixel 3",
+  "order": 21600,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Google Pixel 3a XL",
+    "Google Pixel 3a XL (G020B/C/D)"
+  ],
+  "seo": {
+    "title": "",
+    "description": "Google Pixel 3a XL reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
+  "prices": [
+    {
+      "label": "Scherm, P-OLED vervangen",
+      "price": "€170,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen",
+      "price": "€280,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Vingerafdruklezer vervangen",
+      "price": "€220,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij origineel vervangen",
+      "price": "€220,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB oplaad connector vervangen",
+      "price": "€220,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "SIM kaartlezer vervangen",
+      "price": "€220,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB oorluidspreker vervangen",
+      "price": "€220,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB luidspreker ringotne vervangen",
+      "price": "€220,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Cameralens achterzijde vervangen",
+      "price": "€60,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera achterzijde vervangen",
+      "price": "€260,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera voorzijde vervangen",
+      "price": "€250,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera wide angel vervangen",
+      "price": "€250,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/google-pixel-reparatie/pixel-3a-xl-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/google-pixel-reparatie/pixel-3a-xl-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2020-09-28."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "24018",
+      "pageTitle": "Google Pixel 3a XL",
+      "modified": "2020-09-28 10:25:11"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/google-pixel-reparatie/pixel-3a-xl-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2020-09-28"
+  }
+}

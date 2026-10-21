@@ -1,0 +1,117 @@
+{
+  "name": "Pixel 11 Pro Fold",
+  "brandId": "google",
+  "categoryId": "smartphone",
+  "series": "Pixel 11",
+  "order": 17700,
+  "releaseYear": "",
+  "art": "phone-foldable",
+  "popular": false,
+  "aliases": [
+    "Google Pixel 11 Pro Fold"
+  ],
+  "seo": {
+    "title": "Google Pixel 11 Pro Fold reparatie: snelle service",
+    "description": "Snelle en professionele Google Pixel 101Pro Fold reparatie met garantie. Laat ons je toestel herstellen terwijl u meekijkt."
+  },
+  "prices": [
+    {
+      "label": "Scherm voorkant (klein) vervangen (origineel Google service pack, zoals Google vereist) vervangen",
+      "price": "op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Scherm (groot) en scherm voorkant vervangen incl. schanier en frame vervangen (origineel Google service pack, zoals Google vereist)",
+      "price": "op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant incl. camera lenzen (origineel Google service pack, zoals Google vereist) vervangen",
+      "price": "op aanvraag",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterijen / batterij's main en sub vervangen",
+      "price": "op aanvraag",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB oplaad connector vervangen",
+      "price": "op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera's achterzijde vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera voorzijde vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "SIM tray vervangen",
+      "price": "€25,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Software herstel",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/google-pixel-reparatie/google-pixel-11-pro-fold/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/google-pixel-reparatie/google-pixel-11-pro-fold/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-09-23."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "41957",
+      "pageTitle": "Google Pixel 11 Pro Fold",
+      "modified": "2026-09-23 12:35:23"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/google-pixel-reparatie/google-pixel-11-pro-fold/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-09-23"
+  }
+}

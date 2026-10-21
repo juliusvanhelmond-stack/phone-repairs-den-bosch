@@ -7,6 +7,7 @@ import { join } from "node:path";
 
 export const PAGES_DIR = "src/content/pages";
 export const SEO_DIR = "src/content/seo";
+export const BLOG_DIR = "src/content/blog";
 export const GENERATED_DIR = "src/data/generated";
 
 /** All entries of a content folder; the file name (without .json) is the entry's id. */

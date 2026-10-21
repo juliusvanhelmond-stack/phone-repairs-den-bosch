@@ -1,0 +1,110 @@
+{
+  "name": "Xiaomi 18 Fold",
+  "brandId": "xiaomi",
+  "categoryId": "smartphone",
+  "series": "Xiaomi",
+  "order": 36000,
+  "releaseYear": "",
+  "art": "phone-foldable",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "Xiaomi 18 Fold reparatie: Veelvoorkomende defecten",
+    "description": "Professionele Xiaomi 18 Fold reparatie met garantie. Snelle service en originele onderdelen voor al uw defecten."
+  },
+  "prices": [
+    {
+      "label": "(voorkant), OLED (origineel Xiaomi service pack, zoals Xiaomi vereist) vervangen",
+      "price": "op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Samsung Galaxy Z Fold 8 scherm (groot) OLED, frame en scharnier (origineel Xiaomi service pack, zoals Xiaomi vereist) vervangen",
+      "price": "op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Xiaomi 18 Foldachterkant (incl. camera lenzen) vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "op aanvraag",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera's vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Front camera's vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Luidspreker vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Xiaomi 18 Foldsimkaart houder vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-18-fold-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-18-fold-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-09-03."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "42319",
+      "pageTitle": "Xiaomi 18 Fold",
+      "modified": "2026-09-03 10:52:16"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-18-fold-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-09-03"
+  }
+}

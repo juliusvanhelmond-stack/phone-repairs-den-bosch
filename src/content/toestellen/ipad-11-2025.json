@@ -1,0 +1,172 @@
+{
+  "name": "iPad 11 2025",
+  "brandId": "apple",
+  "categoryId": "tablet",
+  "series": "iPad",
+  "order": 54700,
+  "releaseYear": "2025",
+  "art": "tablet",
+  "popular": false,
+  "aliases": [
+    "iPad 11 2025 (11 inch)"
+  ],
+  "seo": {
+    "title": "",
+    "description": "iPad 11 2025 reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, bel 073-8220013"
+  },
+  "prices": [
+    {
+      "label": "Scherm (glas) vervangen origineel Apple service pack",
+      "price": "€350,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/originele-onderdelen-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Geen/slecht beeld LCD vervangen origineel Apple service pack",
+      "price": "€400,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/originele-onderdelen-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Batterij origineel vervangen incl. nieuw scherm (glas) origineel Apple service pack",
+      "price": "€250,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/originele-onderdelen-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Oplaadconnector vervangen",
+      "price": "op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Home knop vervangen incl. nieuw scherm (glas)",
+      "price": "op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Aan/uit/volume knop vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "koptelefoon aansluiting vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera aan de achterkant vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera aan de voorkant vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Muziek luidspreker vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Wifi antenne vervangen.",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€50,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Apple Lightning kabel MFi (Made For iPad) certificaat",
+      "price": "€20,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": [
+        {
+          "text": "MFi",
+          "href": "https://en.wikipedia.org/wiki/MFi_Program"
+        }
+      ]
+    },
+    {
+      "label": "Apple iPad lader 10W MFi (Made For iPad) certificaat",
+      "price": "€25,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": [
+        {
+          "text": "MFi",
+          "href": "https://en.wikipedia.org/wiki/MFi_Program"
+        }
+      ]
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-11-2025/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-11-2025/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-05-23."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "38305",
+      "pageTitle": "iPad 11 2025",
+      "modified": "2026-05-23 09:00:42"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-11-2025/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-05-23"
+  }
+}

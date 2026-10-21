@@ -1,0 +1,164 @@
+{
+  "name": "MacBook Neo",
+  "brandId": "apple",
+  "categoryId": "laptop",
+  "series": "MacBook Neo",
+  "order": 53500,
+  "releaseYear": "",
+  "art": "laptop",
+  "popular": false,
+  "aliases": [
+    "MacBook Neo reparatie"
+  ],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm unit (complete bovenkant) vervangen origineel Apple service pack",
+      "price": "€415,-",
+      "repairId": "scherm-vervangen",
+      "popular": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Batterij vervangen origineel Apple service pack",
+      "price": "€230,-",
+      "repairId": "batterij-vervangen",
+      "popular": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "USB-C oplaadpoort per port vervangen origineel Apple service pack",
+      "price": "€145,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Toetsenbord vervangen (gehele top case) origineel Apple service pack",
+      "price": "€299,-",
+      "repairId": "accessoire",
+      "popular": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Trackpad vervangen origineel Apple service pack",
+      "price": "€195,-",
+      "repairId": "overige-reparaties",
+      "popular": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Headjack vervangen origineel Apple service pack",
+      "price": "€145,-",
+      "repairId": "overige-reparaties",
+      "popular": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Speaker links vervangen origineel Apple service pack",
+      "price": "€125,-",
+      "repairId": "overige-reparaties",
+      "popular": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Speaker rechts vervangen origineel Apple service pack",
+      "price": "€125,-",
+      "repairId": "overige-reparaties",
+      "popular": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€45,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemische reiniging i.v.m. waterschade reiniging",
+      "price": "€75,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Moederbord onderzoek",
+      "price": "€69,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Schoonmaken, intern stof, vuil en (rook)aanslag verwijderen",
+      "price": "€60,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/macbook-neo-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-10-09."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "40864",
+      "pageTitle": "MacBook Neo reparatie",
+      "modified": "2026-10-09 00:19:32"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/macbook-neo-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-10-09"
+  }
+}

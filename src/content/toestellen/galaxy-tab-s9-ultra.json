@@ -1,0 +1,49 @@
+{
+  "name": "Galaxy Tab S9 Ultra",
+  "brandId": "samsung",
+  "categoryId": "tablet",
+  "series": "Galaxy Tab S",
+  "order": 55205,
+  "releaseYear": "",
+  "art": "tablet",
+  "popular": false,
+  "aliases": [
+    "Samsung Tab S9 Ultra (SM-X910 / SM-X916)",
+    "SM-X910",
+    "SM-X916"
+  ],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD vervangen (origineel Samsung service pack, zoals Samsung vereist)",
+      "price": "€465,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/samsung-tab-reparatie-den-bosch/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-10-09."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "949",
+      "pageTitle": "Samsung Tab",
+      "modified": "2026-10-09 00:20:24"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/samsung-tab-reparatie-den-bosch/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-10-09"
+  }
+}

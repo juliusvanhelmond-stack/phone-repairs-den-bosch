@@ -1,0 +1,59 @@
+{
+  "name": "Huawei Mate 8",
+  "brandId": "huawei",
+  "categoryId": "smartphone",
+  "series": "Huawei Mate",
+  "order": 29109,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD frame vervangen",
+      "price": "€175,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB oplaad poort vervangen",
+      "price": "€80,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€80,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-mate-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2020-06-30."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "13172",
+      "pageTitle": "Huawei Mate",
+      "modified": "2020-06-30 09:12:55"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-mate-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2020-06-30"
+  }
+}

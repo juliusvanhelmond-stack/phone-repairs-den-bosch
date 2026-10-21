@@ -1,0 +1,164 @@
+{
+  "name": "iPad 9 2021",
+  "brandId": "apple",
+  "categoryId": "tablet",
+  "series": "iPad",
+  "order": 54900,
+  "releaseYear": "2021",
+  "art": "tablet-home-button",
+  "popular": false,
+  "aliases": [
+    "iPad 9 2021 (10.2 inch)"
+  ],
+  "seo": {
+    "title": "",
+    "description": "iPad 9 2021 reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, bel 073-8220013"
+  },
+  "prices": [
+    {
+      "label": "Scherm (glas) vervangen",
+      "price": "€150,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Geen/slecht beeld LCD vervangen. incl. nieuw scherm (glas)",
+      "price": "€270,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Uitdeuken behuizing, hoeken t.b.v. scherm reparatie",
+      "price": "op aanvraag",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij origineel vervangen incl. nieuw scherm (glas)",
+      "price": "op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadconnector vervangen",
+      "price": "op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Home knop vervangen incl. nieuw scherm (glas)",
+      "price": "op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Aan/uit/volume knop vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "koptelefoon aansluiting vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera aan de achterkant vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera aan de voorkant vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Muziek luidspreker vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Wifi antenne vervangen.",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€50,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Apple Lightning kabel MFi (Made For iPad) certificaat",
+      "price": "€20,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": [
+        {
+          "text": "MFi",
+          "href": "https://en.wikipedia.org/wiki/MFi_Program"
+        }
+      ]
+    },
+    {
+      "label": "Apple iPad lader 10W MFi (Made For iPad) certificaat",
+      "price": "€25,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": [
+        {
+          "text": "MFi",
+          "href": "https://en.wikipedia.org/wiki/MFi_Program"
+        }
+      ]
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-9-2021/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-9-2021/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-05-05."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "32510",
+      "pageTitle": "iPad 9 2021",
+      "modified": "2026-05-05 11:31:46"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-9-2021/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-05-05"
+  }
+}

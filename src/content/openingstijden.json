@@ -1,0 +1,10 @@
+{
+  "maandag": { "gesloten": false, "open": "10:00", "dicht": "20:00" },
+  "dinsdag": { "gesloten": false, "open": "09:00", "dicht": "20:00" },
+  "woensdag": { "gesloten": false, "open": "09:00", "dicht": "20:00" },
+  "donderdag": { "gesloten": false, "open": "09:00", "dicht": "20:00" },
+  "vrijdag": { "gesloten": false, "open": "09:00", "dicht": "17:00" },
+  "zaterdag": { "gesloten": false, "open": "10:00", "dicht": "17:00" },
+  "zondag": { "gesloten": false, "open": "11:00", "dicht": "17:00" },
+  "opmerking": "Op feestdagen gelden de openingstijden van zondag."
+}

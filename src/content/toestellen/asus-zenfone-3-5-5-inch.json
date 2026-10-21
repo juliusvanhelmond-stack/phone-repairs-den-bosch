@@ -1,0 +1,69 @@
+{
+  "name": "Asus ZenFone 3 5.5 inch",
+  "brandId": "asus",
+  "categoryId": "smartphone",
+  "series": "Asus ZenFone",
+  "order": 49213,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Asus ZenFone 3 5.5 inch (ZE552KL)",
+    "ZE552KL"
+  ],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD en frame vervangen",
+      "price": "€160,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen",
+      "price": "€80,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Scherm, aan/uit/volume knoppen vervangen",
+      "price": "€60,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "€50,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/asus-zenfone-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2019-11-15."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "12465",
+      "pageTitle": "Asus Zenfone",
+      "modified": "2019-11-15 18:31:55"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/asus-zenfone-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2019-11-15"
+  }
+}

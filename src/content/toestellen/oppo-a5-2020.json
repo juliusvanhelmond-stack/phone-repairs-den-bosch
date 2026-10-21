@@ -1,0 +1,82 @@
+{
+  "name": "OPPO A5 2020",
+  "brandId": "oppo",
+  "categoryId": "smartphone",
+  "series": "OPPO A",
+  "order": 49100,
+  "releaseYear": "2020",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "OPPO A5 2020 (CPH1931, CPH1959, CPH1933, CPH1935, CPH1943)",
+    "CPH1931",
+    "CPH1959",
+    "CPH1933",
+    "CPH1935",
+    "CPH1943"
+  ],
+  "seo": {
+    "title": "",
+    "description": "OPPO A5 2020 reparatiesnel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD en vervangen",
+      "price": "€120,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen",
+      "price": "€60,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadpoort vervangen",
+      "price": "€65,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "/ Batterij origineel vervangen",
+      "price": "€75,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/oppo-reparatie/oppo-a5-2020-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/oppo-reparatie/oppo-a5-2020-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2021-01-20."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "26982",
+      "pageTitle": "OPPO A5 2020",
+      "modified": "2021-01-20 22:25:01"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/oppo-reparatie/oppo-a5-2020-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2021-01-20"
+  }
+}

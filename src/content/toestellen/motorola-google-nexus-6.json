@@ -1,0 +1,83 @@
+{
+  "name": "Motorola Google Nexus 6",
+  "brandId": "motorola",
+  "categoryId": "smartphone",
+  "series": "Motorola Google Nexus",
+  "order": 50602,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Motorola Google Nexus 6 (XT1100)",
+    "XT1100"
+  ],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Motorola Nexus 6 (XT1100) scherm, LCD, frame vervangen",
+      "price": "€230,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "(XT1100) achterkant vervangen",
+      "price": "€50,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Motorola Nexus 6 achtercamera vervangen",
+      "price": "€70,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Motorola Nexus 6 front camera vervangen",
+      "price": "€70,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Motorola Nexus 6 batterij vervangen",
+      "price": "€70,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Nexus 6 aan/uit/volume knop vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/motorola-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2020-02-21."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "8824",
+      "pageTitle": "Motorola",
+      "modified": "2020-02-21 18:57:58"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/motorola-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2020-02-21"
+  }
+}

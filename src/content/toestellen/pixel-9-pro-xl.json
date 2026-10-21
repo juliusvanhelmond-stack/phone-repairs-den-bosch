@@ -1,0 +1,110 @@
+{
+  "name": "Pixel 9 Pro XL",
+  "brandId": "google",
+  "categoryId": "smartphone",
+  "series": "Pixel 9",
+  "order": 19000,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Google Pixel 9 Pro XL"
+  ],
+  "seo": {
+    "title": "Google Pixel 9 Pro XL reparatie met Garantie",
+    "description": "Laat uw Google Pixel 9 Pro XL reparatie snel en professioneel uitvoeren met 12 maanden garantie op originele onderdelen."
+  },
+  "prices": [
+    {
+      "label": "Scherm, P-OLED, front frame en vingerprint scanner vervangen (origineel Google service pack, zoals Google vereist)",
+      "price": "€325,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant incl. camera lenzen vervangen",
+      "price": "€180,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij origineel vervangen",
+      "price": "€110,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB oplaad connector vervangen",
+      "price": "op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera achterzijde vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera's voorzijde vervangen",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Simkaart vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Software herstel",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/google-pixel-reparatie/google-pixel-9-pro-xl/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/google-pixel-reparatie/google-pixel-9-pro-xl/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-09-23."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "37039",
+      "pageTitle": "Google Pixel 9 Pro XL",
+      "modified": "2026-09-23 12:42:54"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/google-pixel-reparatie/google-pixel-9-pro-xl/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-09-23"
+  }
+}

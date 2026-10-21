@@ -1,0 +1,48 @@
+{
+  "name": "Motorola MOTO X Play",
+  "brandId": "motorola",
+  "categoryId": "smartphone",
+  "series": "Motorola MOTO X Play",
+  "order": 50604,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [
+    "Motorola MOTO X Play (XT1562)",
+    "XT1562"
+  ],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD, frame vervangen",
+      "price": "€160,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/motorola-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2020-02-21."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "8824",
+      "pageTitle": "Motorola",
+      "modified": "2020-02-21 18:57:58"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/motorola-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2020-02-21"
+  }
+}

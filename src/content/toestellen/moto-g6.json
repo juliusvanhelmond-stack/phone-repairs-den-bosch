@@ -1,0 +1,59 @@
+{
+  "name": "Moto G6",
+  "brandId": "motorola",
+  "categoryId": "smartphone",
+  "series": "Moto G",
+  "order": 1000202,
+  "releaseYear": "",
+  "art": "phone-punch-hole",
+  "popular": false,
+  "aliases": [],
+  "seo": {
+    "title": "",
+    "description": ""
+  },
+  "prices": [
+    {
+      "label": "Scherm, LCD vervangen",
+      "price": "€130,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Backcover incl. cameralens vervangen",
+      "price": "€100,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Cameralens vervangen",
+      "price": "€60,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/moto-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2019-04-12."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "974",
+      "pageTitle": "Moto",
+      "modified": "2019-04-12 16:24:52"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/moto-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2019-04-12"
+  }
+}
