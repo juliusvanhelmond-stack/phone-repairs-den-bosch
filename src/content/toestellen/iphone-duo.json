@@ -22,18 +22,6 @@
       ]
     },
     {
-      "label": "Scherm voorzijde (klein) vervangen origineel pulled (origineel scherm afkomstig uit een nieuw toestel)",
-      "price": "op aanvraag",
-      "repairId": "scherm-vervangen",
-      "popular": false,
-      "links": [
-        {
-          "text": "origineel pulled",
-          "href": "/iphone-onderdelen-kalibreren"
-        }
-      ]
-    },
-    {
       "label": "Scherm binnenkant (groot) OLED, frame en scharnier origineel Apple service pack",
       "price": "€1400,-",
       "repairId": "scherm-vervangen",
@@ -41,6 +29,18 @@
       "links": [
         {
           "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Scherm voorzijde (klein) vervangen origineel pulled (origineel scherm afkomstig uit een nieuw toestel)",
+      "price": "op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel pulled",
           "href": "/iphone-onderdelen-kalibreren"
         }
       ]
