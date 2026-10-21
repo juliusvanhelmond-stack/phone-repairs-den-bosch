@@ -10,6 +10,18 @@
   "aliases": [],
   "prices": [
     {
+      "label": "Scherm vervangen origineel Apple service pack",
+      "price": "€550,-",
+      "repairId": "scherm-vervangen",
+      "popular": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
       "label": "Scherm vervangen premium OLED",
       "price": "op aanvraag",
       "repairId": "scherm-vervangen",
@@ -29,18 +41,6 @@
       "links": [
         {
           "text": "origineel pulled",
-          "href": "/iphone-onderdelen-kalibreren"
-        }
-      ]
-    },
-    {
-      "label": "Scherm vervangen origineel Apple service pack",
-      "price": "€550,-",
-      "repairId": "scherm-vervangen",
-      "popular": true,
-      "links": [
-        {
-          "text": "origineel Apple service pack",
           "href": "/iphone-onderdelen-kalibreren"
         }
       ]
