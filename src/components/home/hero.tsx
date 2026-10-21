@@ -51,7 +51,8 @@ export async function Hero() {
               <Button asChild size="lg" variant="secondary" className="max-md:hidden">
                 <a href={wa} target="_blank" rel="noopener noreferrer">
                   <MessageCircle aria-hidden />
-                  {t("WhatsApp ons", "WhatsApp us")}
+                  {/* Only here, next to the personal introduction (client request 2026-10-21). */}
+                  {t("WhatsApp Martijn", "WhatsApp Martijn")}
                 </a>
               </Button>
             )}
