@@ -6,13 +6,9 @@
   "order": 1500,
   "releaseYear": "2025",
   "art": "phone-island",
-  "photo": null,
+  "photo": "/images/toestellen/iphone-air/photo.jpeg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "iPhone Air reparatie Professioneel met originele onderdelen",
-    "description": "Heeft u schade aan uw iPhone Air? Laat de iPhone 17 Air reparatie snel en professioneel uitvoeren met garantie."
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
@@ -235,6 +231,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone Air reparatie Professioneel met originele onderdelen",
+    "description": "Heeft u schade aan uw iPhone Air? Laat de iPhone 17 Air reparatie snel en professioneel uitvoeren met garantie."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-air/"
   ],
