@@ -7,15 +7,11 @@
   "releaseYear": "2025",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-s25/photo.jpg",
-  "popular": true,
+  "popular": false,
   "aliases": [
     "Samsung S25",
     "Samsung Galaxy S25"
   ],
-  "seo": {
-    "title": "Samsung S25 reparatie: Snelle en Professionele Service",
-    "description": "Laat je Samsung S25 repareren door professionals. Wij bieden snelle en betrouwbare Samsung S25 reparatie met originele onderdelen."
-  },
   "prices": [
     {
       "label": "Scherm, Dynamic AMOLED, frame / zijkanten en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -135,6 +131,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung S25 reparatie: Snelle en Professionele Service",
+    "description": "Laat je Samsung S25 repareren door professionals. Wij bieden snelle en betrouwbare Samsung S25 reparatie met originele onderdelen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s25/"
   ],
