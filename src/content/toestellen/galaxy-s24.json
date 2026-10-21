@@ -6,16 +6,12 @@
   "order": 7500,
   "releaseYear": "2024",
   "art": "phone-punch-hole",
-  "photo": null,
+  "photo": "/images/toestellen/galaxy-s24/photo.jpg",
   "popular": true,
   "aliases": [
     "Samsung S24",
     "Samsung Galaxy S24"
   ],
-  "seo": {
-    "title": "Samsung S24 reparatie: Scherm en Accu Vervangen",
-    "description": "Laat uw Samsung S24 reparatie snel en professioneel uitvoeren. Originale service packs voor scherm en meer!"
-  },
   "prices": [
     {
       "label": "Scherm, Dynamic AMOLED, frame / zijkanten en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -128,6 +124,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung S24 reparatie: Scherm en Accu Vervangen",
+    "description": "Laat uw Samsung S24 reparatie snel en professioneel uitvoeren. Originale service packs voor scherm en meer!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s24-reparatie/"
   ],
