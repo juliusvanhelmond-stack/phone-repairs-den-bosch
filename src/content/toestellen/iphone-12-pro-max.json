@@ -12,10 +12,6 @@
     "iPhone 12 Pro Max (A2411)",
     "A2411"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
@@ -281,6 +277,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-12-pro-max-2/",
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-12-pro-max/"
