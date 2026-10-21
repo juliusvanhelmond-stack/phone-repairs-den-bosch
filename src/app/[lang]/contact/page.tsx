@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { ContactDetails, MapGraphic } from "@/components/home/location";
+import { ContactDetails, MapEmbed } from "@/components/home/location";
 import { ReviewsLink } from "@/components/contact/reviews-link";
 import { PageIntro } from "@/components/layout/page-intro";
 import { ContactActions } from "@/components/contact/contact-actions";
 import { getI18n } from "@/lib/i18n-server";
 import { pageMetadata } from "@/lib/seo";
-import { mapsUrl, site } from "@/lib/site";
+import { site } from "@/lib/site";
 
 export async function generateMetadata(): Promise<Metadata> {
   const { locale, t } = await getI18n();
@@ -42,9 +42,7 @@ export default async function ContactPage() {
             <ContactDetails className="mt-4" />
             <ReviewsLink className="mt-4 flex w-fit" />
           </div>
-          <a href={mapsUrl} target="_blank" rel="noopener noreferrer" aria-label={t("Open de locatie in Google Maps", "Open the location in Google Maps")} className="block min-h-80">
-            <MapGraphic />
-          </a>
+          <MapEmbed title={t("Phone Repairs op Google Maps", "Phone Repairs on Google Maps")} className="min-h-80" />
         </div>
       </section>
     </>

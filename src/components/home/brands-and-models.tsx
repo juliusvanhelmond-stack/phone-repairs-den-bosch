@@ -4,7 +4,7 @@ import { DeviceCard } from "@/components/devices/device-card";
 import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { BrandMark } from "@/components/devices/brand-mark";
-import { brandEntries, popularDevices } from "@/lib/catalog";
+import { brandEntries, getDevice, popularDevices } from "@/lib/catalog";
 import { getI18n } from "@/lib/i18n-server";
 
 export async function PopularBrands() {
@@ -47,8 +47,15 @@ export async function PopularBrands() {
 
 export async function PopularModels() {
   const { t } = await getI18n();
-  // Four per brand: iPhone, Samsung and Pixel (client request, 2026-10-16).
-  const items = ["apple", "samsung", "google"].flatMap((brand) => popularDevices.filter((d) => d.brandId === brand).slice(0, 4));
+  // Two per brand: iPhone, Samsung, OPPO and Pixel (client request, 2026-10-21). OPPO has no "popular" flags in
+  // the export and its menu is not in release order, so its newest Find X models are named here.
+  const picks: Record<string, string[]> = { oppo: ["oppo-find-x9-pro", "oppo-find-x9"] };
+  const items = ["apple", "samsung", "oppo", "google"].flatMap((brand) =>
+    (picks[brand]
+      ? picks[brand].flatMap((slug) => getDevice(brand, slug) ?? [])
+      : popularDevices.filter((d) => d.brandId === brand)
+    ).slice(0, 2),
+  );
   return (
     <section className="bg-mist py-20 lg:py-28">
       <div className="container-page">
@@ -56,7 +63,7 @@ export async function PopularModels() {
           <Reveal>
             <SectionHeading
               eyebrow={t("Populaire modellen", "Popular models")}
-              title={t("Veelgevraagde toestellen.", "Frequently requested devices.")}
+              title={t("Veelgevraagde reparaties.", "Frequently requested repairs.")}
               intro={t("Bekijk direct welke reparaties mogelijk zijn voor jouw model.", "See straight away which repairs are possible for your model.")}
             />
           </Reveal>

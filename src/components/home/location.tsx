@@ -9,36 +9,21 @@ import { Aura } from "@/components/ui/aura";
 import { ReviewsLink } from "@/components/contact/reviews-link";
 import { Skyline } from "@/components/ui/skyline";
 
-export function MapGraphic() {
+/**
+ * The shop's Google Maps card (name, rating, route), the same embed as on the current site
+ * (client request 2026-10-21: a real map instead of an illustration).
+ */
+export function MapEmbed({ title, className }: { title: string; className?: string }) {
   return (
-    <div className="relative h-full min-h-72 overflow-hidden rounded-[var(--radius-card)] bg-mist" aria-hidden>
-      <svg viewBox="0 0 600 420" preserveAspectRatio="xMidYMid slice" className="absolute inset-0 size-full">
-        <rect width="600" height="420" fill="var(--color-mist)" />
-        <path d="M-20 300 C 120 260, 200 330, 330 280 S 520 200, 640 230" stroke="#C7D7F5" strokeWidth="34" fill="none" />
-        <g stroke="#fff" strokeLinecap="round" fill="none">
-          <path d="M0 120 H600" strokeWidth="14" />
-          <path d="M60 0 L180 420" strokeWidth="10" />
-          <path d="M330 0 V420" strokeWidth="14" />
-          <path d="M440 0 L520 420" strokeWidth="8" />
-          <path d="M0 210 H330" strokeWidth="8" />
-          <path d="M330 175 H600" strokeWidth="8" />
-          <path d="M200 0 L250 120" strokeWidth="6" />
-          <path d="M330 360 H600" strokeWidth="6" />
-        </g>
-        <g fill="var(--color-line)">
-          <rect x="360" y="20" width="60" height="70" rx="8" />
-          <rect x="460" y="40" width="110" height="50" rx="8" />
-          <rect x="90" y="140" width="80" height="50" rx="8" />
-          <rect x="350" y="200" width="70" height="60" rx="8" />
-          <rect x="230" y="150" width="70" height="40" rx="8" />
-        </g>
-      </svg>
-      <div className="absolute top-[42%] left-[55%] -translate-x-1/2 -translate-y-full">
-        <span className="absolute top-full left-1/2 size-16 -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent/15" />
-        <span className="relative grid size-12 place-items-center rounded-full rounded-br-none bg-night text-white shadow-[var(--shadow-lift)] [transform:rotate(45deg)]">
-          <MapPin className="size-5 [transform:rotate(-45deg)]" />
-        </span>
-      </div>
+    <div className={`tone-light relative h-full min-h-72 overflow-hidden rounded-[var(--radius-card)] bg-white ring-1 ring-line ${className ?? ""}`}>
+      <iframe
+        src={site.mapEmbedUrl}
+        title={title}
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        allowFullScreen
+        className="absolute inset-0 size-full border-0"
+      />
     </div>
   );
 }
@@ -106,13 +91,18 @@ export async function Location() {
         <Skyline className="mt-10 text-accent-strong/45 lg:mt-12" title={t("Skyline van Den Bosch", "Den Bosch skyline")} />
         <div className="mt-6 grid gap-4 lg:grid-cols-[1.2fr_1fr]">
           <Reveal className="h-full">
-            <a href={mapsUrl} target="_blank" rel="noopener noreferrer" className="group relative block h-full" aria-label={t("Open de locatie in Google Maps", "Open the location in Google Maps")}>
-              <MapGraphic />
-              <span className="absolute bottom-4 left-4 inline-flex items-center gap-1.5 rounded-full bg-surface px-4 py-2 text-sm font-medium text-ink shadow-[var(--shadow-soft)] transition-colors group-hover:bg-accent group-hover:text-white">
+            <div className="relative h-full">
+              <MapEmbed title={t("Phone Repairs op Google Maps", "Phone Repairs on Google Maps")} />
+              <a
+                href={mapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="absolute bottom-4 left-4 inline-flex items-center gap-1.5 rounded-full bg-surface px-4 py-2 text-sm font-medium text-ink shadow-[var(--shadow-soft)] transition-colors hover:bg-accent hover:text-white"
+              >
                 Open in Google Maps
                 <ArrowUpRight className="size-4" aria-hidden />
-              </span>
-            </a>
+              </a>
+            </div>
           </Reveal>
           <Reveal delay={0.05}>
             <div className="rounded-[var(--radius-card)] bg-surface p-6 shadow-[var(--shadow-soft)] ring-1 ring-line sm:p-8">

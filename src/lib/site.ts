@@ -97,6 +97,9 @@ export const site = {
   parkingNote: "Gratis parkeren voor de deur",
   /** "Plan je route" link the client asked for (e-mail 2026-10-16), verbatim. */
   routeUrl: "https://www.google.com/maps?ll=51.71568,5.323959&z=13&t=m&hl=nl&gl=NL&mapclient=embed&cid=15650285209832125331",
+  /** The Google Maps card embedded on the current site (contact block), verbatim (client request 2026-10-21). */
+  mapEmbedUrl:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19983.52125214717!2d5.30830231110856!3d51.71285109980844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6ee3474713037%3A0xd930fb7ac597f393!2sPhone%20Repairs%20-%20iPhone%2C%20Samsung%2C%20Huawei%2C%20OnePlus%2C%20Nokia%2C%20Pixel%2C%20OPPO%2C%20Xiaomi%2C%20Sony%2C%20LG%2C%20Redmi%2C%20Pocophone%20reparatie!5e0!3m2!1snl!2snl!4v1590348501848!5m2!1snl!2snl",
   /**
    * Partner links with the shop's own referral code (client, e-mail 2026-10-14): keep the
    * parameters exactly, they are how the shop gets paid.

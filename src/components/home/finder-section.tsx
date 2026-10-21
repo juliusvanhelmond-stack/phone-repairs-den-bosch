@@ -19,8 +19,8 @@ export async function FinderSection() {
             // Five steps, like the progress bar (client report 2026-10-19).
             title={t("In vijf stappen naar jouw reparatieprijs.", "Your repair price in five steps.")}
             intro={t(
-              "Kies je toestel, merk, model en reparatie en zie meteen de prijs. Daarna vraag je direct een afspraak aan.",
-              "Choose your device, brand, model and repair and see the price right away. Then request an appointment.",
+              "Kies je toestel, merk, model en reparatie en zie meteen de prijs. Daarna vraag je direct een afspraak aan, of bel of app ons direct voor een afspraak.",
+              "Choose your device, brand, model and repair and see the price right away. Then request an appointment, or call or message us directly for an appointment.",
             )}
             className="mb-10 lg:mb-12"
           />

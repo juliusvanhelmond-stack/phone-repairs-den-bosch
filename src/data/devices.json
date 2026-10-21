@@ -28930,313 +28930,13 @@
     }
   },
   {
-    "id": "apple-iphone-6-plus",
-    "slug": "iphone-6-plus",
-    "name": "iPhone 6 Plus",
-    "brandId": "apple",
-    "categoryId": "smartphone",
-    "series": "iPhone",
-    "order": 1001100,
-    "art": "phone-home-button",
-    "popular": false,
-    "aliases": [
-      "iPhone 6 Plus (A1522)",
-      "A1522"
-    ],
-    "repairs": [
-      "scherm-vervangen",
-      "achterkant-vervangen",
-      "batterij-vervangen",
-      "overige-reparaties",
-      "oplaadpoort-repareren",
-      "camera-repareren",
-      "waterschade"
-    ],
-    "legacyUrls": [
-      "https://www.phonerepairs.nl/iphone-reparatie/iphone-6-plus-reparatie-den-bosch/"
-    ],
-    "sources": [
-      {
-        "url": "https://www.phonerepairs.nl/iphone-reparatie/iphone-6-plus-reparatie-den-bosch/",
-        "verification": "verified-source",
-        "capturedAt": "2026-10-12",
-        "note": "WordPress export 2026-10-12; page last changed 2021-03-28."
-      }
-    ],
-    "extra": {
-      "wordpress": {
-        "pageId": "4074",
-        "pageTitle": "iPhone 6 Plus",
-        "modified": "2021-03-28 11:08:40"
-      }
-    }
-  },
-  {
-    "id": "apple-iphone-6s-plus",
-    "slug": "iphone-6s-plus",
-    "name": "iPhone 6S Plus",
-    "brandId": "apple",
-    "categoryId": "smartphone",
-    "series": "iPhone",
-    "order": 1001200,
-    "art": "phone-home-button",
-    "popular": false,
-    "aliases": [
-      "iPhone 6S Plus (A1634)",
-      "A1634"
-    ],
-    "repairs": [
-      "scherm-vervangen",
-      "achterkant-vervangen",
-      "batterij-vervangen",
-      "overige-reparaties",
-      "oplaadpoort-repareren",
-      "camera-repareren",
-      "waterschade"
-    ],
-    "legacyUrls": [
-      "https://www.phonerepairs.nl/iphone-reparatie/iphone-6s-plus-reparatie-den-bosch/"
-    ],
-    "sources": [
-      {
-        "url": "https://www.phonerepairs.nl/iphone-reparatie/iphone-6s-plus-reparatie-den-bosch/",
-        "verification": "verified-source",
-        "capturedAt": "2026-10-12",
-        "note": "WordPress export 2026-10-12; page last changed 2021-03-28."
-      }
-    ],
-    "extra": {
-      "wordpress": {
-        "pageId": "5136",
-        "pageTitle": "iPhone 6S Plus",
-        "modified": "2021-03-28 11:07:14"
-      }
-    }
-  },
-  {
-    "id": "apple-iphone-6",
-    "slug": "iphone-6",
-    "name": "iPhone 6",
-    "brandId": "apple",
-    "categoryId": "smartphone",
-    "series": "iPhone",
-    "order": 1001300,
-    "art": "phone-home-button",
-    "popular": false,
-    "aliases": [
-      "iPhone 6 (A1549)",
-      "A1549"
-    ],
-    "repairs": [
-      "scherm-vervangen",
-      "achterkant-vervangen",
-      "batterij-vervangen",
-      "overige-reparaties",
-      "oplaadpoort-repareren",
-      "camera-repareren",
-      "waterschade"
-    ],
-    "legacyUrls": [
-      "https://www.phonerepairs.nl/iphone-reparatie/iphone-6-reparatie-den-bosch/"
-    ],
-    "sources": [
-      {
-        "url": "https://www.phonerepairs.nl/iphone-reparatie/iphone-6-reparatie-den-bosch/",
-        "verification": "verified-source",
-        "capturedAt": "2026-10-12",
-        "note": "WordPress export 2026-10-12; page last changed 2021-05-19."
-      }
-    ],
-    "extra": {
-      "wordpress": {
-        "pageId": "14205",
-        "pageTitle": "iPhone 6",
-        "modified": "2021-05-19 21:15:28"
-      }
-    }
-  },
-  {
-    "id": "apple-iphone-5c",
-    "slug": "iphone-5c",
-    "name": "iPhone 5C",
-    "brandId": "apple",
-    "categoryId": "smartphone",
-    "series": "iPhone",
-    "order": 1001400,
-    "art": "phone-home-button",
-    "popular": false,
-    "aliases": [
-      "iPhone 5C (A1507)",
-      "A1507"
-    ],
-    "repairs": [
-      "scherm-vervangen",
-      "achterkant-vervangen",
-      "overige-reparaties",
-      "batterij-vervangen",
-      "oplaadpoort-repareren",
-      "camera-repareren",
-      "waterschade"
-    ],
-    "legacyUrls": [
-      "https://www.phonerepairs.nl/iphone-reparatie/iphone-5c-reparatie/"
-    ],
-    "sources": [
-      {
-        "url": "https://www.phonerepairs.nl/iphone-reparatie/iphone-5c-reparatie/",
-        "verification": "verified-source",
-        "capturedAt": "2026-10-12",
-        "note": "WordPress export 2026-10-12; page last changed 2023-02-13."
-      }
-    ],
-    "seo": {
-      "description": "iPhone 5C reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt. bel: 073-8220013"
-    },
-    "extra": {
-      "wordpress": {
-        "pageId": "14226",
-        "pageTitle": "iPhone 5C",
-        "modified": "2023-02-13 20:14:28"
-      }
-    }
-  },
-  {
-    "id": "apple-iphone-5s",
-    "slug": "iphone-5s",
-    "name": "iPhone 5S",
-    "brandId": "apple",
-    "categoryId": "smartphone",
-    "series": "iPhone",
-    "order": 1001500,
-    "art": "phone-home-button",
-    "popular": false,
-    "aliases": [
-      "iPhone 5S (A1457)",
-      "A1457"
-    ],
-    "repairs": [
-      "scherm-vervangen",
-      "achterkant-vervangen",
-      "overige-reparaties",
-      "batterij-vervangen",
-      "oplaadpoort-repareren",
-      "camera-repareren",
-      "waterschade"
-    ],
-    "legacyUrls": [
-      "https://www.phonerepairs.nl/iphone-reparatie/iphone-5s-reparatie-den-bosch/"
-    ],
-    "sources": [
-      {
-        "url": "https://www.phonerepairs.nl/iphone-reparatie/iphone-5s-reparatie-den-bosch/",
-        "verification": "verified-source",
-        "capturedAt": "2026-10-12",
-        "note": "WordPress export 2026-10-12; page last changed 2023-02-13."
-      }
-    ],
-    "extra": {
-      "wordpress": {
-        "pageId": "14256",
-        "pageTitle": "iPhone 5S",
-        "modified": "2023-02-13 20:13:42"
-      }
-    }
-  },
-  {
-    "id": "apple-iphone-5",
-    "slug": "iphone-5",
-    "name": "iPhone 5",
-    "brandId": "apple",
-    "categoryId": "smartphone",
-    "series": "iPhone",
-    "order": 1001600,
-    "art": "phone-home-button",
-    "popular": false,
-    "aliases": [
-      "iPhone 5 (A1429)",
-      "A1429"
-    ],
-    "repairs": [
-      "scherm-vervangen",
-      "achterkant-vervangen",
-      "overige-reparaties",
-      "batterij-vervangen",
-      "oplaadpoort-repareren",
-      "camera-repareren",
-      "waterschade"
-    ],
-    "legacyUrls": [
-      "https://www.phonerepairs.nl/iphone-reparatie/iphone-5-reparatie/"
-    ],
-    "sources": [
-      {
-        "url": "https://www.phonerepairs.nl/iphone-reparatie/iphone-5-reparatie/",
-        "verification": "verified-source",
-        "capturedAt": "2026-10-12",
-        "note": "WordPress export 2026-10-12; page last changed 2020-02-26."
-      }
-    ],
-    "seo": {
-      "description": "iPhone 5 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt. bel: 073-8220013"
-    },
-    "extra": {
-      "wordpress": {
-        "pageId": "14264",
-        "pageTitle": "iPhone 5",
-        "modified": "2020-02-26 13:31:00"
-      }
-    }
-  },
-  {
-    "id": "apple-iphone-6s",
-    "slug": "iphone-6s",
-    "name": "iPhone 6S",
-    "brandId": "apple",
-    "categoryId": "smartphone",
-    "series": "iPhone",
-    "order": 1001700,
-    "art": "phone-home-button",
-    "popular": false,
-    "aliases": [
-      "iPhone 6S (A1633)",
-      "A1633"
-    ],
-    "repairs": [
-      "scherm-vervangen",
-      "achterkant-vervangen",
-      "batterij-vervangen",
-      "overige-reparaties",
-      "oplaadpoort-repareren",
-      "camera-repareren",
-      "waterschade"
-    ],
-    "legacyUrls": [
-      "https://www.phonerepairs.nl/iphone-reparatie/iphone-6s-reparatie-den-bosch/"
-    ],
-    "sources": [
-      {
-        "url": "https://www.phonerepairs.nl/iphone-reparatie/iphone-6s-reparatie-den-bosch/",
-        "verification": "verified-source",
-        "capturedAt": "2026-10-12",
-        "note": "WordPress export 2026-10-12; page last changed 2021-03-28."
-      }
-    ],
-    "extra": {
-      "wordpress": {
-        "pageId": "14317",
-        "pageTitle": "iPhone 6S",
-        "modified": "2021-03-28 11:07:47"
-      }
-    }
-  },
-  {
     "id": "oneplus-oneplus-3t",
     "slug": "oneplus-3t",
     "name": "OnePlus 3T",
     "brandId": "oneplus",
     "categoryId": "smartphone",
     "series": "OnePlus",
-    "order": 1002000,
+    "order": 1001300,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -29281,7 +28981,7 @@
     "brandId": "oneplus",
     "categoryId": "smartphone",
     "series": "OnePlus",
-    "order": 1002100,
+    "order": 1001400,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -29323,7 +29023,7 @@
     "brandId": "sony",
     "categoryId": "smartphone",
     "series": "Xperia XA",
-    "order": 1002600,
+    "order": 1001900,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -29367,7 +29067,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy A",
-    "order": 1003200,
+    "order": 1002500,
     "releaseYear": 2017,
     "art": "phone-punch-hole",
     "popular": false,
@@ -29412,7 +29112,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy J",
-    "order": 1003700,
+    "order": 1003000,
     "releaseYear": 2017,
     "art": "phone-punch-hole",
     "popular": false,
@@ -29458,7 +29158,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy J",
-    "order": 1003800,
+    "order": 1003100,
     "releaseYear": 2017,
     "art": "phone-punch-hole",
     "popular": false,
@@ -29501,7 +29201,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy J",
-    "order": 1003900,
+    "order": 1003200,
     "releaseYear": 2017,
     "art": "phone-punch-hole",
     "popular": false,
@@ -29546,7 +29246,7 @@
     "brandId": "oneplus",
     "categoryId": "smartphone",
     "series": "OnePlus",
-    "order": 1004200,
+    "order": 1003500,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -29591,7 +29291,7 @@
     "brandId": "nokia",
     "categoryId": "smartphone",
     "series": "Nokia",
-    "order": 1004300,
+    "order": 1003600,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -29633,7 +29333,7 @@
     "brandId": "nokia",
     "categoryId": "smartphone",
     "series": "Nokia",
-    "order": 1004400,
+    "order": 1003700,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -29677,7 +29377,7 @@
     "brandId": "nokia",
     "categoryId": "smartphone",
     "series": "Nokia",
-    "order": 1004500,
+    "order": 1003800,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -29715,7 +29415,7 @@
     "brandId": "oneplus",
     "categoryId": "smartphone",
     "series": "OnePlus",
-    "order": 1004700,
+    "order": 1004000,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -29760,7 +29460,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy A",
-    "order": 1004900,
+    "order": 1004200,
     "releaseYear": 2018,
     "art": "phone-punch-hole",
     "popular": false,
@@ -29803,7 +29503,7 @@
     "brandId": "oppo",
     "categoryId": "smartphone",
     "series": "OPPO R",
-    "order": 1005100,
+    "order": 1004400,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -29844,7 +29544,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy A",
-    "order": 1005300,
+    "order": 1004600,
     "releaseYear": 2018,
     "art": "phone-punch-hole",
     "popular": false,
@@ -29890,7 +29590,7 @@
     "brandId": "nokia",
     "categoryId": "smartphone",
     "series": "Nokia",
-    "order": 1005400,
+    "order": 1004700,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -29932,7 +29632,7 @@
     "brandId": "nokia",
     "categoryId": "smartphone",
     "series": "Nokia",
-    "order": 1005600,
+    "order": 1004900,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -29976,7 +29676,7 @@
     "brandId": "honor",
     "categoryId": "smartphone",
     "series": "Honor View",
-    "order": 1005800,
+    "order": 1005100,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -30022,7 +29722,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy J",
-    "order": 1006200,
+    "order": 1005500,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -30064,7 +29764,7 @@
     "brandId": "xiaomi",
     "categoryId": "smartphone",
     "series": "Xiaomi Mi Max",
-    "order": 1006500,
+    "order": 1005800,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -30106,7 +29806,7 @@
     "brandId": "redmi",
     "categoryId": "smartphone",
     "series": "Redmi Note",
-    "order": 1006600,
+    "order": 1005900,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -30148,7 +29848,7 @@
     "brandId": "xiaomi",
     "categoryId": "smartphone",
     "series": "Xiaomi Mi",
-    "order": 1007100,
+    "order": 1006400,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -30190,7 +29890,7 @@
     "brandId": "oppo",
     "categoryId": "smartphone",
     "series": "OPPO A",
-    "order": 1007200,
+    "order": 1006500,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -30227,7 +29927,7 @@
     "brandId": "huawei",
     "categoryId": "smartphone",
     "series": "Huawei P Smart Plus",
-    "order": 1007300,
+    "order": 1006600,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -30272,7 +29972,7 @@
     "brandId": "huawei",
     "categoryId": "smartphone",
     "series": "Huawei P",
-    "order": 1007400,
+    "order": 1006700,
     "releaseYear": 2017,
     "art": "phone-punch-hole",
     "popular": false,
@@ -30315,7 +30015,7 @@
     "brandId": "oppo",
     "categoryId": "smartphone",
     "series": "OPPO A",
-    "order": 1007500,
+    "order": 1006800,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -30354,7 +30054,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy A",
-    "order": 1007700,
+    "order": 1007000,
     "releaseYear": 2018,
     "art": "phone-punch-hole",
     "popular": false,
@@ -30401,7 +30101,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy J",
-    "order": 1007800,
+    "order": 1007100,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -30443,7 +30143,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy J",
-    "order": 1007900,
+    "order": 1007200,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -30485,7 +30185,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy J",
-    "order": 1008000,
+    "order": 1007300,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -30527,7 +30227,7 @@
     "brandId": "huawei",
     "categoryId": "smartphone",
     "series": "Huawei Nova",
-    "order": 1008200,
+    "order": 1007500,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -30569,7 +30269,7 @@
     "brandId": "huawei",
     "categoryId": "smartphone",
     "series": "Huawei Nova",
-    "order": 1008400,
+    "order": 1007700,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -30609,7 +30309,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy A",
-    "order": 1008600,
+    "order": 1007900,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -30652,7 +30352,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy J",
-    "order": 1008700,
+    "order": 1008000,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -30694,7 +30394,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy M",
-    "order": 1008900,
+    "order": 1008200,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -30737,7 +30437,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy M",
-    "order": 1009001,
+    "order": 1008301,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -30778,7 +30478,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy J",
-    "order": 1009200,
+    "order": 1008500,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -30820,7 +30520,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy S",
-    "order": 1009400,
+    "order": 1008700,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -30865,7 +30565,7 @@
     "brandId": "oppo",
     "categoryId": "smartphone",
     "series": "OPPO Reno",
-    "order": 1010000,
+    "order": 1009300,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -30909,7 +30609,7 @@
     "brandId": "realme",
     "categoryId": "smartphone",
     "series": "Realme",
-    "order": 1010400,
+    "order": 1009700,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -30948,7 +30648,7 @@
     "brandId": "realme",
     "categoryId": "smartphone",
     "series": "Realme",
-    "order": 1010500,
+    "order": 1009800,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -30988,7 +30688,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy M",
-    "order": 1010600,
+    "order": 1009900,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -31029,7 +30729,7 @@
     "brandId": "redmi",
     "categoryId": "smartphone",
     "series": "Redmi Note",
-    "order": 1011000,
+    "order": 1010300,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -31072,7 +30772,7 @@
     "brandId": "poco",
     "categoryId": "smartphone",
     "series": "Pocophone F",
-    "order": 1011100,
+    "order": 1010400,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -31116,7 +30816,7 @@
     "brandId": "oppo",
     "categoryId": "smartphone",
     "series": "OPPO Reno",
-    "order": 1011200,
+    "order": 1010500,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -31161,7 +30861,7 @@
     "brandId": "nintendo",
     "categoryId": "console",
     "series": "Nintendo Switch",
-    "order": 1011300,
+    "order": 1010600,
     "art": "console",
     "popular": false,
     "aliases": [
@@ -31197,7 +30897,7 @@
     "brandId": "nintendo",
     "categoryId": "console",
     "series": "Nintendo Switch",
-    "order": 1011401,
+    "order": 1010701,
     "art": "console",
     "popular": false,
     "aliases": [
@@ -31234,7 +30934,7 @@
     "brandId": "nintendo",
     "categoryId": "console",
     "series": "Nintendo Switch",
-    "order": 1011502,
+    "order": 1010802,
     "art": "console",
     "popular": false,
     "aliases": [
@@ -31271,7 +30971,7 @@
     "brandId": "nintendo",
     "categoryId": "console",
     "series": "Nintendo Switch",
-    "order": 1011603,
+    "order": 1010903,
     "art": "console",
     "popular": false,
     "aliases": [
@@ -31308,7 +31008,7 @@
     "brandId": "huawei",
     "categoryId": "smartphone",
     "series": "Huawei Nova",
-    "order": 1011700,
+    "order": 1011000,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -31351,7 +31051,7 @@
     "brandId": "poco",
     "categoryId": "smartphone",
     "series": "Pocophone X",
-    "order": 1011900,
+    "order": 1011200,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -31393,7 +31093,7 @@
     "brandId": "apple",
     "categoryId": "smartphone",
     "series": "iPhone SE",
-    "order": 1012100,
+    "order": 1011400,
     "art": "phone-home-button",
     "popular": false,
     "aliases": [],
@@ -31429,55 +31129,13 @@
     }
   },
   {
-    "id": "apple-iphone-9",
-    "slug": "iphone-9",
-    "name": "iPhone 9",
-    "brandId": "apple",
-    "categoryId": "smartphone",
-    "series": "iPhone",
-    "order": 1012200,
-    "art": "phone-island",
-    "popular": false,
-    "aliases": [],
-    "repairs": [
-      "scherm-vervangen",
-      "achterkant-vervangen",
-      "batterij-vervangen",
-      "overige-reparaties",
-      "oplaadpoort-repareren",
-      "camera-repareren",
-      "waterschade"
-    ],
-    "legacyUrls": [
-      "https://www.phonerepairs.nl/iphone-reparatie/iphone-9/"
-    ],
-    "sources": [
-      {
-        "url": "https://www.phonerepairs.nl/iphone-reparatie/iphone-9/",
-        "verification": "verified-source",
-        "capturedAt": "2026-10-12",
-        "note": "WordPress export 2026-10-12; page last changed 2020-03-16."
-      }
-    ],
-    "seo": {
-      "description": "iPhone 9 reparatie Den Bosch vakkundig gerepareerd. Originele onderdelen, 12 mnd. garantie, klaar terwijl u meekijkt. iPhone 9 scherm Den Bosch"
-    },
-    "extra": {
-      "wordpress": {
-        "pageId": "27466",
-        "pageTitle": "iPhone 9",
-        "modified": "2020-03-16 19:59:49"
-      }
-    }
-  },
-  {
     "id": "huawei-huawei-y9-2019",
     "slug": "huawei-y9-2019",
     "name": "Huawei Y9 2019",
     "brandId": "huawei",
     "categoryId": "smartphone",
     "series": "Huawei Y",
-    "order": 1012300,
+    "order": 1011500,
     "releaseYear": 2019,
     "art": "phone-punch-hole",
     "popular": false,
@@ -31523,7 +31181,7 @@
     "brandId": "huawei",
     "categoryId": "smartphone",
     "series": "Huawei Y",
-    "order": 1012500,
+    "order": 1011700,
     "releaseYear": 2019,
     "art": "phone-punch-hole",
     "popular": false,
@@ -31569,7 +31227,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy A",
-    "order": 1012600,
+    "order": 1011800,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -31615,7 +31273,7 @@
     "brandId": "oppo",
     "categoryId": "smartphone",
     "series": "OPPO Reno",
-    "order": 1012900,
+    "order": 1012100,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -31656,7 +31314,7 @@
     "brandId": "google",
     "categoryId": "smartphone",
     "series": "Pixel",
-    "order": 1013000,
+    "order": 1012200,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -31699,7 +31357,7 @@
     "brandId": "realme",
     "categoryId": "smartphone",
     "series": "Realme",
-    "order": 1013100,
+    "order": 1012300,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -31738,7 +31396,7 @@
     "brandId": "realme",
     "categoryId": "smartphone",
     "series": "Realme",
-    "order": 1013200,
+    "order": 1012400,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -31771,55 +31429,13 @@
     }
   },
   {
-    "id": "apple-iphone-9-plus",
-    "slug": "iphone-9-plus",
-    "name": "iPhone 9 Plus",
-    "brandId": "apple",
-    "categoryId": "smartphone",
-    "series": "iPhone",
-    "order": 1013300,
-    "art": "phone-island",
-    "popular": false,
-    "aliases": [],
-    "repairs": [
-      "scherm-vervangen",
-      "achterkant-vervangen",
-      "batterij-vervangen",
-      "overige-reparaties",
-      "oplaadpoort-repareren",
-      "camera-repareren",
-      "waterschade"
-    ],
-    "legacyUrls": [
-      "https://www.phonerepairs.nl/iphone-reparatie/iphone-9-plus/"
-    ],
-    "sources": [
-      {
-        "url": "https://www.phonerepairs.nl/iphone-reparatie/iphone-9-plus/",
-        "verification": "verified-source",
-        "capturedAt": "2026-10-12",
-        "note": "WordPress export 2026-10-12; page last changed 2020-03-16."
-      }
-    ],
-    "seo": {
-      "description": "iPhone 9 Plus reparatie Den Bosch vakkundig gerepareerd. Originele onderdelen, 12 mnd. garantie, klaar terwijl u meekijkt. iPhone 9 scherm Den Bosch"
-    },
-    "extra": {
-      "wordpress": {
-        "pageId": "28127",
-        "pageTitle": "iPhone 9 Plus",
-        "modified": "2020-03-16 19:59:58"
-      }
-    }
-  },
-  {
     "id": "xiaomi-xiaomi-mi-note-10-pro",
     "slug": "xiaomi-mi-note-10-pro",
     "name": "Xiaomi Mi Note 10 (Pro)",
     "brandId": "xiaomi",
     "categoryId": "smartphone",
     "series": "Xiaomi Mi Note",
-    "order": 1013500,
+    "order": 1012600,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -31865,7 +31481,7 @@
     "brandId": "xiaomi",
     "categoryId": "smartphone",
     "series": "Xiaomi Mi",
-    "order": 1013600,
+    "order": 1012700,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -31906,7 +31522,7 @@
     "brandId": "google",
     "categoryId": "smartphone",
     "series": "Pixel",
-    "order": 1013900,
+    "order": 1013000,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -31949,7 +31565,7 @@
     "brandId": "oppo",
     "categoryId": "smartphone",
     "series": "OPPO Reno",
-    "order": 1014000,
+    "order": 1013100,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -31994,7 +31610,7 @@
     "brandId": "poco",
     "categoryId": "smartphone",
     "series": "Pocophone M",
-    "order": 1014200,
+    "order": 1013300,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -32036,7 +31652,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy M",
-    "order": 1014300,
+    "order": 1013400,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32079,7 +31695,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy M",
-    "order": 1014400,
+    "order": 1013500,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32121,7 +31737,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy F",
-    "order": 1014500,
+    "order": 1013600,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32162,7 +31778,7 @@
     "brandId": "xiaomi",
     "categoryId": "smartphone",
     "series": "Xiaomi Mi Max",
-    "order": 1015100,
+    "order": 1014200,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -32191,53 +31807,13 @@
     }
   },
   {
-    "id": "apple-iphone-4s",
-    "slug": "iphone-4s",
-    "name": "iPhone 4S",
-    "brandId": "apple",
-    "categoryId": "smartphone",
-    "series": "iPhone",
-    "order": 1015500,
-    "art": "phone-home-button",
-    "popular": false,
-    "aliases": [
-      "iPhone 4S (A1387)",
-      "A1387"
-    ],
-    "repairs": [
-      "scherm-vervangen",
-      "achterkant-vervangen",
-      "overige-reparaties",
-      "batterij-vervangen",
-      "oplaadpoort-repareren",
-      "camera-repareren",
-      "waterschade"
-    ],
-    "legacyUrls": [],
-    "sources": [
-      {
-        "url": "https://www.phonerepairs.nl/iphone-reparatie/iphone-4-serie/",
-        "verification": "verified-source",
-        "capturedAt": "2026-10-12",
-        "note": "WordPress export 2026-10-12; page last changed 2020-10-21."
-      }
-    ],
-    "extra": {
-      "wordpress": {
-        "pageId": "30793",
-        "pageTitle": "iPhone 4 serie",
-        "modified": "2020-10-21 21:44:11"
-      }
-    }
-  },
-  {
     "id": "samsung-galaxy-s30",
     "slug": "galaxy-s30",
     "name": "Galaxy S30",
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy S",
-    "order": 1015600,
+    "order": 1014400,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32282,7 +31858,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy S",
-    "order": 1015700,
+    "order": 1014500,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32327,7 +31903,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy S",
-    "order": 1015800,
+    "order": 1014600,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32372,7 +31948,7 @@
     "brandId": "huawei",
     "categoryId": "smartphone",
     "series": "Huawei P Smart S",
-    "order": 1015900,
+    "order": 1014700,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32417,7 +31993,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy A",
-    "order": 1016000,
+    "order": 1014800,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32462,7 +32038,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy M",
-    "order": 1016100,
+    "order": 1014900,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32505,7 +32081,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy Note",
-    "order": 1016200,
+    "order": 1015000,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32547,7 +32123,7 @@
     "brandId": "redmi",
     "categoryId": "smartphone",
     "series": "Redmi",
-    "order": 1016300,
+    "order": 1015100,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -32589,7 +32165,7 @@
     "brandId": "oppo",
     "categoryId": "smartphone",
     "series": "OPPO Reno",
-    "order": 1016500,
+    "order": 1015300,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32634,7 +32210,7 @@
     "brandId": "oppo",
     "categoryId": "smartphone",
     "series": "OPPO Reno",
-    "order": 1016600,
+    "order": 1015400,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32679,7 +32255,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy M",
-    "order": 1016800,
+    "order": 1015600,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32720,7 +32296,7 @@
     "brandId": "samsung",
     "categoryId": "smartphone",
     "series": "Galaxy M",
-    "order": 1017100,
+    "order": 1015900,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32763,7 +32339,7 @@
     "brandId": "oppo",
     "categoryId": "smartphone",
     "series": "OPPO Reno",
-    "order": 1017200,
+    "order": 1016000,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [
@@ -32808,7 +32384,7 @@
     "brandId": "apple",
     "categoryId": "tablet",
     "series": "iPad Pro",
-    "order": 1017300,
+    "order": 1016100,
     "releaseYear": 2022,
     "art": "tablet",
     "popular": false,
@@ -32846,7 +32422,7 @@
     "brandId": "realme",
     "categoryId": "smartphone",
     "series": "Realme GT Neo",
-    "order": 1017500,
+    "order": 1016300,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],
@@ -32888,7 +32464,7 @@
     "brandId": "poco",
     "categoryId": "smartphone",
     "series": "Poco F",
-    "order": 1017600,
+    "order": 1016400,
     "art": "phone-punch-hole",
     "popular": false,
     "aliases": [],

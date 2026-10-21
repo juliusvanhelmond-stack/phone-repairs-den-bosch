@@ -111,6 +111,9 @@ const REMOVED_MODELS = new Set([
     "iPad Air", "iPad Air 2", "iPad Air 2019 A2152", "iPad Air 2020",
     "iPad 7 2019 (10.2 inch)", "iPad 6 2018", "iPad 5 2017", "iPad 4", "iPad 3", "iPad 2",
     "iPad mini 2019", "iPad mini 4", "iPad mini 3", "iPad mini 2", "iPad mini 1",
+    // Mail 2026-10-21: iPhones before the iPhone 7, and the iPhone 9 / 9 Plus (they do not exist).
+    "iPhone 6 Plus", "iPhone 6S Plus", "iPhone 6", "iPhone 6S", "iPhone 5C", "iPhone 5S", "iPhone 5", "iPhone 4S",
+    "iPhone 9", "iPhone 9 Plus",
   ].map((name) => `apple:${name.toLowerCase()}`),
 ]);
 const removedPages = new Map<string, string>();
@@ -180,14 +183,22 @@ for (const page of pages) {
         Object.assign(price, { amount: 49 });
         raw = "€49,-";
       }
+      const repairId = repairForLabel(label);
       const links = r.links
         .map((l) => ({ text: l.text, href: resolveLink(l.href) }))
+        // The old pages link "origineel Apple Service pack" to the battery page on other rows too; outside the
+        // battery rows it explains calibration (mail 2026-10-21: charging port of the iPhone 16).
+        .map((l) =>
+          l.href === "/iphone-batterij-vervanging" && repairId !== "batterij-vervangen"
+            ? { ...l, href: "/iphone-onderdelen-kalibreren" }
+            : l,
+        )
         .filter((l): l is { text: string; href: string } => !!l.href && label.includes(l.text));
       rows.push({
         label,
         raw,
         ...price,
-        repairId: repairForLabel(label),
+        repairId,
         ...(r.popular ? { popular: true } : {}),
         ...(links.length ? { links } : {}),
       });
