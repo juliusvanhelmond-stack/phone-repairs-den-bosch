@@ -4,17 +4,11 @@
   "categoryId": "smartphone",
   "series": "Pixel 10",
   "order": 18500,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": null,
-  "popular": true,
+  "popular": false,
   "aliases": [
     "Google Pixel 10 Pro"
   ],
-  "seo": {
-    "title": "",
-    "description": "Google Pixel 10 Pro reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, P-OLED, front frame en vingerprint scanner vervangen (origineel Google service pack, zoals Google vereist)",
@@ -92,6 +86,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Google Pixel 10 Pro reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/google-pixel-reparatie/google-pixel-10-pro/"
   ],
