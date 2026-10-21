@@ -35,7 +35,7 @@
     },
     {
       "label": "Scherm vervangen origineel Apple service pack",
-      "price": "€550",
+      "price": "€550,-",
       "repairId": "scherm-vervangen",
       "popular": true,
       "links": [
@@ -47,7 +47,7 @@
     },
     {
       "label": "Batterij origineel Apple Service pack vervangen",
-      "price": "€160",
+      "price": "€160,-",
       "repairId": "batterij-vervangen",
       "popular": false,
       "links": [
