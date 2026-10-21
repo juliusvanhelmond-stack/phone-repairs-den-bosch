@@ -4,17 +4,11 @@
   "categoryId": "smartphone",
   "series": "Galaxy Z Flip",
   "order": 16000,
-  "releaseYear": "",
   "art": "phone-flip",
-  "photo": null,
-  "popular": false,
+  "popular": true,
   "aliases": [
     "Samsung Galaxy Z Flip 7"
   ],
-  "seo": {
-    "title": "Samsung Galaxy Z Flip 7 reparatie tegen scherpe prijzen",
-    "description": "Uw Samsung Galaxy Z Flip 7 heeft reparatie nodig? Wij bieden snelle service met originele onderdelen. Bel nu!"
-  },
   "prices": [
     {
       "label": "Scherm, OLED,frame / zijkanten en scharnier vervangen (origineel Samsung service pack, zoals Samsung vereist) vervangen",
@@ -120,6 +114,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung Galaxy Z Flip 7 reparatie tegen scherpe prijzen",
+    "description": "Uw Samsung Galaxy Z Flip 7 heeft reparatie nodig? Wij bieden snelle service met originele onderdelen. Bel nu!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-z-flip-7/"
   ],
