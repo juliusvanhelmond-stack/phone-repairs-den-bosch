@@ -11,10 +11,6 @@
   "aliases": [
     "Sony Xperia 5 IV"
   ],
-  "seo": {
-    "title": "Sony Xperia 5 IV reparatie: Originele Onderdelen",
-    "description": "Laat uw Sony Xperia 5 IV reparatie snel en professioneel uitvoeren. Bel vandaag nog voor een afspraak bij Phone Repairs Den Bosch."
-  },
   "prices": [
     {
       "label": "Scherm, OLED 4K en frame vervangen",
@@ -39,42 +35,42 @@
     },
     {
       "label": "Koptelefoon ingang vervangen",
-      "price": "op aanvraag",
+      "price": "€90,-",
       "repairId": "overige-reparaties",
       "popular": false,
       "links": []
     },
     {
       "label": "USB oplaadpunt vervangen",
-      "price": "op aanvraag",
+      "price": "€90,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "links": []
     },
     {
       "label": "Volume, aan/uit knoppen vervangen",
-      "price": "op aanvraag",
+      "price": "€90,-",
       "repairId": "overige-reparaties",
       "popular": false,
       "links": []
     },
     {
       "label": "Microfoon vervangen",
-      "price": "op aanvraag",
+      "price": "€90,-",
       "repairId": "overige-reparaties",
       "popular": false,
       "links": []
     },
     {
       "label": "Camera achterzijde vervangen",
-      "price": "op aanvraag",
+      "price": "€90,-",
       "repairId": "camera-repareren",
       "popular": false,
       "links": []
     },
     {
       "label": "Front camera vervangen",
-      "price": "op aanvraag",
+      "price": "€90,-",
       "repairId": "camera-repareren",
       "popular": false,
       "links": []
@@ -94,6 +90,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Sony Xperia 5 IV reparatie: Originele Onderdelen",
+    "description": "Laat uw Sony Xperia 5 IV reparatie snel en professioneel uitvoeren. Bel vandaag nog voor een afspraak bij Phone Repairs Den Bosch."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-5-iv/"
   ],
