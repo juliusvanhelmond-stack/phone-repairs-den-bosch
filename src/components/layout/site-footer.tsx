@@ -134,9 +134,8 @@ export async function SiteFooter() {
           <p>
             © {process.env.BUILD_YEAR} {site.name} | All rights reserved | All product names, logo&apos;s, photo&apos;s, and brands,
             etc. are property of their respective owners. All company names, logo&apos;s, photo&apos;s, and brands, etc. products and
-            names used in this website are for identification purposes only.
-          </p>
-          <p>
+            names used in this website are for identification purposes only.{" "}
+            {/* One running paragraph, no blank line in between (client request 2026-10-21). */}
             {t("Gebruik van onze website en/of onze (digitale) diensten betekent dat je onze ", "By using our website and/or our (digital) services you accept our ")}
             <a href={site.legal.terms} target="_blank" rel="noopener noreferrer" className="text-white underline underline-offset-4 hover:text-accent-light">
               {t("algemene voorwaarden", "terms and conditions")}

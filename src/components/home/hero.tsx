@@ -13,7 +13,7 @@ export async function Hero() {
   return (
     <section className="relative isolate -mt-16 overflow-hidden pt-16 lg:-mt-[4.5rem] lg:pt-[4.5rem]">
       <Aura variant="hero" />
-      <div className="container-page grid items-center gap-6 pt-10 pb-16 lg:grid-cols-[1.05fr_1fr] lg:gap-10 lg:pt-16 lg:pb-24">
+      <div className="container-page grid items-center gap-6 pt-10 pb-10 lg:grid-cols-[1.05fr_1fr] lg:gap-10 lg:pt-16 lg:pb-12">
         <div className="max-w-2xl animate-fade-up">
           {/* The page's H1 carries the keyword the current homepage ranks on (SEO audit HV Media). */}
           <div className="glass mb-6 inline-flex items-center gap-2 rounded-full py-1.5 pr-4 pl-1.5 text-ink-soft">
