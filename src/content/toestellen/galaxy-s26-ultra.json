@@ -6,16 +6,11 @@
   "order": 6400,
   "releaseYear": "2026",
   "art": "phone-punch-hole",
-  "photo": null,
-  "popular": true,
+  "popular": false,
   "aliases": [
     "Samsung S26 Ultra",
     "Samsung Galaxy S26 Ultra"
   ],
-  "seo": {
-    "title": "Samsung S26 Ultra reparatie met originele onderdelen",
-    "description": "Professionele Samsung S26 Ultra reparatie voor scherm en meer, snel en betrouwbaar met originele onderdelen."
-  },
   "prices": [
     {
       "label": "Scherm, Dynamic AMOLED, frame / zijkanten en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -149,6 +144,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung S26 Ultra reparatie met originele onderdelen",
+    "description": "Professionele Samsung S26 Ultra reparatie voor scherm en meer, snel en betrouwbaar met originele onderdelen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s26-ultra/"
   ],
