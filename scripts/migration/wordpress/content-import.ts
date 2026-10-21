@@ -25,6 +25,8 @@ const ownerWording = (text: string) =>
     .replace("aangetekend terug (kosten €11,-)", "aangetekend terug (kosten €12,-)")
     // "Ruim 20 jaar reparatie ervaring is de juiste tijd" (owner, e-mail 2026-10-16); some old pages say 15.
     .replace(/\bmeer dan 15 jaar ervaring\b/g, "ruim 20 jaar ervaring")
+    // Area pages: "binnen 30 minuten" instead of "(vaak) binnen 30 tot 60 minuten" (owner, e-mail 2026-10-21).
+    .replace(/\b(vaak |al )?binnen 30 tot 60 minuten\b/g, "binnen 30 minuten")
     .replace(/([A-Z][^."\\]{20,}\.) \1/g, "$1");
 const json = (v: unknown) => ownerWording(JSON.stringify(v, null, 2)) + "\n";
 

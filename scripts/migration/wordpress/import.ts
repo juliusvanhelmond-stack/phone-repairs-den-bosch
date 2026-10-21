@@ -173,12 +173,19 @@ for (const page of pages) {
         continue;
       }
       const label = stripDeviceName(r.label, names);
+      // Nintendo motherboard diagnosis is €49 (owner, e-mail 2026-10-21; the old price list says €59, the rate
+      // image on /moederbord-reparatie-den-bosch €49).
+      let raw = r.raw;
+      if (brandId === "nintendo" && /moederbord onderzoek/i.test(label) && raw.trim() === "€59,-") {
+        Object.assign(price, { amount: 49 });
+        raw = "€49,-";
+      }
       const links = r.links
         .map((l) => ({ text: l.text, href: resolveLink(l.href) }))
         .filter((l): l is { text: string; href: string } => !!l.href && label.includes(l.text));
       rows.push({
         label,
-        raw: r.raw,
+        raw,
         ...price,
         repairId: repairForLabel(label),
         ...(r.popular ? { popular: true } : {}),
