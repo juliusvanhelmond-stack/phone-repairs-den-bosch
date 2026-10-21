@@ -89,9 +89,11 @@ export default async function BrandPage({ params }: PageProps<"/[lang]/reparatie
             {s.series.map((series) => (
               <div key={series.name} className="mt-7">
                 {s.series.length > 1 && <h3 className="mb-3 text-sm font-medium tracking-wide text-muted uppercase">{series.name}</h3>}
-                <ul className="grid grid-cols-3 gap-px overflow-hidden rounded-2xl bg-line ring-1 ring-line sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8">
+                {/* Separate tiles, so an incomplete last row simply ends instead of leaving empty cells
+                    (client report 2026-10-19). */}
+                <ul className="grid grid-cols-3 gap-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8">
                   {series.devices.map((d) => (
-                    <li key={d.id}>
+                    <li key={d.id} className="overflow-hidden rounded-2xl ring-1 ring-line">
                       <DeviceTile device={d} />
                     </li>
                   ))}

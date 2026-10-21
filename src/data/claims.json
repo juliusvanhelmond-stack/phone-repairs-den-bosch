@@ -1,8 +1,8 @@
 [
   { "id": "dertig-minuten", "title": "Klaar binnen 30 minuten", "body": "De meeste reparaties zijn binnen ongeveer een half uur klaar. Je hoeft je toestel dus zelden achter te laten.", "icon": "timer",
     "sources": [{ "url": "https://www.phonerepairs.nl/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "'De reparaties zijn klaar in 30 minuten terwijl je meekijkt'" }] },
-  { "id": "meekijken", "title": "Je kijkt mee", "body": "Je kan gewoon meekijken hoe onze specialist jouw toestel professioneel herstelt.", "icon": "eye",
-    "sources": [{ "url": "https://www.phonerepairs.nl/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "'terwijl je meekijkt'" }] },
+  { "id": "meekijken", "title": "Kijk gerust mee", "body": "Je kan gewoon meekijken hoe onze specialist jouw toestel professioneel herstelt.", "icon": "eye",
+    "sources": [{ "url": "https://www.phonerepairs.nl/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "'terwijl je meekijkt'" }, { "url": "https://www.phonerepairs.nl/", "verification": "owner-confirmed", "capturedAt": "2026-10-19", "note": "Title 'Kijk gerust mee': Martijn Derks, e-mail 19 October 2026 ('Goedenavond')." }] },
   { "id": "originele-onderdelen", "title": "Originele service pack onderdelen", "body": "Phone Repairs werkt met originele onderdelen, zoals de originele service packs van Apple, Samsung, Google Pixel en meer.", "icon": "badge-check",
     "sources": [{ "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s23/", "verification": "search-index", "capturedAt": "2026-10-08", "note": "'uitsluitend de originele Samsung service packs'; site also states only original quality is used." }, { "url": "https://www.phonerepairs.nl/originele-onderdelen-phone-repairs/", "verification": "owner-confirmed", "capturedAt": "2026-10-16", "note": "Apple, Samsung and Pixel service packs: Martijn Derks, e-mail 16 October 2026 ('Nog meer')." }] },
   { "id": "gegevens-veilig", "title": "Je gegevens blijven van jou", "body": "Bij een reparatie blijven je foto's, apps en berichten gewoon op je toestel staan.", "icon": "shield-check",

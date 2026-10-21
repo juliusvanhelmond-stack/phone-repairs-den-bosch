@@ -1,0 +1,52 @@
+{
+  "path": "/iphone-batterij-vervanging",
+  "kind": "service",
+  "originalTitle": "Uitleg iPhone batterij vervanging",
+  "title": "Uitleg iPhone batterij vervanging",
+  "eyebrow": "iPhone batterij",
+  "intro": "Een iPhone batterij dient vervangen te worden als de gezondheid van de batterij 80% of lager is. Dit kan je zelf heel makkelijk controleren ga naar instellingen tik dan op 'Batterij' en tik vervolgens op 'Batterijconditie’.",
+  "seo": {
+    "title": "iPhone batterij vervanging met originele onderdelen",
+    "description": "Ontdek de mogelijkheden van iPhone batterij vervanging met originele onderdelen en verbeter je iPhone prestaties."
+  },
+  "sections": [
+    {
+      "heading": "iPhone batterij kalibreren",
+      "body": [
+        "De originele Apple Service Pack batterijen, worden direct vanuit Apple aan ons geleverd. Vanaf iOS 18 en de iPhone 12 en hoger, is het mogelijk na de batterij vervanging het onderdeel te kalibreren (de nieuwe batterij koppelen) aan je iPhone.",
+        "Als de batterij vervangen is dan verschijnt het gedeelte 'Onderdelen- en servicegeschiedenis' onder 'Instellingen' > 'Algemeen' > 'Info'. Als de batterij vervanging met originele Apple onderdelen en processen is uitgevoerd dan zie je 'Origineel' naast het onderdeel staan. Bij pulled batterijen staat er ‘Gebruikt’ Omdat deze batterij uit een andere iPhone is gehaald."
+      ],
+      "bullets": [],
+      "steps": []
+    },
+    {
+      "heading": "iPhone onderdelen- en servicegeschiedenis",
+      "body": [
+        "Als je iPhone is gerepareerd, verschijnt het gedeelte ‘Onderdelen- en servicegeschiedenis’ onder ‘Instellingen’ > ‘Algemeen’ > ‘Info’. Als de reparatie met originele Apple onderdelen en processen zijn uitgevoerd, zie je ‘Origineel’ naast het onderdeel staan. Bij pulled onderdelen staat er ‘Gebruikt’ omdat deze onderdelen uit een andere nieuwe iPhone komt. Wij zijn enorm blij met deze softwarematige veranderingen, omdat dit jou als klant de mogelijkheid geeft om de kwaliteit van ons werk te controleren. Zo weet je helemaal zeker dat je bij Phone Repairs Den Bosch aan het juiste adres bent!"
+      ],
+      "bullets": [],
+      "steps": []
+    },
+    {
+      "heading": "iPhone onderdelen kalibreren",
+      "body": [
+        "Vanaf iOS 18 en iPhone 12 en hoger, is het mogelijk na een scherm, batterij, camera en backcover reparaties het onderdeel te kalibreren (de nieuwe onderdelen koppelen) aan je iPhone. je toestel moet ge-update zijn naar de nieuwste iOS versie die beschikbaar is, anders kan kalibreren niet. Als een van bovenstaande onderdelen vervangen zijn dan ben je na reparatie in staat om te controleren, in de instellingen, dat het een origineel onderdeel betreft. Dit is een soort‘onderhoudsboekje’, zodat je inzicht krijgt welke onderdelen vervangen zijn en welke kwaliteit is gebruikt."
+      ],
+      "bullets": [],
+      "steps": []
+    }
+  ],
+  "unconfirmed": [],
+  "legacyUrls": [
+    "/iphone-batterij-vervanging/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/iphone-batterij-vervanging/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-10-09."
+    }
+  ],
+  "id": "iphone-batterij-vervanging"
+}

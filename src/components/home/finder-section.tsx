@@ -16,10 +16,11 @@ export async function FinderSection() {
         <Reveal>
           <SectionHeading
             eyebrow={t("Toestel zoeken", "Find your device")}
-            title={t("In vier stappen naar de juiste reparatie.", "The right repair in four steps.")}
+            // Five steps, like the progress bar (client report 2026-10-19).
+            title={t("In vijf stappen naar jouw reparatieprijs.", "Your repair price in five steps.")}
             intro={t(
-              "Kies je merk, model en reparatie. Daarna maak je meteen een afspraak.",
-              "Choose your brand, model and repair. Then book right away.",
+              "Kies je toestel, merk, model en reparatie en zie meteen de prijs. Daarna vraag je direct een afspraak aan.",
+              "Choose your device, brand, model and repair and see the price right away. Then request an appointment.",
             )}
             className="mb-10 lg:mb-12"
           />

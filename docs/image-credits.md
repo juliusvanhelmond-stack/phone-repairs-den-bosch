@@ -34,3 +34,9 @@ pages carried the caption "Afbeelding ter illustratie" until the client asked to
 | ipad-home.jpg | iPads with a home button | 117830271 |
 | galaxy-tab.jpg | Samsung Galaxy Tab | 177650219 |
 | macbook.jpg | MacBook Air and MacBook Pro | 287523136 |
+
+## Site icons
+
+`src/app/icon.png`, `apple-icon.png` and `favicon.ico` are the current site's own favicon (wrench and screwdriver,
+`/wp-content/uploads/2021/10/cropped-PR_favicon_RGB_MV2021040*.png` on www.phonerepairs.nl), downloaded unchanged
+at the client's request (e-mail 2026-10-19: "Logo in browser zoals op oude site").

@@ -304,6 +304,20 @@ export function DeviceFinder({
           >
             {step === "category" && (
               <div className="space-y-8">
+                {/* Direct model search first (client request 2026-10-19). */}
+                <div>
+                  <p className="mb-3 text-sm text-muted">{t("Zoek direct op modelnaam", "Search by model name")}</p>
+                  <ModelSearch
+                    devices={devices}
+                    brands={brands}
+                    onSelect={chooseDevice}
+                    placeholder={t("Bijvoorbeeld iPhone 15 Pro of Galaxy S23", "For example iPhone 15 Pro or Galaxy S23")}
+                    contact={contact}
+                    dropdown
+                  />
+                </div>
+                <div>
+                <p className="mb-3 text-sm text-muted">{t("Of kies je toestel", "Or choose your device")}</p>
                 <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
                   {categories.map((c) => {
                     return (
@@ -335,16 +349,6 @@ export function DeviceFinder({
                     );
                   })}
                 </div>
-                <div>
-                  <p className="mb-3 text-sm text-muted">{t("Of zoek direct op modelnaam", "Or search by model name")}</p>
-                  <ModelSearch
-                    devices={devices}
-                    brands={brands}
-                    onSelect={chooseDevice}
-                    placeholder={t("Bijvoorbeeld iPhone 15 Pro of Galaxy S23", "For example iPhone 15 Pro or Galaxy S23")}
-                    contact={contact}
-                    dropdown
-                  />
                 </div>
               </div>
             )}
@@ -493,9 +497,11 @@ function ModelSearch({
       label={t("Zoek je model", "Find your model")}
       loop
       filter={(value, search, keywords) => {
-        const haystack = normalizeSearch([value, ...(keywords ?? [])].join(" "));
-        const terms = normalizeSearch(search).split(" ").filter(Boolean);
-        return terms.every((term) => haystack.includes(term)) ? 1 : 0;
+        // Every term must start a word: "iPhone 16" must not match the model number A2161 of an iPhone 11
+        // (client report 2026-10-19). A term glued to letters ("16e", "s23") still matches by prefix.
+        const words = normalizeSearch([value, ...(keywords ?? [])].join(" ")).split(/[^a-z0-9]+/).filter(Boolean);
+        const terms = normalizeSearch(search).split(/[^a-z0-9]+/).filter(Boolean);
+        return terms.every((term) => words.some((w) => w.startsWith(term))) ? 1 : 0;
       }}
       className="relative"
     >
@@ -589,6 +595,28 @@ function ModelSearch({
   );
 }
 
+type PriceOption = { repairId: string; label: string; amount: number | null; status: string; popular: boolean };
+
+/** Price rows per device, fetched once from the prerendered /api/prijzen/[device]. */
+const priceCache = new Map<string, Promise<PriceOption[]>>();
+function loadPrices(deviceId: string): Promise<PriceOption[]> {
+  let p = priceCache.get(deviceId);
+  if (!p) {
+    p = fetch(`/api/prijzen/${encodeURIComponent(deviceId)}`).then((r) => {
+      if (!r.ok) throw new Error(String(r.status));
+      return r.json() as Promise<PriceOption[]>;
+    });
+    p.catch(() => priceCache.delete(deviceId));
+    priceCache.set(deviceId, p);
+  }
+  return p;
+}
+
+/**
+ * The finder's last step (client request 2026-10-19): every part option of the repair can be
+ * chosen, a summary shows device, repair, option and price, and that summary is the prefilled
+ * WhatsApp message. It is a request: the time is agreed afterwards, nothing is booked here.
+ */
 function FinderResult({
   device,
   repair,
@@ -601,21 +629,64 @@ function FinderResult({
   brandName?: string;
 }) {
   const { locale, t } = useI18n();
-  const price = device.prices[repair.id];
-  const options = device.options[repair.id] ?? 0;
+  const fromPrice = device.prices[repair.id];
+  const [rows, setRows] = useState<PriceOption[] | null>(null);
+  const [failed, setFailed] = useState(false);
+  const [chosen, setChosen] = useState<number | null>(null);
+
+  useEffect(() => {
+    let live = true;
+    loadPrices(device.id)
+      .then((all) => {
+        if (!live) return;
+        const own = all.filter((r) => r.repairId === repair.id);
+        setRows(own);
+        const popular = own.findIndex((r) => r.popular);
+        setChosen(own.length ? Math.max(popular, 0) : null);
+      })
+      .catch(() => live && setFailed(true));
+    return () => {
+      live = false;
+    };
+  }, [device.id, repair.id]);
+
+  const option = rows && chosen !== null ? rows[chosen] : undefined;
+  const priceLabel = (r: PriceOption) =>
+    r.amount !== null
+      ? formatEuro(r.amount, locale)
+      : r.status === "expected"
+        ? t("Binnenkort", "Coming soon")
+        : t("Op aanvraag", "On request");
+  const name = fullName(device, brandName);
   const appointmentHref = `/afspraak?toestel=${encodeURIComponent(device.id)}&reparatie=${encodeURIComponent(repair.id)}`;
   const devicePageHref = `/reparaties/${device.brandId}/${device.slug}`;
-  const whatsapp = whatsappLink(
-    contact,
-    t(
-      `Hoi Phone Repairs, ik wil graag een afspraak maken voor mijn ${fullName(device, brandName)}: ${repair.name.toLowerCase()}.`,
-      `Hi Phone Repairs, I'd like to book an appointment for my ${fullName(device, brandName)}: ${repair.name.toLowerCase()}.`,
-    ),
+  const message = t(
+    [
+      "Hoi Phone Repairs, ik wil graag een afspraak aanvragen.",
+      `Toestel: ${name}`,
+      `Reparatie: ${repair.name}`,
+      option && `Uitvoering: ${option.label}`,
+      option && `Prijs: ${priceLabel(option)}`,
+      "Wanneer kan ik langskomen?",
+    ]
+      .filter(Boolean)
+      .join("\n"),
+    [
+      "Hi Phone Repairs, I'd like to request an appointment.",
+      `Device: ${name}`,
+      `Repair: ${repair.name}`,
+      option && `Option: ${option.label}`,
+      option && `Price: ${priceLabel(option)}`,
+      "When can I come by?",
+    ]
+      .filter(Boolean)
+      .join("\n"),
   );
+  const whatsapp = whatsappLink(contact, message);
 
   return (
     <div className="grid gap-6 lg:grid-cols-[0.8fr_1.2fr]">
-      <div className="relative flex min-h-64 items-center justify-center tone-light overflow-hidden rounded-[var(--radius-card)] bg-white px-8 pt-14 pb-8 ring-1 ring-line">
+      <div className="relative flex min-h-64 items-center justify-center tone-light overflow-hidden rounded-[var(--radius-card)] bg-white px-8 pt-14 pb-8 ring-1 ring-line lg:self-start">
         <div className="relative h-52 w-full">
           <DevicePhoto
             device={device}
@@ -634,43 +705,89 @@ function FinderResult({
       </div>
 
       <div className="flex flex-col">
-        <div className="rounded-[var(--radius-card)] bg-surface p-6 ring-1 ring-line">
-          {price !== undefined ? (
-            <>
-              <p className="text-sm text-muted">
-                {options > 1
-                  ? t(
-                      `${options} opties, afhankelijk van het onderdeel · inclusief montage en btw`,
-                      `${options} options, depending on the part · including fitting and VAT`,
-                    )
-                  : t("Prijs inclusief montage en btw", "Price including fitting and VAT")}
+        {rows && rows.length > 1 && (
+          <fieldset>
+            <legend className="font-medium text-ink">{t("Kies de uitvoering", "Choose the part option")}</legend>
+            <p className="mt-1 text-sm text-muted">{t("Prijzen inclusief montage en btw.", "Prices include fitting and VAT.")}</p>
+            <div className="mt-3 grid gap-2">
+              {rows.map((r, i) => (
+                <label
+                  key={`${r.label}-${i}`}
+                  className={cn(
+                    "flex cursor-pointer items-start gap-3 rounded-2xl bg-surface p-4 ring-1 transition-colors has-[:focus-visible]:ring-2 has-[:focus-visible]:ring-accent",
+                    chosen === i ? "ring-2 ring-accent" : "ring-line hover:ring-line-strong",
+                  )}
+                >
+                  <input
+                    type="radio"
+                    name={`uitvoering-${device.id}-${repair.id}`}
+                    checked={chosen === i}
+                    onChange={() => setChosen(i)}
+                    className="mt-1 size-4 shrink-0 accent-[var(--color-accent)]"
+                  />
+                  <span className="flex-1 text-[0.9375rem] text-ink-soft" lang="nl">
+                    {r.label}
+                    {r.popular && (
+                      <span className="ml-2 inline-flex translate-y-[-1px] items-center rounded-md bg-accent px-2 py-0.5 align-middle text-xs font-semibold text-white">
+                        {t("Meest gekozen", "Most chosen")}
+                      </span>
+                    )}
+                  </span>
+                  <span className={r.amount !== null ? "shrink-0 font-semibold text-ink tabular-nums" : "shrink-0 text-sm text-muted"}>
+                    {priceLabel(r)}
+                  </span>
+                </label>
+              ))}
+            </div>
+          </fieldset>
+        )}
+        {!rows && !failed && (
+          <div className="space-y-2" aria-hidden>
+            <div className="h-5 w-40 animate-pulse rounded bg-mist" />
+            <div className="h-16 animate-pulse rounded-2xl bg-mist" />
+            <div className="h-16 animate-pulse rounded-2xl bg-mist" />
+          </div>
+        )}
+
+        {/* Summary: what goes into the WhatsApp message. */}
+        <div className={cn("rounded-[var(--radius-card)] bg-surface p-6 ring-1 ring-line", rows && rows.length > 1 && "mt-5")}>
+          <p className="text-sm font-medium text-muted">{t("Jouw aanvraag", "Your request")}</p>
+          <dl className="mt-3 grid grid-cols-[auto_1fr] gap-x-4 gap-y-1.5 text-[0.9375rem]">
+            <dt className="text-muted">{t("Toestel", "Device")}</dt>
+            <dd className="text-ink">{name}</dd>
+            <dt className="text-muted">{t("Reparatie", "Repair")}</dt>
+            <dd className="text-ink">{repair.name}</dd>
+            {option && (
+              <>
+                <dt className="text-muted">{t("Uitvoering", "Option")}</dt>
+                <dd className="text-ink" lang="nl">{option.label}</dd>
+              </>
+            )}
+          </dl>
+          <div className="mt-4 border-t border-line pt-4">
+            {option ? (
+              <p className="text-4xl font-semibold tracking-tight text-ink tabular-nums">{priceLabel(option)}</p>
+            ) : fromPrice !== undefined ? (
+              <p className="text-4xl font-semibold tracking-tight text-ink tabular-nums">
+                {(device.options[repair.id] ?? 0) > 1 && <span className="mr-2 text-xl font-medium text-muted">{t("vanaf", "from")}</span>}
+                {formatEuro(fromPrice, locale)}
               </p>
-              <p className="mt-1 text-5xl font-semibold tracking-tight text-ink tabular-nums">
-                {options > 1 && <span className="mr-2 text-2xl font-medium text-muted">{t("vanaf", "from")}</span>}
-                {formatEuro(price, locale)}
-              </p>
-            </>
-          ) : (
-            <>
-              <p className="text-sm text-muted">{t("Prijs", "Price")}</p>
-              <p className="mt-1 text-3xl font-semibold tracking-tight text-ink">{t("Op aanvraag", "On request")}</p>
+            ) : (
+              <p className="text-3xl font-semibold tracking-tight text-ink">{t("Op aanvraag", "On request")}</p>
+            )}
+            <p className="mt-1 text-sm text-muted">
+              {t("Inclusief montage en btw · klaar binnen 30 minuten", "Including fitting and VAT · ready within 30 minutes")}
+            </p>
+            {option?.amount === null || (!option && fromPrice === undefined) ? (
               <p className="mt-3 flex gap-2 text-sm leading-relaxed text-muted">
                 <Info className="mt-0.5 size-4 shrink-0" aria-hidden />
                 {t(
-                  "Voor deze reparatie geldt geen vaste prijs. De actuele prijs hoor je via WhatsApp, telefonisch of per e-mail.",
-                  "There is no fixed price for this repair. Ask us for the current price via WhatsApp, phone or e-mail.",
+                  "Voor deze uitvoering geldt geen vaste prijs. De actuele prijs hoor je via WhatsApp, telefonisch of per e-mail.",
+                  "There is no fixed price for this option. Ask us for the current price via WhatsApp, phone or e-mail.",
                 )}
               </p>
-            </>
-          )}
-          <ul className="mt-6 grid gap-3 border-t border-line pt-5 text-sm text-ink-soft sm:grid-cols-2">
-            <li className="flex items-center gap-2">
-              <Timer className="size-4 text-accent" aria-hidden /> {t("Klaar binnen 30 minuten", "Ready within 30 minutes")}
-            </li>
-            <li className="flex items-center gap-2">
-              <Check className="size-4 text-accent" aria-hidden /> {t("Originele onderdelen", "Original parts")}
-            </li>
-          </ul>
+            ) : null}
+          </div>
         </div>
 
         {repair.advice.length > 0 && (
@@ -684,18 +801,35 @@ function FinderResult({
           </div>
         )}
 
-        <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+        {/* Above the buttons and larger (client request 2026-10-18). */}
+        <Link
+          href={devicePageHref}
+          className="mt-5 inline-flex items-center gap-1 self-start text-base font-medium text-accent-strong underline decoration-accent/40 underline-offset-4 hover:text-accent"
+        >
+          {t("Bekijk alle reparaties en prijzen voor de", "See all repairs and prices for the")} {device.name}
+          <ChevronRight className="size-4" aria-hidden />
+        </Link>
+
+        <p className="mt-5 flex gap-2 text-sm leading-relaxed text-ink-soft">
+          <Timer className="mt-0.5 size-4 shrink-0 text-accent" aria-hidden />
+          {t(
+            "Dit is een aanvraag: je bericht staat klaar met je keuze. We spreken samen een tijdstip af; je afspraak staat pas vast als wij die bevestigen.",
+            "This is a request: your message is ready with your choice. We agree on a time together; your appointment is only fixed once we confirm it.",
+          )}
+        </p>
+
+        <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
           {whatsapp ? (
             <Button asChild size="lg">
               <a href={whatsapp} target="_blank" rel="noopener noreferrer">
                 <MessageCircle aria-hidden />
-                {t("Afspraak via WhatsApp", "Book via WhatsApp")}
+                {t("Afspraak aanvragen via WhatsApp", "Request via WhatsApp")}
               </a>
             </Button>
           ) : (
             <Button asChild size="lg">
               <Link href={appointmentHref}>
-                {t("Maak een afspraak", "Book an appointment")}
+                {t("Afspraak aanvragen", "Request an appointment")}
                 <ArrowRight aria-hidden />
               </Link>
             </Button>
@@ -708,24 +842,11 @@ function FinderResult({
           </Button>
         </div>
         <p className="mt-3 text-sm text-muted">
-          {t(
-            "Je bericht staat al klaar, je hoeft het alleen nog te versturen. Liever mailen?",
-            "Your message is ready, you only need to send it. Prefer e-mail?",
-          )}{" "}
+          {t("Liever mailen?", "Prefer e-mail?")}{" "}
           <a href={`mailto:${contact.email}`} className="font-medium text-accent-strong hover:underline">
             {contact.email}
           </a>
         </p>
-        <Link
-          href={devicePageHref}
-          className="mt-5 inline-flex items-center gap-1 self-start text-sm font-medium text-accent-strong hover:text-accent"
-        >
-          {options > 1
-            ? t(`Bekijk alle ${options} opties en prijzen voor de`, `See all ${options} options and prices for the`)
-            : t("Alle reparaties en prijzen voor de", "All repairs and prices for the")}{" "}
-          {device.name}
-          <ChevronRight className="size-4" aria-hidden />
-        </Link>
       </div>
     </div>
   );

@@ -253,7 +253,7 @@
       "body": "Most repairs are done in about half an hour, so you rarely have to leave your device behind."
     },
     "meekijken": {
-      "title": "You watch the repair",
+      "title": "Feel free to watch",
       "body": "You can simply watch how our specialist professionally repairs your device."
     },
     "originele-onderdelen": {
@@ -1808,6 +1808,46 @@
         "description": "IPhone broken? From Brabant, have your iPhone repaired at Phone Repairs in Den Bosch. By appointment, ready within 30 minutes."
       },
       "sections": [],
+      "unconfirmed": []
+    },
+    "iphone-batterij-vervanging": {
+      "title": "iPhone battery replacement explained",
+      "eyebrow": "iPhone battery",
+      "intro": "An iPhone battery should be replaced when the battery health is 80% or lower. You can easily check this yourself: go to Settings, tap 'Battery' and then 'Battery Health'.",
+      "seo": {
+        "title": "iPhone battery replacement with original parts",
+        "description": "What iPhone battery replacement with original parts involves and how it improves your iPhone's performance."
+      },
+      "sections": [
+        {
+          "heading": "Calibrating the iPhone battery",
+          "intro": [],
+          "body": [
+            "Original Apple Service Pack batteries are supplied to us directly by Apple. From iOS 18 on the iPhone 12 and newer, the new battery can be calibrated (paired) with your iPhone after the replacement.",
+            "Once the battery has been replaced, 'Parts and Service History' appears under 'Settings' > 'General' > 'About'. If the replacement was done with original Apple parts and processes, 'Genuine' is shown next to the part. For pulled batteries it says 'Used', because the battery was taken from another iPhone."
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "iPhone parts and service history",
+          "intro": [],
+          "body": [
+            "When your iPhone has been repaired, 'Parts and Service History' appears under 'Settings' > 'General' > 'About'. If the repair was done with original Apple parts and processes, 'Genuine' is shown next to the part. For pulled parts it says 'Used', because these parts come from another new iPhone. We are very happy with these software changes, because they let you check the quality of our work yourself. That way you know for sure you are in the right place at Phone Repairs Den Bosch!"
+          ],
+          "bullets": [],
+          "steps": []
+        },
+        {
+          "heading": "Calibrating iPhone parts",
+          "intro": [],
+          "body": [
+            "From iOS 18 on the iPhone 12 and newer, a replaced screen, battery, camera or back cover can be calibrated (paired) with your iPhone after the repair. Your device must be updated to the latest available iOS version, otherwise calibration is not possible. After the repair you can then check in the settings that an original part was used. It works like a kind of service log, showing which parts were replaced and which quality was used."
+          ],
+          "bullets": [],
+          "steps": []
+        }
+      ],
       "unconfirmed": []
     }
   },

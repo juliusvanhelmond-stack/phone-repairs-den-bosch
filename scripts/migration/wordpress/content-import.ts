@@ -145,6 +145,8 @@ export const INFO_PAGES: InfoPageDef[] = [
   // Only the first section is about the OLED screens; the rest is a general SEO block.
   { path: "/iphone-premium-oled-scherm", eyebrow: "iPhone schermen", drop: /^(kiezen|esd|phone repairs iphone|voorraad|klantgericht|gratis batterijcheck|maak snel)/i },
   { path: "/iphone-onderdelen-kalibreren", eyebrow: "iPhone onderdelen" },
+  // Linked from the battery rows of every iPhone (mail 2026-10-19), so it keeps its own URL again.
+  { path: "/iphone-batterij-vervanging", eyebrow: "iPhone batterij" },
   { path: "/verzekering", eyebrow: "Verzekering" },
   { path: "/duurzaamheid-en-telefoonreparatie", eyebrow: "Duurzaamheid", keepBoilerplate: true },
   { path: "/klantenservice-phone-repairs", eyebrow: "Klantenservice" },

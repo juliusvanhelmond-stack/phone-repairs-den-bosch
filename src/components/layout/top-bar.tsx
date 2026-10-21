@@ -2,6 +2,7 @@ import { Link } from "@/components/i18n/link";
 import { Clock } from "lucide-react";
 import { KiyohCompact } from "@/components/contact/kiyoh";
 import { OpeningToday } from "@/components/contact/opening-hours";
+import { LanguageSwitch } from "@/components/i18n/language-switch";
 import { ThemeToggle } from "@/components/theme/theme-toggle";
 import { TrustindexBadge } from "@/components/contact/trustindex-badge";
 import { getI18n } from "@/lib/i18n-server";
@@ -27,6 +28,8 @@ export async function TopBar() {
           <OpeningToday />
         </Link>
         <div className="flex items-center gap-3">
+          {/* Language left of the theme switch (client request, 2026-10-19). */}
+          <LanguageSwitch />
           <ThemeToggle />
           {site.reviews?.trustindexId && (
             // Fixed box: the widget loads later and must not push the header down (layout shift).

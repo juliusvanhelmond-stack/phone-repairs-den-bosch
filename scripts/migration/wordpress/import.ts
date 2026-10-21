@@ -99,8 +99,20 @@ const candidates = new Map<string, Candidate>();
 const seriesPages = new Set<string>();
 let fallbackOrder = 10_000;
 
-/** Models the owner asked to drop (mail 2026-10-14: "iPhone Ultra bestaat (nog) niet"); their pages 301 to the brand. */
-const REMOVED_MODELS = new Set(["apple:iphone ultra"]);
+/**
+ * Models the owner asked to drop; their pages 301 to the brand. Mail 2026-10-14: "iPhone Ultra bestaat (nog)
+ * niet". Mail 2026-10-19: iPad Pro, Air and mini from before 2021 and iPads from before 2020.
+ */
+const REMOVED_MODELS = new Set([
+  "apple:iphone ultra",
+  ...[
+    "iPad Pro 12,9 inch 2018", "iPad Pro 11 inch 2018", "iPad Pro 12.9 inch 2017", "iPad Pro 10.5 inch",
+    "iPad Pro 12.9 inch", "iPad Pro 9.7 inch",
+    "iPad Air", "iPad Air 2", "iPad Air 2019 A2152", "iPad Air 2020",
+    "iPad 7 2019 (10.2 inch)", "iPad 6 2018", "iPad 5 2017", "iPad 4", "iPad 3", "iPad 2",
+    "iPad mini 2019", "iPad mini 4", "iPad mini 3", "iPad mini 2", "iPad mini 1",
+  ].map((name) => `apple:${name.toLowerCase()}`),
+]);
 const removedPages = new Map<string, string>();
 
 /** Summary pages repeating models from their detail pages, with other (older) prices. */
@@ -178,7 +190,8 @@ for (const page of pages) {
       brandId,
       categoryId,
       name,
-      series: displayName(fact?.series ?? "", brandId) || seriesFromName(name),
+      // All Nintendo models in one list, in menu order (mail 2026-10-19): Switch 2, OLED, Switch, Lite.
+      series: brandId === "nintendo" ? "Nintendo Switch" : displayName(fact?.series ?? "", brandId) || seriesFromName(name),
       aliases: new Set([unit.heading, ...(unit.extra ? [unit.extra] : []), ...unit.codes].map((a) => a.replace(/\s+/g, " ").trim())),
       order: (fact?.order ?? fallbackOrder++) * 100 + index,
       dedicated: single,
@@ -364,7 +377,7 @@ for (const def of INFO_PAGES) {
 const landingPages = readEntries<{ path: string; kind: string; place?: string }>(ROOT, PAGES_DIR);
 const livePaths = new Set(landingPages.map((p) => p.path));
 const MAPPED: [RegExp, string][] = [
-  [/^\/(iphone|telefoon)-batterij-vervang(en|ing)(-den-bosch)?$/, "/reparatie/batterij-vervangen"],
+  [/^\/(iphone-batterij-vervangen|telefoon-batterij-vervang(en|ing))(-den-bosch)?$|^\/iphone-batterij-vervanging-den-bosch$/, "/reparatie/batterij-vervangen"],
   [/^\/telefoon-scherm-reparatie-den-bosch$/, "/reparatie/scherm-vervangen"],
   [/^\/oplaadpoort-reparatie-den-bosch$/, "/reparatie/oplaadpoort-repareren"],
   [/^\/iphone-compatibel-oled-schermen$/, "/iphone-premium-oled-scherm"],

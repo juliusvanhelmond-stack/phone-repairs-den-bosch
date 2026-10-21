@@ -254,7 +254,7 @@ async function main() {
   await check("english: device finder and WhatsApp prefill in English", async () => {
     await page.goto(BASE + "/en?model=apple-iphone-15-pro&reparatie=scherm-vervangen#toestel-zoeken");
     await page.getByRole("heading", { name: "Screen replacement for your iPhone 15 Pro" }).waitFor();
-    const href = await page.getByRole("link", { name: "Book via WhatsApp" }).getAttribute("href");
+    const href = await page.getByRole("link", { name: "Request via WhatsApp" }).getAttribute("href");
     assert(waText(href).startsWith("Hi Phone Repairs"), `prefill: ${waText(href)}`);
   });
 
@@ -269,11 +269,21 @@ async function main() {
     assert((await finder.getByRole("option").count()) === 1, "search did not narrow to one model");
     await option.click();
     await finder.getByRole("button", { name: /Batterij vervangen/ }).click();
-    await finder.getByText(/inclusief montage en btw/).waitFor();
-    assert(/€\s?\d+/.test((await finder.locator("p.text-5xl").textContent()) ?? ""), "no published price shown");
+    // Part options from the price list (client request 2026-10-19): choose one, the summary and message follow.
+    const options = finder.getByRole("group", { name: "Kies de uitvoering" }).getByRole("radio");
+    await options.first().waitFor();
+    assert((await options.count()) > 1, "no part options to choose from");
+    const last = options.last();
+    await last.check();
+    const label = (await last.locator("xpath=..").locator("span").first().textContent())?.replace(/Meest gekozen$/, "").trim() ?? "";
+    assert(/€\s?\d+|Op aanvraag/.test((await finder.locator("p.text-4xl").textContent()) ?? ""), "no price for the chosen option");
     assert(page.url().includes("model=apple-iphone-15-pro-max"), `url not synced: ${page.url()}`);
-    const href = await finder.getByRole("link", { name: /Afspraak via WhatsApp/ }).getAttribute("href");
-    assert(href?.startsWith(`${WA}?text=`) && waText(href).includes("iPhone 15 Pro Max: batterij vervangen"), `cta ${href}`);
+    const href = await finder.getByRole("link", { name: /Afspraak aanvragen via WhatsApp/ }).getAttribute("href");
+    const text = waText(href);
+    assert(href?.startsWith(`${WA}?text=`), `cta ${href}`);
+    assert(text.includes("Toestel: iPhone 15 Pro Max") && text.includes("Reparatie: Batterij vervangen"), `message: ${text}`);
+    assert(text.includes(`Uitvoering: ${label}`) && text.includes("Prijs: "), `option missing in message: ${text}`);
+    await finder.getByText(/Dit is een aanvraag/).waitFor();
   });
 
   await check("device finder: back navigation and breadcrumbs", async () => {
@@ -302,6 +312,11 @@ async function main() {
     await page.keyboard.press("Enter");
     await page.locator("#toestel-zoeken").getByRole("heading", { name: /Wat is er mis met je Galaxy S23 Ultra/ }).waitFor();
     await page.goto(BASE + "/#toestel-zoeken");
+    // Terms match from the start of a word: no iPhone 11 or 7 for "iPhone 16" (client report 2026-10-19).
+    await page.getByPlaceholder("Bijvoorbeeld iPhone 15 Pro of Galaxy S23").fill("iPhone 16");
+    await page.getByRole("option", { name: /iPhone 16 Plus/ }).waitFor();
+    const names = await page.locator("#toestel-zoeken").getByRole("option").allTextContents();
+    assert(names.every((n) => /iPhone 16/.test(n)), `unrelated models for "iPhone 16": ${names.join(", ")}`);
     await page.getByPlaceholder("Bijvoorbeeld iPhone 15 Pro of Galaxy S23").fill("nokia 3310");
     await page.getByText(/Geen model gevonden/).waitFor();
   });

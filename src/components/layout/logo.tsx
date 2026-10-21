@@ -43,11 +43,21 @@ export function Logo({
   className?: string;
   onClick?: () => void;
 }) {
-  const { t } = useI18n();
+  const { locale, t } = useI18n();
+  // On the homepage itself a link to "/" changes nothing visible (client report 2026-10-18): start over at the
+  // top, with a fresh device finder when it holds a selection in the URL.
+  const home = locale === "en" ? "/en" : "/";
+  const onHomeClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    onClick?.();
+    if (window.location.pathname !== home || e.metaKey || e.ctrlKey || e.shiftKey) return;
+    e.preventDefault();
+    if (window.location.search) window.location.assign(home);
+    else window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <Link
       href="/"
-      onClick={onClick}
+      onClick={onHomeClick}
       className={cn(
         "group inline-flex shrink-0 items-center gap-2.5 rounded-lg",
         className,

@@ -77,7 +77,6 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
         </NavigationMenu.Root>
 
         <div className="flex items-center gap-2">
-          <LanguageSwitch className="hidden sm:inline-flex" />
           <a
             href={phone.href}
             className="hidden h-10 items-center gap-2 rounded-full px-3 text-[0.9375rem] whitespace-nowrap text-ink-soft transition-colors hover:text-accent-strong xl:flex"

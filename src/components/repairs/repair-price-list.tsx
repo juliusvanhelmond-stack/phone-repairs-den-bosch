@@ -32,6 +32,11 @@ export async function RepairPriceList({ device, repairs }: { device: DeviceModel
       {groups.map(({ repair: r, rows }) => {
         const from = fromPrice(device.id, r.id);
         const wa = whatsappHref(whatsappMessage({ device: name, repair: r.name, locale }));
+        // iPhone battery rows explain the battery replacement on its own page (mail 2026-10-19).
+        const explainer =
+          r.id === "batterij-vervangen" && device.brandId === "apple" && device.categoryId === "smartphone"
+            ? { href: "/iphone-batterij-vervanging", label: t("Uitleg over iPhone batterij vervanging", "About iPhone battery replacement") }
+            : null;
         return (
           <section
             key={r.id}
@@ -45,7 +50,7 @@ export async function RepairPriceList({ device, repairs }: { device: DeviceModel
                 </span>
                 <div>
                   <h3 id={`prijs-${r.id}`} className="font-medium text-ink">
-                    <Link href={repairPath(r.slug)} className="hover:text-accent">
+                    <Link href={explainer?.href ?? repairPath(r.slug)} className="hover:text-accent">
                       {r.name}
                     </Link>
                   </h3>
@@ -55,6 +60,11 @@ export async function RepairPriceList({ device, repairs }: { device: DeviceModel
                       : t("prijs op aanvraag", "price on request")}
                     {rows.length > 1 && ` · ${t(`${rows.length} opties`, `${rows.length} options`)}`}
                   </p>
+                  {explainer && (
+                    <Link href={explainer.href} className="mt-1 inline-block text-sm font-medium text-accent-strong underline decoration-accent/40 underline-offset-4 hover:text-accent">
+                      {explainer.label}
+                    </Link>
+                  )}
                 </div>
               </div>
               <a

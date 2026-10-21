@@ -19,6 +19,35 @@
       "steps": []
     },
     {
+      "heading": "Tarieven moederbord onderzoek",
+      "intro": [
+        "Inclusief btw en montage."
+      ],
+      "body": [
+        "We onderzoeken je toestel eerst om de oorzaak van het probleem vast te stellen. Vervolgens bespreken we de reparatiemogelijkheden en de geschatte kosten met je. Besluit je niet tot reparatie over te gaan? Dan betaal je alleen de moederbordonderzoekskosten."
+      ],
+      "bullets": [],
+      "steps": [],
+      "prices": [
+        {
+          "label": "Telefoons – moederbord diagnose",
+          "price": "€49,-"
+        },
+        {
+          "label": "Tablets – moederbord diagnose",
+          "price": "€59,-"
+        },
+        {
+          "label": "MacBook – moederbord diagnose",
+          "price": "€69,-"
+        },
+        {
+          "label": "Nintendo Switch – moederbord diagnose",
+          "price": "€49,-"
+        }
+      ]
+    },
+    {
       "heading": "Reparatie risico's",
       "body": [
         "Elektronische reparaties zijn onvoorspelbaar. Uw apparaat is mogelijk niet meer te repareren of kan tijdens de reparatie permanent worden beschadigd en onbruikbaar worden. Componenten van printplaten verslechteren na verloop van tijd en kunnen zonder waarschuwing defect raken, vooral bij apparaten met vloeistofschade waar componenten na verloop van tijd kunnen kortsluiten, oxideren, corroderen en roesten.",
@@ -40,6 +69,12 @@
       "verification": "verified-source",
       "capturedAt": "2026-10-12",
       "note": "WordPress export 2026-10-12; page last changed 2026-10-08."
+    },
+    {
+      "url": "https://www.phonerepairs.nl/moederbord-reparatie-den-bosch/",
+      "capturedAt": "2026-10-16",
+      "note": "Motherboard diagnosis rates and the 'Eerst onderzoek en overleg' text transcribed from the images on this page at the owner's request (e-mail 16 October 2026).",
+      "verification": "owner-confirmed"
     }
   ],
   "id": "moederbord-reparatie-den-bosch"

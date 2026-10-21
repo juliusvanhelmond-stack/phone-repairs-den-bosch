@@ -73,8 +73,8 @@ const factsFor = (t: Translate) => [
   },
   {
     icon: Eye,
-    title: t("Je kijkt mee", "You watch the repair"),
-    body: t("Je ziet zelf hoe je toestel wordt gerepareerd.", "You see for yourself how your device is repaired."),
+    title: t("Kijk gerust mee", "Feel free to watch"),
+    body: t("Ik leg uit wat ik doe.", "I explain what I'm doing."),
   },
   {
     icon: BadgeCheck,
@@ -146,7 +146,7 @@ export default async function DevicePage({ params }: PageProps<"/[lang]/reparati
       <section className="py-16 lg:py-24">
         <div className="container-page grid gap-12 lg:grid-cols-[1.4fr_0.6fr]">
           <div>
-            <h2 className="text-title font-semibold text-ink">{t("Reparaties en prijzen", "Repairs and prices")}</h2>
+            <h2 className="text-title font-semibold text-ink">{t(`Reparaties en prijzen ${fullName}`, `Repairs and prices ${fullName}`)}</h2>
             <p className="mt-2 text-muted">{t("Alle prijzen zijn inclusief montage en 21% btw.", "All prices include fitting and 21% VAT.")}</p>
             {locale === "en" && (
               <p className="mt-2 text-sm text-muted">The repair descriptions below are shown as on our Dutch price list.</p>
