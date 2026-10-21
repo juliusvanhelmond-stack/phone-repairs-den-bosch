@@ -6,13 +6,8 @@
   "order": 1900,
   "releaseYear": "2024",
   "art": "phone-island",
-  "photo": null,
-  "popular": true,
+  "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "iPhone 16 Pro reparatie originele onderdelen",
-    "description": "Snel en professioneel uw iPhone 16 Pro reparatie. Ontvang 12 maanden garantie op originele onderdelen en service."
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
@@ -227,6 +222,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone 16 Pro reparatie originele onderdelen",
+    "description": "Snel en professioneel uw iPhone 16 Pro reparatie. Ontvang 12 maanden garantie op originele onderdelen en service."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-16-pro/"
   ],
