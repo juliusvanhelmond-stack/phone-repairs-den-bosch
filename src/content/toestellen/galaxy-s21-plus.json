@@ -6,17 +6,13 @@
   "order": 8500,
   "releaseYear": "2021",
   "art": "phone-punch-hole",
-  "photo": null,
+  "photo": "/images/toestellen/galaxy-s21-plus/photo.jpeg",
   "popular": false,
   "aliases": [
     "Samsung S21 Plus",
     "Samsung Galaxy S21 Plus (SM-G996U)",
     "SM-G996U"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm, Dynamic AMOLED, frame / zijkanten en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -136,6 +132,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s21-plus-reparatie-den-bosch/"
   ],
