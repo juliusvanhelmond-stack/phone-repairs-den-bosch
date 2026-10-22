@@ -4,19 +4,14 @@
   "categoryId": "smartphone",
   "series": "Galaxy Z Flip",
   "order": 16300,
-  "releaseYear": "",
   "art": "phone-flip",
-  "photo": null,
+  "photo": "/images/toestellen/galaxy-z-flip-5/photo.jpeg",
   "popular": false,
   "aliases": [
     "Samsung Galaxy Z Flip 5",
     "Samsung Galaxy Z Flip 5 (SM-F731B)",
     "SM-F731B"
   ],
-  "seo": {
-    "title": "Samsung Galaxy Z Flip 5 reparatie: Snelle Service",
-    "description": "Laat uw Samsung Galaxy Z Flip 5 reparatie snel en professioneel uitvoeren met originele service packs. Maak vandaag nog een afspraak!"
-  },
   "prices": [
     {
       "label": "Scherm, OLED,frame / zijkanten en scharnier vervangen (origineel Samsung service pack, zoals Samsung vereist) vervangen",
@@ -122,6 +117,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung Galaxy Z Flip 5 reparatie: Snelle Service",
+    "description": "Laat uw Samsung Galaxy Z Flip 5 reparatie snel en professioneel uitvoeren met originele service packs. Maak vandaag nog een afspraak!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-z-flip-5/"
   ],
