@@ -5,7 +5,8 @@
   "series": "Galaxy Z Flip",
   "order": 16000,
   "art": "phone-flip",
-  "popular": true,
+  "photo": "/images/toestellen/galaxy-z-flip-7/photo.jpeg",
+  "popular": false,
   "aliases": [
     "Samsung Galaxy Z Flip 7"
   ],
