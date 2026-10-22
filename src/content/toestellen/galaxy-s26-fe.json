@@ -4,18 +4,13 @@
   "categoryId": "smartphone",
   "series": "Galaxy S",
   "order": 6700,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": null,
+  "photo": "/images/toestellen/galaxy-s26-fe/photo.jpeg",
   "popular": false,
   "aliases": [
     "Samsung S26 FE",
     "Samsung Galaxy S26 FE"
   ],
-  "seo": {
-    "title": "Samsung S26 FE reparatie door professionele experts",
-    "description": "Laat uw Samsung S26 FE reparatie snel en professioneel uitvoeren. Originele service packs voor scherm en meer!"
-  },
   "prices": [
     {
       "label": "Scherm, Dynamic AMOLED, frame / zijkanten en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -114,6 +109,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung S26 FE reparatie door professionele experts",
+    "description": "Laat uw Samsung S26 FE reparatie snel en professioneel uitvoeren. Originele service packs voor scherm en meer!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s26-fe/"
   ],
