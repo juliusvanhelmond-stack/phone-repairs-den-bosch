@@ -6,17 +6,13 @@
   "order": 8300,
   "releaseYear": "2022",
   "art": "phone-punch-hole",
-  "photo": null,
+  "photo": "/images/toestellen/galaxy-s22/photo.jpeg",
   "popular": true,
   "aliases": [
     "Samsung S22",
     "Samsung Galaxy S22 (SM-S901)",
     "SM-S901"
   ],
-  "seo": {
-    "title": "Samsung S22 reparatie: Professionele Service Hier",
-    "description": "Laat uw Samsung S22 reparatie snel en professioneel uitvoeren bij Phone Repairs Den Bosch met originele onderdelen."
-  },
   "prices": [
     {
       "label": "Scherm, Dynamic AMOLED, frame / zijkanten en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -129,6 +125,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung S22 reparatie: Professionele Service Hier",
+    "description": "Laat uw Samsung S22 reparatie snel en professioneel uitvoeren bij Phone Repairs Den Bosch met originele onderdelen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s22/"
   ],
