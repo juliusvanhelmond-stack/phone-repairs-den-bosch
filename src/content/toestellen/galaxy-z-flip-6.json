@@ -4,18 +4,13 @@
   "categoryId": "smartphone",
   "series": "Galaxy Z Flip",
   "order": 16200,
-  "releaseYear": "",
   "art": "phone-flip",
-  "photo": null,
+  "photo": "/images/toestellen/galaxy-z-flip-6/photo.jpeg",
   "popular": false,
   "aliases": [
     "Samsung Galaxy Z Flip 6",
     "Samsung Galaxy Z Flip 6 SM-F741"
   ],
-  "seo": {
-    "title": "Samsung Galaxy Z Flip 6 reparatie bij Phone Repairs",
-    "description": "Ontdek professionele Samsung Galaxy Z Flip 6 reparatie. Wij herstellen schermen en andere defecten snel en vakkundig."
-  },
   "prices": [
     {
       "label": "Scherm, OLED,frame / zijkanten en scharnier vervangen (origineel Samsung service pack, zoals Samsung vereist) vervangen",
@@ -121,6 +116,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung Galaxy Z Flip 6 reparatie bij Phone Repairs",
+    "description": "Ontdek professionele Samsung Galaxy Z Flip 6 reparatie. Wij herstellen schermen en andere defecten snel en vakkundig."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-z-flip-6/"
   ],
