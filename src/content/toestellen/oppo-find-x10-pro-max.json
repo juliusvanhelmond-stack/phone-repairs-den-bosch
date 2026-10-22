@@ -1,0 +1,45 @@
+{
+  "name": "Oppo Find X10 Pro Max",
+  "brandId": "apple",
+  "categoryId": "smartphone",
+  "series": "OPPO Find X",
+  "order": 100,
+  "art": "phone-island",
+  "photo": "/images/toestellen/oppo-find-x10-pro-max/photo.jpg",
+  "popular": false,
+  "aliases": [],
+  "prices": [
+    {
+      "label": "Scherm unit vervangen (origineel OPPO service pack, zoals OPPO vereist)",
+      "price": "Op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant excl. camera lenzen vervangen",
+      "price": "Op aanvraag",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij origineel vervangen",
+      "price": "Op aanvraag",
+      "repairId": "auto",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "oplaadconnector vervangen",
+      "price": "Op aanvraag",
+      "repairId": "auto",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "seo": {
+    "title": "Oppo Find X10 Pro Max reparatie bij Phone Repairs",
+    "description": "Heb je schade aan je Oppo Find X10 Pro Max? Ontdek hier hoe je snel en professioneel je Oppo Find X10 Pro Max reparatie doet."
+  }
+}
