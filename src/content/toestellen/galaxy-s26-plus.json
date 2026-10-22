@@ -6,16 +6,12 @@
   "order": 6500,
   "releaseYear": "2026",
   "art": "phone-punch-hole",
-  "photo": null,
+  "photo": "/images/toestellen/galaxy-s26-plus/photo.jpeg",
   "popular": false,
   "aliases": [
     "Samsung S26 Plus",
     "Samsung Galaxy S26 Plus"
   ],
-  "seo": {
-    "title": "Samsung S26 Plus reparatie met originele onderdelen",
-    "description": "Laat uw Samsung S26 Plus reparatie snel en professioneel uitvoeren. Originale service packs voor scherm en meer!"
-  },
   "prices": [
     {
       "label": "Scherm, Dynamic AMOLED, frame / zijkanten en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -142,6 +138,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung S26 Plus reparatie met originele onderdelen",
+    "description": "Laat uw Samsung S26 Plus reparatie snel en professioneel uitvoeren. Originale service packs voor scherm en meer!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s26-plus/"
   ],
