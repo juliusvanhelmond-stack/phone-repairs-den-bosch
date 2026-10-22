@@ -1,0 +1,46 @@
+{
+  "name": "OPPO Find X10",
+  "brandId": "oppo",
+  "categoryId": "smartphone",
+  "series": "OPPO Find",
+  "order": 100,
+  "releaseYear": "2026",
+  "art": "phone-island",
+  "photo": "/images/toestellen/oppo-find-x10/photo.jpeg",
+  "popular": false,
+  "aliases": [],
+  "prices": [
+    {
+      "label": "Scherm, AMOLED vervangen (origineel Oppo service pack, zoals Oppo vereist)",
+      "price": "Op aanvraag",
+      "repairId": "auto",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen",
+      "price": "Op aanvraag",
+      "repairId": "auto",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "Op aanvraag",
+      "repairId": "auto",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadpoort vervangen",
+      "price": "Op aanvraag",
+      "repairId": "auto",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "seo": {
+    "title": "OPPO Find X10 reparatie Den Bosch",
+    "description": "Asus OPPO Find X10 reparatie, snel en vakkundig, originele onderdelen, 12 maanden gar, klaar terwijl u meekijkt. "
+  }
+}
