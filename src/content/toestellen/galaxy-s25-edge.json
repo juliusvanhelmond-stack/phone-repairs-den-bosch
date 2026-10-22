@@ -12,10 +12,6 @@
     "Samsung S25 Edge",
     "Samsung Galaxy S25 Edge"
   ],
-  "seo": {
-    "title": "Samsung S25 Edge reparatie voor snel herstel",
-    "description": "Laat uw Samsung S25 Edge reparatie professioneel uitvoeren met originele onderdelen. Bel nu voor een afspraak in Den Bosch."
-  },
   "prices": [
     {
       "label": "Scherm, Dynamic AMOLED, frame / zijkanten en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -33,7 +29,7 @@
     },
     {
       "label": "Oplaadpoort vervangen",
-      "price": "€95,-",
+      "price": "€75,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "links": []
@@ -114,6 +110,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung S25 Edge reparatie voor snel herstel",
+    "description": "Laat uw Samsung S25 Edge reparatie professioneel uitvoeren met originele onderdelen. Bel nu voor een afspraak in Den Bosch."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s25-edge/"
   ],
