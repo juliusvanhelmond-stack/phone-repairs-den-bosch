@@ -6,16 +6,12 @@
   "order": 8000,
   "releaseYear": "2023",
   "art": "phone-punch-hole",
-  "photo": null,
+  "photo": "/images/toestellen/galaxy-s23-fe/photo.jpeg",
   "popular": false,
   "aliases": [
     "Samsung S23 FE",
     "Samsung Galaxy S23 FE"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm, Dynamic AMOLED, frame / zijkanten en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -128,6 +124,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s23-fe/"
   ],
