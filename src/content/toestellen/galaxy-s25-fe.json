@@ -12,10 +12,6 @@
     "Samsung S25 FE",
     "Samsung Galaxy S25 FE"
   ],
-  "seo": {
-    "title": "Samsung S25 FE reparatie van kapotte schermen",
-    "description": "Laat je Samsung S25 FE repareren door professionals. Wij bieden snelle en betrouwbare Samsung S25 reparatie met originele onderdelen."
-  },
   "prices": [
     {
       "label": "Scherm, Dynamic AMOLED en en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist) Frame mag geen schade hebben",
@@ -40,7 +36,7 @@
     },
     {
       "label": "Oplaadpoort vervangen",
-      "price": "€80,-",
+      "price": "€75,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "links": []
@@ -114,6 +110,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung S25 FE reparatie van kapotte schermen",
+    "description": "Laat je Samsung S25 FE repareren door professionals. Wij bieden snelle en betrouwbare Samsung S25 reparatie met originele onderdelen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s25-fe/"
   ],
