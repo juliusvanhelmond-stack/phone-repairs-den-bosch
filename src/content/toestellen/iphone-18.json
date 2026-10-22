@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "iPhone 18",
   "order": 700,
-  "releaseYear": "",
   "art": "phone-island",
-  "photo": "/images/toestellen/iphone-18/photo.jpg",
+  "photo": "/images/toestellen/iphone-18/photo.png",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "iPhone 18 reparatie: Professioneel met originele onderdelen",
-    "description": "Laat uw iPhone 18 reparatie snel en professioneel uitvoeren met garantie op originele onderdelen. Bel nu voor een afspraak!"
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
@@ -216,6 +211,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone 18 reparatie: Professioneel met originele onderdelen",
+    "description": "Laat uw iPhone 18 reparatie snel en professioneel uitvoeren met garantie op originele onderdelen. Bel nu voor een afspraak!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-18-reparatie/"
   ],
