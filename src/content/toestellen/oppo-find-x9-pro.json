@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "OPPO Find X",
   "order": 43500,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/oppo-find-x9-pro/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "OPPO Find X9 Pro reparatie bij Phone Repairs",
-    "description": "Heeft u schade aan uw OPPO Find X9 Pro? Ontdek hier hoe u snel en professioneel uw OPPO Find X9 Pro reparatie doet."
-  },
   "prices": [
     {
       "label": "Scherm unit vervangen (origineel OPPO service pack, zoals OPPO vereist)",
@@ -120,6 +115,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "OPPO Find X9 Pro reparatie bij Phone Repairs",
+    "description": "Heb je schade aan je OPPO Find X910 Pro? Ontdek hier hoe je snel en professioneel je OPPO Find X9 Pro reparatie kunt laten uitvoeren."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oppo-reparatie/oppo-find-x9-pro/"
   ],
