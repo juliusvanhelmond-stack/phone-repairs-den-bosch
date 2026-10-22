@@ -12,10 +12,6 @@
     "Samsung S25 Plus",
     "Samsung Galaxy S25 Plus"
   ],
-  "seo": {
-    "title": "Samsung S25 Plus reparatie bij Phone Repairs",
-    "description": "Laat uw Samsung S25 Plus reparatie snel en professioneel uitvoeren. Originele onderdelen en transparante prijzen voor reparaties."
-  },
   "prices": [
     {
       "label": "Scherm, Dynamic AMOLED, frame / zijkanten en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -40,7 +36,7 @@
     },
     {
       "label": "Samsung Galaxy S25 Ultra oplaadpoort vervangen",
-      "price": "€90,-",
+      "price": "€75,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "links": []
@@ -135,6 +131,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung S25 Plus reparatie bij Phone Repairs",
+    "description": "Laat uw Samsung S25 Plus reparatie snel en professioneel uitvoeren. Originele onderdelen en transparante prijzen voor reparaties."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s25-plus/"
   ],
