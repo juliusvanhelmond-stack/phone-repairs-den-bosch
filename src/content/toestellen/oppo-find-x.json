@@ -4,18 +4,13 @@
   "categoryId": "smartphone",
   "series": "OPPO Find X",
   "order": 43207,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": null,
+  "photo": "/images/toestellen/oppo-find-x/photo.jpg",
   "popular": false,
   "aliases": [
     "OPPO Find X (CPH1871)",
     "CPH1871"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm, AMOLED en frame vervangen (128GB)",
@@ -95,6 +90,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [],
   "sources": [
     {
