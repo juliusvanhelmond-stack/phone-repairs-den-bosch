@@ -6,16 +6,12 @@
   "order": 7900,
   "releaseYear": "2023",
   "art": "phone-punch-hole",
-  "photo": null,
+  "photo": "/images/toestellen/galaxy-s23/photo.jpeg",
   "popular": true,
   "aliases": [
     "Samsung S23",
     "Samsung Galaxy S23"
   ],
-  "seo": {
-    "title": "Samsung S23 reparatie: Professionele service",
-    "description": "Krijg snel en professioneel hulp bij Samsung S23 reparatie. Wij gebruiken originele Samsung service packs voor je toestel."
-  },
   "prices": [
     {
       "label": "Scherm, Dynamic AMOLED, frame / zijkanten en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -128,6 +124,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung S23 reparatie: Professionele service",
+    "description": "Krijg snel en professioneel hulp bij Samsung S23 reparatie. Wij gebruiken originele Samsung service packs voor je toestel."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s23/"
   ],
