@@ -9,14 +9,10 @@
   "photo": "/images/toestellen/iphone-16/photo.jpg",
   "popular": true,
   "aliases": [],
-  "seo": {
-    "title": "iPhone 16 reparatie met originele onderdelen",
-    "description": "Snel en professioneel iPhone 16 reparatie bij Phone Repairs Den Bosch met originele onderdelen en 12 maanden garantie."
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
-      "price": "€220,-",
+      "price": "€135,-",
       "repairId": "scherm-vervangen",
       "popular": true,
       "links": [
@@ -227,6 +223,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone 16 reparatie met originele onderdelen",
+    "description": "Snel en professioneel iPhone 16 reparatie bij Phone Repairs Den Bosch met originele onderdelen en 12 maanden garantie."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-16/"
   ],
