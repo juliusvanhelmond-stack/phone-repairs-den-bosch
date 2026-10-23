@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "Poco F",
   "order": 41100,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/poco-f8-ultra/photo.jpg",
+  "photo": "/images/toestellen/poco-f8-ultra/photo.jpeg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "Xiaomi Poco F8 Ultra reparatie. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, AMOLED vervangen (origineel Xiaomi service pack, zoals Xiaomi vereist)",
@@ -106,6 +101,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Xiaomi Poco F8 Ultra reparatie. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-pocophone-reparatie/poco-f8-ultra/"
   ],
