@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "OnePlus",
   "order": 24600,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": null,
+  "photo": "/images/toestellen/oneplus-12r/photo.jpeg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "OnePlus 12R reparatie: Snel en Professioneel",
-    "description": "Snel en professioneel uw OnePlus 12R reparatie laten uitvoeren? Bel Phone Repairs Den Bosch voor een afspraak!"
-  },
   "prices": [
     {
       "label": "Scherm, Fluid OLED vervangen",
@@ -162,6 +157,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "OnePlus 12R reparatie: Snel en Professioneel",
+    "description": "Snel en professioneel uw OnePlus 12R reparatie laten uitvoeren? Bel Phone Repairs Den Bosch voor een afspraak!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-12r/"
   ],
