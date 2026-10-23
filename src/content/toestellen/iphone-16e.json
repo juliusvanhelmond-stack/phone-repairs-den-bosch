@@ -9,14 +9,10 @@
   "photo": "/images/toestellen/iphone-16e/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "iPhone 16E reparatie: Snel en Professioneel",
-    "description": "Voor iPhone 16E reparatie bent u bij Phone Repairs Den Bosch aan het juiste adres. Snelle en professionele service!"
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
-      "price": "€175,-",
+      "price": "€125,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": [
@@ -220,6 +216,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone 16E reparatie: Snel en Professioneel",
+    "description": "Voor iPhone 16E reparatie bent u bij Phone Repairs Den Bosch aan het juiste adres. Snelle en professionele service!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-16e/"
   ],
