@@ -9,14 +9,10 @@
   "photo": "/images/toestellen/iphone-15/photo.jpg",
   "popular": true,
   "aliases": [],
-  "seo": {
-    "title": "iPhone 15 reparatie: Professionele service in Den Bosch",
-    "description": "Snel en professioneel iPhone 15 reparatie bij Phone Repairs Den Bosch. Bel voor een afspraak, originele onderdelen."
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
-      "price": "€185,-",
+      "price": "€130,-",
       "repairId": "scherm-vervangen",
       "popular": true,
       "links": [
@@ -227,6 +223,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone 15 reparatie: Professionele service in Den Bosch",
+    "description": "Snel en professioneel iPhone 15 reparatie bij Phone Repairs Den Bosch. Bel voor een afspraak, originele onderdelen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-15/"
   ],
