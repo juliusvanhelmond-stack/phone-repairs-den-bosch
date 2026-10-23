@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "OnePlus",
   "order": 24300,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": null,
+  "photo": "/images/toestellen/oneplus-13r/photo.jpeg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "OnePlus 13R reparatie: Scherm en batterij vervanging",
-    "description": "Snel en professioneel uw OnePlus 13R reparatie bij Phone Repairs Den Bosch. Maak vandaag nog een afspraak!"
-  },
   "prices": [
     {
       "label": "Scherm, Fluid OLED en frame vervangen",
@@ -162,6 +157,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "OnePlus 13R reparatie: Scherm en batterij vervanging",
+    "description": "Snel en professioneel uw OnePlus 13R reparatie bij Phone Repairs Den Bosch. Maak vandaag nog een afspraak!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-13-r/"
   ],
