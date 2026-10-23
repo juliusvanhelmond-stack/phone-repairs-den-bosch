@@ -9,14 +9,10 @@
   "photo": "/images/toestellen/iphone-15-plus/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "iPhone 15 Plus reparatie: Snel en Professioneel",
-    "description": "Heeft u schade aan uw iPhone 15 Plus? Ontdek de professionele iPhone 15 Plus reparatie met garantie en originele onderdelen."
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
-      "price": "€185,-",
+      "price": "€135,-",
       "repairId": "scherm-vervangen",
       "popular": true,
       "links": [
@@ -239,6 +235,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone 15 Plus reparatie: Snel en Professioneel",
+    "description": "Heeft u schade aan uw iPhone 15 Plus? Ontdek de professionele iPhone 15 Plus reparatie met garantie en originele onderdelen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-15-plus/"
   ],
