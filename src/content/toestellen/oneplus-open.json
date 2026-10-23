@@ -3,18 +3,13 @@
   "brandId": "oneplus",
   "categoryId": "smartphone",
   "series": "OnePlus Open",
-  "order": 24400,
-  "releaseYear": "",
+  "order": 10400,
   "art": "phone-foldable",
   "photo": "/images/toestellen/oneplus-open/photo.jpg",
   "popular": false,
   "aliases": [
     "OnePlus Open CPH2551"
   ],
-  "seo": {
-    "title": "",
-    "description": "OnePlus Open reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm (voorkant), OLED (origineel OnePlus service pack, zoals OnePlus vereist) vervangen",
@@ -99,6 +94,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "OnePlus Open reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/oneplus-open-reparatie/"
   ],
