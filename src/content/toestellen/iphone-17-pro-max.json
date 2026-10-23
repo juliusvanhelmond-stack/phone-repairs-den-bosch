@@ -11,14 +11,10 @@
   "aliases": [
     "iPhone 17 Pro"
   ],
-  "seo": {
-    "title": "iPhone 17 Pro Max reparatie Professioneel originele onderdelen",
-    "description": "Snel en professioneel iPhone 17 Pro Max reparatie met 12 maanden garantie. Bel nu voor een afspraak en laat uw scherm vervangen."
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
-      "price": "€285,-",
+      "price": "€160,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": [
@@ -251,6 +247,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone 17 Pro Max reparatie Professioneel originele onderdelen",
+    "description": "Snel en professioneel iPhone 17 Pro Max reparatie met 12 maanden garantie. Bel nu voor een afspraak en laat uw scherm vervangen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-17-pro-max/"
   ],
