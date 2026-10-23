@@ -4,17 +4,12 @@
   "categoryId": "smartphone",
   "series": "OnePlus",
   "order": 23900,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/oneplus-15r/photo.jpg",
+  "photo": "/images/toestellen/oneplus-15r/photo.jpeg",
   "popular": false,
   "aliases": [
     "CPH2769"
   ],
-  "seo": {
-    "title": "OnePlus 15R reparatie bij u in de buurt",
-    "description": "Voer uw OnePlus 15R reparatie snel uit met originele onderdelen. Maak vandaag nog een afspraak voor professionele service."
-  },
   "prices": [
     {
       "label": "Scherm, Fluid OLED en frame vervangen Origineel Service pack",
@@ -164,6 +159,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "OnePlus 15R reparatie bij u in de buurt",
+    "description": "Voer uw OnePlus 15R reparatie snel uit met originele onderdelen. Maak vandaag nog een afspraak voor professionele service."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-15r/"
   ],
