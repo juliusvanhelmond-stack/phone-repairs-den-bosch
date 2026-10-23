@@ -4,9 +4,8 @@
   "categoryId": "smartphone",
   "series": "Pixel 7",
   "order": 20000,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/pixel-7/photo.jpg",
+  "photo": "/images/toestellen/pixel-7/photo.jpeg",
   "popular": false,
   "aliases": [
     "Google Pixel 7",
@@ -14,10 +13,6 @@
     "GVU6C",
     "GQML3"
   ],
-  "seo": {
-    "title": "",
-    "description": "Google Pixel 7 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, P-OLED, front frame en vingerprint scanner vervangen",
@@ -83,6 +78,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Google Pixel 7 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/google-pixel-reparatie/google-pixel-7/"
   ],
