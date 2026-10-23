@@ -9,14 +9,10 @@
   "photo": "/images/toestellen/iphone-17-pro/photo.jpg",
   "popular": true,
   "aliases": [],
-  "seo": {
-    "title": "iPhone 17 Pro reparatie: Professioneel met originele onderdelen",
-    "description": "Heeft u schade aan uw iPhone 17 Pro? Wij bieden snelle en professionele iPhone 17 Pro reparatie met garantie."
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
-      "price": "€225,-",
+      "price": "€150,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": [
@@ -249,6 +245,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone 17 Pro reparatie: Professioneel met originele onderdelen",
+    "description": "Heeft u schade aan uw iPhone 17 Pro? Wij bieden snelle en professionele iPhone 17 Pro reparatie met garantie."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-17-pro/"
   ],
