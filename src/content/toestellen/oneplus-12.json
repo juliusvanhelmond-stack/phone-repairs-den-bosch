@@ -6,16 +6,12 @@
   "order": 24500,
   "releaseYear": "2024",
   "art": "phone-punch-hole",
-  "photo": null,
+  "photo": "/images/toestellen/oneplus-12/photo.jpeg",
   "popular": false,
   "aliases": [
     "OnePlus 12 (PJD110)",
     "PJD110"
   ],
-  "seo": {
-    "title": "OnePlus 12 reparatie voor defecte onderdelen",
-    "description": "Snelle en professionele OnePlus 12 reparatie in Den Bosch. Wij gebruiken originele service packs voor de beste kwaliteit."
-  },
   "prices": [
     {
       "label": "Scherm, Fluid AMOLED en frame vervangen",
@@ -172,6 +168,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "OnePlus 12 reparatie voor defecte onderdelen",
+    "description": "Snelle en professionele OnePlus 12 reparatie in Den Bosch. Wij gebruiken originele service packs voor de beste kwaliteit."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-12/"
   ],
