@@ -9,14 +9,10 @@
   "photo": "/images/toestellen/iphone-16-plus/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "iPhone 16 Plus reparatie met originele onderdelen",
-    "description": "Snel en professioneel iPhone 16 Plus reparatie met garantie. Bij ons kijkt u mee tijdens de reparatie!"
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
-      "price": "€190,-",
+      "price": "€135,-",
       "repairId": "scherm-vervangen",
       "popular": true,
       "links": [
@@ -220,6 +216,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone 16 Plus reparatie met originele onderdelen",
+    "description": "Snel en professioneel iPhone 16 Plus reparatie met garantie. Bij ons kijkt u mee tijdens de reparatie!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-16-plus/"
   ],
