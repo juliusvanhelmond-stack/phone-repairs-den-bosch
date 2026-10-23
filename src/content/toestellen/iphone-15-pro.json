@@ -9,14 +9,10 @@
   "photo": "/images/toestellen/iphone-15-pro/photo.jpg",
   "popular": true,
   "aliases": [],
-  "seo": {
-    "title": "iPhone 15 Pro reparatie: originele onderdelen",
-    "description": "Laat uw iPhone 15 Pro reparatie professioneel uitvoeren bij Phone Repairs Den Bosch met 12 maanden garantie."
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
-      "price": "€210,-",
+      "price": "€145,-",
       "repairId": "scherm-vervangen",
       "popular": true,
       "links": [
@@ -232,6 +228,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone 15 Pro reparatie: originele onderdelen",
+    "description": "Laat uw iPhone 15 Pro reparatie professioneel uitvoeren bij Phone Repairs Den Bosch met 12 maanden garantie."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-15-pro/"
   ],
