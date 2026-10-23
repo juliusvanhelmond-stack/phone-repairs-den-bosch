@@ -3,16 +3,11 @@
   "brandId": "redmi",
   "categoryId": "smartphone",
   "series": "Redmi K",
-  "order": 40300,
-  "releaseYear": "",
+  "order": 1300,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/redmi-k40-pro/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "Redmi K40 Pro reparatie Nederland. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt. Officiële factuur"
-  },
   "prices": [
     {
       "label": "Scherm, AMOLED vervangen",
@@ -99,6 +94,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Redmi K40 Pro reparatie Nederland. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt. Officiële factuur"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/redmi-reparatie-den-bosch/redmi-k40-pro/"
   ],
