@@ -6,13 +6,9 @@
   "order": 24100,
   "releaseYear": "2025",
   "art": "phone-punch-hole",
-  "photo": null,
+  "photo": "/images/toestellen/oneplus-13/photo.jpeg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "OnePlus 13 reparatie: Snel en Professioneel",
-    "description": "Snel en professioneel uw OnePlus 13 reparatie laten uitvoeren? Bel ons vandaag nog voor afspraak en service van hoge kwaliteit."
-  },
   "prices": [
     {
       "label": "Scherm, Fluid OLED en frame vervangen origineel Service pack",
@@ -169,6 +165,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "OnePlus 13 reparatie: Snel en Professioneel",
+    "description": "Snel en professioneel uw OnePlus 13 reparatie laten uitvoeren? Bel ons vandaag nog voor afspraak en service van hoge kwaliteit."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-13/"
   ],
