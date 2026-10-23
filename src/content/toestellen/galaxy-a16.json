@@ -11,21 +11,17 @@
   "aliases": [
     "Samsung A16"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung A16 reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen"
-  },
   "prices": [
     {
       "label": "Scherm A16 4G vervangen (origineel Samsung service pack, zoals Samsung vereist)",
-      "price": "€110,-",
+      "price": "€120,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
     },
     {
       "label": "Scherm A16 5G vervangen (origineel Samsung service pack, zoals Samsung vereist)",
-      "price": "€110,-",
+      "price": "€120,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
@@ -113,6 +109,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung A16 reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a16-5g/"
   ],
