@@ -4,17 +4,12 @@
   "categoryId": "smartphone",
   "series": "OnePlus",
   "order": 23700,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/oneplus-16/photo.jpg",
+  "photo": "/images/toestellen/oneplus-16/photo.jpeg",
   "popular": false,
   "aliases": [
     "PYB110"
   ],
-  "seo": {
-    "title": "OnePlus 16 reparatie: Snel en Professioneel",
-    "description": "Laat je OnePlus 16 reparatie professioneel uitvoeren met originele onderdelen en kijk mee tijdens het proces in Den Bosch."
-  },
   "prices": [
     {
       "label": "Scherm, Fluid OLED, ultrasonic vingerafdruklezer en frame vervangen origineel OnePlus service pack",
@@ -171,6 +166,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "OnePlus 16 reparatie: Snel en Professioneel",
+    "description": "Laat je OnePlus 16 reparatie professioneel uitvoeren met originele onderdelen en kijk mee tijdens het proces in Den Bosch."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-16/"
   ],
