@@ -4,19 +4,14 @@
   "categoryId": "smartphone",
   "series": "Realme GT",
   "order": 52200,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": null,
+  "photo": "/images/toestellen/realme-gt2-pro/photo.jpeg",
   "popular": false,
   "aliases": [
     "Realme GT2 Pro (RMX3300 / RMX3301)",
     "RMX3300",
     "RMX3301"
   ],
-  "seo": {
-    "title": "",
-    "description": "Realme GT2 Pro reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, AMOLED vervangen",
@@ -117,6 +112,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Realme GT2 Pro reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/realme-gt2-pro/"
   ],
