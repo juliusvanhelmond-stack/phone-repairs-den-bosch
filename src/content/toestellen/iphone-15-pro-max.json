@@ -9,14 +9,10 @@
   "photo": "/images/toestellen/iphone-15-pro-max/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "iPhone 15 Pro Max reparatie: Originele Onderdelen en Prijzen",
-    "description": "Snel en professioneel iPhone 15 Pro Max reparatie met garantie. Neem contact op voor een afspraak en herstel je toestel vandaag nog."
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
-      "price": "€225,-",
+      "price": "€145,-",
       "repairId": "scherm-vervangen",
       "popular": true,
       "links": [
@@ -232,6 +228,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone 15 Pro Max reparatie: Originele Onderdelen en Prijzen",
+    "description": "Snel en professioneel iPhone 15 Pro Max reparatie met garantie. Neem contact op voor een afspraak en herstel je toestel vandaag nog."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-15-pro-max/"
   ],
