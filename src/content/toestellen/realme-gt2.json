@@ -4,18 +4,13 @@
   "categoryId": "smartphone",
   "series": "Realme GT",
   "order": 52300,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": null,
+  "photo": "/images/toestellen/realme-gt2/photo.jpeg",
   "popular": false,
   "aliases": [
     "Realme GT2 (RMX3310)",
     "RMX3310"
   ],
-  "seo": {
-    "title": "",
-    "description": "Realme GT2 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, AMOLED vervangen",
@@ -123,6 +118,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Realme GT2 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/realme-gt2-reparatie/"
   ],
