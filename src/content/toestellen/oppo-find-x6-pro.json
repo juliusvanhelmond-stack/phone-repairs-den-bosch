@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "OPPO Find X",
   "order": 44200,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/oppo-find-x6-pro/photo.jpg",
+  "photo": "/images/toestellen/oppo-find-x6-pro/photo.jpeg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "OPPO Find X6 Pro reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm unit vervangen",
@@ -113,6 +108,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "OPPO Find X6 Pro reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oppo-reparatie/oppo-find-x6-pro/"
   ],
