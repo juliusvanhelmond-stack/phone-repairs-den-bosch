@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "Xiaomi",
   "order": 36000,
-  "releaseYear": "",
   "art": "phone-foldable",
   "photo": "/images/toestellen/xiaomi-18-fold/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "Xiaomi 18 Fold reparatie: Veelvoorkomende defecten",
-    "description": "Professionele Xiaomi 18 Fold reparatie met garantie. Snelle service en originele onderdelen voor al uw defecten."
-  },
   "prices": [
     {
       "label": "(voorkant), OLED (origineel Xiaomi service pack, zoals Xiaomi vereist) vervangen",
@@ -85,6 +80,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Xiaomi 18 Fold reparatie: Veelvoorkomende defecten",
+    "description": "Professionele Xiaomi 18 Fold reparatie met garantie. Snelle service en originele onderdelen voor al uw defecten."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-18-fold-reparatie/"
   ],
