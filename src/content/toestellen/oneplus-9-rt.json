@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "OnePlus",
   "order": 25200,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/oneplus-9-rt/photo.jpg",
+  "photo": "/images/toestellen/oneplus-9-rt/photo.jpeg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "OnePlus 9 RT reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl u meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, optic AMOLED en frame / zijkanten incl. knoppen vervangen (OnePlus Service pack scherm)",
@@ -169,6 +164,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "OnePlus 9 RT reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-9rt/"
   ],
