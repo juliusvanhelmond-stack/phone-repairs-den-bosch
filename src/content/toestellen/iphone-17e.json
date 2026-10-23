@@ -4,19 +4,14 @@
   "categoryId": "smartphone",
   "series": "iPhone 17",
   "order": 1300,
-  "releaseYear": "",
   "art": "phone-island",
   "photo": "/images/toestellen/iphone-17e/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "iPhone 17E reparatie: Snel en Professioneel",
-    "description": "Voor iPhone 17E reparatie bent u bij Phone Repairs Den Bosch aan het juiste adres. Snelle en professionele service!"
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
-      "price": "€185,-",
+      "price": "€125,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": [
@@ -220,6 +215,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone 17E reparatie: Snel en Professioneel",
+    "description": "Voor iPhone 17E reparatie bent u bij Phone Repairs Den Bosch aan het juiste adres. Snelle en professionele service!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-17e/"
   ],
