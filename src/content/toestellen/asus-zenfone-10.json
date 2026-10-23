@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "Asus Zenfone",
   "order": 50200,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/asus-zenfone-10/photo.jpg",
+  "photo": "/images/toestellen/asus-zenfone-10/photo.jpeg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "Asus Zenfone 10 reparatie, snel en vakkundig, originele onderdelen, 3 mnd garantie, klaar terwijl u meekijkt. Officiële BTW factuur"
-  },
   "prices": [
     {
       "label": "Scherm, AMOLED vervangen",
@@ -36,6 +31,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Asus Zenfone 10 reparatie, snel en vakkundig, originele onderdelen, 3 mnd garantie, klaar terwijl u meekijkt. Officiële BTW factuur"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/asus-zenfone-reparatie/asus-zenfone-10/"
   ],
