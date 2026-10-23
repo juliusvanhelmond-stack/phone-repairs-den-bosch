@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "Redmi K",
   "order": 40202,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": null,
+  "photo": "/images/toestellen/redmi-k20-pro/photo.jpeg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "Redmi K20 reparatie Nederland. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt. Officiële factuur op naam"
-  },
   "prices": [
     {
       "label": "Scherm, AMOLED en frame vervangen (service pack zoals Xiaomi vereist)",
@@ -127,6 +122,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Redmi K20 reparatie Nederland. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt. Officiële factuur op naam"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/redmi-reparatie-den-bosch/redmi-k20-pro-reparatie/"
   ],
