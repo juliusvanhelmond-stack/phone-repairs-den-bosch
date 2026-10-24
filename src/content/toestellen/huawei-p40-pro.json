@@ -3,7 +3,7 @@
   "brandId": "huawei",
   "categoryId": "smartphone",
   "series": "Huawei P",
-  "order": 30800,
+  "order": 4,
   "releaseYear": "2020",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/huawei-p40-pro/photo.jpg",
@@ -12,10 +12,6 @@
     "Huawei P40 Pro (ELS-NX9)",
     "ELS-NX9"
   ],
-  "seo": {
-    "title": "",
-    "description": "Huawei P40 Pro reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, OLED en frame vervangen (origineel Huawei service pack, zoals Huawei vereist)",
@@ -144,6 +140,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Huawei P40 Pro reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-p40-pro/"
   ],
