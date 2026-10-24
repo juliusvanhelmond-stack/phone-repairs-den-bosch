@@ -3,7 +3,7 @@
   "brandId": "huawei",
   "categoryId": "smartphone",
   "series": "Huawei P",
-  "order": 29002,
+  "order": 8,
   "releaseYear": "2019",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/huawei-p30-lite/photo.jpg",
@@ -14,10 +14,6 @@
     "Huawei P30 Lite (MAR-LX1M)",
     "MAR-LX1M"
   ],
-  "seo": {
-    "title": "",
-    "description": "Huawei P30 Lite reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, LCD en frame, zijkanten vervangen (origineel Huawei service pack, zoals Huawei vereist)",
@@ -104,6 +100,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Huawei P30 Lite reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-p30-lite/"
   ],
