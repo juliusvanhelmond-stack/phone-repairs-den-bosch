@@ -3,8 +3,7 @@
   "brandId": "huawei",
   "categoryId": "smartphone",
   "series": "Huawei P",
-  "order": 31100,
-  "releaseYear": "",
+  "order": 7,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/huawei-p40-lite-e/photo.jpg",
   "popular": false,
@@ -12,10 +11,6 @@
     "Huawei P40 Lite (JNY-L21A)",
     "JNY-L21A"
   ],
-  "seo": {
-    "title": "",
-    "description": "Huawei P4 Lite E reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
-  },
   "prices": [
     {
       "label": "E scherm, OLED en frame vervangen (origineel Huawei service pack, zoals Huawei vereist)",
@@ -123,6 +118,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Huawei P4 Lite E reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-p40-lite-e/"
   ],
