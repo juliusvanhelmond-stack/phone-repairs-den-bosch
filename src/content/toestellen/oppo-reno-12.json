@@ -3,16 +3,11 @@
   "brandId": "oppo",
   "categoryId": "smartphone",
   "series": "OPPO Reno",
-  "order": 45900,
-  "releaseYear": "",
+  "order": 7,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/oppo-reno-12/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "OPPO Reno 12 reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, AMOLED vervangen (origineel OPPO service pack, zoals OPPO vereist)",
@@ -99,6 +94,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "OPPO Reno 12 reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oppo-reparatie/oppo-reno-reparatie/oppo-reno-12/"
   ],
