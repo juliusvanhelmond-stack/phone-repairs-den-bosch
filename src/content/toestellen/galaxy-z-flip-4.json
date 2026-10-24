@@ -3,8 +3,7 @@
   "brandId": "samsung",
   "categoryId": "smartphone",
   "series": "Galaxy Z Flip",
-  "order": 16400,
-  "releaseYear": "",
+  "order": 7400,
   "art": "phone-flip",
   "photo": "/images/toestellen/galaxy-z-flip-4/photo.jpg",
   "popular": false,
@@ -13,10 +12,6 @@
     "Samsung Galaxy Z Flip 4 (SM-F721B)",
     "SM-F721B"
   ],
-  "seo": {
-    "title": "Samsung Galaxy Z Flip 4 reparatie | Phone Repairs | 073-8220013",
-    "description": "Samsung Galaxy Z Flip 4 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden gar., klaar terwijl u meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, OLED,frame / zijkanten en scharnier vervangen (origineel Samsung service pack, zoals Samsung vereist) vervangen",
@@ -122,6 +117,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung Galaxy Z Flip 4 reparatie | Phone Repairs | 073-8220013",
+    "description": "Samsung Galaxy Z Flip 4 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden gar., klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-z-flip-4/"
   ],
