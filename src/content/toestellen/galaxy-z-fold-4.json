@@ -3,8 +3,7 @@
   "brandId": "samsung",
   "categoryId": "smartphone",
   "series": "Galaxy Z Fold",
-  "order": 15400,
-  "releaseYear": "",
+  "order": 6500,
   "art": "phone-foldable",
   "photo": "/images/toestellen/galaxy-z-fold-4/photo.jpg",
   "popular": false,
@@ -13,10 +12,6 @@
     "Samsung Galaxy Z Fold 4 (SM-F936B)",
     "SM-F936B"
   ],
-  "seo": {
-    "title": "Samsung Galaxy Z Fold 4 reparatie | Phone Repairs | 073-8220013",
-    "description": "Samsung Galaxy Z Fold 4 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden gar., klaar terwijl u meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm (voorkant / klein), OLED (origineel Samsung service pack, zoals Samsung vereist) vervangen",
@@ -150,6 +145,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung Galaxy Z Fold 4 reparatie | Phone Repairs | 073-8220013",
+    "description": "Samsung Galaxy Z Fold 4 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden gar., klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-z-fold-4/"
   ],
