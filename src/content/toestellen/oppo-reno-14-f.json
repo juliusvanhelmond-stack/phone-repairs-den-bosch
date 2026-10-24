@@ -3,16 +3,11 @@
   "brandId": "oppo",
   "categoryId": "smartphone",
   "series": "OPPO Reno",
-  "order": 45500,
-  "releaseYear": "",
+  "order": 2,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/oppo-reno-14-f/photo.webp",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "Laat uw OPPO Reno 14 F reparatie snel en professioneel uitvoeren met garantie. Neem contact met ons op voor meer informatie."
-  },
   "prices": [
     {
       "label": "(origineel OPPO service pack, zoals OPPO vereist)",
@@ -99,6 +94,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Laat uw OPPO Reno 14 F reparatie snel en professioneel uitvoeren met garantie. Neem contact met ons op voor meer informatie."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oppo-reparatie/oppo-reno-reparatie/oppo-reno-14-f/"
   ],
