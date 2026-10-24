@@ -4,17 +4,12 @@
   "categoryId": "smartphone",
   "series": "Xiaomi",
   "order": 36200,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/xiaomi-17-pro-max/photo.jpg",
+  "photo": "/images/toestellen/xiaomi-17-pro-max/photo.jpeg",
   "popular": false,
   "aliases": [
     "Xiaomi Mi 17 Pro Max"
   ],
-  "seo": {
-    "title": "Xiaomi Mi 17 Pro Max reparatie: Veelvoorkomende Problemen",
-    "description": "Laat uw Xiaomi Mi 17 Pro Max reparatie snel en professioneel uitvoeren met 12 maanden garantie op onderdelen."
-  },
   "prices": [
     {
       "label": "Scherm vervangen",
@@ -87,6 +82,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Xiaomi Mi 17 Pro Max reparatie: Veelvoorkomende Problemen",
+    "description": "Laat uw Xiaomi Mi 17 Pro Max reparatie snel en professioneel uitvoeren met 12 maanden garantie op onderdelen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-17-pro-max/"
   ],
