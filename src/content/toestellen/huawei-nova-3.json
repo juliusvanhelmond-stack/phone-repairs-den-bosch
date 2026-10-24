@@ -3,18 +3,13 @@
   "brandId": "huawei",
   "categoryId": "smartphone",
   "series": "Huawei Nova",
-  "order": 1007500,
-  "releaseYear": "",
+  "order": 99,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/huawei-nova-3/photo.jpg",
   "popular": false,
   "aliases": [
     "Huawei Nova 3 (PAR-LXI)"
   ],
-  "seo": {
-    "title": "",
-    "description": "Huawei Nova 3 reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, LCD vervangen",
@@ -66,6 +61,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Huawei Nova 3 reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-nova-3-reparatie/"
   ],
