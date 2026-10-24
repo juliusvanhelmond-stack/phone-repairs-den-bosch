@@ -3,8 +3,7 @@
   "brandId": "huawei",
   "categoryId": "smartphone",
   "series": "Huawei P",
-  "order": 30400,
-  "releaseYear": "",
+  "order": 3,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/huawei-p40-pro-plus/photo.jpg",
   "popular": false,
@@ -12,10 +11,6 @@
     "Huawei P40 Pro Plus (ELS-N39)",
     "ELS-N39"
   ],
-  "seo": {
-    "title": "",
-    "description": "Huawei P40 Pro Plus reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, OLED en frame vervangen (origineel Huawei service pack, zoals Huawei vereist)",
@@ -144,6 +139,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Huawei P40 Pro Plus reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-p40-pro-plus-2/",
     "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-p40-pro-plus/"
