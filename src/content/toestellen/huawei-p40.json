@@ -3,8 +3,7 @@
   "brandId": "huawei",
   "categoryId": "smartphone",
   "series": "Huawei P",
-  "order": 30900,
-  "releaseYear": "",
+  "order": 5,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/huawei-p40/photo.jpg",
   "popular": false,
@@ -12,10 +11,6 @@
     "Huawei P40 (ANA-NX9)",
     "ANA-NX9"
   ],
-  "seo": {
-    "title": "",
-    "description": "Huawei P40 reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, OLED en frame vervangen (origineel Huawei service pack, zoals Huawei vereist)",
@@ -123,6 +118,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Huawei P40 reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-p40/"
   ],
