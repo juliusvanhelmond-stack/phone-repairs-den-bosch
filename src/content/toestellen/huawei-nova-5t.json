@@ -3,7 +3,7 @@
   "brandId": "huawei",
   "categoryId": "smartphone",
   "series": "Huawei Nova",
-  "order": 10,
+  "order": 100,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/huawei-nova-5t/photo.jpg",
   "popular": false,
