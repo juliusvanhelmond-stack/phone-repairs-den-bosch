@@ -3,8 +3,7 @@
   "brandId": "huawei",
   "categoryId": "smartphone",
   "series": "Huawei P",
-  "order": 31200,
-  "releaseYear": "",
+  "order": 7100,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/huawei-p30-pro-new-edition/photo.jpg",
   "popular": false,
@@ -12,10 +11,6 @@
     "Huawei P30 Pro New Edition (VOG-L29)",
     "VOG-L29"
   ],
-  "seo": {
-    "title": "",
-    "description": "Huawei P30 Pro New Edition reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl u meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, OLED en frame vervangen (origineel Huawei service pack, zoals Huawei vereist)",
@@ -137,6 +132,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Huawei P30 Pro New Edition reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-p30-pro-new-edition/"
   ],
