@@ -3,16 +3,11 @@
   "brandId": "huawei",
   "categoryId": "smartphone",
   "series": "Huawei P",
-  "order": 30600,
-  "releaseYear": "",
+  "order": 2,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/huawei-p50/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "Huawei P50 reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl u meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, OLED en frame vervangen (origineel Huawei service pack, zoals Huawei vereist)",
@@ -120,6 +115,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Huawei P50 reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-p50/"
   ],
