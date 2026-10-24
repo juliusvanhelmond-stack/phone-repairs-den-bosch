@@ -4,17 +4,12 @@
   "categoryId": "smartphone",
   "series": "Galaxy Z Fold",
   "order": 15100,
-  "releaseYear": "",
   "art": "phone-foldable",
-  "photo": "/images/toestellen/galaxy-z-fold-7/photo.jpg",
+  "photo": "/images/toestellen/galaxy-z-fold-7/photo.jpeg",
   "popular": false,
   "aliases": [
     "Samsung Galaxy Z Fold 7"
   ],
-  "seo": {
-    "title": "Samsung Galaxy Z Fold 7 reparatie met Originele Onderdelen",
-    "description": "Heeft u een defect aan uw Samsung Galaxy Z Fold 7? Ontdek onze professionele Samsung Galaxy Z Fold 7 reparatie oplossingen."
-  },
   "prices": [
     {
       "label": "Scherm (voorkant), OLED (origineel Samsung service pack, zoals Samsung vereist) vervangen",
@@ -127,6 +122,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung Galaxy Z Fold 7 reparatie met Originele Onderdelen",
+    "description": "Heeft u een defect aan uw Samsung Galaxy Z Fold 7? Ontdek onze professionele Samsung Galaxy Z Fold 7 reparatie oplossingen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-z-fold-7/"
   ],
