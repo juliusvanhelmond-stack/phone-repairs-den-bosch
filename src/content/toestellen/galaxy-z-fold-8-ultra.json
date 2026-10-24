@@ -3,18 +3,13 @@
   "brandId": "samsung",
   "categoryId": "smartphone",
   "series": "Galaxy Z Fold",
-  "order": 14900,
-  "releaseYear": "",
+  "order": 6100,
   "art": "phone-foldable",
   "photo": "/images/toestellen/galaxy-z-fold-8-ultra/photo.jpg",
   "popular": false,
   "aliases": [
     "Samsung Galaxy Z Fold 8 Ultra"
   ],
-  "seo": {
-    "title": "Samsung Galaxy Z Fold 8 Ultra reparatie met originele onderdelen",
-    "description": "Snel en professioneel Samsung Galaxy Z Fold 8 Ultra reparatie. Laat uw scherm of batterij vervangen met originele service packs."
-  },
   "prices": [
     {
       "label": "Scherm (voorkant), OLED (origineel Samsung service pack, zoals Samsung vereist) vervangen",
@@ -120,6 +115,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung Galaxy Z Fold 8 Ultra reparatie met originele onderdelen",
+    "description": "Snel en professioneel Samsung Galaxy Z Fold 8 Ultra reparatie. Laat uw scherm of batterij vervangen met originele service packs."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-z-fold-8-ultra/"
   ],
