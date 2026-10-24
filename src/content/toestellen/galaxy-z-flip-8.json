@@ -3,18 +3,13 @@
   "brandId": "samsung",
   "categoryId": "smartphone",
   "series": "Galaxy Z Flip",
-  "order": 15900,
-  "releaseYear": "",
+  "order": 62000,
   "art": "phone-flip",
   "photo": "/images/toestellen/galaxy-z-flip-8/photo.jpg",
   "popular": false,
   "aliases": [
     "Samsung Galaxy Z Flip 8"
   ],
-  "seo": {
-    "title": "Samsung Galaxy Z Flip 8 reparatie met originele onderdelen",
-    "description": "Laat uw Samsung Galaxy Z Flip 8 reparatie snel en professioneel uitvoeren met originele Samsung onderdelen in Den Bosch."
-  },
   "prices": [
     {
       "label": "Scherm, OLED,frame / zijkanten en scharnier vervangen (origineel Samsung service pack, zoals Samsung vereist) vervangen",
@@ -120,6 +115,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung Galaxy Z Flip 8 reparatie met originele onderdelen",
+    "description": "Laat uw Samsung Galaxy Z Flip 8 reparatie snel en professioneel uitvoeren met originele Samsung onderdelen in Den Bosch."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-z-flip-8/"
   ],
