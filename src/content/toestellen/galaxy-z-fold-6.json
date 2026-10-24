@@ -4,17 +4,12 @@
   "categoryId": "smartphone",
   "series": "Galaxy Z Fold",
   "order": 15200,
-  "releaseYear": "",
   "art": "phone-foldable",
-  "photo": "/images/toestellen/galaxy-z-fold-6/photo.jpg",
+  "photo": "/images/toestellen/galaxy-z-fold-6/photo.jpeg",
   "popular": false,
   "aliases": [
     "Samsung Galaxy Z Fold 6"
   ],
-  "seo": {
-    "title": "Samsung Galaxy Z Fold 6 reparatie bij Phone Repairs",
-    "description": "Heeft u een kapot scherm? Onze Samsung Galaxy Z Fold 6 reparatie is snel en professioneel. Bel voor een afspraak!"
-  },
   "prices": [
     {
       "label": "Scherm (voorkant), OLED (origineel Samsung service pack, zoals Samsung vereist) vervangen",
@@ -127,6 +122,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung Galaxy Z Fold 6 reparatie bij Phone Repairs",
+    "description": "Heeft u een kapot scherm? Onze Samsung Galaxy Z Fold 6 reparatie is snel en professioneel. Bel voor een afspraak!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-z-fold-6/"
   ],
