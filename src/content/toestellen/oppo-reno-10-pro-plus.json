@@ -3,16 +3,11 @@
   "brandId": "oppo",
   "categoryId": "smartphone",
   "series": "OPPO Reno",
-  "order": 46200,
-  "releaseYear": "",
+  "order": 20,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/oppo-reno-10-pro-plus/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "OPPO Reno 10 Pro Plus reparatie | Phone Repairs | 073-8220013",
-    "description": "OPPO Reno 10 Pro Plus reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, AMOLED vervangen",
@@ -106,6 +101,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "OPPO Reno 10 Pro Plus reparatie | Phone Repairs | 073-8220013",
+    "description": "OPPO Reno 10 Pro Plus reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oppo-reparatie/oppo-reno-reparatie/oppo-reno-10-pro-plus/"
   ],
