@@ -3,8 +3,7 @@
   "brandId": "samsung",
   "categoryId": "smartphone",
   "series": "Galaxy Z Fold",
-  "order": 14800,
-  "releaseYear": "",
+  "order": 6000,
   "art": "phone-foldable",
   "photo": "/images/toestellen/galaxy-fold/photo.jpg",
   "popular": false,
@@ -13,10 +12,6 @@
     "Samsung Galaxy Fold (SM-F900F)",
     "SM-F900F"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung Galaxy Fold reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
-  },
   "prices": [
     {
       "label": "Samsung Galaxy Z Fold 2 scherm (voorkant), OLED (origineel Samsung service pack, zoals Samsung vereist) vervangen",
@@ -143,6 +138,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung Galaxy Fold reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-fold-reparatie/"
   ],
