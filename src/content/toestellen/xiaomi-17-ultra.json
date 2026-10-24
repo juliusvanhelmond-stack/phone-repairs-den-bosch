@@ -4,17 +4,12 @@
   "categoryId": "smartphone",
   "series": "Xiaomi",
   "order": 36100,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/xiaomi-17-ultra/photo.jpg",
+  "photo": "/images/toestellen/xiaomi-17-ultra/photo.jpeg",
   "popular": false,
   "aliases": [
     "Xiaomi Mi 17 Ultra"
   ],
-  "seo": {
-    "title": "Xiaomi Mi 17 Ultra reparatie: Veelvoorkomende defecten",
-    "description": "Snel en betrouwbaar uw Xiaomi Mi 17 Ultra repareren? Wij bieden alle reparaties met originele onderdelen en full service garantie."
-  },
   "prices": [
     {
       "label": "Scherm en frame vervangen (Xiaomi service pack scherm, zoals Xiaomi vereist)",
@@ -80,6 +75,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Xiaomi Mi 17 Ultra reparatie: Veelvoorkomende defecten",
+    "description": "Snel en betrouwbaar uw Xiaomi Mi 17 Ultra repareren? Wij bieden alle reparaties met originele onderdelen en full service garantie."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-17-ultra/"
   ],
