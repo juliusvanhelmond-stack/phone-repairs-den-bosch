@@ -14,42 +14,35 @@
   "prices": [
     {
       "label": "Scherm, OLED 4K vervangen",
-      "price": "Prijs op aanvraag",
+      "price": "€395,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
     },
     {
       "label": "Achterkant vervangen",
-      "price": "Prijs op aanvraag",
+      "price": "€100,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "links": []
     },
     {
       "label": "Batterij vervangen",
-      "price": "Prijs op aanvraag",
+      "price": "€100,-",
       "repairId": "batterij-vervangen",
       "popular": false,
       "links": []
     },
     {
-      "label": "Koptelefoon ingang vervangen",
-      "price": "Prijs op aanvraag",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "links": []
-    },
-    {
       "label": "USB oplaadpunt vervangen",
-      "price": "op aanvraag",
+      "price": "€100,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "links": []
     },
     {
-      "label": "Volume, aan/uit knoppen vervangen",
-      "price": "op aanvraag",
+      "label": "Koptelefoon ingang vervangen",
+      "price": "€100,-",
       "repairId": "overige-reparaties",
       "popular": false,
       "links": []
