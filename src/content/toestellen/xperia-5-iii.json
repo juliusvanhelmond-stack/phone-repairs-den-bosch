@@ -1,20 +1,20 @@
 {
-  "name": "Xperia 10 IV",
+  "name": "Xperia 5 III",
   "brandId": "sony",
   "categoryId": "smartphone",
   "series": "Xperia",
   "order": 33103,
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/xperia-10-iv-1/photo.jpeg",
+  "photo": "/images/toestellen/xperia-5-iii/photo.jpeg",
   "popular": false,
   "aliases": [
-    "Xperia 10 IV",
-    "XQDQ62/B XQ-DQ72"
+    "Xperia 5 III",
+    "XQBQ62/G XQBQ52G XQBQ52B XQ-BQ52 XQ-BQ72"
   ],
   "prices": [
     {
       "label": "Scherm, OLED 4K vervangen",
-      "price": "€235,-",
+      "price": "€295,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
