@@ -6,16 +6,12 @@
   "order": 6100,
   "releaseYear": "2016",
   "art": "phone-home-button",
-  "photo": "/images/toestellen/iphone-7/photo.jpg",
+  "photo": "/images/toestellen/iphone-7/photo.jpeg",
   "popular": false,
   "aliases": [
     "iPhone 7 (A1660)",
     "A1660"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm vervangen",
@@ -189,6 +185,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-7-reparatie-den-bosch/"
   ],
