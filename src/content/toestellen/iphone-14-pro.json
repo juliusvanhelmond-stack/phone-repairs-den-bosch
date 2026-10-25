@@ -6,13 +6,9 @@
   "order": 3000,
   "releaseYear": "2022",
   "art": "phone-island",
-  "photo": "/images/toestellen/iphone-14-pro/photo.jpg",
+  "photo": "/images/toestellen/iphone-14-pro/photo.jpeg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "iPhone 14 Pro reparatie met originele onderdelen",
-    "description": "Snel en professioneel iPhone 14 Pro reparatie met garantie. Bezoek Phone Repairs Den Bosch voor topservice en originele onderdelen"
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
@@ -274,6 +270,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone 14 Pro reparatie met originele onderdelen",
+    "description": "Snel en professioneel iPhone 14 Pro reparatie met garantie. Bezoek Phone Repairs Den Bosch voor topservice en originele onderdelen"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-14-pro/"
   ],
