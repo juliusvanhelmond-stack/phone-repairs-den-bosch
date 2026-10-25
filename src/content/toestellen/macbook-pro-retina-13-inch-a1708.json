@@ -4,15 +4,10 @@
   "categoryId": "laptop",
   "series": "MacBook Pro",
   "order": 53312,
-  "releaseYear": "",
   "art": "laptop",
-  "photo": null,
+  "photo": "/images/toestellen/macbook-pro-retina-13-inch-a1708/photo.jpeg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "(2016-2017) scherm unit (complete bovenkant) vervangen origineel pulled",
@@ -34,6 +29,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [],
   "sources": [
     {
