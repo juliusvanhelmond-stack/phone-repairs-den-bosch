@@ -1,0 +1,119 @@
+{
+  "name": "Sony Xperia 10 V",
+  "brandId": "sony",
+  "categoryId": "smartphone",
+  "series": "Xperia 10",
+  "order": 104,
+  "art": "phone-punch-hole",
+  "photo": "/images/toestellen/sony-xperia-10-v/photo.jpeg",
+  "popular": false,
+  "aliases": [
+    "Sony Xperia 10 V"
+  ],
+  "prices": [
+    {
+      "label": "Scherm, OLED vervangen",
+      "price": "€225,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen",
+      "price": "€75,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€70,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Koptelefoon ingang vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB oplaadpunt vervangen",
+      "price": "€70,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Volume, aan/uit knoppen vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Microfoon vervangen",
+      "price": "€70,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera achterzijde vervangen",
+      "price": "€80,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Front camera vervangen",
+      "price": "€70,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "seo": {
+    "title": "Sony Xperia 10 V reparatie Den Bosch",
+    "description": "Sony Xperia 10 V reparatie klaar terwijl je wacht en meekijkt. Vakkundig gerepareerd. Originele onderdelen."
+  },
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-10-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-10-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2021-07-28."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "25545",
+      "pageTitle": "Sony Xperia 10",
+      "modified": "2021-07-28 23:28:38"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-10-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2021-07-28"
+  }
+}
