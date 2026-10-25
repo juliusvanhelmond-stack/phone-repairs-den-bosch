@@ -6,15 +6,11 @@
   "order": 54700,
   "releaseYear": "2025",
   "art": "tablet",
-  "photo": "/images/toestellen/ipad-11-2025/photo.jpg",
+  "photo": "/images/toestellen/ipad-11-2025/photo.jpeg",
   "popular": false,
   "aliases": [
     "iPad 11 2025 (11 inch)"
   ],
-  "seo": {
-    "title": "",
-    "description": "iPad 11 2025 reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, bel 073-8220013"
-  },
   "prices": [
     {
       "label": "Scherm (glas) vervangen origineel Apple service pack",
@@ -147,6 +143,9 @@
       ]
     }
   ],
+  "seo": {
+    "description": "iPad 11 2025 reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, bel 073-8220013"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-11-2025/"
   ],
