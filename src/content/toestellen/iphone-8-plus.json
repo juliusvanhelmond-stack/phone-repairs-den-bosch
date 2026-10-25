@@ -6,16 +6,12 @@
   "order": 5600,
   "releaseYear": "2017",
   "art": "phone-home-button",
-  "photo": "/images/toestellen/iphone-8-plus/photo.jpg",
+  "photo": "/images/toestellen/iphone-8-plus/photo.jpeg",
   "popular": false,
   "aliases": [
     "iPhone 8 Plus (A1864)",
     "A1864"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm vervangen",
@@ -175,6 +171,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-8-plus-reparatie-den-bosch/"
   ],
