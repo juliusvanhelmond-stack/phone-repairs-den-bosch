@@ -6,13 +6,9 @@
   "order": 54500,
   "releaseYear": "2022",
   "art": "tablet",
-  "photo": "/images/toestellen/ipad-air-2022/photo.webp",
+  "photo": "/images/toestellen/ipad-air-2022/photo.jpeg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "iPad Air 2022 reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, bel 073-8220013"
-  },
   "prices": [
     {
       "label": "Scherm origineel Apple service pack vervangen",
@@ -72,6 +68,9 @@
       ]
     }
   ],
+  "seo": {
+    "description": "iPad Air 2022 reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, bel 073-8220013"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-air-2022/"
   ],
