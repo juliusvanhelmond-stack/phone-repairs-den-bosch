@@ -6,15 +6,11 @@
   "order": 54800,
   "releaseYear": "2022",
   "art": "tablet",
-  "photo": "/images/toestellen/ipad-10-2022/photo.jpg",
+  "photo": "/images/toestellen/ipad-10-2022/photo.jpeg",
   "popular": false,
   "aliases": [
     "iPad 10 2022 (10.2 inch)"
   ],
-  "seo": {
-    "title": "",
-    "description": "iPad 10 2022 reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, bel 073-8220013"
-  },
   "prices": [
     {
       "label": "Scherm (glas) vervangen origineel Apple service pack",
@@ -144,6 +140,9 @@
       ]
     }
   ],
+  "seo": {
+    "description": "iPad 10 2022 reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, bel 073-8220013"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-10-2022/"
   ],
