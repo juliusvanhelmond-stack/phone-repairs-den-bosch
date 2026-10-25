@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "OnePlus",
   "order": 24000,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/oneplus-13t/photo.jpg",
+  "photo": "/images/toestellen/oneplus-13t/photo.jpeg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "OnePlus 13T reparatie: Professionele service",
-    "description": "Snel en professioneel uw OnePlus 13T reparatie bij Phone Repairs Den Bosch. Bel nu voor een afspraak en herstel je toestel."
-  },
   "prices": [
     {
       "label": "Scherm, Fluid OLED vervangen",
@@ -162,6 +157,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "OnePlus 13T reparatie: Professionele service",
+    "description": "Snel en professioneel uw OnePlus 13T reparatie bij Phone Repairs Den Bosch. Bel nu voor een afspraak en herstel je toestel."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-13-t/"
   ],
