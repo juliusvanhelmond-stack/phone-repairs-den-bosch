@@ -4,17 +4,12 @@
   "categoryId": "smartphone",
   "series": "Xperia",
   "order": 33900,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/xperia-5-ii/photo.jpg",
   "popular": false,
   "aliases": [
     "Sony Xperia 5 II"
   ],
-  "seo": {
-    "title": "",
-    "description": "Sony Xperia 5 II reparatie klaar terwijl je wacht en meekijkt iPhone, Nexus, Nokia, Huawei, Honor, Sony, Motorola, OnePlus. Originele onderdelen."
-  },
   "prices": [
     {
       "label": "Scherm, OLED 4K en frame vervangen",
@@ -94,6 +89,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Sony Xperia 5 II reparatie Den Bosch",
+    "description": "Sony Xperia 5 II reparatie klaar terwijl je wacht en meekijkt. Originele onderdelen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-5-ii/"
   ],
