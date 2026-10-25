@@ -4,18 +4,14 @@
   "categoryId": "smartphone",
   "series": "Xperia",
   "order": 33102,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/xperia-5/photo.jpg",
   "popular": false,
   "aliases": [
     "Sony Xperia 5",
-    "Sony Xperia 5 j9210"
+    "Sony Xperia 5 j9210",
+    "J8210 J8270 J9210 SOV41 SO-01M"
   ],
-  "seo": {
-    "title": "",
-    "description": "Sony Xperia 5 reparatie klaar terwijl je wacht en meekijkt iPhone, Nexus, Nokia, Huawei, Honor, Sony, Motorola, OnePlus. Vakkundig gerepareerd. Originele onderdelen."
-  },
   "prices": [
     {
       "label": "Scherm, OLED 4K en frame vervangen",
@@ -95,6 +91,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Sony Xperia 5 reparatie Den Bosch",
+    "description": "Sony Xperia 5 reparatie klaar terwijl je wacht en meekijkt. Vakkundig gerepareerd. Originele onderdelen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-5-reparatie/"
   ],
