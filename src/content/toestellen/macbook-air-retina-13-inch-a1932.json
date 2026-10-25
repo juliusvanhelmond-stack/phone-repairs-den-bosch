@@ -4,15 +4,10 @@
   "categoryId": "laptop",
   "series": "MacBook Air",
   "order": 53405,
-  "releaseYear": "",
   "art": "laptop",
-  "photo": null,
+  "photo": "/images/toestellen/macbook-air-retina-13-inch-a1932/photo.jpeg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "(2018 - 2019) scherm unit (complete bovenkant) vervangen origineel pulled",
@@ -34,6 +29,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [],
   "sources": [
     {
