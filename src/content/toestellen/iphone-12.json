@@ -6,16 +6,12 @@
   "order": 4100,
   "releaseYear": "2020",
   "art": "phone-notch",
-  "photo": "/images/toestellen/iphone-12/photo.jpg",
-  "popular": true,
+  "photo": "/images/toestellen/iphone-12/photo.jpeg",
+  "popular": false,
   "aliases": [
     "iPhone 12 (A2403)",
     "A2403"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
@@ -277,6 +273,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-12/"
   ],
