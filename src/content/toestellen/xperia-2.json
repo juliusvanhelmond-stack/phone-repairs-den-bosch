@@ -4,17 +4,13 @@
   "categoryId": "smartphone",
   "series": "Xperia",
   "order": 34100,
-  "releaseYear": "",
+  "releaseYear": "2026",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/xperia-2/photo.jpg",
   "popular": false,
   "aliases": [
     "Sony Xperia 2"
   ],
-  "seo": {
-    "title": "",
-    "description": "Sony Xperia 2 reparatie klaar terwijl je wacht en meekijkt iPhone, Nexus, Nokia, Huawei, Honor, Sony, Motorola, OnePlus. Vakkundig gerepareerd. Originele onderdelen."
-  },
   "prices": [
     {
       "label": "Scherm, OLED 4K vervangen",
@@ -94,6 +90,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Sony Xperia 2 reparatie Den Bosch",
+    "description": "Sony Xperia 2 reparatie klaar terwijl je wacht en meekijkt. Vakkundig gerepareerd. Originele onderdelen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-2-reparatie/"
   ],
