@@ -4,9 +4,8 @@
   "categoryId": "smartphone",
   "series": "Xperia",
   "order": 33103,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/xperia-1/photo.jpg",
+  "photo": "/images/toestellen/xperia-1/photo.jpeg",
   "popular": false,
   "aliases": [
     "Sony Xperia 1",
@@ -15,35 +14,31 @@
     "J9150",
     "J9180"
   ],
-  "seo": {
-    "title": "",
-    "description": "Sony Xperia 1 reparatie klaar terwijl je wacht en meekijkt iPhone, Nexus, Nokia, Huawei, Honor, Sony, Motorola, OnePlus. Vakkundig gerepareerd. Originele onderdelen."
-  },
   "prices": [
     {
       "label": "Scherm, OLED 4K vervangen",
-      "price": "€320,-",
+      "price": "€350,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
     },
     {
       "label": "Achterkant vervangen",
-      "price": "€75,-",
+      "price": "€100-",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "links": []
     },
     {
       "label": "Batterij vervangen",
-      "price": "€75,-",
+      "price": "€100,-",
       "repairId": "batterij-vervangen",
       "popular": false,
       "links": []
     },
     {
       "label": "Koptelefoon ingang vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "links": []
@@ -98,6 +93,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Sony Xperia 1 reparatie Den Bosch",
+    "description": "Sony Xperia 1 reparatie klaar terwijl je wacht en meekijktVakkundig gerepareerd. Originele onderdelen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-1-reparatie/"
   ],
