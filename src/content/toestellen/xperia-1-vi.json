@@ -1,8 +1,8 @@
 {
-  "name": "Xperia 1 VI",
+  "name": "Sony Xperia 1 VI",
   "brandId": "sony",
   "categoryId": "smartphone",
-  "series": "Xperia",
+  "series": "Xperia 1",
   "order": 33103,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/xperia-1-vi/photo.jpeg",
@@ -21,14 +21,14 @@
     },
     {
       "label": "Achterkant vervangen",
-      "price": "€100-",
+      "price": "€125,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "links": []
     },
     {
       "label": "Batterij vervangen",
-      "price": "€100,-",
+      "price": "€125,-",
       "repairId": "batterij-vervangen",
       "popular": false,
       "links": []
@@ -42,35 +42,35 @@
     },
     {
       "label": "USB oplaadpunt vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "links": []
     },
     {
       "label": "Volume, aan/uit knoppen vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "links": []
     },
     {
       "label": "Microfoon vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "links": []
     },
     {
       "label": "Camera achterzijde vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "links": []
     },
     {
       "label": "Front camera vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "links": []
@@ -91,8 +91,7 @@
     }
   ],
   "seo": {
-    "title": "Sony Xperia 1 VIreparatie Den Bosch",
-    "description": "Sony Xperia 1 VI reparatie klaar terwijl je wacht en meekijktVakkundig gerepareerd. Originele onderdelen."
+    "description": "Sony Xperia 1 VI reparatie klaar terwijl je wacht en meekijkt. Vakkundig gerepareerd. Originele onderdelen."
   },
   "legacyUrls": [
     "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-1-reparatie/"
