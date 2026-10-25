@@ -2,17 +2,12 @@
   "name": "OPPO Find N3 Flip",
   "brandId": "oppo",
   "categoryId": "smartphone",
-  "series": "OPPO Find X",
+  "series": "OPPO Find N",
   "order": 44000,
-  "releaseYear": "",
   "art": "phone-flip",
   "photo": "/images/toestellen/oppo-find-n3-flip/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "OPPO Find N3 Flip reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, AMOLED en frame vervangen",
@@ -92,6 +87,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "OPPO Find N3 Flip reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oppo-reparatie/oppo-find-n3-flip/"
   ],
