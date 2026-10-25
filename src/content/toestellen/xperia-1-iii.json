@@ -1,20 +1,20 @@
 {
-  "name": "Xperia 5 III",
+  "name": "Xperia 1 III",
   "brandId": "sony",
   "categoryId": "smartphone",
   "series": "Xperia",
   "order": 33103,
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/xperia-5-iii/photo.jpeg",
+  "photo": "/images/toestellen/xperia-1-iii/photo.jpeg",
   "popular": false,
   "aliases": [
-    "Xperia 5 III",
-    "XQBQ62/G XQBQ52G XQBQ52B XQ-BQ52 XQ-BQ72"
+    "Xperia 1 III",
+    "XQBC62/V XQBC52V A101SO XQ-BC62 XQ-BC72 XQ-BC52 XQ-BC01 XQ-BC11 XQ-BC21 XQ-BC72"
   ],
   "prices": [
     {
       "label": "Scherm, OLED 4K vervangen",
-      "price": "€295,-",
+      "price": "€395,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
