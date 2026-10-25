@@ -4,21 +4,17 @@
   "categoryId": "smartphone",
   "series": "Xperia",
   "order": 33101,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/xperia-10/photo.jpg",
   "popular": false,
   "aliases": [
-    "Sony Xperia 10"
+    "Sony Xperia 10",
+    "I3113 I4113 I4193 I3123"
   ],
-  "seo": {
-    "title": "",
-    "description": "Sony Xperia 10 reparatie klaar terwijl je wacht en meekijkt iPhone, Nexus, Nokia, Huawei, Honor, Sony, Motorola, OnePlus. Vakkundig gerepareerd. Originele onderdelen."
-  },
   "prices": [
     {
       "label": "Scherm, OLED vervangen",
-      "price": "€140,-",
+      "price": "€160,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
@@ -94,6 +90,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Sony Xperia 10 reparatie Den Bosch",
+    "description": "Sony Xperia 10 reparatie klaar terwijl je wacht en meekijkt. Vakkundig gerepareerd. Originele onderdelen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-10-reparatie/"
   ],
