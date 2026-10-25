@@ -6,13 +6,9 @@
   "order": 3700,
   "releaseYear": "2021",
   "art": "phone-notch",
-  "photo": "/images/toestellen/iphone-13-mini/photo.jpg",
+  "photo": "/images/toestellen/iphone-13-mini/photo.jpeg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm vervangen origineel pulled (origineel scherm afkomstig uit een nieuw toestel)",
@@ -262,6 +258,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-13-mini/"
   ],
