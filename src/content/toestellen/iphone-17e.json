@@ -5,13 +5,13 @@
   "series": "iPhone 17",
   "order": 1300,
   "art": "phone-island",
-  "photo": "/images/toestellen/iphone-17e/photo.jpg",
+  "photo": "/images/toestellen/iphone-17e/photo.jpeg",
   "popular": false,
   "aliases": [],
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
-      "price": "€125,-",
+      "price": "€150,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": [
