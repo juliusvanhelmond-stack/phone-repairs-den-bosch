@@ -6,15 +6,11 @@
   "order": 53305,
   "releaseYear": "2021",
   "art": "laptop",
-  "photo": null,
+  "photo": "/images/toestellen/macbook-pro-m1-2021-16-a2485/photo.jpeg",
   "popular": false,
   "aliases": [
     "Apple MacBook Pro 16\" A2485"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm unit (complete bovenkant) vervangen origineel Apple service pack",
@@ -48,6 +44,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [],
   "sources": [
     {
