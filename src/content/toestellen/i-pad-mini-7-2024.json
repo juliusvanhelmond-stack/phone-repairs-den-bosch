@@ -1,0 +1,84 @@
+{
+  "name": "iPad mini 7 2024",
+  "brandId": "apple",
+  "categoryId": "tablet",
+  "series": "iPad mini",
+  "order": 55100,
+  "releaseYear": "2024",
+  "art": "tablet",
+  "photo": "/images/toestellen/i-pad-mini-7-2024/photo.jpeg",
+  "popular": false,
+  "aliases": [],
+  "prices": [
+    {
+      "label": "Scherm origineel Apple service pack vervangen.",
+      "price": "€525,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Apple Lightning kabel MFi (Made For iPad) certificaat",
+      "price": "€20,-,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": [
+        {
+          "text": "MFi",
+          "href": "https://en.wikipedia.org/wiki/MFi_Program"
+        }
+      ]
+    },
+    {
+      "label": "Apple iPad lader 10W MFi (Made For iPad) certificaat",
+      "price": "€20,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "links": [
+        {
+          "text": "MFi",
+          "href": "https://en.wikipedia.org/wiki/MFi_Program"
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "title": "iPad Mini 7 2024 reparatie De Bosch",
+    "description": "iPad Mini 7 2024 reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie. Bel 073-8220013"
+  },
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-mini-6-2021/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-mini-6-2021/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-04-29."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "32544",
+      "pageTitle": "iPad mini 6 2021",
+      "modified": "2026-04-29 13:07:45"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-mini-6-2021/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-04-29"
+  }
+}
