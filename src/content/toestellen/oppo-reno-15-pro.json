@@ -11,28 +11,28 @@
   "prices": [
     {
       "label": "Scherm (origineel OPPO service pack, zoals OPPO vereist)",
-      "price": "Op aanvraag",
+      "price": "€275,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
     },
     {
       "label": "Achterkant incl. camera lenzen vervangen (origineel OPPO service pack, zoals OPPO vereist)",
-      "price": "Op aanvraag",
+      "price": "€99,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "links": []
     },
     {
       "label": "Batterij vervangen (origineel OPPO service pack, zoals OPPO vereist)",
-      "price": "op aanvraag",
+      "price": "€99,-",
       "repairId": "batterij-vervangen",
       "popular": false,
       "links": []
     },
     {
       "label": "USB oplaadconnector vervangen (origineel OPPO service pack, zoals OPPO vereist)",
-      "price": "op aanvraag",
+      "price": "€99,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "links": []
