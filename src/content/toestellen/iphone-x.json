@@ -6,16 +6,12 @@
   "order": 5100,
   "releaseYear": "2017",
   "art": "phone-notch",
-  "photo": "/images/toestellen/iphone-x/photo.webp",
+  "photo": "/images/toestellen/iphone-x/photo.jpeg",
   "popular": false,
   "aliases": [
     "iPhone X (A1901)",
     "A1901"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm vervangen origineel pulled (origineel scherm afkomstig uit een nieuw toestel)",
@@ -197,6 +193,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-x-reparatie-den-bosch/"
   ],
