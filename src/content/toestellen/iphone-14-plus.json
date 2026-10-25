@@ -6,13 +6,9 @@
   "order": 3100,
   "releaseYear": "2022",
   "art": "phone-notch",
-  "photo": "/images/toestellen/iphone-14-plus/photo.jpg",
+  "photo": "/images/toestellen/iphone-14-plus/photo.jpeg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "iPhone 14 Plus reparatie: originele onderdelen in Den Bosch",
-    "description": "Heeft u schade aan uw iPhone 14 Plus? Laat onze professionele iPhone 14 Plus reparatie snel uitvoeren met garantie."
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
@@ -286,6 +282,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone 14 Plus reparatie: originele onderdelen in Den Bosch",
+    "description": "Heeft u schade aan uw iPhone 14 Plus? Laat onze professionele iPhone 14 Plus reparatie snel uitvoeren met garantie."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-14-plus/"
   ],
