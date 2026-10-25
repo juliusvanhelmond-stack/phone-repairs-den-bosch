@@ -4,15 +4,10 @@
   "categoryId": "laptop",
   "series": "MacBook Air",
   "order": 53401,
-  "releaseYear": "",
   "art": "laptop",
-  "photo": null,
+  "photo": "/images/toestellen/macbook-air-retina-m2-15-inch-a2941/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "(2023)scherm unit (complete bovenkant) vervangen origineel Apple service pack",
@@ -46,6 +41,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [],
   "sources": [
     {
