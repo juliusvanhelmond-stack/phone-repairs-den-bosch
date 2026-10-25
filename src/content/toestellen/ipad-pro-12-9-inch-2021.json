@@ -6,15 +6,11 @@
   "order": 54000,
   "releaseYear": "2021",
   "art": "tablet",
-  "photo": "/images/toestellen/ipad-pro-12-9-inch-2021/photo.webp",
+  "photo": "/images/toestellen/ipad-pro-12-9-inch-2021/photo.jpeg",
   "popular": false,
   "aliases": [
     "A2378"
   ],
-  "seo": {
-    "title": "",
-    "description": "iPad Pro 12.9 Inch 2021 reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, bel 073-8220013"
-  },
   "prices": [
     {
       "label": "Scherm origineel Apple service pack vervangen",
@@ -36,6 +32,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "iPad Pro 12.9 Inch 2021 reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, bel 073-8220013"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-pro-reparatie/ipad-pro-12-9-inch-2021-reparatie/"
   ],
