@@ -6,7 +6,7 @@
   "order": 4500,
   "releaseYear": "2019",
   "art": "phone-notch",
-  "photo": "/images/toestellen/iphone-11-pro/photo.jpg",
+  "photo": "/images/toestellen/iphone-11-pro/photo.jpeg",
   "popular": false,
   "aliases": [
     "iPhone 11 Pro (A2160, A2215 en A2217)",
@@ -14,10 +14,6 @@
     "A2215",
     "A2217"
   ],
-  "seo": {
-    "title": "iPhone 11 Pro reparatie met garantie van 12 maanden",
-    "description": "Laat uw iPhone 11 Pro reparatie snel en professioneel uitvoeren met garantie op originele onderdelen."
-  },
   "prices": [
     {
       "label": "Scherm vervangen origineel pulled (origineel scherm afkomstig uit een nieuw toestel)",
@@ -185,6 +181,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone 11 Pro reparatie met garantie van 12 maanden",
+    "description": "Laat uw iPhone 11 Pro reparatie snel en professioneel uitvoeren met garantie op originele onderdelen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-11-pro/"
   ],
