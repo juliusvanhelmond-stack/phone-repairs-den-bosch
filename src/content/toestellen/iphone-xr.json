@@ -6,16 +6,12 @@
   "order": 5000,
   "releaseYear": "2018",
   "art": "phone-notch",
-  "photo": "/images/toestellen/iphone-xr/photo.jpg",
+  "photo": "/images/toestellen/iphone-xr/photo.jpeg",
   "popular": false,
   "aliases": [
     "iPhone XR (A1984)",
     "A1984"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm vervangen origineel pulled (origineel scherm afkomstig uit een nieuw toestel)",
@@ -197,6 +193,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-x-r-reparatie/"
   ],
