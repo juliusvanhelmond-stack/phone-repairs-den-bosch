@@ -4,31 +4,41 @@
   "categoryId": "smartphone",
   "series": "Xperia",
   "order": 33500,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/xperia-1-ii/photo.jpg",
   "popular": false,
   "aliases": [
     "Sony Xperia 1 II",
     "Sony Xperia 1 II (XQ-AT52)",
-    "XQ-AT52"
+    "XQ-AT52",
+    "XQ-AT51"
   ],
-  "seo": {
-    "title": "",
-    "description": "Sony Xperia 1 II reparatie klaar terwijl je wacht en meekijkt iPhone, Nexus, Nokia, Huawei, Honor, Sony, Vakkundig gerepareerd. Originele onderdelen."
-  },
   "prices": [
     {
       "label": "Scherm, OLED 4K vervangen",
-      "price": "€425,-",
+      "price": "€395,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
     },
     {
       "label": "Achterkant vervangen",
-      "price": "op aanvraag",
+      "price": "€100,-",
       "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€100,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "USB oplaadpunt vervangen",
+      "price": "€100,-",
+      "repairId": "oplaadpoort-repareren",
       "popular": false,
       "links": []
     },
@@ -36,13 +46,6 @@
       "label": "Koptelefoon ingang vervangen",
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "USB oplaadpunt vervangen",
-      "price": "op aanvraag",
-      "repairId": "oplaadpoort-repareren",
       "popular": false,
       "links": []
     },
@@ -82,6 +85,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Sony Xperia 1 II reparatie Den Bosch",
+    "description": "Sony Xperia 1 II reparatie klaar terwijl je wacht en meekijkt Vakkundig gerepareerd. Originele onderdelen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-1-ii-reparatie/"
   ],
