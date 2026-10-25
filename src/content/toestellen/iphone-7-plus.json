@@ -6,16 +6,12 @@
   "order": 5900,
   "releaseYear": "2016",
   "art": "phone-home-button",
-  "photo": "/images/toestellen/iphone-7-plus/photo.jpg",
+  "photo": "/images/toestellen/iphone-7-plus/photo.jpeg",
   "popular": false,
   "aliases": [
     "iPhone 7 Plus (A1661)",
     "A1661"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm vervangen",
@@ -189,6 +185,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-7-plus-reparatie-den-bosch/"
   ],
