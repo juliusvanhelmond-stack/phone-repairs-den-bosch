@@ -97,10 +97,29 @@ try {
 
 // Devices and price lists (CMS collection src/content/toestellen, one file per device).
 const deviceErrors: string[] = [];
-const deviceRecords = readdirSync(join(ROOT, DEVICES_DIR))
+const deviceEntries = readdirSync(join(ROOT, DEVICES_DIR))
   .filter((f) => f.endsWith(".json"))
   .sort()
-  .map((f) => fromEntry(f.slice(0, -5), JSON.parse(readFileSync(join(ROOT, DEVICES_DIR, f), "utf8")) as DeviceEntry, deviceErrors));
+  .map((f) => ({ slug: f.slice(0, -5), entry: JSON.parse(readFileSync(join(ROOT, DEVICES_DIR, f), "utf8")) as DeviceEntry }));
+// A device duplicated in the CMS carries the original's hidden provenance (old URLs, sources). The
+// original keeps it: the device whose slug is in the old URL, else the first one. Copies count as new.
+const legacyClaims = new Map<string, string[]>();
+for (const { slug, entry } of deviceEntries) {
+  for (const url of entry.legacyUrls ?? []) legacyClaims.set(url, [...(legacyClaims.get(url) ?? []), slug]);
+}
+for (const [url, slugs] of legacyClaims) {
+  if (slugs.length < 2) continue;
+  const owner = slugs.find((s) => url.replace(/\/$/, "").endsWith(`/${s}`)) ?? slugs[0];
+  for (const { slug, entry } of deviceEntries) {
+    if (slug === owner || !slugs.includes(slug)) continue;
+    delete entry.legacyUrls;
+    delete entry.sources;
+    delete entry.extra;
+    delete entry.priceSource;
+    console.warn(`! toestel ${slug} is een kopie van ${owner}: herkomst van ${owner} niet overgenomen`);
+  }
+}
+const deviceRecords = deviceEntries.map(({ slug, entry }) => fromEntry(slug, entry, deviceErrors));
 if (deviceErrors.length) {
   console.error(deviceErrors.map((e) => `✗ ${e}`).join("\n"));
   process.exit(1);

@@ -92,6 +92,12 @@ export default config({
           slug: {
             label: "URL-naam",
             description: "Wordt de URL: /reparaties/<merk>/<url-naam>. Wordt automatisch ingevuld; niet meer wijzigen als het toestel online staat.",
+            validation: {
+              pattern: {
+                regex: /^[a-z0-9]+(?:-[a-z0-9]+)*$/,
+                message: "Alleen kleine letters, cijfers en streepjes, bijv. oppo-reno-15-pro.",
+              },
+            },
           },
         }),
         brandId: fields.select({ label: "Merk", options: brandOptions, defaultValue: "apple" }),
