@@ -4,15 +4,10 @@
   "categoryId": "laptop",
   "series": "MacBook Air",
   "order": 53402,
-  "releaseYear": "",
   "art": "laptop",
-  "photo": null,
+  "photo": "/images/toestellen/macbook-air-13-inch-a2681/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "MacBook Air Retina A2681 scherm unit (complete bovenkant) vervangen origineel Apple service pack",
@@ -46,6 +41,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [],
   "sources": [
     {
