@@ -4,21 +4,16 @@
   "categoryId": "smartphone",
   "series": "Xperia",
   "order": 33300,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/xperia-10-iv/photo.jpg",
   "popular": false,
   "aliases": [
     "Sony Xperia 10 IV"
   ],
-  "seo": {
-    "title": "",
-    "description": "Sony Xperia 10 IV reparatie klaar terwijl je wacht en meekijkt iPhone, Xiaomi, Sony, Motorola, OnePlus. Vakkundig gerepareerd. Originele onderdelen."
-  },
   "prices": [
     {
       "label": "Scherm, OLED vervangen",
-      "price": "€280,-",
+      "price": "€240,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
@@ -73,6 +68,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Sony Xperia 10 IV reparatie Den Bosch",
+    "description": "Sony Xperia 10 IV reparatie klaar terwijl je wacht en meekijkt. Originele onderdelen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-10-iv/"
   ],
