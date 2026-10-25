@@ -6,16 +6,12 @@
   "order": 5800,
   "releaseYear": "2017",
   "art": "phone-home-button",
-  "photo": "/images/toestellen/iphone-8/photo.jpg",
+  "photo": "/images/toestellen/iphone-8/photo.jpeg",
   "popular": false,
   "aliases": [
     "iPhone 8 (A1863)",
     "A1863"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm vervangen",
@@ -266,6 +262,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-8-reparatie-den-bosch/"
   ],
