@@ -1,15 +1,15 @@
 {
-  "name": "Xperia 1 VI",
+  "name": "Xperia 5 V",
   "brandId": "sony",
   "categoryId": "smartphone",
   "series": "Xperia",
   "order": 33103,
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/xperia-1-vi/photo.jpeg",
+  "photo": "/images/toestellen/xperia-5-v/photo.jpeg",
   "popular": false,
   "aliases": [
-    "Xperia 1 VI",
-    "XQEC54EUKCB.GC XQEC54EUKCG.GC XQEC54EUKCS.GC XQ-EC72"
+    "Xperia 5 V",
+    "XQ-DE54"
   ],
   "prices": [
     {
