@@ -6,13 +6,9 @@
   "order": 5300,
   "releaseYear": "2022",
   "art": "phone-home-button",
-  "photo": "/images/toestellen/iphone-se-2022/photo.jpg",
+  "photo": "/images/toestellen/iphone-se-2022/photo.jpeg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm vervangen",
@@ -189,6 +185,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-se-2022/"
   ],
