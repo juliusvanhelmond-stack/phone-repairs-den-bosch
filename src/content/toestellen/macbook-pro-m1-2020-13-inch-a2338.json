@@ -6,13 +6,9 @@
   "order": 53306,
   "releaseYear": "2020",
   "art": "laptop",
-  "photo": null,
+  "photo": "/images/toestellen/macbook-pro-m1-2020-13-inch-a2338/photo.webp",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm unit (complete bovenkant) vervangen origineel pulled",
@@ -41,6 +37,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [],
   "sources": [
     {
