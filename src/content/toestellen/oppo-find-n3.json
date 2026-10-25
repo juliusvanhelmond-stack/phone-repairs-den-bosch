@@ -2,17 +2,12 @@
   "name": "OPPO Find N3",
   "brandId": "oppo",
   "categoryId": "smartphone",
-  "series": "OPPO Find X",
+  "series": "OPPO Find N",
   "order": 43900,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/oppo-find-n3/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "OPPO Find OPPO Find N3 reparatie - Phone Repairs",
-    "description": "OPPO Find N3 reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm (voorkant), OLED (origineel Oppo service pack, zoals Oppo vereist) vervangen",
@@ -97,6 +92,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "OPPO Find OPPO Find N3 reparatie - Phone Repairs",
+    "description": "OPPO Find N3 reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oppo-reparatie/oppo-find-n3/",
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/oppo-find-n3-reparatie/"
