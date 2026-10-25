@@ -4,15 +4,10 @@
   "categoryId": "laptop",
   "series": "MacBook Air",
   "order": 53403,
-  "releaseYear": "",
   "art": "laptop",
-  "photo": null,
+  "photo": "/images/toestellen/macbook-air-retina-m1-13-inch-a2337/photo.jpeg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "(2020) scherm unit (complete bovenkant) vervangen origineel pulled",
@@ -34,6 +29,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [],
   "sources": [
     {
