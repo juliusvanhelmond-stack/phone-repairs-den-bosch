@@ -4,17 +4,12 @@
   "categoryId": "laptop",
   "series": "MacBook Neo",
   "order": 53500,
-  "releaseYear": "",
   "art": "laptop",
-  "photo": null,
+  "photo": "/images/toestellen/macbook-neo/photo.jpg",
   "popular": false,
   "aliases": [
     "MacBook Neo reparatie"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm unit (complete bovenkant) vervangen origineel Apple service pack",
@@ -141,6 +136,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [],
   "sources": [
     {
