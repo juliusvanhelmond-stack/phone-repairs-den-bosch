@@ -4,15 +4,10 @@
   "categoryId": "laptop",
   "series": "MacBook Pro",
   "order": 53308,
-  "releaseYear": "",
   "art": "laptop",
-  "photo": null,
+  "photo": "/images/toestellen/macbook-pro-retina-15-inch-a1707/photo.jpeg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm unit (complete bovenkant) vervangen origineel pulled",
@@ -34,6 +29,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [],
   "sources": [
     {
