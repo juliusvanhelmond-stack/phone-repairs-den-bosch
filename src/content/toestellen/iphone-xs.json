@@ -6,16 +6,12 @@
   "order": 4900,
   "releaseYear": "2018",
   "art": "phone-notch",
-  "photo": "/images/toestellen/iphone-xs/photo.jpg",
+  "photo": "/images/toestellen/iphone-xs/photo.jpeg",
   "popular": false,
   "aliases": [
     "iPhone XS (A1920)",
     "A1920"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm vervangen vervangen origineel pulled (origineel scherm afkomstig uit een nieuw toestel)",
@@ -190,6 +186,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-xs-reparatie/"
   ],
