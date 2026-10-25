@@ -6,18 +6,14 @@
   "order": 4600,
   "releaseYear": "2019",
   "art": "phone-notch",
-  "photo": "/images/toestellen/iphone-11/photo.jpg",
-  "popular": true,
+  "photo": "/images/toestellen/iphone-11/photo.jpeg",
+  "popular": false,
   "aliases": [
     "iPhone 11 (A2111, A222 en A2223)",
     "A2111",
     "A222",
     "A2223"
   ],
-  "seo": {
-    "title": "iPhone 11 reparatie met garantie en kwaliteit",
-    "description": "Laat uw iPhone 11 snel en professioneel repareren. Bel nu voor scherm vervanging, batterij vervanging en meer."
-  },
   "prices": [
     {
       "label": "Scherm vervangen origineel pulled (origineel scherm afkomstig uit een nieuw toestel)",
@@ -192,6 +188,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone 11 reparatie met garantie en kwaliteit",
+    "description": "Laat uw iPhone 11 snel en professioneel repareren. Bel nu voor scherm vervanging, batterij vervanging en meer."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-11/"
   ],
