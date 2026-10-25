@@ -4,18 +4,14 @@
   "categoryId": "smartphone",
   "series": "Xperia",
   "order": 33400,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/xperia-10-iii/photo.jpg",
   "popular": false,
   "aliases": [
     "Sony Xperia 10 III",
-    "Sony Xperia 10 III (XQ-BT520"
+    "Sony Xperia 10 III (XQ-BT520",
+    "SO-52B SOG04 XQ-BT52 A102SO"
   ],
-  "seo": {
-    "title": "",
-    "description": "Sony Xperia 10 III reparatie klaar terwijl je wacht en meekijkt iPhone, Xiaomi, Sony, Motorola, OnePlus. Vakkundig gerepareerd. Originele onderdelen."
-  },
   "prices": [
     {
       "label": "Scherm, OLED vervangen",
@@ -74,6 +70,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Sony Xperia 10 III reparatie Den Bosch",
+    "description": "Sony Xperia 10 III reparatie klaar terwijl je wacht en meekijkt. Vakkundig gerepareerd. Originele onderdelen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-10-iii/"
   ],
