@@ -6,15 +6,11 @@
   "order": 53307,
   "releaseYear": "2019",
   "art": "laptop",
-  "photo": null,
+  "photo": "/images/toestellen/macbook-pro-16-2019-2020-a2141/photo.jpeg",
   "popular": false,
   "aliases": [
     "Apple MacBook Pro 16\" A2141"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "MacBook Pro 16″ (2019 / 2020) A2141 scherm unit (complete bovenkant) vervangen origineel pulled",
@@ -43,6 +39,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [],
   "sources": [
     {
