@@ -6,16 +6,12 @@
   "order": 5200,
   "releaseYear": "2020",
   "art": "phone-home-button",
-  "photo": "/images/toestellen/iphone-se-2020/photo.jpg",
+  "photo": "/images/toestellen/iphone-se-2020/photo.jpeg",
   "popular": false,
   "aliases": [
     "iPhone SE 2020 (A2296)",
     "A2296"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm vervangen",
@@ -192,6 +188,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-se-2020/"
   ],
