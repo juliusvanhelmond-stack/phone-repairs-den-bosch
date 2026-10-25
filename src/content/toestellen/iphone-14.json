@@ -6,13 +6,9 @@
   "order": 3200,
   "releaseYear": "2022",
   "art": "phone-notch",
-  "photo": "/images/toestellen/iphone-14/photo.jpg",
+  "photo": "/images/toestellen/iphone-14/photo.jpeg",
   "popular": true,
   "aliases": [],
-  "seo": {
-    "title": "iPhone 14 reparatie: Snel en Professioneel",
-    "description": "Professionele iPhone 14 reparatie met garantie. Laat uw gebarsten scherm snel en vakkundig herstellen bij Phone Repairs Den Bosch."
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
@@ -286,6 +282,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPhone 14 reparatie: Snel en Professioneel",
+    "description": "Professionele iPhone 14 reparatie met garantie. Laat uw gebarsten scherm snel en vakkundig herstellen bij Phone Repairs Den Bosch."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-14-reparatie/"
   ],
