@@ -1,20 +1,20 @@
 {
-  "name": "Xperia 10 V",
+  "name": "Xperia 1 V",
   "brandId": "sony",
   "categoryId": "smartphone",
   "series": "Xperia",
   "order": 33103,
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/xperia-10-v/photo.jpeg",
+  "photo": "/images/toestellen/xperia-1-v/photo.jpeg",
   "popular": false,
   "aliases": [
-    "Xperia 10 V",
-    "XQ-DE54"
+    "Xperia 1 V",
+    "XQDQ62/B XQ-DQ72"
   ],
   "prices": [
     {
       "label": "Scherm, OLED 4K vervangen",
-      "price": "€225,-",
+      "price": "€395,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
