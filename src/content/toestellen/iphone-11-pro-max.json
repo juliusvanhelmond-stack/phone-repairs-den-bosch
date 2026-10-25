@@ -6,7 +6,7 @@
   "order": 4300,
   "releaseYear": "2019",
   "art": "phone-notch",
-  "photo": "/images/toestellen/iphone-11-pro-max/photo.jpg",
+  "photo": "/images/toestellen/iphone-11-pro-max/photo.jpeg",
   "popular": false,
   "aliases": [
     "iPhone 11 Pro Max (A2218,A2161,A2220)",
@@ -14,10 +14,6 @@
     "A2161",
     "A2220"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm vervangen origineel pulled (origineel scherm afkomstig uit een nieuw toestel)",
@@ -185,6 +181,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-11-pro-max/",
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-11-pro-max-2/"
