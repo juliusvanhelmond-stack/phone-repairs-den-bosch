@@ -1,76 +1,75 @@
 {
-  "name": "Xperia 5 III ",
+  "name": "Sony Xperia 5 III",
   "brandId": "sony",
   "categoryId": "smartphone",
-  "series": "Xperia",
-  "order": 33900,
+  "series": "Xperia 5",
+  "order": 33103,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/xperia-5-iii/photo.jpeg",
   "popular": false,
   "aliases": [
-    "Sony Xperia 5 II",
-    "XQBQ62/G XQBQ52G XQBQ52B XQ-BQ52 XQ-BQ72"
+    "XQBC52V"
   ],
   "prices": [
     {
-      "label": "Scherm, OLED 4K en frame vervangen",
-      "price": "€330,-",
+      "label": "Scherm, OLED 4K vervangen",
+      "price": "€395,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
     },
     {
       "label": "Achterkant vervangen",
-      "price": "€85,-",
+      "price": "€125,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "links": []
     },
     {
       "label": "Batterij vervangen",
-      "price": "€85,-",
+      "price": "€125,-",
       "repairId": "batterij-vervangen",
       "popular": false,
       "links": []
     },
     {
       "label": "Koptelefoon ingang vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "links": []
     },
     {
       "label": "USB oplaadpunt vervangen",
-      "price": "€95,-",
+      "price": "Prijs op aanvraag",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "links": []
     },
     {
       "label": "Volume, aan/uit knoppen vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "links": []
     },
     {
       "label": "Microfoon vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "links": []
     },
     {
       "label": "Camera achterzijde vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "links": []
     },
     {
       "label": "Front camera vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "links": []
@@ -91,30 +90,30 @@
     }
   ],
   "seo": {
-    "title": "Sony Xperia 5 II reparatie Den Bosch",
-    "description": "Sony Xperia 5 II reparatie klaar terwijl je wacht en meekijkt. Originele onderdelen."
+    "title": "Sony Xperia 5 III reparatie Den Bosch",
+    "description": "Sony Xperia 5 III reparatie klaar terwijl je wacht en meekijkt. Vakkundig gerepareerd. Originele onderdelen."
   },
   "legacyUrls": [
-    "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-5-ii/"
+    "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-1-reparatie/"
   ],
   "sources": [
     {
-      "url": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-5-ii/",
+      "url": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-1-reparatie/",
       "verification": "verified-source",
       "capturedAt": "2026-10-12",
-      "note": "WordPress export 2026-10-12; page last changed 2023-04-26."
+      "note": "WordPress export 2026-10-12; page last changed 2020-06-10."
     }
   ],
   "extra": {
     "wordpress": {
-      "pageId": "30359",
-      "pageTitle": "Sony Xperia 5 II",
-      "modified": "2023-04-26 11:53:53"
+      "pageId": "23733",
+      "pageTitle": "Sony Xperia 1",
+      "modified": "2020-06-10 21:37:30"
     }
   },
   "priceSource": {
-    "sourceUrl": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-5-ii/",
+    "sourceUrl": "https://www.phonerepairs.nl/sony-xperia-reparatie/sony-xperia-1-reparatie/",
     "capturedAt": "2026-10-12",
-    "updatedAt": "2023-04-26"
+    "updatedAt": "2020-06-10"
   }
 }
