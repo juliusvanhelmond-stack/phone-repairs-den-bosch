@@ -6,7 +6,7 @@
   "order": 53900,
   "releaseYear": "2024",
   "art": "tablet",
-  "photo": "/images/toestellen/ipad-pro-13-inch-2024/photo.webp",
+  "photo": "/images/toestellen/ipad-pro-13-inch-2024/photo.jpeg",
   "popular": false,
   "aliases": [
     "iPad Pro 13 inch 2024 (A2925, A2926, A3007)",
@@ -14,10 +14,6 @@
     "A2926",
     "A3007"
   ],
-  "seo": {
-    "title": "iPad Pro 13 inch 2024 reparatie snel geregeld",
-    "description": "Snel en professioneel iPad Pro 13 inch 2024 reparatie inclusief garantie en originele onderdelen. Neem contact met ons op!"
-  },
   "prices": [
     {
       "label": "Scherm origineel Apple service pack vervangen",
@@ -39,6 +35,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "iPad Pro 13 inch 2024 reparatie snel geregeld",
+    "description": "Snel en professioneel iPad Pro 13 inch 2024 reparatie inclusief garantie en originele onderdelen. Neem contact met ons op!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-pro-reparatie/ipad-pro-13-inch-2024/"
   ],
