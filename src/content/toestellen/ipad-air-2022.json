@@ -42,30 +42,6 @@
       "repairId": "waterschade",
       "popular": false,
       "links": []
-    },
-    {
-      "label": "Apple Lightning kabel MFi (Made For iPad) certificaat",
-      "price": "€20,-",
-      "repairId": "accessoire",
-      "popular": false,
-      "links": [
-        {
-          "text": "MFi",
-          "href": "https://en.wikipedia.org/wiki/MFi_Program"
-        }
-      ]
-    },
-    {
-      "label": "Apple iPad lader 10W MFi (Made For iPad) certificaat",
-      "price": "€25,-",
-      "repairId": "accessoire",
-      "popular": false,
-      "links": [
-        {
-          "text": "MFi",
-          "href": "https://en.wikipedia.org/wiki/MFi_Program"
-        }
-      ]
     }
   ],
   "seo": {
