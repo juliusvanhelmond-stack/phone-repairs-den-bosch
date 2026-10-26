@@ -7,46 +7,48 @@
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/motorola-signature-27/photo.jpeg",
   "popular": false,
-  "aliases": [],
+  "aliases": [
+    "Motorola Signature 27"
+  ],
   "prices": [
     {
       "label": "Scherm unit vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
     },
     {
       "label": "Achterzijde (incl. camera lenzen) vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "links": []
     },
     {
       "label": "Batterij vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
       "links": []
     },
     {
       "label": "Oplaadpoort vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "links": []
     },
     {
       "label": "Oorluidspreker vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "links": []
     },
     {
       "label": "Luidspreker vervangen",
-      "price": "op aanvraag,",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "links": []
@@ -65,7 +67,7 @@
     }
   ],
   "seo": {
-    "title": "Motorola Signature reparatie: snelle en professionele service",
+    "title": "Motorola Signature 27 reparatie: snelle en professionele service",
     "description": "Professionele Motorola Signature 27 reparatie met originele onderdelen en transparante prijzen. Bel snel voor een afspraak voor hulp!"
   },
   "legacyUrls": [
