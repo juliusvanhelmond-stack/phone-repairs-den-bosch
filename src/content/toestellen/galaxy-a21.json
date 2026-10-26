@@ -4,17 +4,12 @@
   "categoryId": "smartphone",
   "series": "Galaxy A",
   "order": 13700,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": null,
+  "photo": "/images/toestellen/galaxy-a21/photo.jpeg",
   "popular": false,
   "aliases": [
     "Samsung A21"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung A21 reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen √ 12 maanden gar."
-  },
   "prices": [
     {
       "label": "Scherm, LCD en frame vervangen (originele Samsung service pack, zoals Samsung vereist)",
@@ -99,6 +94,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung A21 reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen √ 12 maanden gar."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a21/"
   ],
