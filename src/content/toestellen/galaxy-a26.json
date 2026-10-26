@@ -6,16 +6,12 @@
   "order": 13100,
   "releaseYear": "2025",
   "art": "phone-punch-hole",
-  "photo": null,
+  "photo": "/images/toestellen/galaxy-a26/photo.jpeg",
   "popular": false,
   "aliases": [
     "Samsung A26",
     "Samsung A26 5G"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung A26 reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen"
-  },
   "prices": [
     {
       "label": "Scherm, LCD vervangen",
@@ -107,6 +103,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung A26 reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a26/"
   ],
