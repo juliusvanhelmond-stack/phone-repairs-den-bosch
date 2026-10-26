@@ -1,0 +1,132 @@
+{
+  "name": "Motorola Razr 60",
+  "brandId": "motorola",
+  "categoryId": "smartphone",
+  "series": "Motorola Razr",
+  "order": 50800,
+  "art": "phone-flip",
+  "photo": "/images/toestellen/motorola-razr-60/photo.jpeg",
+  "popular": false,
+  "aliases": [
+    "Motorola Razr 60",
+    "XT2553"
+  ],
+  "prices": [
+    {
+      "label": "Scherm, OLED,frame / zijkanten en scharnier vervangen (origineel Motorola service pack, zoals Motorola vereist) vervangen",
+      "price": "€395,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "achterkant (boven) incl. OLED scherm en cameralenzen vervangen",
+      "price": "€175,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterijen vervangen",
+      "price": "€155,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadpoort vervangen",
+      "price": "€95,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "€95,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Luidspreker vervangen",
+      "price": "€95,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera main achterzijde vervangen",
+      "price": "€95,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera Ultra Wide achterzijde vervangen",
+      "price": "€95,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Camera voorzijde vervangen",
+      "price": "€95,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Trilmotor vervangen",
+      "price": "€95,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "SIM kaart houder",
+      "price": "€25,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Motorola Razr 60: snelle en professionele service",
+    "description": "Motorola Razr 60 reparatie met originele onderdelen en transparante prijzen. Bel snel voor een afspraak voor hulp!"
+  },
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/motorola-reparatie/motorola-razr-50-ultra/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/motorola-reparatie/motorola-razr-50-ultra/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-10-07."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "42848",
+      "pageTitle": "Motorola Razr 50 Ultra",
+      "modified": "2026-10-07 13:27:55"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/motorola-reparatie/motorola-razr-50-ultra/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-10-07"
+  }
+}
