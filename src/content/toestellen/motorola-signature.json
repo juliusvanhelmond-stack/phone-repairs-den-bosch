@@ -4,22 +4,17 @@
   "categoryId": "smartphone",
   "series": "Motorola Signature",
   "order": 50800,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/motorola-signature/photo.jpg",
+  "photo": "/images/toestellen/motorola-signature/photo.png",
   "popular": false,
   "aliases": [
     "Motorola Signature (XT-2603-2)",
     "XT-2603-2"
   ],
-  "seo": {
-    "title": "Motorola Signature reparatie: snelle en professionele service",
-    "description": "Professionele Motorola Signature reparatie met originele onderdelen en transparante prijzen. Bel snel voor een afspraak voor hulp!"
-  },
   "prices": [
     {
       "label": "Scherm unit vervangen",
-      "price": "€295,-",
+      "price": "€250,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
@@ -72,6 +67,10 @@
       ]
     }
   ],
+  "seo": {
+    "title": "Motorola Signature reparatie: snelle en professionele service",
+    "description": "Professionele Motorola Signature reparatie met originele onderdelen en transparante prijzen. Bel snel voor een afspraak voor hulp!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/motorola-reparatie/motorola-signature-2/"
   ],
