@@ -7,7 +7,9 @@
   "art": "laptop",
   "photo": "/images/toestellen/mac-book-air-13-2018-2019-a1932/photo.jpeg",
   "popular": false,
-  "aliases": [],
+  "aliases": [
+    "A1932"
+  ],
   "prices": [
     {
       "label": "(2018 - 2019) scherm unit (complete bovenkant) vervangen origineel pulled",
