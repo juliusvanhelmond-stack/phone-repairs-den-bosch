@@ -9,7 +9,8 @@
   "photo": "/images/toestellen/mac-book-pro-2021-16-m1-pro-a2485/photo.jpeg",
   "popular": false,
   "aliases": [
-    "Apple MacBook Pro 16\" A2485"
+    "Apple MacBook Pro 16\" A2485",
+    "A2485"
   ],
   "prices": [
     {
@@ -25,7 +26,7 @@
       ]
     },
     {
-      "label": "Scherm unit (complete bovenkant) vervangen origineel pulled",
+      "label": "MacBook Pro 2021 16″ M1 Pro A2485 scherm unit (complete bovenkant) vervangen origineel pulled",
       "price": "€875,-",
       "repairId": "scherm-vervangen",
       "popular": true,
@@ -37,7 +38,7 @@
       ]
     },
     {
-      "label": "Batterij vervangen",
+      "label": "MacBook Pro 2021 16″ M1 Pro A2485 batterij vervangen",
       "price": "€250,-",
       "repairId": "batterij-vervangen",
       "popular": false,
