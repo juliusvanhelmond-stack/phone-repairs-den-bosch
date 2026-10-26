@@ -8,7 +8,9 @@
   "art": "laptop",
   "photo": "/images/toestellen/mac-book-pro-2021-14-m1-pro-a2442/photo.jpeg",
   "popular": false,
-  "aliases": [],
+  "aliases": [
+    "A2442"
+  ],
   "prices": [
     {
       "label": "MacBook Pro 2021 14″ M1 Pro A2442 scherm unit (complete bovenkant) vervangen origineel Apple service pack",
@@ -23,7 +25,7 @@
       ]
     },
     {
-      "label": "Scherm unit (complete bovenkant) vervangen origineel pulled.",
+      "label": "MacBook Pro 2021 14″ M1 Pro A2442 scherm unit (complete bovenkant) vervangen origineel pulled.",
       "price": "€875,-",
       "repairId": "scherm-vervangen",
       "popular": true,
@@ -35,7 +37,7 @@
       ]
     },
     {
-      "label": "Batterij vervangen",
+      "label": "MacBook Pro 2021 14″ M1 Pro A2442 batterij vervangen",
       "price": "€250,-",
       "repairId": "batterij-vervangen",
       "popular": false,
