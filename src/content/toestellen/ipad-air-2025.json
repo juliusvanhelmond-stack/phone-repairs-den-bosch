@@ -11,19 +11,7 @@
   "aliases": [],
   "prices": [
     {
-      "label": "Scherm (glas) en LCD 11 inch vervangen origineel Apple service pack",
-      "price": "€650,-",
-      "repairId": "scherm-vervangen",
-      "popular": false,
-      "links": [
-        {
-          "text": "origineel Apple service pack",
-          "href": "/originele-onderdelen-phone-repairs"
-        }
-      ]
-    },
-    {
-      "label": "Scherm (glas) en LCD 13 inch vervangen origineel Apple service pack",
+      "label": "Scherm (glas) en LCD inch vervangen origineel Apple service pack",
       "price": "€750,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -50,34 +38,10 @@
     },
     {
       "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
-      "price": "€50,-",
+      "price": "€60,-",
       "repairId": "waterschade",
       "popular": false,
       "links": []
-    },
-    {
-      "label": "Apple Lightning kabel MFi (Made For iPad) certificaat",
-      "price": "€20,-",
-      "repairId": "accessoire",
-      "popular": false,
-      "links": [
-        {
-          "text": "MFi",
-          "href": "https://en.wikipedia.org/wiki/MFi_Program"
-        }
-      ]
-    },
-    {
-      "label": "Apple iPad lader 10W MFi (Made For iPad) certificaat",
-      "price": "€25,-",
-      "repairId": "accessoire",
-      "popular": false,
-      "links": [
-        {
-          "text": "MFi",
-          "href": "https://en.wikipedia.org/wiki/MFi_Program"
-        }
-      ]
     }
   ],
   "seo": {
