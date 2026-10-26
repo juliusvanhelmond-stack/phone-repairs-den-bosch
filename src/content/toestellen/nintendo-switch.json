@@ -4,18 +4,13 @@
   "categoryId": "console",
   "series": "Nintendo Switch",
   "order": 1010802,
-  "releaseYear": "",
   "art": "console",
-  "photo": null,
+  "photo": "/images/toestellen/nintendo-switch/photo.jpeg",
   "popular": false,
   "aliases": [
     "Nintendo Switch reparatie (HAC-001) / (HAC-001(-01)",
     "HAC-001"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Touchscreen / glas vervangen",
@@ -121,6 +116,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [],
   "sources": [
     {
