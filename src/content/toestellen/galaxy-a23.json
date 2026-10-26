@@ -4,17 +4,12 @@
   "categoryId": "smartphone",
   "series": "Galaxy A",
   "order": 13400,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/galaxy-a23/photo.jpg",
+  "photo": "/images/toestellen/galaxy-a23/photo.jpeg",
   "popular": false,
   "aliases": [
     "Samsung A23"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung A23 reparatie Den Bosch √ Alle merken telefoon reparatie √ Klaar-terwijl-u-meekijkt √ Originele onderdelen √ 12 mnd. gar."
-  },
   "prices": [
     {
       "label": "Scherm, LCD en frame vervangen (originele Samsung service pack, zoals Samsung vereist)",
@@ -99,6 +94,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung A23 reparatie Den Bosch √ Alle merken telefoon reparatie √ Klaar-terwijl-u-meekijkt √ Originele onderdelen √ 12 mnd. gar."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a23/"
   ],
