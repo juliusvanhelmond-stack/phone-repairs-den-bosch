@@ -4,18 +4,13 @@
   "categoryId": "console",
   "series": "Nintendo Switch",
   "order": 1010701,
-  "releaseYear": "",
   "art": "console",
-  "photo": null,
+  "photo": "/images/toestellen/nintendo-switch-oled/photo.jpeg",
   "popular": false,
   "aliases": [
     "Nintendo Switch OLED reparatie (HEG-001)",
     "HEG-001"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Touchscreen / OLED vervangen",
@@ -114,6 +109,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [],
   "sources": [
     {
