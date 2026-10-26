@@ -8,7 +8,9 @@
   "art": "phone-island",
   "photo": "/images/toestellen/iphone-17/photo.jpeg",
   "popular": false,
-  "aliases": [],
+  "aliases": [
+    "A3520 A3258 A3519 A3521"
+  ],
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
