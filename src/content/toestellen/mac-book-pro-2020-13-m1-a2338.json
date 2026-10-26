@@ -1,17 +1,17 @@
 {
-  "name": "MacBook Pro M1 2020 13\" A2338",
+  "name": "MacBook Pro 2020 13\" M1 A2338",
   "brandId": "apple",
   "categoryId": "laptop",
   "series": "MacBook Pro",
   "order": 53306,
   "releaseYear": "2020",
   "art": "laptop",
-  "photo": "/images/toestellen/mac-book-pro-m1-2020-13-a2338/photo.jpeg",
+  "photo": "/images/toestellen/mac-book-pro-2020-13-m1-a2338/photo.jpeg",
   "popular": false,
   "aliases": [],
   "prices": [
     {
-      "label": "Scherm unit (complete bovenkant) vervangen origineel pulled",
+      "label": "MacBook Pro 2020 13\" M1 A2338 scherm unit (complete bovenkant) vervangen origineel pulled",
       "price": "€800,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -37,7 +37,9 @@
       "links": []
     }
   ],
-  "seo": {},
+  "seo": {
+    "description": "MacBook Pro 2020 13\" M1 A2338 Phone Repairs Den Bosch"
+  },
   "legacyUrls": [],
   "sources": [
     {
