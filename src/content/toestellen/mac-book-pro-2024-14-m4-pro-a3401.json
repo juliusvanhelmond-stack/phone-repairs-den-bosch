@@ -8,7 +8,9 @@
   "art": "laptop",
   "photo": "/images/toestellen/mac-book-pro-2024-14-m4-pro-a3401/photo.png",
   "popular": false,
-  "aliases": [],
+  "aliases": [
+    "A3401"
+  ],
   "prices": [
     {
       "label": "MacBook Pro 2024 14″ M4 Pro A3401 scherm unit (complete bovenkant) vervangen origineel Apple service pack",
@@ -23,7 +25,7 @@
       ]
     },
     {
-      "label": "Scherm unit (complete bovenkant) vervangen origineel pulled.",
+      "label": " MacBook Pro 2024 14″ M4 Pro A3401 scherm unit (complete bovenkant) vervangen origineel pulled.",
       "price": "Prijs op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": true,
@@ -35,7 +37,7 @@
       ]
     },
     {
-      "label": "Batterij vervangen",
+      "label": "MacBook Pro 2024 14″ M4 Pro A3401 batterij vervangen",
       "price": "Prijs op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
