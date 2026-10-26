@@ -15,14 +15,14 @@
   "prices": [
     {
       "label": "Scherm, OLED,frame / zijkanten en scharnier vervangen (origineel Motorola service pack, zoals Motorola vereist) vervangen",
-      "price": "Prijs op aanvraag",
+      "price": "€875,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
     },
     {
-      "label": "achterkant (boven) incl. OLED scherm en cameralenzen vervangen",
-      "price": "Prijs op aanvraag",
+      "label": "Achterkant (boven) incl. OLED scherm en cameralenzen vervangen",
+      "price": "€150,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "links": []
@@ -36,7 +36,7 @@
     },
     {
       "label": "Oplaadpoort vervangen",
-      "price": "Prijs op aanvraag",
+      "price": "€150,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "links": []
