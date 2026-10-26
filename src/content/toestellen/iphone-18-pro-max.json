@@ -4,10 +4,13 @@
   "categoryId": "smartphone",
   "series": "iPhone 18",
   "order": 500,
+  "releaseYear": "2026",
   "art": "phone-island",
   "photo": "/images/toestellen/iphone-18-pro-max/photo.jpeg",
   "popular": false,
-  "aliases": [],
+  "aliases": [
+    "A3717 A3473 A3716 A3718"
+  ],
   "prices": [
     {
       "label": "Scherm vervangen origineel Apple service pack.",
