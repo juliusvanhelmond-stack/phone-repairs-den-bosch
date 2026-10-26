@@ -8,7 +8,9 @@
   "art": "laptop",
   "photo": "/images/toestellen/mac-book-pro-2023-16-m3-pro-a2991/photo.jpeg",
   "popular": false,
-  "aliases": [],
+  "aliases": [
+    "A2991"
+  ],
   "prices": [
     {
       "label": "MacBook Pro 2023 16″ M3 Pro A2991 scherm unit (complete bovenkant) vervangen origineel Apple service pack",
@@ -23,7 +25,7 @@
       ]
     },
     {
-      "label": "Scherm unit (complete bovenkant) vervangen origineel pulled",
+      "label": "MacBook Pro 2023 16″ M3 Pro A2991 scherm unit (complete bovenkant) vervangen origineel pulled",
       "price": "€750,-",
       "repairId": "scherm-vervangen",
       "popular": true,
@@ -35,7 +37,7 @@
       ]
     },
     {
-      "label": "Batterij vervangen",
+      "label": "MacBook Pro 2023 16″ M3 Pro A2991 batterij vervangen",
       "price": "€275,-",
       "repairId": "batterij-vervangen",
       "popular": false,
