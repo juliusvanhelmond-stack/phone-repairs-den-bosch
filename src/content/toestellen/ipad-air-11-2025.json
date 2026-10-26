@@ -1,14 +1,16 @@
 {
-  "name": "iPad Air 2025",
+  "name": "iPad Air \"11 2025",
   "brandId": "apple",
   "categoryId": "tablet",
   "series": "iPad Air",
   "order": 20300,
   "releaseYear": "2025",
   "art": "tablet",
-  "photo": "/images/toestellen/ipad-air-2025/photo.jpeg",
+  "photo": "/images/toestellen/ipad-air-11-2025/photo.jpeg",
   "popular": false,
-  "aliases": [],
+  "aliases": [
+    "iPad Air \"11 2025"
+  ],
   "prices": [
     {
       "label": "Scherm (glas) en LCD inch vervangen origineel Apple service pack",
@@ -45,7 +47,7 @@
     }
   ],
   "seo": {
-    "description": "iPad Air 2025 reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, bel 073-8220013"
+    "description": "iPad Air \"11 2025 reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, bel 073-8220013"
   },
   "legacyUrls": [
     "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-air-2025/"
