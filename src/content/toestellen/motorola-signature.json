@@ -1,0 +1,97 @@
+{
+  "name": "Motorola Signature",
+  "brandId": "motorola",
+  "categoryId": "smartphone",
+  "series": "Motorola Signature",
+  "order": 50600,
+  "art": "phone-punch-hole",
+  "photo": "/images/toestellen/motorola-signature/photo.jpeg",
+  "popular": false,
+  "aliases": [
+    "Motorola Signature",
+    "XT-2603-2"
+  ],
+  "prices": [
+    {
+      "label": "Scherm unit vervangen",
+      "price": "€295,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterzijde (incl. camera lenzen) vervangen",
+      "price": "€155,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€95,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadpoort vervangen",
+      "price": "€95,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "€95,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Luidspreker vervangen",
+      "price": "€95,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Motorola Signature reparatie: snelle en professionele service",
+    "description": "Professionele Motorola Signature reparatie met originele onderdelen en transparante prijzen. Bel snel voor een afspraak voor hulp!"
+  },
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/motorola-reparatie/motorola-signature-27/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/motorola-reparatie/motorola-signature-27/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-09-23."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "43297",
+      "pageTitle": "Motorola Signature 27",
+      "modified": "2026-09-23 12:24:14"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/motorola-reparatie/motorola-signature-27/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-09-23"
+  }
+}
