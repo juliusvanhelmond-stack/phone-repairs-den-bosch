@@ -1,12 +1,12 @@
 {
-  "name": "MacBook Pro 2023 14″ A2918",
+  "name": "MacBook Pro 2023 14″ M4 A2918",
   "brandId": "apple",
   "categoryId": "laptop",
   "series": "MacBook Pro",
   "order": 53301,
-  "releaseYear": "2023",
+  "releaseYear": "2024",
   "art": "laptop",
-  "photo": "/images/toestellen/macbook-pro-2023-14-a2918/photo.jpeg",
+  "photo": "/images/toestellen/macbook-pro-2023-14-a2918/photo.png",
   "popular": false,
   "aliases": [],
   "prices": [
