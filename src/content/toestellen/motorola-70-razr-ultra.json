@@ -1,11 +1,11 @@
 {
-  "name": "Motorola 70 Ultra",
+  "name": "Motorola 70 Razr Ultra",
   "brandId": "motorola",
   "categoryId": "smartphone",
   "series": "Motorola Razr",
   "order": 50700,
   "art": "phone-flip",
-  "photo": "/images/toestellen/motorola-70-ultra/photo.png",
+  "photo": "/images/toestellen/motorola-70-razr-ultra/photo.png",
   "popular": false,
   "aliases": [
     "Motorola Razr 70 Ultra",
