@@ -7,10 +7,12 @@
   "art": "laptop",
   "photo": "/images/toestellen/mac-book-air-15-2023-m2-a2941/photo.jpg",
   "popular": false,
-  "aliases": [],
+  "aliases": [
+    "A2941"
+  ],
   "prices": [
     {
-      "label": "(2023)scherm unit (complete bovenkant) vervangen origineel Apple service pack",
+      "label": "MacBook Air 15\" 2023 M2 A2941 scherm unit (complete bovenkant) vervangen origineel Apple service pack",
       "price": "€800,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -22,7 +24,7 @@
       ]
     },
     {
-      "label": "(2023) scherm unit (complete bovenkant) vervangen origineel pulled",
+      "label": "MacBook Air 15\" 2023 M2 A2941 scherm unit (complete bovenkant) vervangen origineel pulled",
       "price": "€750,-",
       "repairId": "scherm-vervangen",
       "popular": true,
@@ -34,7 +36,7 @@
       ]
     },
     {
-      "label": "(2023) batterij vervangen",
+      "label": "MacBook Air 15\" 2023 M2 A2941 batterij vervangen",
       "price": "€275,-",
       "repairId": "batterij-vervangen",
       "popular": false,
