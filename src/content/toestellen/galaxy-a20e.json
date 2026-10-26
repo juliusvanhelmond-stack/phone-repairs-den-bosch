@@ -4,19 +4,14 @@
   "categoryId": "smartphone",
   "series": "Galaxy A",
   "order": 10010,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": null,
+  "photo": "/images/toestellen/galaxy-a20e/photo.jpeg",
   "popular": false,
   "aliases": [
     "Samsung A20e",
     "Samsung A20e (SM-A202F)",
     "SM-A202F"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung A20e reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen √ 12 maanden gar."
-  },
   "prices": [
     {
       "label": "Scherm, LCD en frame vervangen (originele Samsung service pack, zoals Samsung vereist)",
@@ -94,6 +89,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung A20e reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen √ 12 maanden gar."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a20e-reparatie/"
   ],
