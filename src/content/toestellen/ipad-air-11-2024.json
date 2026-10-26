@@ -1,29 +1,19 @@
 {
-  "name": "iPad Air 2024",
+  "name": "iPad Air 11\" 2024",
   "brandId": "apple",
   "categoryId": "tablet",
   "series": "iPad Air",
   "order": 54400,
   "releaseYear": "2024",
   "art": "tablet",
-  "photo": "/images/toestellen/ipad-air-2024/photo.jpeg",
+  "photo": "/images/toestellen/ipad-air-11-2024/photo.jpeg",
   "popular": false,
-  "aliases": [],
+  "aliases": [
+    "iPad Air 11\" 2024"
+  ],
   "prices": [
     {
       "label": "Scherm (glas) en LCD 11 inch vervangen origineel Apple service pack",
-      "price": "€550,-",
-      "repairId": "scherm-vervangen",
-      "popular": false,
-      "links": [
-        {
-          "text": "origineel Apple service pack",
-          "href": "/iphone-onderdelen-kalibreren"
-        }
-      ]
-    },
-    {
-      "label": "Scherm (glas) en LCD 13 inch vervangen origineel Apple service pack",
       "price": "€550,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -57,7 +47,7 @@
     }
   ],
   "seo": {
-    "description": "iPad Air 2024 reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, bel 073-8220013"
+    "description": "iPad Air 11\" 2024 reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, bel 073-8220013"
   },
   "legacyUrls": [
     "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-air-2024/"
