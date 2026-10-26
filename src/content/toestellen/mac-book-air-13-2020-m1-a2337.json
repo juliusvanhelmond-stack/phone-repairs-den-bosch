@@ -1,18 +1,18 @@
 {
-  "name": "MacBook Air M1 13\" 2020 A2337",
+  "name": "MacBook Air 13\" 2020 M1 A2337",
   "brandId": "apple",
   "categoryId": "laptop",
   "series": "MacBook Air",
   "order": 53403,
   "art": "laptop",
-  "photo": "/images/toestellen/mac-book-air-m1-13-2020-a2337/photo.jpeg",
+  "photo": "/images/toestellen/mac-book-air-13-2020-m1-a2337/photo.jpeg",
   "popular": false,
   "aliases": [
     "A2337"
   ],
   "prices": [
     {
-      "label": "MacBook Air M1 13\" 2020 A2337 scherm unit (complete bovenkant) vervangen origineel pulled",
+      "label": "MacBook Air 13\" 2020 M1 A2337 scherm unit (complete bovenkant) vervangen origineel pulled",
       "price": "€600,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "label": "MacBook Air M1 13\" 2020 A2337 batterij vervangen",
+      "label": "MacBook Air 13\" 2020 M1 A2337 batterij vervangen",
       "price": "€250,-",
       "repairId": "batterij-vervangen",
       "popular": false,
