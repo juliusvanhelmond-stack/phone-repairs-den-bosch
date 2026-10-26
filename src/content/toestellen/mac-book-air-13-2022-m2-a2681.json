@@ -7,10 +7,12 @@
   "art": "laptop",
   "photo": "/images/toestellen/mac-book-air-13-2022-m2-a2681/photo.jpg",
   "popular": false,
-  "aliases": [],
+  "aliases": [
+    "A2681"
+  ],
   "prices": [
     {
-      "label": "MacBook Air Retina A2681 scherm unit (complete bovenkant) vervangen origineel Apple service pack",
+      "label": "MacBook Air 13\" 2022 M2 A2681 scherm unit (complete bovenkant) vervangen origineel Apple service pack",
       "price": "€725,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -22,7 +24,7 @@
       ]
     },
     {
-      "label": "MacBook Air Retina A2681 scherm unit (complete bovenkant) vervangen origineel pulled",
+      "label": "MacBook Air 13\" 2022 M2 A2681 scherm unit (complete bovenkant) vervangen origineel pulled",
       "price": "€500,-",
       "repairId": "scherm-vervangen",
       "popular": true,
@@ -34,7 +36,7 @@
       ]
     },
     {
-      "label": "(2022) batterij vervangen",
+      "label": "MacBook Air 13\" 2022 M2 A2681 batterij vervangen",
       "price": "€275,-",
       "repairId": "batterij-vervangen",
       "popular": false,
