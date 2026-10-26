@@ -1,18 +1,18 @@
 {
-  "name": "MacBook Pro 2023 14″ M4 A2918",
+  "name": "MacBook Pro 2024 14″ M4",
   "brandId": "apple",
   "categoryId": "laptop",
   "series": "MacBook Pro",
   "order": 53301,
   "releaseYear": "2024",
   "art": "laptop",
-  "photo": "/images/toestellen/macbook-pro-2023-14-a2918/photo.png",
+  "photo": "/images/toestellen/mac-book-pro-2024-14-m4/photo.png",
   "popular": false,
   "aliases": [],
   "prices": [
     {
-      "label": "MacBook Pro M1 2023 16″ A2919 scherm unit (complete bovenkant) vervangen origineel Apple service pack",
-      "price": "€900,-",
+      "label": "MacBook Pro 2024 14″ M4 scherm unit (complete bovenkant) vervangen origineel Apple service pack",
+      "price": "Prijs op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": [
@@ -24,7 +24,7 @@
     },
     {
       "label": "Scherm unit (complete bovenkant) vervangen origineel pulled.",
-      "price": "€750,-",
+      "price": "Prijs op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": true,
       "links": [
@@ -36,7 +36,7 @@
     },
     {
       "label": "Batterij vervangen",
-      "price": "€250,-",
+      "price": "Prijs op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
       "links": []
