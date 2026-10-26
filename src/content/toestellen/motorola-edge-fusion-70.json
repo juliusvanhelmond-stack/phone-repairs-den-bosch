@@ -1,0 +1,96 @@
+{
+  "name": "Motorola Edge Fusion 70",
+  "brandId": "motorola",
+  "categoryId": "smartphone",
+  "series": "Motorola Fusion",
+  "order": 50800,
+  "art": "phone-punch-hole",
+  "photo": "/images/toestellen/motorola-edge-fusion-70/photo.jpeg",
+  "popular": false,
+  "aliases": [
+    "Motorola Edge Fusion 70"
+  ],
+  "prices": [
+    {
+      "label": "Scherm unit vervangen",
+      "price": "€160,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterzijde (incl. camera lenzen) vervangen",
+      "price": "€155,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€95,",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadpoort vervangen",
+      "price": "€95,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "€95,",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Luidspreker vervangen",
+      "price": "€95,",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Motorola Edge Fusion 70 Den Bosch",
+    "description": "Professionele Motorola Edge Fusion 70 reparatie met originele onderdelen en transparante prijzen. Bel snel voor een afspraak voor hulp!"
+  },
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/motorola-reparatie/motorola-signature-2/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/motorola-reparatie/motorola-signature-2/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-09-17."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "40227",
+      "pageTitle": "Motorola Signature",
+      "modified": "2026-09-17 19:32:48"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/motorola-reparatie/motorola-signature-2/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-09-17"
+  }
+}
