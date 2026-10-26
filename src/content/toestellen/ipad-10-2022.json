@@ -32,72 +32,9 @@
       "links": []
     },
     {
-      "label": "Uitdeuken behuizing, hoeken t.b.v. scherm reparatie",
-      "price": "op aanvraag",
-      "repairId": "achterkant-vervangen",
-      "popular": false,
-      "links": []
-    },
-    {
       "label": "Batterij origineel vervangen incl. nieuw scherm (glas)",
       "price": "op aanvraag",
       "repairId": "scherm-vervangen",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Oplaadconnector vervangen",
-      "price": "op aanvraag",
-      "repairId": "oplaadpoort-repareren",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Home knop vervangen incl. nieuw scherm (glas)",
-      "price": "op aanvraag",
-      "repairId": "scherm-vervangen",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Aan/uit/volume knop vervangen",
-      "price": "op aanvraag",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "koptelefoon aansluiting vervangen",
-      "price": "op aanvraag",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Camera aan de achterkant vervangen",
-      "price": "op aanvraag",
-      "repairId": "camera-repareren",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Camera aan de voorkant vervangen",
-      "price": "op aanvraag",
-      "repairId": "camera-repareren",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Muziek luidspreker vervangen",
-      "price": "op aanvraag",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Wifi antenne vervangen.",
-      "price": "op aanvraag",
-      "repairId": "overige-reparaties",
       "popular": false,
       "links": []
     },
@@ -114,30 +51,6 @@
       "repairId": "waterschade",
       "popular": false,
       "links": []
-    },
-    {
-      "label": "Apple Lightning kabel MFi (Made For iPad) certificaat",
-      "price": "€20,-",
-      "repairId": "accessoire",
-      "popular": false,
-      "links": [
-        {
-          "text": "MFi",
-          "href": "https://en.wikipedia.org/wiki/MFi_Program"
-        }
-      ]
-    },
-    {
-      "label": "Apple iPad lader 10W MFi (Made For iPad) certificaat",
-      "price": "€25,-",
-      "repairId": "accessoire",
-      "popular": false,
-      "links": [
-        {
-          "text": "MFi",
-          "href": "https://en.wikipedia.org/wiki/MFi_Program"
-        }
-      ]
     }
   ],
   "seo": {
