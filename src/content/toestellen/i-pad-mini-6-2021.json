@@ -1,12 +1,12 @@
 {
-  "name": "iPad mini 7 2021",
+  "name": "iPad mini 6 2021",
   "brandId": "apple",
   "categoryId": "tablet",
   "series": "iPad mini",
   "order": 54000,
   "releaseYear": "2021",
   "art": "tablet",
-  "photo": "/images/toestellen/ipad-mini-6-2021/photo.jpeg",
+  "photo": "/images/toestellen/i-pad-mini-6-2021/photo.jpeg",
   "popular": false,
   "aliases": [],
   "prices": [
