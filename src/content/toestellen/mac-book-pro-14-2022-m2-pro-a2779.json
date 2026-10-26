@@ -1,17 +1,17 @@
 {
-  "name": "MacBook Pro 14\" 2022 A2779",
+  "name": "MacBook Pro 14\" 2022 M2 Pro A2779",
   "brandId": "apple",
   "categoryId": "laptop",
   "series": "MacBook Pro",
   "order": 53303,
   "releaseYear": "2022",
   "art": "laptop",
-  "photo": "/images/toestellen/macbook-pro-2022-a2779/photo.png",
+  "photo": "/images/toestellen/mac-book-pro-14-2022-m2-pro-a2779/photo.png",
   "popular": false,
   "aliases": [],
   "prices": [
     {
-      "label": "MacBook Pro M1 2023 16″ A2779 scherm unit (complete bovenkant) vervangen origineel Apple service pack",
+      "label": "MacBook Pro 14\" 2022 M2 Pro A2779 scherm unit (complete bovenkant) vervangen origineel Apple service pack",
       "price": "€950,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -42,7 +42,10 @@
       "links": []
     }
   ],
-  "seo": {},
+  "seo": {
+    "title": "MacBook Pro 14\" 2022 M2 Pro A2779 reparatie Den Bosch",
+    "description": "MacBook Pro 14\" 2022 M2 Pro A2779"
+  },
   "legacyUrls": [],
   "sources": [
     {
