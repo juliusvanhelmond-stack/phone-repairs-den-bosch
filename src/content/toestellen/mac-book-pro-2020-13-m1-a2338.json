@@ -8,7 +8,9 @@
   "art": "laptop",
   "photo": "/images/toestellen/mac-book-pro-2020-13-m1-a2338/photo.jpeg",
   "popular": false,
-  "aliases": [],
+  "aliases": [
+    "A2338"
+  ],
   "prices": [
     {
       "label": "MacBook Pro 2020 13\" M1 A2338 scherm unit (complete bovenkant) vervangen origineel pulled",
@@ -23,14 +25,14 @@
       ]
     },
     {
-      "label": "Batterij vervangen",
+      "label": "MacBook Pro 2020 13\" M1 A2338 batterij vervangen",
       "price": "€250,-",
       "repairId": "batterij-vervangen",
       "popular": false,
       "links": []
     },
     {
-      "label": "Trackpad vervangen",
+      "label": "MacBook Pro 2020 13\" M1 A2338 trackpad vervangen",
       "price": "€150,-",
       "repairId": "overige-reparaties",
       "popular": false,
