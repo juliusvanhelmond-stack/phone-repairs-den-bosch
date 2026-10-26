@@ -4,18 +4,13 @@
   "categoryId": "console",
   "series": "Nintendo Switch",
   "order": 1010903,
-  "releaseYear": "",
   "art": "console",
-  "photo": null,
+  "photo": "/images/toestellen/nintendo-switch-lite/photo.jpg",
   "popular": false,
   "aliases": [
     "Nintendo Switch Lite reparatie (HDH-001)",
     "HDH-001"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Touchscreen / glas vervangen",
@@ -112,6 +107,7 @@
       ]
     }
   ],
+  "seo": {},
   "legacyUrls": [],
   "sources": [
     {
