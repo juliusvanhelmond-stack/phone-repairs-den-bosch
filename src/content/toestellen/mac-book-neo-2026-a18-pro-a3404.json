@@ -1,12 +1,12 @@
 {
-  "name": "MacBook Neo 2026 A3404",
+  "name": "MacBook Neo 2026 A18 Pro A3404",
   "brandId": "apple",
   "categoryId": "laptop",
   "series": "MacBook Neo",
   "order": 53500,
   "releaseYear": "2026",
   "art": "laptop",
-  "photo": "/images/toestellen/macbook-neo/photo.jpg",
+  "photo": "/images/toestellen/mac-book-neo-2026-a18-pro-a3404/photo.jpg",
   "popular": false,
   "aliases": [
     "MacBook Neo reparatie"
@@ -137,7 +137,9 @@
       "links": []
     }
   ],
-  "seo": {},
+  "seo": {
+    "description": "MacBook Neo 2026 A18 Pro A3404 reparatie Phone Repairs Den Bosch"
+  },
   "legacyUrls": [],
   "sources": [
     {
