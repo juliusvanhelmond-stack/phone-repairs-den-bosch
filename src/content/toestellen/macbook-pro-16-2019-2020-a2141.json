@@ -9,7 +9,8 @@
   "photo": "/images/toestellen/macbook-pro-16-2019-2020-a2141/photo.jpeg",
   "popular": false,
   "aliases": [
-    "Apple MacBook Pro 16\" A2141"
+    "Apple MacBook Pro 16\" A2141",
+    "A2141"
   ],
   "prices": [
     {
@@ -27,13 +28,6 @@
     {
       "label": "MacBook Pro 16″ (2019 / 2020) A2141 batterij vervangen",
       "price": "€250,-",
-      "repairId": "batterij-vervangen",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Batterij vervangen",
-      "price": "€200,-",
       "repairId": "batterij-vervangen",
       "popular": false,
       "links": []
