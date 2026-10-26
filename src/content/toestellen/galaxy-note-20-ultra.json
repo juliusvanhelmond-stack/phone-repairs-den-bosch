@@ -4,18 +4,13 @@
   "categoryId": "smartphone",
   "series": "Galaxy Note",
   "order": 16800,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": null,
+  "photo": "/images/toestellen/galaxy-note-20-ultra/photo.jpeg",
   "popular": false,
   "aliases": [
     "Samsung Note 20 Ultra",
     "Samsung Galaxy Note 20 Ultra"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "5G scherm, LCD en frame vervangen (SM-N986) (origineel Samsung service pack, zoals Samsung vereist)",
@@ -142,6 +137,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-note-reparatie/samsung-note-20-ultra/"
   ],
