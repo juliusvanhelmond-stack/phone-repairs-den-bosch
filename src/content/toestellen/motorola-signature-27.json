@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "Motorola Signature",
   "order": 50700,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/motorola-signature-27/photo.jpg",
+  "photo": "/images/toestellen/motorola-signature-27/photo.jpeg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "Motorola Signature reparatie: snelle en professionele service",
-    "description": "Professionele Motorola Signature 27 reparatie met originele onderdelen en transparante prijzen. Bel snel voor een afspraak voor hulp!"
-  },
   "prices": [
     {
       "label": "Scherm unit vervangen",
@@ -69,6 +64,10 @@
       ]
     }
   ],
+  "seo": {
+    "title": "Motorola Signature reparatie: snelle en professionele service",
+    "description": "Professionele Motorola Signature 27 reparatie met originele onderdelen en transparante prijzen. Bel snel voor een afspraak voor hulp!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/motorola-reparatie/motorola-signature-27/"
   ],
