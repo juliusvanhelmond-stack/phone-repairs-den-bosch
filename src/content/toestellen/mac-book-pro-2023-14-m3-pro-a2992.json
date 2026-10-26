@@ -1,17 +1,17 @@
 {
-  "name": "MacBook Pro 2023 14″ A2992",
+  "name": "MacBook Pro 2023 14″ M3 Pro A2992",
   "brandId": "apple",
   "categoryId": "laptop",
   "series": "MacBook Pro",
   "order": 53302,
   "releaseYear": "2023",
   "art": "laptop",
-  "photo": "/images/toestellen/macbook-pro-2023-14-a2992/photo.jpeg",
+  "photo": "/images/toestellen/mac-book-pro-2023-14-m3-pro-a2992/photo.jpeg",
   "popular": false,
   "aliases": [],
   "prices": [
     {
-      "label": "MacBook Pro M1 2023 16″ A2991 scherm unit (complete bovenkant) vervangen origineel Apple service pack",
+      "label": "MacBook Pro 2023 14″ M3 Pro A2992 scherm unit (complete bovenkant) vervangen origineel Apple service pack",
       "price": "€900,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -42,7 +42,10 @@
       "links": []
     }
   ],
-  "seo": {},
+  "seo": {
+    "title": "MacBook Pro 2023 14″ M3 Pro A2992 reparatie Den Bosch",
+    "description": "MacBook Pro 2023 14″ M3 Pro A2992"
+  },
   "legacyUrls": [],
   "sources": [
     {
