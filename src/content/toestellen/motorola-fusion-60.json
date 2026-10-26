@@ -1,11 +1,11 @@
 {
-  "name": "Motorola Signature",
+  "name": "Motorola Edge Fusion 60",
   "brandId": "motorola",
   "categoryId": "smartphone",
-  "series": "Motorola Signature",
+  "series": "Motorola Fusion",
   "order": 50800,
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/motorola-signature/photo.png",
+  "photo": "/images/toestellen/motorola-fusion-60/photo.jpeg",
   "popular": false,
   "aliases": [
     "Motorola Signature (XT-2603-2)",
@@ -14,7 +14,7 @@
   "prices": [
     {
       "label": "Scherm unit vervangen",
-      "price": "€250,-",
+      "price": "€175,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
@@ -68,8 +68,8 @@
     }
   ],
   "seo": {
-    "title": "Motorola Signature reparatie: snelle en professionele service",
-    "description": "Professionele Motorola Signature reparatie met originele onderdelen en transparante prijzen. Bel snel voor een afspraak voor hulp!"
+    "title": "Motorola Edge Fusion 60 Den Bosch",
+    "description": "Professionele Motorola Edge Fusion 60 reparatie met originele onderdelen en transparante prijzen. Bel snel voor een afspraak voor hulp!"
   },
   "legacyUrls": [
     "https://www.phonerepairs.nl/motorola-reparatie/motorola-signature-2/"
