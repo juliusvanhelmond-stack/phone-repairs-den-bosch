@@ -4,9 +4,8 @@
   "categoryId": "smartphone",
   "series": "Galaxy Note",
   "order": 16900,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": null,
+  "photo": "/images/toestellen/galaxy-note-20/photo.jpeg",
   "popular": false,
   "aliases": [
     "Samsung Note 20",
@@ -14,10 +13,6 @@
     "SM-N980F",
     "SM-N981F"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "(SM-N980F) scherm, LCD en frame vervangen",
@@ -116,6 +111,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-note-reparatie/samsung-note-20/"
   ],
