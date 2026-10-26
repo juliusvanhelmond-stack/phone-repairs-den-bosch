@@ -4,10 +4,13 @@
   "categoryId": "smartphone",
   "series": "iPhone 17",
   "order": 1300,
+  "releaseYear": "2026",
   "art": "phone-island",
   "photo": "/images/toestellen/iphone-17e/photo.jpeg",
   "popular": false,
-  "aliases": [],
+  "aliases": [
+    "A3634 A3575 A3635"
+  ],
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
