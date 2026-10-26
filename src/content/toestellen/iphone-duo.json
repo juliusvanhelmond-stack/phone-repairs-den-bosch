@@ -15,7 +15,7 @@
       "label": "Scherm buitendisplay vervangen origineel Apple service pack.",
       "price": "€750,-",
       "repairId": "scherm-vervangen",
-      "popular": true,
+      "popular": false,
       "links": [
         {
           "text": "origineel Apple service pack",
@@ -27,34 +27,10 @@
       "label": "Scherm binnendisplay OLED, frame en scharnier origineel Apple service pack",
       "price": "€1400,-",
       "repairId": "scherm-vervangen",
-      "popular": true,
+      "popular": false,
       "links": [
         {
           "text": "origineel Apple service pack",
-          "href": "/iphone-onderdelen-kalibreren"
-        }
-      ]
-    },
-    {
-      "label": "Scherm binnendisplay OLED, frame en scharnier origineel pulled (origineel scherm afkomstig uit een nieuw toestel)",
-      "price": "op aanvraag",
-      "repairId": "scherm-vervangen",
-      "popular": false,
-      "links": [
-        {
-          "text": "origineel pulled",
-          "href": "/iphone-onderdelen-kalibreren"
-        }
-      ]
-    },
-    {
-      "label": "Scherm buitendisplayvervangen origineel pulled (origineel scherm afkomstig uit een nieuw toestel)",
-      "price": "op aanvraag",
-      "repairId": "scherm-vervangen",
-      "popular": false,
-      "links": [
-        {
-          "text": "origineel pulled",
           "href": "/iphone-onderdelen-kalibreren"
         }
       ]
