@@ -30,13 +30,6 @@
       "links": []
     },
     {
-      "label": "Uitdeuken behuizing, hoeken t.b.v. scherm reparatie",
-      "price": "€60,-",
-      "repairId": "achterkant-vervangen",
-      "popular": false,
-      "links": []
-    },
-    {
       "label": "Batterij origineel vervangen incl. nieuw scherm (glas)",
       "price": "op aanvraag",
       "repairId": "scherm-vervangen",
@@ -56,30 +49,6 @@
       "repairId": "waterschade",
       "popular": false,
       "links": []
-    },
-    {
-      "label": "Apple Lightning kabel MFi (Made For iPad) certificaat",
-      "price": "€20,-,-",
-      "repairId": "accessoire",
-      "popular": false,
-      "links": [
-        {
-          "text": "MFi",
-          "href": "https://en.wikipedia.org/wiki/MFi_Program"
-        }
-      ]
-    },
-    {
-      "label": "Apple iPad lader 10W MFi (Made For iPad) certificaat",
-      "price": "€20,-",
-      "repairId": "accessoire",
-      "popular": false,
-      "links": [
-        {
-          "text": "MFi",
-          "href": "https://en.wikipedia.org/wiki/MFi_Program"
-        }
-      ]
     }
   ],
   "seo": {
