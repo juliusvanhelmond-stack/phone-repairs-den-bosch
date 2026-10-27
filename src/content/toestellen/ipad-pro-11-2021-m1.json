@@ -1,15 +1,16 @@
 {
-  "name": "iPad Pro 11\" 2021",
+  "name": "iPad Pro 11\" 2021 M1",
   "brandId": "apple",
   "categoryId": "tablet",
   "series": "iPad Pro",
   "order": 20,
   "releaseYear": "2021",
   "art": "tablet",
-  "photo": "/images/toestellen/ipad-pro-11-2021/photo.jpeg",
+  "photo": "/images/toestellen/ipad-pro-11-2021-m1/photo.jpeg",
   "popular": false,
   "aliases": [
-    "A2377"
+    "A2377",
+    "iPad Pro 11\" 2021 M1"
   ],
   "prices": [
     {
@@ -33,7 +34,7 @@
     }
   ],
   "seo": {
-    "description": "iPad Pro 11\" 2021 reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, bel 073-8220013"
+    "description": "iPad Pro 11\" 2021 M1 reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, bel 073-8220013"
   },
   "legacyUrls": [
     "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-pro-reparatie/ipad-pro-11-inch-2021/"
