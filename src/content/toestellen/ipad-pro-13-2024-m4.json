@@ -1,18 +1,15 @@
 {
-  "name": "iPad Pro 13\" 2024",
+  "name": "iPad Pro 13\" 2024 M4",
   "brandId": "apple",
   "categoryId": "tablet",
   "series": "iPad Pro",
   "order": 18,
   "releaseYear": "2024",
   "art": "tablet",
-  "photo": "/images/toestellen/ipad-pro-13-2024/photo.jpeg",
+  "photo": "/images/toestellen/ipad-pro-13-2024-m4/photo.jpeg",
   "popular": false,
   "aliases": [
-    "iPad Pro 13 inch 2024 (A2925, A2926, A3007)",
-    "A2925",
-    "A2926",
-    "A3007"
+    "iPad Pro 13\" 2024 M4"
   ],
   "prices": [
     {
@@ -36,8 +33,8 @@
     }
   ],
   "seo": {
-    "title": "iPad Pro 13\" 2024 reparatie snel geregeld",
-    "description": "Snel en professioneel iPad Pro 13\" 2024 reparatie inclusief garantie en originele onderdelen. Neem contact met ons op!"
+    "title": "iPad Pro 13\" 2024 M4 reparatie snel geregeld",
+    "description": "Snel en professioneel iPad Pro 13\" 2024 M4 reparatie inclusief garantie en originele onderdelen. Neem contact met ons op!"
   },
   "legacyUrls": [
     "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-pro-reparatie/ipad-pro-13-inch-2024/"
