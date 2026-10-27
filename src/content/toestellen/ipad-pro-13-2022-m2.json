@@ -1,14 +1,16 @@
 {
-  "name": "iPad Pro 13\" 2022",
+  "name": "iPad Pro 13\" 2022 M2",
   "brandId": "apple",
   "categoryId": "tablet",
   "series": "iPad Pro",
   "order": 19,
   "releaseYear": "2022",
   "art": "tablet",
-  "photo": "/images/toestellen/ipad-pro-13-2022/photo.jpeg",
+  "photo": "/images/toestellen/ipad-pro-13-2022-m2/photo.jpeg",
   "popular": false,
-  "aliases": [],
+  "aliases": [
+    "iPad Pro 13\" 2022 M2"
+  ],
   "prices": [
     {
       "label": "Scherm, LCD vervangen",
@@ -26,7 +28,7 @@
     }
   ],
   "seo": {
-    "description": "iPad Pro 13\" 2022 reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, bel 073-8220013"
+    "description": "iPad Pro 13\" 2022 M2 reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, bel 073-8220013"
   },
   "legacyUrls": [
     "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-pro-reparatie/ipad-pro-11-inch-2022/"
