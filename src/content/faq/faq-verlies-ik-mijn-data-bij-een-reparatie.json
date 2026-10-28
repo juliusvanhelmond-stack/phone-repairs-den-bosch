@@ -1,7 +1,7 @@
 {
   "question": "Verlies ik mijn data bij een reparatie?",
   "answer": "Nee, de data op je toestel blijft bij een reparatie bij Phone Repairs behouden, daar hoeft u zich geen zorgen over te maken. Dus u berichten, WhatsApp, foto’s, games, enz. blijven gewoon op je toestel staan en u kunt u toestel direct weer gebruiken.",
-  "order": 90,
+  "order": 50,
   "repairIds": [],
   "topics": [
     "algemeen"
