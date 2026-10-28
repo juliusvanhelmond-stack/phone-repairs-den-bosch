@@ -1,7 +1,7 @@
 {
   "question": "Kan ik parkeren bij de winkel?",
   "answer": "Ja, je kunt gratis parkeren voor de deur.",
-  "order": 190,
+  "order": 70,
   "repairIds": [],
   "topics": [
     "locatie"
