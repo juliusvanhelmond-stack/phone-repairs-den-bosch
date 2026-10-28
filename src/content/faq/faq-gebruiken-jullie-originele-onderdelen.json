@@ -1,6 +1,6 @@
 {
   "question": "Gebruiken jullie originele onderdelen?",
-  "answer": "Ja, waar mogelijk gebruiken we originele onderdelen. Voor schermreparaties bieden we verschillende opties, afhankelijk van het merk, model en de beschikbaarheid:\n\n- Origineel Service Pack: een nieuw, origineel onderdeel, geleverd via de fabrikant of een erkende leverancier.\n- Origineel pulled: een origineel onderdeel uit een ander toestel gehaald, zorgvuldig gecontroleerd op kwaliteit en werking.\n- Premium OLED: een hoogwaardig alternatief met  een aantrekkelijkere prijs. Dit is geen origineel onderdeel van de fabrikant.\n\nVooraf bespreken we welke opties beschikbaar zijn, wat de verschillen zijn en wat de reparatie kost. Zo weet je precies waarvoor je kiest.",
+  "answer": "Ja, waar mogelijk gebruiken we originele onderdelen. Voor schermreparaties bieden we verschillende opties, afhankelijk van het merk, model en de beschikbaarheid:\n\n- Origineel Service Pack: een nieuw, origineel onderdeel, geleverd via de fabrikant of een erkende leverancier.\n\n- Origineel pulled: een origineel onderdeel uit een ander toestel gehaald, zorgvuldig gecontroleerd op kwaliteit en werking.\n\n- Premium OLED: een hoogwaardig alternatief met  een aantrekkelijkere prijs. Dit is geen origineel onderdeel van de fabrikant.\n\nVooraf bespreken we welke opties beschikbaar zijn, wat de verschillen zijn en wat de reparatie kost. Zo weet je precies waarvoor je kiest.",
   "order": 10,
   "repairIds": [
     "scherm-vervangen",
