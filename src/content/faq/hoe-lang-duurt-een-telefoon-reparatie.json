@@ -1,8 +1,13 @@
 {
-  "question": "Hoe lang duurt een iPhone reparatie?",
+  "question": "Hoe lang duurt een telefoon reparatie?",
   "answer": "Tijdens de reparatie kun je gewoon meekijken hoe je toestel vakkundig gerepareerd wordt, je ziet wat wij doen met jouw telefoon en je privacy blijft zo gewaarborgd. De meeste reparaties duren niet langer dan 30 minuten.",
   "order": 30,
-  "repairIds": [],
+  "repairIds": [
+    "scherm-vervangen",
+    "batterij-vervangen",
+    "oplaadpoort-repareren",
+    "camera-repareren"
+  ],
   "topics": [
     "algemeen"
   ],
