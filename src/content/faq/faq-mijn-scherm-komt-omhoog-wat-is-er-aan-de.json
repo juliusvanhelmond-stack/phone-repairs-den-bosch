@@ -1,7 +1,7 @@
 {
   "question": "Mijn scherm komt omhoog, wat is er aan de hand?",
   "answer": "Vaak is dit te wijten aan het opzwellen van de batterij, dit is niet onschuldig. Stop direct met opladen of gebruiken zodra je het ziet. Blijf er niet mee zitten, want het vormt een brand of explosie risico. Maak zo snel mogelijk een afspraak bij ons om de batterij professioneel te laten vervangen zonder risico's zoals brand, explosie en het vrijkomen van giftige gassen.",
-  "order": 110,
+  "order": 50,
   "repairIds": [
     "batterij-vervangen"
   ],
