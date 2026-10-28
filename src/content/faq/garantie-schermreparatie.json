@@ -1,7 +1,7 @@
 {
   "question": "Wat valt er binnen de scherm reparatie garantie?",
   "answer": "Als je scherm niet meer functioneert, dan zullen wij het kosteloos vervangen. Als je scherm val-, stoot-, water- of zichtbare gebruikersschade heeft, dan valt het niet meer onder onze garantieregeling. Ook kan het zijn dat er zwarte vlekken of strepen in het scherm zitten en het glas niet kapot is. Dit wordt ook veroorzaakt door val- of stootschade en valt helaas ook niet onder de garantievoorwaarden.",
-  "order": 140,
+  "order": 60,
   "repairIds": [
     "scherm-vervangen"
   ],
