@@ -1,7 +1,7 @@
 {
   "question": "Mijn telefoon heeft waterschade. Kan dit nog gerepareerd worden?",
   "answer": "Vaak is dat mogelijk. Als je smartphone nat of vochtig is geworden en dus waterschade heeft. Zet het toestel direct uit (als het toestel al niet zichzelf heeft uitgeschakeld). Hiermee voorkom je verdere schade. Zet het toestel absoluut niet meer aan, en laadt het toestel ook zeker niet meer op. Dan bel je ons direct op: 073 822 0013",
-  "order": 10,
+  "order": 60,
   "repairIds": [
     "waterschade"
   ],
