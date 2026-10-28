@@ -1,0 +1,60 @@
+{
+  "name": "MacBook Pro PROLED XDR Display 2026 14″ M6",
+  "brandId": "apple",
+  "categoryId": "laptop",
+  "series": "MacBook Pro",
+  "order": 49001,
+  "releaseYear": "2026",
+  "art": "laptop",
+  "photo": "/images/toestellen/mac-book-pro-proled-xdr-display-2026-14-m6/photo.webp",
+  "popular": false,
+  "aliases": [
+    "MacBook Pro PROLED XDR Display 2026 14″ M6"
+  ],
+  "prices": [
+    {
+      "label": "Scherm unit (complete bovenkant) vervangen origineel Apple service pack",
+      "price": "Prijs op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "Prijs op aanvraag",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "seo": {
+    "title": "MacBook Pro PROLED XDR Display 2026 14″ M6 reparatie Den Bosch",
+    "description": "Bij Phone Repairs Den Bosch herstellen wij jouw MacBook Pro PROLED XDR Display 2026 14″ M6 snel en professioneel. Ontdek onze reparatiemogelijkheden en prijzen"
+  },
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/macbook-pro-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-10-09."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "40856",
+      "pageTitle": "MacBook Pro reparatie",
+      "modified": "2026-10-09 00:19:04"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/macbook-pro-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-10-09"
+  }
+}
