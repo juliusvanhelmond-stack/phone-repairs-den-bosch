@@ -1,0 +1,20 @@
+{
+  "question": "Gebruiken jullie originele onderdelen?",
+  "answer": "Ja. Waar mogelijk repareren we met originele onderdelen. Afhankelijk van het merk, model en de beschikbaarheid bieden we bij schermreparaties verschillende hoogwaardige opties:\n\n– Origineel Service Pack – een nieuw origineel onderdeel, geleverd via de fabrikant of een erkende leverancier.\n\n– Origineel pulled – een origineel onderdeel dat afkomstig is uit een ander toestel en zorgvuldig is gecontroleerd op kwaliteit en werking.\n\n– Premium OLED – een hoogwaardig alternatief voor het originele scherm. Premium OLED is geen origineel fabrikantonderdeel, maar biedt een uitstekende beeldkwaliteit en werking tegen een aantrekkelijkere prijs.\n\nWelke optie beschikbaar is, verschilt per toestel. Vooraf bespreken we duidelijk welk onderdeel wordt gebruikt en wat de prijs is, zodat je precies weet waarvoor je kiest.",
+  "order": 60,
+  "repairIds": [
+    "scherm-vervangen",
+    "batterij-vervangen"
+  ],
+  "topics": [
+    "onderdelen"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/veelgestelde-vragen/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "Helpie FAQ \"Gebruiken jullie originele onderdelen?\", WordPress export 2026-10-12."
+    }
+  ]
+}

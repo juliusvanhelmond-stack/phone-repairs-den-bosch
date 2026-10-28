@@ -1,0 +1,22 @@
+{
+  "question": "Is mijn telefoon nog waterbestendig na een schermvervanging?",
+  "answer": "Na een schermvervanging kunnen wij de waterbestendigheid van je telefoon niet garanderen. Een iPhone is namelijk waterbestendig, maar niet volledig waterdicht. Door barsten in het scherm, deuken in het frame en slijtage van afdichtingen kan deze bescherming afnemen.\n\nBij het vervangen van je telefoon vernieuwen wij indien nodig ook de schermlijm en afdichting. Hiermee sluiten we het scherm zorgvuldig aan op de behuizing. Dit biedt echter geen garantie dat de oorspronkelijke waterbestendigheid wordt hersteld.\n\nDaarom geven wij na een reparatie geen garantie op waterdichtheid. Ons advies: houd je telefoon uit de buurt van water en dompel het toestel niet onder, zeker nadat het beschadigd of geopend is geweest.\n\nBovenstaand geldt ook voor achterkant vervanging. Batterij vervanging en alle andere reparaties waarbij het toestel is geopend.",
+  "order": 150,
+  "repairIds": [
+    "scherm-vervangen",
+    "achterkant-vervangen",
+    "batterij-vervangen"
+  ],
+  "topics": [
+    "reparaties",
+    "garantie"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/veelgestelde-vragen/",
+      "verification": "owner-confirmed",
+      "capturedAt": "2026-10-13",
+      "note": "Text supplied by Martijn Derks (Phone Repairs) in his e-mail of 13 October 2026, 20:59, for the FAQ; question spelling corrected ('telefoom')."
+    }
+  ]
+}

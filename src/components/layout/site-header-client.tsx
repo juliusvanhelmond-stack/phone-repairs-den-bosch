@@ -4,6 +4,7 @@ import { Link } from "@/components/i18n/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Dialog, NavigationMenu, VisuallyHidden } from "radix-ui";
+import Image from "next/image";
 import { ArrowRight, ChevronDown, Mail, Menu, MessageCircle, Phone, Search, X } from "lucide-react";
 import { Logo } from "@/components/layout/logo";
 import type { NavData } from "@/components/layout/nav-data";
@@ -15,6 +16,7 @@ import { useI18n } from "@/components/i18n/locale-provider";
 import { LanguageSwitch } from "@/components/i18n/language-switch";
 import { parsePublicPath } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
+import repairPhoto from "@/assets/photos/martijn-microscope.jpg";
 
 type Props = { nav: NavData; phone: { display: string; href: string }; whatsapp: string | null; email: string };
 
@@ -47,7 +49,7 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
             <NavigationMenu.Item>
               <NavigationMenu.Trigger
                 className={cn(
-                  "group flex h-10 items-center gap-1 rounded-full px-2.5 text-[0.9375rem] whitespace-nowrap 2xl:px-4 text-ink-soft transition-colors hover:bg-accent-soft hover:text-accent-strong data-[state=open]:bg-accent-soft data-[state=open]:text-accent-strong",
+                  "group flex h-10 items-center gap-1 rounded-full px-2.5 text-[0.9375rem] whitespace-nowrap 2xl:px-4 text-ink-soft transition-colors hover:bg-accent hover:text-white data-[state=open]:bg-accent data-[state=open]:text-white",
                   pathname.startsWith("/reparatie") && "text-ink",
                 )}
               >
@@ -66,7 +68,7 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
                 <NavigationMenu.Link asChild active={pathname === item.href}>
                   <Link
                     href={item.href}
-                    className="flex h-10 items-center rounded-full px-2.5 text-[0.9375rem] whitespace-nowrap text-ink-soft 2xl:px-4 transition-colors hover:bg-accent-soft hover:text-accent-strong data-[active]:text-ink"
+                    className="flex h-10 items-center rounded-full px-2.5 text-[0.9375rem] whitespace-nowrap text-ink-soft 2xl:px-4 transition-colors hover:bg-accent hover:text-white data-[active]:text-ink data-[active]:hover:text-white"
                   >
                     {t(item.label, item.labelEn)}
                   </Link>
@@ -156,17 +158,23 @@ function MegaMenu({ nav }: { nav: NavData }) {
           href="/#toestel-zoeken"
           className="group relative flex min-h-56 flex-col justify-end overflow-hidden rounded-[1.25rem] bg-night p-6 text-white"
         >
-          <div
-            className="absolute -top-16 -right-16 size-56 rounded-full bg-accent/40 blur-3xl"
-            aria-hidden
+          {/* The shop's own photo of a motherboard repair (client request 2026-10-27: the card was too empty). */}
+          <Image
+            src={repairPhoto}
+            alt=""
+            fill
+            sizes="22rem"
+            placeholder="blur"
+            className="object-cover object-[60%_center] opacity-60 transition-transform duration-500 group-hover:scale-105 motion-reduce:transition-none"
           />
+          <div className="absolute inset-0 bg-gradient-to-t from-night via-night/70 to-night/20" aria-hidden />
           <Search className="relative mb-auto size-6 text-accent-light" aria-hidden />
           <p className="relative text-xl font-semibold tracking-tight">{t("Zoek jouw toestel", "Find your device")}</p>
           <p className="relative mt-1 text-sm text-neutral-300">
             {t("Kies je model en de reparatie die je nodig hebt.", "Choose your model and the repair you need.")}
           </p>
           <span className="relative mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-white">
-            {t("Start de zoeker", "Start the finder")}
+            {t("Bekijk reparatiekosten", "See repair costs")}
             <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" aria-hidden />
           </span>
         </Link>

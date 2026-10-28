@@ -1,0 +1,16 @@
+{
+  "question": "Zijn de prijzen inclusief btw en montage?",
+  "answer": "Ja. De prijzen zijn inclusief montage en 21% btw.",
+  "order": 180,
+  "repairIds": [],
+  "topics": [
+    "prijzen"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s23/",
+      "verification": "search-index",
+      "capturedAt": "2026-10-08"
+    }
+  ]
+}

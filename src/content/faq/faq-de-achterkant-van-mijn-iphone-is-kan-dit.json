@@ -1,0 +1,19 @@
+{
+  "question": "De achterkant van mijn iPhone is gebarsten kan dit kwaad?",
+  "answer": "Ja, in de achterkant ook wel backcover genoemd zitten belangrijke sensoren die noodzakelijk zijn voor een goede werking van de iPhone. Als de achterkant schade heeft kan dit de sensor beschadigen, waardoor je iPhone oververhit kan raken. Maar ook de batterij kan beschadigd raken en dat kan ernstige toestel problemen en zelfs brand veroorzaken. Gebruik het toestel niet meer, en maak snel een afspraak met ons voor vervanging van de achterkant.",
+  "order": 130,
+  "repairIds": [
+    "achterkant-vervangen"
+  ],
+  "topics": [
+    "reparaties"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/veelgestelde-vragen/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "Helpie FAQ \"De achterkant van mijn iPhone is gebarsten kan dit kwaad?\", WordPress export 2026-10-12."
+    }
+  ]
+}

@@ -74,7 +74,7 @@ const factsFor = (t: Translate) => [
   {
     icon: Eye,
     title: t("Kijk gerust mee", "Feel free to watch"),
-    body: t("Ik leg uit wat ik doe.", "I explain what I'm doing."),
+    body: t("Martijn legt graag uit.", "Martijn is happy to explain."),
   },
   {
     icon: BadgeCheck,

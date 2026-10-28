@@ -1,13 +1,11 @@
 /**
  * Writes the text content of the WordPress export into the site data:
- * info pages (src/content/pages, original URLs kept), FAQs (faqs.json) and
- * blog posts with their full text (blog.json). English versions live in
+ * info pages (src/content/pages, original URLs kept). FAQs and blog posts are edited in the CMS
+ * (src/content/faq, src/content/blog) and no longer read from the export. English versions live in
  * translations/en.json and are written by hand; validate:data lists any missing one.
  */
-import { readFileSync, writeFileSync } from "node:fs";
-import { join } from "node:path";
-import { boilerplateHeadings, paragraphs, sectionize, type Section } from "./content";
-import { repairForLabel, slugify } from "./devices";
+import { boilerplateHeadings, sectionize, type Section } from "./content";
+import { slugify } from "./devices";
 import type { WxrItem } from "./wxr";
 import { PAGES_DIR, readEntries, writeEntry } from "../../content/files";
 
@@ -28,7 +26,6 @@ const ownerWording = (text: string) =>
     // Area pages: "binnen 30 minuten" instead of "(vaak) binnen 30 tot 60 minuten" (owner, e-mail 2026-10-21).
     .replace(/\b(vaak |al )?binnen 30 tot 60 minuten\b/g, "binnen 30 minuten")
     .replace(/([A-Z][^."\\]{20,}\.) \1/g, "$1");
-const json = (v: unknown) => ownerWording(JSON.stringify(v, null, 2)) + "\n";
 
 type InfoPageDef = {
   path: string;
@@ -154,9 +151,6 @@ export const INFO_PAGES: InfoPageDef[] = [
   { path: "/klantenservice-phone-repairs", eyebrow: "Klantenservice" },
 ];
 
-/** Old FAQ summaries (search-engine snapshots) replaced by the verbatim FAQ answers. */
-const SUPERSEDED_FAQS = ["hoe-lang-duurt-reparatie", "gegevens-behouden", "originele-onderdelen", "waterschade-wat-doen", "opgezwollen-batterij"];
-
 const cleanTitle = (t: string) => t.replace(/\s+/g, " ").trim();
 const fit = (s: string, max: number) => (s.length <= max ? s : `${s.slice(0, max - 1).replace(/\s+\S*$/, "")}…`);
 
@@ -177,12 +171,6 @@ function seoFor(page: WxrItem, title: string, intro: string) {
     description: usable(page.meta._yoast_wpseo_metadesc, 170) ?? fit(intro, 170),
   };
 }
-
-/** Slug cut at a word boundary: "mijn-scherm-komt-omhoog-wat-is-er-aan-de-hand" → "mijn-scherm-komt-omhoog-wat-is-er-aan-de". */
-const shortSlug = (slug: string, max: number) =>
-  slugify(slug)
-    .split("-")
-    .reduce((acc, part) => (acc && `${acc}-${part}`.length > max ? acc : acc ? `${acc}-${part}` : part), "");
 
 const short = (s: Section) => ({
   heading: s.heading,
@@ -285,34 +273,8 @@ export function importContent(items: WxrItem[], exportedAt: string, root: string
   report.push(`area pages with original text: ${areaCount}`);
   for (const { id, ...record } of landing) writeEntry(root, PAGES_DIR, id, record, ownerWording);
 
-  /* FAQs */
-  const faqPath = join(root, "src/data/faqs.json");
-  const faqs: { id: string }[] = JSON.parse(readFileSync(faqPath, "utf8")).filter(
-    (f: { id: string }) => !SUPERSEDED_FAQS.includes(f.id),
-  );
-  const topicFor = (q: string) => {
-    const repair = repairForLabel(q);
-    if (/garantie/i.test(q)) return { topics: ["garantie"], repairIds: [] };
-    if (/kost|prijs/i.test(q)) return { topics: ["prijzen"], repairIds: [] };
-    if (/data|gegevens/i.test(q)) return { topics: ["algemeen"], repairIds: [] };
-    if (/onderdelen/i.test(q)) return { topics: ["onderdelen"], repairIds: ["scherm-vervangen", "batterij-vervangen"] };
-    if (/laadt niet|opladen/i.test(q)) return { topics: ["reparaties"], repairIds: ["oplaadpoort-repareren"] };
-    if (/komt omhoog/i.test(q)) return { topics: ["batterij"], repairIds: ["batterij-vervangen"] };
-    if (repair && repair !== "overige-reparaties") return { topics: ["reparaties"], repairIds: [repair] };
-    return { topics: ["algemeen"], repairIds: [] };
-  };
-  const wpFaqs = items
-    .filter((i) => i.type === "helpie_faq" && i.status === "publish")
-    .sort((a, b) => a.menuOrder - b.menuOrder || a.date.localeCompare(b.date))
-    .map((i) => ({
-      id: `faq-${shortSlug(i.slug, 40)}`,
-      question: cleanTitle(i.title),
-      answer: paragraphs(i.content),
-      ...topicFor(i.title),
-      sources: [{ ...source(i, exportedAt), url: `${ORIGIN}/veelgestelde-vragen/` , note: `Helpie FAQ "${cleanTitle(i.title)}", WordPress export ${exportedAt}.` }],
-    }));
-  const faqIds = new Set(wpFaqs.map((f) => f.id));
-  writeFileSync(faqPath, json([...wpFaqs, ...faqs.filter((f) => !faqIds.has(f.id))]));
+  /* FAQs: edited in the CMS since 2026-10-27 (src/content/faq/*.json); the export is no longer read for them. */
+  const wpFaqs = items.filter((i) => i.type === "helpie_faq" && i.status === "publish");
 
   /* Blog posts: edited in the CMS since 2026-10-21 (src/content/blog/*.mdoc); the export is no longer read for them. */
   const posts = items.filter((i) => i.type === "blog_post" && i.status === "publish");

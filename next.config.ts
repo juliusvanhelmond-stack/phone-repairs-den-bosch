@@ -24,6 +24,7 @@ function legacyRedirects() {
   const postSlugs = new Set(posts?.map((p) => p.slug));
   const has = {
     device: (brandId: string, slug: string) => !devices || devicePaths.has(`${brandId}/${slug}`),
+    brand: (brandId: string) => !devices || devices.some((d) => d.brandId === brandId),
     blogPost: (slug: string) => !posts || postSlugs.has(slug),
   };
   // The generated rules also match the trailing slash of the WordPress URLs: one 301, no 308 first.

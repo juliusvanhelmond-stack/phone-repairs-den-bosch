@@ -1,0 +1,17 @@
+{
+  "question": "Kan ik zelf gekochte onderdelen laten monteren?",
+  "answer": "Nee. Er worden geen reparaties uitgevoerd met onderdelen die je zelf hebt gekocht. Phone Repairs werkt met eigen, originele onderdelen.",
+  "order": 210,
+  "repairIds": [],
+  "topics": [
+    "onderdelen"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/veelgestelde-vragen/",
+      "verification": "search-index",
+      "capturedAt": "2026-10-12",
+      "note": "'Wij voeren geen reparaties uit met onderdelen die u zelf gekocht heeft.'"
+    }
+  ]
+}

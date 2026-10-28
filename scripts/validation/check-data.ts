@@ -97,9 +97,9 @@ const english: [string, { id: string }[], Record<string, unknown>][] = [
 ];
 for (const [label, items, table] of english) {
   const ids = new Set(items.map((i) => i.id));
-  // Pages and blog posts are added and removed in the CMS: a missing English version (then /en shows the
-  // Dutch text) or a translation of a removed entry is a warning only.
-  const report = label === "page" || label === "blog" ? warn : fail;
+  // Pages, blog posts and FAQs are added and removed in the CMS: a missing English version (then /en shows
+  // the Dutch text) or a translation of a removed entry is a warning only.
+  const report = label === "page" || label === "blog" || label === "faq" ? warn : fail;
   for (const i of items) if (!(i.id in table)) report(`${label} ${i.id}: no English translation in translations/en.json`);
   for (const id of Object.keys(table)) if (!ids.has(id)) report(`translations/en.json: unknown ${label} ${id}`);
 }
@@ -119,6 +119,7 @@ else {
     // A device or blog post deleted in the CMS: its old URLs go to the brand or the blog (warning only).
     const target = resolveLegacyTarget(r.targetPath, {
       device: (brandId, slug) => deviceIds.has(`${brandId}-${slug}`),
+      brand: (brandId) => !!getBrand(brandId),
       blogPost: (slug) => blogSlugs.has(slug),
     });
     if (target !== r.targetPath) warn(`inventory ${r.url}: ${r.targetPath} no longer exists, redirects to ${target}`);

@@ -1,0 +1,19 @@
+{
+  "question": "Mijn scherm is beschadigd. Kan ik dat laten repareren?",
+  "answer": "Wij kunnen binnen 30 minuten het scherm van je telefoon vervangen terwijl je meekijkt!, door onze werkwijze hoeft je je toestel dus niet lang te missen. En kun je spoedig weer genieten van jouw telefoon, zonder die nare barsten in het scherm",
+  "order": 80,
+  "repairIds": [
+    "scherm-vervangen"
+  ],
+  "topics": [
+    "reparaties"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/veelgestelde-vragen/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "Helpie FAQ \"Mijn scherm is beschadigd. Kan ik dat laten repareren?\", WordPress export 2026-10-12."
+    }
+  ]
+}

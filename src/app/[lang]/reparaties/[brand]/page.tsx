@@ -1,9 +1,18 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { BrandModelSearch } from "@/components/devices/brand-model-search";
 import { DeviceTile } from "@/components/devices/device-card";
 import { FinalCta } from "@/components/home/final-cta";
 import { PageIntro } from "@/components/layout/page-intro";
-import { brandLabel, brandPath, brands, categories, devicesForBrand, getBrand, localizeCategory } from "@/lib/catalog";
+import {
+  brandLabel,
+  brandPath,
+  brands,
+  categories,
+  devicesForBrand,
+  getBrand,
+  localizeCategory,
+} from "@/lib/catalog";
 import { getI18n } from "@/lib/i18n-server";
 import { pageMetadata } from "@/lib/seo";
 
@@ -15,13 +24,20 @@ export function generateStaticParams() {
   return brands.map((b) => ({ brand: b.id }));
 }
 
-export async function generateMetadata({ params }: PageProps<"/[lang]/reparaties/[brand]">): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: PageProps<"/[lang]/reparaties/[brand]">): Promise<Metadata> {
   const { locale, t } = await getI18n();
   const brand = getBrand((await params).brand);
   if (!brand) return {};
-  const name = brand.id === "apple" ? t("iPhone, iPad en MacBook", "iPhone, iPad and MacBook") : brand.name;
+  const name =
+    brand.id === "apple"
+      ? t("iPhone, iPad en MacBook", "iPhone, iPad and MacBook")
+      : brand.name;
   return pageMetadata({
-    title: (locale === "nl" && brand.seo?.title) || t(`${name} reparatie in Den Bosch`, `${name} repair in Den Bosch`),
+    title:
+      (locale === "nl" && brand.seo?.title) ||
+      t(`${name} reparatie in Den Bosch`, `${name} repair in Den Bosch`),
     description:
       (locale === "nl" && brand.seo?.description) ||
       t(
@@ -33,7 +49,9 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/reparaties
   });
 }
 
-export default async function BrandPage({ params }: PageProps<"/[lang]/reparaties/[brand]">) {
+export default async function BrandPage({
+  params,
+}: PageProps<"/[lang]/reparaties/[brand]">) {
   const { locale, t } = await getI18n();
   const brand = getBrand((await params).brand);
   if (!brand) notFound();
@@ -46,10 +64,17 @@ export default async function BrandPage({ params }: PageProps<"/[lang]/reparatie
         name: s,
         devices: list.filter((d) => d.series === s),
       }));
-      return { category: localizeCategory(c, locale), label: brandLabel(brand.id, c.id), series };
+      return {
+        category: localizeCategory(c, locale),
+        label: brandLabel(brand.id, c.id),
+        series,
+      };
     });
   // Apple is presented by product line (client request).
-  const name = brand.id === "apple" ? t("iPhone, iPad en MacBook", "iPhone, iPad and MacBook") : brand.name;
+  const name =
+    brand.id === "apple"
+      ? t("iPhone, iPad en MacBook", "iPhone, iPad and MacBook")
+      : brand.name;
 
   return (
     <>
@@ -65,8 +90,14 @@ export default async function BrandPage({ params }: PageProps<"/[lang]/reparatie
           `Select your ${name} device to see which repairs are possible. Model not listed? Get in touch and we'll gladly take a look.`,
         )}
       >
+        <BrandModelSearch
+          brandName={brand.id === "apple" ? "Apple" : brand.name}
+        />
         {sections.length > 1 && (
-          <nav aria-label={t("Categorieën", "Categories")} className="flex flex-wrap gap-2">
+          <nav
+            aria-label={t("Categorieën", "Categories")}
+            className="mt-4 flex flex-wrap gap-2"
+          >
             {sections.map((s) => (
               <a
                 key={s.category.id}
@@ -80,31 +111,57 @@ export default async function BrandPage({ params }: PageProps<"/[lang]/reparatie
         )}
       </PageIntro>
 
-      {sections.map((s, i) => (
-        <section key={s.category.id} id={s.category.id} className={i % 2 ? "bg-mist py-16 lg:py-20" : "py-16 lg:py-20"}>
-          <div className="container-page">
-            <h2 className="text-title font-semibold text-ink">
-              {brand.id === "apple" ? s.label : `${brand.name} ${s.category.plural}`}
-            </h2>
-            {s.series.map((series) => (
-              <div key={series.name} className="mt-7">
-                {s.series.length > 1 && <h3 className="mb-3 text-sm font-medium tracking-wide text-muted uppercase">{series.name}</h3>}
-                {/* Separate tiles, so an incomplete last row simply ends instead of leaving empty cells
+      <div id="modellen">
+        {sections.map((s, i) => (
+          <section
+            key={s.category.id}
+            id={s.category.id}
+            data-model-group
+            className={i % 2 ? "bg-mist py-16 lg:py-20" : "py-16 lg:py-20"}
+          >
+            <div className="container-page">
+              <h2 className="text-title font-semibold text-ink">
+                {brand.id === "apple"
+                  ? s.label
+                  : `${brand.name} ${s.category.plural}`}
+              </h2>
+              {s.series.map((series) => (
+                <div key={series.name} data-model-group className="mt-7">
+                  {s.series.length > 1 && (
+                    <h3 className="mb-3 text-sm font-medium tracking-wide text-muted uppercase">
+                      {series.name}
+                    </h3>
+                  )}
+                  {/* Separate tiles, so an incomplete last row simply ends instead of leaving empty cells
                     (client report 2026-10-19). */}
-                <ul className="grid grid-cols-3 gap-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8">
-                  {series.devices.map((d) => (
-                    <li key={d.id} className="overflow-hidden rounded-2xl ring-1 ring-line">
-                      <DeviceTile device={d} />
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </section>
-      ))}
+                  <ul className="grid grid-cols-3 gap-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8">
+                    {series.devices.map((d) => (
+                      <li
+                        key={d.id}
+                        data-model-search={[
+                          d.name,
+                          d.series,
+                          ...(d.aliases ?? []),
+                        ].join(" ")}
+                        className="overflow-hidden rounded-2xl ring-1 ring-line"
+                      >
+                        <DeviceTile device={d} />
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </section>
+        ))}
+      </div>
       <div className="pt-4">
-        <FinalCta title={t(`Je ${name} laten repareren?`, `Have your ${name} repaired?`)} />
+        <FinalCta
+          title={t(
+            `Je ${name} laten repareren?`,
+            `Have your ${name} repaired?`,
+          )}
+        />
       </div>
     </>
   );

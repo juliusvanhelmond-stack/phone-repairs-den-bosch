@@ -6,16 +6,14 @@ import { useI18n } from "@/components/i18n/locale-provider";
 import { cn } from "@/lib/utils";
 
 /**
- * Small "back to top" button for Android and desktop (client request, 2026-10-15), bottom right
- * above the WhatsApp button. Not on iOS: tapping the status bar already scrolls to the top there.
+ * Small "back to top" button (client request, 2026-10-15; on iPhone and iPad too since 2026-10-27),
+ * bottom right above the WhatsApp button.
  */
 export function BackToTop() {
   const { t } = useI18n();
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const ios = /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
-    if (ios) return;
     const onScroll = () => setVisible(window.scrollY > 800);
     const frame = requestAnimationFrame(onScroll);
     window.addEventListener("scroll", onScroll, { passive: true });

@@ -7,11 +7,13 @@
  *   future URL as source ("owner-confirmed": written by the shop or its agency).
  * - seo/*.json → seo-overrides.json: title/description per URL path.
  * - announcement.json → announcement.json: the announcement bar, or null when switched off.
+ * - faq/*.json → faqs.json: the FAQ (client request 2026-10-27), answers split into paragraphs on
+ *   blank lines. A question added in the CMS gets the FAQ page as its (owner-confirmed) source.
  */
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { DEVICES_DIR, fromEntry, type DeviceEntry } from "./devices";
-import { BLOG_DIR, GENERATED_DIR, PAGES_DIR, SEO_DIR, readEntries } from "./files";
+import { BLOG_DIR, FAQ_DIR, GENERATED_DIR, PAGES_DIR, SEO_DIR, readEntries } from "./files";
 import Markdoc from "@markdoc/markdoc";
 import yaml from "js-yaml";
 
@@ -178,11 +180,28 @@ const blogPosts = readdirSync(join(ROOT, BLOG_DIR))
   // Newest first, as on the original blog.
   .sort((a, b) => (b.publishedAt ?? "").localeCompare(a.publishedAt ?? "") || a.slug.localeCompare(b.slug));
 
+// FAQ (CMS collection src/content/faq, one file per question).
+const faqs = readEntries<Raw>(ROOT, FAQ_DIR)
+  .map((e) => ({
+    id: e.id,
+    question: str(e.question),
+    answer: str(e.answer).split(/\n\s*\n/).map((p) => p.replace(/\s*\n\s*/g, " ").trim()).filter(Boolean),
+    order: typeof e.order === "number" ? e.order : 500,
+    topics: list(e.topics),
+    repairIds: list(e.repairIds),
+    sources: Array.isArray(e.sources) && e.sources.length
+      ? e.sources
+      : [{ url: `${ORIGIN}/veelgestelde-vragen/`, verification: "owner-confirmed", capturedAt: today, note: "Added in the CMS by Phone Repairs." }],
+  }))
+  .filter((f) => f.question && f.answer.length)
+  .sort((a, b) => a.order - b.order || a.id.localeCompare(b.id));
+
 mkdirSync(join(ROOT, GENERATED_DIR), { recursive: true });
+writeFileSync(join(ROOT, GENERATED_DIR, "faqs.json"), JSON.stringify(faqs, null, 2) + "\n");
 writeFileSync(join(ROOT, GENERATED_DIR, "blog.json"), JSON.stringify(blogPosts, null, 2) + "\n");
 writeFileSync(join(ROOT, GENERATED_DIR, "devices.json"), JSON.stringify(devices, null, 2) + "\n");
 writeFileSync(join(ROOT, GENERATED_DIR, "price-lists.json"), JSON.stringify(priceLists, null, 2) + "\n");
 writeFileSync(join(ROOT, GENERATED_DIR, "announcement.json"), JSON.stringify(announcement, null, 2) + "\n");
 writeFileSync(join(ROOT, GENERATED_DIR, "landing-pages.json"), JSON.stringify(pages, null, 2) + "\n");
 writeFileSync(join(ROOT, GENERATED_DIR, "seo-overrides.json"), JSON.stringify(seo, null, 2) + "\n");
-console.log(`Content: ${pages.length} pages, ${seo.length} SEO overrides, ${devices.length} devices, ${blogPosts.length} blog posts → ${GENERATED_DIR}/`);
+console.log(`Content: ${pages.length} pages, ${seo.length} SEO overrides, ${devices.length} devices, ${blogPosts.length} blog posts, ${faqs.length} FAQs → ${GENERATED_DIR}/`);

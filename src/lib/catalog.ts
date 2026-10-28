@@ -27,7 +27,7 @@ import repairsJson from "@/data/repairs.json";
 import priceListsJson from "@/data/generated/price-lists.json";
 import devicesJson from "@/data/generated/devices.json";
 import warrantyJson from "@/data/warranty.json";
-import faqsJson from "@/data/faqs.json";
+import faqsJson from "@/data/generated/faqs.json";
 import claimsJson from "@/data/claims.json";
 // Merged from the CMS files in src/content/pages by `npm run content` (runs before dev/build/check).
 import landingPagesJson from "@/data/generated/landing-pages.json";
@@ -41,10 +41,12 @@ const byOrder = <T extends { order: number }>(a: T, b: T) => a.order - b.order;
 
 export const categories = z.array(deviceCategorySchema).parse(categoriesJson).sort(byOrder);
 export const devices = z.array(deviceModelSchema).parse(devicesJson);
-// A device added in the CMS may be the brand's first in a category (e.g. a first Samsung tablet).
+// A device added in the CMS may be the brand's first in a category (e.g. a first Samsung tablet). A brand
+// whose devices were all deleted in the CMS disappears from the site (Redmi, client request 2026-10-27).
 export const brands = z
   .array(brandSchema)
   .parse(brandsJson)
+  .filter((b) => devices.some((d) => d.brandId === b.id))
   .map((b) => ({ ...b, categories: [...new Set([...b.categories, ...devices.filter((d) => d.brandId === b.id).map((d) => d.categoryId)])] }))
   .sort(byOrder);
 export const repairs = z.array(repairServiceSchema).parse(repairsJson).sort(byOrder);

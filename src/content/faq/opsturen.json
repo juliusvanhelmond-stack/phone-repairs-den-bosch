@@ -1,0 +1,16 @@
+{
+  "question": "Kan ik mijn toestel ook opsturen?",
+  "answer": "Ja. Neem eerst contact op, zodat gecontroleerd kan worden of het onderdeel op voorraad is en je weet wat de reparatie kost. Daarna stuur je je toestel goed verpakt en aangetekend op.",
+  "order": 220,
+  "repairIds": [],
+  "topics": [
+    "opsturen"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/veelgestelde-vragen/reparatie-opsturen/",
+      "verification": "search-index",
+      "capturedAt": "2026-10-12"
+    }
+  ]
+}

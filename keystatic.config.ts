@@ -5,7 +5,7 @@
  * Storage: local files in development; in production GitHub, once the GitHub App is set up
  * (NEXT_PUBLIC_KEYSTATIC_STORAGE=github plus the KEYSTATIC_* secrets, see docs/cms.md).
  * Since 2026-10-21 the shop also edits its devices and prices, blog posts and opening hours here
- * (client request): from then on the CMS is the source of those, not the old site.
+ * (client request), and since 2026-10-27 the FAQ: from then on the CMS is the source of those.
  */
 import { collection, config, fields, singleton } from "@keystatic/core";
 import brandsJson from "./src/data/brands.json";
@@ -42,7 +42,7 @@ export default config({
     brand: { name: "Phone Repairs" },
     navigation: {
       Winkel: ["toestellen", "openingstijden", "mededeling"],
-      Inhoud: ["blog", "pages", "seo"],
+      Inhoud: ["faq", "blog", "pages", "seo"],
     },
   },
   singletons: {
@@ -192,6 +192,43 @@ export default config({
       },
     }),
     // Blog posts (client request 2026-10-21): text with headings, lists, links and images.
+    // Frequently asked questions (client request 2026-10-27): the FAQ page shows them all, the homepage
+    // the first six, repair and device pages the ones linked to their repair plus the general ones.
+    faq: collection({
+      label: "Veelgestelde vragen",
+      path: "src/content/faq/*",
+      format: { data: "json" },
+      slugField: "question",
+      columns: ["question", "order"],
+      schema: {
+        question: fields.slug({
+          name: { label: "Vraag", validation: { isRequired: true } },
+          slug: {
+            label: "Interne naam",
+            description: "Wordt automatisch ingevuld; niet zichtbaar op de site.",
+            validation: { pattern: { regex: /^[a-z0-9]+(?:-[a-z0-9]+)*$/, message: "Alleen kleine letters, cijfers en streepjes." } },
+          },
+        }),
+        answer: fields.text({
+          label: "Antwoord",
+          description: "Een lege regel begint een nieuwe alinea.",
+          multiline: true,
+          validation: { isRequired: true },
+        }),
+        order: fields.integer({
+          label: "Volgorde",
+          description: "Lager getal = hoger in de lijst. De eerste zes staan ook op de homepage.",
+          defaultValue: 500,
+        }),
+        repairIds: fields.multiselect({
+          label: "Hoort bij reparatie",
+          description: "Dan staat de vraag ook bij die reparatie en bij de toestellen. Leeg = algemene vraag (staat bij alle reparaties).",
+          options: byOrder(repairsJson).map((r) => ({ label: r.name, value: r.id })),
+        }),
+        topics: fields.ignored(),
+        sources: fields.ignored(),
+      },
+    }),
     blog: collection({
       label: "Blog",
       path: "src/content/blog/*",

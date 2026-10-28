@@ -30,7 +30,7 @@ const ROUTES = [
   "/reparaties/apple",
   "/reparaties/apple/iphone-15-pro",
   "/reparaties/samsung/galaxy-s23",
-  "/reparaties/apple/macbook-pro-m1-2021-14-a2442",
+  "/reparaties/apple/mac-book-air-13-2020-m1-a2337",
   "/reparaties/google/pixel-9",
   "/garantie",
   "/waterschade-reparatie-phone-repairs",
@@ -208,7 +208,8 @@ async function main() {
     await page.goto(BASE + "/reparaties/apple/iphone-15-pro");
     const row = page.getByRole("listitem").filter({ hasText: "Scherm vervangen premium OLED" });
     await row.waitFor();
-    assert(/€\s?210\b/.test((await row.textContent()) ?? ""), `row: ${await row.textContent()}`);
+    // The shop edits its prices in the CMS since 2026-10-21: check that an amount is shown, not which one.
+    assert(/€\s?\d+/.test((await row.textContent()) ?? ""), `row: ${await row.textContent()}`);
     await page.getByRole("heading", { name: "Batterij vervangen" }).waitFor();
     await page.getByRole("heading", { name: "Accessoires" }).waitFor();
     // "Meest gekozen" and the quality links, as in the original table (iPhone 14 Pro screenshot)
@@ -329,8 +330,8 @@ async function main() {
     const card = page.getByRole("dialog", { name: "Batterij vervangen" });
     await card.waitFor();
     const href = await card.getByRole("link", { name: /Plan via WhatsApp/ }).getAttribute("href");
-    assert(href?.startsWith(`${WA}?text=`) && waText(href).includes("iPhone 17: batterij vervangen"), `cta ${href}`);
-    // The lowest price of the iPhone 17 battery rows on the current site, shown as "vanaf".
+    assert(href?.startsWith(`${WA}?text=`) && waText(href).includes("iPhone: batterij vervangen"), `cta ${href}`);
+    // The lowest battery price of all iPhones (client request 2026-10-27), shown as "vanaf".
     assert(/vanaf\s*€\s?\d+/.test((await card.textContent()) ?? ""), "no 'vanaf' price from the price list");
     await page.keyboard.press("Escape");
     await card.waitFor({ state: "detached" });
@@ -448,7 +449,7 @@ async function main() {
     await page.getByRole("button", { name: /Reparaties/ }).first().click();
     const menu = page.locator("header").getByText("Smartphones", { exact: true }).locator("xpath=..");
     const names = (await menu.getByRole("link").allTextContents()).map((s) => s.trim());
-    const expected = ["iPhone", "Samsung", "Google", "OPPO", "OnePlus", "Xiaomi", "Poco", "Redmi", "Motorola", "Huawei", "Honor", "Nokia", "Sony", "Realme", "Asus"];
+    const expected = ["iPhone", "Samsung", "Google", "OPPO", "OnePlus", "Xiaomi", "Poco", "Motorola", "Huawei", "Honor", "Nokia", "Sony", "Realme", "Asus"];
     assert(JSON.stringify(names) === JSON.stringify(expected), `menu order ${names.join(", ")}`);
     const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true });
     const m = await ctx.newPage();
@@ -494,7 +495,8 @@ async function main() {
 
   await check("google reviews: Trustindex badge in the top bar and link in the trust section", async () => {
     await page.goto(BASE + "/");
-    const link = page.getByRole("link", { name: "Bekijk alle reviews op Google" });
+    // With the Google score (2026-10-27) the label reads "Google: 4,9 uit … reviews. Bekijk alle reviews".
+    const link = page.getByRole("link", { name: /^(Bekijk alle reviews op Google|Google: \d,\d uit [\d.]+ reviews\. Bekijk alle reviews)$/ });
     assert((await link.getAttribute("href"))?.startsWith("https://www.google.com/maps/place/Phone+Repairs/"), "reviews link");
     // The badge itself is rendered by Trustindex (external) once it scrolls into view; here we
     // check that the embed is in place, not the third-party service.
