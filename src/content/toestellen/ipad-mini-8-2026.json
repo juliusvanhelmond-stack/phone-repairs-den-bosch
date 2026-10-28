@@ -1,14 +1,17 @@
 {
-  "name": "iPad mini 2026",
+  "name": "iPad mini 8 2026",
   "brandId": "apple",
   "categoryId": "tablet",
   "series": "iPad mini",
   "order": 25005,
   "releaseYear": "2026",
   "art": "tablet",
-  "photo": "/images/toestellen/ipad-mini-2026/photo.jpg",
+  "photo": "/images/toestellen/ipad-mini-8-2026/photo.jpg",
   "popular": false,
-  "aliases": [],
+  "aliases": [
+    "iPad mini 8 2026",
+    "iPad mini 2026"
+  ],
   "prices": [
     {
       "label": "Scherm (OLED) origineel Apple service pack vervangen.",
@@ -31,8 +34,8 @@
     }
   ],
   "seo": {
-    "title": "iPad mini 2026 reparatie De Bosch",
-    "description": "iPad mini 2026 reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie. Bel 073-8220013"
+    "title": "iPad mini 8 2026 reparatie De Bosch",
+    "description": "iPad mini 8 2026 reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie. Bel 073-8220013"
   },
   "legacyUrls": [
     "https://www.phonerepairs.nl/ipad-reparatie-den-bosch/ipad-mini-6-2021/"
