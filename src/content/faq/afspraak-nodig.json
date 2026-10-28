@@ -1,7 +1,7 @@
 {
   "question": "Moet ik een afspraak maken?",
   "answer": "Ja. Phone Repairs werkt altijd op afspraak, zodat er voldoende tijd en aandacht is voor jouw reparatie. Je maakt een afspraak via WhatsApp, telefonisch of per e-mail.",
-  "order": 170,
+  "order": 20,
   "repairIds": [],
   "topics": [
     "afspraak"
