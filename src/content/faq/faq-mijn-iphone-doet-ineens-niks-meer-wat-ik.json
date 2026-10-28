@@ -1,7 +1,7 @@
 {
   "question": "Mijn iPhone doet ineens niks meer, wat kan ik doen?",
   "answer": "Voer een geforceerde herstart (Hard Reset) uit. Soms zorgt een softwarefout ervoor dat een iPhone, niks meer lijkt te doen. Met een harde reset herstart het moederbord geforceerd zonder dataverlies:\n\n– iPhone 8 en nieuwer (incl. iPhone met Face ID): Druk kort op Volume Omhoog, druk kort op Volume Omlaag, en houd daarna de Aan/Uit-knop aan de zijkant ingedrukt tot het Apple-logo verschijnt.\n\n– iPhone 7 (Plus) en ouder: Houd de Volume Omlaag-knop en de Aan/Uit-knop tegelijkertijd ingedrukt tot het Apple-logo verschijnt.",
-  "order": 100,
+  "order": 20,
   "repairIds": [],
   "topics": [
     "algemeen"
