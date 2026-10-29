@@ -5,7 +5,7 @@ import { fromPrice, getBrand, getPriceList, repairPath } from "@/lib/catalog";
 import { site, whatsappHref, whatsappMessage } from "@/lib/site";
 import { getI18n } from "@/lib/i18n-server";
 import type { Translate } from "@/lib/i18n";
-import { formatEuro } from "@/lib/utils";
+import { formatEuro, priceRowNote } from "@/lib/utils";
 import type { DeviceModel, PriceRow, RepairService } from "@/types/content";
 
 function priceText(row: PriceRow, t: Translate, locale: "nl" | "en") {
@@ -105,21 +105,25 @@ export async function RepairPriceList({ device, repairs }: { device: DeviceModel
 function PriceRows({ rows, t, locale }: { rows: PriceRow[]; t: Translate; locale: "nl" | "en" }) {
   return (
     <ul className="divide-y divide-line">
-      {rows.map((row, i) => (
-        <li key={`${row.label}-${i}`} className="flex items-baseline justify-between gap-6 px-5 py-3 text-[0.9375rem] sm:px-6">
-          <span className="text-ink-soft" lang="nl">
-            <RowLabel row={row} />
-            {row.popular && (
-              <span className="ml-2 inline-flex translate-y-[-1px] items-center rounded-md bg-accent px-2 py-0.5 align-middle text-xs font-semibold text-white">
-                {t("Meest gekozen", "Most chosen")}
-              </span>
-            )}
-          </span>
-          <span className={row.amount !== null ? "shrink-0 font-semibold text-ink tabular-nums" : "shrink-0 text-sm text-muted"}>
-            {priceText(row, t, locale)}
-          </span>
-        </li>
-      ))}
+      {rows.map((row, i) => {
+        const note = priceRowNote(row);
+        return (
+          <li key={`${row.label}-${i}`} className="flex items-baseline justify-between gap-6 px-5 py-3 text-[0.9375rem] sm:px-6">
+            <span className="text-ink-soft" lang="nl">
+              <RowLabel row={row} />
+              {row.popular && (
+                <span className="ml-2 inline-flex translate-y-[-1px] items-center rounded-md bg-accent px-2 py-0.5 align-middle text-xs font-semibold text-white">
+                  {t("Meest gekozen", "Most chosen")}
+                </span>
+              )}
+              {note && <span className="mt-0.5 block text-sm font-medium text-accent-strong">{t(note.nl, note.en)}</span>}
+            </span>
+            <span className={row.amount !== null ? "shrink-0 font-semibold text-ink tabular-nums" : "shrink-0 text-sm text-muted"}>
+              {priceText(row, t, locale)}
+            </span>
+          </li>
+        );
+      })}
     </ul>
   );
 }

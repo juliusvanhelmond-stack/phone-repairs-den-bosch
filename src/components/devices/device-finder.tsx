@@ -25,7 +25,7 @@ import { ContentIcon } from "@/components/repairs/icon";
 import { Button } from "@/components/ui/button";
 import { useI18n } from "@/components/i18n/locale-provider";
 import type { FinderDevice } from "@/lib/catalog";
-import { cn, formatEuro, normalizeSearch } from "@/lib/utils";
+import { cn, formatEuro, normalizeSearch, priceRowNote } from "@/lib/utils";
 
 export type FinderCategory = { id: string; name: string; plural: string; description: string };
 export type FinderBrand = {
@@ -732,6 +732,10 @@ function FinderResult({
                         {t("Meest gekozen", "Most chosen")}
                       </span>
                     )}
+                    {(() => {
+                      const note = priceRowNote(r);
+                      return note && <span className="mt-0.5 block text-sm font-medium text-accent-strong">{t(note.nl, note.en)}</span>;
+                    })()}
                   </span>
                   <span className={r.amount !== null ? "shrink-0 font-semibold text-ink tabular-nums" : "shrink-0 text-sm text-muted"}>
                     {priceLabel(r)}

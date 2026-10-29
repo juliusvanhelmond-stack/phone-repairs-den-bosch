@@ -38,3 +38,14 @@ export function normalizeSearch(value: string): string {
     .replace(/[^a-z0-9]+/g, " ")
     .trim();
 }
+
+/**
+ * Extra line under a price row (client request 2026-10-29): an original pulled battery has a
+ * capacity of 94% to 100%. Matched on the row so devices added in the CMS get it too.
+ */
+export function priceRowNote(row: { label: string; repairId: string | null }): { nl: string; en: string } | null {
+  if (row.repairId === "batterij-vervangen" && /\bpulled\b/i.test(row.label)) {
+    return { nl: "Batterijcapaciteit 94% tot 100%", en: "Battery capacity 94% to 100%" };
+  }
+  return null;
+}
