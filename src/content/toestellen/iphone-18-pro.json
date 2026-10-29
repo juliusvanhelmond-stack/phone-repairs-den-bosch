@@ -104,7 +104,12 @@
       "price": "€295,-",
       "repairId": "camera-repareren",
       "popular": false,
-      "links": []
+      "links": [
+        {
+          "text": "origineel pulled",
+          "href": "https://www.phonerepairs.nl/iphone-onderdelen-kalibreren"
+        }
+      ]
     },
     {
       "label": "Camera's aan de achterkant origineel Apple service pack vervangen",
