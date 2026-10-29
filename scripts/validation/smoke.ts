@@ -276,7 +276,7 @@ async function main() {
     assert((await options.count()) > 1, "no part options to choose from");
     const last = options.last();
     await last.check();
-    const label = (await last.locator("xpath=..").locator("span").first().textContent())?.replace(/Meest gekozen$/, "").trim() ?? "";
+    const label = (await last.locator("xpath=..").locator("span").first().textContent())?.replace(/Batterijcapaciteit \d+% tot 100%$/, "").replace(/Meest gekozen$/, "").trim() ?? "";
     assert(/€\s?\d+|Op aanvraag/.test((await finder.locator("p.text-4xl").textContent()) ?? ""), "no price for the chosen option");
     assert(page.url().includes("model=apple-iphone-15-pro-max"), `url not synced: ${page.url()}`);
     const href = await finder.getByRole("link", { name: /Afspraak aanvragen via WhatsApp/ }).getAttribute("href");
