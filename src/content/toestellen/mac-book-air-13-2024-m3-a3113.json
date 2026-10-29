@@ -12,7 +12,7 @@
   ],
   "prices": [
     {
-      "label": "MacBook Air 13\" 2024 M3 A3113 scherm unit (complete bovenkant) vervangen origineel Apple service pack",
+      "label": "Scherm unit (complete bovenkant) vervangen origineel Apple service pack",
       "price": "€745,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "label": "MacBook Air 13\" 2024 M3 A3113 scherm unit (complete bovenkant) vervangen origineel pulled",
+      "label": "Scherm unit (complete bovenkant) vervangen origineel pulled",
       "price": "Prijs op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": true,
@@ -39,6 +39,13 @@
       "label": "MacBook Air 13\" 2024 M3 A3113 batterij vervangen",
       "price": "€350,-",
       "repairId": "batterij-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "3.5 mm headjack vervangen origineel Apple service pack",
+      "price": "€130,-",
+      "repairId": "auto",
       "popular": false,
       "links": []
     }
