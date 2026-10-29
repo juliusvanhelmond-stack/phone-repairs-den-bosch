@@ -85,6 +85,30 @@
       ]
     },
     {
+      "label": "Camera's aan de achterkant origineel pulled vervangen",
+      "price": "€275,-",
+      "repairId": "auto",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel pulled",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Camera's aan de achterkant origineel Apple service pack vervangen",
+      "price": "€390,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
       "label": "Taptic Engine origineel Apple service pack vervangen",
       "price": "€185,-",
       "repairId": "overige-reparaties",
@@ -102,18 +126,6 @@
       "repairId": "overige-reparaties",
       "popular": false,
       "links": []
-    },
-    {
-      "label": "Camera's aan de achterkant origineel Apple service pack vervangen",
-      "price": "€390,-",
-      "repairId": "camera-repareren",
-      "popular": false,
-      "links": [
-        {
-          "text": "origineel Apple service pack",
-          "href": "/iphone-onderdelen-kalibreren"
-        }
-      ]
     },
     {
       "label": "Ik hoor mijn gesprekspartner niet, oorluidspreker origineel Apple service pack vervangen",
