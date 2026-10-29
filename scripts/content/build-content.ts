@@ -144,6 +144,19 @@ const blogPosts = readdirSync(join(ROOT, BLOG_DIR))
       .replace(/^<article>|<\/article>$/g, "");
     const seo = (front.seo ?? {}) as Raw;
     const date = (v: unknown) => (v instanceof Date ? v.toISOString().slice(0, 10) : opt(v));
+    const pl = (front.priceList ?? {}) as Raw;
+    const priceItems = (Array.isArray(pl.items) ? (pl.items as Raw[]) : [])
+      .filter((r) => str(r.name) && str(r.price))
+      .map((r) => ({
+        ...(opt(r.group) ? { group: str(r.group) } : {}),
+        name: str(r.name),
+        price: str(r.price),
+        ...(opt(r.text) ? { text: str(r.text) } : {}),
+        ...(opt(r.textEn) ? { textEn: str(r.textEn) } : {}),
+      }));
+    const priceList = str(pl.heading) && priceItems.length
+      ? { heading: str(pl.heading), ...(opt(pl.subheading) ? { subheading: str(pl.subheading) } : {}), items: priceItems }
+      : undefined;
     const sources = Array.isArray(front.sources) && front.sources.length
       ? (front.sources as Raw[])
       : [{ url: `${ORIGIN}/blog-post/${slug}/`, verification: "owner-confirmed", capturedAt: today, note: "Written in the CMS by Phone Repairs." }];
@@ -171,6 +184,7 @@ const blogPosts = readdirSync(join(ROOT, BLOG_DIR))
         })(),
       summary: list(front.summary),
       bodyHtml: html,
+      ...(priceList ? { priceList } : {}),
       legacyUrls: list(front.legacyUrls),
       sources,
       ...(opt(seo.title) || opt(seo.description) ? { seo: { ...(opt(seo.title) ? { title: str(seo.title) } : {}), ...(opt(seo.description) ? { description: str(seo.description) } : {}) } } : {}),

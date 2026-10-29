@@ -226,6 +226,16 @@ export const blogArticleSchema = z.object({
   summary: z.array(z.string()).default([]),
   /** Full migrated body; empty until the post is exported from the original site. */
   bodyHtml: z.string().default(""),
+  /** Optional rate list below the post, edited in the CMS (e.g. the hydrogel prices). */
+  priceList: z
+    .object({
+      heading: z.string(),
+      subheading: z.string().optional(),
+      items: z.array(
+        z.object({ group: z.string().optional(), name: z.string(), price: z.string(), text: z.string().optional(), textEn: z.string().optional() }),
+      ),
+    })
+    .optional(),
   legacyUrls: z.array(z.string()).default([]),
   sources: z.array(sourceRefSchema).default([]),
   seo: seoMetaSchema.optional(),

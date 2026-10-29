@@ -9,7 +9,7 @@ import { blogPath, blogPosts, getBlogPost, localizeBlog } from "@/lib/catalog";
 import { getI18n } from "@/lib/i18n-server";
 import { pageMetadata } from "@/lib/seo";
 import { embedVideos } from "@/lib/video-embed";
-import { HydrogelPrices, HYDROGEL_SLUG } from "@/components/partners/hydrogel-prices";
+import { BlogPriceList } from "@/components/blog/blog-price-list";
 
 // Blog posts keep their original URL (/blog-post/<slug>). Unknown slugs get a real 404 from src/proxy.ts.
 export const instant = false;
@@ -76,7 +76,7 @@ export default async function BlogPostPage({ params }: PageProps<"/[lang]/blog-p
               )}
             </>
           )}
-          {post.slug === HYDROGEL_SLUG && <HydrogelPrices className="mt-12" />}
+          {post.priceList && <BlogPriceList list={post.priceList} className="mt-12" />}
           <Link href="/blog-post" className="mt-12 inline-flex items-center gap-2 font-medium text-accent-strong hover:text-accent">
             <ArrowLeft className="size-4" aria-hidden />
             {t("Alle berichten", "All posts")}

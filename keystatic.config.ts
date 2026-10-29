@@ -266,6 +266,23 @@ export default config({
             table: false,
           },
         }),
+        priceList: fields.object(
+          {
+            heading: fields.text({ label: "Kop", description: "Bijv. Onze Hydrogel Toppers. Leeg = geen prijslijst." }),
+            subheading: fields.text({ label: "Regel onder de kop (optioneel)", description: "Bijv. Inclusief professionele plaatsing." }),
+            items: fields.array(
+              fields.object({
+                group: fields.text({ label: "Groep (optioneel)", description: "Kleine kop boven de regel, bijv. Voor tablets." }),
+                name: fields.text({ label: "Product", validation: { isRequired: true } }),
+                price: fields.text({ label: "Prijs", description: "Zoals hij er moet staan, bijv. €25,- of Prijs op aanvraag.", validation: { isRequired: true } }),
+                text: fields.text({ label: "Omschrijving (optioneel)", multiline: true }),
+                textEn: fields.text({ label: "Omschrijving in het Engels (optioneel)", multiline: true }),
+              }),
+              { label: "Regels", itemLabel: (p) => `${p.fields.name.value || "Nieuwe regel"} · ${p.fields.price.value}` },
+            ),
+          },
+          { label: "Prijslijst onder het bericht (optioneel)" },
+        ),
         updatedAt: fields.ignored(),
         summary: fields.ignored(),
         legacyUrls: fields.ignored(),
