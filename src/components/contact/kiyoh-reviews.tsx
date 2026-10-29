@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils";
 /**
  * Latest Kiyoh reviews as a sideways-scrolling row, next to the Google review widget (client
  * request, 2026-10-16). The reviews come from the client's Kiyoh feed at build time, verbatim.
+ * White in the light theme, dark in the dark theme (client request 2026-10-29).
  */
 export async function KiyohReviews({ className }: { className?: string }) {
   const kiyoh = site.kiyoh;
@@ -18,7 +19,7 @@ export async function KiyohReviews({ className }: { className?: string }) {
   const score = new Intl.NumberFormat(tag, { minimumFractionDigits: 1, maximumFractionDigits: 1 }).format(summary.score);
   const date = (iso: string) => new Intl.DateTimeFormat(tag, { day: "numeric", month: "long", year: "numeric" }).format(new Date(iso));
   return (
-    <div className={cn("tone-light rounded-[var(--radius-card)] bg-white p-5 text-ink sm:p-6", className)}>
+    <div className={cn("rounded-[var(--radius-card)] bg-surface p-5 text-ink sm:p-6", className)}>
       <div className="flex flex-wrap items-center justify-between gap-3">
         <p className="flex items-center gap-2.5 font-semibold">
           {/* eslint-disable-next-line @next/next/no-img-element -- small static SVG */}

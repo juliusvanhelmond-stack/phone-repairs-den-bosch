@@ -38,8 +38,13 @@ export async function Trust() {
         </ul>
         {site.reviews?.carouselId && (
           // Google reviews as the client's Trustindex widget renders them (asked for on 2026-10-15).
-          <div className="tone-light mt-3 rounded-[var(--radius-card)] bg-white p-4 text-ink sm:p-6">
-            <TrustindexBadge widgetId={site.reviews.carouselId} className="min-h-40" />
+          // In the dark theme the card is dark too (client request 2026-10-29). The widget's own styles cannot be set
+          // from here, so its colours are inverted (hue turned back) and photos and logos are inverted again.
+          <div className="tone-light mt-3 rounded-[var(--radius-card)] bg-white p-4 text-ink sm:p-6 dark:bg-surface">
+            <TrustindexBadge
+              widgetId={site.reviews.carouselId}
+              className="min-h-40 dark:[filter:invert(1)_hue-rotate(180deg)] dark:[&_img]:[filter:invert(1)_hue-rotate(180deg)] dark:[&_.ti-widget-header]:!bg-transparent"
+            />
           </div>
         )}
         <KiyohReviews className="mt-3" />
