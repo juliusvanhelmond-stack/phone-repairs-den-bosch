@@ -1,7 +1,7 @@
 {
+  "id": "pre-owned-toestellen",
   "path": "/pre-owned-toestellen",
   "kind": "service",
-  "originalTitle": "Pre-owned toestellen",
   "title": "Pre-owned toestellen",
   "eyebrow": "Pre-owned",
   "intro": "Naast reparaties heeft Phone Repairs een selectie gebruikte toestellen die grondig zijn nagekeken en klaar zijn voor een tweede leven.",
@@ -9,40 +9,55 @@
     "title": "Pre-owned toestellen · Phone Repairs Den Bosch",
     "description": "Gebruikte smartphones die op tientallen punten zijn getest, met een batterijconditie tussen 85% en 98%. Vraag naar het actuele aanbod."
   },
+  "placeKind": "plaats",
+  "focus": "",
   "sections": [
     {
       "heading": "Grondig getest",
-      "body": [
-        "Elk toestel wordt op tientallen punten getest, waaronder de batterij, het scherm en de camera's."
-      ],
+      "intro": [],
       "bullets": [
         "Batterijconditie tussen 85% en 98%",
         "Geleverd met originele lader en kabel"
-      ]
+      ],
+      "steps": [],
+      "prices": [],
+      "body": [
+        "Elk toestel wordt op tientallen punten getest, waaronder de batterij, het scherm en de camera's."
+      ],
+      "image": {}
     },
     {
       "heading": "Actueel aanbod",
+      "intro": [],
+      "bullets": [],
+      "steps": [],
+      "prices": [],
       "body": [
         "Het aanbod wisselt steeds. Bel of mail om te horen welke toestellen er nu beschikbaar zijn."
-      ]
+      ],
+      "image": {}
     },
     {
       "heading": "Aanbieding direct leverbaar",
       "intro": [],
-      "body": [],
       "bullets": [],
       "steps": [],
       "prices": [
         {
           "label": "Google Pixel 9 Pro Fold 256GB zwart",
           "price": "€750,-"
+        },
+        {
+          "label": "Samsung Z Fold 8 256 GB zwart",
+          "price": "€1300,-"
         }
-      ]
+      ],
+      "body": [],
+      "image": {}
     },
     {
       "heading": "Levertijd 1-2 werkdagen",
       "intro": [],
-      "body": [],
       "bullets": [],
       "steps": [],
       "prices": [
@@ -78,7 +93,9 @@
           "label": "iPhone 14 128GB",
           "price": "€465,-"
         }
-      ]
+      ],
+      "body": [],
+      "image": {}
     }
   ],
   "unconfirmed": [
@@ -102,5 +119,5 @@
       "note": "Offer and prices transcribed from the page's image 'Aanbieding direct leverbaar' (/wp-content/uploads/2026/10/exec-d695c43c-305a-4518-a5d2-eb6d3ced8ec9.png) at the owner's request (e-mail 16 October 2026: 'Pre-owned prijzen … mag als tekst'); editable in the CMS."
     }
   ],
-  "id": "pre-owned-toestellen"
+  "originalTitle": "Pre-owned toestellen"
 }
