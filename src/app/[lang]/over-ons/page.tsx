@@ -13,16 +13,16 @@ import { SectionHeading } from "@/components/ui/section-heading";
 
 // Summarised from the original about pages (/over-phone-repairs/ and
 // /veelgestelde-vragen/over-ons-en-onze-passie/), search-index 2026-10-12.
-// Years of experience are left out: the original pages say both 10 and 20+.
+// Years of experience: the original pages said both 10 and 20+; the owner confirmed 20+ (mail 2026-10-29).
 const story = {
   nl: [
     "Het verhaal van Phone Repairs begint bij Martijn: oprichter, eigenaar en Mobile Device Engineer.",
-    "Zijn interesse in mobiele technologie begon lang geleden. Als liefhebber, jailbreaker en techblogger dook hij jarenlang in elke nieuwe smartphone en tablet. Hij testte er honderden en schreef er uitgebreide reviews over. Die kennis is de basis van zijn werk als Mobile Device Engineer.",
+    "Zijn interesse in mobiele technologie begon lang geleden. Als liefhebber, jailbreaker en techblogger dook hij jarenlang in elke nieuwe smartphone en tablet. Hij testte er honderden en schreef er uitgebreide reviews over. Die kennis is de basis van zijn werk als Mobile Device Engineer. Inmiddels heeft hij meer dan 20 jaar ervaring.",
     "Vanaf het begin koos hij bewust voor een eigen, onafhankelijke weg. Geen franchise, maar persoonlijk contact, eerlijk advies en volle aandacht voor elke reparatie.",
   ],
   en: [
     "The story of Phone Repairs starts with Martijn: founder, owner and Mobile Device Engineer.",
-    "His interest in mobile technology began a long time ago. As an enthusiast, jailbreaker and tech blogger he spent years exploring every new smartphone and tablet. He tested hundreds of them and wrote detailed reviews. That knowledge is the foundation of his work as a Mobile Device Engineer.",
+    "His interest in mobile technology began a long time ago. As an enthusiast, jailbreaker and tech blogger he spent years exploring every new smartphone and tablet. He tested hundreds of them and wrote detailed reviews. That knowledge is the foundation of his work as a Mobile Device Engineer. By now he has more than 20 years of experience.",
     "From the start he deliberately chose his own, independent path. No franchise, but personal contact, honest advice and full attention for every repair.",
   ],
 };
@@ -56,8 +56,8 @@ export default async function AboutPage() {
       >
         <DemoNote className="max-w-2xl">
           {t(
-            "Het verhaal hieronder is samengevat uit de huidige pagina’s ‘Over Phone Repairs’ en ‘Over ons en onze passie’. De volledige tekst en een echte foto van Martijn of de werkplaats komen bij de migratie. Het aantal jaren ervaring staat er verschillend (10 en 20+) en is daarom weggelaten.",
-            "The story below is summarised from the current pages ‘Over Phone Repairs’ and ‘Over ons en onze passie’. The full text and a real photo of Martijn or the workshop follow with the migration. The years of experience differ (10 and 20+) and are therefore left out.",
+            "Het verhaal hieronder is samengevat uit de huidige pagina’s ‘Over Phone Repairs’ en ‘Over ons en onze passie’. De volledige tekst en een echte foto van Martijn of de werkplaats komen bij de migratie.",
+            "The story below is summarised from the current pages ‘Over Phone Repairs’ and ‘Over ons en onze passie’. The full text and a real photo of Martijn or the workshop follow with the migration.",
           )}
         </DemoNote>
       </PageIntro>

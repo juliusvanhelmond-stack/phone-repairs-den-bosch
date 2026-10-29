@@ -108,7 +108,7 @@ export async function Hero() {
             </span>
             <span>
               <span className="block text-sm font-medium text-ink">{t("Kijk gerust mee", "Feel free to watch")}</span>
-              <span className="block text-xs text-muted">{t("Martijn legt graag uit.", "Martijn is happy to explain.")}</span>
+              <span className="block text-xs text-muted">{t("Martijn legt graag uit wat hij doet.", "Martijn is happy to explain what he does.")}</span>
             </span>
           </FloatingCard>
         </div>
