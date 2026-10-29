@@ -1,7 +1,7 @@
 {
+  "id": "telefoon-en-tablet-hulp",
   "path": "/telefoon-en-tablet-hulp",
   "kind": "service",
-  "originalTitle": "Telefoon en tablet hulp",
   "title": "Telefoon- en tablethulp",
   "eyebrow": "Telefoonhulp",
   "intro": "Loop je vast met je telefoon of tablet? Heb je een nieuw toestel gekocht en lukt het niet om alles goed over te zetten? Of heb je hulp nodig bij instellingen, apps of het koppelen van accessoires? Bij Phone Repairs Den Bosch helpen we je graag verder. Of het nu gaat om een iPhone, Samsung, Oppo, Google Pixel of een ander merk: we nemen de tijd om het probleem samen met je op te lossen. Bovendien leggen we duidelijk uit wat we doen, zodat je daarna zelf weer verder kunt.",
@@ -9,11 +9,12 @@
     "title": "Telefoonhulp: wij helpen je met al je telefoonproblemen",
     "description": "Hulp bij gegevens overzetten, een nieuw toestel instellen, accessoires koppelen en instellingen. Op afspraak bij Phone Repairs in Den Bosch."
   },
+  "placeKind": "plaats",
+  "focus": "",
   "sections": [
     {
       "heading": "Waar kunnen we je mee helpen?",
       "intro": [],
-      "steps": [],
       "bullets": [
         "Gegevens overzetten: we helpen je met het overzetten van foto’s, contacten, bestanden, apps en – waar mogelijk – WhatsApp-gesprekken van je oude naar je nieuwe toestel.",
         "Nieuw toestel instellen: van accounts en e-mail tot de belangrijkste instellingen en apps. Zo is je nieuwe telefoon of tablet direct klaar voor gebruik.",
@@ -21,127 +22,136 @@
         "Instellingen en problemen oplossen: werkt een bepaalde functie niet zoals verwacht? Dan kijken we samen naar de instellingen en zoeken we naar een passende oplossing.",
         "Persoonlijke uitleg: geen ingewikkelde technische verhalen, maar heldere uitleg en praktische tips waarmee je direct aan de slag kunt."
       ],
+      "steps": [],
+      "prices": [],
       "body": [
         "Kortom: je hoeft niet zelf uren te zoeken naar de juiste instellingen of oplossingen. Met onze persoonlijke telefoonhulp zorgen we ervoor dat je smartphone of tablet weer werkt zoals jij dat wilt."
-      ]
+      ],
+      "image": {}
     },
     {
       "heading": "Schoonmaken",
       "intro": [],
-      "body": [
-        "* Voor sommige toestellen kunnen de kosten hoger zijn. Vraag vooraf naar het tarief voor jouw toestel."
-      ],
       "bullets": [],
       "steps": [],
       "prices": [
         {
           "label": "Oplaadpoort, microfoon en mediaspeaker onderzijde (uitwendig)",
-          "price": "€15,-"
+          "price": "€15"
         },
         {
           "label": "Oorluidspreker (uitwendig)",
-          "price": "€15,-"
+          "price": "€15"
         },
         {
           "label": "Oorluidspreker (inwendig)*",
-          "price": "€30,-"
+          "price": "€30"
         },
         {
           "label": "Medialuidspreker (inwendig)*",
-          "price": "€30,-"
+          "price": "€30"
         },
         {
           "label": "Microfoon (inwendig)*",
-          "price": "€35,-"
+          "price": "€35"
         },
         {
           "label": "Selfiecamera voorzijde*",
-          "price": "€60,-"
+          "price": "€60"
         },
         {
           "label": "Camera's achterzijde*",
-          "price": "€45,-"
+          "price": "€45"
         },
         {
           "label": "Toestel geheel inwendig: speakers, oplaadpoort, camera's, microfoons enz.*",
-          "price": "€60,-"
+          "price": "€60"
         }
-      ]
+      ],
+      "body": [
+        "* Voor sommige toestellen kunnen de kosten hoger zijn. Vraag vooraf naar het tarief voor jouw toestel."
+      ],
+      "image": {}
     },
     {
       "heading": "Instellen, software en gegevens",
       "intro": [],
-      "body": [],
       "bullets": [],
       "steps": [],
       "prices": [
         {
           "label": "Nieuwe smartphone of tablet instellen",
-          "price": "€35,-"
+          "price": "€35"
         },
         {
           "label": "Software updaten naar de nieuwste versie",
-          "price": "€30,-"
+          "price": "€30"
         },
         {
           "label": "Software herstellen",
-          "price": "€35,-"
+          "price": "€35"
         },
         {
           "label": "Een bricked toestel herstellen",
-          "price": "€85,-",
+          "price": "€85",
           "note": "Is herstellen niet mogelijk? Dan betaal je €35,-."
         },
         {
           "label": "E-mailaccount instellen (per account)",
-          "price": "€25,-"
+          "price": "€25"
         },
         {
           "label": "Data overzetten naar een nieuwe smartphone of tablet",
-          "price": "€40,-"
+          "price": "€40"
         }
-      ]
+      ],
+      "body": [],
+      "image": {}
     },
     {
       "heading": "Persoonlijke hulp",
       "intro": [],
-      "body": [],
       "bullets": [],
       "steps": [],
       "prices": [
         {
           "label": "Uitleg en demonstratie (per half uur)",
-          "price": "€35,-"
+          "price": "€35"
         },
         {
           "label": "Problemen oplossen (per half uur)",
-          "price": "€35,-"
+          "price": "€35"
         }
-      ]
+      ],
+      "body": [],
+      "image": {}
     },
     {
       "heading": "Total-lossverklaring voor je verzekering",
       "intro": [],
-      "body": [
-        "Let op: deze dienst heeft alleen zin als je de schade kunt verhalen op je inboedel-, reis- of elektronicaverzekering en de schade binnen de polisdekking valt."
-      ],
       "bullets": [],
       "steps": [],
       "prices": [
         {
           "label": "Voor een smartphone of tablet",
-          "price": "€30,-"
+          "price": "€30"
         }
-      ]
+      ],
+      "body": [
+        "Let op: deze dienst heeft alleen zin als je de schade kunt verhalen op je inboedel-, reis- of elektronicaverzekering en de schade binnen de polisdekking valt."
+      ],
+      "image": {}
     },
     {
       "heading": "Op afspraak",
       "intro": [],
       "bullets": [],
       "steps": [],
+      "prices": [],
       "body": [
         "iPhone Repairs heeft zeer ruime openingstijden, wij repareren overdag maar ook in de avonduren, weekenden en zelfs op zon- en feestdagen. Wij werken op afspraak om u te kunnen garanderen dat we alle tijd en aandacht voor u en uw smartphone of tablet hebben. Door onze werkwijze heeft u nooit te maken met wachttijden. U komt binnen en we repareren je toestel direct terwijl je meekijkt!. Wij beschermen u privacy, u verliest je toestel niet uit het oog. Parkeren kan gratis voor de deur."
-      ]
+      ],
+      "image": {}
     }
   ],
   "unconfirmed": [],
@@ -162,5 +172,5 @@
       "note": "Rates transcribed from the shop's rate card image (/wp-content/uploads/2026/09/Codex-afbeelding-24-sep-2026-10_52_25.png) at the owner's request; amounts confirmed by Martijn Derks, e-mail 16 October 2026."
     }
   ],
-  "id": "telefoon-en-tablet-hulp"
+  "originalTitle": "Telefoon en tablet hulp"
 }
