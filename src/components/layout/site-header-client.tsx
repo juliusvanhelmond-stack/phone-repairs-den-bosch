@@ -63,7 +63,39 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
                 <MegaMenu nav={nav} />
               </NavigationMenu.Content>
             </NavigationMenu.Item>
-            {mainNav.map((item) => (
+            {mainNav.map((item) =>
+              "children" in item ? (
+                // A plain CSS dropdown (hover and keyboard focus): Werkwijze itself stays a link to its page.
+                <NavigationMenu.Item key={item.href} className="group/sub relative">
+                  <Link
+                    href={item.href}
+                    className={cn(
+                      "flex h-10 items-center gap-1 rounded-full px-2.5 text-[0.9375rem] whitespace-nowrap 2xl:px-4 text-ink-soft transition-colors hover:bg-accent hover:text-white group-hover/sub:bg-accent group-hover/sub:text-white group-focus-within/sub:bg-accent group-focus-within/sub:text-white",
+                      pathname === item.href && "text-ink",
+                    )}
+                  >
+                    {t(item.label, item.labelEn)}
+                    <ChevronDown className="size-3.5 transition-transform duration-200 group-hover/sub:rotate-180 group-focus-within/sub:rotate-180" aria-hidden />
+                  </Link>
+                  <div className="invisible absolute top-full left-0 pt-2 opacity-0 transition-opacity duration-150 group-hover/sub:visible group-hover/sub:opacity-100 group-focus-within/sub:visible group-focus-within/sub:opacity-100">
+                    <ul className="w-64 rounded-2xl bg-surface p-2 shadow-[var(--shadow-lift)] ring-1 ring-line">
+                      {item.children.map((child) => (
+                        <li key={child.href}>
+                          <Link
+                            href={child.href}
+                            // Drop focus so the dropdown closes after navigating.
+                            onClick={(e) => e.currentTarget.blur()}
+                            className="flex items-center justify-between gap-3 rounded-xl px-3.5 py-2.5 text-[0.9375rem] text-ink transition-colors hover:bg-accent hover:text-white focus-visible:bg-accent focus-visible:text-white"
+                          >
+                            {t(child.label, child.labelEn)}
+                            <ArrowRight className="size-4 shrink-0" aria-hidden />
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </NavigationMenu.Item>
+              ) : (
               <NavigationMenu.Item key={item.href}>
                 <NavigationMenu.Link asChild active={pathname === item.href}>
                   <Link
@@ -74,7 +106,8 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
                   </Link>
                 </NavigationMenu.Link>
               </NavigationMenu.Item>
-            ))}
+              ),
+            )}
           </NavigationMenu.List>
         </NavigationMenu.Root>
 
@@ -258,6 +291,20 @@ function MobileNav({ nav, phone, whatsapp, email }: Props) {
                   <Link href={item.href} onClick={close} className="block py-4 text-lg font-medium text-ink transition-colors hover:text-accent-strong">
                     {t(item.label, item.labelEn)}
                   </Link>
+                  {"children" in item &&
+                    item.children
+                      .filter((child) => child.href !== item.href)
+                      .map((child) => (
+                        <Link
+                          key={child.href}
+                          href={child.href}
+                          onClick={close}
+                          className="-mt-2 flex items-center gap-2 pb-4 text-[0.9375rem] text-accent-strong transition-colors hover:text-accent"
+                        >
+                          {t(child.label, child.labelEn)}
+                          <ArrowRight className="size-4" aria-hidden />
+                        </Link>
+                      ))}
                 </li>
               ))}
             </ul>

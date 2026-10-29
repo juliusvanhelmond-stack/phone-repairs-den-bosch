@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { ExplodedPhone } from "@/components/home/exploded-phone";
 import { FinalCta } from "@/components/home/final-cta";
-import { HowItWorks } from "@/components/home/how-it-works";
+import { FinderSection } from "@/components/home/finder-section";
+import { HowItWorks, ProcessPhoto } from "@/components/home/how-it-works";
 import { Trust } from "@/components/home/trust";
 import { PageIntro } from "@/components/layout/page-intro";
 import { getI18n } from "@/lib/i18n-server";
@@ -38,7 +39,12 @@ export default async function ProcessPage() {
           </div>
         }
       />
-      <HowItWorks withHeading={false} />
+      <HowItWorks withHeading={false} withPhoto={false} />
+      {/* The device finder right below the steps (client request 2026-10-29), then the photo. */}
+      <FinderSection />
+      <div className="container-page pt-20 lg:pt-28">
+        <ProcessPhoto />
+      </div>
       <Trust />
       <div className="pt-20 lg:pt-28">
         <FinalCta />

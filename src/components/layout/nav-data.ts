@@ -11,7 +11,16 @@ import {
 import type { Locale } from "@/lib/i18n";
 
 export const mainNav = [
-  { label: "Werkwijze", labelEn: "How it works", href: "/werkwijze" },
+  {
+    label: "Werkwijze",
+    labelEn: "How it works",
+    href: "/werkwijze",
+    // Dropdown with a direct link to the device finder on /werkwijze (client request 2026-10-29).
+    children: [
+      { label: "Zo werkt een reparatie", labelEn: "How a repair works", href: "/werkwijze" },
+      { label: "Bekijk jouw reparatieprijs", labelEn: "See your repair price", href: "/werkwijze#toestel-zoeken" },
+    ],
+  },
   { label: "Over ons", labelEn: "About", href: "/over-ons" },
   { label: "Veelgestelde vragen", labelEn: "FAQ", href: "/veelgestelde-vragen" },
   { label: "Contact", labelEn: "Contact", href: "/contact" },
