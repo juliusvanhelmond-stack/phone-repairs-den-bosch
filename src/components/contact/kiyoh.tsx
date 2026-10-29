@@ -152,6 +152,13 @@ export async function KiyohCompact({ className }: { className?: string }) {
           <span className="mt-0.5 text-xs font-semibold">{t("Reviews", "Reviews")}</span>
         )}
       </span>
+      {/* Review count next to the score, like the Google badge (client request 2026-10-29). */}
+      {score && (
+        <span className="ml-1 border-l border-white/15 pl-2.5 text-xs leading-tight text-white/80 tabular-nums">
+          {count}
+          <span className="block">reviews</span>
+        </span>
+      )}
     </a>
   );
 }
