@@ -141,7 +141,7 @@ export async function KiyohCompact({ className }: { className?: string }) {
           : t("Bekijk onze reviews op Kiyoh", "See our reviews on Kiyoh")
       }
       // Always dark in the (dark) top bar, also in the light theme (client request, 2026-10-16).
-      className={cn("inline-flex h-11 items-center gap-2 rounded-full bg-white/10 pr-3.5 pl-2 text-white ring-1 ring-white/15", className)}
+      className={cn("inline-flex h-11 items-center gap-2 rounded-full bg-white/10 pr-3 pl-2 text-white ring-1 ring-white/15", className)}
     >
       <KiyohMark className="size-6" />
       <span className="flex flex-col leading-none">
@@ -152,9 +152,9 @@ export async function KiyohCompact({ className }: { className?: string }) {
           <span className="mt-0.5 text-xs font-semibold">{t("Reviews", "Reviews")}</span>
         )}
       </span>
-      {/* Review count next to the score, like the Google badge (client request 2026-10-29). */}
+      {/* Review count next to the score, like the Google badge (client request 2026-10-29); not on the narrowest phones, where the top bar has no room. */}
       {score && (
-        <span className="ml-1 border-l border-white/15 pl-2.5 text-xs leading-tight text-white/80 tabular-nums">
+        <span className="border-l border-white/15 pl-2 text-xs leading-tight text-white/80 tabular-nums max-[389px]:hidden">
           {count}
           <span className="block">reviews</span>
         </span>

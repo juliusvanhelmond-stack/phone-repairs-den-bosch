@@ -13,10 +13,10 @@ export async function Hero() {
   return (
     <section className="relative isolate -mt-16 overflow-hidden pt-16 lg:-mt-[4.5rem] lg:pt-[4.5rem]">
       <Aura variant="hero" />
-      <div className="container-page grid items-center gap-6 pt-10 pb-10 lg:grid-cols-[1.05fr_1fr] lg:gap-10 lg:pt-16 lg:pb-12">
+      <div className="container-page grid items-center gap-6 pt-4 pb-10 sm:pt-10 lg:grid-cols-[1.05fr_1fr] lg:gap-10 lg:pt-16 lg:pb-12">
         <div className="max-w-2xl animate-fade-up">
           {/* The page's H1 carries the keyword the current homepage ranks on (SEO audit HV Media). */}
-          <div className="glass mb-6 inline-flex items-center gap-2 rounded-full py-1.5 pr-4 pl-1.5 text-ink-soft">
+          <div className="glass mb-4 inline-flex sm:mb-6 items-center gap-2 rounded-full py-1.5 pr-4 pl-1.5 text-ink-soft">
             {/* White icon in the dark theme, like the photo cards (client request 2026-10-29). */}
             <span className="grid size-7 place-items-center rounded-full bg-accent-soft text-accent dark:bg-white/10 dark:text-white">
               <MapPin className="size-4" aria-hidden />
@@ -26,7 +26,8 @@ export async function Hero() {
             </h1>
             <span className="hidden text-sm text-muted sm:inline">· {t("op afspraak", "by appointment")}</span>
           </div>
-          <p className="text-display font-semibold text-balance text-ink lg:text-[clamp(2.75rem,1rem+2.9vw,3.75rem)]">
+          {/* Smaller on phones so "Bekijk jouw reparatieprijs" shows without scrolling (client request 2026-10-29). */}
+          <p className="text-display font-semibold text-balance text-ink max-sm:text-[1.75rem] max-sm:leading-[1.12] lg:text-[clamp(2.75rem,1rem+2.9vw,3.75rem)]">
             {/* Martijn Derks, e-mails 20 and 29 October 2026: a personal introduction, his wording. */}
             {t(
               "Kijk live mee hoe reparatiespecialist Martijn je toestel repareert:",
@@ -34,14 +35,14 @@ export async function Hero() {
             )}{" "}
             <span className="text-muted">{t("Snel, eerlijk en vakkundig.", "fast, honest and skilled.")}</span>
           </p>
-          <p className="mt-6 max-w-xl text-lg leading-relaxed text-pretty text-muted sm:text-xl">
+          <p className="mt-3 max-w-xl text-[0.9375rem] leading-relaxed text-pretty text-muted sm:mt-6 sm:text-xl">
             {t(
               "Van een gebroken scherm tot een versleten batterij. Bij Phone Repairs Den Bosch repareer ik je toestel professioneel, binnen 30 minuten terwijl je meekijkt.",
               "From a broken screen to a worn-out battery. At Phone Repairs Den Bosch I repair your device professionally, within 30 minutes while you watch.",
             )}
           </p>
           {/* Price first, WhatsApp as the second route (mail 2026-10-19). On mobile the pinned bar has WhatsApp. */}
-          <div className="mt-9 flex flex-wrap gap-3">
+          <div className="mt-4 flex flex-wrap gap-3 sm:mt-9">
             <Button asChild size="lg">
               <Link href="#toestel-zoeken">
                 {t("Bekijk jouw reparatieprijs", "See your repair price")}
