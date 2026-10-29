@@ -94,7 +94,8 @@ export async function Hero() {
             <div className="absolute inset-0 bg-[linear-gradient(to_top,rgb(34_34_34/0.35),transparent_45%)]" aria-hidden />
           </div>
           <FloatingCard className="bottom-4 left-4 sm:top-8 sm:right-8 sm:bottom-auto sm:left-auto lg:-right-4" delay="0.5s">
-            <span className="grid size-9 place-items-center rounded-xl bg-accent-soft text-accent">
+            {/* In the dark theme like the "Kijk gerust mee" icon: white on dark (client request 2026-10-29). */}
+            <span className="grid size-9 place-items-center rounded-xl bg-accent-soft text-accent dark:bg-night dark:text-white">
               <Timer className="size-[1.125rem]" aria-hidden />
             </span>
             <span>
