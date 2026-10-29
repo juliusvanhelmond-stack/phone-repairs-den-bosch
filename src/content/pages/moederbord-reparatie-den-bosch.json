@@ -1,7 +1,7 @@
 {
+  "id": "moederbord-reparatie-den-bosch",
   "path": "/moederbord-reparatie-den-bosch",
   "kind": "service",
-  "originalTitle": "Moederbord reparaties Den Bosch",
   "title": "Moederbord reparaties Den Bosch",
   "eyebrow": "Moederbord reparatie",
   "intro": "De nieuwste SMD componenten zijn zo klein dat deze niet meer met een traditionele soldeerbout kunnen worden aangebracht. Met hete lucht solderen is dit wel mogelijk. Aan het moederbord (de printplaat) kan met behulp van hete lucht gesoldeerd worden. Deze hete lucht heatgun bevat een krachtig hitte element. Op deze manier is het mogelijk om de kleinste componenten, QFP’s of BGA’s handmatig te dé-solderen en te solderen. Wij gebruiken professioneel gereedschap van o.a. Amscope, Wiha, Hakko, Baku, Quick, Fluke.",
@@ -9,54 +9,63 @@
     "title": "Moederbord Reparatie: Kosten en Tijdlijn",
     "description": "Leer alles over moederbord reparatie en de benodigde apparatuur voor een succesvolle en veilige herstelprocedure."
   },
+  "placeKind": "plaats",
+  "focus": "",
   "sections": [
     {
       "heading": "Hete lucht solderen",
+      "intro": [],
+      "bullets": [],
+      "steps": [],
+      "prices": [],
       "body": [
         "Reparaties dienen goed te worden uitgevoerd en moeten duurzaam zijn. Wij gebruiken daarom uitsluitend originele onderdelen en geven u twee maanden garantie op moederbord reparatie en de vervangen onderdelen."
       ],
-      "bullets": [],
-      "steps": []
+      "image": {}
     },
     {
       "heading": "Tarieven moederbord onderzoek",
       "intro": [
         "Inclusief btw en montage."
       ],
-      "body": [
-        "We onderzoeken je toestel eerst om de oorzaak van het probleem vast te stellen. Vervolgens bespreken we de reparatiemogelijkheden en de geschatte kosten met je. Besluit je niet tot reparatie over te gaan? Dan betaal je alleen de moederbordonderzoekskosten."
-      ],
       "bullets": [],
       "steps": [],
       "prices": [
         {
           "label": "Telefoons – moederbord diagnose",
-          "price": "€49,-"
+          "price": "€49"
         },
         {
           "label": "Tablets – moederbord diagnose",
-          "price": "€59,-"
+          "price": "€59"
         },
         {
           "label": "MacBook – moederbord diagnose",
-          "price": "€69,-"
+          "price": "€69"
         },
         {
           "label": "Nintendo Switch – moederbord diagnose",
-          "price": "€49,-"
+          "price": "€49"
         }
-      ]
+      ],
+      "body": [
+        "We onderzoeken je toestel eerst om de oorzaak van het probleem vast te stellen. Vervolgens bespreken we de reparatiemogelijkheden en de geschatte kosten met je. Besluit je niet tot reparatie over te gaan? Dan betaal je alleen de moederbordonderzoekskosten."
+      ],
+      "image": {}
     },
     {
       "heading": "Reparatie risico's",
+      "intro": [],
+      "bullets": [],
+      "steps": [],
+      "prices": [],
       "body": [
         "Elektronische reparaties zijn onvoorspelbaar. Uw apparaat is mogelijk niet meer te repareren of kan tijdens de reparatie permanent worden beschadigd en onbruikbaar worden. Componenten van printplaten verslechteren na verloop van tijd en kunnen zonder waarschuwing defect raken, vooral bij apparaten met vloeistofschade waar componenten na verloop van tijd kunnen kortsluiten, oxideren, corroderen en roesten.",
         "Bij reparaties aan apparaten met vastgelijmde schermen, zoals iPads, moet het scherm worden losgewrikt om toegang te krijgen tot interne componenten. Schermen zijn erg kwetsbaar en kunnen barsten of breken tijdens het wrikken. We hebben veel ervaring en het risico op schermbreuk is minimaal, maar glas kan breken en er zijn risico's. Dat is het eerlijke verhaal.",
         "Touch-ID / Face-ID op Apple-apparaten kan tijdens moederbord reparaties mislukken en onbruikbaar worden. Hoewel dit niet gebruikelijk is, kan het gebeuren afhankelijk van de toestand van het apparaat. Dit is op voorhand niet vast te stellen.",
         "Op bovenstaand is dan ook nooit sprake van garantie, want dit zijn de risico’s van de reparatie. Dit risico ligt geheel bij de afnemer van onze diensten."
       ],
-      "bullets": [],
-      "steps": []
+      "image": {}
     }
   ],
   "unconfirmed": [],
@@ -72,10 +81,10 @@
     },
     {
       "url": "https://www.phonerepairs.nl/moederbord-reparatie-den-bosch/",
+      "verification": "owner-confirmed",
       "capturedAt": "2026-10-16",
-      "note": "Motherboard diagnosis rates and the 'Eerst onderzoek en overleg' text transcribed from the images on this page at the owner's request (e-mail 16 October 2026).",
-      "verification": "owner-confirmed"
+      "note": "Motherboard diagnosis rates and the 'Eerst onderzoek en overleg' text transcribed from the images on this page at the owner's request (e-mail 16 October 2026)."
     }
   ],
-  "id": "moederbord-reparatie-den-bosch"
+  "originalTitle": "Moederbord reparaties Den Bosch"
 }
