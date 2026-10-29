@@ -49,8 +49,8 @@ export async function ReviewsBanner({ className }: { className?: string }) {
       </div>
       <div className="flex shrink-0 flex-col items-stretch gap-3 sm:w-64">
         <KiyohBadge />
-        {/* A white box like the Kiyoh badge, with the Google mark (client request, 2026-10-16) and,
-            since 2026-10-27, the Google score in the same layout as Kiyoh's. */}
+        {/* A box like the Kiyoh badge (white, dark in the dark theme since 2026-10-29), with the Google mark
+            (client request, 2026-10-16) and, since 2026-10-27, the Google score in the same layout as Kiyoh's. */}
         <a
           href={reviews.url}
           target="_blank"
@@ -60,7 +60,7 @@ export async function ReviewsBanner({ className }: { className?: string }) {
               ? t(`${reviews.platform}: ${score} uit ${count} reviews. Bekijk alle reviews`, `${reviews.platform}: ${score} from ${count} reviews. See all reviews`)
               : t(`Bekijk alle reviews op ${reviews.platform}`, `See all reviews on ${reviews.platform}`)
           }
-          className="tone-light inline-flex items-center gap-3 rounded-2xl bg-white px-4 py-3 text-ink ring-1 ring-line transition-shadow hover:shadow-[var(--shadow-soft)]"
+          className="inline-flex items-center gap-3 rounded-2xl bg-surface px-4 py-3 text-ink ring-1 ring-line transition-shadow hover:shadow-[var(--shadow-soft)]"
         >
           <GoogleMark className="size-7" />
           <span className="flex flex-col leading-tight">

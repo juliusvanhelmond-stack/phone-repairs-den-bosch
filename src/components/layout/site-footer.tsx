@@ -160,9 +160,6 @@ export async function SiteFooter() {
             </a>
             {t(" accepteert.", ".")}
           </p>
-          <p>
-            {t("Ontwerpvoorstel door JUNE Studio · niet geïndexeerd", "Design proposal by JUNE Studio · not indexed")}
-          </p>
         </div>
       </div>
     </footer>

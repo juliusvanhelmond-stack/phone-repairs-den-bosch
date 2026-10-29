@@ -17,7 +17,8 @@ export async function Hero() {
         <div className="max-w-2xl animate-fade-up">
           {/* The page's H1 carries the keyword the current homepage ranks on (SEO audit HV Media). */}
           <div className="glass mb-6 inline-flex items-center gap-2 rounded-full py-1.5 pr-4 pl-1.5 text-ink-soft">
-            <span className="grid size-7 place-items-center rounded-full bg-accent-soft text-accent">
+            {/* White icon in the dark theme, like the photo cards (client request 2026-10-29). */}
+            <span className="grid size-7 place-items-center rounded-full bg-accent-soft text-accent dark:bg-white/10 dark:text-white">
               <MapPin className="size-4" aria-hidden />
             </span>
             <h1 className="text-[0.9375rem] font-semibold whitespace-nowrap text-ink sm:text-base">
@@ -26,12 +27,12 @@ export async function Hero() {
             <span className="hidden text-sm text-muted sm:inline">· {t("op afspraak", "by appointment")}</span>
           </div>
           <p className="text-display font-semibold text-balance text-ink lg:text-[clamp(2.75rem,1rem+2.9vw,3.75rem)]">
-            {/* Martijn Derks, e-mail 20 October 2026: a more personal introduction. */}
+            {/* Martijn Derks, e-mails 20 and 29 October 2026: a personal introduction, his wording. */}
             {t(
-              "Kijk mee hoe reparatiespecialist Martijn persoonlijk je toestel repareert.",
-              "Watch repair specialist Martijn personally repair your device.",
+              "Kijk live mee hoe reparatiespecialist Martijn je toestel repareert:",
+              "Watch live as repair specialist Martijn repairs your device:",
             )}{" "}
-            <span className="text-muted">{t("Snel, eerlijk en vakkundig.", "Fast, honest and skilled.")}</span>
+            <span className="text-muted">{t("Snel, eerlijk en vakkundig.", "fast, honest and skilled.")}</span>
           </p>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-pretty text-muted sm:text-xl">
             {t(
