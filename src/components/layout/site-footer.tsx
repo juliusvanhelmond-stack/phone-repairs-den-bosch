@@ -115,6 +115,20 @@ export async function SiteFooter() {
                 </a>
               </li>
             )}
+            {/* Kiyoh next to Google (client request 2026-10-29). */}
+            {site.kiyoh && (
+              <li>
+                <a
+                  href={site.kiyoh.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 transition-colors hover:text-accent-light"
+                >
+                  <Star className="size-4 text-neutral-500" aria-hidden />
+                  {t("Reviews op Kiyoh", "Reviews on Kiyoh")}
+                </a>
+              </li>
+            )}
           </ul>
         </div>
         <FooterColumn
