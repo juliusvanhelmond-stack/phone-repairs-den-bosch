@@ -1,7 +1,7 @@
 {
+  "id": "reparatie-opsturen",
   "path": "/veelgestelde-vragen/reparatie-opsturen",
   "kind": "faq-topic",
-  "originalTitle": "Opsturen",
   "title": "Reparatie opsturen",
   "eyebrow": "Opsturen",
   "intro": "Woon je niet in de buurt van Den Bosch of heb je geen tijd om langs te komen? Geen probleem. Je kunt je telefoon, tablet of ander toestel eenvoudig naar Phone Repairs opsturen voor reparatie. Zodra we je toestel hebben ontvangen, gaan we zo snel mogelijk voor je aan de slag.",
@@ -9,6 +9,8 @@
     "title": "Reparatie opsturen · Phone Repairs Den Bosch",
     "description": "Zo stuur je je toestel op voor reparatie bij Phone Repairs: eerst contact, het opstuurformulier invullen, goed verpakken en aangetekend versturen."
   },
+  "placeKind": "plaats",
+  "focus": "",
   "sections": [
     {
       "heading": "Belangrijk voordat je jouw toestel opstuurt",
@@ -21,63 +23,77 @@
         "Verpak je toestel zorgvuldig: gebruik een stevige doos en voldoende beschermend verpakkingsmateriaal, zodat het toestel tijdens het transport goed beschermd is.",
         "Verzend altijd aangetekend: zo is de verzending traceerbaar en beschik je over een verzendbewijs."
       ],
+      "prices": [],
       "body": [
         "Kortom: ook als je niet in de buurt woont, kun je gebruikmaken van de reparatieservice van Phone Repairs. Neem vooraf even contact met ons op, stuur je toestel veilig naar ons toe en wij zorgen ervoor dat het na de reparatie weer netjes bij je terugkomt."
-      ]
+      ],
+      "image": {}
     },
     {
       "heading": "Wat zijn de verzendkosten?",
       "intro": [],
       "bullets": [],
       "steps": [],
+      "prices": [],
       "body": [
-        "Phone Repairs rekent €12,- voor het (aangetekend en verzekerd via Post.nl) retourneren van je toestel binnen Nederland. Voor tarieven en verzendmethode buiten Nederland of buiten Europa neem even contact op met ons."
-      ]
+        "Phone Repairs rekent €12 voor het (aangetekend en verzekerd via Post.nl) retourneren van je toestel binnen Nederland. Voor tarieven en verzendmethode buiten Nederland of buiten Europa neem even contact op met ons."
+      ],
+      "image": {}
     },
     {
       "heading": "Welke kosten zijn er verbonden aan het repareren van mijn toestel?",
       "intro": [],
       "bullets": [],
       "steps": [],
+      "prices": [],
       "body": [
         "Op onze website kun je per merk en model de tarieven bekijken."
-      ]
+      ],
+      "image": {}
     },
     {
       "heading": "Hoe moet ik mijn toestel verzenden?",
       "intro": [],
       "bullets": [],
       "steps": [],
+      "prices": [],
       "body": [
         "Zorg ervoor dat je jouw apparaat veilig en goed beschermd verpakt, bij voorkeur in een stevige doos en omwikkeld met bubbelwrap. Vul de hele doos met vulmateriaal om te voorkomen dat het apparaat tijdens het transport kan bewegen. Verzend je apparaat altijd aangetekend, zodat je een officiële bevestiging van PostNL ontvangt zodra wij het ontvangen. Gelieve geen accessoires zoals opladers, kabels, hoesjes, enzovoort mee te sturen. Zorg ervoor dat je altijd het volledig ingevulde formulier meestuurt."
-      ]
+      ],
+      "image": {}
     },
     {
       "heading": "Wat is de reparatieduur?",
       "intro": [],
       "bullets": [],
       "steps": [],
+      "prices": [],
       "body": [
         "Zodra Phone Repairs je toestel heeft ontvangen, nemen wij binnen enkele uren contact met je op. Op dat moment hebben we je toestel al onderzocht en kunnen we je informeren over de reparatiekosten. Als je akkoord gaat, streven we ernaar om je toestel (mits het benodigde onderdeel op voorraad is) binnen 1-2 werkdagen na ontvangst en betaling gerepareerd te hebben. We sturen het vervolgens aangetekend via PostNL naar je retour."
-      ]
+      ],
+      "image": {}
     },
     {
       "heading": "Krijg ik garantie op de reparatie?",
       "intro": [],
       "bullets": [],
       "steps": [],
+      "prices": [],
       "body": [
         "Ja, je krijgt standaard 12 maanden garantie op de vervangen onderdelen."
-      ]
+      ],
+      "image": {}
     },
     {
       "heading": "Hoe kan ik betalen?",
       "intro": [],
       "bullets": [],
       "steps": [],
+      "prices": [],
       "body": [
         "Betaling is mogelijk via de betaallink die we u sturen."
-      ]
+      ],
+      "image": {}
     }
   ],
   "unconfirmed": [],
@@ -92,5 +108,5 @@
       "note": "WordPress export 2026-10-12. The five steps are transcribed from the page's infographic (exec-30cd688a…png). Return shipping €12 (export and infographic agree; resolves the earlier €11/€12 search-index conflict). Form fields from Reparatieformulier-Phone-Repairs.doc."
     }
   ],
-  "id": "reparatie-opsturen"
+  "originalTitle": "Opsturen"
 }
