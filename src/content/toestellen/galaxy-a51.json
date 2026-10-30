@@ -4,17 +4,12 @@
   "categoryId": "smartphone",
   "series": "Galaxy A",
   "order": 10004,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-a51/photo.jpg",
   "popular": false,
   "aliases": [
     "Samsung A51"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung A51 reparatie √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen √ 12 maanden garantie."
-  },
   "prices": [
     {
       "label": "A51 4G (SM-A515F) scherm, LCD en frame vervangen (originele Samsung service pack, zoals Samsung vereist)",
@@ -46,7 +41,7 @@
     },
     {
       "label": "USB oplaadpoort vervangen",
-      "price": "€60,-",
+      "price": "€40,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "links": []
@@ -67,7 +62,7 @@
     },
     {
       "label": "Oorluidspreker vervangen",
-      "price": "€50,-",
+      "price": "€30,-",
       "repairId": "overige-reparaties",
       "popular": false,
       "links": []
@@ -81,28 +76,21 @@
     },
     {
       "label": "Camera's achterkant vervangen",
-      "price": "€130,-",
-      "repairId": "camera-repareren",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Camera lenzen achterkant vervangen",
-      "price": "€35,-",
+      "price": "€60,-",
       "repairId": "camera-repareren",
       "popular": false,
       "links": []
     },
     {
       "label": "Camera voorkant vervangen",
-      "price": "€85,-",
+      "price": "€30,-",
       "repairId": "camera-repareren",
       "popular": false,
       "links": []
     },
     {
       "label": "koptelefoon aansluiting vervangen",
-      "price": "€75,-",
+      "price": "€40,-",
       "repairId": "overige-reparaties",
       "popular": false,
       "links": []
@@ -134,6 +122,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung A51 reparatie √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen √ 12 maanden garantie."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a51-reparatie/"
   ],
