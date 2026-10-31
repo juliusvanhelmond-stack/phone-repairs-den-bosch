@@ -1,7 +1,8 @@
 /**
  * Where an old (WordPress) URL ends up when its target was removed in the CMS: a deleted device
  * sends its old URLs to the brand overview, a deleted blog post to the blog, and a brand without
- * devices left (Redmi, 2026-10-27) to the overview of all brands. Used by the redirects
+ * devices left (Redmi, 2026-10-27) to the overview of all brands, and a deleted page to the FAQ
+ * overview (FAQ topics, e.g. zakelijke-reparatie on 2026-10-30) or the homepage. Used by the redirects
  * (next.config.ts) and the data check, so deleting an entry in the CMS never breaks the build
  * (Martijn deleted the iPhone SE models on 2026-10-21).
  */
@@ -11,11 +12,14 @@ export function resolveLegacyTarget(
     device: (brandId: string, slug: string) => boolean;
     brand: (brandId: string) => boolean;
     blogPost: (slug: string) => boolean;
+    /** Whether a page (CMS page or static route) exists at this path. */
+    page: (path: string) => boolean;
   },
 ): string {
   const parts = target.split("/").filter(Boolean);
   if (parts[0] === "reparaties" && parts.length >= 2 && !has.brand(parts[1])) return "/reparaties";
   if (parts[0] === "reparaties" && parts.length === 3 && !has.device(parts[1], parts[2])) return `/reparaties/${parts[1]}`;
   if (parts[0] === "blog-post" && parts.length === 2 && !has.blogPost(parts[1])) return "/blog-post";
-  return target;
+  if (["reparaties", "reparatie", "blog-post"].includes(parts[0]) || has.page(target)) return target;
+  return parts[0] === "veelgestelde-vragen" ? "/veelgestelde-vragen" : "/";
 }

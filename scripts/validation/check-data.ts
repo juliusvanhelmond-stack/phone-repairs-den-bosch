@@ -116,11 +116,12 @@ else {
   const blogSlugs = new Set(blogPosts.map((p) => p.slug));
   for (const r of inventory.data) {
     if (!r.targetPath) continue;
-    // A device or blog post deleted in the CMS: its old URLs go to the brand or the blog (warning only).
+    // A device, blog post or page deleted in the CMS: its old URLs go to the brand, the blog, the FAQ or home (warning only).
     const target = resolveLegacyTarget(r.targetPath, {
       device: (brandId, slug) => deviceIds.has(`${brandId}-${slug}`),
       brand: (brandId) => !!getBrand(brandId),
       blogPost: (slug) => blogSlugs.has(slug),
+      page: (path) => staticRoutes.has(path),
     });
     if (target !== r.targetPath) warn(`inventory ${r.url}: ${r.targetPath} no longer exists, redirects to ${target}`);
     const parts = target.split("/").filter(Boolean);
