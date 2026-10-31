@@ -1,7 +1,7 @@
 {
+  "id": "originele-onderdelen-phone-repairs",
   "path": "/originele-onderdelen-phone-repairs",
   "kind": "service",
-  "originalTitle": "Originele onderdelen",
   "title": "Originele onderdelen",
   "eyebrow": "Onderdelen",
   "intro": "Bij Phone Repairs Den Bosch leveren we betrouwbaar vakwerk voor je telefoon, tablet, MacBook of Nintendo Switch. Met onze ervaring en originele Service Pack-onderdelen garanderen we kwaliteit zonder concessies, zodat je toestel weer optimaal en vertrouwd functioneert.",
@@ -9,43 +9,56 @@
     "title": "Originele onderdelen voor het behoud van originele kwaliteit",
     "description": "Ontdek waarom originele onderdelen essentieel zijn voor je toestel. Kwaliteit en vakmanschap staan voorop in onze reparaties."
   },
+  "placeKind": "plaats",
+  "focus": "",
   "sections": [
     {
       "heading": "Wij gebruiken originele service pack onderdelen",
+      "intro": [],
+      "bullets": [],
+      "steps": [],
+      "prices": [],
       "body": [
         "Wij gebruiken originele service pack onderdelen, waar mogelijk. Deze onderdelen bestellen we direct bij fabrikanten zoals Apple, Samsung, Google, Xiaomi, LG display, enz., of bij de specialistische groothandel, zodat wij en jij zeker zijn van de beste kwaliteit onderdelen. Voor sommige toestellen bieden we ook pulled onderdelen aan, deze onderdelen zijn gehaald uit een bestaand toestel, en zijn goedkoper dan service pack onderdelen. Maar het zijn wel originele onderdelen."
       ],
-      "bullets": [],
-      "steps": []
+      "image": {}
     },
     {
       "heading": "iPhone onderdelen kalibreren",
+      "intro": [],
+      "bullets": [],
+      "steps": [],
+      "prices": [],
       "body": [
         "Vanaf iOS 18 en de iPhone 12 en hoger, is het mogelijk na een scherm, batterij, camera en backcover reparaties het onderdeel te kalibreren (de nieuwe onderdelen koppelen) aan je iPhone. je toestel moet ge-update zijn naar de nieuwste iOS versie die beschikbaar is, anders is kalibreren niet mogelijk. Als een van bovenstaande onderdelen vervangen zijn dan ben je na reparatie in staat om te controleren, in de instellingen, dat het een origineel onderdeel betreft. Dit is een 'onderhoudsboekje', zodat je inzicht krijgt welke onderdelen vervangen zijn en welke kwaliteit is gebruikt."
       ],
-      "bullets": [],
-      "steps": []
+      "image": {}
     },
     {
       "heading": "iPhone onderdelen- en servicegeschiedenis",
+      "intro": [],
+      "bullets": [],
+      "steps": [],
+      "prices": [],
       "body": [
         "Als je iPhone is gerepareerd, verschijnt het gedeelte 'Onderdelen- en servicegeschiedenis' onder 'Instellingen' > 'Algemeen' > 'Info’ op je iPhone. Als de reparatie met originele Apple service pack onderdelen en processen zijn uitgevoerd, zie je 'Origineel' naast het onderdeel staan. Bij pulled onderdelen staat er ‘Gebruikt’ omdat deze onderdelen uit een andere nieuwe iPhone komt. In sommige situaties staat hier 'Onbekend', bijvoorbeeld als de front flex van het oude scherm overgezet moet worden, of als kalibratie niet mogelijk is."
       ],
-      "bullets": [],
-      "steps": []
+      "image": {}
     },
     {
       "heading": "iPhone schermen en onderdelen",
       "intro": [
-        "Voor iPhone scherm, batterij, camera, Face Id / front cameramodule en backcover reparaties, maken wij gebruik van originele Apple Service Pack onderdelen of originele Pulled onderdelen, aan jouw de keuze.",
+        "Voor iPhone scherm, batterij, camera, Face Id / front cameramodule en backcover reparaties, maken wij gebruik van originele Apple Service Pack onderdelen of originele pulled onderdelen, aan jouw de keuze.",
         "Originele Pulled schermen en onderdelen demonteren wij zelf uit nieuwe iPhone’s of wij kopen deze in bij demontage bedrijven. Op deze manier verkrijgen wij de volledig originele schermen en onderdelen. En kunnen we jou de beste reparaties aanbieden voor je iPhone."
       ],
-      "body": [],
       "bullets": [
         "Apple Service Pack schermen en onderdelen verschijnen in de reparatie geschiedenis in je instellingen app (vanaf iOS 18) als 'origineel Apple onderdeel'.",
         "Originele Pulled schermen en onderdelen verschijnen in de reparatie geschiedenis in je instellingen app (vanaf iOS 18) als 'gebruikt' onderdeel. Omdat het scherm of ander vervangen onderdeel afkomstig (pulled) is van een andere iPhone. In sommige situaties staat hier ‘Onbekend’, bijvoorbeeld als de front flex van het oude scherm overgezet moet worden, of als kalibratie niet mogelijk is, o.a. door verouderde software."
       ],
-      "steps": []
+      "steps": [],
+      "prices": [],
+      "body": [],
+      "image": {}
     }
   ],
   "unconfirmed": [],
@@ -60,5 +73,5 @@
       "note": "WordPress export 2026-10-12; page last changed 2026-10-09."
     }
   ],
-  "id": "originele-onderdelen-phone-repairs"
+  "originalTitle": "Originele onderdelen"
 }
