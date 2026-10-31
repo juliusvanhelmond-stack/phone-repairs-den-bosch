@@ -1,6 +1,5 @@
 {
-  "active": false,
-  "text": "FF testen we zijn aan het testen",
-  "linkLabel": "linken",
-  "linkHref": "https://www.phonerepairs.nl"
+  "active": true,
+  "text": "Welkom op onze nieuwe website. Een geheel nieuwe website maar de vertrouwde Phone Repairs service!",
+  "linkLabel": "linken"
 }
