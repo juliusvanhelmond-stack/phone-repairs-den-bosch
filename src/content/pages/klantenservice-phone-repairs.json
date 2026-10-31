@@ -1,17 +1,23 @@
 {
+  "id": "klantenservice-phone-repairs",
   "path": "/klantenservice-phone-repairs",
   "kind": "service",
-  "originalTitle": "Klantenservice",
   "title": "Klantenservice",
   "eyebrow": "Klantenservice",
-  "intro": "je toestel bevat gevoelige informatie, en we behandelen dit met de grootste zorg en discretie. Als je zelf niet langs kunt komen, is opsturen een optie. Gerepareerde toestellen sturen we dezelfde dag aangetekend terug (kosten €12,-). Het is verstandig om regelmatig een back-up van je apparaat te maken. Phone Repairs Den Bosch is niet verantwoordelijk voor mogelijk dataverlies..",
+  "intro": "je toestel bevat gevoelige informatie, en we behandelen dit met de grootste zorg en discretie. Als je zelf niet langs kunt komen, is opsturen een optie. Gerepareerde toestellen sturen we dezelfde dag aangetekend terug (kosten €12). Het is verstandig om regelmatig een back-up van je apparaat te maken. Phone Repairs Den Bosch is niet verantwoordelijk voor mogelijk dataverlies..",
   "seo": {
     "title": "Klantenservice die Jouw Tevredenheid Verhoogt",
     "description": "Bij Phone Repairs staat klantenservice centraal. Wij bieden een buitengewone ervaring voor al onze klanten."
   },
+  "placeKind": "plaats",
+  "focus": "",
   "sections": [
     {
       "heading": "Originele onderdelen klantenservice",
+      "intro": [],
+      "bullets": [],
+      "steps": [],
+      "prices": [],
       "body": [
         "Wij repareren je toestel snel, professioneel en met originele onderdelen. je toestel blijft dus volledig origineel. je kunt meekijken tijdens de reparatie.",
         "Tijdens de reparatie kun je onder het genot van een lekker kopje vers gemalen bonen koffie, thee, frisdrank of water meekijken hoe je toestel gerepareerd wordt. De reparatie duurt niet langer dan 30 minuten.",
@@ -19,8 +25,7 @@
         "Wij nemen altijd professionele voorzorgsmaatregelen voordat wij een reparatie uitvoeren, waaronder maatregelen tegen Electro Static Discharge (ESD). je toestel wordt met de grootst mogelijke zorg en kwaliteit gerepareerd. Wij zorgen er dan ook altijd voor dat al je gegevens/data op je toestel blijven staan.",
         "Jij kunt je toestel niet missen, geen uur. Die wetenschap vormt het uitgangspunt van onze dienstverlening: snel, klaar terwijl je meekijktt en vanuit een transparante en eerlijke bedrijfsvoering. je ziet wat we doen, en dat tegen zeer scherpe tarieven. je toestel is waardevol en bevat privacygevoelige informatie, waarmee onze klantenservice zeer zorgvuldig en discreet omgaan."
       ],
-      "bullets": [],
-      "steps": []
+      "image": {}
     }
   ],
   "unconfirmed": [],
@@ -35,5 +40,5 @@
       "note": "WordPress export 2026-10-12; page last changed 2026-10-09."
     }
   ],
-  "id": "klantenservice-phone-repairs"
+  "originalTitle": "Klantenservice"
 }
