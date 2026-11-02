@@ -30,7 +30,7 @@
     "dicht": "17:00"
   },
   "zondag": {
-    "gesloten": true,
+    "gesloten": false,
     "open": "11:00",
     "dicht": "17:00"
   },
