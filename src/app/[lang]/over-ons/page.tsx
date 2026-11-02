@@ -10,22 +10,19 @@ import { pageMetadata } from "@/lib/seo";
 import { Skyline } from "@/components/ui/skyline";
 import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
+import aboutJson from "@/content/over-ons.json";
+import type { Locale } from "@/lib/i18n";
 
-// Summarised from the original about pages (/over-phone-repairs/ and
-// /veelgestelde-vragen/over-ons-en-onze-passie/), search-index 2026-10-12.
-// Years of experience: the original pages said both 10 and 20+; the owner confirmed 20+ (mail 2026-10-29).
-const story = {
-  nl: [
-    "Het verhaal van Phone Repairs begint bij Martijn: oprichter, eigenaar en Mobile Device Engineer.",
-    "Zijn interesse in mobiele technologie begon lang geleden. Als liefhebber, jailbreaker en techblogger dook hij jarenlang in elke nieuwe smartphone en tablet. Hij testte er honderden en schreef er uitgebreide reviews over. Die kennis is de basis van zijn werk als Mobile Device Engineer. Inmiddels heeft hij meer dan 20 jaar ervaring.",
-    "Vanaf het begin koos hij bewust voor een eigen, onafhankelijke weg. Geen franchise, maar persoonlijk contact, eerlijk advies en volle aandacht voor elke reparatie.",
-  ],
-  en: [
-    "The story of Phone Repairs starts with Martijn: founder, owner and Mobile Device Engineer.",
-    "His interest in mobile technology began a long time ago. As an enthusiast, jailbreaker and tech blogger he spent years exploring every new smartphone and tablet. He tested hundreds of them and wrote detailed reviews. That knowledge is the foundation of his work as a Mobile Device Engineer. By now he has more than 20 years of experience.",
-    "From the start he deliberately chose his own, independent path. No franchise, but personal contact, honest advice and full attention for every repair.",
-  ],
-};
+// The text is edited by the shop in the CMS ("Over ons", src/content/over-ons.json, client request
+// 2026-10-29). It started from the original about pages (/over-phone-repairs/ and
+// /veelgestelde-vragen/over-ons-en-onze-passie/); the owner confirmed 20+ years of experience (mail 2026-10-29).
+type AboutText = { title: string; intro: string; storyEyebrow: string; storyTitle: string; story: string };
+function aboutText(locale: Locale): AboutText & { paragraphs: string[] } {
+  const nl = aboutJson as AboutText & { en?: Partial<AboutText> };
+  const pick = (k: keyof AboutText) => (locale === "en" && nl.en?.[k]?.trim()) || nl[k] || "";
+  const text = { title: pick("title"), intro: pick("intro"), storyEyebrow: pick("storyEyebrow"), storyTitle: pick("storyTitle"), story: pick("story") };
+  return { ...text, paragraphs: text.story.split(/\n\s*\n/).map((p) => p.replace(/\s*\n\s*/g, " ").trim()).filter(Boolean) };
+}
 
 export async function generateMetadata(): Promise<Metadata> {
   const { locale, t } = await getI18n();
@@ -42,16 +39,14 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function AboutPage() {
   const { locale, t } = await getI18n();
+  const text = aboutText(locale);
   return (
     <>
       <PageIntro
         crumbs={[{ name: t("Over ons", "About us"), href: "/over-ons" }]}
         eyebrow={t("Over ons", "About us")}
-        title="Phone Repairs in Den Bosch."
-        intro={t(
-          "Een reparatiewerkplaats voor smartphones, tablets en MacBooks, waar je persoonlijk wordt geholpen.",
-          "A repair workshop for smartphones, tablets and MacBooks, where you are helped personally.",
-        )}
+        title={text.title}
+        intro={text.intro}
         bottom={<Skyline className="text-accent-strong/40" title={t("Skyline van Den Bosch", "Den Bosch skyline")} />}
       >
         <DemoNote className="max-w-2xl">
@@ -65,12 +60,12 @@ export default async function AboutPage() {
         <div className="container-page grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20">
           <Reveal>
             <SectionHeading
-              eyebrow={t("Ons verhaal", "Our story")}
-              title={t("Begonnen uit liefde voor techniek.", "Started out of a love for technology.")}
+              eyebrow={text.storyEyebrow}
+              title={text.storyTitle}
             />
           </Reveal>
           <Reveal delay={0.05} className="space-y-5 text-lg leading-relaxed text-pretty text-muted">
-            {story[locale].map((p) => (
+            {text.paragraphs.map((p) => (
               <p key={p}>{p}</p>
             ))}
           </Reveal>

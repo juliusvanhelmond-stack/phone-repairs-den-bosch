@@ -42,7 +42,7 @@ export default config({
     brand: { name: "Phone Repairs" },
     navigation: {
       Winkel: ["toestellen", "openingstijden", "mededeling"],
-      Inhoud: ["faq", "blog", "pages", "seo"],
+      Inhoud: ["overOns", "faq", "blog", "pages", "seo"],
     },
   },
   singletons: {
@@ -64,6 +64,34 @@ export default config({
           description: "Bijv. 'Op feestdagen gelden de openingstijden van zondag.' Laat leeg voor geen opmerking. Tijdelijke wijzigingen (vakantie) kun je beter in de mededeling bovenaan zetten.",
           multiline: true,
         }),
+      },
+    }),
+    // The text of /over-ons (client request 2026-10-29). Paragraphs are separated by a blank line.
+    overOns: singleton({
+      label: "Over ons",
+      path: "src/content/over-ons",
+      format: { data: "json" },
+      schema: {
+        title: fields.text({ label: "Titel bovenaan", validation: { isRequired: true } }),
+        intro: fields.text({ label: "Introductie onder de titel", multiline: true }),
+        storyEyebrow: fields.text({ label: "Klein kopje boven het verhaal", description: "Bijv. 'Ons verhaal'." }),
+        storyTitle: fields.text({ label: "Kop van het verhaal", validation: { isRequired: true } }),
+        story: fields.text({
+          label: "Verhaal",
+          description: "Zet een lege regel tussen twee alinea's.",
+          multiline: true,
+          validation: { isRequired: true },
+        }),
+        en: fields.object(
+          {
+            title: fields.text({ label: "Titel" }),
+            intro: fields.text({ label: "Introductie", multiline: true }),
+            storyEyebrow: fields.text({ label: "Klein kopje" }),
+            storyTitle: fields.text({ label: "Kop van het verhaal" }),
+            story: fields.text({ label: "Verhaal", multiline: true }),
+          },
+          { label: "Engelse versie (optioneel)", description: "Voor de Engelse pagina. Een leeg veld toont de Nederlandse tekst." },
+        ),
       },
     }),
     // Announcement bar above the site, e.g. for holidays (client request, 2026-10-16).
