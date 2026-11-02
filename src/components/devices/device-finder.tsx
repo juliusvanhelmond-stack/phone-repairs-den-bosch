@@ -698,7 +698,8 @@ function FinderResult({
             )}
           />
         </div>
-        <span className="absolute top-4 left-4 inline-flex items-center gap-2 rounded-full bg-surface px-3 py-1.5 text-sm text-ink shadow-[var(--shadow-ring)]">
+        {/* White on the white photo panel, also in the dark theme, so the label stays readable (client report 2026-10-30). */}
+        <span className="absolute top-4 left-4 inline-flex items-center gap-2 rounded-full bg-white px-3 py-1.5 text-sm text-ink ring-1 ring-line shadow-[var(--shadow-ring)]">
           <ContentIcon name={repair.icon} className="size-4 text-accent" />
           {repair.name}
         </span>
