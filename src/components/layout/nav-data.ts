@@ -24,6 +24,9 @@ const moreLinks: { label: string; page?: string; blog?: string; href?: string }[
   { label: "Originele onderdelen", page: "originele-onderdelen-phone-repairs" },
   { label: "Reparatie opsturen", page: "reparatie-opsturen" },
   { label: "Verzekering", page: "verzekering" },
+  // Added on client request 2026-11-02.
+  { label: "Data recovery", page: "data-recovery" },
+  { label: "Klantenservice", page: "klantenservice-phone-repairs" },
   { label: "Blog", href: "/blog-post" },
 ];
 
