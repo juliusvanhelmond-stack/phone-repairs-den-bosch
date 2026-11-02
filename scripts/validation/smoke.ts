@@ -322,35 +322,9 @@ async function main() {
     await page.getByText(/Geen model gevonden/).waitFor();
   });
 
-  await check("iphone section: part chooser opens repair card with booking link", async () => {
+  await check("homepage: no 3D iPhone section (removed at the client's request, 2026-11-02)", async () => {
     await page.goto(BASE + "/", { waitUntil: "networkidle" });
-    const section = page.locator('section[aria-labelledby="iphone-explode-title"]');
-    await section.scrollIntoViewIfNeeded();
-    await section.getByRole("button", { name: "Batterij", exact: true }).click();
-    const card = page.getByRole("dialog", { name: "Batterij vervangen" });
-    await card.waitFor();
-    const href = await card.getByRole("link", { name: /Plan via WhatsApp/ }).getAttribute("href");
-    assert(href?.startsWith(`${WA}?text=`) && waText(href).includes("iPhone: batterij vervangen"), `cta ${href}`);
-    // The lowest battery price of all iPhones (client request 2026-10-27), shown as "vanaf".
-    assert(/vanaf\s*€\s?\d+/.test((await card.textContent()) ?? ""), "no 'vanaf' price from the price list");
-    await page.keyboard.press("Escape");
-    await card.waitFor({ state: "detached" });
-  });
-
-  await check("iphone section: scroll progress reaches exploded state and reverses", async () => {
-    await page.goto(BASE + "/", { waitUntil: "networkidle" });
-    const section = page.locator('section[aria-labelledby="iphone-explode-title"]');
-    const read = () => section.evaluate((el) => Number((el.firstElementChild as HTMLElement).style.getPropertyValue("--p")));
-    const top = await section.evaluate((el) => el.getBoundingClientRect().top + window.scrollY);
-    const h = await section.evaluate((el) => (el as HTMLElement).offsetHeight);
-    const vh = await page.evaluate(() => window.innerHeight);
-    await page.evaluate((y) => window.scrollTo({ top: y, behavior: "instant" }), top + h - vh);
-    await page.waitForTimeout(300);
-    const end = await read();
-    await page.evaluate((y) => window.scrollTo({ top: y, behavior: "instant" }), top);
-    await page.waitForTimeout(300);
-    const start = await read();
-    assert(end > 0.99 && start < 0.01, `progress start ${start} end ${end}`);
+    assert((await page.locator('section[aria-labelledby="iphone-explode-title"]').count()) === 0, "3D iPhone section still on the homepage");
   });
 
   await check("appointment form: validation errors", async () => {

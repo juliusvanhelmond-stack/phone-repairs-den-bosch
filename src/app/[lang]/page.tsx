@@ -5,7 +5,6 @@ import { Faq } from "@/components/home/faq";
 import { FinalCta } from "@/components/home/final-cta";
 import { FinderSection } from "@/components/home/finder-section";
 import { Hero } from "@/components/home/hero";
-import { IphoneSection } from "@/components/iphone/iphone-section";
 import { HowItWorks } from "@/components/home/how-it-works";
 import { Location } from "@/components/home/location";
 import { PopularRepairs } from "@/components/home/popular-repairs";
@@ -46,7 +45,7 @@ export default async function HomePage() {
       <PopularBrands />
       <FinderSection />
       <PopularRepairs />
-      <IphoneSection />
+      {/* The 3D iPhone section was removed at the client's request (mail 2026-11-02): it made scrolling feel slow. */}
       <Trust />
       <Clients />
       <HowItWorks />
