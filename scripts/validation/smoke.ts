@@ -518,7 +518,7 @@ async function main() {
   await quietPrompt(mobile);
   const m = await mobile.newPage();
   await check("mobile navigation opens, expands and navigates", async () => {
-    await m.goto(BASE + "/");
+    await m.goto(BASE + "/", { waitUntil: "networkidle" }); // menu button works once hydrated
     await m.getByRole("button", { name: "Menu openen" }).click();
     const dialog = m.getByRole("dialog");
     await dialog.getByRole("button", { name: "Reparaties" }).click();
