@@ -105,9 +105,10 @@ export async function KiyohFloat() {
           ? t(`Kiyoh: ${score} uit ${count} reviews. Bekijk onze reviews`, `Kiyoh: ${score} from ${count} reviews. See our reviews`)
           : t("Bekijk onze reviews op Kiyoh", "See our reviews on Kiyoh")
       }
-      className="tone-light fixed bottom-6 left-6 z-30 hidden h-16 items-center gap-3 rounded-full bg-white pr-6 pl-4 text-ink shadow-[var(--shadow-lift)] ring-1 ring-line transition-transform hover:scale-[1.03] motion-reduce:transition-none motion-reduce:hover:scale-100 md:inline-flex"
+      className="fixed bottom-6 left-6 z-30 hidden h-16 items-center gap-3 rounded-full bg-surface pr-6 pl-4 text-ink shadow-[var(--shadow-lift)] ring-1 ring-line transition-transform hover:scale-[1.03] motion-reduce:transition-none motion-reduce:hover:scale-100 md:inline-flex"
     >
-      {/* As on the current site (client screenshot, 2026-10-16): mark, "Kiyoh", score, count and a call to action. */}
+      {/* As on the current site (client screenshot, 2026-10-16): mark, "Kiyoh", score, count and a call to action.
+          White, dark in the dark theme (client request 2026-10-30). */}
       <KiyohMark className="size-8" />
       <span className="text-sm text-muted">Kiyoh</span>
       {score ? (
