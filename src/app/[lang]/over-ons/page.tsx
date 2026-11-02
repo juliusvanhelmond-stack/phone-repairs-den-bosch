@@ -76,7 +76,7 @@ export default async function AboutPage() {
           </Reveal>
         </div>
       </section>
-      <About />
+      <About withLink={false} />
       <Trust />
       <Location />
       <FinalCta />

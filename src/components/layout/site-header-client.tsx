@@ -177,6 +177,20 @@ function MoreDropdown({ items }: { items: NavData["more"] }) {
   );
 }
 
+function MobileSubLinks({ links, onNavigate }: { links: { label: string; href: string }[]; onNavigate: () => void }) {
+  return links.map((l) => (
+    <Link
+      key={l.href}
+      href={l.href}
+      onClick={onNavigate}
+      className="flex items-center justify-between gap-3 py-2 text-[0.9375rem] text-ink transition-colors hover:text-accent-strong"
+    >
+      {l.label}
+      <ArrowRight className="size-4 text-muted" aria-hidden />
+    </Link>
+  ));
+}
+
 function MegaMenu({ nav }: { nav: NavData }) {
   const { t } = useI18n();
   return (
@@ -320,48 +334,34 @@ function MobileNav({ nav, phone, whatsapp, email }: Props) {
                   </div>
                 </AccordionContent>
               </AccordionItem>
-              {nav.more.length > 0 && (
-                <AccordionItem value="overig">
-                  <AccordionTrigger className="py-4 text-lg">{t("Overig", "More")}</AccordionTrigger>
-                  <AccordionContent className="pb-4">
-                    {nav.more.map((l) => (
-                      <Link
-                        key={l.href}
-                        href={l.href}
-                        onClick={close}
-                        className="flex items-center justify-between gap-3 py-2 text-[0.9375rem] text-ink transition-colors hover:text-accent-strong"
-                      >
-                        {l.label}
-                        <ArrowRight className="size-4 text-muted" aria-hidden />
-                      </Link>
-                    ))}
-                  </AccordionContent>
-                </AccordionItem>
-              )}
-            </Accordion>
-            <ul>
+              {/* Same order and dropdowns as the desktop menu (client request 2026-10-29). */}
               {mainNav.map((item) => (
-                <li key={item.href} className="border-b border-line">
-                  <Link href={item.href} onClick={close} className="block py-4 text-lg font-medium text-ink transition-colors hover:text-accent-strong">
-                    {t(item.label, item.labelEn)}
-                  </Link>
-                  {"children" in item &&
-                    item.children
-                      .filter((child) => child.href !== item.href)
-                      .map((child) => (
-                        <Link
-                          key={child.href}
-                          href={child.href}
-                          onClick={close}
-                          className="-mt-2 flex items-center gap-2 pb-4 text-[0.9375rem] text-accent-strong transition-colors hover:text-accent"
-                        >
-                          {t(child.label, child.labelEn)}
-                          <ArrowRight className="size-4" aria-hidden />
-                        </Link>
-                      ))}
-                </li>
+                <Fragment key={item.href}>
+                  {item.href === "/contact" && nav.more.length > 0 && (
+                    <AccordionItem value="overig">
+                      <AccordionTrigger className="py-4 text-lg">{t("Overig", "More")}</AccordionTrigger>
+                      <AccordionContent className="pb-4">
+                        <MobileSubLinks links={nav.more} onNavigate={close} />
+                      </AccordionContent>
+                    </AccordionItem>
+                  )}
+                  {"children" in item ? (
+                    <AccordionItem value={item.href}>
+                      <AccordionTrigger className="py-4 text-lg">{t(item.label, item.labelEn)}</AccordionTrigger>
+                      <AccordionContent className="pb-4">
+                        <MobileSubLinks links={item.children.map((c) => ({ label: t(c.label, c.labelEn), href: c.href }))} onNavigate={close} />
+                      </AccordionContent>
+                    </AccordionItem>
+                  ) : (
+                    <div className="border-b border-line">
+                      <Link href={item.href} onClick={close} className="block py-4 text-lg font-medium text-ink transition-colors hover:text-accent-strong">
+                        {t(item.label, item.labelEn)}
+                      </Link>
+                    </div>
+                  )}
+                </Fragment>
               ))}
-            </ul>
+            </Accordion>
           </nav>
           <div className="space-y-2 border-t border-line p-4">
             <LanguageSwitch className="mb-2 w-full justify-center" onNavigate={close} />

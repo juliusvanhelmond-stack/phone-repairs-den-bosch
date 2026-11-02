@@ -7,7 +7,7 @@ import { SectionHeading } from "@/components/ui/section-heading";
 import { Aura } from "@/components/ui/aura";
 import { getI18n } from "@/lib/i18n-server";
 
-export async function About() {
+export async function About({ withLink = true }: { withLink?: boolean }) {
   const { t } = await getI18n();
   const facts = [
     { value: "±30 min", label: t("voor de meeste reparaties", "for most repairs") },
@@ -54,6 +54,8 @@ export async function About() {
                 </div>
               ))}
             </dl>
+            {/* Not on /over-ons itself, where it led to the same page (client report 2026-10-29). */}
+            {withLink && (
             <Link
               href="/over-ons"
               className="mt-10 inline-flex items-center gap-1.5 text-[0.9375rem] font-medium text-accent-strong hover:text-accent"
@@ -61,6 +63,7 @@ export async function About() {
               {t("Meer over Phone Repairs", "More about Phone Repairs")}
               <ArrowRight className="size-4" aria-hidden />
             </Link>
+            )}
           </Reveal>
         </div>
       </div>
