@@ -33,7 +33,8 @@ export async function Hero() {
               "Kijk live mee hoe reparatiespecialist Martijn je toestel repareert:",
               "Watch live as repair specialist Martijn repairs your device:",
             )}{" "}
-            <span className="text-muted">{t("Snel, eerlijk en vakkundig.", "fast, honest and skilled.")}</span>
+            {/* One colour for the whole heading (client request 2026-10-30). */}
+            {t("Snel, eerlijk en vakkundig.", "fast, honest and skilled.")}
           </p>
           <p className="mt-3 max-w-xl text-[0.9375rem] leading-relaxed text-pretty text-muted sm:mt-6 sm:text-xl">
             {t(
