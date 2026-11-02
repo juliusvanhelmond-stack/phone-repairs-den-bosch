@@ -306,13 +306,24 @@
     ]
   },
   {
+    "id": "vivo",
+    "name": "Vivo",
+    "categories": [
+      "smartphone"
+    ],
+    "popular": false,
+    "order": 16,
+    "legacyUrls": [],
+    "sources": []
+  },
+  {
     "id": "nintendo",
     "name": "Nintendo",
     "categories": [
       "console"
     ],
     "popular": false,
-    "order": 16,
+    "order": 17,
     "legacyUrls": [],
     "sources": []
   }
