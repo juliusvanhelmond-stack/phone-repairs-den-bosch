@@ -10,7 +10,7 @@ import { site } from "@/lib/site";
 export async function TradeIn() {
   const { t } = await getI18n();
   return (
-    <section className="pb-16 lg:pb-20">
+    <section className="pb-10 lg:pb-14">
       <div className="container-page">
         <Reveal>
           <div className="tone-grey grid gap-6 rounded-[var(--radius-panel)] p-7 sm:p-10 lg:grid-cols-[auto_1fr_auto] lg:items-center lg:gap-10">

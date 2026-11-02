@@ -10,7 +10,7 @@ export async function DataRecoveryForm() {
   const { t } = await getI18n();
   const { dataRecoveryForm, dataRecoveryCode } = site.partners;
   return (
-    <section id="aanmelden" className="scroll-mt-28 pb-16 lg:pb-24">
+    <section id="aanmelden" className="scroll-mt-28 pb-10 lg:pb-14">
       <div className="container-page">
         <div className="rounded-[var(--radius-card)] bg-surface p-6 ring-1 ring-line sm:p-10">
           <h2 className="text-title font-semibold text-ink">

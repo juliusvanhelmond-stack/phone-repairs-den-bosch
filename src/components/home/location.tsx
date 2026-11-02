@@ -82,7 +82,7 @@ export async function ContactDetails({ className }: { className?: string }) {
 export async function Location() {
   const { t } = await getI18n();
   return (
-    <section className="relative isolate overflow-hidden py-20 lg:py-28">
+    <section className="relative isolate overflow-hidden py-10 lg:py-14">
       <Aura variant="soft" />
       <div className="container-page">
         <Reveal>

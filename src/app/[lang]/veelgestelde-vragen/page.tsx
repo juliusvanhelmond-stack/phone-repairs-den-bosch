@@ -35,7 +35,7 @@ export default async function FaqPage() {
           "Everything about appointments, repair times, parts and what to do after water damage. Question not listed? Send us a WhatsApp.",
         )}
       />
-      <section className="py-16 lg:py-24">
+      <section className="py-10 lg:py-14">
         <div className="container-page max-w-3xl">
           <FaqList items={faqs.map((f) => localizeFaq(f, locale))} />
           <WhatsAppCard className="mt-12" message={t("Hoi Phone Repairs, ik heb een vraag.", "Hi Phone Repairs, I have a question.")} />

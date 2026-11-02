@@ -42,7 +42,7 @@ export default async function BlogIndexPage() {
           )}
         </DemoNote>
       </PageIntro>
-      <section className="py-16 lg:py-24">
+      <section className="py-10 lg:py-14">
         <ul className="container-page grid gap-3 md:grid-cols-2 lg:grid-cols-3">
           {blogPosts.map((p) => localizeBlog(p, locale)).map((post, i) => (
             <li key={post.id}>

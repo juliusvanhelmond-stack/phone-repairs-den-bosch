@@ -40,7 +40,7 @@ export default async function AreaIndexPage() {
           "The workshop is at Ploossche Hof in Den Bosch. Customers come from the city itself and from the surrounding towns.",
         )}
       />
-      <section className="py-16 lg:py-24">
+      <section className="py-10 lg:py-14">
         <ul className="container-page grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {groups.map((g, i) => (
             <li key={g.place}>

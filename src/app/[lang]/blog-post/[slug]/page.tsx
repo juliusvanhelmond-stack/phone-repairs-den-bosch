@@ -48,7 +48,7 @@ export default async function BlogPostPage({ params }: PageProps<"/[lang]/blog-p
         title={post.title}
         intro={post.excerpt}
       />
-      <article className="py-16 lg:py-24">
+      <article className="py-10 lg:py-14">
         <div className="container-page max-w-3xl">
           {/* bodyHtml was sanitised at import (scripts/migration/wordpress/content.ts): text, headings, lists and links only. */}
           {post.bodyHtml && locale === "nl" ? (

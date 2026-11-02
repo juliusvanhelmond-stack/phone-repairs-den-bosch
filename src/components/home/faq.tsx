@@ -64,7 +64,7 @@ export async function FaqList({ items }: { items: FaqItem[] }) {
 export async function Faq({ items, title }: { items: FaqItem[]; title?: string }) {
   const { t } = await getI18n();
   return (
-    <section className="tone-grey py-20 lg:py-28">
+    <section className="tone-grey py-10 lg:py-14">
       <div className="container-page grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20">
         <Reveal>
           <SectionHeading

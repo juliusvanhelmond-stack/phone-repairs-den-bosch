@@ -42,11 +42,11 @@ export default async function ProcessPage() {
       <HowItWorks withHeading={false} withPhoto={false} />
       {/* The device finder right below the steps (client request 2026-10-29), then the photo. */}
       <FinderSection />
-      <div className="container-page pt-20 lg:pt-28">
+      <div className="container-page pt-10 lg:pt-14">
         <ProcessPhoto />
       </div>
       <Trust />
-      <div className="pt-20 lg:pt-28">
+      <div className="pt-10 lg:pt-14">
         <FinalCta />
       </div>
     </>

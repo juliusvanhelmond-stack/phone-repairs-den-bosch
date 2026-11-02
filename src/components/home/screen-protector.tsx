@@ -14,7 +14,7 @@ export async function ScreenProtector() {
   const { t } = await getI18n();
   if (!getBlogPost(SLUG)) return null;
   return (
-    <section className="py-16 lg:py-20">
+    <section className="py-10 lg:py-14">
       <div className="container-page">
         <Reveal>
           <div className="tone-dark grid gap-8 rounded-[var(--radius-panel)] p-7 sm:p-10 lg:grid-cols-[auto_1fr] lg:gap-12">

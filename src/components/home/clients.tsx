@@ -31,7 +31,7 @@ export async function Clients() {
     </ul>
   );
   return (
-    <section className="py-14 lg:py-16" aria-labelledby="klanten-titel">
+    <section className="py-10 lg:py-14" aria-labelledby="klanten-titel">
       <div className="container-page">
         <h2 id="klanten-titel" className="text-center text-sm font-semibold tracking-wide text-muted uppercase">
           {t("Wij repareren o.a. voor:", "Among others, we repair for:")}

@@ -83,7 +83,7 @@ export default async function RepairPage({ params }: PageProps<"/[lang]/reparati
         <ContactActions message={whatsappMessage({ repair: repair.name, locale })} />
       </PageIntro>
 
-      <section className="py-16 lg:py-24">
+      <section className="py-10 lg:py-14">
         <div className="container-page grid gap-12 lg:grid-cols-[1.2fr_0.8fr] lg:gap-20">
           <div className="space-y-5 text-lg leading-relaxed text-pretty text-ink-soft">
             {repair.description.map((p) => (
@@ -133,7 +133,7 @@ export default async function RepairPage({ params }: PageProps<"/[lang]/reparati
       </section>
 
       {examples.length > 0 && (
-        <section className="border-t border-line py-16 lg:py-24">
+        <section className="border-t border-line py-10 lg:py-14">
           <div className="container-page">
             <h2 className="text-title font-semibold text-ink">
               {t(`${repair.name} voor populaire modellen`, `${repair.name} for popular models`)}
@@ -150,7 +150,7 @@ export default async function RepairPage({ params }: PageProps<"/[lang]/reparati
       )}
       <HowItWorks />
       <Faq items={faqItems} />
-      <div className="pt-20 lg:pt-28">
+      <div className="pt-10 lg:pt-14">
         <FinalCta message={whatsappMessage({ repair: repair.name, locale })} />
       </div>
       <JsonLd data={serviceJsonLd({ name: repair.name, path: localizePath(repairPath(repair.slug), locale), offers: [] })} />

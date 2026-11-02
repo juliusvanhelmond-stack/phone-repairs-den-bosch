@@ -11,7 +11,7 @@ import { site } from "@/lib/site";
 export async function Trust() {
   const { locale, t } = await getI18n();
   return (
-    <section className="relative isolate overflow-hidden bg-night py-20 text-white lg:py-28">
+    <section className="relative isolate overflow-hidden bg-night py-10 text-white lg:py-14">
             <div className="absolute -top-40 left-1/2 -z-10 h-80 w-[48rem] -translate-x-1/2 rounded-full bg-accent/25 blur-[120px]" aria-hidden />
       <div className="container-page">
         <Reveal>

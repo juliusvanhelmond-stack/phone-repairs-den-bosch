@@ -56,7 +56,7 @@ export default async function AboutPage() {
           )}
         </DemoNote>
       </PageIntro>
-      <section className="py-20 lg:py-28">
+      <section className="py-10 lg:py-14">
         <div className="container-page grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20">
           <Reveal>
             <SectionHeading

@@ -10,7 +10,7 @@ import { Aura } from "@/components/ui/aura";
 export async function FinderSection() {
   const { locale, t } = await getI18n();
   return (
-    <section id="toestel-zoeken" className="relative isolate overflow-hidden bg-mist pt-12 pb-20 lg:pt-16 lg:pb-28">
+    <section id="toestel-zoeken" className="relative isolate overflow-hidden bg-mist py-10 lg:py-14">
       <Aura variant="center" />
       <div className="container-page">
         <Reveal>

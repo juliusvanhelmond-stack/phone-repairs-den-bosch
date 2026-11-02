@@ -117,7 +117,7 @@ export default async function BrandPage({
             key={s.category.id}
             id={s.category.id}
             data-model-group
-            className={i % 2 ? "bg-mist py-16 lg:py-20" : "py-16 lg:py-20"}
+            className={i % 2 ? "bg-mist py-10 lg:py-14" : "py-10 lg:py-14"}
           >
             <div className="container-page">
               <h2 className="text-title font-semibold text-ink">

@@ -15,7 +15,7 @@ export async function About({ withLink = true }: { withLink?: boolean }) {
     { value: t("Gratis", "Free"), label: t("parkeren voor de deur", "parking right outside") },
   ];
   return (
-    <section className="relative isolate overflow-hidden py-20 lg:py-28">
+    <section className="relative isolate overflow-hidden py-10 lg:py-14">
       <Aura variant="soft" className="rotate-180" />
       <div className="container-page grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
         <Reveal className="order-2 lg:order-1">

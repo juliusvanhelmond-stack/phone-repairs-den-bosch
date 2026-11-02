@@ -143,7 +143,7 @@ export default async function DevicePage({ params }: PageProps<"/[lang]/reparati
         <ContactActions message={whatsappMessage({ device: fullName, locale })} />
       </PageIntro>
 
-      <section className="py-16 lg:py-24">
+      <section className="py-10 lg:py-14">
         <div className="container-page grid gap-12 lg:grid-cols-[1.4fr_0.6fr]">
           <div>
             <h2 className="text-title font-semibold text-ink">{t(`Reparaties en prijzen ${fullName}`, `Repairs and prices ${fullName}`)}</h2>
@@ -212,7 +212,7 @@ export default async function DevicePage({ params }: PageProps<"/[lang]/reparati
       </section>
 
       {related.length > 0 && (
-        <section className="border-t border-line py-16 lg:py-24">
+        <section className="border-t border-line py-10 lg:py-14">
           <div className="container-page">
             <h2 className="text-title font-semibold text-ink">{t(`Andere ${device.series} modellen`, `Other ${device.series} models`)}</h2>
             <ul className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
@@ -227,7 +227,7 @@ export default async function DevicePage({ params }: PageProps<"/[lang]/reparati
       )}
 
       <Faq items={deviceFaqs} title={t(`Vragen over je ${device.name}`, `Questions about your ${device.name}`)} />
-      <div className="pt-20 lg:pt-28">
+      <div className="pt-10 lg:pt-14">
         <FinalCta
           title={t(`Je ${device.name} laten repareren?`, `Have your ${device.name} repaired?`)}
           message={whatsappMessage({ device: fullName, locale })}

@@ -92,7 +92,7 @@ export async function LandingTemplate({ page: source, children }: { page: Landin
       </PageIntro>
 
       {page.sections.length > 0 && (
-        <section className="py-16 lg:py-24">
+        <section className="py-10 lg:py-14">
           <div className="container-page grid gap-3 md:grid-cols-2">
             {page.sections.map((s, i) => (
               <Reveal
@@ -109,14 +109,14 @@ export async function LandingTemplate({ page: source, children }: { page: Landin
 
       {children}
 
-      <section className={page.sections.length ? "pb-16 lg:pb-24" : "py-16 lg:py-24"}>
+      <section className={page.sections.length ? "pb-10 lg:pb-14" : "py-10 lg:py-14"}>
         <div className="container-page">
           <WhatsAppCard message={message} className="mx-auto max-w-2xl" />
         </div>
       </section>
 
       {page.focus === "scherm" && (
-        <section className="pb-16 lg:pb-24">
+        <section className="pb-10 lg:pb-14">
           <div className="container-page">
             <Link
               href={repairPath("scherm-vervangen")}
@@ -138,7 +138,7 @@ export async function LandingTemplate({ page: source, children }: { page: Landin
       )}
 
       {focus && (
-        <section className="bg-mist py-16 lg:py-24">
+        <section className="bg-mist py-10 lg:py-14">
           <div className="container-page">
             <SectionHeading eyebrow={t("Kies je toestel", "Choose your device")} title={focus.title} />
             <ul className="mt-10 grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4">
@@ -160,7 +160,7 @@ export async function LandingTemplate({ page: source, children }: { page: Landin
       {page.kind === "area" && <Location />}
 
       {otherAreas.length > 0 && (
-        <section className="py-16 lg:py-20">
+        <section className="py-10 lg:py-14">
           <div className="container-page">
             <h2 className="text-title font-semibold text-ink">{t("Ook voor", "Also for")}</h2>
             <ul className="mt-6 flex flex-wrap gap-2">
@@ -183,7 +183,7 @@ export async function LandingTemplate({ page: source, children }: { page: Landin
         </section>
       )}
 
-      <div className={otherAreas.length ? "" : "pt-20 lg:pt-28"}>
+      <div className={otherAreas.length ? "" : "pt-10 lg:pt-14"}>
         <FinalCta message={message} />
       </div>
     </>

@@ -51,7 +51,7 @@ export default async function RepairsOverviewPage() {
         </Button>
       </PageIntro>
 
-      <section className="py-16 lg:py-24">
+      <section className="py-10 lg:py-14">
         <div className="container-page grid gap-4 lg:grid-cols-3">
           {categories.map((cat) => localizeCategory(cat, locale)).map((c) => (
             <div key={c.id} id={c.id} className="rounded-[var(--radius-card)] bg-surface p-7 ring-1 ring-line">
@@ -74,7 +74,7 @@ export default async function RepairsOverviewPage() {
         </div>
       </section>
 
-      <section className="bg-mist py-16 lg:py-24">
+      <section className="bg-mist py-10 lg:py-14">
         <div className="container-page">
           <h2 className="text-title font-semibold text-ink">{t("Soort reparatie", "Type of repair")}</h2>
           <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
@@ -93,7 +93,7 @@ export default async function RepairsOverviewPage() {
           </ul>
         </div>
       </section>
-      <div className="pt-20 lg:pt-28">
+      <div className="pt-10 lg:pt-14">
         <FinalCta />
       </div>
     </>

@@ -13,7 +13,7 @@ export async function SendInSection() {
   const online = mailConfigured();
   const address = ["Phone Repairs", site.address.street, `${site.address.postalCode ?? ""} ${site.address.city}`.trim(), "Nederland"];
   return (
-    <section id="opstuurformulier" className="scroll-mt-28 pb-16 lg:pb-24">
+    <section id="opstuurformulier" className="scroll-mt-28 pb-10 lg:pb-14">
       <div className="container-page">
         <div className="mx-auto max-w-3xl rounded-[var(--radius-card)] bg-surface p-6 shadow-[var(--shadow-soft)] ring-1 ring-line sm:p-10">
           <p className="eyebrow mb-3">{t("Opstuurformulier", "Send-in form")}</p>

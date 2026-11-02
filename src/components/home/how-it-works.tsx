@@ -36,7 +36,7 @@ export async function HowItWorks({ withHeading = true, withPhoto = true }: { wit
   const { t } = await getI18n();
   const steps = stepsFor(t);
   return (
-    <section className="tone-grey relative isolate overflow-hidden py-20 lg:py-28">
+    <section className="tone-grey relative isolate overflow-hidden py-10 lg:py-14">
       <div className="container-page">
         {withHeading && (
           <Reveal>

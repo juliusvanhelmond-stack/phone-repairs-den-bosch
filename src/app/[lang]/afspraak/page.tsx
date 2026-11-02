@@ -47,7 +47,7 @@ export default async function AppointmentPage() {
       >
         <ContactActions />
       </PageIntro>
-      <section className="py-16 lg:py-24">
+      <section className="py-10 lg:py-14">
         <div className="container-page grid gap-12 lg:grid-cols-[1.4fr_0.6fr] lg:gap-16">
           <div className="space-y-8">
             <WhatsAppCard />

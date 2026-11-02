@@ -21,7 +21,7 @@ export async function FinalCta({
     "Send us a WhatsApp or call for an appointment. Most repairs are done within 30 minutes while you watch.",
   );
   return (
-    <section className="px-4 pb-20 sm:px-6 lg:px-8 lg:pb-28">
+    <section className="px-4 pb-10 sm:px-6 lg:px-8 lg:pb-14">
       <Reveal>
         <div className="relative isolate mx-auto max-w-[76rem] overflow-hidden rounded-[var(--radius-panel)] bg-night px-6 py-16 text-center sm:px-12 lg:py-24">
           <Image
