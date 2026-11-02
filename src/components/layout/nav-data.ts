@@ -3,12 +3,29 @@ import {
   categories,
   devicePath,
   devicesForBrand,
+  getBlogPost,
+  blogPath,
+  landingPages,
   localizeCategory,
+  localizeLanding,
   localizeRepair,
   repairPath,
   repairs,
 } from "@/lib/catalog";
 import type { Locale } from "@/lib/i18n";
+
+/** "Overig" in the header (client request 2026-10-31): the extra pages, in the client's order and wording. */
+const moreLinks: { label: string; page?: string; blog?: string; href?: string }[] = [
+  { label: "Hydrogel screenprotector", blog: "flexible-hydrogel-screen-protectors" },
+  { label: "Waterschade reparatie", page: "waterschade-reparatie-phone-repairs" },
+  { label: "Telefoon- en tablethulp", page: "telefoon-en-tablet-hulp" },
+  { label: "Moederbord reparatie", page: "moederbord-reparatie-den-bosch" },
+  { label: "Pre-owned toestellen", page: "pre-owned-toestellen" },
+  { label: "Originele onderdelen", page: "originele-onderdelen-phone-repairs" },
+  { label: "Reparatie opsturen", page: "reparatie-opsturen" },
+  { label: "Verzekering", page: "verzekering" },
+  { label: "Blog", href: "/blog-post" },
+];
 
 export const mainNav = [
   {
@@ -46,5 +63,12 @@ export function getNavData(locale: Locale) {
       .filter((r) => r.popular)
       .map((r) => localizeRepair(r, locale))
       .map((r) => ({ name: r.name, summary: r.summary, href: repairPath(r.slug), icon: r.icon })),
+    // Pages deleted in the CMS drop out; English uses the page's translated title.
+    more: moreLinks.flatMap((l) => {
+      if (l.href) return [{ label: locale === "en" && l.href === "/blog-post" ? "Blog" : l.label, href: l.href }];
+      if (l.blog) return getBlogPost(l.blog) ? [{ label: locale === "en" ? "Hydrogel screen protector" : l.label, href: blogPath(l.blog) }] : [];
+      const page = landingPages.find((p) => p.id === l.page);
+      return page ? [{ label: locale === "en" ? localizeLanding(page, locale).title : l.label, href: page.path }] : [];
+    }),
   };
 }

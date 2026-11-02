@@ -2,7 +2,7 @@
 
 import { Link } from "@/components/i18n/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { Dialog, NavigationMenu, VisuallyHidden } from "radix-ui";
 import Image from "next/image";
 import { ArrowRight, ChevronDown, Mail, Menu, MessageCircle, Phone, Search, X } from "lucide-react";
@@ -96,7 +96,9 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
                   </div>
                 </NavigationMenu.Item>
               ) : (
-              <NavigationMenu.Item key={item.href}>
+              <Fragment key={item.href}>
+              {item.href === "/contact" && nav.more.length > 0 && <MoreDropdown items={nav.more} />}
+              <NavigationMenu.Item>
                 <NavigationMenu.Link asChild active={pathname === item.href}>
                   <Link
                     href={item.href}
@@ -106,6 +108,7 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
                   </Link>
                 </NavigationMenu.Link>
               </NavigationMenu.Item>
+              </Fragment>
               ),
             )}
           </NavigationMenu.List>
@@ -138,6 +141,39 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
         </div>
       </div>
     </header>
+  );
+}
+
+/** "Overig" (client request 2026-10-31): a CSS dropdown like Werkwijze's, opened by hover or keyboard focus. */
+function MoreDropdown({ items }: { items: NavData["more"] }) {
+  const { t } = useI18n();
+  return (
+    <NavigationMenu.Item className="group/more relative">
+      <button
+        type="button"
+        className="flex h-10 items-center gap-1 rounded-full px-2.5 text-[0.9375rem] whitespace-nowrap text-ink-soft transition-colors 2xl:px-4 group-hover/more:bg-accent group-hover/more:text-white group-focus-within/more:bg-accent group-focus-within/more:text-white"
+      >
+        {t("Overig", "More")}
+        <ChevronDown className="size-3.5 transition-transform duration-200 group-hover/more:rotate-180 group-focus-within/more:rotate-180" aria-hidden />
+      </button>
+      <div className="invisible absolute top-full right-0 pt-2 opacity-0 transition-opacity duration-150 group-hover/more:visible group-hover/more:opacity-100 group-focus-within/more:visible group-focus-within/more:opacity-100">
+        <ul className="w-72 rounded-2xl bg-surface p-2 shadow-[var(--shadow-lift)] ring-1 ring-line">
+          {items.map((l) => (
+            <li key={l.href}>
+              <Link
+                href={l.href}
+                // Drop focus so the dropdown closes after navigating.
+                onClick={(e) => e.currentTarget.blur()}
+                className="flex items-center justify-between gap-3 rounded-xl px-3.5 py-2.5 text-[0.9375rem] text-ink transition-colors hover:bg-accent hover:text-white focus-visible:bg-accent focus-visible:text-white"
+              >
+                {l.label}
+                <ArrowRight className="size-4 shrink-0" aria-hidden />
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </NavigationMenu.Item>
   );
 }
 
@@ -284,6 +320,24 @@ function MobileNav({ nav, phone, whatsapp, email }: Props) {
                   </div>
                 </AccordionContent>
               </AccordionItem>
+              {nav.more.length > 0 && (
+                <AccordionItem value="overig">
+                  <AccordionTrigger className="py-4 text-lg">{t("Overig", "More")}</AccordionTrigger>
+                  <AccordionContent className="pb-4">
+                    {nav.more.map((l) => (
+                      <Link
+                        key={l.href}
+                        href={l.href}
+                        onClick={close}
+                        className="flex items-center justify-between gap-3 py-2 text-[0.9375rem] text-ink transition-colors hover:text-accent-strong"
+                      >
+                        {l.label}
+                        <ArrowRight className="size-4 text-muted" aria-hidden />
+                      </Link>
+                    ))}
+                  </AccordionContent>
+                </AccordionItem>
+              )}
             </Accordion>
             <ul>
               {mainNav.map((item) => (
