@@ -4,25 +4,20 @@
   "categoryId": "smartphone",
   "series": "Honor Magic V",
   "order": 26500,
-  "releaseYear": "",
   "art": "phone-foldable",
   "photo": "/images/toestellen/honor-magic-v2/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "Honor Magic V2 reparatie bij Phone Repairs",
-    "description": "Heeft u schade aan uw Honor Magic V2? Wij bieden snelle en professionele Honor Magic V2 reparatie met garantie."
-  },
   "prices": [
     {
-      "label": "Scherm (voorkant), OLED (origineel Honor service pack, zoals Honor vereist) vervangen",
+      "label": "Scherm buitendisplay origineel vervangen",
       "price": "€240,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
     },
     {
-      "label": "Scherm (groot) OLED, frame en scharnier (origineel Honor service pack, zoals Honor vereist) vervangen",
+      "label": "Scherm binnen display origineel vervangen",
       "price": "€625,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -106,6 +101,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Honor Magic V2 reparatie bij Phone Repairs",
+    "description": "Heeft u schade aan uw Honor Magic V2? Wij bieden snelle en professionele Honor Magic V2 reparatie met garantie."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/honor-reparatie/honor-magic-v2-reparatie/"
   ],
