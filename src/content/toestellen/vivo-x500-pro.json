@@ -39,6 +39,13 @@
       "links": []
     },
     {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€150,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "links": []
+    },
+    {
       "label": "Andere reparaties ",
       "price": "Prijs op aanvraag",
       "repairId": "auto",
