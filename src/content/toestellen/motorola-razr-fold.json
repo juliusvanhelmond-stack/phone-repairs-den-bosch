@@ -49,20 +49,6 @@
       "links": []
     },
     {
-      "label": "Oorluidspreker vervangen",
-      "price": "Prijs op aanvraag",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Luidspreker vervangen",
-      "price": "Prijs op aanvraag",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "links": []
-    },
-    {
       "label": "Camera main achterzijde vervangen",
       "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
@@ -99,7 +85,7 @@
     },
     {
       "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
-      "price": "€60,-",
+      "price": "€150,-",
       "repairId": "waterschade",
       "popular": false,
       "links": [
