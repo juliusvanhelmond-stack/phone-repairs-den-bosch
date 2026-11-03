@@ -4,7 +4,9 @@
   "order": 50,
   "repairIds": [
     "batterij-vervangen",
-    "oplaadpoort-repareren"
+    "oplaadpoort-repareren",
+    "achterkant-vervangen",
+    "scherm-vervangen"
   ],
   "topics": [
     "reparaties"
