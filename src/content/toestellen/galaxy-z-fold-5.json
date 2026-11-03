@@ -4,7 +4,6 @@
   "categoryId": "smartphone",
   "series": "Galaxy Z Fold",
   "order": 15300,
-  "releaseYear": "",
   "art": "phone-foldable",
   "photo": "/images/toestellen/galaxy-z-fold-5/photo.jpg",
   "popular": false,
@@ -13,10 +12,6 @@
     "Samsung Galaxy Z Fold 5 (SM-F946)",
     "SM-F946"
   ],
-  "seo": {
-    "title": "Samsung Galaxy Z Fold 5 reparatie: Snelle Service",
-    "description": "Neem contact op voor Samsung Galaxy Z Fold 5 reparatie. Wij herstellen schermen en andere defecten professioneel en snel."
-  },
   "prices": [
     {
       "label": "Scherm (voorkant), OLED (origineel Samsung service pack, zoals Samsung vereist) vervangen",
@@ -26,7 +21,7 @@
       "links": []
     },
     {
-      "label": "Scherm (groot) OLED, frame en scharnier (origineel Samsung service pack, zoals Samsung vereist) vervangen",
+      "label": "Scherm binnendisplay, frame en scharnier vervangen ",
       "price": "€750,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -129,6 +124,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung Galaxy Z Fold 5 reparatie: Snelle Service",
+    "description": "Neem contact op voor Samsung Galaxy Z Fold 5 reparatie. Wij herstellen schermen en andere defecten professioneel en snel."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-z-fold-5/"
   ],
