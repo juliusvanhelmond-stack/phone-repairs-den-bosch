@@ -9,14 +9,10 @@
   "photo": "/images/toestellen/iphone-13/photo.jpg",
   "popular": true,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
-      "price": "€155,-",
+      "price": "€145,-",
       "repairId": "scherm-vervangen",
       "popular": true,
       "links": [
@@ -281,6 +277,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/iphone-reparatie/iphone-13-reparatie/"
   ],
