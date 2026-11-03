@@ -1,8 +1,17 @@
 {
   "question": "Moet ik een afspraak maken?",
-  "answer": "Ja. Phone Repairs werkt altijd op afspraak, zodat er voldoende tijd en aandacht is voor jouw reparatie. Je maakt een afspraak via WhatsApp, telefonisch of per e-mail.",
+  "answer": "Ja. Phone Repairs werkt altijd op afspraak, zodat er voldoende tijd en aandacht is voor jouw reparatie. En dat je zeker weet dat het juiste onderdeel in de juiste kleur op voorraad is. Je maakt snel en makkelijk een afspraak via WhatsApp, telefonisch of per e-mail.",
   "order": 20,
-  "repairIds": [],
+  "repairIds": [
+    "scherm-vervangen",
+    "batterij-vervangen",
+    "oplaadpoort-repareren",
+    "achterkant-vervangen",
+    "camera-repareren",
+    "waterschade",
+    "toetsenbord-vervangen",
+    "overige-reparaties"
+  ],
   "topics": [
     "afspraak"
   ],
