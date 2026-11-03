@@ -23,7 +23,7 @@ export async function PopularRepairs() {
               eyebrow={t("Populaire reparaties", "Popular repairs")}
               title={t("Waar kunnen we je mee helpen?", "What can we help you with?")}
               intro={t(
-                "De meest voorkomende reparaties voor smartphones, tablets en MacBooks.",
+                "De meest voorkomende reparaties voor telefoons, tablets en MacBooks.",
                 "The most common repairs for smartphones, tablets and MacBooks.",
               )}
             />

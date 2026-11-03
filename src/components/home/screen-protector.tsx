@@ -30,7 +30,7 @@ export async function ScreenProtector() {
               </h2>
               <p className="mt-4 leading-relaxed text-muted">
                 {t(
-                  "Wil je jouw smartphone, tablet, Nintendo Switch, camera of ander scherm optimaal beschermen tegen krassen en beschadigingen? Kies dan voor een Premium Flexible Hydrogel Screen Protector van Phone Repairs.",
+                  "Wil je jouw telefoon, tablet, Nintendo Switch, camera of ander scherm optimaal beschermen tegen krassen en beschadigingen? Kies dan voor een Premium Flexible Hydrogel Screen Protector van Phone Repairs.",
                   "Want the best protection against scratches and damage for your smartphone, tablet, Nintendo Switch, camera or other screen? Choose a Premium Flexible Hydrogel Screen Protector from Phone Repairs.",
                 )}
               </p>

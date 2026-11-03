@@ -86,7 +86,7 @@ export default async function BrandPage({
         eyebrow={t("Kies je model", "Choose your model")}
         title={t(`${name} reparatie`, `${name} repair`)}
         intro={t(
-          `Selecteer je ${name} toestel om te zien welke reparaties mogelijk zijn. Staat je model er niet tussen? Neem contact op, dan kijken we graag mee.`,
+          `Selecteer je ${name} toestel om te zien welke reparaties mogelijk zijn. Staat je model of defect er niet tussen? Neem contact op, dan kijken we graag met je mee.`,
           `Select your ${name} device to see which repairs are possible. Model not listed? Get in touch and we'll gladly take a look.`,
         )}
       >

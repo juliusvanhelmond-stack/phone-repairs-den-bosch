@@ -15,7 +15,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return pageMetadata({
     title: t("Afspraak maken", "Make an appointment"),
     description: t(
-      "Maak een afspraak via WhatsApp of telefoon voor de reparatie van je smartphone, tablet of MacBook bij Phone Repairs in Den Bosch.",
+      "Maak een afspraak via WhatsApp of telefoon voor de reparatie van je telefoon, tablet of MacBook bij Phone Repairs in Den Bosch.",
       "Make an appointment via WhatsApp or phone to have your smartphone, tablet or MacBook repaired at Phone Repairs in Den Bosch.",
     ),
     path: "/afspraak",
@@ -71,6 +71,16 @@ export default async function AppointmentPage() {
             </div>
           </div>
           <aside className="space-y-4">
+            <div className="rounded-[var(--radius-card)] bg-surface p-7 ring-1 ring-line">
+              <h2 className="font-semibold text-ink">{t("Goed om te weten", "Good to know")}</h2>
+              <ul className="mt-4 space-y-3 text-sm leading-relaxed text-muted">
+                <li>{t("De meeste reparaties zijn binnen 30 minuten klaar.", "Most repairs are done within 30 minutes.")}</li>
+                <li>{t("Je kunt meekijken terwijl je toestel wordt gerepareerd.", "You can watch while your device is repaired.")}</li>
+                <li>{t("Je gegevens blijven op je toestel staan.", "Your data stays on your device.")}</li>
+                <li>{t("Gratis parkeren voor de deur.", "Free parking right outside.")}</li>
+              </ul>
+            </div>
+            {/* WhatsApp/Bel below "Goed om te weten" (client request 2026-11-03). */}
             <div className="rounded-[var(--radius-card)] bg-night p-7 text-white">
               <h2 className="text-lg font-semibold tracking-tight">{t("Direct contact", "Get in touch directly")}</h2>
               <p className="mt-2 text-sm leading-relaxed text-neutral-300">
@@ -99,15 +109,6 @@ export default async function AppointmentPage() {
                   </a>
                 </li>
               </ol>
-            </div>
-            <div className="rounded-[var(--radius-card)] bg-surface p-7 ring-1 ring-line">
-              <h2 className="font-semibold text-ink">{t("Goed om te weten", "Good to know")}</h2>
-              <ul className="mt-4 space-y-3 text-sm leading-relaxed text-muted">
-                <li>{t("De meeste reparaties zijn binnen 30 minuten klaar.", "Most repairs are done within 30 minutes.")}</li>
-                <li>{t("Je kunt meekijken terwijl je toestel wordt gerepareerd.", "You can watch while your device is repaired.")}</li>
-                <li>{t("Je gegevens blijven op je toestel staan.", "Your data stays on your device.")}</li>
-                <li>{t("Gratis parkeren voor de deur.", "Free parking right outside.")}</li>
-              </ul>
             </div>
           </aside>
         </div>

@@ -14,7 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return pageMetadata({
     title: "Blog",
     description: t(
-      "Tips en uitleg van Phone Repairs over waterschade, batterijen, schermen en het beschermen van je smartphone.",
+      "Tips en uitleg van Phone Repairs over waterschade, batterijen, schermen en het beschermen van je telefoon.",
       "Tips and explanations from Phone Repairs about water damage, batteries, screens and protecting your smartphone.",
     ),
     path: "/blog-post",

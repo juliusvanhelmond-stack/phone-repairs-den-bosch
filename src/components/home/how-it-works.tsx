@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import Image from "next/image";
 import processPhoto from "@/assets/photos/martijn-microscope.jpg";
 import { Reveal } from "@/components/motion/reveal";
@@ -43,7 +44,7 @@ export async function HowItWorks({ withHeading = true, withPhoto = true }: { wit
             <SectionHeading eyebrow={t("Werkwijze", "How it works")} title={t("Zo werkt het.", "This is how it works.")} align="center" />
           </Reveal>
         )}
-        <ol className="relative mt-14 grid gap-10 md:grid-cols-3 md:gap-8">
+        <ol className={cn("relative grid gap-10 md:grid-cols-3 md:gap-8", withHeading && "mt-14")}>
           <span
             className="absolute top-7 right-[16.66%] left-[16.66%] hidden h-px bg-[linear-gradient(to_right,transparent,var(--color-line-strong)_12%,var(--color-line-strong)_88%,transparent)] md:block"
             aria-hidden

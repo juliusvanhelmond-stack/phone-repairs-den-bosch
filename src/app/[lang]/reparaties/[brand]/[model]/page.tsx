@@ -168,7 +168,6 @@ export default async function DevicePage({ params }: PageProps<"/[lang]/reparati
             </div>
           </div>
           <aside className="space-y-4">
-            <WhatsAppCard message={whatsappMessage({ device: fullName, locale })} />
             <div className="rounded-[var(--radius-card)] bg-mist p-6 ring-1 ring-line">
               <h2 className="font-semibold text-ink">{t("Goed om te weten", "Good to know")}</h2>
               <ul className="mt-5 space-y-5">
@@ -184,6 +183,8 @@ export default async function DevicePage({ params }: PageProps<"/[lang]/reparati
               </ul>
               <ReviewsLink className="mt-6 flex w-fit text-sm" />
             </div>
+            {/* Below "Goed om te weten" (client request 2026-11-03). */}
+            <WhatsAppCard message={whatsappMessage({ device: fullName, locale })} />
             <div className="rounded-[var(--radius-card)] bg-surface p-6 ring-1 ring-line">
               <h2 className="font-semibold text-ink">{t("Garantie", "Warranty")}</h2>
               {generalWarranty?.verified && generalWarranty.durationMonths ? (

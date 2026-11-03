@@ -53,11 +53,19 @@ export function priceRowNote(row: { label: string; repairId: string | null }): {
 /**
  * Price row label as shown on the site (client request 2026-11-03): rows that mention "origineel"
  * get an "Origineel" badge, and the brand's service pack note in brackets ("(origineel Samsung
- * service pack, zoals Samsung vereist)") is left out of the text. The CMS keeps the full label.
+ * service pack, zoals Samsung vereist)") is left out of the text; screen rows named after the panel
+ * ("Scherm, AMOLED vervangen", "Touchscreen / LCD") read "Scherm vervangen". The CMS keeps the full label.
  */
+// Screen rows named after the panel type are shown as "Scherm vervangen" (client request 2026-11-03).
+const SCREEN_LABEL =
+  /^(Scherm, (AMOLED|LCD|OLED) vervangen|Scherm \(glas\) en LCD( \d+(\.\d+)?)? inch vervangen|Scherm \(glas\) en LCD vervangen|Touchscreen \/ LCD( vervangen)?|Touchscreen \/ OLED vervangen)/i;
+
 export function priceRowDisplay(label: string): { label: string; original: boolean } {
   return {
-    label: label.replace(/\s*\(origineel [^()]*service pack, zoals [^()]*vereist\)/gi, "").trim(),
+    label: label
+      .replace(SCREEN_LABEL, "Scherm vervangen")
+      .replace(/\s*\(origineel [^()]*service pack, zoals [^()]*vereist\)/gi, "")
+      .trim(),
     original: /\borigine(el|le)\b/i.test(label),
   };
 }

@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { ExplodedPhone } from "@/components/home/exploded-phone";
 import { FinalCta } from "@/components/home/final-cta";
 import { FinderSection } from "@/components/home/finder-section";
 import { HowItWorks, ProcessPhoto } from "@/components/home/how-it-works";
@@ -25,6 +24,7 @@ export default async function ProcessPage() {
   const { t } = await getI18n();
   return (
     <>
+      {/* No illustration next to the intro, so the steps come into view sooner (client request 2026-11-03). */}
       <PageIntro
         crumbs={[{ name: t("Werkwijze", "How it works"), href: "/werkwijze" }]}
         eyebrow={t("Werkwijze", "How it works")}
@@ -33,11 +33,6 @@ export default async function ProcessPage() {
           "Van het kiezen van je toestel tot het moment dat je weer naar buiten loopt: zo verloopt een reparatie bij Phone Repairs.",
           "From choosing your device to the moment you walk back out: this is how a repair at Phone Repairs goes.",
         )}
-        aside={
-          <div className="mx-auto max-w-md">
-            <ExplodedPhone />
-          </div>
-        }
       />
       <HowItWorks withHeading={false} withPhoto={false} />
       {/* The device finder right below the steps (client request 2026-10-29), then the photo. */}

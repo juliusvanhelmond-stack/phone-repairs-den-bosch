@@ -61,7 +61,7 @@ export async function SiteFooter() {
           <Logo tone="light" />
           <p className="mt-5 text-[0.9375rem] leading-relaxed text-neutral-400">
             {t(
-              `Reparatie van smartphones, tablets en MacBooks in ${site.address.cityShort}. Op afspraak, binnen 30 minuten klaar.`,
+              `Reparatie van telefoons, tablets en MacBooks in ${site.address.cityShort}. Op afspraak, binnen 30 minuten klaar.`,
               `Repair of smartphones, tablets and MacBooks in ${site.address.cityShort}. By appointment, ready within 30 minutes.`,
             )}
           </p>

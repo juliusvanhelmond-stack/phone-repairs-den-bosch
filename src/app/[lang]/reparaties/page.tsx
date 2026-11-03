@@ -20,7 +20,7 @@ import { pageMetadata } from "@/lib/seo";
 export async function generateMetadata(): Promise<Metadata> {
   const { locale, t } = await getI18n();
   return pageMetadata({
-    title: t("Reparaties voor smartphone, tablet en MacBook", "Repairs for smartphone, tablet and MacBook"),
+    title: t("Reparaties voor telefoon, tablet en MacBook", "Repairs for smartphone, tablet and MacBook"),
     description: t(
       "Overzicht van alle reparaties bij Phone Repairs in Den Bosch: scherm, batterij, oplaadpoort, camera, waterschade en meer.",
       "Overview of all repairs at Phone Repairs in Den Bosch: screen, battery, charging port, camera, water damage and more.",

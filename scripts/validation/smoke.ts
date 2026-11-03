@@ -262,7 +262,7 @@ async function main() {
   await check("device finder: full flow by clicking", async () => {
     await page.goto(BASE + "/#toestel-zoeken");
     const finder = page.locator("#toestel-zoeken");
-    await finder.getByRole("button", { name: /Smartphones/ }).click();
+    await finder.getByRole("button", { name: /Telefoons/ }).click();
     await finder.getByRole("button", { name: /^iPhone/ }).click();
     await finder.getByPlaceholder("Zoek een iPhone model").fill("15 pro max");
     const option = finder.getByRole("option", { name: /iPhone 15 Pro Max/ });
@@ -291,7 +291,7 @@ async function main() {
     const finder = page.locator("#toestel-zoeken");
     await finder.getByRole("button", { name: "Terug", exact: true }).click();
     await finder.getByRole("heading", { name: /Wat is er mis met je iPhone 15 Pro Max/ }).waitFor();
-    await finder.getByRole("navigation", { name: "Jouw keuze" }).getByRole("button", { name: "Smartphones" }).click();
+    await finder.getByRole("navigation", { name: "Jouw keuze" }).getByRole("button", { name: "Telefoons" }).click();
     await finder.getByRole("heading", { name: /Welk merk smartphone/ }).waitFor();
   });
 
@@ -421,7 +421,7 @@ async function main() {
     assert(!/alleen op afspraak/i.test(html), "'alleen op afspraak' still on the homepage");
     assert(/altijd op afspraak/i.test(html), "'altijd op afspraak' missing");
     await page.getByRole("button", { name: /Reparaties/ }).first().click();
-    const menu = page.locator("header").getByText("Smartphones", { exact: true }).locator("xpath=..");
+    const menu = page.locator("header").getByText("Telefoons", { exact: true }).locator("xpath=..");
     const names = (await menu.getByRole("link").allTextContents()).map((s) => s.trim());
     const expected = ["iPhone", "Samsung", "Google", "OPPO", "OnePlus", "Xiaomi", "Poco", "Motorola", "Huawei", "Honor", "Nokia", "Sony", "Realme", "Asus"];
     // The client's order for these brands; brands added or deleted in the CMS later (Vivo, Redmi) don't break it.
