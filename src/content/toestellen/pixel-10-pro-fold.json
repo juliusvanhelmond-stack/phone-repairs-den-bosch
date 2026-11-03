@@ -4,17 +4,12 @@
   "categoryId": "smartphone",
   "series": "Pixel 10",
   "order": 18300,
-  "releaseYear": "",
   "art": "phone-foldable",
   "photo": "/images/toestellen/pixel-10-pro-fold/photo.jpg",
   "popular": false,
   "aliases": [
     "Google Pixel 10 Pro Fold"
   ],
-  "seo": {
-    "title": "Google Pixel 10 Pro Fold reparatie: snelle service",
-    "description": "Snelle en professionele Google Pixel 10 Pro Fold reparatie met garantie. Laat ons je toestel herstellen terwijl u meekijkt."
-  },
   "prices": [
     {
       "label": "Google Pixel 9 Pro Fold scherm voorkant (klein) vervangen (origineel Google service pack, zoals Google vereist) vervangen",
@@ -25,7 +20,7 @@
     },
     {
       "label": "Scherm (groot) en scherm voorkant vervangen incl. schanier en frame vervangen (origineel Google service pack, zoals Google vereist)",
-      "price": "€1295,",
+      "price": "€1200,",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
@@ -92,6 +87,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Google Pixel 10 Pro Fold reparatie: snelle service",
+    "description": "Snelle en professionele Google Pixel 10 Pro Fold reparatie met garantie. Laat ons je toestel herstellen terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/google-pixel-reparatie/google-pixel-10-pro-fold/"
   ],
