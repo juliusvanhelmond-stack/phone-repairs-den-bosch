@@ -12,14 +12,14 @@
   ],
   "prices": [
     {
-      "label": "Scherm voorkant (klein) vervangen (origineel Google service pack, zoals Google vereist) vervangen",
+      "label": "Scherm buitendisplay origineel vervangen",
       "price": "€375,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
     },
     {
-      "label": "Scherm (groot) en scherm voorkant vervangen incl. schanier en frame vervangen (origineel Google service pack, zoals Google vereist)",
+      "label": "Scherm binnendisplay, frame en scharnier origineel vervangen",
       "price": "€1150,-",
       "repairId": "scherm-vervangen",
       "popular": false,
