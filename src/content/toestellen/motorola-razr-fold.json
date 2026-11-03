@@ -14,6 +14,13 @@
   ],
   "prices": [
     {
+      "label": "Scherm buitendisplay origineel vervangen",
+      "price": "Prijs op aanvraag ",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    },
+    {
       "label": "Scherm binnendisplay, frame en scharnier origineel vervangen",
       "price": "€875,-",
       "repairId": "scherm-vervangen",
@@ -101,13 +108,6 @@
           "href": "/waterschade-reparatie-phone-repairs"
         }
       ]
-    },
-    {
-      "label": "Scherm buitendisplay origineel vervangen",
-      "price": "Prijs op aanvraag ",
-      "repairId": "scherm-vervangen",
-      "popular": false,
-      "links": []
     }
   ],
   "seo": {
