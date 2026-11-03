@@ -2,7 +2,16 @@
   "question": "Krijg ik garantie op de reparatie?",
   "answer": "De garantietermijn verschilt per reparatie. Op de meeste reparaties en alle schermreparaties krijg je 12 maanden garantie. Voor batterijen geldt 12 maanden en voor moederbordreparaties 60 dagen. Bij waterschade is er nooit sprake van garantie.",
   "order": 70,
-  "repairIds": [],
+  "repairIds": [
+    "scherm-vervangen",
+    "batterij-vervangen",
+    "oplaadpoort-repareren",
+    "achterkant-vervangen",
+    "camera-repareren",
+    "waterschade",
+    "toetsenbord-vervangen",
+    "overige-reparaties"
+  ],
   "topics": [
     "garantie"
   ],
