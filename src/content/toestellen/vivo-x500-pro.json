@@ -1,0 +1,53 @@
+{
+  "name": "Vivo X500 Pro",
+  "brandId": "vivo",
+  "categoryId": "smartphone",
+  "series": "X500 Pro",
+  "order": 11,
+  "releaseYear": "2026",
+  "art": "phone-island",
+  "photo": "/images/toestellen/vivo-x500-pro/photo.jpeg",
+  "popular": false,
+  "aliases": [],
+  "prices": [
+    {
+      "label": "Scherm vervangen (origineel Vivo service pack, zoals Vivo vereist)",
+      "price": "Prijs op aanvraag",
+      "repairId": "auto",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen (origineel Vivo service pack, zoals Vivo vereist)",
+      "price": "Prijs op aanvraag",
+      "repairId": "auto",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen (origineel Vivo service pack, zoals Vivo vereist)",
+      "price": "Prijs op aanvraag",
+      "repairId": "auto",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Oplaadpoort vervangen (origineel Vivo service pack, zoals Vivo vereist)",
+      "price": "Prijs op aanvraag",
+      "repairId": "auto",
+      "popular": false,
+      "links": []
+    },
+    {
+      "label": "Andere reparaties ",
+      "price": "Prijs op aanvraag",
+      "repairId": "auto",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "seo": {
+    "title": "Vivo X500 Pro reparatie Den Bosch",
+    "description": "Vivo X500 Pro reparatie, snel en vakkundig, originele onderdelen, 12 maanden gar, klaar terwijl u meekijkt. "
+  }
+}
