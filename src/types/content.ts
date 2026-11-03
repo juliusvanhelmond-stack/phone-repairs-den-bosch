@@ -95,6 +95,8 @@ export const deviceModelSchema = z.object({
   art: deviceArtSchema,
   /** Own photo of the model, uploaded by the shop in the CMS (public path); otherwise the example photo of the type. */
   photo: z.string().startsWith("/").optional(),
+  /** Set when `photo` is an official product photo from Open Icecat (licence: attribution required, unedited). */
+  photoCredit: z.literal("icecat").optional(),
   popular: z.boolean().default(false),
   aliases: z.array(z.string()).default([]),
   /** Overrides the category default set of repairs. */

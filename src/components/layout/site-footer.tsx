@@ -1,7 +1,7 @@
 import { Link } from "@/components/i18n/link";
 import { Mail, MapPin, MessageCircle, Phone, Star } from "lucide-react";
 import { Logo } from "@/components/layout/logo";
-import { blogPath, brandEntries, getBlogPost, landingPages, localizeLanding, localizeRepair, repairPath, repairs } from "@/lib/catalog";
+import { blogPath, brandEntries, devices, getBlogPost, landingPages, localizeLanding, localizeRepair, repairPath, repairs } from "@/lib/catalog";
 import { getI18n } from "@/lib/i18n-server";
 import { fullAddress, mapsUrl, site, whatsappHref, whatsappMessage } from "@/lib/site";
 
@@ -160,6 +160,25 @@ export async function SiteFooter() {
             </a>
             {t(" accepteert.", ".")}
           </p>
+          {/* Open Icecat licence (Open Content License): copyright notice, warranty disclaimer and a copy of the licence. */}
+          {devices.some((d) => d.photoCredit === "icecat") && (
+            <p className="text-xs">
+              {t("Officiële productfoto's", "Official product photos")}: Database Right data-sheet {process.env.BUILD_YEAR} Icecat. All
+              rights reserved.{" "}
+              {t(
+                'De productfoto\'s van Open Icecat worden geleverd zoals ze zijn ("as is"), zonder enige garantie. ',
+                'Open Icecat product photos are provided "as is", without warranty of any kind. ',
+              )}
+              <a
+                href={site.legal.icecatLicense}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline underline-offset-4 hover:text-accent-light"
+              >
+                {t("Open Icecat-licentie", "Open Icecat licence")}
+              </a>
+            </p>
+          )}
         </div>
       </div>
     </footer>

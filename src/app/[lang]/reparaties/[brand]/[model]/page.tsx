@@ -137,6 +137,12 @@ export default async function DevicePage({ params }: PageProps<"/[lang]/reparati
                 artClassName={cn("relative h-full w-auto", wide ? "max-w-[82%]" : medium ? "max-w-[48%]" : "max-w-[34%]")}
               />
             </div>
+            {/* Open Icecat licence: copyright notice on each page with the photo; full text in the footer. */}
+            {device.photoCredit === "icecat" && (
+              <figcaption className="absolute right-3 bottom-2 text-[0.6875rem] text-muted">
+                {t("Productfoto: Icecat", "Product photo: Icecat")}
+              </figcaption>
+            )}
           </figure>
         }
       >

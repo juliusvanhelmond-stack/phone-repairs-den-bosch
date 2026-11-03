@@ -163,7 +163,7 @@ export const generalWarranty = warranties.find((w) => w.id === "algemeen");
 /** Lightweight shape sent to the client-side device finder. */
 export type FinderDevice = Pick<
   DeviceModel,
-  "id" | "slug" | "name" | "brandId" | "categoryId" | "series" | "releaseYear" | "art" | "photo" | "aliases"
+  "id" | "slug" | "name" | "brandId" | "categoryId" | "series" | "releaseYear" | "art" | "photo" | "photoCredit" | "aliases"
 > & {
   repairs: string[];
   /** Lowest published price per repair category. */
@@ -192,6 +192,7 @@ export function finderIndex(): FinderDevice[] {
       releaseYear: d.releaseYear,
       art: d.art,
       ...(d.photo ? { photo: d.photo } : {}),
+      ...(d.photoCredit ? { photoCredit: d.photoCredit } : {}),
       aliases: d.aliases,
       repairs: deviceRepairs,
       prices: verified,
