@@ -101,6 +101,13 @@
           "href": "/waterschade-reparatie-phone-repairs"
         }
       ]
+    },
+    {
+      "label": "Scherm buitendisplay origineel vervangen",
+      "price": "Prijs op aanvraag ",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
     }
   ],
   "seo": {
