@@ -4,7 +4,6 @@
   "categoryId": "smartphone",
   "series": "Galaxy Z Flip",
   "order": 16500,
-  "releaseYear": "",
   "art": "phone-flip",
   "photo": "/images/toestellen/galaxy-z-flip-3-5g/photo.jpg",
   "popular": false,
@@ -13,13 +12,9 @@
     "Samsung Galaxy Z Flip 3 5G (SM-F711B)",
     "SM-F711B"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung Z Flip 3 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden gar., klaar terwijl u meekijkt."
-  },
   "prices": [
     {
-      "label": "Samsung Galaxy Z Flip 3 scherm, OLED, frame / zijkanten en scharnier vervangen (origineel Samsung service pack, zoals Samsung vereist) vervangen",
+      "label": "Scherm binnendisplay, frame en scharnier origineel vervangen",
       "price": "€365,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -136,6 +131,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung Z Flip 3 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden gar., klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-z-flip-3/"
   ],
