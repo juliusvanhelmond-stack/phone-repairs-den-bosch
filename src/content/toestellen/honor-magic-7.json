@@ -4,18 +4,13 @@
   "categoryId": "smartphone",
   "series": "Honor Magic",
   "order": 26700,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/honor-magic-7/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "Honor Magic 7 reparatie snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt. Officiële BTW factuur"
-  },
   "prices": [
     {
-      "label": "Scherm, LCD, frame en vingerafdruklezer vervangen",
+      "label": "Scherm origineel vervangen",
       "price": "op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -99,6 +94,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Honor Magic 7 reparatie snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt. Officiële BTW factuur"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/honor-reparatie/honor-magic-7/"
   ],
