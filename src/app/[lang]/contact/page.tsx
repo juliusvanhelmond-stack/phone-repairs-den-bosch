@@ -41,6 +41,15 @@ export default async function ContactPage() {
             <h2 className="text-title font-semibold text-ink">{site.legalName}</h2>
             <ContactDetails className="mt-4" />
             <ReviewsLink className="mt-4 flex w-fit" />
+            {/* Company details (client request 2026-11-03). */}
+            <dl className="mt-6 grid grid-cols-[auto_1fr] gap-x-6 gap-y-1.5 border-t border-line pt-5 text-sm">
+              <dt className="text-muted">{t("KvK", "Chamber of Commerce")}</dt>
+              <dd className="text-ink tabular-nums">{site.company.kvk}</dd>
+              <dt className="text-muted">{t("Btw-id", "VAT ID")}</dt>
+              <dd className="text-ink tabular-nums">{site.company.vat}</dd>
+              <dt className="text-muted">IBAN</dt>
+              <dd className="text-ink tabular-nums">{site.company.iban}</dd>
+            </dl>
           </div>
           <MapEmbed title={t("Phone Repairs op Google Maps", "Phone Repairs on Google Maps")} className="min-h-80" />
         </div>

@@ -117,7 +117,8 @@ export function SiteHeaderClient({ nav, phone, whatsapp, email }: Props) {
         <div className="flex items-center gap-2">
           <a
             href={phone.href}
-            className="hidden h-10 items-center gap-2 rounded-full px-3 text-[0.9375rem] whitespace-nowrap text-ink-soft transition-colors hover:text-accent-strong xl:flex"
+            // Green on hover, the opposite of the WhatsApp button next to it (client request 2026-11-03).
+            className="hidden h-10 items-center gap-2 rounded-full px-3 text-[0.9375rem] whitespace-nowrap text-ink-soft transition-colors hover:bg-accent hover:text-white xl:flex"
           >
             <Phone className="size-4" aria-hidden />
             {phone.display}

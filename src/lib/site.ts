@@ -20,6 +20,12 @@ const DAYS = [
 export const site = {
   name: "Phone Repairs",
   legalName: "Phone Repairs Den Bosch",
+  /** Company details for the contact page, as given by the owner (mail 2026-11-03). */
+  company: {
+    kvk: "54963303",
+    vat: "NL001876581B96",
+    iban: "NL91 RABO 0136 8803 55",
+  },
   tagline: "Telefoon, tablet en MacBook reparatie in Den Bosch",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.phonerepairs.nl",
   phone: {
