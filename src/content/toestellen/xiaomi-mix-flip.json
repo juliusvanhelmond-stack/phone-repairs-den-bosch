@@ -4,7 +4,6 @@
   "categoryId": "smartphone",
   "series": "Xiaomi",
   "order": 36500,
-  "releaseYear": "",
   "art": "phone-flip",
   "photo": "/images/toestellen/xiaomi-mix-flip/photo.jpg",
   "popular": false,
@@ -12,13 +11,9 @@
     "Xiaomi Mix Flip (2405CPX3DC)",
     "2405CPX3DC"
   ],
-  "seo": {
-    "title": "",
-    "description": "Xiaomi Mix Flip reparatie Nederland. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
-  },
   "prices": [
     {
-      "label": "Scherm, OLED,frame / zijkanten en scharnier vervangen (origineel Xiaomi service pack, zoals Xiaomi vereist) vervangen",
+      "label": "Scherm binnendisplay, frame en scharnier origineel vervangen",
       "price": "€650,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -81,6 +76,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Xiaomi Mix Flip reparatie Nederland. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-mix-flip/"
   ],
