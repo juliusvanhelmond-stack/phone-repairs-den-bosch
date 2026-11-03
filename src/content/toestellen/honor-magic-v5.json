@@ -10,14 +10,14 @@
   "aliases": [],
   "prices": [
     {
-      "label": "Scherm (voorkant), OLED (origineel Honor service pack, zoals Honor vereist) vervangen",
+      "label": "Scherm buitendisplay origineel vervangen",
       "price": "€325,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
     },
     {
-      "label": "Scherm (groot) OLED, frame en scharnier (origineel Honor service pack, zoals Honor vereist) vervangen",
+      "label": "Scherm binnendisplay origineel vervangen",
       "price": "€1100,-",
       "repairId": "scherm-vervangen",
       "popular": false,
