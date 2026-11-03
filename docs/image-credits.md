@@ -34,6 +34,7 @@ pages carried the caption "Afbeelding ter illustratie" until the client asked to
 | ipad-home.jpg | iPads with a home button | 117830271 |
 | galaxy-tab.jpg | Samsung Galaxy Tab | 177650219 |
 | macbook.jpg | MacBook Air and MacBook Pro | 287523136 |
+| category-phone.jpg | The "Telefoons" tile in the device finder | Supplied by the client (2026-11-03), made by them with ChatGPT; not Adobe Stock |
 
 ## Site icons
 

@@ -6,6 +6,7 @@ import type { DeviceModel } from "@/types/content";
 import { useI18n } from "@/components/i18n/locale-provider";
 import { cn } from "@/lib/utils";
 import android from "@/assets/devices/android.jpg";
+import categoryPhone from "@/assets/devices/category-phone.jpg";
 import galaxyTab from "@/assets/devices/galaxy-tab.jpg";
 import ipad from "@/assets/devices/ipad.jpg";
 import ipadHome from "@/assets/devices/ipad-home.jpg";
@@ -59,8 +60,9 @@ export function devicePhotoKey(device: PhotoDevice): DevicePhotoKey | null {
   }
 }
 
+/** Photo of a device category in the finder; the phone tile uses the client's own visual (2026-11-03). */
 export function categoryPhoto(categoryId: string): StaticImageData {
-  return categoryId === "laptop" ? macbook : categoryId === "tablet" ? ipad : iphone;
+  return categoryId === "laptop" ? macbook : categoryId === "tablet" ? ipad : categoryId === "smartphone" ? categoryPhone : iphone;
 }
 
 /** Photo of the device type on white; falls back to the SVG render when there is no photo. */
