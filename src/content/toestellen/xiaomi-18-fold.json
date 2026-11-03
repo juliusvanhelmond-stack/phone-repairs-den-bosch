@@ -10,21 +10,21 @@
   "aliases": [],
   "prices": [
     {
-      "label": "(voorkant), OLED (origineel Xiaomi service pack, zoals Xiaomi vereist) vervangen",
+      "label": "Scherm buitendisplay origineel vervangen",
       "price": "op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
     },
     {
-      "label": "Samsung Galaxy Z Fold 8 scherm (groot) OLED, frame en scharnier (origineel Xiaomi service pack, zoals Xiaomi vereist) vervangen",
+      "label": "Scherm binnendisplay, frame en scharnier origineel vervangen",
       "price": "op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
     },
     {
-      "label": "Xiaomi 18 Foldachterkant (incl. camera lenzen) vervangen",
+      "label": "Achterkanf (incl. camera lenzen) vervangen",
       "price": "op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
