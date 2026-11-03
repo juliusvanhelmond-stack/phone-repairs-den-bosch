@@ -1,9 +1,12 @@
 {
   "question": "Mijn batterij is slecht. Kan ik de batterij later vervangen?",
-  "answer": "Ja, wij kunnen binnen 30 minuten de versleten batterij vervangen, zodat je toestel weer een langere gebruiksduur heeft en jij weer de dag door kunt komen met je telefoon. De batterij van je toestel is aan vervanging toe als de capaciteit 80% of lager is. Je kunt de capaciteit uitlezen zien via instellingen - batterij.",
+  "answer": "Ja, wij kunnen binnen 30 minuten de versleten batterij vervangen, zodat je toestel weer een langere gebruiksduur heeft en jij weer de dag door kunt komen met je telefoon. De batterij van je toestel is aan vervanging toe als de capaciteit 80% of lager is. Je kunt de capaciteit uitlezen via instellingen - batterij.",
   "order": 50,
   "repairIds": [
-    "batterij-vervangen"
+    "batterij-vervangen",
+    "oplaadpoort-repareren",
+    "achterkant-vervangen",
+    "scherm-vervangen"
   ],
   "topics": [
     "reparaties"

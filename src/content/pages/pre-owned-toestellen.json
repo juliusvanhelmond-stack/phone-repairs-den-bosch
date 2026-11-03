@@ -17,12 +17,13 @@
       "intro": [],
       "bullets": [
         "Batterijconditie tussen 85% en 98%",
-        "Geleverd met originele lader en kabel"
+        "Geleverd met originele kabel",
+        "Kies voor een gloednieuwe batterij in je pre-owned toestel! Dit kan al tegen een kleine meerprijs. Vraag ons gerust naar de mogelijkheden."
       ],
       "steps": [],
       "prices": [],
       "body": [
-        "Elk toestel wordt op tientallen punten getest, waaronder de batterij, het scherm en de camera's."
+        "Elk toestel wordt op tientallen punten getest, waaronder de batterij, oplaadpoort, knoppen, het scherm en de camera's."
       ],
       "image": {}
     },
@@ -33,7 +34,7 @@
       "steps": [],
       "prices": [],
       "body": [
-        "Het aanbod wisselt steeds. Bel of mail om te horen welke toestellen er nu beschikbaar zijn."
+        "Het aanbod wisselt steeds. Bel of WhatsApp of mail om te horen welke toestellen er op dit moment beschikbaar zijn."
       ],
       "image": {}
     },
@@ -44,12 +45,12 @@
       "steps": [],
       "prices": [
         {
-          "label": "Google Pixel 9 Pro Fold 256GB zwart",
-          "price": "€750"
+          "label": "Samsung Z Fold 8 256GB zwart",
+          "price": "€1250"
         },
         {
-          "label": "Samsung Z Fold 8 256 GB zwart",
-          "price": "€1250"
+          "label": "Google Pixel 9 Pro Fold 256GB zwart",
+          "price": "€750"
         }
       ],
       "body": [],
