@@ -4,18 +4,13 @@
   "categoryId": "smartphone",
   "series": "Honor Magic",
   "order": 26600,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/honor-magic-7-pro/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "Honor Magic 7 Pro reparatie snel en vakkundig, originele onderdelen, 12 maanden gar. klaar terwijl u meekijkt. Officiële BTW factuur"
-  },
   "prices": [
     {
-      "label": "Scherm, Dynamic AMOLED, frame / zijkanten en ultrasonic vingerafdruklezer vervangen (origineel Honor service pack, zoals Honor vereist)",
+      "label": "Scherm origineel vervangen ",
       "price": "€375,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -71,6 +66,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Honor Magic 7 Pro reparatie snel en vakkundig, originele onderdelen, 12 maanden gar. klaar terwijl u meekijkt. Officiële BTW factuur"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/honor-reparatie/honor-magic-7-pro/"
   ],
