@@ -5,7 +5,7 @@ import { fromPrice, getBrand, getPriceList, repairPath } from "@/lib/catalog";
 import { site, whatsappHref, whatsappMessage } from "@/lib/site";
 import { getI18n } from "@/lib/i18n-server";
 import type { Translate } from "@/lib/i18n";
-import { formatEuro, priceRowNote } from "@/lib/utils";
+import { formatEuro, priceRowDisplay, priceRowNote } from "@/lib/utils";
 import type { DeviceModel, PriceRow, RepairService } from "@/types/content";
 
 function priceText(row: PriceRow, t: Translate, locale: "nl" | "en") {
@@ -107,10 +107,12 @@ function PriceRows({ rows, t, locale }: { rows: PriceRow[]; t: Translate; locale
     <ul className="divide-y divide-line">
       {rows.map((row, i) => {
         const note = priceRowNote(row);
+        const shown = priceRowDisplay(row.label);
         return (
           <li key={`${row.label}-${i}`} className="flex items-baseline justify-between gap-6 px-5 py-3 text-[0.9375rem] sm:px-6">
             <span className="text-ink-soft" lang="nl">
-              <RowLabel row={row} />
+              <RowLabel row={{ ...row, label: shown.label }} />
+              {shown.original && <OriginalBadge label={t("Origineel", "Original")} />}
               {row.popular && (
                 <span className="ml-2 inline-flex translate-y-[-1px] items-center rounded-md bg-accent px-2 py-0.5 align-middle text-xs font-semibold text-white">
                   {t("Meest gekozen", "Most chosen")}
@@ -125,6 +127,15 @@ function PriceRows({ rows, t, locale }: { rows: PriceRow[]; t: Translate; locale
         );
       })}
     </ul>
+  );
+}
+
+/** "Origineel" next to rows with original parts (client request 2026-11-03), like "Meest gekozen". */
+export function OriginalBadge({ label }: { label: string }) {
+  return (
+    <span className="ml-2 inline-flex translate-y-[-1px] items-center rounded-md bg-accent-strong px-2 py-0.5 align-middle text-xs font-semibold text-white">
+      {label}
+    </span>
   );
 }
 

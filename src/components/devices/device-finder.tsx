@@ -595,7 +595,7 @@ function ModelSearch({
   );
 }
 
-type PriceOption = { repairId: string; label: string; amount: number | null; status: string; popular: boolean };
+type PriceOption = { repairId: string; label: string; amount: number | null; status: string; popular: boolean; original?: boolean };
 
 /** Price rows per device, fetched once from the prerendered /api/prijzen/[device]. */
 const priceCache = new Map<string, Promise<PriceOption[]>>();
@@ -728,6 +728,11 @@ function FinderResult({
                   />
                   <span className="flex-1 text-[0.9375rem] text-ink-soft" lang="nl">
                     {r.label}
+                    {r.original && (
+                      <span className="ml-2 inline-flex translate-y-[-1px] items-center rounded-md bg-accent-strong px-2 py-0.5 align-middle text-xs font-semibold text-white">
+                        {t("Origineel", "Original")}
+                      </span>
+                    )}
                     {r.popular && (
                       <span className="ml-2 inline-flex translate-y-[-1px] items-center rounded-md bg-accent px-2 py-0.5 align-middle text-xs font-semibold text-white">
                         {t("Meest gekozen", "Most chosen")}

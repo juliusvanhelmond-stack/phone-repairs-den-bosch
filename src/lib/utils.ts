@@ -49,3 +49,15 @@ export function priceRowNote(row: { label: string; repairId: string | null }): {
   }
   return null;
 }
+
+/**
+ * Price row label as shown on the site (client request 2026-11-03): rows that mention "origineel"
+ * get an "Origineel" badge, and the brand's service pack note in brackets ("(origineel Samsung
+ * service pack, zoals Samsung vereist)") is left out of the text. The CMS keeps the full label.
+ */
+export function priceRowDisplay(label: string): { label: string; original: boolean } {
+  return {
+    label: label.replace(/\s*\(origineel [^()]*service pack, zoals [^()]*vereist\)/gi, "").trim(),
+    original: /\borigine(el|le)\b/i.test(label),
+  };
+}
