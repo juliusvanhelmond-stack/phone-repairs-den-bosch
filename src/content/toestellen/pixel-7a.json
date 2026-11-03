@@ -4,7 +4,6 @@
   "categoryId": "smartphone",
   "series": "Pixel 7",
   "order": 20100,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/pixel-7a/photo.jpg",
   "popular": false,
@@ -16,13 +15,9 @@
     "G0DZQ",
     "G82U8"
   ],
-  "seo": {
-    "title": "",
-    "description": "Google Pixel 7a reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl meekijkt."
-  },
   "prices": [
     {
-      "label": "Scherm, P-OLED, front frame en vingerprint scanner vervangen",
+      "label": "Scherm origineel vervangen",
       "price": "€195,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -71,6 +66,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Google Pixel 7a reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/google-pixel-reparatie/google-pixel-7a/"
   ],
