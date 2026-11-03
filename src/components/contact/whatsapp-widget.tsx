@@ -155,10 +155,18 @@ export function WhatsAppWidget() {
           setOpen(true);
           requestAnimationFrame(() => ctaRef.current?.focus());
         }}
-        className="pointer-events-auto relative hidden size-14 place-items-center rounded-full bg-accent md:grid text-white shadow-[var(--shadow-lift)] ring-4 ring-white/70 transition-[transform,background-color] hover:scale-105 hover:bg-accent-strong motion-reduce:transition-none motion-reduce:hover:scale-100"
+        className="group pointer-events-auto hidden items-center gap-3 md:flex"
       >
-        {open ? <X className="size-6" aria-hidden /> : <MessageCircle className="size-7" aria-hidden />}
-        <WhatsAppNotifyDot className="-top-1 -right-1" />
+        {/* "Hulp nodig?" left of the balloon (client request 2026-11-03); hidden while the window is open. */}
+        {!open && (
+          <span className="rounded-full bg-surface px-4 py-2 text-sm font-semibold text-ink shadow-[var(--shadow-lift)] ring-1 ring-line transition-colors group-hover:text-accent-strong">
+            {t("Hulp nodig?", "Need help?")}
+          </span>
+        )}
+        <span className="relative grid size-14 place-items-center rounded-full bg-accent text-white shadow-[var(--shadow-lift)] ring-4 ring-white/70 transition-[transform,background-color] group-hover:scale-105 group-hover:bg-accent-strong motion-reduce:transition-none motion-reduce:group-hover:scale-100">
+          {open ? <X className="size-6" aria-hidden /> : <MessageCircle className="size-7" aria-hidden />}
+          <WhatsAppNotifyDot className="-top-1 -right-1" />
+        </span>
       </button>
     </div>
   );

@@ -13,9 +13,13 @@ import {
   repairs,
 } from "@/lib/catalog";
 import type { Locale } from "@/lib/i18n";
+import { site } from "@/lib/site";
 
-/** "Overig" in the header (client request 2026-10-31): the extra pages, in the client's order and wording. */
-const moreLinks: { label: string; page?: string; blog?: string; href?: string }[] = [
+/**
+ * "Overig" in the header (client request 2026-10-31): the extra pages in the client's wording, shown from
+ * the longest to the shortest name (client request 2026-11-03).
+ */
+const moreLinks: { label: string; labelEn?: string; page?: string; blog?: string; href?: string; external?: boolean }[] = [
   { label: "Hydrogel screenprotector", blog: "flexible-hydrogel-screen-protectors" },
   { label: "Waterschade reparatie", page: "waterschade-reparatie-phone-repairs" },
   { label: "Telefoon- en tablethulp", page: "telefoon-en-tablet-hulp" },
@@ -28,6 +32,8 @@ const moreLinks: { label: string; page?: string; blog?: string; href?: string }[
   { label: "Data recovery", page: "data-recovery" },
   { label: "Klantenservice", page: "klantenservice-phone-repairs" },
   { label: "Blog", href: "/blog-post" },
+  // The shop's Trade-in partner link with its referral code (client request 2026-11-03), kept exactly.
+  { label: "Toestel verkopen?", labelEn: "Sell your device?", href: site.partners.tradeIn, external: true },
 ];
 
 export const mainNav = [
@@ -67,11 +73,13 @@ export function getNavData(locale: Locale) {
       .map((r) => localizeRepair(r, locale))
       .map((r) => ({ name: r.name, summary: r.summary, href: repairPath(r.slug), icon: r.icon })),
     // Pages deleted in the CMS drop out; English uses the page's translated title.
-    more: moreLinks.flatMap((l) => {
-      if (l.href) return [{ label: locale === "en" && l.href === "/blog-post" ? "Blog" : l.label, href: l.href }];
-      if (l.blog) return getBlogPost(l.blog) ? [{ label: locale === "en" ? "Hydrogel screen protector" : l.label, href: blogPath(l.blog) }] : [];
-      const page = landingPages.find((p) => p.id === l.page);
-      return page ? [{ label: locale === "en" ? localizeLanding(page, locale).title : l.label, href: page.path }] : [];
-    }),
+    more: moreLinks
+      .flatMap((l): { label: string; href: string; external?: boolean }[] => {
+        if (l.href) return [{ label: locale === "en" && l.labelEn ? l.labelEn : l.label, href: l.href, ...(l.external ? { external: true } : {}) }];
+        if (l.blog) return getBlogPost(l.blog) ? [{ label: locale === "en" ? "Hydrogel screen protector" : l.label, href: blogPath(l.blog) }] : [];
+        const page = landingPages.find((p) => p.id === l.page);
+        return page ? [{ label: locale === "en" ? localizeLanding(page, locale).title : l.label, href: page.path }] : [];
+      })
+      .sort((a, b) => b.label.length - a.label.length),
   };
 }

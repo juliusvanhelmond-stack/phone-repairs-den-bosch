@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { Fragment, useEffect, useState } from "react";
 import { Dialog, NavigationMenu, VisuallyHidden } from "radix-ui";
 import Image from "next/image";
-import { ArrowRight, ChevronDown, Mail, Menu, MessageCircle, Phone, Search, X } from "lucide-react";
+import { ArrowRight, ArrowUpRight, ChevronDown, Mail, Menu, MessageCircle, Phone, Search, X } from "lucide-react";
 import { Logo } from "@/components/layout/logo";
 import type { NavData } from "@/components/layout/nav-data";
 import { mainNav } from "@/components/layout/nav-data";
@@ -162,12 +162,14 @@ function MoreDropdown({ items }: { items: NavData["more"] }) {
             <li key={l.href}>
               <Link
                 href={l.href}
+                // Partner links (Trade-in) open in a new tab.
+                {...(l.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                 // Drop focus so the dropdown closes after navigating.
                 onClick={(e) => e.currentTarget.blur()}
                 className="flex items-center justify-between gap-3 rounded-xl px-3.5 py-2.5 text-[0.9375rem] text-ink transition-colors hover:bg-accent hover:text-white focus-visible:bg-accent focus-visible:text-white"
               >
                 {l.label}
-                <ArrowRight className="size-4 shrink-0" aria-hidden />
+                {l.external ? <ArrowUpRight className="size-4 shrink-0" aria-hidden /> : <ArrowRight className="size-4 shrink-0" aria-hidden />}
               </Link>
             </li>
           ))}
@@ -177,16 +179,17 @@ function MoreDropdown({ items }: { items: NavData["more"] }) {
   );
 }
 
-function MobileSubLinks({ links, onNavigate }: { links: { label: string; href: string }[]; onNavigate: () => void }) {
+function MobileSubLinks({ links, onNavigate }: { links: { label: string; href: string; external?: boolean }[]; onNavigate: () => void }) {
   return links.map((l) => (
     <Link
       key={l.href}
       href={l.href}
+      {...(l.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
       onClick={onNavigate}
       className="flex items-center justify-between gap-3 py-2 text-[0.9375rem] text-ink transition-colors hover:text-accent-strong"
     >
       {l.label}
-      <ArrowRight className="size-4 text-muted" aria-hidden />
+      {l.external ? <ArrowUpRight className="size-4 text-muted" aria-hidden /> : <ArrowRight className="size-4 text-muted" aria-hidden />}
     </Link>
   ));
 }
