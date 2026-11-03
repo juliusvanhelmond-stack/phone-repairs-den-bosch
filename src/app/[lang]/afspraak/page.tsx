@@ -80,14 +80,14 @@ export default async function AppointmentPage() {
               <ol className="mt-6 space-y-2">
                 {wa && (
                   <li>
-                    <a href={wa} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 rounded-2xl bg-accent px-4 py-3 font-medium transition-colors hover:bg-accent-strong">
+                    <a href={wa} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 rounded-2xl bg-accent px-4 py-3 font-medium transition-colors hover:bg-white hover:text-accent">
                       <MessageCircle className="size-4" aria-hidden />
                       WhatsApp {site.whatsapp?.display}
                     </a>
                   </li>
                 )}
                 <li>
-                  <a href={site.phone.href} className="flex items-center gap-3 rounded-2xl bg-white/10 px-4 py-3 transition-colors hover:bg-white/15">
+                  <a href={site.phone.href} className="flex items-center gap-3 rounded-2xl bg-white/10 px-4 py-3 transition-colors hover:bg-accent">
                     <Phone className="size-4 text-accent-light" aria-hidden />
                     {t("Bel", "Call")} {site.phone.display}
                   </a>

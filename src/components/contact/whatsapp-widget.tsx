@@ -124,7 +124,7 @@ export function WhatsAppWidget() {
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => close(false)}
-              className="inline-flex h-13 items-center gap-3 rounded-full bg-accent pr-4 pl-6 font-semibold text-white transition-colors hover:bg-accent-strong"
+              className="inline-flex h-13 items-center gap-3 rounded-full bg-accent pr-4 pl-6 font-semibold text-white transition-colors hover:bg-white hover:text-accent hover:ring-1 hover:ring-accent hover:ring-inset"
             >
               Open WhatsApp
               <MessageCircle className="size-6" aria-hidden />

@@ -70,7 +70,7 @@ export async function RepairPriceList({ device, repairs }: { device: DeviceModel
               <a
                 href={wa ?? site.phone.href}
                 {...(wa ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-                className="inline-flex h-10 shrink-0 items-center gap-1.5 rounded-full bg-accent px-4 text-sm font-medium text-white transition-colors hover:bg-accent-strong"
+                className="inline-flex h-10 shrink-0 items-center gap-1.5 rounded-full bg-accent px-4 text-sm font-medium text-white transition-colors hover:bg-white hover:text-accent hover:ring-1 hover:ring-accent hover:ring-inset"
                 aria-label={t(
                   `Afspraak maken voor ${r.name.toLowerCase()} van je ${name} via ${wa ? "WhatsApp" : "telefoon"}`,
                   `Make an appointment for ${r.name.toLowerCase()} of your ${name} via ${wa ? "WhatsApp" : "phone"}`,

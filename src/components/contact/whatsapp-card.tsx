@@ -32,7 +32,7 @@ export async function WhatsAppCard({
           <a
             href={site.phone.href}
             // Hidden on mobile: the pinned bar already has a call button.
-            className="hidden h-12 items-center justify-center gap-2 rounded-full px-5 font-medium text-ink ring-1 ring-line-strong transition-colors ring-inset hover:bg-surface md:inline-flex"
+            className="hidden h-12 items-center justify-center gap-2 rounded-full px-5 font-medium text-ink ring-1 ring-line-strong transition-colors ring-inset hover:bg-accent hover:text-white hover:ring-accent md:inline-flex"
           >
             <Phone className="size-4" aria-hidden />
             {t("Bel", "Call")} {site.phone.display}
@@ -41,7 +41,7 @@ export async function WhatsAppCard({
             href={href}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-12 items-center justify-center gap-3 rounded-full bg-accent pr-4 pl-6 font-semibold text-white transition-colors hover:bg-accent-strong"
+            className="inline-flex h-12 items-center justify-center gap-3 rounded-full bg-accent pr-4 pl-6 font-semibold text-white transition-colors hover:bg-white hover:text-accent hover:ring-1 hover:ring-accent hover:ring-inset"
           >
             Open WhatsApp
             <MessageCircle className="size-5" aria-hidden />
