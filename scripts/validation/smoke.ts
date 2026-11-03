@@ -292,7 +292,7 @@ async function main() {
     await finder.getByRole("button", { name: "Terug", exact: true }).click();
     await finder.getByRole("heading", { name: /Wat is er mis met je iPhone 15 Pro Max/ }).waitFor();
     await finder.getByRole("navigation", { name: "Jouw keuze" }).getByRole("button", { name: "Telefoons" }).click();
-    await finder.getByRole("heading", { name: /Welk merk smartphone/ }).waitFor();
+    await finder.getByRole("heading", { name: /Welk merk telefoon/ }).waitFor();
   });
 
   await check("device finder: completed steps are clickable", async () => {
