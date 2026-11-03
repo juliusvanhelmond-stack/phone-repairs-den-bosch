@@ -577,7 +577,13 @@ function ModelSearch({
                   className="group flex cursor-pointer items-center gap-4 rounded-xl px-3 py-1.5 data-[selected=true]:bg-mist"
                 >
                   <span className="grid h-11 w-9 shrink-0 place-items-center">
-                    <DeviceArt art={d.art} className={d.art === "laptop" ? "w-9" : d.art.startsWith("tablet") || d.art === "phone-foldable" ? "w-7" : "w-[1.15rem]"} />
+                    {d.photo && LIST_PHOTO_BRANDS.has(d.brandId) ? (
+                      <span className="tone-light relative block h-11 w-9 overflow-hidden rounded-md bg-white">
+                        <Image src={d.photo} alt="" fill sizes="36px" className="object-contain p-0.5" />
+                      </span>
+                    ) : (
+                      <DeviceArt art={d.art} className={d.art === "laptop" ? "w-9" : d.art.startsWith("tablet") || d.art === "phone-foldable" ? "w-7" : "w-[1.15rem]"} />
+                    )}
                   </span>
                   <span className="flex-1">
                     <span className="block text-[0.9375rem] text-ink">
@@ -594,6 +600,12 @@ function ModelSearch({
     </Command>
   );
 }
+
+/**
+ * Brands whose model photos the shop has checked: their models show the photo in the model list instead of
+ * the small icon (client request 2026-11-03: all Apple photos are right). Add a brand once its photos are.
+ */
+const LIST_PHOTO_BRANDS = new Set(["apple"]);
 
 type PriceOption = { repairId: string; label: string; amount: number | null; status: string; popular: boolean; original?: boolean };
 

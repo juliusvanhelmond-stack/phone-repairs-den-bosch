@@ -1,5 +1,5 @@
 import { devices, getPriceList } from "@/lib/catalog";
-import { priceRowDisplay } from "@/lib/utils";
+import { priceRowsDisplay } from "@/lib/utils";
 
 /**
  * Price rows of one device, for the device finder's part options (client request 2026-10-19:
@@ -24,8 +24,8 @@ export async function GET(_request: Request, { params }: { params: Promise<{ dev
   const { device } = await params;
   const list = getPriceList(device);
   if (!list) return Response.json([], { status: 404 });
-  const rows: FinderPriceRow[] = list.rows.flatMap((r) =>
-    r.repairId ? [{ repairId: r.repairId, ...priceRowDisplay(r.label), amount: r.amount, status: r.status, popular: !!r.popular }] : [],
+  const rows: FinderPriceRow[] = priceRowsDisplay(list.rows).flatMap((r) =>
+    r.repairId ? [{ repairId: r.repairId, label: r.label, original: r.original, amount: r.amount, status: r.status, popular: !!r.popular }] : [],
   );
   return Response.json(rows);
 }

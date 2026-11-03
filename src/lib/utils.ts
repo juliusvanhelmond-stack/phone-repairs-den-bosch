@@ -56,16 +56,34 @@ export function priceRowNote(row: { label: string; repairId: string | null }): {
  * service pack, zoals Samsung vereist)") is left out of the text; screen rows named after the panel
  * ("Scherm, AMOLED vervangen", "Touchscreen / LCD") read "Scherm vervangen". The CMS keeps the full label.
  */
-// Screen rows named after the panel type are shown as "Scherm vervangen" (client request 2026-11-03).
-const SCREEN_LABEL =
-  /^(Scherm, (AMOLED|LCD|OLED) vervangen|Scherm \(glas\) en LCD( \d+(\.\d+)?)? inch vervangen|Scherm \(glas\) en LCD vervangen|Touchscreen \/ LCD( vervangen)?|Touchscreen \/ OLED vervangen)/i;
+// Screen rows named after the panel type are shown as "Scherm vervangen" (client requests 2026-11-03).
+const SCREEN_LABEL = new RegExp(
+  "^(Scherm, (AMOLED|LCD|OLED|QHD AMOLED|OLED 4K|(AMOLED|LCD|OLED|QHD AMOLED|Fluid OLED) en frame|" +
+    "Dynamic AMOLED, frame \\/ zijkanten en ultrasonic vingerafdruklezer) vervangen" +
+    "|Scherm \\(glas\\) en LCD( \\d+(\\.\\d+)?)? inch vervangen|Scherm \\(glas\\) en LCD vervangen" +
+    "|Touchscreen \\/ LCD( vervangen)?|Touchscreen \\/ OLED vervangen)( origineel service pack)?",
+  "i",
+);
 
 export function priceRowDisplay(label: string): { label: string; original: boolean } {
   return {
     label: label
       .replace(SCREEN_LABEL, "Scherm vervangen")
-      .replace(/\s*\(origineel [^()]*service pack, zoals [^()]*vereist\)/gi, "")
+      .replace(/\s*\(originee?le? [^()]*service pack, zoals [^()]*vereist\)/gi, "")
       .trim(),
     original: /\borigine(el|le)\b/i.test(label),
   };
+}
+
+/**
+ * priceRowDisplay for all rows of one device. When two rows would both read "Scherm vervangen" (one with
+ * and one without the frame, e.g. Asus ROG Phone 6 Pro), the frame row says "Scherm en frame vervangen".
+ */
+export function priceRowsDisplay<T extends { label: string }>(rows: T[]): (T & { original: boolean })[] {
+  const shown = rows.map((r) => ({ ...r, ...priceRowDisplay(r.label) }));
+  return shown.map((r, i) =>
+    r.label === "Scherm vervangen" && /\bframe\b/i.test(rows[i].label) && shown.some((o, j) => j !== i && o.label === "Scherm vervangen")
+      ? { ...r, label: "Scherm en frame vervangen" }
+      : r,
+  );
 }

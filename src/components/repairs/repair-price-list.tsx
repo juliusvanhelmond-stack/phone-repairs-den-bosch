@@ -5,7 +5,7 @@ import { fromPrice, getBrand, getPriceList, repairPath } from "@/lib/catalog";
 import { site, whatsappHref, whatsappMessage } from "@/lib/site";
 import { getI18n } from "@/lib/i18n-server";
 import type { Translate } from "@/lib/i18n";
-import { formatEuro, priceRowDisplay, priceRowNote } from "@/lib/utils";
+import { formatEuro, priceRowNote, priceRowsDisplay } from "@/lib/utils";
 import type { DeviceModel, PriceRow, RepairService } from "@/types/content";
 
 function priceText(row: PriceRow, t: Translate, locale: "nl" | "en") {
@@ -103,11 +103,12 @@ export async function RepairPriceList({ device, repairs }: { device: DeviceModel
 }
 
 function PriceRows({ rows, t, locale }: { rows: PriceRow[]; t: Translate; locale: "nl" | "en" }) {
+  const shownRows = priceRowsDisplay(rows);
   return (
     <ul className="divide-y divide-line">
       {rows.map((row, i) => {
         const note = priceRowNote(row);
-        const shown = priceRowDisplay(row.label);
+        const shown = shownRows[i];
         return (
           <li key={`${row.label}-${i}`} className="flex items-baseline justify-between gap-6 px-5 py-3 text-[0.9375rem] sm:px-6">
             <span className="text-ink-soft" lang="nl">
