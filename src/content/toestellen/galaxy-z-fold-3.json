@@ -4,7 +4,6 @@
   "categoryId": "smartphone",
   "series": "Galaxy Z Fold",
   "order": 15500,
-  "releaseYear": "",
   "art": "phone-foldable",
   "photo": "/images/toestellen/galaxy-z-fold-3/photo.jpg",
   "popular": false,
@@ -13,10 +12,6 @@
     "Samsung Galaxy Z Fold 3 5G (SM-F926)",
     "SM-F926"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung Galaxy Z Fold 3 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden gar., klaar terwijl u meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm (voorkant), OLED (origineel Samsung service pack, zoals Samsung vereist) vervangen",
@@ -26,7 +21,7 @@
       "links": []
     },
     {
-      "label": "Scherm (groot) OLED, frame en scharnier (origineel Samsung service pack, zoals Samsung vereist) vervangen",
+      "label": "Scherm binnendisplay, frame en scharnier vervangen ",
       "price": "€575,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -157,6 +152,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung Galaxy Z Fold 3 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden gar., klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-z-fold-3/"
   ],
