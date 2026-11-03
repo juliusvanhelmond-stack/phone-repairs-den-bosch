@@ -40,7 +40,9 @@ function legacyRedirects() {
       destination: resolveLegacyTarget(r.targetPath as string, has),
       statusCode: 301 as const,
     }))
-    .filter((r) => r.source !== r.destination);
+    // Redirects run before routing: an old URL the shop gave its own page in the CMS (e.g.
+    // /iphone-reparatie-zaltbommel, 2026-11-03) keeps that page instead of redirecting.
+    .filter((r) => r.source !== r.destination && !(pages && pages.some((p) => p.path === r.source)));
 }
 
 const allowIndexing = process.env.NEXT_PUBLIC_ALLOW_INDEXING === "true";

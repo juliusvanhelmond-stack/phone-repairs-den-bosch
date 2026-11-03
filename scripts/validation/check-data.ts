@@ -134,7 +134,10 @@ else {
     const source = new URL(r.url).pathname.replace(/\/$/, "") || "/";
     if (r.redirect && source === target) fail(`inventory ${r.url}: redirect to itself`);
     // Redirects run before routing, so a redirect from a live path would hide that page.
-    if (r.redirect && staticRoutes.has(source)) fail(`inventory ${r.url}: redirect shadows the live page ${source}`);
+    // A page the shop made in the CMS on an old URL wins: the redirect is skipped (next.config.ts).
+    const cmsPage = landingPages.some((p) => p.path === source);
+    if (r.redirect && cmsPage) warn(`inventory ${r.url}: now a page in the CMS, the old redirect to ${target} is skipped`);
+    else if (r.redirect && staticRoutes.has(source)) fail(`inventory ${r.url}: redirect shadows the live page ${source}`);
   }
 }
 
