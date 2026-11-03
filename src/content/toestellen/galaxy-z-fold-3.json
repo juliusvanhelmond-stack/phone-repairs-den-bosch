@@ -14,14 +14,14 @@
   ],
   "prices": [
     {
-      "label": "Scherm (voorkant), OLED (origineel Samsung service pack, zoals Samsung vereist) vervangen",
+      "label": "Scherm buitendisplay origineel vervangen",
       "price": "€225,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
     },
     {
-      "label": "Scherm binnendisplay, frame en scharnier vervangen ",
+      "label": "Scherm binnendisplay, frame en scharnier origineel vervangen ",
       "price": "€575,-",
       "repairId": "scherm-vervangen",
       "popular": false,
