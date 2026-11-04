@@ -75,7 +75,7 @@ export async function Hero() {
             </li>
             <li className="flex items-center gap-2">
               <BadgeCheck className="size-4 text-accent" aria-hidden />
-              {t("Originele service pack onderdelen", "Original service pack parts")}
+              {t("Originele servicepack-onderdelen", "Original service pack parts")}
             </li>
           </ul>
         </div>

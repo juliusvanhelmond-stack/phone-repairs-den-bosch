@@ -78,8 +78,8 @@ const factsFor = (t: Translate) => [
   },
   {
     icon: BadgeCheck,
-    title: t("Originele onderdelen", "Original parts"),
-    body: t("Gerepareerd met originele onderdelen.", "Repaired with original parts."),
+    title: t("Originele servicepack-onderdelen", "Original service pack parts"),
+    body: t("Gerepareerd met originele servicepack-onderdelen.", "Repaired with original service pack parts."),
   },
   {
     icon: ShieldCheck,
