@@ -4,17 +4,12 @@
   "categoryId": "smartphone",
   "series": "Galaxy A",
   "order": 10800,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/galaxy-a57/photo.jpg",
+  "photo": "/images/toestellen/galaxy-a57/photo.jpeg",
   "popular": false,
   "aliases": [
     "Samsung A57"
   ],
-  "seo": {
-    "title": "Samsung A57 reparatie met Originele Onderdelen",
-    "description": "Heeft u een defect aan uw Samsung A57? Wij bieden deskundige Samsung A57 reparatie met originele onderdelen en snelle service."
-  },
   "prices": [
     {
       "label": "Scherm, LCD en frame vervangen (originele Samsung service pack, zoals Samsung vereist)",
@@ -85,6 +80,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung A57 reparatie met Originele Onderdelen",
+    "description": "Heeft u een defect aan uw Samsung A57? Wij bieden deskundige Samsung A57 reparatie met originele onderdelen en snelle service."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a57/"
   ],
