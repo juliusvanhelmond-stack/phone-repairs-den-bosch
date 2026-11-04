@@ -3,8 +3,8 @@
   "path": "/moederbord-reparatie-den-bosch",
   "kind": "service",
   "title": "Moederbord reparaties Den Bosch",
-  "eyebrow": "Moederbord reparatie",
-  "intro": "De nieuwste SMD componenten zijn zo klein dat deze niet meer met een traditionele soldeerbout kunnen worden aangebracht. Met hete lucht solderen is dit wel mogelijk. Aan het moederbord (de printplaat) kan met behulp van hete lucht gesoldeerd worden. Deze hete lucht heatgun bevat een krachtig hitte element. Op deze manier is het mogelijk om de kleinste componenten, QFP’s of BGA’s handmatig te dé-solderen en te solderen. Wij gebruiken professioneel gereedschap van o.a. Amscope, Wiha, Hakko, Baku, Quick, Fluke.",
+  "eyebrow": "Logicboard repair en board-level reparatie",
+  "intro": "Logicboard repair en board-level reparatie\n\nBij board-level reparatie worden defecten op componentniveau in het moederbord, ook wel logicboard genoemd, opgespoord en hersteld. Moderne printplaten bevatten zeer kleine SMD-componenten en chips die specialistische apparatuur en nauwkeurig microsoldeerwerk vereisen.\n\nWij gebruiken professioneel gereedschap van o.a. Amscope, Wiha, Hakko, Baku, Quick, Fluke.",
   "seo": {
     "title": "Moederbord Reparatie: Kosten en Tijdlijn",
     "description": "Leer alles over moederbord reparatie en de benodigde apparatuur voor een succesvolle en veilige herstelprocedure."
@@ -19,7 +19,7 @@
       "steps": [],
       "prices": [],
       "body": [
-        "Reparaties dienen goed te worden uitgevoerd en moeten duurzaam zijn. Wij gebruiken daarom uitsluitend originele onderdelen en geven u 60 dagen garantie op moederbord reparatie en de vervangen onderdelen."
+        "Afhankelijk van het onderdeel en de soldeerverbindingen wordt een precisiesoldeerbout, soldeerpincet of heteluchtreworkstation gebruikt. Met nauwkeurig geregelde temperatuur en luchtstroom kunnen componenten gericht worden losgesoldeerd en vervangen. Bij BGA-chips bevinden de soldeerverbindingen zich onder de chip, waardoor een gecontroleerde opwarming en nauwkeurige uitlijning essentieel zijn.\n\nZo kan een defect onderdeel worden vervangen zonder dat het volledige moederbord vervangen hoeft te worden. "
       ],
       "image": {}
     },
