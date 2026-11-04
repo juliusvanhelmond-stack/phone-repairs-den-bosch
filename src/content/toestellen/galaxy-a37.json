@@ -4,17 +4,12 @@
   "categoryId": "smartphone",
   "series": "Galaxy A",
   "order": 12000,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/galaxy-a37/photo.jpg",
+  "photo": "/images/toestellen/galaxy-a37/photo.jpeg",
   "popular": false,
   "aliases": [
     "Samsung A37"
   ],
-  "seo": {
-    "title": "Samsung A37 reparatie met originele onderdelen",
-    "description": "Laat uw Samsung A37 professioneel repareren. Snel en betrouwbaar met originele service packs voor een perfect resultaat."
-  },
   "prices": [
     {
       "label": "Scherm, LCD en frame vervangen (originele Samsung service pack, zoals Samsung vereist)",
@@ -85,6 +80,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung A37 reparatie met originele onderdelen",
+    "description": "Laat uw Samsung A37 professioneel repareren. Snel en betrouwbaar met originele service packs voor een perfect resultaat."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a37/"
   ],
