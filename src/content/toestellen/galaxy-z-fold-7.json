@@ -26,79 +26,30 @@
       "links": []
     },
     {
-      "label": "Achterkant incl. camera lenzen",
+      "label": "Achterkant incl. camera lenzen origineel vervangen",
       "price": "€125,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "links": []
     },
     {
-      "label": "Batterij (main) vervangen",
+      "label": "Batterij (main) origineel vervangen",
       "price": "€125,-",
       "repairId": "batterij-vervangen",
       "popular": false,
       "links": []
     },
     {
-      "label": "Batterij (sub) vervangen",
+      "label": "Batterij (sub) origineel vervangen",
       "price": "€95,-",
       "repairId": "batterij-vervangen",
       "popular": false,
       "links": []
     },
     {
-      "label": "USB oplaad poort vervangen",
-      "price": "€125,-g",
+      "label": "USB oplaad poort origineel vervangen",
+      "price": "€125,-",
       "repairId": "oplaadpoort-repareren",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Vingerafdruklezer vervangen",
-      "price": "op aanvraag",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Oorluidspreker vervangen",
-      "price": "op aanvraag",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Camera's achterzijde vervangen",
-      "price": "op aanvraag",
-      "repairId": "camera-repareren",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Camera voorzijde vervangen",
-      "price": "op aanvraag",
-      "repairId": "camera-repareren",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Aan/uit knop vervangen",
-      "price": "op aanvraag",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Volume knop vervangen",
-      "price": "op aanvraag",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Trilmotor vervangen",
-      "price": "op aanvraag",
-      "repairId": "overige-reparaties",
       "popular": false,
       "links": []
     },
