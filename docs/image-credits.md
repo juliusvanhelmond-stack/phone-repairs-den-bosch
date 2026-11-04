@@ -10,6 +10,7 @@ the set can be added the same way.
 | --- | --- | --- | --- |
 | `martijn-workplace.jpg` | RVM 810_6381 (3) | Homepage hero | Martijn at his workbench, looking into the camera |
 | `martijn-portrait.jpg` | RVM 810_6382 (4) | About section (home) | Portrait of Martijn |
+| `martijn-banner.jpg` | IMG_9272 (mail 2026-11-04) | Header of /over-ons | Martijn in front of the shop banner |
 | `martijn-microscope.jpg` | RVM 810_6528 (14) | "Zo werkt het" photo band | Martijn soldering under the microscope |
 | `martijn-diagnostics.jpg` | RVM 810_6417 (7) | Final call-to-action background | Hands testing a phone on a diagnostic board |
 

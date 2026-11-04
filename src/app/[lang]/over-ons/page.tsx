@@ -12,6 +12,8 @@ import { Reveal } from "@/components/motion/reveal";
 import { SectionHeading } from "@/components/ui/section-heading";
 import aboutJson from "@/content/over-ons.json";
 import type { Locale } from "@/lib/i18n";
+import Image from "next/image";
+import martijnBanner from "@/assets/photos/martijn-banner.jpg";
 
 // The text is edited by the shop in the CMS ("Over ons", src/content/over-ons.json, client request
 // 2026-10-29). It started from the original about pages (/over-phone-repairs/ and
@@ -47,6 +49,18 @@ export default async function AboutPage() {
         eyebrow={t("Over ons", "About us")}
         title={text.title}
         intro={text.intro}
+        aside={
+          // Martijn in front of the shop's banner (sent by the owner, mail 2026-11-04), in the space right of the intro.
+          <div className="mx-auto w-full max-w-xs sm:max-w-sm lg:max-w-md">
+            <Image
+              src={martijnBanner}
+              alt={t("Martijn van Phone Repairs voor het spandoek van de winkel", "Martijn of Phone Repairs in front of the shop's banner")}
+              priority
+              sizes="(min-width: 1024px) 28rem, (min-width: 640px) 24rem, 20rem"
+              className="aspect-square w-full rounded-[var(--radius-panel)] object-cover shadow-[var(--shadow-lift)] ring-1 ring-white/10"
+            />
+          </div>
+        }
         bottom={<Skyline className="text-accent-strong/40" title={t("Skyline van Den Bosch", "Den Bosch skyline")} />}
       >
         <DemoNote className="max-w-2xl">
