@@ -26,51 +26,23 @@
       "links": []
     },
     {
-      "label": "Achterkant vervangen",
+      "label": "Achterkant origineel vervangen",
       "price": "€195,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "links": []
     },
     {
-      "label": "Batterij vervangen",
+      "label": "Batterij origineel vervangen",
       "price": "op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
       "links": []
     },
     {
-      "label": "USB oplaad poort vervangen",
+      "label": "USB oplaad poort origineel vervangen",
       "price": "op aanvraag",
       "repairId": "oplaadpoort-repareren",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Vingerafdruklezer vervangen",
-      "price": "op aanvraag",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Oorluidspreker vervangen",
-      "price": "op aanvraag",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Camera's achterzijde vervangen",
-      "price": "op aanvraag",
-      "repairId": "camera-repareren",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Camera voorzijde vervangen",
-      "price": "op aanvraag",
-      "repairId": "camera-repareren",
       "popular": false,
       "links": []
     },
