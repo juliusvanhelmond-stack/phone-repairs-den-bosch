@@ -4,19 +4,12 @@
   "categoryId": "tablet",
   "series": "Galaxy Tab S",
   "order": 55200,
-  "releaseYear": "",
   "art": "tablet",
-  "photo": null,
   "popular": false,
   "aliases": [
     "Samsung Tab S10 Ultra (SM-X920, SM-X926)",
-    "SM-X920",
-    "SM-X926"
+    "SM-X920 SM-X926B SM-X926N SM-X920N"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm, LCD vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -26,6 +19,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [],
   "sources": [
     {
