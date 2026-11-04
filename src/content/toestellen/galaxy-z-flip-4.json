@@ -28,7 +28,7 @@
       "links": []
     },
     {
-      "label": "Achterkant (beneden) vervangen",
+      "label": "Achterkant (beneden) origineel vervangen",
       "price": "€50,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
@@ -42,7 +42,7 @@
       "links": []
     },
     {
-      "label": "USB oplaad poort vervangen",
+      "label": "USB oplaad poort origineel vervangen",
       "price": "€95,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
@@ -51,48 +51,6 @@
     {
       "label": "Vingerafdruklezer vervangen",
       "price": "€125,-",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Oorluidspreker vervangen",
-      "price": "€100,-",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Camera's achterzijde vervangen",
-      "price": "€175,-",
-      "repairId": "camera-repareren",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Camera voorzijde vervangen",
-      "price": "€125",
-      "repairId": "camera-repareren",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Aan/uit knop vervangen",
-      "price": "€125,-",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Volume knop vervangen",
-      "price": "€125.-",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "links": []
-    },
-    {
-      "label": "Trilmotor vervangen",
-      "price": "€60,-",
       "repairId": "overige-reparaties",
       "popular": false,
       "links": []
