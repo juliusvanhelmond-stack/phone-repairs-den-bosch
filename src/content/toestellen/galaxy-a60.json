@@ -3,18 +3,13 @@
   "brandId": "samsung",
   "categoryId": "smartphone",
   "series": "Galaxy A",
-  "order": 10700,
-  "releaseYear": "",
+  "order": 10600,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-a60/photo.jpg",
   "popular": false,
   "aliases": [
     "Samsung A60"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung A60 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, LCD en frame vervangen (originele Samsung service pack, zoals Samsung vereist)",
@@ -113,6 +108,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung A60 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a60/"
   ],
