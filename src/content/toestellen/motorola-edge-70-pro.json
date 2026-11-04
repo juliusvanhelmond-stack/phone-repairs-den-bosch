@@ -1,41 +1,40 @@
 {
-  "name": "Motorola Edge 60 Pro",
+  "name": "Motorola Edge 70 Pro",
   "brandId": "motorola",
   "categoryId": "smartphone",
   "series": "Motorola Edge",
   "order": 50800,
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/motorola-edge-60-pro/photo.webp",
+  "photo": "/images/toestellen/motorola-edge-70-pro/photo.webp",
   "popular": false,
   "aliases": [
-    "Motorola Edge 60 Pro",
-    "XT2507-1"
+    "Motorola Edge 70 Pro"
   ],
   "prices": [
     {
       "label": "Scherm unit vervangen",
-      "price": "€195,-",
+      "price": "Prijs op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
       "links": []
     },
     {
       "label": "Achterzijde (incl. camera lenzen) vervangen",
-      "price": "€100,-",
+      "price": "Prijs op aanvraag",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "links": []
     },
     {
       "label": "Batterij vervangen",
-      "price": "€100,-",
+      "price": "Prijs op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
       "links": []
     },
     {
       "label": "Oplaadpoort vervangen",
-      "price": "€100,-",
+      "price": "Prijs op aanvraag",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "links": []
@@ -54,8 +53,8 @@
     }
   ],
   "seo": {
-    "title": "Motorola Edge 60 Pro Den Bosch",
-    "description": "Professionele Motorola Edge 60 Pro reparatie met originele onderdelen en transparante prijzen. Bel snel voor een afspraak voor hulp!"
+    "title": "Motorola Edge 70 Pro Den Bosch",
+    "description": "Professionele Motorola Edge 70 Pro reparatie met originele onderdelen en transparante prijzen. Bel snel voor een afspraak voor hulp!"
   },
   "legacyUrls": [
     "https://www.phonerepairs.nl/motorola-reparatie/motorola-signature-2/"
