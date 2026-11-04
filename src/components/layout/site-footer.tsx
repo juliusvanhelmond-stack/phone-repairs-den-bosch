@@ -160,6 +160,13 @@ export async function SiteFooter() {
             </a>
             {t(" accepteert.", ".")}
           </p>
+          {/* Maker credit, as on the studio's other client sites (request 2026-11-04). */}
+          <p>
+            {t("Website door", "Website by")}{" "}
+            <a href="https://june-studio.nl/" target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-accent-light">
+              JUNE Studio
+            </a>
+          </p>
         </div>
       </div>
     </footer>
