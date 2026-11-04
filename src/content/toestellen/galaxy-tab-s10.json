@@ -1,20 +1,15 @@
 {
-  "name": "Galaxy Tab S10 SM-X820, SM-X826",
+  "name": "Galaxy Tab S10 ",
   "brandId": "samsung",
   "categoryId": "tablet",
   "series": "Galaxy Tab S",
   "order": 55201,
-  "releaseYear": "",
   "art": "tablet",
-  "photo": null,
   "popular": false,
   "aliases": [
-    "Samsung Tab S10 SM-X820, SM-X826"
+    "Samsung Tab S10 SM-X820, SM-X826",
+    "SM-X820, SM-X826"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Samsung Tab S10 scherm, LCD vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -24,6 +19,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [],
   "sources": [
     {
