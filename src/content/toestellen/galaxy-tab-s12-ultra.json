@@ -1,0 +1,46 @@
+{
+  "name": "Galaxy Tab S12 Ultra",
+  "brandId": "samsung",
+  "categoryId": "tablet",
+  "series": "Galaxy Tab S",
+  "order": 55202,
+  "art": "tablet",
+  "popular": false,
+  "aliases": [
+    "Galaxy Tab S12 Ultra",
+    "SM-X940 SM-X946"
+  ],
+  "prices": [
+    {
+      "label": "Scherm, LCD vervangen (origineel Samsung service pack, zoals Samsung vereist)",
+      "price": "Prijs op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "links": []
+    }
+  ],
+  "seo": {
+    "description": "S12 Ultra Ultra Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/samsung-tab-reparatie-den-bosch/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-10-09."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "949",
+      "pageTitle": "Samsung Tab",
+      "modified": "2026-10-09 00:20:24"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/samsung-tab-reparatie-den-bosch/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-10-09"
+  }
+}
