@@ -16,6 +16,7 @@
       "price": "€320,-",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -23,6 +24,7 @@
       "price": "€130,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -30,6 +32,7 @@
       "price": "€100,-",
       "repairId": "batterij-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -37,6 +40,7 @@
       "price": "op aanvraag",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -44,6 +48,7 @@
       "price": "€80,-",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -51,6 +56,7 @@
       "price": "€295,-",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -58,6 +64,7 @@
       "price": "€110,-",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -65,6 +72,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -72,6 +80,7 @@
       "price": "€60,-",
       "repairId": "waterschade",
       "popular": false,
+      "original": true,
       "links": [
         {
           "text": "Chemisch reinigen",
@@ -84,6 +93,7 @@
       "price": "€30,--",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],

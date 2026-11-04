@@ -23,6 +23,7 @@
       "price": "€345,-",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],

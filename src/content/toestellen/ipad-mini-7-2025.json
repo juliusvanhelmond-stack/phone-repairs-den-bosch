@@ -15,6 +15,7 @@
       "price": "€495,-",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": [
         {
           "text": "origineel Apple service pack",
@@ -27,6 +28,7 @@
       "price": "op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -34,6 +36,7 @@
       "price": "€30,--",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -41,6 +44,7 @@
       "price": "€50,-",
       "repairId": "waterschade",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],

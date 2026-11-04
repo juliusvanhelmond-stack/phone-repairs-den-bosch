@@ -15,6 +15,7 @@
       "price": "€260,-",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": false,
       "links": [
         {
           "text": "premium OLED",
@@ -27,6 +28,7 @@
       "price": "€295,-",
       "repairId": "scherm-vervangen",
       "popular": true,
+      "original": true,
       "links": [
         {
           "text": "origineel pulled",
@@ -39,6 +41,7 @@
       "price": "€510,-",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": [
         {
           "text": "origineel Apple service pack",
@@ -51,6 +54,7 @@
       "price": "€195,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
+      "original": true,
       "links": [
         {
           "text": "origineel Apple Service pack",
@@ -63,6 +67,7 @@
       "price": "€145,-",
       "repairId": "batterij-vervangen",
       "popular": true,
+      "original": true,
       "links": [
         {
           "text": "origineel Apple Service pack",
@@ -75,6 +80,7 @@
       "price": "€90,-",
       "repairId": "batterij-vervangen",
       "popular": false,
+      "original": true,
       "links": [
         {
           "text": "origineel pulled",
@@ -87,6 +93,7 @@
       "price": "€240,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
+      "original": true,
       "links": [
         {
           "text": "origineel Apple Service pack",
@@ -99,6 +106,7 @@
       "price": "€130,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
+      "original": true,
       "links": [
         {
           "text": "origineel Apple Service pack",
@@ -111,6 +119,7 @@
       "price": "€375,-",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": [
         {
           "text": "origineel Apple Service pack",
@@ -123,6 +132,7 @@
       "price": "€75,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -130,6 +140,7 @@
       "price": "€170,-",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": [
         {
           "text": "origineel pulled",
@@ -142,6 +153,7 @@
       "price": "€250,-",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": [
         {
           "text": "Origineel pulled",
@@ -154,6 +166,7 @@
       "price": "€395,-",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": [
         {
           "text": "origineel Apple service pack",
@@ -166,6 +179,7 @@
       "price": "€100,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -173,6 +187,7 @@
       "price": "€160,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -180,6 +195,7 @@
       "price": "€100,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -187,6 +203,7 @@
       "price": "€15,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -194,6 +211,7 @@
       "price": "€45,-",
       "repairId": "accessoire",
       "popular": false,
+      "original": false,
       "links": [
         {
           "text": "MFi",
@@ -206,6 +224,7 @@
       "price": "€20,-",
       "repairId": "accessoire",
       "popular": false,
+      "original": false,
       "links": [
         {
           "text": "MFi",
@@ -218,6 +237,7 @@
       "price": "€60,-",
       "repairId": "waterschade",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -225,6 +245,7 @@
       "price": "€30,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],

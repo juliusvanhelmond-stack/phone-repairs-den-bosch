@@ -18,6 +18,7 @@
       "price": "€415,-",
       "repairId": "scherm-vervangen",
       "popular": true,
+      "original": true,
       "links": [
         {
           "text": "origineel Apple service pack",
@@ -30,6 +31,7 @@
       "price": "€230,-",
       "repairId": "batterij-vervangen",
       "popular": true,
+      "original": true,
       "links": [
         {
           "text": "origineel Apple service pack",
@@ -42,6 +44,7 @@
       "price": "€145,-",
       "repairId": "oplaadpoort-repareren",
       "popular": true,
+      "original": true,
       "links": [
         {
           "text": "origineel Apple service pack",
@@ -54,6 +57,7 @@
       "price": "€299,-",
       "repairId": "accessoire",
       "popular": true,
+      "original": false,
       "links": [
         {
           "text": "origineel Apple service pack",
@@ -66,6 +70,7 @@
       "price": "€195,-",
       "repairId": "overige-reparaties",
       "popular": true,
+      "original": true,
       "links": [
         {
           "text": "origineel Apple service pack",
@@ -78,6 +83,7 @@
       "price": "€145,-",
       "repairId": "overige-reparaties",
       "popular": true,
+      "original": true,
       "links": [
         {
           "text": "origineel Apple service pack",
@@ -90,6 +96,7 @@
       "price": "€125,-",
       "repairId": "overige-reparaties",
       "popular": true,
+      "original": true,
       "links": [
         {
           "text": "origineel Apple service pack",
@@ -102,6 +109,7 @@
       "price": "€125,-",
       "repairId": "overige-reparaties",
       "popular": true,
+      "original": true,
       "links": [
         {
           "text": "origineel Apple service pack",
@@ -114,6 +122,7 @@
       "price": "€45,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -121,6 +130,7 @@
       "price": "€75,-",
       "repairId": "waterschade",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -128,6 +138,7 @@
       "price": "€69,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": false,
       "links": []
     },
     {
@@ -135,6 +146,7 @@
       "price": "€60,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],

@@ -16,6 +16,7 @@
       "price": "€800,-",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": [
         {
           "text": "origineel Apple service pack",
@@ -28,6 +29,7 @@
       "price": "€750,-",
       "repairId": "scherm-vervangen",
       "popular": true,
+      "original": true,
       "links": [
         {
           "text": "origineel pulled",
@@ -40,6 +42,7 @@
       "price": "€275,-",
       "repairId": "batterij-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],

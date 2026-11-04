@@ -17,6 +17,7 @@
       "price": "Prijs op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": [
         {
           "text": "origineel Apple service pack",
@@ -29,6 +30,7 @@
       "price": "Prijs op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": true,
+      "original": true,
       "links": [
         {
           "text": "origineel pulled",
@@ -41,6 +43,7 @@
       "price": "Prijs op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],

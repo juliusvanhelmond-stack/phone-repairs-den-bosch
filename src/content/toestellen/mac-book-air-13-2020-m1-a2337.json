@@ -16,6 +16,7 @@
       "price": "€600,-",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": [
         {
           "text": "origineel pulled",
@@ -28,6 +29,7 @@
       "price": "€250,-",
       "repairId": "batterij-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],

@@ -24,6 +24,7 @@
       "price": "€275,-",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -31,6 +32,7 @@
       "price": "€240,-",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],

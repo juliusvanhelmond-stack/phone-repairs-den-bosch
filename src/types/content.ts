@@ -161,6 +161,8 @@ export const priceRowSchema = z.object({
   repairId: slugSchema.nullable(),
   /** Marked "Meest gekozen" on the original page. */
   popular: z.boolean().optional(),
+  /** Shows the "Origineel" badge (CMS switch per row, client request 2026-11-04). */
+  original: z.boolean().optional(),
   /** Parts of the label that link to an explanation ("premium OLED" → /iphone-premium-oled-scherm). */
   links: z.array(z.object({ text: z.string().min(1), href: z.string() })).optional(),
 });

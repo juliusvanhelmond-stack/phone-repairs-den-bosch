@@ -191,6 +191,11 @@ export default config({
             }),
             repairId: fields.select({ label: "Reparatie", description: "Onder welke reparatie deze regel staat.", options: repairOptions, defaultValue: "auto" }),
             popular: fields.checkbox({ label: "Meest gekozen", description: "Toont het groene label 'Meest gekozen'.", defaultValue: false }),
+            original: fields.checkbox({
+              label: "Origineel",
+              description: "Toont het label 'Origineel' bij deze reparatie (niet bij accessoires).",
+              defaultValue: true,
+            }),
             links: fields.array(
               fields.object({
                 text: fields.text({ label: "Tekst uit de omschrijving", description: "Precies zoals in de omschrijving, bijv. 'origineel Apple service pack'." }),

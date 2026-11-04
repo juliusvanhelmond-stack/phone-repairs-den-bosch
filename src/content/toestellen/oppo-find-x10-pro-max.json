@@ -15,6 +15,7 @@
       "price": "Op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -22,6 +23,7 @@
       "price": "Op aanvraag",
       "repairId": "achterkant-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -29,6 +31,7 @@
       "price": "Op aanvraag",
       "repairId": "auto",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -36,6 +39,7 @@
       "price": "Op aanvraag",
       "repairId": "auto",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],

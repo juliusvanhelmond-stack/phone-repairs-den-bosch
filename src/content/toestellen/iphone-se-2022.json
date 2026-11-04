@@ -15,6 +15,7 @@
       "price": "€75,-",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -22,6 +23,7 @@
       "price": "€60,-",
       "repairId": "batterij-vervangen",
       "popular": false,
+      "original": true,
       "links": [
         {
           "text": "origineel pulled",
@@ -34,6 +36,7 @@
       "price": "€125,-",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -41,6 +44,7 @@
       "price": "€90,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -48,6 +52,7 @@
       "price": "€60,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -55,6 +60,7 @@
       "price": "€90,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -62,6 +68,7 @@
       "price": "€85,-",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -69,6 +76,7 @@
       "price": "€30,--",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -76,6 +84,7 @@
       "price": "€85,-",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -83,6 +92,7 @@
       "price": "€95,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -90,6 +100,7 @@
       "price": "€60,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -97,6 +108,7 @@
       "price": "€70,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -104,6 +116,7 @@
       "price": "€85,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -111,6 +124,7 @@
       "price": "€10,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -118,6 +132,7 @@
       "price": "€10,-",
       "repairId": "accessoire",
       "popular": false,
+      "original": false,
       "links": []
     },
     {
@@ -125,6 +140,7 @@
       "price": "€15,-",
       "repairId": "accessoire",
       "popular": false,
+      "original": false,
       "links": [
         {
           "text": "MFi",
@@ -137,6 +153,7 @@
       "price": "€15,-",
       "repairId": "accessoire",
       "popular": false,
+      "original": false,
       "links": [
         {
           "text": "MFi",
@@ -149,6 +166,7 @@
       "price": "€25,-",
       "repairId": "accessoire",
       "popular": false,
+      "original": false,
       "links": [
         {
           "text": "MFi",
@@ -161,6 +179,7 @@
       "price": "€20,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -168,6 +187,7 @@
       "price": "€9,-",
       "repairId": "accessoire",
       "popular": false,
+      "original": false,
       "links": []
     },
     {
@@ -175,6 +195,7 @@
       "price": "€60,-",
       "repairId": "waterschade",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -182,6 +203,7 @@
       "price": "€30,--",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],

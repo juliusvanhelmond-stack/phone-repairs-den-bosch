@@ -15,6 +15,7 @@
       "price": "Prijs op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -22,6 +23,7 @@
       "price": "Prijs op aanvraag",
       "repairId": "achterkant-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -29,6 +31,7 @@
       "price": "Prijs op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -36,6 +39,7 @@
       "price": "Prijs op aanvraag",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -43,6 +47,7 @@
       "price": "€150,-",
       "repairId": "waterschade",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -50,6 +55,7 @@
       "price": "Prijs op aanvraag",
       "repairId": "auto",
       "popular": false,
+      "original": false,
       "links": []
     }
   ],

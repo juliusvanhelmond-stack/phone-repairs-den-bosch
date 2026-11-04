@@ -18,7 +18,8 @@ type Source = { url: string; verification: string; capturedAt?: string; note?: s
 type Link = { text: string; href: string };
 
 /** One price row as stored in the CMS: the price is the text the shop types, e.g. "€130,-". */
-export type PriceEntry = { label: string; price: string; repairId: string; popular: boolean; links: Link[] };
+/** `original`: shows the "Origineel" badge (client request 2026-11-04); missing = the label mentions "origineel". */
+export type PriceEntry = { label: string; price: string; repairId: string; popular: boolean; original?: boolean; links: Link[] };
 
 export type DeviceEntry = {
   name: string;
@@ -133,6 +134,8 @@ export function fromEntry(slug: string, e: DeviceEntry, errors: string[], root =
           ...price,
           repairId,
           ...(p.popular ? { popular: true } : {}),
+          // Accessories never get the badge; a row without the field falls back to its label.
+          original: repairId !== null && (p.original ?? /\borigine(el|le)\b/i.test(label)),
           ...(links.length ? { links } : {}),
         },
       ];
