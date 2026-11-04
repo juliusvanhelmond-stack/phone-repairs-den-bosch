@@ -29,7 +29,8 @@ export async function FaqList({ items }: { items: FaqItem[] }) {
           return (
             <AccordionItem key={f.id} value={f.id}>
               <AccordionTrigger>{f.question}</AccordionTrigger>
-              <AccordionContent>
+              {/* Blank line between the paragraphs of an answer, as typed in the CMS (client request 2026-11-04). */}
+              <AccordionContent className="space-y-4">
                 {f.answer.map((p) => (
                   <p key={p}>
                     <LinkedText text={p} />
