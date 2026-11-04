@@ -603,9 +603,9 @@ function ModelSearch({
 
 /**
  * Brands whose model photos the shop has checked: their models show the photo in the model list instead of
- * the small icon (client request 2026-11-03: all Apple photos are right). Add a brand once its photos are.
+ * the small icon (client requests 2026-11-03: Apple, then Vivo, Realme, Motorola, Nintendo and Sony). Add a brand once its photos are.
  */
-const LIST_PHOTO_BRANDS = new Set(["apple"]);
+const LIST_PHOTO_BRANDS = new Set(["apple", "vivo", "realme", "motorola", "nintendo", "sony"]);
 
 type PriceOption = { repairId: string; label: string; amount: number | null; status: string; popular: boolean; original?: boolean };
 
