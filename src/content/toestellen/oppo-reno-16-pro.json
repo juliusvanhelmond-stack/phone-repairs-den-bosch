@@ -7,7 +7,9 @@
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/oppo-reno-16-pro/photo.jpeg",
   "popular": false,
-  "aliases": [],
+  "aliases": [
+    "CPH2863"
+  ],
   "prices": [
     {
       "label": "Scherm (origineel OPPO service pack, zoals OPPO vereist)",
