@@ -10,7 +10,7 @@
   "aliases": [],
   "prices": [
     {
-      "label": "Scherm (voorkant), OLED (origineel Oppo service pack, zoals Oppo vereist) vervangen",
+      "label": "Scherm buitendisplay origineel vervangen",
       "price": "op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -18,7 +18,7 @@
       "links": []
     },
     {
-      "label": "Scherm (groot) en voorkant scherm, OLED, frame en scharnier vervangen (origineel Oppo service pack, zoals Oppo vereist) vervangen",
+      "label": "Scherm binnendisplay, frame en scharnier origineel vervangen",
       "price": "op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
