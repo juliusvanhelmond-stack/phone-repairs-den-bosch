@@ -205,22 +205,6 @@
       "links": []
     },
     {
-      "label": "Silicone case",
-      "price": "€15,-",
-      "repairId": "accessoire",
-      "popular": false,
-      "original": false,
-      "links": []
-    },
-    {
-      "label": "Draadloze oplader fast charge stand zwart 10 Watt",
-      "price": "€35,-",
-      "repairId": "accessoire",
-      "popular": false,
-      "original": false,
-      "links": []
-    },
-    {
       "label": "Apple MagSafe oplader MFi (Made For iPhone) certificaat",
       "price": "€45,-",
       "repairId": "accessoire",
@@ -271,22 +255,6 @@
           "href": "https://en.wikipedia.org/wiki/MFi_Program"
         }
       ]
-    },
-    {
-      "label": "Apple EarPods met Lightning-connector",
-      "price": "€25,-",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Apple Lightning naar mini jack adapter",
-      "price": "€9,-",
-      "repairId": "accessoire",
-      "popular": false,
-      "original": false,
-      "links": []
     },
     {
       "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
