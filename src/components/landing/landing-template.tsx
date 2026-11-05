@@ -23,6 +23,8 @@ import telefoonEnTabletHulpIcon from "@/assets/page-icons/telefoon-en-tablet-hul
 import waterschadeReparatiePhoneRepairsIcon from "@/assets/page-icons/waterschade-reparatie-phone-repairs.png";
 import klantenservicePhoneRepairsIcon from "@/assets/page-icons/klantenservice-phone-repairs.png";
 import verzekeringIcon from "@/assets/page-icons/verzekering.png";
+import origineleOnderdelenIcon from "@/assets/page-icons/originele-onderdelen-phone-repairs.png";
+import preOwnedIcon from "@/assets/page-icons/pre-owned-toestellen.png";
 
 /**
  * Small illustration next to the title of some info pages (client mail 2026-11-05), keyed by page id.
@@ -35,6 +37,8 @@ const PAGE_ICONS: Record<string, StaticImageData> = {
   "waterschade-reparatie-phone-repairs": waterschadeReparatiePhoneRepairsIcon,
   "klantenservice-phone-repairs": klantenservicePhoneRepairsIcon,
   "verzekering": verzekeringIcon,
+  "originele-onderdelen-phone-repairs": origineleOnderdelenIcon,
+  "pre-owned-toestellen": preOwnedIcon,
 };
 
 /** Crumbs per page kind (page already localized); area pages hang under /werkgebied, FAQ topics under the FAQ. */
