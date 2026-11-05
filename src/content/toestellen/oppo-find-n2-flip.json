@@ -13,7 +13,7 @@
   ],
   "prices": [
     {
-      "label": "Scherm, AMOLED en frame vervangen",
+      "label": "Scherm binnendisplay, frame en scharnier origineel vervangen",
       "price": "€695,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -56,22 +56,6 @@
       "label": "Oplaadconnector vervangen",
       "price": "€135,-",
       "repairId": "oplaadpoort-repareren",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Camera's achterzijde vervangen",
-      "price": "€225,-",
-      "repairId": "camera-repareren",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Camera's voorzijde vervangen",
-      "price": "€130,-",
-      "repairId": "camera-repareren",
       "popular": false,
       "original": true,
       "links": []
