@@ -10,17 +10,12 @@
   "aliases": [],
   "prices": [
     {
-      "label": "Scherm vervangen premium OLED",
-      "price": "op aanvraag",
+      "label": "Scherm vervangen origineel Apple service pack",
+      "price": "Prijs op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
-      "original": false,
-      "links": [
-        {
-          "text": "premium OLED",
-          "href": "/iphone-premium-oled-scherm"
-        }
-      ]
+      "original": true,
+      "links": []
     },
     {
       "label": "Achterkant glas vervangen (incl. cameralenzen, flitser, draadloos laden coil) origineel Apple Service pack",
