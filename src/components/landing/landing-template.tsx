@@ -18,6 +18,11 @@ import { getI18n } from "@/lib/i18n-server";
 import type { DeviceModel, LandingPage, LandingSection } from "@/types/content";
 import type { StaticImageData } from "next/image";
 import moederbordIcon from "@/assets/page-icons/moederbord-reparatie-den-bosch.webp";
+import dataRecoveryIcon from "@/assets/page-icons/data-recovery.png";
+import telefoonEnTabletHulpIcon from "@/assets/page-icons/telefoon-en-tablet-hulp.png";
+import waterschadeReparatiePhoneRepairsIcon from "@/assets/page-icons/waterschade-reparatie-phone-repairs.png";
+import klantenservicePhoneRepairsIcon from "@/assets/page-icons/klantenservice-phone-repairs.png";
+import verzekeringIcon from "@/assets/page-icons/verzekering.png";
 
 /**
  * Small illustration next to the title of some info pages (client mail 2026-11-05), keyed by page id.
@@ -25,6 +30,11 @@ import moederbordIcon from "@/assets/page-icons/moederbord-reparatie-den-bosch.w
  */
 const PAGE_ICONS: Record<string, StaticImageData> = {
   "moederbord-reparatie-den-bosch": moederbordIcon,
+  "data-recovery": dataRecoveryIcon,
+  "telefoon-en-tablet-hulp": telefoonEnTabletHulpIcon,
+  "waterschade-reparatie-phone-repairs": waterschadeReparatiePhoneRepairsIcon,
+  "klantenservice-phone-repairs": klantenservicePhoneRepairsIcon,
+  "verzekering": verzekeringIcon,
 };
 
 /** Crumbs per page kind (page already localized); area pages hang under /werkgebied, FAQ topics under the FAQ. */
