@@ -307,12 +307,13 @@ async function main() {
   });
 
   await check("device finder: global search with keyboard + empty state", async () => {
-    await page.goto(BASE + "/#toestel-zoeken");
+    // Wait until the finder is hydrated: text typed before that is lost (flaky on a busy machine).
+    await page.goto(BASE + "/#toestel-zoeken", { waitUntil: "networkidle" });
     const input = page.getByPlaceholder("Bijvoorbeeld iPhone 15 Pro of Galaxy S23");
     await input.fill("s23 ultra");
     await page.keyboard.press("Enter");
     await page.locator("#toestel-zoeken").getByRole("heading", { name: /Wat is er mis met je Galaxy S23 Ultra/ }).waitFor();
-    await page.goto(BASE + "/#toestel-zoeken");
+    await page.goto(BASE + "/#toestel-zoeken", { waitUntil: "networkidle" });
     // Terms match from the start of a word: no iPhone 11 or 7 for "iPhone 16" (client report 2026-10-19).
     await page.getByPlaceholder("Bijvoorbeeld iPhone 15 Pro of Galaxy S23").fill("iPhone 16");
     await page.getByRole("option", { name: /iPhone 16 Plus/ }).waitFor();
