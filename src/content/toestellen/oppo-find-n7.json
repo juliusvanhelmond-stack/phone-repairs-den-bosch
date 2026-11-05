@@ -1,0 +1,102 @@
+{
+  "name": "OPPO Find N7",
+  "brandId": "oppo",
+  "categoryId": "smartphone",
+  "series": "OPPO Find N",
+  "order": 43800,
+  "art": "phone-punch-hole",
+  "photo": "/images/toestellen/oppo-find-n7/photo.webp",
+  "popular": false,
+  "aliases": [],
+  "prices": [
+    {
+      "label": "Scherm (voorkant), OLED (origineel Oppo service pack, zoals Oppo vereist) vervangen",
+      "price": "op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Scherm (groot) en voorkant scherm, OLED, frame en scharnier vervangen (origineel Oppo service pack, zoals Oppo vereist) vervangen",
+      "price": "op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen",
+      "price": "op aanvraag",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "op aanvraag",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "USB oplaad poort vervangen",
+      "price": "op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€150,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "original": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Software herstel",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": false,
+      "links": []
+    }
+  ],
+  "seo": {
+    "title": "OPPO Find OPPO Find N7 reparatie - Phone Repairs",
+    "description": "OPPO Find N7 reparatie snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/oppo-reparatie/oppo-find-n3/",
+    "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/oppo-find-n3-reparatie/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/oppo-reparatie/oppo-find-n3/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2023-10-04."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "35844",
+      "pageTitle": "OPPO Find N3",
+      "modified": "2023-10-04 10:43:47"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/oppo-reparatie/oppo-find-n3/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2023-10-04"
+  }
+}
