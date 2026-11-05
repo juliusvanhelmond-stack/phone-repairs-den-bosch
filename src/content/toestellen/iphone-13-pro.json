@@ -236,19 +236,6 @@
       ]
     },
     {
-      "label": "Apple USB‑C-naar-Lightning-kabel (1 m) MFi (Made For iPhone) certificaat",
-      "price": "€20,-",
-      "repairId": "accessoire",
-      "popular": false,
-      "original": false,
-      "links": [
-        {
-          "text": "MFi",
-          "href": "https://en.wikipedia.org/wiki/MFi_Program"
-        }
-      ]
-    },
-    {
       "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
       "price": "€60,-",
       "repairId": "waterschade",
