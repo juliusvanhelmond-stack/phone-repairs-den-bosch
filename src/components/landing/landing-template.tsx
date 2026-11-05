@@ -16,6 +16,16 @@ import { areasByPlace, devicesForBrand, localizeLanding, popularDevices, repairP
 import type { Translate } from "@/lib/i18n";
 import { getI18n } from "@/lib/i18n-server";
 import type { DeviceModel, LandingPage, LandingSection } from "@/types/content";
+import type { StaticImageData } from "next/image";
+import moederbordIcon from "@/assets/page-icons/moederbord-reparatie-den-bosch.webp";
+
+/**
+ * Small illustration next to the title of some info pages (client mail 2026-11-05), keyed by page id.
+ * The artwork has a transparent background with black lines, so it sits on a white tile.
+ */
+const PAGE_ICONS: Record<string, StaticImageData> = {
+  "moederbord-reparatie-den-bosch": moederbordIcon,
+};
 
 /** Crumbs per page kind (page already localized); area pages hang under /werkgebied, FAQ topics under the FAQ. */
 export function landingCrumbs(page: LandingPage, t: Translate): Crumb[] {
@@ -69,7 +79,19 @@ export async function LandingTemplate({ page: source, children }: { page: Landin
 
   return (
     <>
-      <PageIntro crumbs={landingCrumbs(page, t)} eyebrow={page.eyebrow} title={page.title} intro={page.intro}>
+      <PageIntro
+        crumbs={landingCrumbs(page, t)}
+        eyebrow={page.eyebrow}
+        title={page.title}
+        intro={page.intro}
+        aside={
+          PAGE_ICONS[page.id] && (
+            <div className="tone-light mx-auto grid size-40 place-items-center rounded-[var(--radius-panel)] bg-white p-4 shadow-[var(--shadow-lift)] sm:size-48 lg:size-56">
+              <Image src={PAGE_ICONS[page.id]} alt="" sizes="(min-width: 1024px) 14rem, 12rem" className="h-full w-full object-contain" />
+            </div>
+          )
+        }
+      >
         <ContactActions message={message} />
         <DemoNote className="mt-8 max-w-2xl">
           {imported
