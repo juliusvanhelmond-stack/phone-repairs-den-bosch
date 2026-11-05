@@ -194,27 +194,11 @@
       "links": []
     },
     {
-      "label": "Simkaart lezer vervangen",
-      "price": "€95.-",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
       "label": "Simkaart houder vervangen",
       "price": "€15.-",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
-      "links": []
-    },
-    {
-      "label": "Silicone case",
-      "price": "€15,-",
-      "repairId": "accessoire",
-      "popular": false,
-      "original": false,
       "links": []
     },
     {
@@ -276,22 +260,6 @@
           "href": "https://en.wikipedia.org/wiki/MFi_Program"
         }
       ]
-    },
-    {
-      "label": "Apple EarPods met Lightning-connector",
-      "price": "€25,-",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Apple Lightning naar mini jack adapter",
-      "price": "€9,-",
-      "repairId": "accessoire",
-      "popular": false,
-      "original": false,
-      "links": []
     },
     {
       "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
