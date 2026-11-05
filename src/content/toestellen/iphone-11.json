@@ -134,7 +134,7 @@
       "price": "€35,-",
       "repairId": "accessoire",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": []
     },
     {
@@ -142,7 +142,7 @@
       "price": "€15,-",
       "repairId": "accessoire",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": [
         {
           "text": "MFi",
@@ -155,7 +155,7 @@
       "price": "€25,-",
       "repairId": "accessoire",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": [
         {
           "text": "MFi",
@@ -168,7 +168,7 @@
       "price": "€20,-",
       "repairId": "accessoire",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": [
         {
           "text": "MFi",
@@ -189,7 +189,7 @@
       "price": "€9,-",
       "repairId": "accessoire",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": []
     },
     {
@@ -197,7 +197,7 @@
       "price": "€60,-",
       "repairId": "waterschade",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": []
     },
     {
