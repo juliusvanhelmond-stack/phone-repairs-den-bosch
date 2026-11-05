@@ -191,19 +191,11 @@
       "links": []
     },
     {
-      "label": "Silicone case",
-      "price": "€15,-",
-      "repairId": "accessoire",
-      "popular": false,
-      "original": false,
-      "links": []
-    },
-    {
       "label": "Draadloze oplader fast charge stand zwart 10 Watt",
       "price": "€35,-",
       "repairId": "accessoire",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": []
     },
     {
@@ -211,7 +203,7 @@
       "price": "€45,-",
       "repairId": "accessoire",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": [
         {
           "text": "MFi",
@@ -224,7 +216,7 @@
       "price": "€20,-",
       "repairId": "accessoire",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": [
         {
           "text": "MFi",
@@ -237,7 +229,7 @@
       "price": "€25,-",
       "repairId": "accessoire",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": [
         {
           "text": "MFi",
@@ -250,7 +242,7 @@
       "price": "€20,-",
       "repairId": "accessoire",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": [
         {
           "text": "MFi",
@@ -263,7 +255,7 @@
       "price": "€25,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": []
     },
     {
@@ -271,7 +263,7 @@
       "price": "€9,-",
       "repairId": "accessoire",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": []
     },
     {
