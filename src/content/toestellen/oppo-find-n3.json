@@ -50,38 +50,6 @@
       "links": []
     },
     {
-      "label": "Vingerafdruklezer vervangen",
-      "price": "op aanvraag",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "original": false,
-      "links": []
-    },
-    {
-      "label": "Oorluidspreker vervangen",
-      "price": "op aanvraag",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "original": false,
-      "links": []
-    },
-    {
-      "label": "Camera's achterzijde vervangen",
-      "price": "op aanvraag",
-      "repairId": "camera-repareren",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Camera voorzijde vervangen",
-      "price": "op aanvraag",
-      "repairId": "camera-repareren",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
       "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
       "price": "€150,-",
       "repairId": "waterschade",
