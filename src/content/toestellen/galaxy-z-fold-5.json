@@ -66,7 +66,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": []
     },
     {
@@ -87,7 +87,7 @@
       "price": "€50,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": []
     }
   ],

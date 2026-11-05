@@ -55,7 +55,7 @@
       "price": "€70,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": []
     },
     {
@@ -63,7 +63,7 @@
       "price": "€60,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": []
     },
     {
@@ -71,7 +71,7 @@
       "price": "€75,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": []
     },
     {
@@ -100,7 +100,7 @@
       "price": "€30,--",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": []
     }
   ],

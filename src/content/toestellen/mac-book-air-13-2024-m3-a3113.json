@@ -50,7 +50,7 @@
       "price": "€130,-",
       "repairId": "auto",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": []
     }
   ],

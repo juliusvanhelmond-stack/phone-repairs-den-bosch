@@ -142,7 +142,7 @@
       "price": "€150,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": []
     },
     {
@@ -150,7 +150,7 @@
       "price": "€110,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": []
     },
     {
@@ -184,7 +184,7 @@
       "price": "€160,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": [
         {
           "text": "origineel Apple service pack",
@@ -197,7 +197,7 @@
       "price": "€175,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": [
         {
           "text": "origineel Apple service pack",
@@ -210,7 +210,7 @@
       "price": "€175,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": [
         {
           "text": "origineel Apple service pack",
@@ -223,7 +223,7 @@
       "price": "€15,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": []
     },
     {
@@ -265,7 +265,7 @@
       "price": "€30,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": false,
+      "original": true,
       "links": []
     }
   ],
