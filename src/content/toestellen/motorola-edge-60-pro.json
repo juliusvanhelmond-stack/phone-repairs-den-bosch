@@ -48,7 +48,7 @@
       "price": "€60,-",
       "repairId": "waterschade",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": [
         {
           "text": "Chemisch reinigen",

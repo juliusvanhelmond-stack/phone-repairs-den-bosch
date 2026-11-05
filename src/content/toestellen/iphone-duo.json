@@ -94,7 +94,7 @@
       "price": "€350,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": [
         {
           "text": "origineel Apple service pack",
@@ -146,7 +146,7 @@
       "price": "€350,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": [
         {
           "text": "origineel Apple service pack",
@@ -159,7 +159,7 @@
       "price": "€350,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": [
         {
           "text": "origineel Apple service pack",
@@ -172,7 +172,7 @@
       "price": "€25,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     },
     {
@@ -214,7 +214,7 @@
       "price": "€150,-",
       "repairId": "waterschade",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     },
     {
@@ -222,7 +222,7 @@
       "price": "€30,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     }
   ],

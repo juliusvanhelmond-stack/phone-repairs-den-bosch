@@ -50,7 +50,7 @@
       "price": "€45,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     },
     {
@@ -74,7 +74,7 @@
       "price": "€50,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     },
     {
@@ -82,7 +82,7 @@
       "price": "€60,-",
       "repairId": "waterschade",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": [
         {
           "text": "Chemisch reinigen",
@@ -95,7 +95,7 @@
       "price": "€30,--",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     }
   ],

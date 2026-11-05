@@ -126,7 +126,7 @@
       "price": "€50,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     },
     {
@@ -168,7 +168,7 @@
       "price": "€95,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     },
     {
@@ -176,7 +176,7 @@
       "price": "€90,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     },
     {
@@ -184,7 +184,7 @@
       "price": "€95,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     },
     {
@@ -192,7 +192,7 @@
       "price": "€95,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     },
     {
@@ -200,7 +200,7 @@
       "price": "€15,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     },
     {
@@ -276,7 +276,7 @@
       "price": "€25,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     },
     {
@@ -292,7 +292,7 @@
       "price": "€60,-",
       "repairId": "waterschade",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     },
     {
@@ -300,7 +300,7 @@
       "price": "€30,-",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     }
   ],

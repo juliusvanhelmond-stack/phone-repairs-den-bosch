@@ -82,7 +82,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     }
   ],

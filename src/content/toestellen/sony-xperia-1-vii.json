@@ -41,7 +41,7 @@
       "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     },
     {
@@ -57,7 +57,7 @@
       "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     },
     {
@@ -65,7 +65,7 @@
       "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     },
     {
@@ -89,7 +89,7 @@
       "price": "€60,-",
       "repairId": "waterschade",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     },
     {
@@ -97,7 +97,7 @@
       "price": "€30,--",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     }
   ],

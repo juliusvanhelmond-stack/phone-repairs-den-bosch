@@ -82,7 +82,7 @@
       "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     },
     {
@@ -90,7 +90,7 @@
       "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": []
     },
     {
@@ -98,7 +98,7 @@
       "price": "€150,-",
       "repairId": "waterschade",
       "popular": false,
-      "original": true,
+      "original": false,
       "links": [
         {
           "text": "Chemisch reinigen",
