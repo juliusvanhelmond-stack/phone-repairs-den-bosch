@@ -3,16 +3,11 @@
   "brandId": "poco",
   "categoryId": "smartphone",
   "series": "Poco F",
-  "order": 42700,
-  "releaseYear": "",
+  "order": 40900,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/poco-f2-pro/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "Xiaomi Poco F2 Pro | Phone Repairs | 073-8220013",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm, Super AMOLED vervangen (origineel Xiaomi service pack, zoals Xiaomi vereist)",
@@ -127,6 +122,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Xiaomi Poco F2 Pro | Phone Repairs | 073-8220013"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-pocophone-reparatie/poco-f2-pro/"
   ],
