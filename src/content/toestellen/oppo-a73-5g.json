@@ -3,16 +3,11 @@
   "brandId": "oppo",
   "categoryId": "smartphone",
   "series": "OPPO A",
-  "order": 48300,
-  "releaseYear": "",
+  "order": 48100,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/oppo-a73-5g/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "OPPO A73 scherm, OLED vervangen",
@@ -63,6 +58,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/oppo-reparatie/oppo-a72-5g/"
   ],
