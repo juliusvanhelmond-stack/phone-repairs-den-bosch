@@ -3,16 +3,11 @@
   "brandId": "oppo",
   "categoryId": "smartphone",
   "series": "OPPO A",
-  "order": 48800,
-  "releaseYear": "",
+  "order": 48600,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/oppo-a52/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm, OLED vervangen",
@@ -71,6 +66,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/oppo-reparatie/oppo-a52-reparatie/"
   ],
