@@ -3,8 +3,7 @@
   "brandId": "samsung",
   "categoryId": "smartphone",
   "series": "Galaxy A",
-  "order": 10000,
-  "releaseYear": "",
+  "order": 13500,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-a90-5g/photo.jpg",
   "popular": false,
@@ -15,10 +14,6 @@
     "DS",
     "Samsung A90"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung A90 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, LCD en frame vervangen (originele Samsung service pack, zoals Samsung vereist)",
@@ -98,6 +93,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung A90 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a90-reparatie-2/",
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a90-reparatie/"
