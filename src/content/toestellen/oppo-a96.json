@@ -3,16 +3,10 @@
   "brandId": "oppo",
   "categoryId": "smartphone",
   "series": "OPPO A",
-  "order": 47500,
-  "releaseYear": "",
+  "order": 43206,
   "art": "phone-punch-hole",
-  "photo": null,
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "OPPO A96 reparatie bij Phone Repairs Den Bosch",
-    "description": "Laat uw OPPO A96 reparatie snel en professioneel uitvoeren met 12 maanden garantie. Neem contact met ons op voor vragen."
-  },
   "prices": [
     {
       "label": "Scherm, OLED vervangen",
@@ -63,6 +57,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "OPPO A96 reparatie bij Phone Repairs Den Bosch",
+    "description": "Laat uw OPPO A96 reparatie snel en professioneel uitvoeren met 12 maanden garantie. Neem contact met ons op voor vragen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oppo-reparatie/oppo-a96/"
   ],
