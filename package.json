@@ -8,6 +8,7 @@
     "content": "tsx scripts/content/build-content.ts",
     "build": "next build",
     "prebuild": "npm run content && npm run reviews:fetch && npm run validate:data",
+    "icecat:download": "tsx scripts/icecat/download.ts",
     "reviews:fetch": "tsx scripts/reviews/fetch-kiyoh.ts && tsx scripts/reviews/fetch-google.ts",
     "start": "next start",
     "lint": "eslint",

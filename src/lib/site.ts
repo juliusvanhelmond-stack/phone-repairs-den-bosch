@@ -106,6 +106,8 @@ export const site = {
   legal: {
     terms: "/wp-content/uploads/2026/10/Algemene-voorwaarden-iPhone-Service-Den-Bosch-_-Phone-Repairs.pdf",
     privacy: "/wp-content/uploads/2026/09/Privacyverklaring-september-2026.pdf",
+    /** Open Icecat's Open Content License, linked next to the notice for the official product photos. */
+    icecatLicense: "https://iceclog.com/open-content-license-opl/",
   },
   parkingNote: "Gratis parkeren voor de deur",
   /** "Plan je route" link the client asked for (e-mail 2026-10-16), verbatim. */

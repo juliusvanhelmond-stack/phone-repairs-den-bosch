@@ -7,7 +7,8 @@
  * Provenance (original URLs, sources, WordPress ids, the price list's source page) stays in the same
  * file under keys the CMS does not show (`fields.ignored()`), so a save in the CMS keeps it.
  */
-import { existsSync } from "node:fs";
+import { createHash } from "node:crypto";
+import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { repairForLabel } from "../migration/wordpress/devices";
 
@@ -109,6 +110,33 @@ export function parsePrice(text: string): { amount: number | null; status: "pric
 
 const today = () => new Date().toISOString().slice(0, 10);
 
+type IcecatPhoto = { slug: string; file: string; replacesPhoto: { path: string; sha256: string } | null };
+let icecatPhotos: Map<string, IcecatPhoto> | undefined;
+const sha256 = (file: string) => createHash("sha256").update(readFileSync(file)).digest("hex");
+
+/**
+ * Official product photo from Open Icecat (src/data/icecat-photos.json, `npm run icecat:download`), or null.
+ * It replaces the photo that was in the CMS when it was picked, but never a photo the shop uploads later:
+ * once the CMS photo is another file (other path or content), the shop's photo wins.
+ */
+function icecatPhoto(slug: string, cmsPhoto: string, root: string): string | null {
+  icecatPhotos ??= new Map(
+    (JSON.parse(readFileSync(join(root, "src/data/icecat-photos.json"), "utf8")) as IcecatPhoto[]).map((p) => [p.slug, p]),
+  );
+  const p = icecatPhotos.get(slug);
+  if (!p || !existsSync(join(root, "public", p.file))) return null;
+  if (!cmsPhoto) return p.file;
+  const replaced = p.replacesPhoto;
+  const cmsFile = join(root, "public", cmsPhoto);
+  return replaced && cmsPhoto === replaced.path && existsSync(cmsFile) && sha256(cmsFile) === replaced.sha256 ? p.file : null;
+}
+
+function photoFields(slug: string, cmsPhoto: string, root: string) {
+  const icecat = icecatPhoto(slug, cmsPhoto, root);
+  if (icecat) return { photo: icecat, photoCredit: "icecat" as const };
+  return cmsPhoto ? { photo: cmsPhoto } : {};
+}
+
 /** CMS file → the site's device and price list records. Errors name the device and row. */
 export function fromEntry(slug: string, e: DeviceEntry, errors: string[], root = process.cwd()) {
   const id = `${e.brandId}-${slug}`;
@@ -153,7 +181,7 @@ export function fromEntry(slug: string, e: DeviceEntry, errors: string[], root =
     order: e.order ?? 0,
     ...(Number(e.releaseYear) ? { releaseYear: Number(e.releaseYear) } : {}),
     art: e.art,
-    ...(e.photo?.trim() ? { photo: e.photo.trim() } : {}),
+    ...photoFields(slug, e.photo?.trim() ?? "", root),
     popular: !!e.popular,
     aliases: (e.aliases ?? []).filter(Boolean),
     ...(rows.length ? { repairs: [...new Set(rows.map((r) => r.repairId).filter((r): r is string => !!r))] } : {}),

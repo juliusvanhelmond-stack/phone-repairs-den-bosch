@@ -577,7 +577,7 @@ function ModelSearch({
                   className="group flex cursor-pointer items-center gap-4 rounded-xl px-3 py-1.5 data-[selected=true]:bg-mist"
                 >
                   <span className="grid h-11 w-9 shrink-0 place-items-center">
-                    {d.photo && LIST_PHOTO_BRANDS.has(d.brandId) ? (
+                    {d.photo && (LIST_PHOTO_BRANDS.has(d.brandId) || d.photoCredit === "icecat") ? (
                       <span className="tone-light relative block h-11 w-9 overflow-hidden rounded-md bg-white">
                         <Image src={d.photo} alt="" fill sizes="36px" className="object-contain p-0.5" />
                       </span>
@@ -604,6 +604,7 @@ function ModelSearch({
 /**
  * Brands whose model photos the shop has checked: their models show the photo in the model list instead of
  * the small icon (client requests 2026-11-03: Apple, then Vivo, Realme, Motorola, Nintendo and Sony). Add a brand once its photos are.
+ * Official Icecat photos (photoCredit "icecat") always show.
  */
 const LIST_PHOTO_BRANDS = new Set(["apple", "vivo", "realme", "motorola", "nintendo", "sony"]);
 

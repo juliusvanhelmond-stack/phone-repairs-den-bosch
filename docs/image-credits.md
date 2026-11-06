@@ -52,3 +52,21 @@ names the model), re-used at the client's request (2026-10-22, permission to reu
 ("Foto van dit model"). Devices without a photo show the licensed example photo of their type.
 Some of these images were taken from manufacturers' or press material by the shop itself; the shop is
 responsible for them, as on its current site.
+
+## Official product photos (Open Icecat)
+
+`public/images/toestellen/<url-naam>/icecat.jpg`: the manufacturer's product photo of that model from
+Open Icecat (free tier), for Samsung, OPPO, Motorola, Honor, Asus and Nintendo (client order, 2026-10-26;
+selection checked by JUNE Studio, 2026-11-03). Per photo the Icecat product id, product title, image URL
+and retrieval date are in `src/data/icecat-photos.json`; `npm run icecat:download` fetches them.
+Licence (Open Icecat Open Content License, https://iceclog.com/open-content-license-opl/):
+- Only scaled (longest side max 1200 px, JPEG), never cropped, retouched or otherwise edited; shown with
+  `object-contain` on white.
+- Copyright notice "Database Right data-sheet [year] Icecat. All rights reserved.", the "as is"
+  disclaimer and a link to the licence in the footer; "Productfoto: Icecat" under the photo on the
+  model page.
+- Each photo replaces the CMS photo that was there when it was picked (path and SHA-256 recorded). When the
+  shop uploads another photo for the model in the CMS, the shop's photo is shown instead and the credit
+  disappears.
+Apple, Google, Xiaomi/Poco/Redmi, Huawei, OnePlus, Sony, Nokia, Realme and Vivo are not in the free tier;
+those models, and 36 models of the brands above that Icecat lacks, keep their current photo.
