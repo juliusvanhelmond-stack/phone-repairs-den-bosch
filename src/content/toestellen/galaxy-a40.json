@@ -3,8 +3,7 @@
   "brandId": "samsung",
   "categoryId": "smartphone",
   "series": "Galaxy A",
-  "order": 10007,
-  "releaseYear": "",
+  "order": 14000,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-a40/photo.jpg",
   "popular": false,
@@ -13,10 +12,6 @@
     "Samsung A40 (SM-405F)",
     "SM-405F"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung A40 reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen √ 12 maanden gar."
-  },
   "prices": [
     {
       "label": "Scherm, LCD en frame vervangen (originele Samsung service pack, zoals Samsung vereist)",
@@ -136,6 +131,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung A40 reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen √ 12 maanden gar."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a40-reparatie/"
   ],
