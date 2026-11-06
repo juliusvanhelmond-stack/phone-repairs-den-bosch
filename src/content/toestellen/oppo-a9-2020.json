@@ -3,7 +3,7 @@
   "brandId": "oppo",
   "categoryId": "smartphone",
   "series": "OPPO A",
-  "order": 43206,
+  "order": 48800,
   "releaseYear": "2020",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/oppo-a9-2020/photo.jpg",
@@ -14,10 +14,6 @@
     "CPH1939",
     "CPH1941"
   ],
-  "seo": {
-    "title": "",
-    "description": "OPPO A9 2020 reparatiesnel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, LCD en vervangen",
@@ -60,6 +56,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "OPPO A9 2020 reparatiesnel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oppo-reparatie/oppo-a9-2020/"
   ],
