@@ -3,7 +3,7 @@
   "brandId": "samsung",
   "categoryId": "smartphone",
   "series": "Galaxy A",
-  "order": 11400,
+  "order": 12500,
   "releaseYear": "2021",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-a52/photo.jpg",
@@ -11,10 +11,6 @@
   "aliases": [
     "Samsung A52"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung A52 reparatie √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen √ 12 maanden gar"
-  },
   "prices": [
     {
       "label": "Scherm, LCD en frame vervangen (originele Samsung service pack, zoals Samsung vereist) A52 4G SM-A525",
@@ -126,6 +122,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung A52 reparatie √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen √ 12 maanden gar"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a52-reparatie/"
   ],
