@@ -3,18 +3,13 @@
   "brandId": "samsung",
   "categoryId": "smartphone",
   "series": "Galaxy A",
-  "order": 10400,
-  "releaseYear": "",
+  "order": 12300,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-a72/photo.jpg",
   "popular": false,
   "aliases": [
     "Samsung A72"
   ],
-  "seo": {
-    "title": "Samsung A72 reparatie: Snel en Professioneel",
-    "description": "Laat uw Samsung A72 reparatie snel en professioneel uitvoeren met originele onderdelen. Bel ons vandaag nog voor een afspraak."
-  },
   "prices": [
     {
       "label": "Scherm, LCD en frame vervangen (originele Samsung service pack, zoals Samsung vereist)",
@@ -118,6 +113,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung A72 reparatie: Snel en Professioneel",
+    "description": "Laat uw Samsung A72 reparatie snel en professioneel uitvoeren met originele onderdelen. Bel ons vandaag nog voor een afspraak."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a72-reparatie/"
   ],
