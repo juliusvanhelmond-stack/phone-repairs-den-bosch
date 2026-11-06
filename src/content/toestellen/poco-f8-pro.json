@@ -3,16 +3,11 @@
   "brandId": "poco",
   "categoryId": "smartphone",
   "series": "Poco F",
-  "order": 41200,
-  "releaseYear": "",
+  "order": 41800,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/poco-f8-pro/photo.webp",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "Poco F8 Pro reparatie: Snelle service in Den Bosch",
-    "description": "Bij Phone Repairs Den Bosch krijgt u professionele Poco F8 Pro reparatie met originele onderdelen en garantie. Neem contact op!"
-  },
   "prices": [
     {
       "label": "Scherm, AMOLED vervangen (origineel Xiaomi service pack, zoals Xiaomi vereist)",
@@ -119,6 +114,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Poco F8 Pro reparatie: Snelle service in Den Bosch",
+    "description": "Bij Phone Repairs Den Bosch krijgt u professionele Poco F8 Pro reparatie met originele onderdelen en garantie. Neem contact op!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-pocophone-reparatie/poco-f8-pro/"
   ],
