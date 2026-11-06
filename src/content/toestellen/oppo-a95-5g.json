@@ -3,8 +3,7 @@
   "brandId": "oppo",
   "categoryId": "smartphone",
   "series": "OPPO A",
-  "order": 47600,
-  "releaseYear": "",
+  "order": 47200,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/oppo-a95-5g/photo.webp",
   "popular": false,
@@ -12,10 +11,6 @@
     "OPPO A95 5G (PELM00)",
     "PELM00"
   ],
-  "seo": {
-    "title": "OPPO A95 5G reparatie: Veelvoorkomende defecten",
-    "description": "Snel en professioneel uw OPPO A95 5G reparatie laten uitvoeren. 12 maanden garantie op originele onderdelen."
-  },
   "prices": [
     {
       "label": "(CPH2211) scherm, AMOLED vervangen",
@@ -74,6 +69,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "OPPO A95 5G reparatie: Veelvoorkomende defecten",
+    "description": "Snel en professioneel uw OPPO A95 5G reparatie laten uitvoeren. 12 maanden garantie op originele onderdelen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oppo-reparatie/oppo-a95-5g/"
   ],
