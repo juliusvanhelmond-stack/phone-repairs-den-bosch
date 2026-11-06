@@ -3,16 +3,11 @@
   "brandId": "oppo",
   "categoryId": "smartphone",
   "series": "OPPO A",
-  "order": 47200,
-  "releaseYear": "",
+  "order": 47400,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/oppo-a91/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm, AMOLED vervangen",
@@ -63,6 +58,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/oppo-reparatie/oppo-a91-reparatie/"
   ],
