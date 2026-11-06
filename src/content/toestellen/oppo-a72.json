@@ -3,19 +3,13 @@
   "brandId": "oppo",
   "categoryId": "smartphone",
   "series": "OPPO A",
-  "order": 48400,
-  "releaseYear": "",
+  "order": 48200,
   "art": "phone-punch-hole",
-  "photo": null,
   "popular": false,
   "aliases": [
     "OPPO A72 (CPH2067)",
     "CPH2067"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm, OLED vervangen",
@@ -74,6 +68,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/oppo-reparatie/oppo-a72-reparatie/"
   ],
