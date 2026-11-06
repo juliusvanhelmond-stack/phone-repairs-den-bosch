@@ -3,8 +3,7 @@
   "brandId": "samsung",
   "categoryId": "smartphone",
   "series": "Galaxy A",
-  "order": 10001,
-  "releaseYear": "",
+  "order": 13600,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-a80/photo.jpg",
   "popular": false,
@@ -13,10 +12,6 @@
     "Samsung A80 (SM-805F)",
     "SM-805F"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung A80 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, LCD en frame vervangen (originele Samsung service pack, zoals Samsung vereist)",
@@ -104,6 +99,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung A80 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a80-reparatie/"
   ],
