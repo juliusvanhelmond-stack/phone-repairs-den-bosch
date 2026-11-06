@@ -3,18 +3,13 @@
   "brandId": "samsung",
   "categoryId": "smartphone",
   "series": "Galaxy A",
-  "order": 13300,
-  "releaseYear": "",
+  "order": 11600,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-a24/photo.webp",
   "popular": false,
   "aliases": [
     "Samsung A24"
   ],
-  "seo": {
-    "title": "Samsung A24 reparatie voor een kapot scherm",
-    "description": "Professionele Samsung A24 reparatie tegen scherpe prijzen. Snelle service en originele onderdelen voor je toestel."
-  },
   "prices": [
     {
       "label": "Scherm, LCD 5G vervangen",
@@ -118,6 +113,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung A24 reparatie voor een kapot scherm",
+    "description": "Professionele Samsung A24 reparatie tegen scherpe prijzen. Snelle service en originele onderdelen voor je toestel."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a24/"
   ],
