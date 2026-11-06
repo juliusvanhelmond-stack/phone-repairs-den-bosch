@@ -3,7 +3,7 @@
   "brandId": "samsung",
   "categoryId": "smartphone",
   "series": "Galaxy A",
-  "order": 12300,
+  "order": 11500,
   "releaseYear": "2023",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-a34/photo.jpg",
@@ -11,10 +11,6 @@
   "aliases": [
     "Samsung A34"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung A34 reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen"
-  },
   "prices": [
     {
       "label": "Scherm, LCD en frame vervangen (originele Samsung service pack, zoals Samsung vereist)",
@@ -110,6 +106,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung A34 reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a34/"
   ],
