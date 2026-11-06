@@ -3,8 +3,7 @@
   "brandId": "samsung",
   "categoryId": "smartphone",
   "series": "Galaxy A",
-  "order": 13500,
-  "releaseYear": "",
+  "order": 12800,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-a22-5g/photo.jpg",
   "popular": false,
@@ -12,10 +11,6 @@
     "Samsung A22 5G",
     "Samsung A22 4G"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung A32 4G reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen"
-  },
   "prices": [
     {
       "label": "Scherm, LCD en frame vervangen (originele Samsung service pack, zoals Samsung vereist)",
@@ -119,6 +114,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung A32 4G reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a22-5g/",
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a22-4g/"
