@@ -3,8 +3,7 @@
   "brandId": "samsung",
   "categoryId": "smartphone",
   "series": "Galaxy A",
-  "order": 12900,
-  "releaseYear": "",
+  "order": 14200,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-a30/photo.jpg",
   "popular": false,
@@ -13,10 +12,6 @@
     "Samsung A30 (SM-305F)",
     "SM-305F"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung A30 reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen √ 12 maanden gar."
-  },
   "prices": [
     {
       "label": "Scherm, LCD en frame vervangen (originele Samsung service pack, zoals Samsung vereist)",
@@ -120,6 +115,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung A30 reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen √ 12 maanden gar."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a30-reparatie/"
   ],
