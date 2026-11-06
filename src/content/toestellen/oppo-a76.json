@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "OPPO A",
   "order": 48100,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": null,
+  "photo": "/images/toestellen/oppo-a76/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm, OLED vervangen",
@@ -63,6 +58,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/oppo-reparatie/oppo-a76/"
   ],
