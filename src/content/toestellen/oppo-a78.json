@@ -3,16 +3,10 @@
   "brandId": "oppo",
   "categoryId": "smartphone",
   "series": "OPPO A",
-  "order": 48000,
-  "releaseYear": "",
+  "order": 47700,
   "art": "phone-punch-hole",
-  "photo": null,
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm, OLED vervangen",
@@ -63,6 +57,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/oppo-reparatie/oppo-a78/"
   ],
