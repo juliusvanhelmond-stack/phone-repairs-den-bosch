@@ -3,16 +3,11 @@
   "brandId": "poco",
   "categoryId": "smartphone",
   "series": "Poco F",
-  "order": 1016400,
-  "releaseYear": "",
+  "order": 41400,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/poco-f6/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "Poco F6 reparatie: Snelle en Professionele Service",
-    "description": "Snelle en professionele Poco F5 reparatie met 12 maanden garantie. Bekijk onze diensten en prijzen voor alle defecten."
-  },
   "prices": [
     {
       "label": "Poco F scherm, AMOLED vervangen (origineel Xiaomi service pack, zoals Xiaomi vereist)",
@@ -111,6 +106,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Poco F6 reparatie: Snelle en Professionele Service",
+    "description": "Snelle en professionele Poco F5 reparatie met 12 maanden garantie. Bekijk onze diensten en prijzen voor alle defecten."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-pocophone-reparatie/poco-f6/"
   ],
