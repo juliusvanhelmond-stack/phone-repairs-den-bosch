@@ -3,16 +3,10 @@
   "brandId": "oppo",
   "categoryId": "smartphone",
   "series": "OPPO A",
-  "order": 47400,
-  "releaseYear": "",
+  "order": 47600,
   "art": "phone-punch-hole",
-  "photo": null,
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "OPPO A79 reparatie bij Phone Repairs Den Bosch",
-    "description": "Laat uw OPPO A79 reparatie snel en professioneel uitvoeren met 12 maanden garantie. Neem contact met ons op voor vragen."
-  },
   "prices": [
     {
       "label": "Scherm, OLED vervangen",
@@ -63,6 +57,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "OPPO A79 reparatie bij Phone Repairs Den Bosch",
+    "description": "Laat uw OPPO A79 reparatie snel en professioneel uitvoeren met 12 maanden garantie. Neem contact met ons op voor vragen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oppo-reparatie/oppo-a79/"
   ],
