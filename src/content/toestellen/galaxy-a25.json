@@ -3,7 +3,7 @@
   "brandId": "samsung",
   "categoryId": "smartphone",
   "series": "Galaxy A",
-  "order": 13200,
+  "order": 11200,
   "releaseYear": "2023",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-a25/photo.webp",
@@ -11,10 +11,6 @@
   "aliases": [
     "Samsung A25"
   ],
-  "seo": {
-    "title": "Samsung A25 reparatie bij Phone Repairs Den Bosch",
-    "description": "Profiteer van professionele Samsung A25 reparatie. Snel en betrouwbaar met originele onderdelen en transparante prijzen."
-  },
   "prices": [
     {
       "label": "Scherm, LCD 5G vervangen",
@@ -118,6 +114,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung A25 reparatie bij Phone Repairs Den Bosch",
+    "description": "Profiteer van professionele Samsung A25 reparatie. Snel en betrouwbaar met originele onderdelen en transparante prijzen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a25/"
   ],
