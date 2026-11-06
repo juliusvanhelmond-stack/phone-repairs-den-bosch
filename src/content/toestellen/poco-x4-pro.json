@@ -3,16 +3,11 @@
   "brandId": "poco",
   "categoryId": "smartphone",
   "series": "Poco X",
-  "order": 42400,
-  "releaseYear": "",
+  "order": 42700,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/poco-x4-pro/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "Xiaomi Poco X4 Pro reparatie. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, AMOLED vervangen (origineel Xiaomi service pack, zoals Xiaomi vereist)",
@@ -127,6 +122,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Xiaomi Poco X4 Pro reparatie. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-pocophone-reparatie/poco-x4-pro-reparatie/"
   ],
