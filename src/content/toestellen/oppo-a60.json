@@ -3,16 +3,11 @@
   "brandId": "oppo",
   "categoryId": "smartphone",
   "series": "OPPO A",
-  "order": 48500,
-  "releaseYear": "",
+  "order": 48300,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/oppo-a60/photo.webp",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm, OLED vervangen",
@@ -71,6 +66,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/oppo-reparatie/oppo-a60/"
   ],
