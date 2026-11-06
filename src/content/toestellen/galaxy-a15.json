@@ -3,7 +3,7 @@
   "brandId": "samsung",
   "categoryId": "smartphone",
   "series": "Galaxy A",
-  "order": 14400,
+  "order": 11300,
   "releaseYear": "2023",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-a15/photo.jpg",
@@ -11,10 +11,6 @@
   "aliases": [
     "Samsung A15"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung A15 reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen"
-  },
   "prices": [
     {
       "label": "Scherm, LCD 4G vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -126,6 +122,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung A15 reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a15/"
   ],
