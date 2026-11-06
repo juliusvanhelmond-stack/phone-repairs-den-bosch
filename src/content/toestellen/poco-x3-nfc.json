@@ -3,16 +3,11 @@
   "brandId": "poco",
   "categoryId": "smartphone",
   "series": "Poco X",
-  "order": 42800,
-  "releaseYear": "",
+  "order": 42200,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/poco-x3-nfc/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "Xiaomi Poco X3 NFC reparatie. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
-  },
   "prices": [
     {
       "label": "Poco X3 scherm, LCD en frame vervangen",
@@ -127,6 +122,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Xiaomi Poco X3 NFC reparatie. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-pocophone-reparatie/poco-x3-nfc/"
   ],
