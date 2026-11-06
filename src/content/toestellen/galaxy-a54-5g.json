@@ -3,8 +3,7 @@
   "brandId": "samsung",
   "categoryId": "smartphone",
   "series": "Galaxy A",
-  "order": 11100,
-  "releaseYear": "",
+  "order": 11400,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-a54-5g/photo.jpg",
   "popular": false,
@@ -13,10 +12,6 @@
     "Samsung A54 5G (SM-A546B)",
     "SM-A546B"
   ],
-  "seo": {
-    "title": "Samsung A54 5G reparatie voor een kapot scherm",
-    "description": "Ontdek de snelle en professionele Samsung A54 5G reparatie met originele onderdelen. Bel nu voor een afspraak!"
-  },
   "prices": [
     {
       "label": "Scherm, LCD en frame vervangen (originele Samsung service pack, zoals Samsung vereist)",
@@ -120,6 +115,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung A54 5G reparatie voor een kapot scherm",
+    "description": "Ontdek de snelle en professionele Samsung A54 5G reparatie met originele onderdelen. Bel nu voor een afspraak!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a54-5g/"
   ],
