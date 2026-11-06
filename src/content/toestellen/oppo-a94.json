@@ -3,16 +3,11 @@
   "brandId": "oppo",
   "categoryId": "smartphone",
   "series": "OPPO A",
-  "order": 47700,
-  "releaseYear": "",
+  "order": 47300,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/oppo-a94/photo.webp",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "OPPO A94 reparatie: Snel en Professioneel",
-    "description": "Snelle en professionele OPPO A94 reparatie met garantie bij Phone Repairs Den Bosch. Neem contact op voor meer informatie."
-  },
   "prices": [
     {
       "label": "5G (CPH2211) scherm, AMOLED vervangen",
@@ -79,6 +74,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "OPPO A94 reparatie: Snel en Professioneel",
+    "description": "Snelle en professionele OPPO A94 reparatie met garantie bij Phone Repairs Den Bosch. Neem contact op voor meer informatie."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oppo-reparatie/oppo-a94/"
   ],
