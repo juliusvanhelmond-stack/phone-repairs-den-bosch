@@ -3,18 +3,13 @@
   "brandId": "samsung",
   "categoryId": "smartphone",
   "series": "Galaxy A",
-  "order": 13000,
-  "releaseYear": "",
+  "order": 10400,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-a27/photo.jpg",
   "popular": false,
   "aliases": [
     "Samsung A27"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung A27 reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen"
-  },
   "prices": [
     {
       "label": "Scherm, LCD 5G vervangen",
@@ -118,6 +113,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung A27 reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a27-2/",
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a27/"
