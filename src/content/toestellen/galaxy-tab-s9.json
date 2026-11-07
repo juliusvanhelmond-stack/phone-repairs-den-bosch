@@ -6,17 +6,13 @@
   "order": 55207,
   "releaseYear": "2023",
   "art": "tablet",
-  "photo": null,
+  "photo": "/images/toestellen/galaxy-tab-s9/photo.jpg",
   "popular": false,
   "aliases": [
     "Samsung Tab S9 (SM-X710 / SM-X716)",
     "SM-X710",
     "SM-X716"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm, LCD vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -27,6 +23,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [],
   "sources": [
     {
