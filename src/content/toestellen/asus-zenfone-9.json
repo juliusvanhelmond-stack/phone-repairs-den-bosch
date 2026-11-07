@@ -4,7 +4,6 @@
   "categoryId": "smartphone",
   "series": "Asus Zenfone",
   "order": 50300,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/asus-zenfone-9/photo.jpg",
   "popular": false,
@@ -12,10 +11,6 @@
     "Asus ZenFone 9 (AI2202)",
     "AI2202"
   ],
-  "seo": {
-    "title": "",
-    "description": "Asus Zenfone 9 reparatie Nederland. snel en vakkundig, originele onderdelen, 3 mnd garantie, klaar terwijl u meekijkt. Officiële BTW factuur"
-  },
   "prices": [
     {
       "label": "Scherm, AMOLED vervangen",
@@ -98,6 +93,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Asus Zenfone 9 reparatie Nederland. snel en vakkundig, originele onderdelen, 3 mnd garantie, klaar terwijl u meekijkt. Officiële BTW factuur"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/asus-zenfone-reparatie/asus-zenfone-9/"
   ],
