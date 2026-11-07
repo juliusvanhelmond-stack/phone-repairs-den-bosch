@@ -12,10 +12,6 @@
     "Samsung S20 FE",
     "Samsung Galaxy S20 FE 5G"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung S20 FE reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden gar., klaar terwijl u meekijkt."
-  },
   "prices": [
     {
       "label": "(SM-G781) scherm, Dynamic AMOLED, frame / zijkanten vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -159,6 +155,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung S20 FE reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden gar., klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s20-fe-reparatie/"
   ],
