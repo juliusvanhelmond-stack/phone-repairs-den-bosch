@@ -1,14 +1,16 @@
 {
-  "name": "OPPO A72",
+  "name": "OPPO A72 5G",
   "brandId": "oppo",
   "categoryId": "smartphone",
   "series": "OPPO A",
   "order": 48200,
   "art": "phone-punch-hole",
+  "photo": "/images/toestellen/oppo-a72-5-g/photo.jpg",
   "popular": false,
   "aliases": [
     "OPPO A72 (CPH2067)",
-    "CPH2067"
+    "CPH2067",
+    "OPPO A72 5G"
   ],
   "prices": [
     {
