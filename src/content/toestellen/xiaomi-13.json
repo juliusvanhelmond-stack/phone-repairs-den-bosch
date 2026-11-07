@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "Xiaomi",
   "order": 37500,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/xiaomi-13/photo.webp",
+  "photo": "/images/toestellen/xiaomi-13/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "Xiaomi 13 reparatie Nederland. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, QHD AMOLED vervangen (service pack zoals Xiaomi",
@@ -87,6 +82,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Xiaomi 13 reparatie Nederland. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-13/"
   ],
