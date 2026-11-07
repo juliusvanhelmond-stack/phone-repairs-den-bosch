@@ -4,19 +4,14 @@
   "categoryId": "tablet",
   "series": "Galaxy Tab S",
   "order": 55205,
-  "releaseYear": "",
   "art": "tablet",
-  "photo": null,
+  "photo": "/images/toestellen/galaxy-tab-s9-ultra/photo.jpg",
   "popular": false,
   "aliases": [
     "Samsung Tab S9 Ultra (SM-X910 / SM-X916)",
     "SM-X910",
     "SM-X916"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm, LCD vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -27,6 +22,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [],
   "sources": [
     {
