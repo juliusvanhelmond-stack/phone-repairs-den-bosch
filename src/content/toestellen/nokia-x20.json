@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "Nokia X",
   "order": 27900,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/nokia-x20/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "Nokia X20 reparatie snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt. Officiële BTW factuur op naam"
-  },
   "prices": [
     {
       "label": "Scherm, LCD en frame vervangen",
@@ -68,6 +63,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Nokia X20 reparatie snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt. Officiële BTW factuur op naam"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/nokia-reparatie/nokia-x20/"
   ],
