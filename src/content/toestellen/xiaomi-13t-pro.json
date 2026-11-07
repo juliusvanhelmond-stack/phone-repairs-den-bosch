@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "Xiaomi",
   "order": 37300,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/xiaomi-13t-pro/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "Xiaomi 13T Pro reparatie Nederland. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
-  },
   "prices": [
     {
       "label": "Xiaomi 1T3 Pro scherm, QHD AMOLED en frame vervangen (service pack zoals Xiaomi vereist)",
@@ -87,6 +82,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Xiaomi 13T Pro reparatie Nederland. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-13-t-pro/"
   ],
