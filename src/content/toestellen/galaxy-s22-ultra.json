@@ -6,17 +6,13 @@
   "order": 8100,
   "releaseYear": "2022",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/galaxy-s22-ultra/photo.webp",
+  "photo": "/images/toestellen/galaxy-s22-ultra/photo.jpg",
   "popular": false,
   "aliases": [
     "Samsung S22 Ultra",
     "Samsung Galaxy S22 Ultra (SM-S908)",
     "SM-S908"
   ],
-  "seo": {
-    "title": "Samsung S22 Ultra reparatie: Professionele Service",
-    "description": "Snel en professioneel Samsung S22 Ultra reparatie bij Phone Repairs Den Bosch. Bel nu voor een afspraak!"
-  },
   "prices": [
     {
       "label": "Scherm, Dynamic AMOLED, frame / zijkanten en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -160,6 +156,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung S22 Ultra reparatie: Professionele Service",
+    "description": "Snel en professioneel Samsung S22 Ultra reparatie bij Phone Repairs Den Bosch. Bel nu voor een afspraak!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s22-ultra/"
   ],
