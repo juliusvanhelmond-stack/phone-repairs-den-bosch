@@ -4,9 +4,8 @@
   "categoryId": "tablet",
   "series": "Galaxy Tab S",
   "order": 55202,
-  "releaseYear": "",
   "art": "tablet",
-  "photo": null,
+  "photo": "/images/toestellen/galaxy-tab-s10-fe/photo.jpg",
   "popular": false,
   "aliases": [
     "Samsung Tab S10 FE ( SM-X520, SM-X526)",
@@ -14,10 +13,6 @@
     "SM-X526",
     "Samsung Tab S10 FE (SM-X520, SM-X526)"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Ultra scherm, LCD vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -36,6 +31,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [],
   "sources": [
     {
