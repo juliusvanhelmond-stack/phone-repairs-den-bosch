@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "Xiaomi",
   "order": 36800,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/xiaomi-15/photo.webp",
+  "photo": "/images/toestellen/xiaomi-15/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "Xiaomi Mi 15 reparatie service in Den Bosch",
-    "description": "Laat uw Xiaomi Mi 15 reparatie snel en professioneel uitvoeren bij Phone Repairs Den Bosch met garantie op onderdelen."
-  },
   "prices": [
     {
       "label": "Scherm en frame vervangen",
@@ -87,6 +82,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Xiaomi Mi 15 reparatie service in Den Bosch",
+    "description": "Laat uw Xiaomi Mi 15 reparatie snel en professioneel uitvoeren bij Phone Repairs Den Bosch met garantie op onderdelen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-15/"
   ],
