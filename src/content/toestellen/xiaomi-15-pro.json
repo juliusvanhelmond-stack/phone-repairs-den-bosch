@@ -4,17 +4,12 @@
   "categoryId": "smartphone",
   "series": "Xiaomi",
   "order": 36700,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/xiaomi-15-pro/photo.webp",
+  "photo": "/images/toestellen/xiaomi-15-pro/photo.jpg",
   "popular": false,
   "aliases": [
     "Xiaomi Mi 15 Pro"
   ],
-  "seo": {
-    "title": "",
-    "description": "Xiaomi MI 15 Pro reparatie Nederland. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm vervangen",
@@ -97,6 +92,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Xiaomi MI 15 Pro reparatie Nederland. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-15-pro/"
   ],
