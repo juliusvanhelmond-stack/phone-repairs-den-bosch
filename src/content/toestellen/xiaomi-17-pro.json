@@ -4,17 +4,12 @@
   "categoryId": "smartphone",
   "series": "Xiaomi",
   "order": 36300,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/xiaomi-17-pro/photo.jpg",
   "popular": false,
   "aliases": [
     "Xiaomi Mi 17 Pro"
   ],
-  "seo": {
-    "title": "Xiaomi Mi 17 Pro reparatie: Veelvoorkomende defecten",
-    "description": "Professionele Xiaomi Mi 17 Pro reparatie met garantie. Snelle service en originele onderdelen voor al uw defecten."
-  },
   "prices": [
     {
       "label": "Scherm vervangen",
@@ -97,6 +92,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Xiaomi Mi 17 Pro reparatie: Veelvoorkomende defecten",
+    "description": "Professionele Xiaomi Mi 17 Pro reparatie met garantie. Snelle service en originele onderdelen voor al uw defecten."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-17-pro/"
   ],
