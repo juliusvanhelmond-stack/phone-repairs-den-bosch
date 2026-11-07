@@ -3,16 +3,12 @@
   "brandId": "xiaomi",
   "categoryId": "smartphone",
   "series": "Xiaomi",
-  "order": 37000,
+  "order": 37250,
   "releaseYear": "2024",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/xiaomi-14/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "Xiaomi 14 reparatie Nederland. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm vervangen",
@@ -103,6 +99,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Xiaomi 14 reparatie Nederland. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-14/"
   ],
