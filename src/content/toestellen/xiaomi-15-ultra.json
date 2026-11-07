@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "Xiaomi",
   "order": 36600,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/xiaomi-15-ultra/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "Xiaomi Mi 15 Ultra reparatie voor alle veelvoorkomende defecten",
-    "description": "Hebt u schade aan uw Xiaomi 15 Ultra? Ontdek snelle en professionele Xiaomi Mi 15 Ultra reparatie bij Phone Repairs Den Bosch."
-  },
   "prices": [
     {
       "label": "Scherm vervangen",
@@ -95,6 +90,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Xiaomi Mi 15 Ultra reparatie voor alle veelvoorkomende defecten",
+    "description": "Hebt u schade aan uw Xiaomi 15 Ultra? Ontdek snelle en professionele Xiaomi Mi 15 Ultra reparatie bij Phone Repairs Den Bosch."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-15-ultra/"
   ],
