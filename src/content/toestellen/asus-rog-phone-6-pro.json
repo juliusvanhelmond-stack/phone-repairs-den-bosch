@@ -4,17 +4,12 @@
   "categoryId": "smartphone",
   "series": "Asus ROG Phone",
   "order": 49800,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/asus-rog-phone-6-pro/photo.jpg",
   "popular": false,
   "aliases": [
     "Asus ROG Phone 6 Pro (Republic Of Gamers)"
   ],
-  "seo": {
-    "title": "",
-    "description": "Asus ROG Phone 6 Pro reparatie, snel en vakkundig, originele onderdelen, 12 maanden gar, klaar terwijl u meekijkt. Officiële BTW factuu"
-  },
   "prices": [
     {
       "label": "Scherm, AMOLED vervangen",
@@ -89,6 +84,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Asus ROG Phone 6 Pro reparatie, snel en vakkundig, originele onderdelen, 12 maanden gar, klaar terwijl u meekijkt. Officiële BTW factuu"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/asus-zenfone-reparatie/asus-rog-phone-6-pro/"
   ],
