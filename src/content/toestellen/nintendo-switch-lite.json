@@ -46,7 +46,7 @@
     },
     {
       "label": "Nintendo Switch joystick links vervangen",
-      "price": "€75,-",
+      "price": "€85,-",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -91,19 +91,6 @@
       "popular": false,
       "original": true,
       "links": []
-    },
-    {
-      "label": "Nintendo Switch moederbord onderzoek",
-      "price": "€49,-",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "original": false,
-      "links": [
-        {
-          "text": "moederbord onderzoek",
-          "href": "/moederbord-reparatie-den-bosch"
-        }
-      ]
     },
     {
       "label": "Nintendo Switch oplaad IC vervangen (moederbord reparatie)",
