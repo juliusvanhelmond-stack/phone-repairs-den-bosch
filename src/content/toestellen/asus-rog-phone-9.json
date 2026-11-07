@@ -4,17 +4,12 @@
   "categoryId": "smartphone",
   "series": "Asus ROG Phone",
   "order": 49400,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/asus-rog-phone-9/photo.webp",
+  "photo": "/images/toestellen/asus-rog-phone-9/photo.jpg",
   "popular": false,
   "aliases": [
     "Asus ROG Phone 9 (Republic Of Gamers)"
   ],
-  "seo": {
-    "title": "",
-    "description": "Asus ROG Phone 9 reparatie, snel en vakkundig, originele onderdelen, 12 maanden gar, klaar terwijl u meekijkt. Officiële BTW factuu"
-  },
   "prices": [
     {
       "label": "Scherm, AMOLED vervangen",
@@ -89,6 +84,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Asus ROG Phone 9 reparatie, snel en vakkundig, originele onderdelen, 12 maanden gar, klaar terwijl u meekijkt. Officiële BTW factuu"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/asus-zenfone-reparatie/asus-rog-phone-9/"
   ],
