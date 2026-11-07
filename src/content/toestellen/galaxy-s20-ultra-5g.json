@@ -4,7 +4,6 @@
   "categoryId": "smartphone",
   "series": "Galaxy S",
   "order": 8800,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-s20-ultra-5g/photo.jpg",
   "popular": false,
@@ -13,10 +12,6 @@
     "Samsung Galaxy S20 Ultra 5G (SM-G988B)",
     "SM-G988B"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung S20 Ultra 5G reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, Dynamic AMOLED, frame / zijkanten en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -152,6 +147,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung S20 Ultra 5G reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s20-ultra-5g/"
   ],
