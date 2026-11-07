@@ -13,10 +13,6 @@
     "Samsung Galaxy S21 FE",
     "Samsung Galaxy S21 FE 5G"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm, Dynamic AMOLED, frame / zijkanten vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -144,6 +140,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s21-fe-2/",
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s21-fe/"
