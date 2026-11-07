@@ -95,3 +95,10 @@ production (or work on a separate branch and merge after review, if you want a c
 - FAQs in the CMS.
 - Redirects in the CMS, for link-building results.
 - English fields for pages created in the CMS.
+
+## Wanneer staan wijzigingen live? (sinds 7 november 2026)
+
+Wijzigingen in het beheer gaan één keer per dag live, om 13:00. Alles wat vóór 13:00 is opgeslagen, staat
+daarna binnen een paar minuten op de site; wat na 13:00 wordt opgeslagen, gaat de volgende dag om 13:00 live.
+Dit scheelt veel bouwkosten bij Vercel (elke opslag bouwde eerst de hele site opnieuw). Moet iets eerder live,
+dan zetten wij het handmatig door.
