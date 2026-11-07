@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "Poco F",
   "order": 41500,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/poco-f7/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "Xiaomi Poco F7 reparatie. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm, AMOLED vervangen (origineel Xiaomi service pack, zoals Xiaomi vereist)",
@@ -119,6 +114,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Xiaomi Poco F7 reparatie. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-pocophone-reparatie/poco-f7/"
   ],
