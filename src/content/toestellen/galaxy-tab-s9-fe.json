@@ -6,17 +6,13 @@
   "order": 55208,
   "releaseYear": "2023",
   "art": "tablet",
-  "photo": null,
+  "photo": "/images/toestellen/galaxy-tab-s9-fe/photo.jpg",
   "popular": false,
   "aliases": [
     "Samsung Tab S9 FE (SM-X510 / SM-X516)",
     "SM-X510",
     "SM-X516"
   ],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm, LCD vervangen (origineel Samsung service pack, zoals Samsung vereist)",
@@ -27,6 +23,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [],
   "sources": [
     {
