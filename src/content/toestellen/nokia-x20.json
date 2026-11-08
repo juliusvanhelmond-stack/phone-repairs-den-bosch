@@ -18,30 +18,6 @@
       "links": []
     },
     {
-      "label": "Achterzijde vervangen (excl. camera lenzen)",
-      "price": "€70,-",
-      "repairId": "achterkant-vervangen",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Oplaadpoort vervangen",
-      "price": "€75,-",
-      "repairId": "oplaadpoort-repareren",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Batterij vervangen",
-      "price": "€60,-",
-      "repairId": "batterij-vervangen",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
       "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
       "price": "€60,-",
       "repairId": "waterschade",
