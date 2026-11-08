@@ -4,44 +4,15 @@
   "categoryId": "smartphone",
   "series": "Nokia XR",
   "order": 27800,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/nokia-xr20/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "Nokia XR20 reparatie snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt. Officiële BTW factuur op naam"
-  },
   "prices": [
     {
       "label": "Scherm, LCD vervangen",
       "price": "€130,-",
       "repairId": "scherm-vervangen",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Achterzijde vervangen (excl. camera lenzen)",
-      "price": "€70,-",
-      "repairId": "achterkant-vervangen",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Oplaadpoort vervangen",
-      "price": "€75,-",
-      "repairId": "oplaadpoort-repareren",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Batterij vervangen",
-      "price": "€70,-",
-      "repairId": "batterij-vervangen",
       "popular": false,
       "original": true,
       "links": []
@@ -68,6 +39,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Nokia XR20 reparatie snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt. Officiële BTW factuur op naam"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/nokia-reparatie/nokia-xr20/"
   ],
