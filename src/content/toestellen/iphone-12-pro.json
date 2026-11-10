@@ -79,6 +79,19 @@
       ]
     },
     {
+      "label": "Oplaadconnector origineel Apple service pack vervangen",
+      "price": "€90,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "original": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
       "label": "Volledige achterkant vervangen (incl. knoppen, oplaadpoort, antennes, taptic engine, luidspreker) origineel Apple service pack",
       "price": "€180,-",
       "repairId": "achterkant-vervangen",
@@ -100,19 +113,6 @@
       "links": [
         {
           "text": "origineel Apple Service pack",
-          "href": "/iphone-onderdelen-kalibreren"
-        }
-      ]
-    },
-    {
-      "label": "Oplaadconnector origineel Apple service pack vervangen",
-      "price": "€90,-",
-      "repairId": "oplaadpoort-repareren",
-      "popular": false,
-      "original": true,
-      "links": [
-        {
-          "text": "origineel Apple service pack",
           "href": "/iphone-onderdelen-kalibreren"
         }
       ]
