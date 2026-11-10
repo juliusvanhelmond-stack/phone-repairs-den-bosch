@@ -40,17 +40,17 @@
       ]
     },
     {
-      "label": "Volledige achterkant vervangen (incl. knoppen, oplaadpoort, antennes, taptic engine, luidspreker)",
-      "price": "€135,-",
-      "repairId": "achterkant-vervangen",
+      "label": "Oplaadconnector vervangen",
+      "price": "€60,-",
+      "repairId": "oplaadpoort-repareren",
       "popular": false,
       "original": true,
       "links": []
     },
     {
-      "label": "Oplaadconnector vervangen",
-      "price": "€60,-",
-      "repairId": "oplaadpoort-repareren",
+      "label": "Volledige achterkant vervangen (incl. knoppen, oplaadpoort, antennes, taptic engine, luidspreker)",
+      "price": "€135,-",
+      "repairId": "achterkant-vervangen",
       "popular": false,
       "original": true,
       "links": []
