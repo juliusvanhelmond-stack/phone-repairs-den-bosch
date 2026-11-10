@@ -12,9 +12,9 @@
   "prices": [
     {
       "label": "Scherm vervangen premium OLED",
-      "price": "€130,-",
+      "price": "€175,-",
       "repairId": "scherm-vervangen",
-      "popular": false,
+      "popular": true,
       "original": false,
       "links": [
         {
@@ -25,9 +25,9 @@
     },
     {
       "label": "Scherm vervangen origineel pulled (origineel scherm afkomstig uit een nieuw toestel)",
-      "price": "€180,-",
+      "price": "€230,-",
       "repairId": "scherm-vervangen",
-      "popular": true,
+      "popular": false,
       "original": true,
       "links": [
         {
