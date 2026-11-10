@@ -76,9 +76,9 @@
       ]
     },
     {
-      "label": "Volledige achterkant vervangen (incl. knoppen, oplaadpoort, antennes, taptic engine, luidspreker) origineel Apple service pack",
-      "price": "€215,-",
-      "repairId": "achterkant-vervangen",
+      "label": "Oplaadconnector origineel Apple service pack vervangen",
+      "price": "€115,-",
+      "repairId": "oplaadpoort-repareren",
       "popular": false,
       "original": true,
       "links": [
@@ -89,9 +89,9 @@
       ]
     },
     {
-      "label": "Oplaadconnector origineel Apple service pack vervangen",
-      "price": "€115,-",
-      "repairId": "oplaadpoort-repareren",
+      "label": "Volledige achterkant vervangen (incl. knoppen, oplaadpoort, antennes, taptic engine, luidspreker) origineel Apple service pack",
+      "price": "€215,-",
+      "repairId": "achterkant-vervangen",
       "popular": false,
       "original": true,
       "links": [
