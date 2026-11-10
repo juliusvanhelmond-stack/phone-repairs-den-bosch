@@ -32,17 +32,17 @@
       ]
     },
     {
-      "label": "Volledige achterkant incl. frame (zijkanten, knoppen, glas achterzijde en cameralens) vervangen",
-      "price": "€125,-",
-      "repairId": "camera-repareren",
+      "label": "Oplaadconnector vervangen",
+      "price": "€90,-",
+      "repairId": "oplaadpoort-repareren",
       "popular": false,
       "original": true,
       "links": []
     },
     {
-      "label": "Oplaadconnector vervangen",
-      "price": "€90,-",
-      "repairId": "oplaadpoort-repareren",
+      "label": "Volledige achterkant incl. frame (zijkanten, knoppen, glas achterzijde en cameralens) vervangen",
+      "price": "€125,-",
+      "repairId": "camera-repareren",
       "popular": false,
       "original": true,
       "links": []
