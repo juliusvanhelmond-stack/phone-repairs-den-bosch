@@ -1,0 +1,136 @@
+{
+  "name": "Motorola Razr Flex",
+  "brandId": "motorola",
+  "categoryId": "smartphone",
+  "series": "Motorola Razr",
+  "order": 50000,
+  "releaseYear": "2026",
+  "art": "phone-foldable",
+  "photo": "/images/toestellen/motorola-razr-flex/photo.jpg",
+  "popular": false,
+  "aliases": [
+    "Motorola Razr Flex"
+  ],
+  "prices": [
+    {
+      "label": "Scherm buitendisplay origineel vervangen",
+      "price": "Prijs op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Scherm binnendisplay, frame en scharnier origineel vervangen",
+      "price": "Prijs op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Achterkant (boven) incl. OLED scherm en cameralenzen vervangen",
+      "price": "Prijs op aanvraag",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Batterijen vervangen",
+      "price": "Prijs op aanvraag",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Oplaadpoort vervangen",
+      "price": "Prijs op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Camera main achterzijde vervangen",
+      "price": "Prijs op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Camera Ultra Wide achterzijde vervangen",
+      "price": "Prijs op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Camera voorzijde vervangen",
+      "price": "Prijs op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Trilmotor vervangen",
+      "price": "Prijs op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "SIM kaart houder",
+      "price": "Prijs op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€150,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "original": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Motorola Razr Flex reparatie Den Bosch",
+    "description": "Motorola Razr Flex reparatie met originele onderdelen en transparante prijzen. Bel snel voor een afspraak voor hulp!"
+  },
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/motorola-reparatie/motorola-razr-50-ultra/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/motorola-reparatie/motorola-razr-50-ultra/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-10-07."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "42848",
+      "pageTitle": "Motorola Razr 50 Ultra",
+      "modified": "2026-10-07 13:27:55"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/motorola-reparatie/motorola-razr-50-ultra/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-10-07"
+  }
+}
