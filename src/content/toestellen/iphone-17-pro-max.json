@@ -78,6 +78,19 @@
       ]
     },
     {
+      "label": "USB-C oplaadconnector origineel Apple Service pack vervangen",
+      "price": "€140,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "original": true,
+      "links": [
+        {
+          "text": "origineel Apple Service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
       "label": "Achterkant glas vervangen (incl. draadloos laden coil) origineel Apple Service pack",
       "price": "€175,-",
       "repairId": "achterkant-vervangen",
@@ -91,30 +104,9 @@
       ]
     },
     {
-      "label": "Camera lens aan de achterkant vervangen (per lens)",
-      "price": "€80,-",
-      "repairId": "camera-repareren",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
       "label": "Volledige achterkant vervangen (incl. achterkant glas, knoppen, oplaadpoort, antennes, taptic engine, luidspreker, cameralenzen) origineel Apple Service pack",
       "price": "€495,-",
       "repairId": "camera-repareren",
-      "popular": false,
-      "original": true,
-      "links": [
-        {
-          "text": "origineel Apple Service pack",
-          "href": "/iphone-onderdelen-kalibreren"
-        }
-      ]
-    },
-    {
-      "label": "USB-C oplaadconnector origineel Apple Service pack vervangen",
-      "price": "€140,-",
-      "repairId": "oplaadpoort-repareren",
       "popular": false,
       "original": true,
       "links": [
@@ -149,6 +141,14 @@
       "label": "Taptic Engine vervangen",
       "price": "€110,-",
       "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Camera lens aan de achterkant vervangen (per lens)",
+      "price": "€80,-",
+      "repairId": "camera-repareren",
       "popular": false,
       "original": true,
       "links": []
