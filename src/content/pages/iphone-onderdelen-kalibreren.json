@@ -4,10 +4,10 @@
   "kind": "service",
   "title": "Uitleg iPhone onderdelen kalibreren na reparatie",
   "eyebrow": "iPhone onderdelen",
-  "intro": "Heb je een nieuwe batterij, een vers scherm of een andere reparatie nodig? Sinds iOS 26 (voor iPhone 12 en nieuwer) is het proces een stuk transparanter geworden. je kunt nu namelijk zelf controleren of je nieuwe onderdeel perfect is gekoppeld aan je toestel via kalibratie.",
+  "intro": "Een nieuwe batterij, een nieuw scherm of een andere reparatie nodig? Met iOS 26 krijg je op een iPhone 12 of nieuwer meer inzicht in de vervangen onderdelen. Je kunt zelf controleren of de kalibratie is afgerond en het onderdeel correct aan je toestel is gekoppeld. Ook zie je of het gaat om een nieuw origineel onderdeel, een eerder gebruikt origineel onderdeel (‘pulled’) of een niet-origineel onderdeel.",
   "seo": {
     "title": "iPhone onderdelen kalibreren na reparatie uitleg",
-    "description": "Met iOS 26 kun je iPhone onderdelen kalibreren na reparaties. Zorg voor de kwaliteit en controleer de geschiedenis van onderdelen."
+    "description": "iPhone laten repareren? Ontdek hoe je in iOS 26 de kalibratie en herkomst van vervangen onderdelen controleert. Zo weet je wat er in je toestel zit."
   },
   "placeKind": "plaats",
   "focus": "",
@@ -15,11 +15,11 @@
     {
       "heading": "Waarom kalibreren?",
       "intro": [
-        "Na een reparatie aan je scherm, batterij, camera of backcover moet het nieuwe onderdeel 'leren' communiceren met je iPhone. Dit noemen we kalibreren."
+        "Na het vervangen van je scherm, batterij, camera of backcover moet het nieuwe onderdeel goed worden afgestemd op je iPhone. Dit proces noemen we kalibreren en zorgt ervoor dat je toestel en het onderdeel correct samenwerken."
       ],
       "bullets": [
-        "De voorwaarde: je iPhone moet up-to-date zijn met de nieuwste iOS-versie.",
-        "Het resultaat: je hebt volledige zekerheid over de kwaliteit en de herkomst van het onderdeel. Zie het als een digitaal onderhoudsboekje van je iPhone, iPad, MacBook."
+        "Voorwaarde is dat de nieuwste iOS-versie op je iPhone is geïnstalleerd.",
+        "Het resultaat: meer inzicht in de herkomst en status van het vervangen onderdeel. Zie het als een digitaal onderhoudsboekje voor je iPhone, iPad of MacBook."
       ],
       "steps": [],
       "prices": [],
