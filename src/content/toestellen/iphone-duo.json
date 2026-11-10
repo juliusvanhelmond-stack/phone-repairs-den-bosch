@@ -64,21 +64,8 @@
       ]
     },
     {
-      "label": "Batterijen origineel pulled vervangen",
-      "price": "op aanvraag",
-      "repairId": "batterij-vervangen",
-      "popular": false,
-      "original": true,
-      "links": [
-        {
-          "text": "origineel pulled",
-          "href": "/iphone-batterij-vervanging"
-        }
-      ]
-    },
-    {
       "label": "USB-C oplaadconnector origineel Apple Service pack vervangen",
-      "price": "€350,-",
+      "price": "€250,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "original": true,
@@ -91,7 +78,7 @@
     },
     {
       "label": "Taptic Engine origineel Apple service pack vervangen",
-      "price": "€350,-",
+      "price": "€250,-",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -143,7 +130,7 @@
     },
     {
       "label": "Ik hoor mijn gesprekspartner niet, oorluidspreker origineel Apple service pack vervangen",
-      "price": "€350,-",
+      "price": "€250,-",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -156,7 +143,7 @@
     },
     {
       "label": "Handsfree/muziek luidspreker defect origineel Apple service pack vervangen",
-      "price": "€350,-",
+      "price": "€250,-",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
