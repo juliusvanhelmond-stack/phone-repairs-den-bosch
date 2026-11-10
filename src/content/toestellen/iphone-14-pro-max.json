@@ -9,18 +9,18 @@
   "photo": "/images/toestellen/iphone-14-pro-max/photo.jpeg",
   "popular": false,
   "aliases": [
-    "iPhone 13 Pro Max"
+    "iPhone 14 Pro Max"
   ],
   "prices": [
     {
-      "label": "Scherm vervangen premium OLED",
+      "label": "Scherm vervangen Phone Repairs OLED display",
       "price": "€220,-",
       "repairId": "scherm-vervangen",
       "popular": true,
       "original": false,
       "links": [
         {
-          "text": "premium OLED",
+          "text": "Scherm vervangen Phone Repairs OLED display",
           "href": "/iphone-premium-oled-scherm"
         }
       ]
