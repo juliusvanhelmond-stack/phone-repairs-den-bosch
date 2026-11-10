@@ -50,19 +50,6 @@
       ]
     },
     {
-      "label": "Achterkant glas vervangen (incl. cameralenzen) origineel Apple Service pack",
-      "price": "€185,-",
-      "repairId": "achterkant-vervangen",
-      "popular": false,
-      "original": true,
-      "links": [
-        {
-          "text": "origineel Apple Service pack",
-          "href": "/originele-onderdelen-phone-repairs"
-        }
-      ]
-    },
-    {
       "label": "Batterij origineel Apple Service pack vervangen",
       "price": "€145,-",
       "repairId": "batterij-vervangen",
@@ -89,9 +76,9 @@
       ]
     },
     {
-      "label": "Volledig midframe vervangen (incl.) knoppen, oplaadpoort, antennes, taptic engine, luidspreker) origineel Apple Service pack",
-      "price": "€220,-",
-      "repairId": "achterkant-vervangen",
+      "label": "USB-C oplaadconnector origineel Apple Service pack vervangen",
+      "price": "€130,-",
+      "repairId": "oplaadpoort-repareren",
       "popular": false,
       "original": true,
       "links": [
@@ -102,9 +89,22 @@
       ]
     },
     {
-      "label": "USB-C oplaadconnector origineel Apple Service pack vervangen",
-      "price": "€130,-",
-      "repairId": "oplaadpoort-repareren",
+      "label": "Achterkant glas vervangen (incl. cameralenzen) origineel Apple Service pack",
+      "price": "€185,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "original": true,
+      "links": [
+        {
+          "text": "origineel Apple Service pack",
+          "href": "/originele-onderdelen-phone-repairs"
+        }
+      ]
+    },
+    {
+      "label": "Volledig midframe vervangen (incl.) knoppen, oplaadpoort, antennes, taptic engine, luidspreker) origineel Apple Service pack",
+      "price": "€220,-",
+      "repairId": "achterkant-vervangen",
       "popular": false,
       "original": true,
       "links": [
