@@ -14,14 +14,14 @@
   ],
   "prices": [
     {
-      "label": "Scherm vervangen Phone Repairs Soft OLED display",
+      "label": "Scherm vervangen Phone Repairs OLED display",
       "price": "€110,-",
       "repairId": "scherm-vervangen",
       "popular": true,
       "original": false,
       "links": [
         {
-          "text": "premium OLED",
+          "text": "Phone Repairs OLED display",
           "href": "/iphone-premium-oled-scherm"
         }
       ]
