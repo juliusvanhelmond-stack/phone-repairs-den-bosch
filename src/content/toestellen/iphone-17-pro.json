@@ -76,6 +76,19 @@
       ]
     },
     {
+      "label": "USB-C oplaadconnector origineel Apple Service pack vervangen",
+      "price": "€140,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "original": true,
+      "links": [
+        {
+          "text": "origineel Apple Service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
       "label": "Achterkant glas vervangen (incl. draadloos laden coil) origineel Apple Service pack",
       "price": "€160,-",
       "repairId": "achterkant-vervangen",
@@ -108,19 +121,6 @@
       "popular": false,
       "original": true,
       "links": []
-    },
-    {
-      "label": "USB-C oplaadconnector origineel Apple Service pack vervangen",
-      "price": "€140,-",
-      "repairId": "oplaadpoort-repareren",
-      "popular": false,
-      "original": true,
-      "links": [
-        {
-          "text": "origineel Apple Service pack",
-          "href": "/iphone-onderdelen-kalibreren"
-        }
-      ]
     },
     {
       "label": "Face ID true depth camera / front camera module origineel Apple Service pack vervangen",
