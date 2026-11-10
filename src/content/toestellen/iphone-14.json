@@ -50,32 +50,6 @@
       ]
     },
     {
-      "label": "Achterkant glas vervangen (incl. cameralenzen, flitser, draadloos laden coil) origineel Apple Service pack",
-      "price": "€115,-",
-      "repairId": "achterkant-vervangen",
-      "popular": false,
-      "original": true,
-      "links": [
-        {
-          "text": "origineel Apple Service pack",
-          "href": "/iphone-onderdelen-kalibreren"
-        }
-      ]
-    },
-    {
-      "label": "Volledig midframe vervangen (incl. knoppen, cameralenzen, oplaadpoort, antennes, taptic engine, luidspreker) origineel Apple service pack",
-      "price": "€170,-",
-      "repairId": "achterkant-vervangen",
-      "popular": false,
-      "original": true,
-      "links": [
-        {
-          "text": "origineel Apple service pack",
-          "href": "/iphone-onderdelen-kalibreren"
-        }
-      ]
-    },
-    {
       "label": "Batterij origineel Apple Service pack vervangen",
       "price": "€135,-",
       "repairId": "batterij-vervangen",
@@ -105,6 +79,32 @@
       "label": "Oplaadconnector origineel Apple service pack vervangen",
       "price": "€110,-",
       "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "original": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Achterkant glas vervangen (incl. cameralenzen, flitser, draadloos laden coil) origineel Apple Service pack",
+      "price": "€115,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "original": true,
+      "links": [
+        {
+          "text": "origineel Apple Service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Volledig midframe vervangen (incl. knoppen, cameralenzen, oplaadpoort, antennes, taptic engine, luidspreker) origineel Apple service pack",
+      "price": "€170,-",
+      "repairId": "achterkant-vervangen",
       "popular": false,
       "original": true,
       "links": [
