@@ -16,7 +16,7 @@
       "label": "Scherm vervangen premium OLED",
       "price": "€215,-",
       "repairId": "scherm-vervangen",
-      "popular": false,
+      "popular": true,
       "original": false,
       "links": [
         {
@@ -42,7 +42,7 @@
       "label": "Scherm vervangen origineel Apple service pack",
       "price": "€490,-",
       "repairId": "scherm-vervangen",
-      "popular": true,
+      "popular": false,
       "original": true,
       "links": [
         {
