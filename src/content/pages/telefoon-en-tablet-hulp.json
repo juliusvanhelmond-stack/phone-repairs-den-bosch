@@ -81,7 +81,7 @@
       "prices": [
         {
           "label": "Nieuwe smartphone of tablet instellen",
-          "price": "€35"
+          "price": "€30"
         },
         {
           "label": "Software updaten naar de nieuwste versie",
@@ -102,7 +102,7 @@
         },
         {
           "label": "Data overzetten naar een nieuwe smartphone of tablet",
-          "price": "€40"
+          "price": "€30"
         }
       ],
       "body": [],
@@ -116,11 +116,11 @@
       "prices": [
         {
           "label": "Uitleg en demonstratie (per half uur)",
-          "price": "€35"
+          "price": "€30"
         },
         {
           "label": "Problemen oplossen (per half uur)",
-          "price": "€35"
+          "price": "€30"
         }
       ],
       "body": [],
