@@ -55,7 +55,7 @@
       "label": "Batterij origineel Apple Service pack vervangen",
       "price": "€140,-",
       "repairId": "batterij-vervangen",
-      "popular": true,
+      "popular": false,
       "original": true,
       "links": [
         {
@@ -68,7 +68,7 @@
       "label": "Batterij origineel pulled vervangen",
       "price": "€95,-",
       "repairId": "batterij-vervangen",
-      "popular": false,
+      "popular": true,
       "original": true,
       "links": [
         {
