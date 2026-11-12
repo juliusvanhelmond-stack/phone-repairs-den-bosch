@@ -12,7 +12,7 @@
   "prices": [
     {
       "label": "Scherm vervangen Phone Repairs OLED display",
-      "price": "€240,-",
+      "price": "€220,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "original": false,
@@ -25,7 +25,7 @@
     },
     {
       "label": "Scherm vervangen origineel pulled (origineel scherm afkomstig uit een nieuw toestel)",
-      "price": "€265,-",
+      "price": "€325,-",
       "repairId": "scherm-vervangen",
       "popular": true,
       "original": true,
