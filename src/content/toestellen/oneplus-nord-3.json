@@ -6,13 +6,9 @@
   "order": 22700,
   "releaseYear": "2023",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/oneplus-nord-3/photo.webp",
+  "photo": "/images/toestellen/oneplus-nord-3/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "OnePlus Nord 3 reparatie - Phone Repairs - 073-8220013",
-    "description": "OnePlus Nord 3 reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden gar. klaar terwijl je wacht en meekijkt en meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm unit incl. frame vervangen",
@@ -127,6 +123,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "OnePlus Nord 3 reparatie - Phone Repairs - 073-8220013",
+    "description": "OnePlus Nord 3 reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden gar. klaar terwijl je wacht en meekijkt en meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-nord-3/"
   ],
