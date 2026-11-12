@@ -1,0 +1,128 @@
+{
+  "name": "OnePlus Nord 6",
+  "brandId": "oneplus",
+  "categoryId": "smartphone",
+  "series": "OnePlus Nord",
+  "order": 22500,
+  "art": "phone-punch-hole",
+  "photo": "/images/toestellen/one-plus-nord-6/photo.jpg",
+  "popular": false,
+  "aliases": [],
+  "prices": [
+    {
+      "label": "Scherm unit incl. frame vervangen. Origineel OnePlus Service pack",
+      "price": "Prijs op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Achterkant incl. camera lenzen vervangen",
+      "price": "Prijs op aanvraag",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "Prijs op aanvraag",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Oplaadconnector vervangen",
+      "price": "op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "OnePlus 5 Nord oorluidspreker vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Luidspreker vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Microfoon vervangen",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Camera's achterzijde vervangen",
+      "price": "Prijs op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "OnePlus Nord simhouder vervangen",
+      "price": "€15,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "original": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": []
+    }
+  ],
+  "seo": {
+    "title": "OnePlus Nord 6 reparatie: Snel en Professioneel",
+    "description": "Snel en professioneel uw OnePlus Nord 6 reparatie laten uitvoeren met originele service packs. Bel voor een afspraak."
+  },
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-nord-5/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-nord-5/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-03-17."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "38983",
+      "pageTitle": "OnePlus Nord 5",
+      "modified": "2026-03-17 11:59:04"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-nord-5/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-03-17"
+  }
+}
