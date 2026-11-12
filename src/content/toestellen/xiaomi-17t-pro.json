@@ -4,17 +4,12 @@
   "categoryId": "smartphone",
   "series": "Xiaomi",
   "order": 36400,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/xiaomi-17t-pro/photo.jpg",
   "popular": false,
   "aliases": [
     "Xiaomi Mi 17T Pro"
   ],
-  "seo": {
-    "title": "Xiaomi Mi 17T Pro reparatie: Veelvoorkomende defecten",
-    "description": "Snel en betrouwbaar uw Xiaomi Mi 17T Pro laten repareren? Wij bieden alle reparaties met originele onderdelen en full service garantie."
-  },
   "prices": [
     {
       "label": "Scherm en frame vervangen (Xiaomi service pack scherm, zoals Xiaomi vereist)",
@@ -81,6 +76,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "Xiaomi Mi 17T Pro reparatie: Veelvoorkomende defecten",
+    "description": "Snel en betrouwbaar uw Xiaomi Mi 17T Pro laten repareren? Wij bieden alle reparaties met originele onderdelen en full service garantie."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-17t-pro-reparatie/"
   ],
