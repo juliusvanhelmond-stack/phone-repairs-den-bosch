@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "OnePlus Nord",
   "order": 22600,
-  "releaseYear": "",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/oneplus-nord-4/photo.webp",
+  "photo": "/images/toestellen/oneplus-nord-4/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "OnePlus Nord 4 reparatie - Phone Repairs - 073-8220013",
-    "description": "OnePlus Nord 4 reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden gar. klaar terwijl je wacht en meekijkt en meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm unit incl. frame vervangen.Origineel OnePlus Service pack",
@@ -127,6 +122,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "OnePlus Nord 4 reparatie - Phone Repairs - 073-8220013",
+    "description": "OnePlus Nord 4 reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden gar. klaar terwijl je wacht en meekijkt en meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-nord-4/"
   ],
