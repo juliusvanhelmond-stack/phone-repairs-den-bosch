@@ -1,20 +1,20 @@
 {
-  "name": "Galaxy S26 Ultra",
+  "name": "Galaxy S27 Ultra",
   "brandId": "samsung",
   "categoryId": "smartphone",
   "series": "Galaxy S",
   "order": 6400,
-  "releaseYear": "2026",
+  "releaseYear": "2027",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/galaxy-s26-ultra/photo.jpg",
+  "photo": "/images/toestellen/galaxy-s27-ultra/photo.jpg",
   "popular": false,
   "aliases": [
-    "Samsung S26 Ultra",
+    "Samsung S27 Ultra",
     "Samsung Galaxy S26 Ultra"
   ],
   "prices": [
     {
-      "label": "Scherm, Dynamic AMOLED, frame / zijkanten en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist)",
+      "label": "Scherm incl. frame vervangenScherm incl. frame vervangen (origineel Samsung service pack, zoals Samsung vereist)",
       "price": "€345,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -22,7 +22,7 @@
       "links": []
     },
     {
-      "label": "Scherm vervangen",
+      "label": "Scherm vervangen, frame mag geen schade hebben",
       "price": "€250,-",
       "repairId": "scherm-vervangen",
       "popular": false,
