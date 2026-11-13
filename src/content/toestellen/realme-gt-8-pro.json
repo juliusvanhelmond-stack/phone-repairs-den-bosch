@@ -13,7 +13,7 @@
   "prices": [
     {
       "label": "Scherm, AMOLED vervangen",
-      "price": "Prijs op aanvraag",
+      "price": "€375,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "original": true,
@@ -21,7 +21,7 @@
     },
     {
       "label": "Achterkant vervangen",
-      "price": "Prijs op aanvraag",
+      "price": "€120,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "original": true,
@@ -29,7 +29,7 @@
     },
     {
       "label": "Batterij origineel vervangen",
-      "price": "Prijs op aanvraag",
+      "price": "€95,-",
       "repairId": "batterij-vervangen",
       "popular": false,
       "original": true,
@@ -37,7 +37,7 @@
     },
     {
       "label": "USB oplaad connector vervangen",
-      "price": "Prijs op aanvraag",
+      "price": "€95,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "original": true,
