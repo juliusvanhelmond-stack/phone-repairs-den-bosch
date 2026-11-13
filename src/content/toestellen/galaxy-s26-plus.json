@@ -14,7 +14,7 @@
   ],
   "prices": [
     {
-      "label": "Scherm, Dynamic AMOLED, frame / zijkanten en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist)",
+      "label": "Scherm incl. frame vervangen",
       "price": "€370,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -22,7 +22,7 @@
       "links": []
     },
     {
-      "label": "Scherm, Dynamic AMOLED en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist) Frame mag geen schade hebben",
+      "label": "Scherm vervangen",
       "price": "€280,-",
       "repairId": "scherm-vervangen",
       "popular": false,
