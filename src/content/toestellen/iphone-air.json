@@ -8,7 +8,10 @@
   "art": "phone-island",
   "photo": "/images/toestellen/iphone-air/photo.jpg",
   "popular": false,
-  "aliases": [],
+  "aliases": [
+    "iPhone Air",
+    "iPhone 17 Air"
+  ],
   "prices": [
     {
       "label": "Scherm vervangen Phone Repairs OLED display",
