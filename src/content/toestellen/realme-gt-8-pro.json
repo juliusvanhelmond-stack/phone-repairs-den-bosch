@@ -1,0 +1,81 @@
+{
+  "name": "Realme GT 8 Pro",
+  "brandId": "realme",
+  "categoryId": "smartphone",
+  "series": "Realme GT",
+  "order": 52100,
+  "art": "phone-punch-hole",
+  "photo": "/images/toestellen/realme-gt-8-pro/photo.jpg",
+  "popular": false,
+  "aliases": [
+    "Realme GT 8 Pro"
+  ],
+  "prices": [
+    {
+      "label": "Scherm, AMOLED vervangen",
+      "price": "Prijs op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Achterkant vervangen",
+      "price": "Prijs op aanvraag",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Batterij origineel vervangen",
+      "price": "Prijs op aanvraag",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "USB oplaad connector vervangen",
+      "price": "Prijs op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Front camera vervangen",
+      "price": "Prijs op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "original": true,
+      "links": []
+    }
+  ],
+  "seo": {
+    "description": "Realme GT 8 Pro reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
+  },
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/realme-gt2-pro/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/realme-gt2-pro/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2024-06-07."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "33131",
+      "pageTitle": "Realme GT2 Pro",
+      "modified": "2024-06-07 15:14:13"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/realme-gt2-pro/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2024-06-07"
+  }
+}
