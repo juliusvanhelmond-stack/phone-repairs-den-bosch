@@ -1,0 +1,15 @@
+{
+  "question": "Moet ik een back-up maken voordat ik mijn telefoon laat repareren?",
+  "answer": "Ja, dat raden we altijd aan. Een back-up beschermt je foto's, contacten, berichten en andere belangrijke bestanden wanneer er onverwacht iets misgaat. Bij iPhones kan dit via iCloud of een computer. Android-gebruikers kunnen onder andere gebruikmaken van de back-upmogelijkheden van Google.",
+  "order": 500,
+  "repairIds": [
+    "scherm-vervangen",
+    "batterij-vervangen",
+    "oplaadpoort-repareren",
+    "achterkant-vervangen",
+    "camera-repareren",
+    "waterschade",
+    "toetsenbord-vervangen",
+    "overige-reparaties"
+  ]
+}
