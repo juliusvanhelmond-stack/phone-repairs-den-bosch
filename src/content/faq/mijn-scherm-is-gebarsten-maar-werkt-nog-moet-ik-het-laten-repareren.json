@@ -1,0 +1,8 @@
+{
+  "question": "Mijn scherm is gebarsten, maar werkt nog. Moet ik het laten repareren?",
+  "answer": "Het is verstandig om een gebarsten scherm te laten repareren. Barsten kunnen groter worden en glassplinters kunnen verwondingen veroorzaken. Ook kan de beschadiging de bescherming tegen stof en vocht verminderen.",
+  "order": 500,
+  "repairIds": [
+    "scherm-vervangen"
+  ]
+}
