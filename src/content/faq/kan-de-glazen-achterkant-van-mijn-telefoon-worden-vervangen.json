@@ -1,0 +1,8 @@
+{
+  "question": "Kan de glazen achterkant van mijn telefoon worden vervangen?",
+  "answer": "Bij veel smartphones is het mogelijk om een gebarsten glazen achterkant te vervangen. Dit verbetert niet alleen het uiterlijk, maar helpt ook om de interne onderdelen beter te beschermen tegen vuil en vocht. De reparatiemethode verschilt per model.",
+  "order": 500,
+  "repairIds": [
+    "achterkant-vervangen"
+  ]
+}
