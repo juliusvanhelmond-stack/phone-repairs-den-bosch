@@ -1,0 +1,8 @@
+{
+  "question": "Helpt het om mijn natte telefoon in rijst te leggen?",
+  "answer": "Nee. Rijst is geen betrouwbare oplossing voor waterschade. Kleine rijstdeeltjes kunnen zelfs in de aansluitingen terechtkomen. Schakel de telefoon uit, koppel eventuele kabels los en laat het toestel drogen in een goed geventileerde omgeving. Bij vermoedelijke interne waterschade is professionele controle verstandig.",
+  "order": 500,
+  "repairIds": [
+    "waterschade"
+  ]
+}
