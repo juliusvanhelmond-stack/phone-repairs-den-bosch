@@ -1,0 +1,9 @@
+{
+  "question": "Kan de camera van mijn telefoon worden gerepareerd?",
+  "answer": "Ja, bij veel telefoons kunnen defecte cameraonderdelen worden vervangen. Denk aan een camera die niet meer scherpstelt, zwart beeld geeft of beschadigd is door een val. Soms is alleen het cameraglas kapot en hoeft de volledige camera niet te worden vervangen.",
+  "order": 500,
+  "repairIds": [
+    "camera-repareren",
+    "achterkant-vervangen"
+  ]
+}
