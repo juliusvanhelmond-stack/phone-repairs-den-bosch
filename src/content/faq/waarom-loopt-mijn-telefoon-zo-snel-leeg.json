@@ -1,0 +1,8 @@
+{
+  "question": "Waarom loopt mijn telefoon zo snel leeg?",
+  "answer": "Een snel leeglopende batterij kan worden veroorzaakt door slijtage, intensief appgebruik, hoge schermhelderheid, slechte netwerkontvangst of softwareproblemen. Wanneer de batterij versleten is, kan vervanging de gebruiksduur aanzienlijk verbeteren.",
+  "order": 500,
+  "repairIds": [
+    "batterij-vervangen"
+  ]
+}
