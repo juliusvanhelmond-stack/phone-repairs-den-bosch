@@ -1,0 +1,9 @@
+{
+  "question": "Mijn telefoon laadt niet meer op. Wat kan ik doen?",
+  "answer": "Controleer eerst of de oplaadkabel, adapter en het stopcontact goed werken. Soms zit er stof of vuil in de laadpoort. Wanneer de telefoon daarna nog steeds niet oplaadt, kan de laadconnector, batterij of interne elektronica defect zijn.",
+  "order": 500,
+  "repairIds": [
+    "batterij-vervangen",
+    "oplaadpoort-repareren"
+  ]
+}
