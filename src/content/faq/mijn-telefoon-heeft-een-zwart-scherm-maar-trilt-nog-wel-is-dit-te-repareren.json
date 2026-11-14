@@ -1,0 +1,8 @@
+{
+  "question": "Mijn telefoon heeft een zwart scherm, maar trilt nog wel. Is dit te repareren?",
+  "answer": "Vaak wel. Wanneer je telefoon nog geluid maakt of trilt, maar geen beeld toont, kan het scherm of de aansluiting defect zijn. Soms is er een ander hardware- of softwareprobleem. Met een diagnose kan worden vastgesteld wat de oorzaak is.",
+  "order": 500,
+  "repairIds": [
+    "scherm-vervangen"
+  ]
+}
