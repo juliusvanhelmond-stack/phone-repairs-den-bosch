@@ -1,0 +1,9 @@
+{
+  "question": "Kan een kapotte laadpoort worden gerepareerd?",
+  "answer": "Ja, bij veel smartphones kan een defecte laadpoort worden gereinigd of vervangen. Wanneer de oplaadkabel geen goed contact maakt, de telefoon alleen onder een bepaalde hoek oplaadt of helemaal niet meer reageert, kan de laadconnector beschadigd zijn.",
+  "order": 500,
+  "repairIds": [
+    "oplaadpoort-repareren",
+    "batterij-vervangen"
+  ]
+}
