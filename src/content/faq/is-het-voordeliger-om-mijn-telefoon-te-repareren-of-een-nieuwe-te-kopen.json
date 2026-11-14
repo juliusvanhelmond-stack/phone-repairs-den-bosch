@@ -1,0 +1,11 @@
+{
+  "question": "Is het voordeliger om mijn telefoon te repareren of een nieuwe te kopen?",
+  "answer": "Dat hangt af van de reparatiekosten, de leeftijd en de conditie van je telefoon. Een scherm- of batterijvervanging is vaak voordeliger dan een nieuw toestel aanschaffen. Bij meerdere ernstige defecten kan vervanging aantrekkelijker zijn.",
+  "order": 500,
+  "repairIds": [
+    "scherm-vervangen",
+    "batterij-vervangen",
+    "oplaadpoort-repareren",
+    "achterkant-vervangen"
+  ]
+}
