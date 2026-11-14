@@ -1,0 +1,9 @@
+{
+  "question": "Waarom werkt draadloos opladen niet meer op mijn telefoon?",
+  "answer": "Wanneer draadloos opladen niet meer werkt, kan dit komen door een verkeerd geplaatst toestel, een te dik telefoonhoesje, een defecte draadloze oplader of beschadigde interne onderdelen. Als draadloos opladen ook zonder hoesje en met een andere geschikte oplader niet werkt, kan technische controle nodig zijn.",
+  "order": 500,
+  "repairIds": [
+    "batterij-vervangen",
+    "oplaadpoort-repareren"
+  ]
+}
