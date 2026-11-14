@@ -1,0 +1,14 @@
+{
+  "question": "Wat gebeurt er als mijn telefoon niet meer gerepareerd kan worden?",
+  "answer": "Wanneer een reparatie technisch niet mogelijk is of de kosten hoger worden dan de waarde van het toestel, bespreken we de beschikbare mogelijkheden. Zo kun je zelf bepalen of een reparatie nog verstandig is.",
+  "order": 500,
+  "repairIds": [
+    "scherm-vervangen",
+    "oplaadpoort-repareren",
+    "batterij-vervangen",
+    "achterkant-vervangen",
+    "camera-repareren",
+    "waterschade",
+    "overige-reparaties"
+  ]
+}
