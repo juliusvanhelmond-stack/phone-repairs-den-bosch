@@ -2,5 +2,7 @@
   "question": "Waarom reageert het touchscreen van mijn telefoon niet meer?",
   "answer": "Een touchscreen dat niet of slecht reageert, kan worden veroorzaakt door een beschadigd scherm, softwareproblemen of een defect in de interne elektronica. Soms reageert slechts een deel van het scherm niet meer. Met een diagnose kan worden vastgesteld of een schermvervanging nodig is of dat het probleem een andere oorzaak heeft.",
   "order": 500,
-  "repairIds": []
+  "repairIds": [
+    "scherm-vervangen"
+  ]
 }
