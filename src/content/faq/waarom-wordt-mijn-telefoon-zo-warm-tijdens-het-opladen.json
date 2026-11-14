@@ -1,0 +1,10 @@
+{
+  "question": "Waarom wordt mijn telefoon zo warm tijdens het opladen?",
+  "answer": "Tijdens het opladen is enige warmteontwikkeling normaal. Overmatige warmte kan echter worden veroorzaakt door een defecte batterij, een ongeschikte oplader, intensief gebruik of een intern probleem. Wordt het toestel uitzonderlijk heet, stop dan met opladen en laat het controleren.",
+  "order": 500,
+  "repairIds": [
+    "batterij-vervangen",
+    "oplaadpoort-repareren",
+    "achterkant-vervangen"
+  ]
+}
