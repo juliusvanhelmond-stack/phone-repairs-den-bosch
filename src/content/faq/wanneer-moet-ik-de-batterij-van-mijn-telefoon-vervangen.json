@@ -1,0 +1,8 @@
+{
+  "question": "Wanneer moet ik de batterij van mijn telefoon vervangen?",
+  "answer": "Wanneer je telefoon snel leegloopt, onverwacht uitvalt of merkbaar korter meegaat dan voorheen, kan de batterij versleten zijn. Bij iPhones kun je de batterijconditie doorgaans controleren via Instellingen, Batterij en Batterijconditie. Een sterk verminderde capaciteit kan aanleiding zijn om de batterij te vervangen.",
+  "order": 500,
+  "repairIds": [
+    "batterij-vervangen"
+  ]
+}
