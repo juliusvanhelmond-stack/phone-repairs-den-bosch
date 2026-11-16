@@ -2,5 +2,10 @@
   "question": "Waarom geeft mijn iPhone een melding over een onbekend onderdeel na reparatie?",
   "answer": "Een iPhone kan na een reparatie aangeven dat een onderdeel niet is geverifieerd. Dit kan voorkomen bij niet-originele onderdelen, onvoltooide configuratie of onderdelen die niet correct worden herkend. De melding betekent niet automatisch dat het onderdeel niet werkt. De gevolgen verschillen per iPhone-model en onderdeel.",
   "order": 500,
-  "repairIds": []
+  "repairIds": [
+    "scherm-vervangen",
+    "batterij-vervangen",
+    "achterkant-vervangen",
+    "camera-repareren"
+  ]
 }
