@@ -1,13 +1,13 @@
 {
-  "id": "pre-owned-toestellen",
+  "id": "toestel-kopen",
   "path": "/pre-owned-toestellen",
   "kind": "service",
-  "title": "Pre-owned toestellen",
-  "eyebrow": "Pre-owned",
+  "title": "Toestel kopen",
+  "eyebrow": "Pre-owned toestel",
   "intro": "Naast reparaties heeft Phone Repairs een selectie gebruikte toestellen die grondig zijn nagekeken en klaar zijn voor een tweede leven.",
   "seo": {
-    "title": "Pre-owned toestellen · Phone Repairs Den Bosch",
-    "description": "Gebruikte telefoons die op tientallen punten zijn getest, met een batterijconditie tussen 85% en 98%. Vraag naar het actuele aanbod."
+    "title": "Toestel kopen · Phone Repairs Den Bosch",
+    "description": "Toestel kopen. Gebruikte telefoons die op tientallen punten zijn getest, met een batterijconditie tussen 85% en 98%. Vraag naar het actuele aanbod."
   },
   "placeKind": "plaats",
   "focus": "",
