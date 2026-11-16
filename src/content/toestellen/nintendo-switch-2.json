@@ -97,6 +97,14 @@
       "popular": false,
       "original": true,
       "links": []
+    },
+    {
+      "label": "Moederbord onderzoek",
+      "price": "€49,-",
+      "repairId": "auto",
+      "popular": false,
+      "original": true,
+      "links": []
     }
   ],
   "seo": {},
