@@ -4,23 +4,19 @@
   "categoryId": "smartphone",
   "series": "Asus ROG Phone",
   "order": 49400,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/asus-rog-phone-9/photo.webp",
   "popular": false,
   "aliases": [
     "Asus ROG Phone 9 (Republic Of Gamers)"
   ],
-  "seo": {
-    "title": "",
-    "description": "Asus ROG Phone 9 reparatie, snel en vakkundig, originele onderdelen, 12 maanden gar, klaar terwijl u meekijkt. Officiële BTW factuu"
-  },
   "prices": [
     {
-      "label": "Scherm, AMOLED vervangen",
+      "label": "Scherm incl. frame vervangen (origineel Asus service pack, zoals Asus vereist)",
       "price": "€495,-",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -28,6 +24,7 @@
       "price": "€250,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -35,6 +32,7 @@
       "price": "op aanvraag",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -42,6 +40,7 @@
       "price": "op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -49,6 +48,7 @@
       "price": "op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -56,6 +56,7 @@
       "price": "op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -63,6 +64,7 @@
       "price": "op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -70,6 +72,7 @@
       "price": "€60,-",
       "repairId": "waterschade",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -77,9 +80,13 @@
       "price": "€30,--",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],
+  "seo": {
+    "description": "Asus ROG Phone 9 reparatie, snel en vakkundig, originele onderdelen, 12 maanden gar, klaar terwijl u meekijkt. Officiële BTW factuu"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/asus-zenfone-reparatie/asus-rog-phone-9/"
   ],
