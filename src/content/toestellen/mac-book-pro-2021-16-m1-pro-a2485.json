@@ -3,7 +3,7 @@
   "brandId": "apple",
   "categoryId": "laptop",
   "series": "MacBook Pro",
-  "order": 53305,
+  "order": 53304,
   "releaseYear": "2021",
   "art": "laptop",
   "photo": "/images/toestellen/mac-book-pro-2021-16-m1-pro-a2485/photo.jpeg",
@@ -18,6 +18,7 @@
       "price": "€1200,-",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": [
         {
           "text": "origineel Apple service pack",
@@ -30,6 +31,7 @@
       "price": "€875,-",
       "repairId": "scherm-vervangen",
       "popular": true,
+      "original": true,
       "links": [
         {
           "text": "origineel pulled",
@@ -42,6 +44,7 @@
       "price": "€250,-",
       "repairId": "batterij-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],
