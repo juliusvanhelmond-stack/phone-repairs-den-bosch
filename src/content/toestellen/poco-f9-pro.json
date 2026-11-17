@@ -4,21 +4,17 @@
   "categoryId": "smartphone",
   "series": "Poco F",
   "order": 41000,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/poco-f9-pro/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "Poco F9 Pro reparatie: Snelle service in Den Bosch",
-    "description": "Bij Phone Repairs Den Bosch krijgt u professionele Poco F9 Pro reparatie met originele onderdelen en garantie. Neem contact op!"
-  },
   "prices": [
     {
-      "label": "Scherm, AMOLED vervangen (origineel Xiaomi service pack, zoals Xiaomi vereist)",
+      "label": "Scherm incl. frame vervangen (origineel Poco service pack, zoals Xiaomi vereist)",
       "price": "op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -26,6 +22,7 @@
       "price": "op aanvraag",
       "repairId": "achterkant-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -33,6 +30,7 @@
       "price": "op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -40,6 +38,7 @@
       "price": "op aanvraag",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -47,6 +46,7 @@
       "price": "op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -54,6 +54,7 @@
       "price": "op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -61,6 +62,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -68,6 +70,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -75,6 +78,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -82,6 +86,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -89,6 +94,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -96,6 +102,7 @@
       "price": "€15,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -103,9 +110,14 @@
       "price": "€60,-",
       "repairId": "waterschade",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],
+  "seo": {
+    "title": "Poco F9 Pro reparatie: Snelle service in Den Bosch",
+    "description": "Bij Phone Repairs Den Bosch krijgt u professionele Poco F9 Pro reparatie met originele onderdelen en garantie. Neem contact op!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-pocophone-reparatie/poco-f9-pro/"
   ],
