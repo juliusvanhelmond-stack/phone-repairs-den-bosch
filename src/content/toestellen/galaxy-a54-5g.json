@@ -4,7 +4,6 @@
   "categoryId": "smartphone",
   "series": "Galaxy A",
   "order": 11100,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-a54-5g/photo.jpg",
   "popular": false,
@@ -13,16 +12,13 @@
     "Samsung A54 5G (SM-A546B)",
     "SM-A546B"
   ],
-  "seo": {
-    "title": "Samsung A54 5G reparatie voor een kapot scherm",
-    "description": "Ontdek de snelle en professionele Samsung A54 5G reparatie met originele onderdelen. Bel nu voor een afspraak!"
-  },
   "prices": [
     {
-      "label": "Scherm, LCD en frame vervangen (originele Samsung service pack, zoals Samsung vereist)",
+      "label": "Scherm incl. frame vervangen (origineel Samsung service pack, zoals Samsung vereist)",
       "price": "€160,-",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -30,6 +26,7 @@
       "price": "€70,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -37,6 +34,7 @@
       "price": "€70,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -44,6 +42,7 @@
       "price": "€70,-",
       "repairId": "batterij-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -51,6 +50,7 @@
       "price": "€70,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -58,6 +58,7 @@
       "price": "€70,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -65,6 +66,7 @@
       "price": "€75,-",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -72,6 +74,7 @@
       "price": "€70,-",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -79,6 +82,7 @@
       "price": "€70,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -86,6 +90,7 @@
       "price": "€120,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -93,6 +98,7 @@
       "price": "€60,-",
       "repairId": "waterschade",
       "popular": false,
+      "original": true,
       "links": [
         {
           "text": "Chemisch reinigen",
@@ -105,9 +111,14 @@
       "price": "€30,--",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],
+  "seo": {
+    "title": "Samsung A54 5G reparatie voor een kapot scherm",
+    "description": "Ontdek de snelle en professionele Samsung A54 5G reparatie met originele onderdelen. Bel nu voor een afspraak!"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a54-5g/"
   ],
