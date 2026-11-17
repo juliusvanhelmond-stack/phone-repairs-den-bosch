@@ -4,7 +4,6 @@
   "categoryId": "smartphone",
   "series": "Galaxy S",
   "order": 8800,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-s20-ultra-5g/photo.jpg",
   "popular": false,
@@ -13,16 +12,13 @@
     "Samsung Galaxy S20 Ultra 5G (SM-G988B)",
     "SM-G988B"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung S20 Ultra 5G reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
-  },
   "prices": [
     {
-      "label": "Scherm, Dynamic AMOLED, frame / zijkanten en ultrasonic vingerafdruklezer vervangen (origineel Samsung service pack, zoals Samsung vereist)",
+      "label": "Scherm incl. frame vervangen (origineel Samsung service pack, zoals Samsung vereist)",
       "price": "€275,-",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -30,6 +26,7 @@
       "price": "€65,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -37,6 +34,7 @@
       "price": "€75,-",
       "repairId": "batterij-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -44,6 +42,7 @@
       "price": "€65,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -51,6 +50,7 @@
       "price": "€70,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -58,6 +58,7 @@
       "price": "€75,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -65,6 +66,7 @@
       "price": "€155,-",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -72,6 +74,7 @@
       "price": "€90,-",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -79,6 +82,7 @@
       "price": "€90,-",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -86,6 +90,7 @@
       "price": "€75,-",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -93,6 +98,7 @@
       "price": "€60,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -100,6 +106,7 @@
       "price": "€15,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -107,6 +114,7 @@
       "price": "€55,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -114,6 +122,7 @@
       "price": "€55,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -121,6 +130,7 @@
       "price": "€60,-",
       "repairId": "waterschade",
       "popular": false,
+      "original": true,
       "links": [
         {
           "text": "Chemisch reinigen",
@@ -133,9 +143,13 @@
       "price": "€30,--",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung S20 Ultra 5G reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-s20-ultra-5g/"
   ],
