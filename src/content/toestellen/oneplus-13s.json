@@ -3,16 +3,11 @@
   "brandId": "oneplus",
   "categoryId": "smartphone",
   "series": "OnePlus",
-  "order": 24200,
-  "releaseYear": "",
+  "order": 24050,
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/oneplus-13s/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "OnePlus 13s reparatie met originele servicepacks",
-    "description": "Heeft u schade aan uw OnePlus 13s? Wij bieden snelle en professionele OnePlus 13s reparatie met originele onderdelen."
-  },
   "prices": [
     {
       "label": "Scherm, Fluid OLED en frame vervangen",
@@ -183,6 +178,10 @@
       "links": []
     }
   ],
+  "seo": {
+    "title": "OnePlus 13s reparatie met originele servicepacks",
+    "description": "Heeft u schade aan uw OnePlus 13s? Wij bieden snelle en professionele OnePlus 13s reparatie met originele onderdelen."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-13-s/"
   ],
