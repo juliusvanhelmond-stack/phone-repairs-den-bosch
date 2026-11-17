@@ -128,18 +128,10 @@
       ]
     },
     {
-      "label": "Taptic Engine vervangen",
-      "price": "€75,-",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
       "label": "Camera's aan de achterkant origineel pulled vervangen",
       "price": "€170,-",
       "repairId": "camera-repareren",
-      "popular": false,
+      "popular": true,
       "original": true,
       "links": [
         {
@@ -188,6 +180,14 @@
     {
       "label": "Simkaart lezer vervangen",
       "price": "€95,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Taptic Engine vervangen",
+      "price": "€75,-",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
