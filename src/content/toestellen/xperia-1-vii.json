@@ -14,7 +14,7 @@
   "prices": [
     {
       "label": "Scherm, OLED 4K vervangen",
-      "price": "Prijs op aanvraag",
+      "price": "€395,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "original": true,
@@ -22,7 +22,7 @@
     },
     {
       "label": "Achterkant vervangen",
-      "price": "Prijs op aanvraag",
+      "price": "€125,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "original": true,
@@ -30,7 +30,7 @@
     },
     {
       "label": "Batterij vervangen",
-      "price": "Prijs op aanvraag",
+      "price": "€125,-",
       "repairId": "batterij-vervangen",
       "popular": false,
       "original": true,
@@ -38,7 +38,7 @@
     },
     {
       "label": "Koptelefoon ingang vervangen",
-      "price": "Prijs op aanvraag",
+      "price": "€125,-",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -46,40 +46,8 @@
     },
     {
       "label": "USB oplaadpunt vervangen",
-      "price": "Prijs op aanvraag",
+      "price": "€125,-",
       "repairId": "oplaadpoort-repareren",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Volume, aan/uit knoppen vervangen",
-      "price": "Prijs op aanvraag",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Microfoon vervangen",
-      "price": "Prijs op aanvraag",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Camera achterzijde vervangen",
-      "price": "Prijs op aanvraag",
-      "repairId": "camera-repareren",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Front camera vervangen",
-      "price": "Prijs op aanvraag",
-      "repairId": "camera-repareren",
       "popular": false,
       "original": true,
       "links": []
