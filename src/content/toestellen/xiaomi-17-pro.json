@@ -4,30 +4,27 @@
   "categoryId": "smartphone",
   "series": "Xiaomi",
   "order": 36300,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/xiaomi-17-pro/photo.jpg",
   "popular": false,
   "aliases": [
     "Xiaomi Mi 17 Pro"
   ],
-  "seo": {
-    "title": "Xiaomi Mi 17 Pro reparatie: Veelvoorkomende defecten",
-    "description": "Professionele Xiaomi Mi 17 Pro reparatie met garantie. Snelle service en originele onderdelen voor al uw defecten."
-  },
   "prices": [
     {
       "label": "Scherm vervangen",
       "price": "€200,-",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
-      "label": "Scherm en frame vervangen",
+      "label": "Scherm incl. frame vervangen (origineel Xiaomi service pack, zoals Xiaomi vereist)",
       "price": "op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -35,6 +32,7 @@
       "price": "€175,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -42,6 +40,7 @@
       "price": "op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -49,6 +48,7 @@
       "price": "op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -56,6 +56,7 @@
       "price": "op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -63,6 +64,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -70,6 +72,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -77,6 +80,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -84,9 +88,14 @@
       "price": "€60,-",
       "repairId": "waterschade",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],
+  "seo": {
+    "title": "Xiaomi Mi 17 Pro reparatie: Veelvoorkomende defecten",
+    "description": "Professionele Xiaomi Mi 17 Pro reparatie met garantie. Snelle service en originele onderdelen voor al uw defecten."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-17-pro/"
   ],
