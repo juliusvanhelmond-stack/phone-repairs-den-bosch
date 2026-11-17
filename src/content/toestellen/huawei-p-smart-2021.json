@@ -9,16 +9,13 @@
   "photo": "/images/toestellen/huawei-p-smart-2021/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "Huawei P Smart 2021 reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden gar., klaar terwijl u meekijkt."
-  },
   "prices": [
     {
-      "label": "Scherm, LCD en frame vervangen (origineel Huawei service pack, zoals Huawei vereist)",
+      "label": "Scherm incl. frame vervangen (origineel Huawei service pack, zoals Huawei vereist)",
       "price": "op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -26,6 +23,7 @@
       "price": "op aanvraag",
       "repairId": "achterkant-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -33,6 +31,7 @@
       "price": "op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -40,6 +39,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -47,6 +47,7 @@
       "price": "op aanvraag",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -54,6 +55,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -61,6 +63,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -68,6 +71,7 @@
       "price": "op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -75,6 +79,7 @@
       "price": "op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -82,6 +87,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -89,6 +95,7 @@
       "price": "€15,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -96,6 +103,7 @@
       "price": "€60,-",
       "repairId": "waterschade",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -103,9 +111,13 @@
       "price": "€30,--",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],
+  "seo": {
+    "description": "Huawei P Smart 2021 reparatie Den Bosch snel en vakkundig gerepareerd. Originele onderdelen, uniek 12 maanden gar., klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/huawei-reparatie-den-bosch/huawei-p-smart-2021/"
   ],
