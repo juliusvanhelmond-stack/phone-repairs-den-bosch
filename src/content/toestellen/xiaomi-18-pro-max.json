@@ -13,14 +13,6 @@
   ],
   "prices": [
     {
-      "label": "Scherm vervangen",
-      "price": "op aanvraag",
-      "repairId": "scherm-vervangen",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
       "label": "Scherm en frame vervangen",
       "price": "op aanvraag",
       "repairId": "scherm-vervangen",
