@@ -4,21 +4,17 @@
   "categoryId": "smartphone",
   "series": "Xiaomi",
   "order": 38000,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/xiaomi-12x/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "Xiaomi 12X reparatie Nederland. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
-  },
   "prices": [
     {
-      "label": "Scherm, QHD AMOLED en frame vervangen (service pack zoals Xiaomi vereist)",
+      "label": "Scherm incl. frame vervangen (origineel Xiaomi service pack, zoals Xiaomi vereist)",
       "price": "€250,-",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -26,6 +22,7 @@
       "price": "€95,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -33,6 +30,7 @@
       "price": "op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -40,6 +38,7 @@
       "price": "op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -47,6 +46,7 @@
       "price": "op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -54,6 +54,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -61,6 +62,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -68,6 +70,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -75,9 +78,13 @@
       "price": "€60,-",
       "repairId": "waterschade",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],
+  "seo": {
+    "description": "Xiaomi 12X reparatie Nederland. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-12-x-reparatie/"
   ],
