@@ -10,10 +10,11 @@
   "aliases": [],
   "prices": [
     {
-      "label": "Scherm, AMOLED vervangen",
+      "label": "Scherm incl. frame vervangen (origineel Asus service pack, zoals Asus vereist)",
       "price": "€195,-",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -21,6 +22,7 @@
       "price": "€60,-",
       "repairId": "waterschade",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -28,6 +30,7 @@
       "price": "€30,--",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],
