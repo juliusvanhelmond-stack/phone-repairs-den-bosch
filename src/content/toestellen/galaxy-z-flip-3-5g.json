@@ -4,7 +4,6 @@
   "categoryId": "smartphone",
   "series": "Galaxy Z Flip",
   "order": 16500,
-  "releaseYear": "",
   "art": "phone-flip",
   "photo": "/images/toestellen/galaxy-z-flip-3-5g/photo.jpg",
   "popular": false,
@@ -13,16 +12,13 @@
     "Samsung Galaxy Z Flip 3 5G (SM-F711B)",
     "SM-F711B"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung Z Flip 3 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden gar., klaar terwijl u meekijkt."
-  },
   "prices": [
     {
-      "label": "Samsung Galaxy Z Flip 3 scherm, OLED, frame / zijkanten en scharnier vervangen (origineel Samsung service pack, zoals Samsung vereist) vervangen",
+      "label": "Scherm incl. frame vervangen (origineel Samsung service pack, zoals Samsung vereist)",
       "price": "€365,-",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -30,6 +26,7 @@
       "price": "€110,-",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -37,6 +34,7 @@
       "price": "€50,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -44,6 +42,7 @@
       "price": "€125,-",
       "repairId": "batterij-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -51,6 +50,7 @@
       "price": "€95,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -58,6 +58,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -65,6 +66,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -72,6 +74,7 @@
       "price": "op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -79,6 +82,7 @@
       "price": "op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -86,6 +90,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -93,6 +98,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -100,6 +106,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -107,6 +114,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -114,6 +122,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -121,6 +130,7 @@
       "price": "€60,-",
       "repairId": "waterschade",
       "popular": false,
+      "original": true,
       "links": [
         {
           "text": "Chemisch reinigen",
@@ -133,9 +143,13 @@
       "price": "€30,--",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung Z Flip 3 reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden gar., klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-galaxy-z-flip-3/"
   ],
