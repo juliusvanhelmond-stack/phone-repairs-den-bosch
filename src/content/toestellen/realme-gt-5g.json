@@ -4,21 +4,17 @@
   "categoryId": "smartphone",
   "series": "Realme GT",
   "order": 52400,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/realme-gt-5g/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "Realme GT 5G reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
-  },
   "prices": [
     {
-      "label": "Scherm, AMOLED vervangen",
+      "label": "Scherm incl. frame vervangen (origineel RealMe service pack, zoals RealMe vereist)",
       "price": "€275,-",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -26,6 +22,7 @@
       "price": "€85,-",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -33,6 +30,7 @@
       "price": "op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -40,6 +38,7 @@
       "price": "€85,-",
       "repairId": "batterij-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -47,6 +46,7 @@
       "price": "€75,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -54,6 +54,7 @@
       "price": "op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -61,6 +62,7 @@
       "price": "op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -68,6 +70,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -75,6 +78,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -82,6 +86,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -89,6 +94,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -96,6 +102,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -103,6 +110,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -110,6 +118,7 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -117,9 +126,13 @@
       "price": "op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],
+  "seo": {
+    "description": "Realme GT 5G reparatie Den Bosch Snel en vakkundig gerepareerd. Originele onderdelen, 12 maanden garantie, klaar terwijl je wacht en meekijkt en meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/realme-gt-5g-reparatie/"
   ],
