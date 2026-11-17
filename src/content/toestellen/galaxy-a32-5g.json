@@ -4,7 +4,6 @@
   "categoryId": "smartphone",
   "series": "Galaxy A",
   "order": 12500,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/galaxy-a32-5g/photo.jpg",
   "popular": false,
@@ -12,16 +11,13 @@
     "Samsung A32 5G",
     "Samsung A32 4G"
   ],
-  "seo": {
-    "title": "",
-    "description": "Samsung A32 5G reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen"
-  },
   "prices": [
     {
-      "label": "Scherm, LCD en frame vervangen (originele Samsung service pack, zoals Samsung vereist)",
+      "label": "Scherm incl. frame vervangen (origineel Samsung service pack, zoals Samsung vereist)",
       "price": "€130,-",
       "repairId": "scherm-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -29,6 +25,7 @@
       "price": "€50,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -36,6 +33,7 @@
       "price": "€60,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -43,6 +41,7 @@
       "price": "€60,-",
       "repairId": "batterij-vervangen",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -50,6 +49,7 @@
       "price": "€50,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -57,6 +57,7 @@
       "price": "€75,-",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -64,6 +65,7 @@
       "price": "€75,-",
       "repairId": "camera-repareren",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -71,6 +73,7 @@
       "price": "€60,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -78,6 +81,7 @@
       "price": "€50,-",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     },
     {
@@ -85,6 +89,7 @@
       "price": "€60,-",
       "repairId": "waterschade",
       "popular": false,
+      "original": true,
       "links": [
         {
           "text": "Chemisch reinigen",
@@ -97,9 +102,13 @@
       "price": "€30,--",
       "repairId": "overige-reparaties",
       "popular": false,
+      "original": true,
       "links": []
     }
   ],
+  "seo": {
+    "description": "Samsung A32 5G reparatie Den Bosch √ Alle merken telefoon reparatie √ 9.6 klant reviews √ Klaar-terwijl-u-meekijkt √ Originele onderdelen"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a32-5g/",
     "https://www.phonerepairs.nl/samsung-reparatie-den-bosch/samsung-a-reparatie/samsung-a32-4g/"
