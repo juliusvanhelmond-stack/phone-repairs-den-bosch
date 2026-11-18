@@ -4,20 +4,15 @@
   "categoryId": "smartphone",
   "series": "Asus ROG Phone",
   "order": 49700,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/asus-rog-phone-7/photo.webp",
   "popular": false,
   "aliases": [
     "Asus ROG Phone 7 (Republic Of Gamers)"
   ],
-  "seo": {
-    "title": "",
-    "description": "Asus ROG Phone 7 reparatie, snel en vakkundig, originele onderdelen, 12 maanden gar, klaar terwijl u meekijkt. Officiële BTW factuu"
-  },
   "prices": [
     {
-      "label": "Scherm, AMOLED vervangen",
+      "label": "Scherm vervangen (origineel Asus service pack, zoals Asus vereist)",
       "price": "€425,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -89,6 +84,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Asus ROG Phone 7 reparatie, snel en vakkundig, originele onderdelen, 12 maanden gar, klaar terwijl u meekijkt. Officiële BTW factuu"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/asus-zenfone-reparatie/asus-rog-phone-7/"
   ],
