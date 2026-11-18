@@ -1,0 +1,115 @@
+{
+  "name": "OPPO Reno 17",
+  "brandId": "oppo",
+  "categoryId": "smartphone",
+  "series": "OPPO Reno",
+  "order": 2,
+  "releaseYear": "2026",
+  "art": "phone-punch-hole",
+  "photo": "/images/toestellen/oppo-reno-17/photo.jpg",
+  "popular": false,
+  "aliases": [
+    "OPPO Reno 17"
+  ],
+  "prices": [
+    {
+      "label": "Scherm (origineel OPPO service pack, zoals OPPO vereist)",
+      "price": "op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Achterkant incl. camera lenzen vervangen (origineel OPPO service pack, zoals OPPO vereist)",
+      "price": "op aanvraag",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen (origineel OPPO service pack, zoals OPPO vereist)",
+      "price": "op aanvraag",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "USB oplaadconnector vervangen (origineel OPPO service pack, zoals OPPO vereist)",
+      "price": "€99,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Achtercamera's vervangen (origineel OPPO service pack, zoals OPPO vereist)",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Front camera vervangen (origineel OPPO service pack, zoals OPPO vereist)",
+      "price": "op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen (origineel OPPO service pack, zoals OPPO vereist)",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Luidspreker onderkant vervangen (origineel OPPO service pack, zoals OPPO vereist)",
+      "price": "op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "original": false,
+      "links": []
+    }
+  ],
+  "seo": {
+    "title": "Heeft u een OPPO Reno 17 reparatie Den Bosch",
+    "description": "Heeft u een OPPO Reno 17 reparatie nodig? Ontdek onze snelle en professionele service met garantie en originele onderdelen."
+  },
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/oppo-reparatie/oppo-reno-reparatie/oppo-reno-14/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/oppo-reparatie/oppo-reno-reparatie/oppo-reno-14/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-09-02."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "39436",
+      "pageTitle": "OPPO Reno 14",
+      "modified": "2026-09-02 19:16:43"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/oppo-reparatie/oppo-reno-reparatie/oppo-reno-14/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-09-02"
+  }
+}
