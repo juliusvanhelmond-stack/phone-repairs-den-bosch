@@ -4,7 +4,6 @@
   "categoryId": "smartphone",
   "series": "Asus ROG Phone",
   "order": 49900,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/asus-rog-phone-6/photo.jpg",
   "popular": false,
@@ -12,13 +11,9 @@
     "Asus ROG Phone 6 (AI2201) (Republic Of Gamers)",
     "AI2201"
   ],
-  "seo": {
-    "title": "",
-    "description": "Asus ROG Phone 6 reparatie, snel en vakkundig, originele onderdelen, 12 maanden gar, klaar terwijl u meekijkt. Officiële BTW factuu"
-  },
   "prices": [
     {
-      "label": "(AI2201) scherm, AMOLED vervangen",
+      "label": "(AI2201) scherm vervangen (origineel Asus service pack, zoals Asus vereist)",
       "price": "€395,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -26,7 +21,7 @@
       "links": []
     },
     {
-      "label": "Asus ROG Phone 6D Ultimate (AI2203) scherm, AMOLED vervangen",
+      "label": "Asus ROG Phone 6D Ultimate (AI2203) scherm vervangen (origineel Asus service pack, zoals Asus vereist)",
       "price": "€415,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -98,6 +93,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Asus ROG Phone 6 reparatie, snel en vakkundig, originele onderdelen, 12 maanden gar, klaar terwijl u meekijkt. Officiële BTW factuu"
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/asus-zenfone-reparatie/asus-rog-phone-6/"
   ],
