@@ -1,5 +1,5 @@
 {
-  "name": "Realme GT2 Pro",
+  "name": "Realme GT 8 Pro",
   "brandId": "realme",
   "categoryId": "smartphone",
   "series": "Realme GT",
@@ -14,7 +14,7 @@
   ],
   "prices": [
     {
-      "label": "Scherm, AMOLED vervangen",
+      "label": "Scherm incl. frame vervangen (origineel Realme service pack, zoals Realme vereist)",
       "price": "€395,-",
       "repairId": "scherm-vervangen",
       "popular": false,
