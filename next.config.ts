@@ -64,7 +64,15 @@ const nextConfig: NextConfig = {
     },
   },
   async redirects() {
-    return legacyRedirects();
+    return [
+      // The CMS on the old "main" branch (a bookmark or an old tab) goes to the branch the site is built from.
+      {
+        source: "/keystatic/branch/main/:path*",
+        destination: "/keystatic/branch/claude%2Fvigilant-archimedes-gadg6d/:path*",
+        permanent: false,
+      },
+      ...legacyRedirects(),
+    ];
   },
   async headers() {
     // Belt and braces next to the robots meta tag: keep the demo out of search engines.

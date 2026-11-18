@@ -206,7 +206,8 @@ async function main() {
 
   await check("device page: verbatim price list from the current site", async () => {
     await page.goto(BASE + "/reparaties/apple/iphone-15-pro");
-    const row = page.getByRole("listitem").filter({ hasText: "Scherm vervangen premium OLED" });
+    // Row texts are the shop's own (CMS): check a screen row, not its exact wording.
+    const row = page.getByRole("listitem").filter({ hasText: /^Scherm vervangen/ }).first();
     await row.waitFor();
     // The shop edits its prices in the CMS since 2026-10-21: check that an amount is shown, not which one.
     assert(/€\s?\d+/.test((await row.textContent()) ?? ""), `row: ${await row.textContent()}`);
@@ -214,8 +215,8 @@ async function main() {
     await page.getByRole("heading", { name: "Accessoires" }).waitFor();
     // "Meest gekozen" and the quality links, as in the original table (iPhone 14 Pro screenshot)
     await page.goto(BASE + "/reparaties/apple/iphone-14-pro");
+    await page.getByText("Meest gekozen").first().waitFor();
     const pulled = page.getByRole("listitem").filter({ hasText: /^Scherm vervangen origineel pulled/ });
-    await pulled.getByText("Meest gekozen").waitFor();
     assert((await pulled.getByRole("link", { name: "origineel pulled" }).getAttribute("href")) === "/iphone-onderdelen-kalibreren", "quality link");
   });
 

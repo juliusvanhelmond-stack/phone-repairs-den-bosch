@@ -36,7 +36,14 @@ const lines = (label: string, description?: string) =>
 export default config({
   storage:
     process.env.NEXT_PUBLIC_KEYSTATIC_STORAGE === "github"
-      ? { kind: "github", repo: { owner: repo[0], name: repo[1] } }
+      ? {
+          kind: "github",
+          repo: { owner: repo[0], name: repo[1] },
+          // The branch picker shows only the default branch (the one the live site is built from) and
+          // branches starting with this prefix (none exist), so edits can't land on an old branch such
+          // as "main" by mistake (2026-11-18: a day of edits went to main and never reached the site).
+          branchPrefix: "cms/",
+        }
       : { kind: "local" },
   ui: {
     brand: { name: "Phone Repairs" },
