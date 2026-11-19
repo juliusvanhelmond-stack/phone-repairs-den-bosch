@@ -128,14 +128,6 @@
       ]
     },
     {
-      "label": "Taptic Engine vervangen",
-      "price": "€75,-",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
       "label": "Camera's aan de achterkant origineel pulled vervangen",
       "price": "€160,-",
       "repairId": "camera-repareren",
@@ -160,6 +152,14 @@
           "href": "/iphone-onderdelen-kalibreren"
         }
       ]
+    },
+    {
+      "label": "Taptic Engine vervangen",
+      "price": "€75,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": []
     },
     {
       "label": "Gesprekspartner hoort mij niet, microfoon vervangen",
@@ -239,6 +239,14 @@
       "label": "Software herstellen",
       "price": "€30,--",
       "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Camera lens aan de achterkant vervangen (per lens)",
+      "price": "€70,-",
+      "repairId": "auto",
       "popular": false,
       "original": true,
       "links": []
