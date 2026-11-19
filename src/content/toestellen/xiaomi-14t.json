@@ -10,14 +10,6 @@
   "aliases": [],
   "prices": [
     {
-      "label": "Scherm vervangen",
-      "price": "€200,-",
-      "repairId": "scherm-vervangen",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
       "label": "Scherm incl. frame vervangen (origineel Xiaomi service pack, zoals Xiaomi vereist)",
       "price": "€275,-",
       "repairId": "scherm-vervangen",
