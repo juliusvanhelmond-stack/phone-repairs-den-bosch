@@ -136,6 +136,14 @@
       "links": []
     },
     {
+      "label": "Camera lens aan de achterkant vervangen (per lens)",
+      "price": "€70,-",
+      "repairId": "auto",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
       "label": "Camera's aan de achterkant origineel pulled vervangen",
       "price": "€170,-",
       "repairId": "camera-repareren",
@@ -144,19 +152,6 @@
       "links": [
         {
           "text": "origineel pulled",
-          "href": "/iphone-onderdelen-kalibreren"
-        }
-      ]
-    },
-    {
-      "label": "Camera's aan de achterkant origineel pulled vervangen",
-      "price": "€250,-",
-      "repairId": "camera-repareren",
-      "popular": false,
-      "original": true,
-      "links": [
-        {
-          "text": "Origineel pulled",
           "href": "/iphone-onderdelen-kalibreren"
         }
       ]
