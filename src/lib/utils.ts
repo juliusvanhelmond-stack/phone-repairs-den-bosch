@@ -52,9 +52,10 @@ export function priceRowNote(row: { label: string; repairId: string | null }): {
 
 /**
  * Price row label as shown on the site (client request 2026-11-03): the "Origineel" badge follows the
- * row's CMS switch (2026-11-04), or else whether the label mentions "origineel"; and the brand's service pack note in brackets ("(origineel Samsung
- * service pack, zoals Samsung vereist)") is left out of the text; screen rows named after the panel
- * ("Scherm, AMOLED vervangen", "Touchscreen / LCD") read "Scherm vervangen". The CMS keeps the full label.
+ * row's CMS switch (2026-11-04), or else whether the label mentions "origineel"; screen rows named after the panel
+ * ("Scherm, AMOLED vervangen", "Touchscreen / LCD") read "Scherm vervangen". The brand's service pack note in brackets
+ * ("(origineel Samsung service pack, zoals Samsung vereist)") is shown again as typed (client request 2026-11-18:
+ * leaving it out raised questions from customers).
  */
 // Screen rows named after the panel type are shown as "Scherm vervangen" (client requests 2026-11-03).
 const SCREEN_LABEL = new RegExp(
@@ -69,7 +70,6 @@ export function priceRowDisplay(label: string, original?: boolean): { label: str
   return {
     label: label
       .replace(SCREEN_LABEL, "Scherm vervangen")
-      .replace(/\s*\(originee?le? [^()]*service pack, zoals [^()]*vereist\)/gi, "")
       .trim(),
     original: original ?? /\borigine(el|le)\b/i.test(label),
   };
