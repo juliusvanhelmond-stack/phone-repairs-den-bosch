@@ -12,7 +12,7 @@
   ],
   "prices": [
     {
-      "label": "Scherm buitendisplay origineel vervangen",
+      "label": "Scherm buitendisplay vervangen (origineel Google service pack, zoals Google vereist)",
       "price": "€295,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -20,7 +20,7 @@
       "links": []
     },
     {
-      "label": "Scherm binnendisplay, frame en scharnier origineel vervangen",
+      "label": "Scherm binnendisplay, frame en scharnier vervangen (origineel Google service pack, zoals Google vereist)",
       "price": "€1095,-",
       "repairId": "scherm-vervangen",
       "popular": false,
