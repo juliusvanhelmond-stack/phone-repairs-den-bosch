@@ -13,7 +13,7 @@
   "prices": [
     {
       "label": "Scherm incl. frame vervangen (origineel Xiaomi service pack, zoals Xiaomi vereist)",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
       "original": true,
@@ -21,7 +21,7 @@
     },
     {
       "label": "Achterkant (incl. camera lenzen) vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "original": true,
@@ -29,7 +29,7 @@
     },
     {
       "label": "Batterij vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
       "original": true,
@@ -37,7 +37,7 @@
     },
     {
       "label": "Camera's vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -45,7 +45,7 @@
     },
     {
       "label": "Front camera's vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -53,7 +53,7 @@
     },
     {
       "label": "Oorluidspreker vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -61,7 +61,7 @@
     },
     {
       "label": "Luidspreker vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -69,7 +69,7 @@
     },
     {
       "label": "Simkaart houder vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
