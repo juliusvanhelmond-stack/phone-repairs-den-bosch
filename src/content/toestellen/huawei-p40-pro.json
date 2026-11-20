@@ -71,7 +71,7 @@
     },
     {
       "label": "Aan/uit/volume vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -79,7 +79,7 @@
     },
     {
       "label": "Trilmotor vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -87,7 +87,7 @@
     },
     {
       "label": "Proximity sensor vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -103,7 +103,7 @@
     },
     {
       "label": "Leica camera's achterzijde vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -111,7 +111,7 @@
     },
     {
       "label": "Camera voorzijde vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -119,7 +119,7 @@
     },
     {
       "label": "Vingerafdruklezer camera vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -127,7 +127,7 @@
     },
     {
       "label": "Simkaart lezer vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -135,7 +135,7 @@
     },
     {
       "label": "Simkaart houder vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
