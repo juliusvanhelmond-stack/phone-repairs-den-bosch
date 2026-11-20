@@ -13,7 +13,7 @@
   "prices": [
     {
       "label": "Scherm vervangen (origineel Google service pack, zoals Google vereist)",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
       "original": true,
@@ -21,7 +21,7 @@
     },
     {
       "label": "Achterkant incl. camera lenzen vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "original": true,
@@ -29,7 +29,7 @@
     },
     {
       "label": "Batterij origineel vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
       "original": true,
@@ -37,7 +37,7 @@
     },
     {
       "label": "USB oplaad connector vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "original": true,
@@ -45,7 +45,7 @@
     },
     {
       "label": "Cameralens achterzijde vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -53,7 +53,7 @@
     },
     {
       "label": "Camera achterzijde vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -61,7 +61,7 @@
     },
     {
       "label": "Camera's voorzijde vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
