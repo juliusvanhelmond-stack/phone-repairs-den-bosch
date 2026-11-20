@@ -12,7 +12,7 @@
   ],
   "prices": [
     {
-      "label": "A17 5G Scherm vervangen (origineel Samsung service pack, zoals Samsung vereist)",
+      "label": "Scherm 5G vervangen (origineel Samsung service pack, zoals Samsung vereist)",
       "price": "€120,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -20,7 +20,7 @@
       "links": []
     },
     {
-      "label": "A17 4G Scherm vervangen (origineel Samsung service pack, zoals Samsung vereist)",
+      "label": "Scherm 4G  vervangen (origineel Samsung service pack, zoals Samsung vereist)",
       "price": "€99,-",
       "repairId": "scherm-vervangen",
       "popular": false,
