@@ -18,7 +18,7 @@
     },
     {
       "label": "Achterkant vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "original": true,
@@ -26,7 +26,7 @@
     },
     {
       "label": "Batterij origineel vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
       "original": true,
@@ -34,7 +34,7 @@
     },
     {
       "label": "Headjack vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -42,7 +42,7 @@
     },
     {
       "label": "Microfoon vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
