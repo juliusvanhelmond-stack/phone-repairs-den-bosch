@@ -19,7 +19,7 @@
     },
     {
       "label": "Achterkant boven incl. LCD scherm achterzijde en cameralens vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "original": true,
@@ -27,7 +27,7 @@
     },
     {
       "label": "Achterkant onder vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "original": true,
@@ -35,7 +35,7 @@
     },
     {
       "label": "Batterij boven vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
       "original": true,
@@ -43,7 +43,7 @@
     },
     {
       "label": "Batterij onder vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
       "original": true,
@@ -51,7 +51,7 @@
     },
     {
       "label": "Oplaadconnector vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "original": true,
@@ -59,7 +59,7 @@
     },
     {
       "label": "Camera's achterzijde vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -67,7 +67,7 @@
     },
     {
       "label": "Camera's voorzijde vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -75,7 +75,7 @@
     },
     {
       "label": "Simkaart lezer vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -83,7 +83,7 @@
     },
     {
       "label": "Simkaart houder vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
