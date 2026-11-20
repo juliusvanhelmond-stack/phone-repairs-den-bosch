@@ -27,7 +27,7 @@
     },
     {
       "label": "Batterij vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
       "original": true,
@@ -35,7 +35,7 @@
     },
     {
       "label": "Oplaadconnector vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "original": true,
@@ -43,7 +43,7 @@
     },
     {
       "label": "Volume knoppen vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -51,7 +51,7 @@
     },
     {
       "label": "Aan/uit knop vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -59,7 +59,7 @@
     },
     {
       "label": "Mute/stil knop vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -67,7 +67,7 @@
     },
     {
       "label": "Oorluidspreker vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -75,7 +75,7 @@
     },
     {
       "label": "Luidspreker vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -83,7 +83,7 @@
     },
     {
       "label": "Microfoon vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -91,7 +91,7 @@
     },
     {
       "label": "Koptelefoon ingang vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -99,7 +99,7 @@
     },
     {
       "label": "Camera's achterzijde vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -107,7 +107,7 @@
     },
     {
       "label": "Camera lens achterzijde vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -115,7 +115,7 @@
     },
     {
       "label": "Camera voorzijde vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -123,7 +123,7 @@
     },
     {
       "label": "Trilmotor vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
