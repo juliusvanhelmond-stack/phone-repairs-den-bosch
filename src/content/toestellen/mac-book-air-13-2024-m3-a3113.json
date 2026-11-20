@@ -12,19 +12,6 @@
   ],
   "prices": [
     {
-      "label": "Scherm unit (complete bovenkant) vervangen origineel Apple service pack",
-      "price": "€745,-",
-      "repairId": "scherm-vervangen",
-      "popular": false,
-      "original": true,
-      "links": [
-        {
-          "text": "origineel Apple service pack",
-          "href": "/iphone-onderdelen-kalibreren"
-        }
-      ]
-    },
-    {
       "label": "Scherm unit (complete bovenkant) vervangen origineel pulled",
       "price": "Prijs op aanvraag",
       "repairId": "scherm-vervangen",
@@ -33,6 +20,19 @@
       "links": [
         {
           "text": "origineel pulled",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Scherm unit (complete bovenkant) vervangen origineel Apple service pack",
+      "price": "€745,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "original": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
           "href": "/iphone-onderdelen-kalibreren"
         }
       ]
