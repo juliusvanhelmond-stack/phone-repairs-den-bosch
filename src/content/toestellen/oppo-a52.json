@@ -56,6 +56,14 @@
       "popular": false,
       "original": false,
       "links": []
+    },
+    {
+      "label": "Scherm incl. frame vervangen (origineel OPPO service pack, zoals OPPO vereist)",
+      "price": "€110,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
     }
   ],
   "seo": {},
