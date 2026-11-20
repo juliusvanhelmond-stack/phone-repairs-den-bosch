@@ -53,7 +53,7 @@
     },
     {
       "label": "Camera voorkant vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -61,7 +61,7 @@
     },
     {
       "label": "koptelefoon aansluiting vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -69,7 +69,7 @@
     },
     {
       "label": "Aan/uit/volume knoppen vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
