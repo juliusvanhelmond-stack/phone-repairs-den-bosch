@@ -1,0 +1,178 @@
+{
+  "name": "MacBook Neo 2 13″ 2027",
+  "brandId": "apple",
+  "categoryId": "laptop",
+  "series": "MacBook Neo",
+  "order": 53400,
+  "releaseYear": "2027",
+  "art": "laptop",
+  "photo": "/images/toestellen/mac-book-neo-2-13-2027/photo.jpg",
+  "popular": false,
+  "aliases": [
+    "MacBook Neo reparatie",
+    "A3404"
+  ],
+  "prices": [
+    {
+      "label": "Scherm unit (complete bovenkant) vervangen origineel Apple service pack",
+      "price": "Prijs op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": true,
+      "original": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Batterij vervangen origineel Apple service pack",
+      "price": "Prijs op aanvraag",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "original": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "USB-C oplaadpoort per port vervangen origineel Apple service pack",
+      "price": "Prijs op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": true,
+      "original": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Toetsenbord vervangen (gehele top case) origineel Apple service pack",
+      "price": "Prijs op aanvraag",
+      "repairId": "accessoire",
+      "popular": false,
+      "original": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Trackpad vervangen origineel Apple service pack",
+      "price": "Prijs op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Headjack vervangen origineel Apple service pack",
+      "price": "Prijs op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Speaker links vervangen origineel Apple service pack",
+      "price": "Prijs op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Speaker rechts vervangen origineel Apple service pack",
+      "price": "Prijs op aanvraag",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€45,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Chemische reiniging i.v.m. waterschade reiniging",
+      "price": "€75,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "original": false,
+      "links": []
+    },
+    {
+      "label": "Moederbord onderzoek",
+      "price": "€69,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": false,
+      "links": []
+    },
+    {
+      "label": "Schoonmaken, intern stof, vuil en (rook)aanslag verwijderen",
+      "price": "€60,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": []
+    }
+  ],
+  "seo": {
+    "title": "MacBook Neo 2 reparatie Den Bosch",
+    "description": "Bij Phone Repairs Den Bosch herstellen wij jouw MacBook Neo 2 snel en professioneel. Ontdek onze reparatie opties en prijzen."
+  },
+  "legacyUrls": [],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/macbook-neo-reparatie/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-10-09."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "40864",
+      "pageTitle": "MacBook Neo reparatie",
+      "modified": "2026-10-09 00:19:32"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/macbook-neo-reparatie/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-10-09"
+  }
+}
