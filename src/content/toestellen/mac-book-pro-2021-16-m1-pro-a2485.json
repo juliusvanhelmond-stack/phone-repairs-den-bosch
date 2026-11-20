@@ -14,19 +14,6 @@
   ],
   "prices": [
     {
-      "label": "MacBook Pro 2021 16″ M1 Pro A2485 scherm unit (complete bovenkant) vervangen origineel Apple service pack",
-      "price": "€1200,-",
-      "repairId": "scherm-vervangen",
-      "popular": false,
-      "original": true,
-      "links": [
-        {
-          "text": "origineel Apple service pack",
-          "href": "/iphone-onderdelen-kalibreren"
-        }
-      ]
-    },
-    {
       "label": "MacBook Pro 2021 16″ M1 Pro A2485 scherm unit (complete bovenkant) vervangen origineel pulled",
       "price": "€875,-",
       "repairId": "scherm-vervangen",
@@ -35,6 +22,19 @@
       "links": [
         {
           "text": "origineel pulled",
+          "href": "/iphone-onderdelen-kalibreren"
+        }
+      ]
+    },
+    {
+      "label": "MacBook Pro 2021 16″ M1 Pro A2485 scherm unit (complete bovenkant) vervangen origineel Apple service pack",
+      "price": "€1200,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "original": true,
+      "links": [
+        {
+          "text": "origineel Apple service pack",
           "href": "/iphone-onderdelen-kalibreren"
         }
       ]
