@@ -17,7 +17,7 @@
       "label": "Scherm unit (complete bovenkant) vervangen origineel Apple service pack",
       "price": "€415,-",
       "repairId": "scherm-vervangen",
-      "popular": true,
+      "popular": false,
       "original": true,
       "links": [
         {
@@ -30,7 +30,7 @@
       "label": "Batterij vervangen origineel Apple service pack",
       "price": "€230,-",
       "repairId": "batterij-vervangen",
-      "popular": true,
+      "popular": false,
       "original": true,
       "links": [
         {
@@ -43,7 +43,7 @@
       "label": "USB-C oplaadpoort per port vervangen origineel Apple service pack",
       "price": "€145,-",
       "repairId": "oplaadpoort-repareren",
-      "popular": true,
+      "popular": false,
       "original": true,
       "links": [
         {
@@ -56,8 +56,8 @@
       "label": "Toetsenbord vervangen (gehele top case) origineel Apple service pack",
       "price": "€299,-",
       "repairId": "accessoire",
-      "popular": true,
-      "original": false,
+      "popular": false,
+      "original": true,
       "links": [
         {
           "text": "origineel Apple service pack",
@@ -69,7 +69,7 @@
       "label": "Trackpad vervangen origineel Apple service pack",
       "price": "€195,-",
       "repairId": "overige-reparaties",
-      "popular": true,
+      "popular": false,
       "original": true,
       "links": [
         {
@@ -82,7 +82,7 @@
       "label": "Headjack vervangen origineel Apple service pack",
       "price": "€145,-",
       "repairId": "overige-reparaties",
-      "popular": true,
+      "popular": false,
       "original": true,
       "links": [
         {
@@ -108,7 +108,7 @@
       "label": "Speaker rechts vervangen origineel Apple service pack",
       "price": "€125,-",
       "repairId": "overige-reparaties",
-      "popular": true,
+      "popular": false,
       "original": true,
       "links": [
         {
