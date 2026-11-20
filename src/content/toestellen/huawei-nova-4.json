@@ -19,7 +19,7 @@
     },
     {
       "label": "Batterij",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
       "original": true,
@@ -27,7 +27,7 @@
     },
     {
       "label": "Aan/uit/volume knoppen flex vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -35,7 +35,7 @@
     },
     {
       "label": "Koptelefoon ingang vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -43,7 +43,7 @@
     },
     {
       "label": "Front / selfie camera vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
