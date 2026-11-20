@@ -11,7 +11,7 @@
   "prices": [
     {
       "label": "Scherm incl. frame vervangen (origineel Honor service pack, zoals Honor vereist)",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
       "original": true,
@@ -19,7 +19,7 @@
     },
     {
       "label": "Achterkant Incl. camera lenzen vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "original": true,
@@ -27,7 +27,7 @@
     },
     {
       "label": "Batterij vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
       "original": true,
@@ -35,7 +35,7 @@
     },
     {
       "label": "Oplaadconnector vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "original": true,
@@ -43,7 +43,7 @@
     },
     {
       "label": "Achtercamera's vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -51,7 +51,7 @@
     },
     {
       "label": "Selfie camera vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -59,7 +59,7 @@
     },
     {
       "label": "Honor X10 5G koptelefoon aansluiting vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -67,7 +67,7 @@
     },
     {
       "label": "Honor X10 5G oorluidspreker vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -75,7 +75,7 @@
     },
     {
       "label": "Honor X10 5G speaker vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -83,7 +83,7 @@
     },
     {
       "label": "Honor X10 5G aan/uit/volume knoppen vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
