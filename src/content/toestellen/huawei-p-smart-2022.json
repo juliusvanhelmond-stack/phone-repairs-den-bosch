@@ -9,14 +9,10 @@
   "photo": "/images/toestellen/huawei-p-smart-2022/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": ""
-  },
   "prices": [
     {
       "label": "Scherm incl. frame vervangen (origineel Huawei service pack, zoals Huawei vereist)",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
       "original": true,
@@ -24,7 +20,7 @@
     },
     {
       "label": "Huawei P Smart 2021 achterkant, incl. vingerafdrukscanner en cameralens vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -32,7 +28,7 @@
     },
     {
       "label": "Huawei P Smart 2021 batterij vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
       "original": true,
@@ -40,7 +36,7 @@
     },
     {
       "label": "Huawei P Smart 2021 vingerafdruklezer vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -48,7 +44,7 @@
     },
     {
       "label": "Huawei P Smart 2021 oplaadconnector vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "original": true,
@@ -56,7 +52,7 @@
     },
     {
       "label": "Huawei P Smart 2021 oorluidspreker vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -64,7 +60,7 @@
     },
     {
       "label": "Huawei P Smart 2021 aan/uit/volume vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -72,7 +68,7 @@
     },
     {
       "label": "Huawei P Smart 2021 camera's achterzijde vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -80,7 +76,7 @@
     },
     {
       "label": "Huawei P Smart 2021 camera voorzijde vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -88,7 +84,7 @@
     },
     {
       "label": "Huawei P Smart 2021 luidspreker vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -119,6 +115,7 @@
       "links": []
     }
   ],
+  "seo": {},
   "legacyUrls": [],
   "sources": [
     {
