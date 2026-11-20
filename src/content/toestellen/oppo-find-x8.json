@@ -27,7 +27,7 @@
     },
     {
       "label": "Batterij origineel vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
       "original": true,
@@ -35,7 +35,7 @@
     },
     {
       "label": "oplaadconnector vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "original": true,
@@ -43,7 +43,7 @@
     },
     {
       "label": "oorluidspreker vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -51,7 +51,7 @@
     },
     {
       "label": "luidspreker vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -59,7 +59,7 @@
     },
     {
       "label": "Camera 50 MP wide angel achterzijde vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -67,7 +67,7 @@
     },
     {
       "label": "Camera 50 MP Ultra wide achterzijde vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -75,7 +75,7 @@
     },
     {
       "label": "Microscoop camera achterzijde vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -83,7 +83,7 @@
     },
     {
       "label": "Flister vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -91,7 +91,7 @@
     },
     {
       "label": "Camera's voorzijde vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -99,7 +99,7 @@
     },
     {
       "label": "Trilmotor vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -107,7 +107,7 @@
     },
     {
       "label": "Simkaart houder vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
