@@ -37,7 +37,7 @@
     },
     {
       "label": "USB oplaad connector vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "original": true,
@@ -69,7 +69,7 @@
     },
     {
       "label": "Simkaart vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
