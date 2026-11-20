@@ -4,15 +4,10 @@
   "categoryId": "smartphone",
   "series": "Xiaomi",
   "order": 37100,
-  "releaseYear": "",
   "art": "phone-punch-hole",
   "photo": "/images/toestellen/xiaomi-14t-pro/photo.jpg",
   "popular": false,
   "aliases": [],
-  "seo": {
-    "title": "",
-    "description": "Xiaomi 14T Pro reparatie Nederland. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
-  },
   "prices": [
     {
       "label": "Scherm incl. frame vervangen (origineel Xiaomi service pack, zoals Xiaomi vereist)",
@@ -40,7 +35,7 @@
     },
     {
       "label": "Camera's vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -48,7 +43,7 @@
     },
     {
       "label": "Front camera's vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -56,7 +51,7 @@
     },
     {
       "label": "Oorluidspreker vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -64,7 +59,7 @@
     },
     {
       "label": "Xiaomi 14T Proluidspreker vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -72,7 +67,7 @@
     },
     {
       "label": "Simkaart houder vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -87,6 +82,9 @@
       "links": []
     }
   ],
+  "seo": {
+    "description": "Xiaomi 14T Pro reparatie Nederland. snel en vakkundig, originele onderdelen, 12 maanden garantie, klaar terwijl u meekijkt."
+  },
   "legacyUrls": [
     "https://www.phonerepairs.nl/xiaomi-reparatie/xiaomi-14-t-pro/"
   ],
