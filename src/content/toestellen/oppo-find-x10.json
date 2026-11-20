@@ -12,7 +12,7 @@
   "prices": [
     {
       "label": " Scherm incl. frame vervangen (origineel OPPO service pack, zoals OPPO vereist)",
-      "price": "Op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "auto",
       "popular": false,
       "original": true,
@@ -20,7 +20,7 @@
     },
     {
       "label": "Achterkant vervangen",
-      "price": "Op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "auto",
       "popular": false,
       "original": true,
@@ -28,7 +28,7 @@
     },
     {
       "label": "Batterij vervangen",
-      "price": "Op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "auto",
       "popular": false,
       "original": true,
@@ -36,7 +36,7 @@
     },
     {
       "label": "Oplaadpoort vervangen",
-      "price": "Op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "auto",
       "popular": false,
       "original": true,
