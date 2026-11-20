@@ -13,7 +13,7 @@
   ],
   "prices": [
     {
-      "label": "Scherm, LCD 4G vervangen (origineel Samsung service pack, zoals Samsung vereist)",
+      "label": "Scherm 4G vervangen (origineel Samsung service pack, zoals Samsung vereist)",
       "price": "€110,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -21,7 +21,7 @@
       "links": []
     },
     {
-      "label": "Scherm, LCD 5G vervangen (origineel Samsung service pack, zoals Samsung vereist)",
+      "label": "Scherm 5G vervangen (origineel Samsung service pack, zoals Samsung vereist)",
       "price": "€90,-",
       "repairId": "scherm-vervangen",
       "popular": false,
