@@ -11,7 +11,7 @@
   "prices": [
     {
       "label": "Scherm incl. frame vervangen (origineel Poco service pack, zoals Xiaomi vereist)",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "scherm-vervangen",
       "popular": false,
       "original": true,
@@ -19,7 +19,7 @@
     },
     {
       "label": "Achterkant vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "original": true,
@@ -27,7 +27,7 @@
     },
     {
       "label": "Batterij vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
       "original": true,
@@ -35,7 +35,7 @@
     },
     {
       "label": "Oplaad poort vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "original": true,
@@ -43,7 +43,7 @@
     },
     {
       "label": "Camera's achterzijde vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -51,7 +51,7 @@
     },
     {
       "label": "Camera voorzijde (selfie camera) vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -59,7 +59,7 @@
     },
     {
       "label": "Poco F9 Ultraaan/uit/volume knoppen vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -67,7 +67,7 @@
     },
     {
       "label": "Oorluidspreker vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -75,7 +75,7 @@
     },
     {
       "label": "Luidspreker vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -83,7 +83,7 @@
     },
     {
       "label": "Microfoon vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -91,7 +91,7 @@
     },
     {
       "label": "Hoofdtelefoon aansluiting vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
