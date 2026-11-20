@@ -10,7 +10,7 @@
   "aliases": [],
   "prices": [
     {
-      "label": "Scherm vervangen (origineel OPPO service pack, zoals OPPO vereist)",
+      "label": "Scherm incl. frame vervangen (origineel OPPO service pack, zoals OPPO vereist)",
       "price": "€275,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -18,7 +18,7 @@
       "links": []
     },
     {
-      "label": "Scherm vervangen (origineel OPPO service pack, zoals OPPO vereist)",
+      "label": "Scherm incl. frame vervangen (origineel OPPO service pack, zoals OPPO vereist)",
       "price": "€99,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
@@ -26,7 +26,7 @@
       "links": []
     },
     {
-      "label": "Scherm vervangen (origineel OPPO service pack, zoals OPPO vereist)",
+      "label": "Scherm incl. frame vervangen (origineel OPPO service pack, zoals OPPO vereist)",
       "price": "€99,-",
       "repairId": "batterij-vervangen",
       "popular": false,
@@ -34,7 +34,7 @@
       "links": []
     },
     {
-      "label": "Scherm (origineel OPPO service pack, zoals OPPO vereist)",
+      "label": "Scherm incl. frame vervangen (origineel OPPO service pack, zoals OPPO vereist)",
       "price": "€99,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
