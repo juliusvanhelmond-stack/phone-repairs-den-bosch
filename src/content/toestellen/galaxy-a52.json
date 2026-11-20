@@ -94,7 +94,7 @@
     },
     {
       "label": "Melding toestel is te warm/heet oplossen (moederbord reparatie 1-3 werkdagen)",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
