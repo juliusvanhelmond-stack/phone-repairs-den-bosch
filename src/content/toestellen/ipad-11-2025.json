@@ -14,7 +14,7 @@
   "prices": [
     {
       "label": "Scherm (glas) vervangen origineel Apple service pack",
-      "price": "€350,-",
+      "price": "€140,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "original": true,
@@ -26,8 +26,8 @@
       ]
     },
     {
-      "label": "Geen/slecht beeld LCD vervangen origineel Apple service pack",
-      "price": "€400,-",
+      "label": "Geen/slecht beeld LCD vervangen incl. nieuw scherm (glas) origineel Apple service pack",
+      "price": "€295,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "original": true,
