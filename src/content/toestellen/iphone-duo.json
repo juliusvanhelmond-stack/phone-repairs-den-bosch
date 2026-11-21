@@ -13,7 +13,7 @@
   "prices": [
     {
       "label": "Scherm buitendisplay vervangen origineel Apple service pack.",
-      "price": "€645,-",
+      "price": "€500,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "original": true,
@@ -26,7 +26,7 @@
     },
     {
       "label": "Scherm binnendisplay, frame en scharnier origineel Apple service pack",
-      "price": "€1495,-",
+      "price": "€1345,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "original": true,
@@ -52,7 +52,7 @@
     },
     {
       "label": "Batterijen origineel Apple Service pack vervangen",
-      "price": "€400,-",
+      "price": "€245,-",
       "repairId": "batterij-vervangen",
       "popular": false,
       "original": true,
