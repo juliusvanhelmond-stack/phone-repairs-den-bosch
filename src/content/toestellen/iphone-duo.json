@@ -90,6 +90,14 @@
       ]
     },
     {
+      "label": "Camera lens aan de achterkant vervangen (per lens)",
+      "price": "€95,-",
+      "repairId": "auto",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
       "label": "Camera's aan de achterkant origineel pulled vervangen",
       "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
