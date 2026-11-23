@@ -1,7 +1,7 @@
 {
   "question": "Welke betaalmethoden accepteren jullie?",
   "answer": "We proberen het jou zo makkelijk mogelijk te maken met betalen. Bij ons kun je afrekenen met pinpas maar ook contactloos via je telefoon (bijv. Apple Pay of Google Pay). Contant betalen kan uiteraard ook, al heeft digitaal onze voorkeur.",
-  "order": 500,
+  "order": 24,
   "repairIds": [
     "scherm-vervangen",
     "batterij-vervangen",
