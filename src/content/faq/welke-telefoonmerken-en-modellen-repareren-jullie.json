@@ -1,0 +1,14 @@
+{
+  "question": "Welke telefoonmerken en modellen repareren jullie?",
+  "answer": "Wij repareren: iPhone, iPad, MacBook, Samsung, Google Pixel, OPPO, OnePlus, Xiaomi, Poco, Motorola, Vivo, Huawei, Honor, Nokia, Sony, Realme en ASUS.\n\nMaar als jouw merk of toestel er niet tussen staat, neem contact met ons op. Waarschijnlijk kunnen we je wel helpen.",
+  "order": 500,
+  "repairIds": [
+    "scherm-vervangen",
+    "batterij-vervangen",
+    "oplaadpoort-repareren",
+    "achterkant-vervangen",
+    "camera-repareren",
+    "waterschade",
+    "overige-reparaties"
+  ]
+}
