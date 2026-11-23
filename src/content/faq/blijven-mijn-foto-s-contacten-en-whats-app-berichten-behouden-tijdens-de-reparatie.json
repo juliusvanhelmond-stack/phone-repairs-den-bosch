@@ -1,6 +1,6 @@
 {
   "question": "Blijven mijn foto's, contacten en WhatsApp-berichten behouden tijdens de reparatie?",
-  "answer": "Bij veel standaardreparaties, zoals het vervangen van een scherm of batterij, blijven je gegevens normaal gesproken behouden. Toch bestaat er altijd een risico op gegevensverlies, bijvoorbeeld door een ernstig defect of een noodzakelijke softwareherstelling. Maak daarom altijd vooraf een back-up, als dat mogelijk is.",
+  "answer": "Bij veel standaardreparaties, zoals het vervangen van een scherm of batterij, blijven je gegevens normaal gesproken behouden. Toch bestaat er altijd een risico op gegevensverlies, bijvoorbeeld door een ernstig defect of een noodzakelijke softwareherstelling. Maak daarom altijd vooraf een back-up, als dat mogelijk is. ",
   "order": 27,
   "repairIds": [
     "scherm-vervangen",
