@@ -2,5 +2,14 @@
   "question": "Wat als de oorzaak van het probleem niet duidelijk is, rekenen jullie onderzoekskosten?",
   "answer": "Eerst duidelijkheid, dan de reparatie\n\nBij ons weet je altijd waar je aan toe bent. We starten iedere reparatie met een korte controle terwijl je wacht. In veel gevallen kunnen we direct vaststellen wat er aan de hand is.\n\nIs er uitgebreider onderzoek nodig? Dan bespreken we dit altijd vooraf met je, inclusief eventuele onderzoekskosten. Zo kom je nooit voor onverwachte kosten te staan.\n\nBesluit je de reparatie te laten uitvoeren? Dan verrekenen we de onderzoekskosten doorgaans met de reparatieprijs. Je betaalt dus alleen voor de reparatie.\n\nKies je ervoor om niet te repareren? Dan betaal je uitsluitend het vooraf afgesproken diagnosebedrag voor het uitgevoerde onderzoek.\n\nTransparant, eerlijk en zonder verrassingen achteraf.",
   "order": 26,
-  "repairIds": []
+  "repairIds": [
+    "scherm-vervangen",
+    "batterij-vervangen",
+    "oplaadpoort-repareren",
+    "achterkant-vervangen",
+    "camera-repareren",
+    "waterschade",
+    "toetsenbord-vervangen",
+    "overige-reparaties"
+  ]
 }
