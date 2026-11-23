@@ -4,10 +4,10 @@
   "kind": "service",
   "title": "Verzekering",
   "eyebrow": "Verzekering",
-  "intro": "Is je smartphone of tablet gevallen of op een andere manier beschadigd geraakt? Dan bestaat de kans dat je verzekering (een deel van) de reparatiekosten vergoedt. Of de schade daadwerkelijk gedekt is, hangt onder andere af van de oorzaak, je verzekering, de gekozen dekking en het eventuele eigen risico.",
+  "intro": "Is je telefoon of tablet gevallen of op een andere manier beschadigd geraakt? Dan bestaat de kans dat je verzekering (een deel van) de reparatiekosten vergoedt. Of de schade daadwerkelijk gedekt is, hangt onder andere af van de oorzaak, je verzekering, de gekozen dekking en het eventuele eigen risico.",
   "seo": {
-    "title": "Verzekering bij valincident met uw smartphone",
-    "description": "Heeft u schade aan uw smartphone? Ontdek hoe uw verzekering de reparatiekosten kan dekken bij een valincident."
+    "title": "Verzekering bij valincident met je telefoon",
+    "description": "Heb je schade aan je telefoon? Ontdek hoe jouw verzekering de reparatiekosten kan dekken bij een valincident."
   },
   "placeKind": "plaats",
   "focus": "",
@@ -40,7 +40,7 @@
       "image": {}
     },
     {
-      "heading": "Economisch total loss-verklaring voor smartphone, tablet, MacBook en andere apparaten",
+      "heading": "Economisch total loss-verklaring voor telefoon, tablet, MacBook en andere apparaten",
       "intro": [],
       "bullets": [],
       "steps": [],
