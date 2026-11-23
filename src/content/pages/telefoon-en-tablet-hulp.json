@@ -45,27 +45,27 @@
         },
         {
           "label": "Oorluidspreker (inwendig)*",
-          "price": "€30"
+          "price": "€40"
         },
         {
           "label": "Medialuidspreker (inwendig)*",
-          "price": "€30"
+          "price": "€40"
         },
         {
           "label": "Microfoon (inwendig)*",
-          "price": "€30"
+          "price": "€40"
         },
         {
-          "label": "Selfiecamera voorzijde*",
-          "price": "€30"
+          "label": "Selfiecamera voorzijde (inwendig)*",
+          "price": "€40"
         },
         {
-          "label": "Camera's achterzijde*",
-          "price": "€30"
+          "label": "Camera's achterzijde (inwendig)*",
+          "price": "€40"
         },
         {
           "label": "Toestel geheel inwendig: speakers, oplaadpoort, camera's, microfoons enz.*",
-          "price": "€60"
+          "price": "€80"
         }
       ],
       "body": [
