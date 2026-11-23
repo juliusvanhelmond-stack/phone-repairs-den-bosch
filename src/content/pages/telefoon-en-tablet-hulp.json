@@ -85,16 +85,16 @@
         },
         {
           "label": "Software updaten naar de nieuwste versie",
-          "price": "€30"
+          "price": "€20"
         },
         {
           "label": "Software herstellen",
           "price": "€35"
         },
         {
-          "label": "Een bricked toestel herstellen",
+          "label": "Een bricked Android toestel herstellen",
           "price": "€85",
-          "note": "Is herstellen niet mogelijk? Dan betaal je €35,-."
+          "note": "Is herstellen niet mogelijk? Dan betaal je €35,-. voor de tijd die we eraan hebben besteed."
         },
         {
           "label": "E-mailaccount instellen (per account)",
