@@ -1,0 +1,13 @@
+{
+  "question": "Kan ik op mijn reparatie wachten?",
+  "answer": "De meeste reparaties zijn klaar terwijl je meekijkt binnen 30 minuten.",
+  "order": 28,
+  "repairIds": [
+    "scherm-vervangen",
+    "batterij-vervangen",
+    "oplaadpoort-repareren",
+    "achterkant-vervangen",
+    "camera-repareren",
+    "toetsenbord-vervangen"
+  ]
+}
