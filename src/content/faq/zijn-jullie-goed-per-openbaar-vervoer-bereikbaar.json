@@ -1,0 +1,15 @@
+{
+  "question": "Zijn jullie goed per openbaar vervoer bereikbaar?",
+  "answer": "Ja buslijn 6, 8,9 en 4 stoppen op loopafstand van Ploossche hof 13 in Den Bosch",
+  "order": 27,
+  "repairIds": [
+    "scherm-vervangen",
+    "batterij-vervangen",
+    "oplaadpoort-repareren",
+    "achterkant-vervangen",
+    "camera-repareren",
+    "waterschade",
+    "toetsenbord-vervangen",
+    "overige-reparaties"
+  ]
+}
