@@ -1,5 +1,5 @@
 {
-  "name": "Galaxy A57",
+  "name": "Samsung Galaxy A57",
   "brandId": "samsung",
   "categoryId": "smartphone",
   "series": "Galaxy A",
@@ -13,7 +13,7 @@
   "prices": [
     {
       "label": "Scherm, LCD en frame vervangen (origineel Samsung service pack, zoals Samsung vereist)",
-      "price": "€165,-",
+      "price": "€175,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "original": true,
