@@ -1,0 +1,163 @@
+{
+  "name": "OnePlus 11",
+  "brandId": "oneplus",
+  "categoryId": "smartphone",
+  "series": "OnePlus",
+  "order": 24700,
+  "art": "phone-punch-hole",
+  "photo": "/images/toestellen/one-plus-11/photo.jpg",
+  "popular": false,
+  "aliases": [
+    "OnePlus 11",
+    "PBH110"
+  ],
+  "prices": [
+    {
+      "label": "Scherm incl. frame vervangen (origineel OnePlus service pack, zoals OnePlus vereist)",
+      "price": "€425,-",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Achterkant incl. cameralenzen vervangen",
+      "price": "€95,-",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "€95,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Oplaadconnector vervangen",
+      "price": "€95,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Oorluidspreker vervangen",
+      "price": "€95,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Luidspreker vervangen",
+      "price": "€95,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Microfoon vervangen",
+      "price": "€95,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Camera's achterzijde vervangen",
+      "price": "Prijs op aanvraag",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Camera voorzijde vervangen",
+      "price": "€95,-",
+      "repairId": "camera-repareren",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Simhouder vervangen",
+      "price": "€15,-",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "OnePlus Dash lader",
+      "price": "€35,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "original": false,
+      "links": []
+    },
+    {
+      "label": "OnePlus USB-C oplaadkabel",
+      "price": "€15,-",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "OnePlus Travel lader",
+      "price": "€15,-",
+      "repairId": "accessoire",
+      "popular": false,
+      "original": false,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "original": false,
+      "links": []
+    },
+    {
+      "label": "Software herstellen",
+      "price": "€30,--",
+      "repairId": "overige-reparaties",
+      "popular": false,
+      "original": true,
+      "links": []
+    }
+  ],
+  "seo": {
+    "title": "OnePlus 11 reparatie: Snel en Professioneel",
+    "description": "Snel en professioneel uw OnePlus 11 reparatie laten uitvoeren? Bel Phone Repairs Den Bosch voor een afspraak!"
+  },
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-12r/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-12r/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2025-06-18."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "36157",
+      "pageTitle": "OnePlus 12R",
+      "modified": "2025-06-18 21:28:30"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/oneplus-reparatie/oneplus-12r/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2025-06-18"
+  }
+}
