@@ -1,7 +1,7 @@
 {
   "question": "Hoe lang duurt een telefoonreparatie?",
   "answer": "De meeste reparaties duren niet langer dan 30 minuten. Tijdens de meeste reparaties kun je gewoon meekijken hoe je toestel vakkundig gerepareerd wordt. Je ziet wat wij doen met jouw telefoon en je privacy blijft zo gewaarborgd.",
-  "order": 23,
+  "order": 5,
   "repairIds": [
     "scherm-vervangen",
     "batterij-vervangen",
