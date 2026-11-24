@@ -29,31 +29,15 @@
     },
     {
       "label": "Batterij vervangen",
-      "price": "Prijs op aanvraag",
+      "price": "€95,-",
       "repairId": "batterij-vervangen",
       "popular": false,
       "original": true,
       "links": []
     },
     {
-      "label": "Camera's vervangen",
-      "price": "Prijs op aanvraag",
-      "repairId": "camera-repareren",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Front camera's vervangen",
-      "price": "Prijs op aanvraag",
-      "repairId": "camera-repareren",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
       "label": "Oorluidspreker vervangen",
-      "price": "Prijs op aanvraag",
+      "price": "€95,-",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -61,7 +45,7 @@
     },
     {
       "label": "Luidspreker vervangen",
-      "price": "Prijs op aanvraag",
+      "price": "€95,-",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
