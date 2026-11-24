@@ -7,7 +7,10 @@
   "art": "phone-foldable",
   "photo": "/images/toestellen/oppo-find-n3/photo.jpg",
   "popular": false,
-  "aliases": [],
+  "aliases": [
+    "CPH2499",
+    "OPPO Find N3"
+  ],
   "prices": [
     {
       "label": "Scherm buitendisplay origineel vervangen  (origineel OPPO service pack, zoals OPPO vereist)",
