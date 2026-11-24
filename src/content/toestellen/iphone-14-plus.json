@@ -50,19 +50,6 @@
       ]
     },
     {
-      "label": "Batterij origineel Apple Service pack vervangen",
-      "price": "€135,-",
-      "repairId": "batterij-vervangen",
-      "popular": false,
-      "original": true,
-      "links": [
-        {
-          "text": "origineel Apple Service pack",
-          "href": "/iphone-onderdelen-kalibreren"
-        }
-      ]
-    },
-    {
       "label": "Batterij origineel pulled vervangen",
       "price": "€80,-",
       "repairId": "batterij-vervangen",
@@ -72,6 +59,19 @@
         {
           "text": "origineel pulled",
           "href": "/iphone-batterij-vervanging"
+        }
+      ]
+    },
+    {
+      "label": "Batterij origineel Apple Service pack vervangen",
+      "price": "€135,-",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "original": true,
+      "links": [
+        {
+          "text": "origineel Apple Service pack",
+          "href": "/iphone-onderdelen-kalibreren"
         }
       ]
     },
