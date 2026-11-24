@@ -1,5 +1,5 @@
 {
-  "name": "Galaxy A58",
+  "name": "Samsung Galaxy A58",
   "brandId": "samsung",
   "categoryId": "smartphone",
   "series": "Galaxy A",
@@ -46,7 +46,7 @@
     },
     {
       "label": "Oorluidspreker vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -54,7 +54,7 @@
     },
     {
       "label": "Camera's achterkant per stuk vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
@@ -62,7 +62,7 @@
     },
     {
       "label": "Camera voorkant vervangen",
-      "price": "op aanvraag",
+      "price": "Prijs op aanvraag",
       "repairId": "camera-repareren",
       "popular": false,
       "original": true,
