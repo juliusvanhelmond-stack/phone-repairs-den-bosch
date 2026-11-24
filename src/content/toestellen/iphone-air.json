@@ -10,19 +10,20 @@
   "popular": false,
   "aliases": [
     "iPhone Air",
-    "iPhone 17 Air",
-    "A3517 A3260 A3518 A3516"
+    "A3517 A3260 A3518 A3516",
+    "iPhone Air 1",
+    "iPhone 17 Air"
   ],
   "prices": [
     {
-      "label": "Scherm vervangen Phone Repairs OLED display",
+      "label": "Scherm vervangen Phone Repairs Soft OLED",
       "price": "€175,-",
       "repairId": "scherm-vervangen",
       "popular": true,
       "original": false,
       "links": [
         {
-          "text": "Phone Repairs OLED display",
+          "text": "Phone Repairs Soft OLED",
           "href": "/iphone-premium-oled-scherm"
         }
       ]
