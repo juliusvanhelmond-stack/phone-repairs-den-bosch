@@ -30,7 +30,7 @@
       "links": []
     },
     {
-      "label": "Achterkant origineel vervangen",
+      "label": "Achterkant vervangen",
       "price": "€195,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
@@ -38,7 +38,7 @@
       "links": []
     },
     {
-      "label": "Batterij origineel vervangen",
+      "label": "Batterij vervangen",
       "price": "Prijs op aanvraag",
       "repairId": "batterij-vervangen",
       "popular": false,
@@ -46,7 +46,7 @@
       "links": []
     },
     {
-      "label": "USB oplaad poort origineel vervangen",
+      "label": "USB oplaad poort vervangen",
       "price": "Prijs op aanvraag",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
