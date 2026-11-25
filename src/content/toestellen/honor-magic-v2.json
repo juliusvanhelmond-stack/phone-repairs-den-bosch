@@ -34,17 +34,17 @@
       "links": []
     },
     {
-      "label": "Batterijen vervangen",
+      "label": "Oplaadpoort vervangen",
       "price": "€150,-",
-      "repairId": "batterij-vervangen",
+      "repairId": "camera-repareren",
       "popular": false,
       "original": true,
       "links": []
     },
     {
-      "label": "Oplaadpoort vervangen",
+      "label": "Batterijen vervangen",
       "price": "€150,-",
-      "repairId": "camera-repareren",
+      "repairId": "batterij-vervangen",
       "popular": false,
       "original": true,
       "links": []
