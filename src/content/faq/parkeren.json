@@ -1,8 +1,16 @@
 {
-  "question": "Kan ik parkeren bij jullie?",
-  "answer": "Ja, je kunt gratis parkeren voor de deur, er ia altijd vrije parkeerruimte beschikbaar.",
+  "question": "Kan ik parkeren vlakbij jullie?",
+  "answer": "Ja, er is altijd gratis parkeergelegenheid recht voor de deur.",
   "order": 4,
-  "repairIds": [],
+  "repairIds": [
+    "scherm-vervangen",
+    "batterij-vervangen",
+    "oplaadpoort-repareren",
+    "achterkant-vervangen",
+    "camera-repareren",
+    "waterschade",
+    "overige-reparaties"
+  ],
   "topics": [
     "locatie"
   ],
