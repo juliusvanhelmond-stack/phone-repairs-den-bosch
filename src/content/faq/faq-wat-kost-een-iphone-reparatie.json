@@ -2,7 +2,13 @@
   "question": "Wat kost een iPhone reparatie?",
   "answer": "De kosten van een iPhone reparatie verschillen per type iPhone en het defect. iPhone reparaties zijn al mogelijk vanaf €15,- incl. montage en btw De reparaties zijn klaar in 30 minuten terwijl je meekijkt! Zoek met de zoek functie, je toestel en defect en je ziet direct de prijs incl. montage en btw.",
   "order": 30,
-  "repairIds": [],
+  "repairIds": [
+    "scherm-vervangen",
+    "batterij-vervangen",
+    "oplaadpoort-repareren",
+    "achterkant-vervangen",
+    "camera-repareren"
+  ],
   "topics": [
     "prijzen"
   ],
