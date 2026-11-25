@@ -13,7 +13,7 @@
   "prices": [
     {
       "label": "Scherm buitendisplay vervangen origineel Apple service pack.",
-      "price": "€500,-",
+      "price": "€645,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "original": true,
@@ -26,7 +26,7 @@
     },
     {
       "label": "Scherm binnendisplay, frame en scharnier origineel Apple service pack",
-      "price": "€1345,-",
+      "price": "€1495,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "original": true,
@@ -39,7 +39,7 @@
     },
     {
       "label": "Achterkant glas vervangen (incl. cameralenzen, flitser, draadloos laden coil) origineel Apple Service pack",
-      "price": "€260,-",
+      "price": "€350,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "original": true,
@@ -52,7 +52,7 @@
     },
     {
       "label": "Batterijen origineel Apple Service pack vervangen",
-      "price": "€245,-",
+      "price": "€400,-",
       "repairId": "batterij-vervangen",
       "popular": false,
       "original": true,
@@ -64,7 +64,7 @@
       ]
     },
     {
-      "label": "USB-C oplaadconnector origineel Apple Service pack vervangen",
+      "label": "Oplaadpoort origineel Apple Service pack vervangen",
       "price": "€250,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
@@ -78,7 +78,7 @@
     },
     {
       "label": "Taptic Engine origineel Apple service pack vervangen",
-      "price": "€175,-",
+      "price": "€250,-",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -88,14 +88,6 @@
           "href": "/iphone-onderdelen-kalibreren"
         }
       ]
-    },
-    {
-      "label": "Camera lens aan de achterkant vervangen (per lens)",
-      "price": "€95,-",
-      "repairId": "auto",
-      "popular": false,
-      "original": true,
-      "links": []
     },
     {
       "label": "Camera's aan de achterkant origineel pulled vervangen",
@@ -138,7 +130,7 @@
     },
     {
       "label": "Ik hoor mijn gesprekspartner niet, oorluidspreker origineel Apple service pack vervangen",
-      "price": "€175,-",
+      "price": "€250,-",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
@@ -151,7 +143,7 @@
     },
     {
       "label": "Handsfree/muziek luidspreker defect origineel Apple service pack vervangen",
-      "price": "€175,-",
+      "price": "€250,-",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
