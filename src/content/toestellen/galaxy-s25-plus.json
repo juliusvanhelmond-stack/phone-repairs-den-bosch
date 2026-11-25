@@ -22,7 +22,7 @@
       "links": []
     },
     {
-      "label": "Samsung Galaxy S25 Ultra achterzijde (incl.camera lenzen) vervangen",
+      "label": "Achterzijde (incl.camera lenzen) vervangen",
       "price": "€85,-",
       "repairId": "camera-repareren",
       "popular": false,
@@ -38,7 +38,7 @@
       "links": []
     },
     {
-      "label": "Samsung Galaxy S25 Ultra oplaadpoort vervangen",
+      "label": "Oplaadpoort vervangen",
       "price": "€75,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
@@ -46,7 +46,7 @@
       "links": []
     },
     {
-      "label": "Samsung Galaxy S25 Ultra oorluidspreker vervangen",
+      "label": "Oorluidspreker vervangen",
       "price": "€90,-",
       "repairId": "overige-reparaties",
       "popular": false,
@@ -54,7 +54,7 @@
       "links": []
     },
     {
-      "label": "Samsung Galaxy S25 Ultra luidspreker vervangen",
+      "label": "Luidspreker vervangen",
       "price": "€90,-",
       "repairId": "overige-reparaties",
       "popular": false,
@@ -62,7 +62,7 @@
       "links": []
     },
     {
-      "label": "Samsung Galaxy S25 Ultra hoofd camera achterzijde vervangen",
+      "label": "Hoofd camera achterzijde vervangen",
       "price": "€120,-",
       "repairId": "camera-repareren",
       "popular": false,
@@ -70,7 +70,7 @@
       "links": []
     },
     {
-      "label": "Samsung Galaxy S25 Ultra ultra wide camera achterzijde vervangen",
+      "label": "Ultra wide camera achterzijde vervangen",
       "price": "€100,-",
       "repairId": "camera-repareren",
       "popular": false,
@@ -78,7 +78,7 @@
       "links": []
     },
     {
-      "label": "Samsung Galaxy S25 Ultra telephoto achterzijde vervangen",
+      "label": "Telephoto achterzijde vervangen",
       "price": "€100,-",
       "repairId": "overige-reparaties",
       "popular": false,
@@ -86,7 +86,7 @@
       "links": []
     },
     {
-      "label": "Samsung Galaxy S25 Ultra camera voorzijde vervangen",
+      "label": "Camera voorzijde vervangen",
       "price": "€100,-",
       "repairId": "camera-repareren",
       "popular": false,
@@ -94,7 +94,7 @@
       "links": []
     },
     {
-      "label": "Samsung Galaxy S25 Ultra trilmotor vervangen",
+      "label": "Trilmotor vervangen",
       "price": "€80,-",
       "repairId": "overige-reparaties",
       "popular": false,
@@ -102,24 +102,8 @@
       "links": []
     },
     {
-      "label": "Samsung Galaxy S25 Ultra SIM kaart houder",
+      "label": "SIM kaart houder",
       "price": "€15,-",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Samsung Galaxy S25 Ultra aan/uit knop vervangen",
-      "price": "Prijs op aanvraag",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Samsung Galaxy S25 Ultra volume knoppen vervangen",
-      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
