@@ -35,7 +35,7 @@
     },
     {
       "label": "Batterijen vervangen",
-      "price": "Prijs op aanvraag",
+      "price": "€200,-",
       "repairId": "batterij-vervangen",
       "popular": false,
       "original": true,
@@ -43,56 +43,8 @@
     },
     {
       "label": "Oplaadconnector vervangen",
-      "price": "Prijs op aanvraag",
+      "price": "€150,-",
       "repairId": "oplaadpoort-repareren",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Achtercamera's vervangen",
-      "price": "Prijs op aanvraag",
-      "repairId": "camera-repareren",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Selfie camera vervangen",
-      "price": "Prijs op aanvraag",
-      "repairId": "camera-repareren",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Honor X10 5G koptelefoon aansluiting vervangen",
-      "price": "Prijs op aanvraag",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Honor X10 5G oorluidspreker vervangen",
-      "price": "Prijs op aanvraag",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Honor X10 5G speaker vervangen",
-      "price": "Prijs op aanvraag",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Honor X10 5G aan/uit/volume knoppen vervangen",
-      "price": "Prijs op aanvraag",
-      "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
       "links": []
