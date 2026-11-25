@@ -26,6 +26,36 @@
       "image": {}
     },
     {
+      "heading": "Kosten chemische reiniging",
+      "intro": [],
+      "bullets": [],
+      "steps": [],
+      "prices": [
+        {
+          "label": "Telefoon chemische reiniging",
+          "price": "€60",
+          "note": "Je toestel wordt chemische gereinigd na 2-5 dagen weten we meer, en kunnen je een goed inschatting geven of en tegen welke kosten het toestel te herstellen is."
+        },
+        {
+          "label": "Foldable telefoon chemische reiniging",
+          "price": "€150",
+          "note": "Je toestel wordt chemische gereinigd na 2-5 dagen weten we meer, en kunnen je een goed inschatting geven of en tegen welke kosten het toestel te herstellen is."
+        },
+        {
+          "label": "Tablet chemische reiniging",
+          "price": "€80",
+          "note": "Je toestel wordt chemische gereinigd na 2-5 dagen weten we meer, en kunnen je een goed inschatting geven of en tegen welke kosten het toestel te herstellen is."
+        },
+        {
+          "label": "MacBook chemische reiniging",
+          "price": "€150",
+          "note": "Je toestel wordt chemische gereinigd na 2-5 dagen weten we meer, en kunnen je een goed inschatting geven of en tegen welke kosten het toestel te herstellen is."
+        }
+      ],
+      "body": [],
+      "image": {}
+    },
+    {
       "heading": "Goed om te weten over waterschade",
       "intro": [],
       "bullets": [],
