@@ -15,7 +15,7 @@
   "prices": [
     {
       "label": "Scherm buitendisplay vervangen",
-      "price": "€300,-",
+      "price": "€250,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "original": true,
@@ -23,7 +23,7 @@
     },
     {
       "label": "Scherm binnendisplay, frame en scharnier vervangen (origineel OnePlus service pack, zoals OnePlus vereist)",
-      "price": "€1100,-",
+      "price": "€995,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "original": true,
