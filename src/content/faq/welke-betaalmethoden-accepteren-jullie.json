@@ -1,6 +1,6 @@
 {
   "question": "Welke betaalmethoden accepteren jullie?",
-  "answer": "We proberen het jou zo makkelijk mogelijk te maken met betalen. Bij ons kun je afrekenen met pinpas maar ook contactloos via je telefoon (bijv. Apple Pay of Google Pay). Directe bankoverschrijving en contant betalen kan uiteraard ook, al heeft digitaal onze voorkeur.\n\nWij accepteren geen andere betaalmethoden zoals VVV-bonnen, op afbetaling of acceptgiro.",
+  "answer": "We proberen het jou zo makkelijk mogelijk te maken met betalen. Bij ons kun je afrekenen met pinpas maar ook contactloos via je telefoon (bijv. Apple Pay of Google Pay). Directe bankoverschrijving, betaalverzoek of contant betalen kan uiteraard ook, al heeft digitaal onze voorkeur.\n\nWij accepteren geen andere betaalmethoden zoals VVV-bonnen, op afbetaling of acceptgiro.",
   "order": 24,
   "repairIds": [
     "scherm-vervangen",
