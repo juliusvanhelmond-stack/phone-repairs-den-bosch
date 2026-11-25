@@ -11,7 +11,7 @@
   "prices": [
     {
       "label": "Scherm buitendisplay origineel vervangen (origineel Honor service pack, zoals Honor vereist)",
-      "price": "€350,-",
+      "price": "€310,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "original": true,
@@ -19,7 +19,7 @@
     },
     {
       "label": "Scherm binnendisplay, frame en scharnier vervangen Scherm incl. frame vervangen (origineel Honor service pack, zoals Honor vereist)",
-      "price": "€1100,-",
+      "price": "€1200,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "original": true,
@@ -27,7 +27,7 @@
     },
     {
       "label": "Backcover incl. cameralenzen vervangen",
-      "price": "€195,-",
+      "price": "€225,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "original": true,
