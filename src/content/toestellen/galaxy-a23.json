@@ -28,6 +28,14 @@
       "links": []
     },
     {
+      "label": "Oplaadpoort vervangen",
+      "price": "€60,-",
+      "repairId": "auto",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
       "label": "Batterij vervangen",
       "price": "€70,-",
       "repairId": "batterij-vervangen",
@@ -38,38 +46,6 @@
     {
       "label": "Oorluidspreker vervangen",
       "price": "€60,-",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Camera's main camera vervangen",
-      "price": "€80,-",
-      "repairId": "camera-repareren",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Camera voorkant vervangen",
-      "price": "Prijs op aanvraag",
-      "repairId": "camera-repareren",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "koptelefoon aansluiting vervangen",
-      "price": "Prijs op aanvraag",
-      "repairId": "overige-reparaties",
-      "popular": false,
-      "original": true,
-      "links": []
-    },
-    {
-      "label": "Aan/uit/volume knoppen vervangen",
-      "price": "Prijs op aanvraag",
       "repairId": "overige-reparaties",
       "popular": false,
       "original": true,
