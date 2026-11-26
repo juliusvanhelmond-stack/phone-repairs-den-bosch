@@ -36,11 +36,11 @@
       "steps": [],
       "prices": [
         {
-          "label": "Oplaadpoort, microfoon en mediaspeaker onderzijde (uitwendig)",
+          "label": "Oplaadpoort, microfoon en mediaspeaker onderzijde schoonmaken (uitwendig)",
           "price": "€15"
         },
         {
-          "label": "Oorluidspreker (uitwendig)",
+          "label": "Oorluidspreker schoonmaken (uitwendig)",
           "price": "€15"
         },
         {
@@ -48,28 +48,28 @@
           "price": "€40"
         },
         {
-          "label": "Medialuidspreker (inwendig)*",
+          "label": "Medialuidspreker schoonmaken (inwendig)*",
           "price": "€40"
         },
         {
-          "label": "Microfoon (inwendig)*",
+          "label": "Microfoon schoonmaken (inwendig)*",
           "price": "€40"
         },
         {
-          "label": "Selfiecamera voorzijde (inwendig)*",
+          "label": "Selfiecamera voorzijde schoonmaken (inwendig)*",
           "price": "€40"
         },
         {
-          "label": "Camera's achterzijde (inwendig)*",
+          "label": "Camera's achterzijde schoonmaken (inwendig)*",
           "price": "€40"
         },
         {
-          "label": "Toestel geheel inwendig: speakers, oplaadpoort, camera's, microfoons enz.*",
+          "label": "Toestel geheel inwendig schoonmaken: speakers, oplaadpoort, camera's, microfoons enz.*",
           "price": "€80"
         }
       ],
       "body": [
-        "* Voor sommige toestellen kunnen de kosten hoger zijn. Vraag vooraf naar het tarief voor jouw toestel."
+        "* Voor sommige toestellen kunnen de schoonmaak kosten hoger zijn. Vraag vooraf naar het tarief voor jouw toestel."
       ],
       "image": {}
     },
