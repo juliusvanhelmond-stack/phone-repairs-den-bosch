@@ -1,5 +1,5 @@
 {
-  "id": "pre-owned-toestellen",
+  "id": "telefoon-kopen",
   "path": "/pre-owned-toestellen",
   "kind": "service",
   "title": "Telefoon kopen",
@@ -90,10 +90,7 @@
       "image": {}
     }
   ],
-  "unconfirmed": [
-    "Garantie: ‘1 jaar’ in de tekst, maar ‘90 dagen garantie’ in de banner; batterijgarantie 90 dagen vanaf factuurdatum.",
-    "Voorbeeldaanbod met prijzen (zoals iPhone 15 Pro 256 GB en Nintendo Switch OLED); actuele voorraad en prijzen moeten uit een feed of van de eigenaar komen."
-  ],
+  "unconfirmed": [],
   "legacyUrls": [
     "/pre-owned-toestellen/"
   ],
