@@ -1,14 +1,15 @@
 {
-  "name": "Motorola Edge 70 Pro",
+  "name": "Motorola Edge 70 Pro Max",
   "brandId": "motorola",
   "categoryId": "smartphone",
   "series": "Motorola Edge",
-  "order": 50600,
+  "order": 50500,
+  "releaseYear": "2026",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/motorola-edge-70-pro/photo.webp",
+  "photo": "/images/toestellen/motorola-edge-70-pro-max/photo.webp",
   "popular": false,
   "aliases": [
-    "Motorola Edge 70 Pro"
+    "Motorola Edge 70 Pro Max"
   ],
   "prices": [
     {
@@ -58,8 +59,8 @@
     }
   ],
   "seo": {
-    "title": "Motorola Edge 70 Pro Den Bosch",
-    "description": "Professionele Motorola Edge 70 Pro reparatie met originele onderdelen en transparante prijzen. Bel snel voor een afspraak voor hulp!"
+    "title": "Motorola Edge 70 Pro Max Den Bosch",
+    "description": "Professionele Motorola Edge 70 Pro Max reparatie met originele onderdelen en transparante prijzen. Bel snel voor een afspraak voor hulp!"
   },
   "legacyUrls": [
     "https://www.phonerepairs.nl/motorola-reparatie/motorola-signature-2/"
