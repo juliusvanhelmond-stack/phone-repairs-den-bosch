@@ -1,6 +1,6 @@
 {
   "question": "Kan ik parkeren bij jullie?",
-  "answer": "Ja, er is altijd gratis parkeergelegenheid recht voor de deur.",
+  "answer": "Ja, er is altijd gratis parkeergelegenheid recht voor de deur. \nEr zijn ook laadpalen voor je elektrische auto (EV).",
   "order": 4,
   "repairIds": [
     "scherm-vervangen",
