@@ -21,7 +21,7 @@
       "links": []
     },
     {
-      "label": "Nintendo Switch LCD vervangen",
+      "label": "LCD vervangen",
       "price": "€80,-",
       "repairId": "scherm-vervangen",
       "popular": false,
@@ -29,7 +29,7 @@
       "links": []
     },
     {
-      "label": "Nintendo Switch batterij vervangen",
+      "label": "Batterij vervangen",
       "price": "€65,-",
       "repairId": "batterij-vervangen",
       "popular": false,
@@ -45,7 +45,7 @@
       "links": []
     },
     {
-      "label": "Nintendo Switch joystick links vervangen",
+      "label": "Joystick links vervangen",
       "price": "€85,-",
       "repairId": "overige-reparaties",
       "popular": false,
@@ -53,7 +53,7 @@
       "links": []
     },
     {
-      "label": "Nintendo Switch joystick rechts vervangen",
+      "label": "Joystick rechts vervangen",
       "price": "€85,-",
       "repairId": "overige-reparaties",
       "popular": false,
@@ -61,7 +61,7 @@
       "links": []
     },
     {
-      "label": "Nintendo Switch power volume knoppen vervangen",
+      "label": "Power volume knoppen vervangen",
       "price": "€70,-",
       "repairId": "overige-reparaties",
       "popular": false,
@@ -69,7 +69,7 @@
       "links": []
     },
     {
-      "label": "Nintendo Switch speakers vervangen",
+      "label": "Speakers vervangen",
       "price": "€70,-",
       "repairId": "overige-reparaties",
       "popular": false,
@@ -77,7 +77,7 @@
       "links": []
     },
     {
-      "label": "Nintendo Switch game kaart slot vervangen",
+      "label": "Game kaart slot vervangen",
       "price": "€80,-",
       "repairId": "overige-reparaties",
       "popular": false,
@@ -85,7 +85,7 @@
       "links": []
     },
     {
-      "label": "Nintendo Switch Micro SD geheugen kaart slot vervangen",
+      "label": "Micro SD geheugen kaart slot vervangen",
       "price": "€70,-",
       "repairId": "overige-reparaties",
       "popular": false,
@@ -93,7 +93,7 @@
       "links": []
     },
     {
-      "label": "Nintendo Switch oplaad IC vervangen (moederbord reparatie)",
+      "label": "Oplaad IC vervangen (moederbord reparatie)",
       "price": "€170,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
