@@ -1,0 +1,87 @@
+{
+  "name": "Motorola Edge 70 Pro",
+  "brandId": "motorola",
+  "categoryId": "smartphone",
+  "series": "Motorola Edge",
+  "order": 50600,
+  "art": "phone-punch-hole",
+  "photo": "/images/toestellen/motorola-edge-70-pro/photo.jpg",
+  "popular": false,
+  "aliases": [
+    "Motorola Edge 70 Pro"
+  ],
+  "prices": [
+    {
+      "label": "Scherm incl. frame vervangen (origineel Motorola service pack, zoals Motorola vereist)",
+      "price": "Prijs op aanvraag",
+      "repairId": "scherm-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Achterzijde (incl. camera lenzen) vervangen",
+      "price": "Prijs op aanvraag",
+      "repairId": "achterkant-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Batterij vervangen",
+      "price": "Prijs op aanvraag",
+      "repairId": "batterij-vervangen",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Oplaadpoort vervangen",
+      "price": "Prijs op aanvraag",
+      "repairId": "oplaadpoort-repareren",
+      "popular": false,
+      "original": true,
+      "links": []
+    },
+    {
+      "label": "Chemisch reinigen i.v.m. vloeistof-/vochtschade)",
+      "price": "€60,-",
+      "repairId": "waterschade",
+      "popular": false,
+      "original": false,
+      "links": [
+        {
+          "text": "Chemisch reinigen",
+          "href": "/waterschade-reparatie-phone-repairs"
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Motorola Edge 70 Pro Den Bosch",
+    "description": "Professionele Motorola Edge 70 Pro reparatie met originele onderdelen en transparante prijzen. Bel snel voor een afspraak voor hulp!"
+  },
+  "legacyUrls": [
+    "https://www.phonerepairs.nl/motorola-reparatie/motorola-signature-2/"
+  ],
+  "sources": [
+    {
+      "url": "https://www.phonerepairs.nl/motorola-reparatie/motorola-signature-2/",
+      "verification": "verified-source",
+      "capturedAt": "2026-10-12",
+      "note": "WordPress export 2026-10-12; page last changed 2026-09-17."
+    }
+  ],
+  "extra": {
+    "wordpress": {
+      "pageId": "40227",
+      "pageTitle": "Motorola Signature",
+      "modified": "2026-09-17 19:32:48"
+    }
+  },
+  "priceSource": {
+    "sourceUrl": "https://www.phonerepairs.nl/motorola-reparatie/motorola-signature-2/",
+    "capturedAt": "2026-10-12",
+    "updatedAt": "2026-09-17"
+  }
+}
