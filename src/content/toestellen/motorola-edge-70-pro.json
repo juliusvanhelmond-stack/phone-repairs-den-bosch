@@ -3,17 +3,19 @@
   "brandId": "motorola",
   "categoryId": "smartphone",
   "series": "Motorola Edge",
-  "order": 50600,
+  "order": 50500,
+  "releaseYear": "2026",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/motorola-edge-70-pro/photo.jpg",
+  "photo": "/images/toestellen/motorola-edge-70-pro/photo.webp",
   "popular": false,
   "aliases": [
-    "Motorola Edge 70 Pro"
+    "Motorola Edge 70 Pro",
+    "XT2607-1"
   ],
   "prices": [
     {
       "label": "Scherm incl. frame vervangen (origineel Motorola service pack, zoals Motorola vereist)",
-      "price": "Prijs op aanvraag",
+      "price": "€175,-",
       "repairId": "scherm-vervangen",
       "popular": false,
       "original": true,
@@ -21,7 +23,7 @@
     },
     {
       "label": "Achterzijde (incl. camera lenzen) vervangen",
-      "price": "Prijs op aanvraag",
+      "price": "€95,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "original": true,
