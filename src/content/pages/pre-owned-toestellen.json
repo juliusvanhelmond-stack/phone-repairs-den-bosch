@@ -13,18 +13,23 @@
   "focus": "",
   "sections": [
     {
-      "heading": "Grondig getest",
-      "intro": [],
-      "bullets": [
-        "Batterijconditie tussen 85% en 98%",
-        "De toestellen zijn A-grade",
-        "Geleverd met originele kabel"
+      "heading": "Direct leverbaar",
+      "intro": [
+        "Het aanbod wisselt steeds. Bel, App of mail ons om te horen welke toestellen er op dit moment beschikbaar zijn. Doorgaans kunnen we altijd met 1-2 dagen leveren. Ben je op zoek naar een ander toestel? Vraag het ons en we kijken in ons uitgebreide netwerk of we de gewenste telefoon kunnen leveren."
       ],
+      "bullets": [],
       "steps": [],
-      "prices": [],
-      "body": [
-        "Elk toestel wordt op tientallen punten getest, waaronder de batterij, oplaadpoort, knoppen, het scherm en de camera's."
+      "prices": [
+        {
+          "label": "Google Pixel 9 Pro Fold 256GB zwart (A-grade) batterij 97%",
+          "price": "€595"
+        },
+        {
+          "label": "Samsung Z Fold 8 256GB zwart (A-grade) batterij 100%",
+          "price": "€1450"
+        }
       ],
+      "body": [],
       "image": {}
     },
     {
@@ -70,23 +75,18 @@
       "image": {}
     },
     {
-      "heading": "Direct leverbaar",
-      "intro": [
-        "Het aanbod wisselt steeds. Bel, App of mail ons om te horen welke toestellen er op dit moment beschikbaar zijn. Doorgaans kunnen we altijd met 1-2 dagen leveren. Ben je op zoek naar een ander toestel? Vraag het ons en we kijken in ons uitgebreide netwerk of we de gewenste telefoon kunnen leveren."
+      "heading": "Grondig getest",
+      "intro": [],
+      "bullets": [
+        "Batterijconditie tussen 85% en 98%",
+        "De toestellen zijn A-grade",
+        "Geleverd met originele kabel"
       ],
-      "bullets": [],
       "steps": [],
-      "prices": [
-        {
-          "label": "Google Pixel 9 Pro Fold 256GB zwart (A-grade) batterij 97%",
-          "price": "€595"
-        },
-        {
-          "label": "Samsung Z Fold 8 256GB zwart (A-grade) batterij 100%",
-          "price": "€1450"
-        }
+      "prices": [],
+      "body": [
+        "Elk toestel wordt op tientallen punten getest, waaronder de batterij, oplaadpoort, knoppen, het scherm en de camera's."
       ],
-      "body": [],
       "image": {}
     }
   ],
