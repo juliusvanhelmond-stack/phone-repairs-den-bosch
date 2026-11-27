@@ -52,7 +52,7 @@
     },
     {
       "label": "Batterijen origineel Apple Service pack vervangen",
-      "price": "€400,-",
+      "price": "€245,-",
       "repairId": "batterij-vervangen",
       "popular": false,
       "original": true,
@@ -85,19 +85,6 @@
       "links": [
         {
           "text": "origineel Apple service pack",
-          "href": "/iphone-onderdelen-kalibreren"
-        }
-      ]
-    },
-    {
-      "label": "Camera's aan de achterkant origineel pulled vervangen",
-      "price": "Prijs op aanvraag",
-      "repairId": "camera-repareren",
-      "popular": false,
-      "original": true,
-      "links": [
-        {
-          "text": "origineel pulled",
           "href": "/iphone-onderdelen-kalibreren"
         }
       ]
