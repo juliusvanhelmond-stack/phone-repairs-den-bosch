@@ -31,7 +31,7 @@
     },
     {
       "label": "Batterij vervangen",
-      "price": "Prijs op aanvraag",
+      "price": "€95,-",
       "repairId": "batterij-vervangen",
       "popular": false,
       "original": true,
@@ -39,7 +39,7 @@
     },
     {
       "label": "Oplaadpoort vervangen",
-      "price": "Prijs op aanvraag",
+      "price": "€95,-",
       "repairId": "oplaadpoort-repareren",
       "popular": false,
       "original": true,
