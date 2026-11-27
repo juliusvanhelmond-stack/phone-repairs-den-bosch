@@ -28,26 +28,6 @@
       "image": {}
     },
     {
-      "heading": "Direct leverbaar",
-      "intro": [
-        "Het aanbod wisselt steeds. Bel, App of mail ons om te horen welke toestellen er op dit moment beschikbaar zijn. Doorgaans kunnen we altijd met 1-2 dagen leveren. Ben je op zoek naar een ander toestel? Vraag het ons en we kijken in ons uitgebreide netwerk of we de gewenste telefoon kunnen leveren."
-      ],
-      "bullets": [],
-      "steps": [],
-      "prices": [
-        {
-          "label": "Google Pixel 9 Pro Fold 256GB zwart (A-grade) batterij 97%",
-          "price": "€595"
-        },
-        {
-          "label": "Samsung Z Fold 8 256GB zwart (A-grade) batterij 100%",
-          "price": "€1450"
-        }
-      ],
-      "body": [],
-      "image": {}
-    },
-    {
       "heading": "Levertijd 1-2 werkdagen",
       "intro": [],
       "bullets": [],
@@ -84,6 +64,26 @@
         {
           "label": "iPhone 14 128GB",
           "price": "€465"
+        }
+      ],
+      "body": [],
+      "image": {}
+    },
+    {
+      "heading": "Direct leverbaar",
+      "intro": [
+        "Het aanbod wisselt steeds. Bel, App of mail ons om te horen welke toestellen er op dit moment beschikbaar zijn. Doorgaans kunnen we altijd met 1-2 dagen leveren. Ben je op zoek naar een ander toestel? Vraag het ons en we kijken in ons uitgebreide netwerk of we de gewenste telefoon kunnen leveren."
+      ],
+      "bullets": [],
+      "steps": [],
+      "prices": [
+        {
+          "label": "Google Pixel 9 Pro Fold 256GB zwart (A-grade) batterij 97%",
+          "price": "€595"
+        },
+        {
+          "label": "Samsung Z Fold 8 256GB zwart (A-grade) batterij 100%",
+          "price": "€1450"
         }
       ],
       "body": [],
