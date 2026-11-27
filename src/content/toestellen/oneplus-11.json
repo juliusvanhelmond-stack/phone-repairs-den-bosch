@@ -6,7 +6,7 @@
   "order": 24700,
   "releaseYear": "2023",
   "art": "phone-punch-hole",
-  "photo": "/images/toestellen/one-plus-11/photo.jpg",
+  "photo": "/images/toestellen/oneplus-11/photo.jpg",
   "popular": false,
   "aliases": [
     "OnePlus 11",
@@ -23,7 +23,7 @@
     },
     {
       "label": "Achterkant incl. cameralenzen vervangen",
-      "price": "€95,-",
+      "price": "€75,-",
       "repairId": "achterkant-vervangen",
       "popular": false,
       "original": true,
